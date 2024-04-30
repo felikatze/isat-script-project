@@ -26,8 +26,8 @@ jobs:
     #  uses: actions/setup-node@v4
     #  with:
     #    node-version: ${{ env.node_version }}
-    - run: npm i
-    - run: npm run build
+    #- run: npm i
+    #- run: npm run build
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v2 # dont use master in production
