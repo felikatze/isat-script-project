@@ -33,6 +33,7 @@ class Header extends HTMLElement {
                           <li><a href="https://felicitations.neocities.org/about.html">About</a></li>
                           <li><a href="https://felicitations.neocities.org/feed.txt">RSS Feed</a></li>
                           <li><a href="https://felicitations.neocities.org/portraits">Dialogue portrait names</a></li>
+                          <li>Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">github</a>!
                           <li>For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr.</a></li>
                         </ul>
                 </aside>
