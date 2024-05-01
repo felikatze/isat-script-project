@@ -1,462 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    
-    <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+        <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+        <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+        <script src="https://felicitations.neocities.org/bars2.js" defer></script>
 
-<script src="https://felicitations.neocities.org/bars2.js" defer></script> 
-
-<style>
-/* all the annotations n gunk are copied from sadgrl lol. except this one duh */
-.head
-  {
-Padding-top: 4px;
-Padding-bottom: 4px;
-}
-
-.vcr
-    {
-    font-family: 'VCR_OSD_MONO';
-}
-
-main {
- max-width: 100%;
- overflow: auto;
-}
-
-@font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
-}
-
-@font-face {
-    font-family: 'CascadiaCode';
-    src: url(/CascadiaCode.ttf);
-}
-
-ul, 
-ul li,
-ol li { 
-  margin-bottom: 10px;
-}
-
-br {
-line-height: 1.2;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-            /* user styles */
-
-            /* styles are what change the color and sizes of stuff on your site. */
-
-            /* these are variables that are being used in the code
-    these tended to confuse some people, so I only kept
-    the images as variables */
-
-            :root {
-                --header-image: url('https://felicitations.neocities.org/header.png');
-                --body-bg-image: url('https://felicitations.neocities.org/background.png');
-
-                /* colors */
-                --content: #43256E;
-            }
-    
-     body {
-                /* you can delete the line below if you'd prefer to not use an image */
-                background-size: 65px;
-                color: white;
-                background-image: var(--body-bg-image);
-                font-family: 'CascadiaCode';
-                max-width: 1200px;
-                margin: auto;
-
-                 }
-
-            * {
-                box-sizing: border-box;
-            }
-
-            /* below this line is CSS for the layout */
-
-            /* the "container" is what wraps your entire website */
-            /* if you want something (like the header) to be Wider than
-    the other elements, you will need to move that div outside
-    of the container */
-            #container {
-                max-width: 1000px;
-                /* this is the width of your layout! */
-                /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
-                margin: 0 auto;
-                /* this centers the entire page */
-                background: black;
-                display: inline;
-            }
-
-            /* the area below is for all links on your page
-    EXCEPT for the navigation */
-            #container a {
-                color: white;
-                font-weight: bold;
-                /* if you want to remove the underline
-      you can add a line below here that says:
-      text-decoration:none; */
-            }
-
-            #header {
-                width: 100%;
-                background-color: #434343;
-                background-repeat: no-repeat;
-                font-family: 'VCR_OSD_MONO' !important;
-                /* header color here! */
-                /* this is only for a background image! */
-                /* if you want to put images IN the header,
-      you can add them directly to the <div id="header"></div> element! */
-      /* Personal note: putting image in header directly means the header height adjusts to image height. BETTER FOR MOBILE.*/
-            }
-
-            /* navigation section!! */
-            #navbar {
-              min-height: 40px;
-                background-color: #434343;
-                /* navbar color */
-                width: 100%;
-            }
-
-            #navbar ul {
-                display: flex;
-                padding: 0;
-                margin: 0;
-                list-style-type: none;
-                justify-content: space-evenly;
-            }
-
-            #navbar li {
-                padding-top: 10px;
-                padding-left:10px;
-            }
-
-            /* navigation links*/
-            #navbar li a {
-                color: white;
-                /* navbar text color */
-                font-weight: 800;
-             
-            }
-
-            /* navigation link when a link is hovered over */
-            #navbar li a:hover {
-                color: white;
-                text-decoration: underline;
-            }
-
-            #flex {
-                display: flex;
-              float: left;
-            }
-
-            /* this colors BOTH sidebars
-    if you want to style them separately,
-    create styles for #leftSidebar and #rightSidebar */
-            aside {
-                background-color: #6d6d6d;
-                width: 200px;
-                padding: 20px;
-                font-size: smaller;
-                /* this makes the sidebar text slightly smaller */
-            }
-
-
-            /* this is the color of the main content area,
-    between the sidebars! */
-            main {
-                background-color: black;
-                flex: 1;
-                padding: 20px;
-                order: 2;
-            }
-
-            /* what's this "order" stuff about??
-    allow me to explain!
-    if you're using both sidebars, the "order" value
-    tells the CSS the order in which to display them.
-    left sidebar is 1, content is 2, and right sidebar is 3! */
-
-            #leftSidebar {
-                order: 1;
-            }
-
-            #mobileSidebar {
-                order: 1;
-            }
-
-            footer {
-                background-color: #434343;
-                /* background color for footer */
-                width: 100%;
-                height: 100px;
-                padding: 10px;
-                text-align: center;
-                /* this centers the footer text */
-            }
-
-            h1,
-            h2,
-            h3, 
-            h4 {
-                color: white;
-                font-family: 'VCR_OSD_MONO' ;
-                
-            }
-
-            strong {
-                /* this styles bold text */
-                color: #ED64F5;
-            }
-
-     
-            /* CSS for extras */
-
-            #topBar {
-                width: 100%;
-                height: 30px;
-                padding: 10px;
-                font-size: smaller;
-                background-color: #13092D;
-            }
-
-
-            /* BELOW THIS POINT IS MEDIA QUERY */
-
-            /* so you wanna change the width of your page?
-    by default, the container width is 900px.
-    in order to keep things responsive, take your new height,
-    and then subtrack it by 100. use this new number as the
-    "max-width" value below
-    */
-
-            @media only screen and (max-width: 1100px) {
-                #flex {
-                    flex-wrap: wrap;
-                }
-
-                aside {
-                    width: 100%
-                }
-
-                #mobileSidebar {
-                    display: none;
-                }
-
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-                main {
-                    order: 1;
-                }
-
-                #leftSidebar {
-                    order: 2;
-                }
-
-                #mobileSidebar {
-                    order: 3;
-                }
-
-                #navbar ul {
-                    flex-wrap: wrap;
-                }
-            }
-
-@media only screen and (max-width: 800px) {
-  
-  #flex {
-                    flex-wrap: wrap;
-                }
-/* begone sidebar on mobile divices. dont make people look at my advertising.*/
-                #leftSidebar {
-                    display: none;
-                }
-
-                #mobileSidebar {
-                    width: 100%;
-                }
-
-
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-                main {
-                    order: 1;
-                }
-
-                #leftSidebar {
-                    order: 2;
-                }
-
-                #mobileSidebar {
-                    order: 3;
-                }
-
-                #navbar ul {
-                    flex-wrap: wrap;
-                }
-                
-            }
-
-.button {
-  background-color: white;
-  border: 2px #434343;
-  color: white;
-  padding: 7px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-</style>
-
-
-</head>
-
+    </head>
 <body>
 
 <div id="container">
-
-<div id="headerArea">
-                  <div id="header"><img src="https://felicitations.neocities.org/header.png" alt=""></div>
-                  
-              <nav id="navbar">
-                <ul class="vcr">
-                  <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
-                  <li><a href="https://felicitations.neocities.org/index.html">Home</a></li>
-                  <li><a href="https://felicitations.neocities.org/overview/acts.html">Story Events</a></li>
-                  <li><a href="https://felicitations.neocities.org/overview/rooms.html">Room Dialogues</a></li>
-                  <li><a href="https://felicitations.neocities.org/overview/events.html">Special Events</a></li>
-                  <li><a href="https://felicitations.neocities.org/overview/random">Random Events</a></li>
-                  <li><a href="https://felicitations.neocities.org/thanks">Special Thanks</a></li>
-                  <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
+    <div id="headerArea">
+        <div id="header"><img src="https://felicitations.neocities.org/header.png" alt=""></div>
+                    
+        <nav id="navbar">
+            <ul class="vcr">
+                <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
+                <li><a href="https://felicitations.neocities.org/index.html">Home</a></li>
+                <li><a href="https://felicitations.neocities.org/overview/acts.html">Story Events</a></li>
+                <li><a href="https://felicitations.neocities.org/overview/rooms.html">Room Dialogues</a></li>
+                <li><a href="https://felicitations.neocities.org/overview/events.html">Special Events</a></li>
+                <li><a href="https://felicitations.neocities.org/overview/random">Random Events</a></li>
+                <li><a href="https://felicitations.neocities.org/thanks">Special Thanks</a></li>
+                <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
+            </ul>
+        </nav>
+                    
+        <div id="flex">
+            <aside id="mobileSidebar">
+                <h2>Font Changers</h2>
+                <button onclick="changeFontStyle(null)">Change to Default</button>
+                <button onclick="changeFontStyle('VCR_OSD_MONO')">Change to ISAT's font</button>
+                <button onclick="changeFontStyle('OpenDyslexic3')">Change to OpenDyslexic3</button>
+                <ul>
+                    <li><a href="https://store.steampowered.com/app/1677310/In_Stars_And_Time/">Game Steam page</a></li>
+                    <li><a href="https://instarsandtime.wiki.gg">ISATwiki</a></li>
+                    <li><a href="https://isat-script-project.tumblr.com/">Project Tumblr</a></li>
                 </ul>
-                </nav>
-                
-                 <div id="flex">
-                <aside id="mobileSidebar">
-                    <h2>Font Changers</h2>
-                    <button onclick="changeFontStyle(null)">Change to Default</button>
-<button onclick="changeFontStyle('VCR_OSD_MONO')">Change to ISAT's font</button>
-<button onclick="changeFontStyle('OpenDyslexic3')">Change to OpenDyslexic3</button>
-<ul>
-    <li><a href="https://store.steampowered.com/app/1677310/In_Stars_And_Time/">Game Steam page</a></li>
-    <li><a href="https://instarsandtime.wiki.gg">ISATwiki</a></li>
-    <li><a href="https://isat-script-project.tumblr.com/">Project Tumblr</a></li>
-</ul>
-                </aside>
-                </div>
+            </aside>
+        </div>
 
-</div>
-<main>
-
-<h1>If you're looking at this, you shouldn't be!</h1>
-
-<p>testing testing the neocities whatever</p>
-
-<h1>IF YOU'RE SEEING THIS, SHIT WORKS!!!!!!!!!!!!!</h1>
-
-<p>hihelo the gold has appeared</p>
-
-<h1>The Font Changerrrrrr</h1>
-
-<button onclick="changeFontStyle(null)">Change to Default</button>
-<button onclick="changeFontStyle('VCR_OSD_MONO')">Change to ISAT's font</button>
-<button onclick="changeFontStyle('OpenDyslexic3')">Change to OpenDyslexic3</button>
-
-<br>
-<p>This is a test of that whole branch kerfluffle yahoo. Wait can't i just. Yeah.</p>
-
-
-<a href="https://felicitations.neocities.org/feed.txt">Look at this fuckin thang.</a>
-
-<p>Rise from a thousand years ago.</p>
-<p>Shaking off a hazy dream.</p>
-<p>Meet the flower who cares for everyone.</p>
-<p>The rising force of blackened steel.</p>
-<p>Fighting in the desert sand.</p>
-<p>Meet the snow that sweeps across the field.</p>
-<p>The light and dark restore our skies tonight,</p>
-<p>heal our wounds and learn from yesterday.</p>
-<p>You calling out their names.</p>
-<p>Crossing paths again.</p>
-<p>Twelve are coming through.</p>
-<p>Bright stars from another place, do you remember me?</p>
-<p>Memories of red and blue</p>
-<p>Reigniting you.</p>
-<p>Bare your fangs and roar.</p>
-<p>Free us all forever more here and now.</p>
-<p>Emblem Engage!</p>
-<p>Bonds of fire connect us.</p>
-<p>Love provides, protects us.</p>
-<p>Like the heroes from the pages.</p>
-<p>Like the stories of the ages.</p>
-<p>Bonds of hope unite us.</p>
-<p>Shining on to guide us.</p>
-<p>Skies above embrace the beauty.</p>
-<p>The time is now for you and me.</p>
-<p>Love has led us to a new today.</p>
-<p>Scars of pain can only fade away.</p>
-<p>Healing winds are blowing through.</p>
-<p>Knight of shadows cast reminding us</p>
-<p>Of heroes seen in dreams of past again.</p>
-<p>Advise us with wise counsel and acumen.</p>
-<p>Seven are slumbering.</p>
-<p>Flames are flickering.</p>
-<p>In this ruined world.</p>
-<p>A promise to uphold, will you remember me?</p>
-<p>Under the shrouded moon,</p>
-<p>Silver gleams anew.</p>
-<p>Clouds are soaring high.</p>
-<p>Summon winds across the sky, heed our call!</p>
-<p>Emblem Eternal...</p>
-<p>Bonds of love, embolden</p>
-<p>When the Emblems have woken.</p>
-<p>Like our faces in the mirror,</p>
-<p>Twin reflections growing clearer.</p>
-<p>Bonds of light to lead us.</p>
-<p>A new dawn to greet us.</p>
-<p>Dragonstone as red as ruby.</p>
-<p>You and I for all eternity.</p>
-<p>Fighting beside you is the greatest honor I've ever known.
-<p>Standing together so we never have to battle alone,</p>
-<p>As we did that day of reckoning.</p>
-<p>You calling out their names.</p>
-<p>Crossing paths again.</p>
-<p>Twelve are coming through.</p>
-<p>Bright stars from another place, do you remember me?</p>
-<p>Memories of red and blue</p>
-<p>Reigniting you</p>
-<p>Bare your fangs and roar</p>
-<p>Free us all forever more, here and now.</p>
-<p>Emblem Engage!</p>
-<p>Bonds of fire connect us.</p>
-<p>Love provides, protects us.</p>
-<p>Like the wisdom of the sages.</p>
-<p>Like the emblems of the ages.</p>
-<p>Bonds of hope unite us.</p>
-<p>Shining on to guide us.</p>
-<p>Skies beyond embrace the beauty.</p>
-<p>The time is now for you and me.</p>
-<p>Woven in to all our memories,</p>
-<p>The Fire Emblem burns eternally.</p>
+    </div>
+    <main>
+        <h1>If you're looking at this, you shouldn't be!</h1>
+        <p>testing testing the neocities whatever</p>
+        <h1>IF YOU'RE SEEING THIS, SHIT WORKS!!!!!!!!!!!!!</h1>
+        <p>hihelo the gold has appeared</p>
+        <h1>The Font Changerrrrrr</h1>
+        <button onclick="changeFontStyle(null)">Change to Default</button>
+        <button onclick="changeFontStyle('VCR_OSD_MONO')">Change to ISAT's font</button>
+        <button onclick="changeFontStyle('OpenDyslexic3')">Change to OpenDyslexic3</button>
+        <br>
+        <p>This is a test of that whole branch kerfluffle yahoo. Wait can't i just. Yeah.</p>
+        <br>
+        <a href="https://felicitations.neocities.org/feed.txt">Look at this fuckin thang.</a>
 </main>
 
 <footer id="footer">The script is free to use even without attribution to me. <b>In Stars and Time</b> belongs to insertdisc5.</footer>

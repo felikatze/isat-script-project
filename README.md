@@ -1,8 +1,8 @@
 # isat-script-project
 
-Hi! Welcome to the isat script project, wherein I'm trying to make a full script of the video game In Stars and Time!
+Hi! Welcome to the isat script project, wherein I'm trying to make a full script of the video game [In Stars and Time](https://instarsandtime.com)!
 
-This github account serves to allow collaboration on the neocities page (felicitations.neocities.org). It was set up with extensive help from goldstarglowww. 
+This github account serves to allow collaboration on the [neocities page]((https://felicitations.neocities.org)). It was set up with extensive help from [goldstarglowww](https://github.com/goldstargloww). 
 
 Changes made to the main branch will automatically reflect to the neocities page!
 

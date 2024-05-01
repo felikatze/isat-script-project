@@ -1,4 +1,32 @@
 /* all the annotations n gunk are copied from sadgrl lol. except this one duh */
+/*  ↑ before github */
+
+/* 
+ * user styles
+ * styles are what change the color and sizes of stuff on your site. these are
+ * variables that are being used in the code. these tended to confuse some
+ * people, so I only kept the images as variables
+ *
+ * goldstargloww:
+ * many things here are variables in order to allow for lots of flexibility,
+ * both when it comes to those using userstyles, and for updating the site
+ * in the future
+ */
+
+:root {
+    --header-image: url('https://felicitations.neocities.org/header.png');
+    --body-bg-image: url('https://felicitations.neocities.org/background.png');
+
+    /* colors */
+    --content: #43256E;
+    --white: #FFF;
+    --light-gray: #6D6D6D;
+    --gray: #434343;
+    --black: #000;
+}
+
+
+/** fonts ******************************************************************* */
 
 @font-face {
   font-family: 'VCR_OSD_MONO';
@@ -15,13 +43,19 @@
     src: url(/OpenDyslexic3-Regular.ttf);
 }
 
-.head {
-    padding-top: 4px;
-    padding-bottom: 4px;
+/** the other stuff ********************************************************* */
+
+* {
+    box-sizing: border-box;
 }
 
-.vcr {
-    font-family: 'VCR_OSD_MONO';
+body {
+    background-size: 65px; /* the size of the background image. delete this line to size natively */
+    color: var(--white);
+    background-image: var(--body-bg-image);
+    font-family: 'CascadiaCode';
+    max-width: 1200px;
+    margin: auto;
 }
 
 main {
@@ -29,10 +63,18 @@ main {
     overflow: auto;
 }
 
+.head {
+    padding: 0.25em 0;
+}
+
+.vcr {
+    font-family: 'VCR_OSD_MONO';
+}
+
 ul, 
 ul li,
 ol li { 
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 br {
@@ -45,49 +87,18 @@ img {
 }
 
 button {
-    background-color: white;
-    border: 2px #434343;
-    color: black;
-    padding: 7px 16px;
+    background-color: var(--white);
+    border: 0.125em var(--gray);
+    color: var(--black);
+    padding: 0.5em 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
     cursor: pointer;
 }
 
-
-
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- */
-
-:root {
-    --header-image: url('https://felicitations.neocities.org/header.png');
-    --body-bg-image: url('https://felicitations.neocities.org/background.png');
-
-    /* colors */
-    --content: #43256E;
-}
-    
-body {
-    /* (gold: what does this ↓ mean? does it mean just the background-size: 65px;?) */
-    /* you can delete the line below if you'd prefer to not use an image */
-    background-size: 65px;
-    color: white;
-    background-image: var(--body-bg-image);
-    font-family: 'CascadiaCode';
-    max-width: 1200px;
-    margin: auto;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 /* 
  * below this line is CSS for the layout
@@ -107,13 +118,13 @@ body {
 
     margin: 0 auto; /* centers entire page */
 
-    background: black;
+    background: var(--black);
     display: inline;
 }
 
 /* the area below is for all links on your page EXCEPT for the navigation */
 #container a {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     /* if you want to remove the underline you can uncomment this: */
     /* text-decoration: none; */
@@ -127,7 +138,7 @@ body {
      */
 
     width: 100%;
-    background-color: #434343;
+    background-color: var(--gray);
     background-repeat: no-repeat;
     font-family: 'VCR_OSD_MONO' !important;
 
@@ -140,9 +151,9 @@ body {
 
 /* navigation section!! */
 #navbar {
-    min-height: 40px;
+    min-height: 2.5em;
     width: 100%;
-    background-color: #434343; /* navbar color */
+    background-color: var(--gray); /* navbar color */
 }
 
 #navbar ul {
@@ -154,18 +165,18 @@ body {
 }
 
 #navbar li {
-    padding: 10px 0 0 10px;
+    padding: 0.625em 0 0 0.625em;
 }
 
 /* navigation links*/
 #navbar li a {
-    color: white; /* navbar text color */
+    color: var(--white); /* navbar text color */
     font-weight: 800;
 }
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 
@@ -179,18 +190,18 @@ body {
  * create styles for #leftSidebar and #rightSidebar
  */
 aside {
-    background-color: #6d6d6d;
-    width: 200px;
-    padding: 20px;
+    background-color: var(--light-gray);
+    width: 12.5em;
+    padding: 1.25;
     font-size: smaller; /* makes sidebar text slightly smaller */
 }
 
 
 /* this is the main content area, between the sidebars */
 main {
-    background-color: black;
+    background-color: var(--black);
     flex: 1;
-    padding: 20px;
+    padding: 1.25;
     order: 2;
 }
 
@@ -211,10 +222,10 @@ main {
 }
 
 footer {
-    background-color: #434343;
+    background-color: var(--gray);
     width: 100%;
     height: 100px;
-    padding: 10px;
+    padding: 0.625em;
     text-align: center;
 }
 
@@ -222,7 +233,7 @@ h1,
 h2,
 h3, 
 h4 {
-    color: white;
+    color: var(--white);
     font-family: 'VCR_OSD_MONO' ;
     
 }
@@ -236,28 +247,24 @@ strong {
 
 #topBar {
     width: 100%;
-    height: 30px;
-    padding: 10px;
+    height: 1.875em;
+    padding: 0.625em;
     font-size: smaller;
     background-color: #13092D;
 }
 
 
-/** MEDIA QUERY ************************************************************* */
+/** media query ************************************************************* */
 
 /*
  * so you wanna change the width of your page? by default, the container width
  * is 900px. in order to keep things responsive, take your new height, and then
  * subtrack it by 100. use this new number as the "max-width" value below
  */
-
+  
 @media only screen and (max-width: 1100px) {
     #flex {
         flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%
     }
 
     /*
@@ -269,21 +276,14 @@ strong {
     main {
         order: 1;
     }
-
     #leftSidebar {
         order: 2;
     }
-
-    #mobileSidebar {
-        order: 3;
-        display: none;
-    }
-
     #navbar ul {
         flex-wrap: wrap;
     }
 }
-
+  
 @media only screen and (max-width: 800px) {
     aside {
         width: 100%;
@@ -303,9 +303,8 @@ strong {
     }
     #leftSidebar {
         order: 2;
-        display: none;
     }
-    #mobileSidebar {
+    #rightSidebar {
         order: 3;
     }
     #navbar ul {
