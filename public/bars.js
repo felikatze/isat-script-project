@@ -6,23 +6,25 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
             `<div id="headerArea">
-                <div id="header"><img src="https://felicitations.neocities.org/header.png" alt=""></div>
+                <div id="header"><img src="/header.png" alt=""></div>
                   
                 <nav id="navbar">
                     <ul class="vcr">
-                        <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
-                        <li><a href="https://felicitations.neocities.org/index.html">Home</a></li>
-                        <li><a href="https://felicitations.neocities.org/overview/events.html">Special Events</a></li>
-                        <li><a href="https://felicitations.neocities.org/overview/acts.html">Story Events</a></li>
-                        <li><a href="https://felicitations.neocities.org/overview/random">Random Events</a></li>
-                        <li><a href="https://felicitations.neocities.org/overview/rooms.html">Room Dialogues</a></li>
-                        <li><a href="https://felicitations.neocities.org/thanks">Special Thanks</a></li>
-                        <li><img src="https://felicitations.neocities.org/Craft.png" alt="" width="32" class="head"></li>
+                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/overview/events.html">Special Events</a></li>
+                        <li><a href="/overview/acts.html">Story Events</a></li>
+                        <li><a href="/overview/random">Random Events</a></li>
+                        <li><a href="/overview/rooms.html">Room Dialogues</a></li>
+                        <li><a href="/thanks">Special Thanks</a></li>
+                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                     </ul>
                 </nav>
 
                 <div id="flex">
                     <aside id="leftSidebar">
+                        <button onclick="toggleExpressions();">Toggle Expressions</button>
+
                         <h2>Font Changers</h2>
                         <button onclick="changeFontStyle(null)">Default</button>
                         <button onclick="changeFontStyle('VCR_OSD_MONO')">ISAT Font</button>
@@ -30,9 +32,9 @@ class Header extends HTMLElement {
 
                         <h2>The ISAT script</h2>
                         <ul>
-                            <li><a href="https://felicitations.neocities.org/about.html">About</a></li>
-                            <li><a href="https://felicitations.neocities.org/feed.txt">RSS Feed</a></li>
-                            <li><a href="https://felicitations.neocities.org/portraits">Dialogue portrait names</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/feed.txt">RSS Feed</a></li>
+                            <li><a href="/portraits">Dialogue portrait names</a></li>
                             <li>Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">github</a>!
                             <li>For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr.</a></li>
                         </ul>
@@ -86,10 +88,41 @@ function changeFontStyle(fontFamily) {
     elements.forEach(element => change(element));
 }
 
+// gold's expressions toggle code
+function toggleExpressions() {
+    var x = document.getElementsByClassName("dialogue-expression");
+    var expressionsOff
+
+    for(var i = 0; i < x.length; i++) {
+        if (x[i].style.display === "none") {
+            x[i].style.display = "inline-flex";
+            var expressionsOff = false;
+            console.log("expressions on!");
+        } else {
+            x[i].style.display = "none";
+            var expressionsOff = true;
+            console.log("expressions off!");
+        }
+    }
+    sessionStorage.setItem("expressionsToggle", expressionsOff)
+}
+// end gold's expressions toggle code
+
+
 // load correct font if it had been set previously
 window.onload = function() {
+
     var font = sessionStorage.getItem('font');
     if(!!font) {
         changeFontStyle(font);
     }
+
+    // gold's expressions toggle code
+    if(sessionStorage.getItem("expressionsToggle") == true) {
+        toggleExpressions();
+        console.log("toggled expressions on load!");
+    } else {
+        console.log("expressions stayed the same on load!");
+    }
+    // end gold's expressions toggle code
 }
