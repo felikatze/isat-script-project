@@ -134,6 +134,9 @@ body {
     margin: 0.5em;
     opacity: 0.5;
 }
+.big {
+    font-size: bigger;
+}
 
 
 
@@ -179,7 +182,6 @@ body {
 
     width: 100%;
     background-color: #434343;
-    background-repeat: no-repeat;
     font-family: 'VCR_OSD_MONO' !important;
 
     /*
@@ -187,6 +189,13 @@ body {
      * putting image in header directly means the header height adjusts to
      * image height. BETTER FOR MOBILE.
      */
+}
+
+#headerArea {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* navigation section!! */
@@ -223,6 +232,7 @@ body {
 #flex {
     display: flex;
     float: left;
+    height: 100%;
 }
 
 /* 
@@ -255,6 +265,7 @@ main {
 
 #leftSidebar {
     order: 1;
+    height: 100%;
 }
 
 #rightSidebar {
