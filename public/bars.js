@@ -90,17 +90,17 @@ function changeFontStyle(fontFamily) {
 
 // gold's expressions toggle code
 function toggleExpressions() {
-    var x = document.getElementsByClassName("dialogue-expression");
-    var expressionsOff
+    var things = document.getElementsByClassName("dialogue-expression");
+    var expressionsOff;
 
-    for(var i = 0; i < x.length; i++) {
-        if (x[i].style.display === "none") {
-            x[i].style.display = "inline-flex";
-            var expressionsOff = false;
+    for(var i = 0; i < things.length; i++) {
+        if (things[i].style.display === "none") {
+            things[i].style.display = "inline-flex";
+            expressionsOff = false;
             console.log("expressions on!");
         } else {
-            x[i].style.display = "none";
-            var expressionsOff = true;
+            things[i].style.display = "none";
+            expressionsOff = true;
             console.log("expressions off!");
         }
     }
