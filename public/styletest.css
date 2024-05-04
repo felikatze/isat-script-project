@@ -57,6 +57,11 @@ button {
     cursor: pointer;
 }
 
+hr {
+    border: 1px white solid;
+    margin: 2em 1em;
+}
+
 
 
 /* 
@@ -67,17 +72,14 @@ button {
  */
 
 :root {
-    --header-image: url('https://felicitations.neocities.org/header.png');
-    --body-bg-image: url('https://felicitations.neocities.org/background.png');
+    --header-image: url('/header.png');
+    --body-bg-image: url('/background.png');
 
     /* colors */
     --content: #43256E;
 }
     
 body {
-    /* (gold: what does this ↓ mean? does it mean just the background-size: 65px;?) */
-    /* you can delete the line below if you'd prefer to not use an image */
-    background-size: 65px;
     color: white;
     background-image: var(--body-bg-image);
     font-family: 'CascadiaCode';
@@ -88,6 +90,65 @@ body {
 * {
     box-sizing: border-box;
 }
+
+
+/* dialogue ***************************************************************** */
+
+
+
+.dialogue {
+    font-family: 'VCR_OSD_MONO';
+    font-size: 22px;
+	border: 13px solid transparent;
+    border-image: url("/border.png") 14 round;
+}
+.dialogue-option {
+    margin: 0.5em;
+    padding: 0.5em;
+	border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+}
+.dialogue-option::marker { /* why won't the marker DIE */
+    display: none;
+    opacity: 0.0;
+}
+.dialogue-line {
+    display: block;
+    margin: 0.5em;
+}
+.dialogue-name {
+    font-weight: bold;
+    display: inline-flex;
+}
+.dialogue-expression {
+    display: inline-flex;
+    font-size: smaller;
+    opacity: 0.75;
+}
+.dialogue-expression::before {
+    content: "\00a0";
+}
+.dialogue-head {
+    display: inline-flex;
+}
+.dialogue-head::after {
+    content: ":";
+}
+.dialogue-note {
+    display: block;
+    margin: 0.5em;
+    opacity: 0.5;
+}
+.big {
+    font-size: bigger;
+}
+.indented {
+    margin-left: 2em;
+}
+
+
+
+
 
 /* 
  * below this line is CSS for the layout
@@ -128,7 +189,6 @@ body {
 
     width: 100%;
     background-color: #434343;
-    background-repeat: no-repeat;
     font-family: 'VCR_OSD_MONO' !important;
 
     /*
@@ -136,6 +196,13 @@ body {
      * putting image in header directly means the header height adjusts to
      * image height. BETTER FOR MOBILE.
      */
+}
+
+#headerArea {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* navigation section!! */
@@ -172,6 +239,7 @@ body {
 #flex {
     display: flex;
     float: left;
+    height: 100%;
 }
 
 /* 
@@ -204,6 +272,7 @@ main {
 
 #leftSidebar {
     order: 1;
+    height: 100%;
 }
 
 #rightSidebar {
