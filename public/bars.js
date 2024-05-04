@@ -27,7 +27,7 @@ class Header extends HTMLElement {
 
                         <h2>Font Changers</h2>
                         <button onclick="changeFontStyle(null)">Default</button>
-                        <button onclick="changeFontStyle('VCR_OSD_MONO')"><abbr title="In Stars and Time">ISAT</abbr> Font</button>
+                        <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
                         <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
 
                         <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
