@@ -1,777 +1,1685 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meadow</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meadow</title>
+        <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+        <script src="/bars.js" defer></script>
+    </head>
 
-    <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+    <body>
 
-    <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+        <div id="container">
 
-<script src="https://felicitations.neocities.org/bars.js" defer></script> 
+            <head-er></head-er>
 
-</head>
+            <main>
 
-<body>
+                <h1>Meadow</h1>
 
-<div id="container">
+                    <p>
+                        All events that take place in Dormont's meadow, including story events, the game's intro, and naps. Does <b>not</b> include regular dialogue for looping back. Find that here (WIP, add link later~)
+                    </p>
+                    <p>
+                        <b>Source:</b> Map002 (Meadow)
+                    </p>
 
-<head-er></head-er>
+                <hr>
 
-<main>
-<h1>Meadow</h1>
-<p><i>All events that take place in Dormont's meadow, including story events, the game's intro, and naps. Does <b>not</b> include regular dialogue for looping back. Find that here (<abbr title="work in progress">WIP</abbr>, add link later~)</i></p>
-<p><b>Source:</b> Map002 (Meadow)</p>
+                <h1>Index</h1>
 
-<br>
+                    <ul>
+                        <li><a href="#naps">Naps</a></li>
+                        <li><a href="#act1">ACT 1 Intro</a></li>
+                        <li><a href="#act2">ACT 2 Intro</a></li>
+                        <li><a href="#act3">ACT 3 Intro</a></li>
+                        <li><a href="#act34">ACT 3-4</a>
+                            <ul>
+                                <li><a href="#hhm">Head Housemaiden Quest</a></li>
+                                <li><a href="#friendquest">Friendquest</a></li>
+                                <li><a href="#kingquest">Kingquest</a></li>
+                                <li><a href="#loopquest">Loopquest</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#act5">ACT 5 Intro</a></li>
+                    </ul>
 
-<h1>Index</h1>
+                <hr>
 
-<ul>
-    <li><a href="#naps">Naps</a></li>
-    <li><a href="#act1">ACT 1 Intro</a></li>
-    <li><a href="#act2">ACT 2 Intro</a></li>
-    <li><a href="#act3">ACT 3 Intro</a></li>
-    <li><a href="#act34">ACT 3-4</a>
-        <ul>
-            <li><a href="#hhm">Head Housemaiden Quest</a></li>
-            <li><a href="#friendquest">Friendquest</a></li>
-            <li><a href="#kingquest">Kingquest</a></li>
-            <li><a href="#loopquest">Loopquest</a></li>
-        </ul>
-    </li>
-    <li><a href="#act5">ACT 5 Intro</a></li>
-</ul>
+                <h1 id="naps">Naps</h1>
+                    <p>When interacting with the center of the meadow, you can take a little nap once per loop!</p>
+                    <br>
 
-
-<h1 id="naps">Naps</h1>
-<p><i>When interacting with the center of the meadow, you can take a little nap once per loop!</i></p>
-
-<br>
-
-<h3>ACT 1</h3>
-<p><i>(You can sleep at the Clocktower.)</i></p>
+                    <h3>ACT 1</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (You can sleep at the Clocktower.)
+                            </p>
+                        </div>
+                    <br>
 
 
-<h3>First Nap</h3>
-<p><i>(You shouldn't fall asleep, or Mirabelle will come and wake you up again.)</i></p>
+                    <h3>First Nap</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (You shouldn't fall asleep, or Mirabelle will come and wake you up again.)
+                            </p>
+                        </div>
+                    <br>
 
-<br>
+                    <h3>Second Nap</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (You're comfy and sleepy, but...)
+                            </p>
+                            <p class="dialogue-line">
+                                (You should get up before someone comes to bother you.)
+                            </p>
+                        </div>
+                    <br>
 
-<h3>Second Nap</h3>
-<p><i>(You're comfy and sleepy, but...)</i></p>
-<p><i>(You should get up before someone comes to bother you.)</i></p>
+                    <h3>Third Nap</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (The sun is making you sleepy.)
+                            </p>
+                            <p class="dialogue-line">
+                                (Wake up!)
+                            </p>
+                        </div>
+                    <br>
 
-<br>
+                    <h3>Fourth nap onwards</h3>
 
-<h3>Third Nap</h3>
-<p><i>(The sun is making you sleepy.)</i></p>
-<p><i>(Wake up!)</i></p>
+                        <h4>ACT 2</h4>
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (Wake up, you have things to do!)
+                                </p>
+                            </div>
+                        <br>
 
-<br>
 
-<h3>Fourth nap onwards</h3>
+                        <h4>ACT 3</h4>
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (You wish you could sleep here a while.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (But you're on a schedule.)
+                                </p>
+                            </div>
+                        <br>
 
-<h4>ACT 2</h4>
-<p><i>(Wake up, you have things to do!)</i></p>
 
-<br>
+                        <h4>ACT 4</h4>
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (You're so exhausted lately.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You wish you could sleep forever.)
+                                </p>
+                            </div>
+                        <br>
 
-<h4>ACT 3</h4>
-<p><i>(You wish you could sleep here a while.)</i></p>
-<p><i>(But you're on a schedule.)</i></p>
 
-<br>
+                    <h3>Trying to nap in ACT 5</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (Sleeping, in the middle of a play?)
+                            </p>
+                        </div>
+                    <br>
 
-<h4>ACT 4</h4>
-<p><i>(You're so exhausted lately.)</i></p>
-<p><i>(You wish you could sleep forever.)</i></p>
 
-<br>
+                    <h3>Trying to nap for a second time in a loop</h3>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (No time for a nap.)
+                            </p>
+                        </div>
+                    <br>
+                        
 
-<h3>Trying to nap in ACT 5</h3>
-<p><i>(Sleeping, in the middle of a play?)</i></p>
+                <hr>
 
-<br>
+                <h1 id="act1">ACT 1 Intro</h1>
+                    <p>
+                        This is the very exact start of the game!
+                    </p>
+                    <p>
+                        Due to the huge amount of images with no text, they'll just be described instead of shown.
+                    </p>
 
-<h3>Trying to nap for a second time in a loop</h3>
-<p><i>(No time for a nap.)</i></p>
+                    <br>
 
-<h1 id="act1">ACT 1 Intro</h1>
-<p><i>This is the very exact start of the game!</i></p>
-<p><i>Due to the huge amount of images with no text, they'll just be described instead of shown.</i></p>
+                    <h4>If you've beaten the game before</h4>
+                        <div class="dialogue indented">
+                            <p class="dialogue-line">
+                                [YOU HAVE SEEN THE END OF THIS PLAY BEFORE.]
+                            </p>
+                            <p class="dialogue-line">
+                                [AS THANKS FOR SEEING THIS PLAY THROUGH, FAST FORWARD HAS BEEN UNLOCKED FOR ALL EVENTS THAT CAN BE SKIPPED.]
+                            </p>
+                            <p class="dialogue-line">
+                                [HOWEVER, IF YOU DON'T WANT THIS BOON, YOU CAN TURN IT OFF IN THE OPTIONS WHENEVER YOU'D LIKE.]
+                            </p>
+                            <p class="dialogue-line">
+                                [PLEASE ENJOY THIS TALE ONCE MORE.<br>
+                                I know I will! o(*°▽°*)o.]
+                            </p>
+                        </div>
 
-<br>
+                    <br>
 
-<h4>If you've beaten the game before:</h4>
+                    <div class="dialogue">
+                        <p class="dialogue-note">
+                            A sequence of images plays out.<br>
+                            Siffrin gazes upward. Though tears run down their cheek, his expression is neutral. Stars swirl in circles behind them.<br>
+                            A star, bigger than all the others, shines down from above.<br>
+                            The star falls into Siffrin's reaching hands.<br>
+                            He brings the star to his mouth and bites down.
+                        </p>
+                        <br>  
+                        <p class="dialogue-note">
+                            Siffrin snaps awake in a meadow. He's lying down in the grass.<br>
+                            They simply stare at the sky for a long, quiet moment. They close their eye.
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-name">Mirabelle</span>:
+                            "--frin!"
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-name">Mirabelle</span>:
+                            "Siffrin!"
+                        </p>
+                        <p class="dialogue-note">
+                            A shadow is cast on Siffrin.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-name">Mirabelle</span>:
+                            "...Siffrin?"
+                        </p>
+                        <br>
+                        <p class="dialogue-note">
+                            Siffrin opens their eye, obviously bleary.
+                        </p>
+                        <p class="dialogue-note">
+                            Mirabelle smiles down at them. From Siffrin's perspective, she's upside down.
+                        </p>
+                        
+                        <br>
 
-<p>[YOU HAVE SEEN THE END OF THIS PLAY BEFORE.]</p>
-<p>[AS THANKS FOR SEEING THIS PLAY THROUGH, FAST FORWARD HAS BEEN UNLOCKED FOR ALL EVENTS THAT CAN BE SKIPPED.]</p>
-<p>[HOWEVER, IF YOU DON'T WANT THIS BOON, YOU CAN TURN IT OFF IN THE OPTIONS WHENEVER YOU'D LIKE.]</p>
-<p>[PLEASE ENJOY THIS TALE ONCE MORE. I know I will! o(*°▽°*)o.]</p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            Good morning!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward1)</span>
+                            </span>
+                            Well, more like, good afternoon, I guess...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            Were you taking a nap?  That's just like you... Only you could sleep peacefully at a time like this, hehe!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            I guess that's smart... We better get some rest while we can! We have to be ready for tomorrow...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            So we can finally face against the King!
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You're too sleepy to talk.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Sleep's sweet embrace calls for you...)
+                        </p>
+                        <p class="dialogue-line">
+                            (You close your eyes again.)
+                        </p>
+                        
+                        <br>
 
-<br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward1b)</span>
+                            </span>
+                            ...You're still half asleep, aren't you?
+                        </p>
+                        <p class="dialogue-line">
+                            (You make a grumbling sound.)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(hm2)</span>
+                            </span>
+                            Hm... Okay, then...
+                        </p>
+                        <p class="dialogue-note">
+                            Mirabelle heads north out of frame.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(stressed1)</span>
+                            </span>
+                            You can sleep for a little longer, but not too long! Come to the village when you're ready, okay?
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You yawn so hard your jaw cracks.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You were having such a nice rest too...)
+                        </p>
+                        
+                        <br>
 
-<p><i>A sequence of images plays out.</i></p>
-<p><i>Siffrin gazes upward. Though tears run down their cheek, his expression is neutral. Stars swirl in circles behind them.</i></p>
-<p><i>A star, bigger than all the others, shines down from above.</i></p>
-<p><i>The star falls into Siffrin's reaching hands.</i></p>
-<p><i>He brings the star to his mouth and bites down.</i></p>
+                        <p class="dialogue-line">
+                            (Urgh.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You can't spend the rest of the day sleeping. That would be a waste.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You force yourself to get up.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Wake up Siffrin. You have a country to save.)
+                        </p>
+                        <p class="dialogue-note">
+                            Siffrin jumps into standing position.
+                        </p>
 
-<br>
+                        <br>
+                        <br>
+                        <p class="dialogue-note">
+                            Depends on the device you're on.
+                        </p>
+                        <p class="dialogue-line">
+                            [...]
+                        </p>
+                        <ul>
+                            <li class="dialogue-option">[You can use the arrow keys to move around.]</li>
+                            <li class="dialogue-option">[You can use the Joystick to move around.]</li>
+                            <li class="dialogue-option">[You can use the left stick to move around.]</li>
+                            <li class="dialogue-option">[You can use the Left Stick to move around.]</li>
+                        </ul>
+                    </div>
+
+                <br>
+
+                <h1 id="act2">ACT 2 Intro</h1>
+
+                    <div class="dialogue">
+                        <p class="dialogue-line">
+                            (Huh?)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            --frin!
+                        </p>
+                        <br>
+                        <p class="dialogue-note">
+                            Mirabelle enters the scene from the north, stopping just above Siffrin.
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            Siffrin!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            ...Siffrin?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            Good morning!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward1)</span>
+                            </span>
+                            Well, more like, good afternoon, I guess...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            Were you taking a nap? That's just like you... Only you could sleep peacefully at a time like this, hehe!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            I guess that's smart... We better get some rest while we can! We have to be ready for tomorrow...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            So we can finally face against the King!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(surprised1)</span>
+                            </span>
+                            Huh?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward1b)</span>
+                            </span>
+                            ...You're still half asleep, aren't you?
+                        </p>
+                        <p class="dialogue-line">
+                            (You just look at her.)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(hm2)</span>
+                            </span>
+                            Hm... Okay, then...
+                        </p>
+                        <p class="dialogue-note">
+                            Mirabelle heads north out of frame.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(stressed1)</span>
+                            </span>
+                            You can sleep for a little longer, but not too long! Come to the village when you're ready, okay?
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (...)
+                        </p>
+                        <p class="dialogue-line">
+                            (Huh?)
+                        </p>
+                        <p class="dialogue-line">
+                            (HUH?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Hold on,
+                        </p>
+                        <p class="dialogue-line big">
+                            <i>(DID YOU JUST DIE?)</i>
+                        </p><p class="dialogue-line">
+                            (You DID, you think! You must have! You were inthe House and then a big rock fell and now you're in the meadow, back in Dormont, and what Mirabelle just said to you, waking you up, that was, very, familiar???)
+                        </p><p class="dialogue-line">
+                            (But aaargh, the trap, the trap!!! You idiot! You stupid fool! It's your job to take care of traps and you got taken out IMMEDIATELY!!!!)
+                        </p><p class="dialogue-line">
+                            (You didn't even see a glimpse of the King!!! And it's your job, stupid!!! Your job to see ahead, to take care of traps!!! You couldn't even do your job and now you're DEAD because you did a SLOPPY AWFUL TERRIBLE JOB,)
+                        </p><p class="dialogue-line">
+                            (And you DIED!!! YOU DIED!!!! You felt your body being crushed and now you're laying on the grass, alive, and your skin itches and your stomach hurts and you <i>DIED!!!!)</i>
+                        </p><p class="dialogue-line">
+                            (You put your hands over your mouth and scream!!! Stars!!!! You’re so stupid and useless and dumb!!!!!!!!!)
+                        </p><p class="dialogue-line">
+                            <i>(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)</i>
+                        </p>
+                        <br>
+                        <br>
+                        <p class="dialogue-line">
+                            (Okay you're over it now.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You take a deeeeeeep breath iiiiiiiiin, and ouuuuuuuuuut.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Pheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeew.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You put your shaking hands behind your back, pressing them hard between you and the grass.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (Okay, you died, that's one thing.)
+                        </p>
+                        <p class="dialogue-line">
+                            (And now, you're alive, and not a crêpe, that's another thing.)
+                        </p>
+                        <p class="dialogue-line">
+                            (And it's apparently the day before, back when Mirabelle woke you up from your nap, that's the third thing.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You went back in time?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Okay, that's normal. Totally normal.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Totally one hundred percent completely normal.)
+                        </p>
+                        <p class="dialogue-line">
+                            (. . .)
+                        </p>
+                        <p class="dialogue-line">
+                            (...Oh well, at least you were in the lead as always.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Judging by where you were when you died, you were probably the only one who got hit. The only one that...)
+                        </p>
+                        <p class="dialogue-line">
+                            (In a way, you're REALLY glad you're forced to take the lead every time you and everyone else get somewhere dangerous.)
+                        </p>
+                        <p class="dialogue-line">
+                            (But... You're back. Back to the day before you went to the House.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (...How?)
+                        </p>
+                        <p class="dialogue-line">
+                            (And why?)
+                        </p>
+                        <p class="dialogue-line">
+                            (And... Can you make sure to not die this time?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Back to work, Siffrin. You have a country to save.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You got a MEMORY OF LOOPING!)
+                        </p>
+                        <p class="dialogue-line">
+                            (You'll always remember this.)
+                        </p>
+                        <p class="dialogue-line">
+                            [Memories are a type of item you can equip. Each Memory is specific to one character, and gives them special abilities.]
+                        </p>
+                        <p class="dialogue-line">
+                            [For example, the Memory you just got can only be equipped by you. When Memory of Looping is equipped, it'll boost your MaxHP by +5 per loop.]
+                        </p>
+                        <p class="dialogue-line">
+                            [You can equip Memories by opening your menu and going to the Equip section!]
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (...)
+                        </p>
+                        <p class="dialogue-line">
+                            (What is that voice you've been hearing this whole time...?)
+                        </p>
+                    </div>
+                
+                <br>
+
+                <h1 id="act3">ACT 3 Intro</h1>
+                    <div class="dialogue">
+                        <p class="dialogue-note">
+                            Waking up in the meadow after talking to the Head Housemaiden for the first time.
+                        </p>
     
-<p><i>Siffrin snaps awake in a meadow. He's lying down in the grass.</i></p>
-<p><i>They simply stare at the sky for a long, quiet moment. They close their eye.</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> "--frin!"</p>
-<p><b>Mirabelle:</b> "Siffrin!"</p>
-
-<br>
-
-<p><i>A shadow is cast on Siffrin.</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> "...Siffrin?"</p>
-
-<br>
-
-<p><i>Siffrin opens their eye, obviously bleary.</i></p>
-<p><i>Mirabelle smiles down at them. From Siffrin's perspective, she's upside down.</i></p>
-
-<br>
-
-<p><b>Mirabellel (happy2):</b> Good morning!</p>
-<p><b>Mirabelle (awkward1):</b> Well, more like, good afternoon, I guess...</p>
-<p><b>Mirabelle (happy1):</b> Were you taking a nap?  That's just like you... Only you could sleep peacefully at a time like this, hehe!</p>
-<p><b>Mirabelle (happy1):</b> I guess that's smart... We better get some rest while we can! We have to be ready for tomorrow...</p>
-<p><b>Mirabelle (happy2):</b> So we can finally face against the King!</p>
-
-<br>
-
-<p><i>(You're too sleepy to talk.)</i></p>
-<p><i>(Sleep's sweet embrace calls for you...)</i></p>
-<p><i>(You close your eyes again.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (awkward1b):</b> ...You're still half asleep, aren't you?</p>
-
-<br>
-
-<p><i>(You make a grumbling sound.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (hm2):</b> Hm... Okay, then...</p>
-
-<br>
-
-<p><i>Mirabelle heads north out of frame.</i></p>
-
-<br>
-
-<p><b>Mirabelle (stressed1):</b> You can sleep for a little longer, but not too long! Come to the village when you're ready, okay?</p>
-
-<br>
-
-<p><i>(You yawn so hard your jaw cracks.)</i></p>
-<p><i>(You were having such a nice rest too...)</i></p>
-<p><i>(Urgh.)</i></p>
-<p><i>(You can't spend the rest of the day sleeping. That would be a waste.)</i></p>
-<p><i>(You force yourself to get up.)</i></p>
-<p><i>(Wake up Siffrin. You have a country to save.)</i></p>
-
-<br>
-
-<p><i>Siffrin jumps into standing position.</i></p>
-
-<br>
-
-<p>[...]</p>
-<ul>
-    <li>[You can use the arrow keys to move around.]</li>
-    <li>[You can use the Joystick to move around.]</li>
-    <li>[You can use the left stick to move around.]</li>
-    <li>[You can use the Left Stick to move around.]</li>
-</ul>
-
-<br>
-
-<h1 id="act2">ACT 2 Intro</h1>
-
-<p><i>(Huh?)</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> --frin!</p>
-
-<br>
-
-<p><i>Mirabelle enters the scene from the north, stopping just above Siffrin.</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> Siffrin!</p>
-<p><b>Mirabelle:</b> ...Siffrin?</p>
-<p><b>Mirabelle (happy1):</b> Good morning!</p>
-<p><b>Mirabelle (awkward1):</b> Well, more like, good afternoon, I guess...</p>
-<p><b>Mirabelle (happy1):</b> Were you taking a nap? That's just like you... Only you could sleep peacefully at a time like this, hehe!</p>
-<p><b>Mirabelle (happy1):</b> I guess that's smart... We better get some rest while we can! We have to be ready for tomorrow...</p>
-<p><b>Mirabelle (happy2):</b> So we can finally face against the King!</p>
-<p><b>Siffrin (surprised1):</b> "Huh?"</p>
-<p><b>Mirabelle (awkward1b):</b> ...You're still half asleep, aren't you?</p>
-<br>
-
-<p><i>(You just look at her.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (hm2):</b> Hm... Okay, then...</p>
-
-<br>
-
-<p><i>Mirabelle heads north out of frame.</i></p>
-
-<br>
-
-<p><b>Mirabelle (stressed1):</b> You can sleep for a little longer, but not too long! Come to the village when you're ready, okay?</p>
-
-<br>
-
-<p><i>(...)</i></p>
-<p><i>(Huh?)</i></p>
-<p><i>(HUH?)</i></p>
-<p><i>(Hold on,</i></p>
-
-<br>
-
-<p><i>(DID YOU JUST DIE?)</i></p>
-<p><i>(You DID, you think! You must have! You were in</i></p>
-<p><i>the House and then a big rock fell </i></p>
-<p><i>and now you're in the meadow, back in Dormont, and what Mirabelle just said to you, waking you up, that was, very, familiar???)</i></p>
-<p><i>(But aaargh, the trap, the trap!!! You idiot!</i></p>
-<p><i> You stupid fool! It's your job to take care of traps </i></p>
-<p><i>and you got taken out IMMEDIATELY!!!!)</i></p>
-<p><i>(You didn't even see a glimpse of the King!!! And it's your job, stupid!!! Your job to see ahead, to take care of traps!!! You couldn't even do your job and now you're DEAD because you did a SLOPPY AWFUL TERRIBLE JOB,)</i></p>
-<p><i>(And you DIED!!! YOU DIED!!!! You felt your body being crushed and now you're laying on the grass, alive, and your skin itches and your stomach hurts and you DIED!!!!)</i></p>
-<p><i>(You put your hands over your mouth and scream!!! Stars!!!! You’re so stupid and useless and dumb!!!!!!!!!)</i></p>
-<p><i>(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)</i></p>
-
-<br>
-
-<p><i>(Okay you're over it now.)</i></p>
-
-<br>
-
-<p><i>(You take a deeeeeeep breath iiiiiiiiin, and ouuuuuuuuuut.)</i></p>
-<p><i>(Pheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeew.)</i></p>
-<p><i>(You put your shaking hands behind your back, pressing them hard between you and the grass.)</i></p>
-<p><i>(Okay, you died, that's one thing.)</i></p>
-<p><i>(And now, you're alive, and not a crêpe, that's another thing.)</i></p>
-<p><i>(And it's apparently the day before, back when Mirabelle woke you up from your nap, that's the third thing.)</i></p>
-<p><i>(You went back in time?)</i></p>
-<p><i>(Okay, that's normal. Totally normal.)</i></p>
-<p><i>(Totally one hundred percent completely normal.)</i></p>
-<p><i>(. . .)</i></p>
-<p><i>(...Oh well, at least you were in the lead as always.)</i></p>
-<p><i>(Judging by where you were when you died, you were probably the only one who got hit. The only one that...)</i></p>
-<p><i>(In a way, you're REALLY glad you're forced to take the lead every time you and everyone else get somewhere dangerous.)</i></p>
-<p><i>(But... You're back. Back to the day before you went to the House.)</i></p>
-
-<br>
-
-<p><i>(...How?)</i></p>
-<p><i>(And why?)</i></p>
-<p><i>(And... Can you make sure to not die this time?)</i></p>
-<p><i>(Back to work, Siffrin. You have a country to save.)</i></p>
-
-<br>
-
-<p><i>(You got a MEMORY OF LOOPING!)</i></p>
-<p><i>(You'll always remember this.)</i></p>
-
-<br>
-
-<p>[Memories are a type of item you can equip. Each Memory is specific to one character, and gives them special abilities.]</p>
-<p>[For example, the Memory you just got can only be equipped by you. When Memory of Looping is equipped, it'll boost your MaxHP by +5 per loop.]</p>
-<p>[You can equip Memories by opening your menu and going to the Equip section!]</p>
-
-<br>
-
-<p><i>(...)</i></p>
-<p><i>(What is that voice you've been hearing this whole time...?)</i></p>
-
-<br>
-
-
-<h1 id="act3">ACT 3 Intro</h1>
-<p><i>Waking up in the meadow after talking to the Head Housemaiden for the first time.</i></p>
-
-<br>
-
-<p><i>(You're back.)</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> --frin!</p>
-<p><b>Mirabelle:</b> Siffrin!</p>
-
-<br>
-
-<p><i>Mirabelle enters from the north, coming to a stop right above Siffrin.</i></p>
-
-<br>
-
-<p><b>Mirabelle:</b> ...Siffrin?</p>
-<p><b>Mirabelle (happy2):</b> Good morning!</p>
-<p><b>Mirabelle (awkward1):</b> Well, more like, good afternoon, I guess...</p>
-<p><b>Mirabelle (happy1):</b> Were you taking a nap? That's just like... ...</p>
-<p><b>Mirabelle (anxious3):</b> Siffrin, what's wrong?</p>
-
-<br>
-
-<p><i>(You can't breathe.)</i></p>
-
-<br>
-
-<p><i>(You won, didn't you? Why are you back? WHY ARE YOU BACK?!)</i></p>
-
-<br>
-
-<p><b>Mirabelle (sad1):</b> Siffrin, answer me, what's wrong?</p>
-
-<br>
-
-<p><i>(Your hands are shaking)</i></p>
-<p><i>(Your stomach is killing you)</i></p>
-<p><i>(The whole Universe is closing in on you)</i></p>
-<p><i>(You're back to the start)</i></p>
-<p><i>(You're back here)</i></p>
-<p><i>(You're back here you're back here you're back here you're back here you're back here you're back here you're back here you're back here you're back here your journey was over and&nbsp; you're&nbsp; back&nbsp; here.)</i></p>
-<p><i>(Your journey was over, wasn't it!!!! You won, didn't you!!! You all survived, right!!!! And yet!!!! AND YET, YOU'RE--!!!!!!)</i></p>
-<p><i>(YOU TRY BREATHING IN BUT YOU CAN'T BREATHE- YOU CAN'T BREATHE--)</i></p>
-
-<br>
-
-<p><b>Mirabelle (yell1):</b> SIFFRIN!!!</p>
-<p><b>Siffrin (what2):</b> <i>(AH!)</i> "Mira..."</p>
-<p><b>Mirabelle (anxious3):</b> Oh, Siffrin, finally you answered! What's wrong, what happened?</p>
-<p><b>Mirabelle (sad1):</b> You weren't answering me...</p>
-<p><b>Mirabelle (sad1):</b> And you're so pale...!</p>
-
-<br>
-
-<p><i>(Slowly, gently, she touches your cheek.)</i></p>
-<p><i>(You still flinch.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (uwah!1):</b> Ah, s-sorry!!!</p>
-<p><b>Mirabelle (sad1):</b> I'm sorry... ...</p>
-<p><b>Mirabelle (wonder1):</b> ...Did you... have a nightmare?</p>
-<p><b>Siffrin (hide4):</b> <i>(...)</i> "..."</p>
-<p><b>Siffrin (hide5):</b> "Yes, that's exactly it."</p>
-<p><b>Mirabelle (sad1):</b> Oh no... It must've been a horrible nightmare...</p>
-<p><b>Mirabelle (gentle1):</b> But you're awake now.</p>
-<p><b>Mirabelle (wonder1):</b> ...Do you want to talk about it?</p>
-<p><b>Siffrin (hide6):</b> "I..."</p>
-<p><b>Siffrin (hide3):</b> "..."</p>
-<p><b>Siffrin (hide3):</b> "I... I was crying..."</p>
-<p><b>Mirabelle (anxious3):</b> Crying...? Why?</p>
-<p><b>Siffrin (hide3):</b> "...because..."</p>
-<p><b>Siffrin (hide3):</b> </p>
-<p><b>Siffrin (fake1):</b> "...I was making onion quiche."</p>
-<p><b>Mirabelle (wonder1):</b> ...</p>
-<p><b>Mirabelle (awkward2):</b> ...Um, why would making onion quiche make you--</p>
-<p><b>Siffrin (fake4):</b> "I was cutting a lot of onions!"</p>
-
-<br>
-
-<p><b>Mirabelle (uwah!1):</b> SIFFRIN!!!!</p>
-<p><b>Mirabelle (angy1):</b> SIFFRIN, YOU CRAB!!! I CAN'T BELIEVE I WAS WORRIED!!!!</p>
-
-<br>
-
-<p><i>(You laugh in a very convincing way.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (hmf1):</b> Hmf! I'm glad at least your nightmare wasn't that bad, but... Hmf!</p>
-<p><b>Mirabelle (hmf1):</b> Hmf!</p>
-<p><b>Mirabelle (awkward2):</b> ...Okay, well...</p>
-
-<br>
-
-<p><i>Mirabelle leaves the scene to the north.</i></p>
-
-<br>
-
-<p><b>Mirabelle (stressed1):</b> I'll be waiting in the village, alright? Come talk to me later!!!</p>
-
-<br>
-
-<p><i>(With Mirabelle gone, your smile drops.)</i></p>
-<p><i>(You're&nbsp; back.)</i></p>
-<p><i>(Why are you back...? You beat the King, didn't you? Did something go wrong?)</i></p>
-<p><i>(It was the end of your journey,  and yet you...)</i></p>
-<p><i>(The Head Housemaiden... She said something about the world being rotten?)</i></p>
-<p><i>(. . .)</i></p>
-<p><i>(You should go see Loop.)</i></p>
-<p><i>(They're the only one you can talk to... They might... know what's going on...)</i></p>
-
-<br>
-
-<h1 id="act34">ACT 3-4</h1>
-<p><i>ACT 4 can start with two different events. The first is the end of <a href="/acts/act3-4/kingquest.html">Kingquest</a>. The other is the end of <a href="/acts/act3-4/friendquest.html">Friendquest</a>. (<abbr title="work in progress">WIP</abbr> note: that is not a page yet.)</i></p>
-<p><i>Both need to be completed to enter ACT 4, it's just that whichever you do last incriments the ACT counter. The scenes for each remain identical whether they are first or second.</i></p>
-
-<br>
-
-<ul>
-    <li><a href="kingquest">Kingquest</a></li>
-    <li><a href="friendquest">Friendquest</a></li>
-</ul>
-
-<br>
-
-<h2 id="kingquest">Kingquest</h2>
-
-<h2>Say it</h2>
-<p><i>After trying to say the country's name. For details, see <a href="/acts/act3-4/kingquest.html#meadow">here</a>.</i></p>
-<p><i>Siffrin's monologue changes depending on whether he tried to say the country's name.</i></p>
-
-<ul>
-    <li><a href="#meadow_yes">Said it twice</a></li>
-    <li><a href="#meadown_no">Didn't say it twice</a></li>
-    <li><a href="#meadow_maybe">Chose one of each option</a></li>
-</ul>
-
-<br>
-
-<h3 id="meadow_yes">Said it twice</h3>
-
-<p><i>(Ah!!!!!!)</i></p>
-<p><i>(Ah, ah, aaaaaaaaah......)</i></p>
-<p><i>(You cough, cough, cough.)</i></p>
-<p><i>(You cough until you can't move or even breathe anymore.)</i></p>
-<p><i>(Your throat hurts.)</i></p>
-<p><i>(You couldn't say it.)</i></p>
-<p><i>(You couldn't say it.)</i></p>
-
-<br>
-
-<h3 id="meadow_no">Didn't say it twice</h3>
-
-<p><i>(You cover your mouth with both hands, and try not to breathe, try not to make a single sound.)</i></p>
-<p><i>(You can't say it.)</i></p>
-<p><i>(Even now, you can't say it, because you know, you know, you know...)</i></p>
-<p><i>(Something terrible will happen if you try. Something has to.)</i></p>
-<p><i>(That's the reason you won't try to say it, will never try to say it, that's the reason, the only reason.)</i></p>
-<p><i>(Hope is for braver people than you are!!!!!)</i></p>
-
-<br>
-
-<h3 id="meadow_maybe">Chose one of each option</h3>
-
-<p><i>(You gasp loudly.)</i></p>
-<p><i>(And breathe in.)</i></p>
-<p><i>(And out.)</i></p>
-<p><i>(And in.)</i></p>
-<p><i>(And out.)</i></p>
-<p><i>(And in.)</i></p>
-<p><i>(And out.)</i></p>
-<p><i>(Couldn't even stick to it.)</i></p>
-<p><i>(You should have tried to say it twice.)</i></p>
-<p><i>(It would've worked, if you said it twice, it would've worked, it would have, you just know it would have.)</i></p>
-<p><i>(See, if you say it now, it might work! You might be able to say it! Just say it! Just say it!!! JUST SAY IT!!!!!!)</i></p>
-<p><i>(No sounds come out of your mouth.)</i></p>
-
-<br>
-
-<h3>Regardless of choice</h3>
-
-<p><i>(What was the point, anyway? What was the point of saying its name? What was the King thinking?!?)</i></p>
-<p><i>(It's gone.)</i></p>
-<p><i>(Your home is gone, and has been for a long time.)</i></p>
-<p><i>(There's nothing you can do to bring it back. Doesn't the King see that?)</i></p>
-<p><i>(Doesn't he see that you have to let it go?)</i></p>
-<p><i>(You start laughing.)</i></p>
-<p><i>(Will you ever take your own advice?)</i></p>
-<p><i>(Ha.)</i></p>
-<p><i>(You need to go and talk to the King.)</i></p>
-<p><i>(One&emsp;last&emsp;time.)</i></p>
-
-<br>
-
-<h3>End</h3>
-<p><i>The ending of <a href="/acts/act3-4/kingquest.html#meadowfinal">Kingquest</a>.</i></p>
-<p><i>This scene can enter the player into ACT 4, if they've already done Friendquest.</i></p>
-
-<br>
-
-
-
-<h2 id="friendquest">Friendquest</h2>
-<p><i>After reaching the end with all Friendquests completed in one loop.</i></p>
-<p><i>This scene can enter the player into ACT 4, if they've already done Kingquest.</i></p>
-
-<br>
-
-<p><i>(You open your eyes, hand already reaching out.)</i></p>
-<p><i>(Reaching out to nothing.)</i></p>
-<p><i>(Stupid.)</i></p>
-<p><i>(You press your palms against your eyes.)</i></p>
-
-<br>
-
-<p><i>(And laugh.)</i></p>
-<p><i>(You really believed it, stupid!)</i></p>
-<p><i>(You really thought this was it!)</i></p>
-<p><i>(You really thought helping them would save you!!!)</i></p>
-<p><i>(If you helped them, if you were loved, it had to save you, didn't it?)</i></p>
-<p><i>(Friendship would save you, wouldn't it!!!)</i></p>
-<p><i>(Hahahahaha!)</i></p>
-<p><i>(It WAS different!)</i></p>
-<p><i>(But not enough to save you!!!)</i></p>
-<p><i>(And now!)</i></p>
-<p><i>(Mirabelle is back to feeling awful and out of place!)</i></p>
-<p><i>(Isabeau won't remember the night you spent under the stars!)</i></p>
-<p><i>(Odile is still hiding everything about herself!)</i></p>
-<p><i>(Bonbon is back to Bonnie, is back to hating you!)</i></p>
-<p><i>(And you're back here!!!)</i></p>
-<p><i>(That's what you get for hoping! That's what you deserve! Haha! Hahahahahaha!!!)</i></p>
-<p><i>(Ha ha ha ha ha ha ha ha ha ha ha ha</i></p>
-<p><i>(Hahahahahahahahahahahaha oh, Mirabelle will be here soon, won't she?)</i></p>
-<p><i>(Just breathe, Siffrin.)</i></p>
-<p><i>(The power of friendship didn't work, it's fine.)</i></p>
-<p><i>(All you can do is try something else, now.)</i></p>
-<p><i>(It's fine, that it didn't work.)</i></p>
-<p><i>(It's fine, that they don't remember.)</i></p>
-<p><i>(It's all fine, that everything that just happened has been reset.)</i></p>
-<p><i>(It's totally fine.)</i></p>
-<p><i>(You're fine.)</i></p>
-<p><i>(You're fine, you're fine, you're fine.)</i></p>
-<p><i>(Back to the stage.)</i></p>
-
-<br>
-
-<p><i>(You got a MEMORY OF FAMILY!)</i></p>
-<p><i>(You'll always remember this.)</i></p>
-
-<br>
-
-<p>[When equipped, Memory of Family doubles everyone's EXP gained in battle, except for yours.]</p>
-
-<br>
-
-<h3>If this is also the first time you talked to the Head Housemaiden in ACT 3</h3>
-
-<p><i>(...)</i></p>
-<p><i>(As for the Head Housemaiden...)</i></p>
-<p><i>(She didn't say anything different. It was the exact same, even though... Even though everything about her was different.)</i></p>
-<p><i>(Why is she repeating the same thing over and over? It was almost like you weren't there...)</i></p>
-<p><i>(The King spoke of something called "Time Craft". It might be time to find out more.)</i></p>
-<p><i>(You should ask the Dormont librarian, see if they know something...)</i></p>
-
-<br>
-
-<h3>If you've talked to the Head Housemaiden, and just found the first book on Time Craft</h3>
-
-<p><i>(But, what now?)</i></p>
-<p><i>(You've now talked to the King and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)</i></p>
-<p><i>(Who else could you talk to about the loops? To theorize?)</i></p>
-<p><i>(. . .)</i></p>
-<p><i>(Oh, wait.)</i></p>
-<p><i>(There is ONE person.)</i></p>
-<p><i>(You needed to go and talk to them anyway, so...)</i></p>
-
-<br>
-
-<h2 id="loopquest">Loopquest</h2>
-
-<h3>Head Housemaiden</h3>
-<p><i>Talking to the Head Housemaiden for the first time without also doing Friendquest.</i></p>
-
-<p><i>(...)</i></p>
-<p><i>(The Head Housemaiden said the exact same thing.)</i></p>
-<p><i>(Time looped again.)</i></p>
-<p><i>(You're back here.)</i></p>
-<p><i>(She... She really repeated the exact same thing, huh?)</i></p>
-<p><i>(Usually, when you react differently, everyone reacts differently as well, but she...)</i></p>
-<p><i>(It was like you weren't here.)</i></p>
-<p><i>(Why...?)</i></p>
-
-<br>
-
-<h3>If you haven't read the first Time Craft book yet</h3>
-<p><i>(The King spoke of something called "Time Craft". It might be time to find out more.)</i></p>
-<p><i>(You should ask the Dormont librarian, see if they know something...)</i></p>
-
-<br>
-
-<h3>If you have</h3>
-<p><i>(...)</i></p>
-<p><i>(What now?)</i></p>
-<p><i>(You've now talked to the King and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)</i></p>
-<p><i>(Who else could you talk to about the loops? To theorize?)</i></p>
-<p><i>(. . .)</i></p>
-<p><i>(Oh, wait.)</i></p>
-<p><i>(There is ONE person.)</i></p>
-<p><i>(You needed to go and talk to them anyway, so...)</i></p>
-
-<br>
-
-<h1 id="act5">ACT 5 Intro</h1>
-<p><i>Note: "TS" is the designation for Siffrin portraits specific to ACT 5.</i></p>
-
-<br>
-
-<p><i>(You're back.)</i></p>
-<p><i>(YOU'RE BACK)</i></p>
-
-<br>
-
-<p><i>(Haha, no, it's fine, it's fine.)</i></p>
-<p><i>(You had a theory, and it was wrong.)</i></p>
-<p><i>(You thought the Head Housemaiden would know how to save you, but she doesn't. That's all good. It's fine! It's all fine!!!)</i></p>
-<p><i>(At least you know why you're here.)</i></p>
-<p><i>(You're here because everyone wished for it!!!)</i></p>
-<p><i>(Everyone in Vaugarde wished for your suffering! Everyone wished for you to be stuck repeating everything, to bE ROTTING HERE FOREVER--)</i></p>
-
-<br>
-
-<p><i>(No, it's fine, it's fine, it's fine.)</i></p>
-<p><i>(People in Vaugarde wished for the King to be defeated, for Vaugarde to be saved, but no one knew how to do Wish Craft. No one knew the correct rituals.)</i></p>
-<p><i>(Is that why? Is that why you've been stuck in this loop?)</i></p>
-<p><i>(They wished for it, but wished wrong, and so the wish is breaking, folding in on itself? Because it was done wrong?)</i></p>
-<p><i>(Or maybe-- Maybe!!! Maybe YOU did it wrong! hey wished for it, for the King to die, but-- But he disappears, every time you win, and the wish revolves around you, so maybe--)</i></p>
-<p><i>(MAYBE YOU'RE DOING SOMETHING WRONG EVERY TIME, AND THAT'S WHY YOU'RE STUCK HERE!!!)</i></p>
-<p><i>(THAT HAS TO BE WHY!!! If you're still looping, after everything, after trying it all, then it must be that you're missing something!!!)</i></p>
-<p><i>(You must be going against the wish's will without realizing, and that's why it brings you back, because you're doing something wrong!!!)</i></p>
-<p><i>(You don't want to be here, so what-- What are you doing wrong?)</i></p>
-<p><i>(Is it waking up?! Are you waking up wrong?!? Or, going to the House? But you have to, you have to go, you have to beat the King, save Vaugarde, because obviously, saving Vaugarde is why you're here--)</i></p>
-<p><i>(Defeating the King is why you're here, and you do defeat him, you fight, you get his guard down, he talks, everyone talks, you attack all at once, and you defeat the King with your own two hands--)</i></p>
-<p><i>(No.)</i></p>
-<p><i>(You DON'T defeat him with your own two hands.)</i></p>
-<p><i>(Mirabelle. She's always the one who deals the final strike, isn't she.)</i></p>
-<p><i>(You've never, even once, defeated him yourself.)</i></p>
-<p><i>(Is that why?)</i></p>
-<p><i>(It has to be why!)</i></p>
-<p><i>(...But, why do you, specifically, need to defeat the King, why would everyone's wish revolve around--)</i></p>
-<p><i>(No, don't think about it, this is definitely it.)</i></p>
-<p><i>(THIS IS IT!!!)</i></p>
-<p><i>(If they all wished for you to defeat him. And you're the only one stuck in this loop.)</i></p>
-<p><i>(Then.)</i></p>
-<p><i>(Then?)</i></p>
-
-<br>
-
-<p><i>(Then you need to do it yourself. Fight him and tear him to pieces and rip his hair out and reach into his chest and kill!!!)</i></p>
-<p><i>(It always comes back to him, doesn't it!!! It's his fault you're here!!! It's his fault you can't escape!!! It's his fault so many people are suffering!!!)</i></p>
-<p><i>(There you go, hahaha! That's a theory! That's a goal!)</i></p>
-<p><i>(You just need to make sure Mirabelle doesn't deal the final hit! That's all you need! That's all you BLINDING NEED--)</i></p>
-<p><i>(Aaah, but it's okay, right? It's fine, isn't it?)</i></p>
-<p><i>(Even if the entire country wished for you to be here... It's okay, isn't it?)</i></p>
-<p><i>(Because your family is here?)</i></p>
-<p><i>(You can stay with them forever?)</i></p>
-<p><i>(It's fine, as long as you're with them.)</i></p>
-<p><i>(You can live with this, as long as you're with them.)</i></p>
-<p><i>(You're fine, as long as you're with them.)</i></p>
-<p><i>(You're fine, aren't you?)</i></p>
-<p><i>(You're fine.)</i></p>
-<p><i>(You're fine.)</i></p>
-<p><i>(You're fine.)</i></p>
-<p><i>(. . .)</i></p>
-<p><i>(...But...)</i></p>
-
-<br>
-
-<p><i>(But this thought... IS NOT ENOUGH FOR YOU TO GO ON ANYMORE!!!!!!)</i></p>
-<p><i>(YOU WANT TO BE WITH YOUR FAMILY!!! NOT WITH THOSE FICTIONAL CHARACTERS THAT HAVE TAKEN THEIR PLACE!!!)</i></p>
-<p><i>(THEY CAN NEVER CHANGE! THEY CAN NEVER FIND OUT! THEY CAN NEVER TRULY SEE YOU! THEY CAN ONLY REPEAT THE SAME LINES OVER AND OVER AND OVER, BECAUSE THAT'S ALL THEY CAN DO, BECAUSE YOU WON'T EVEN ALLOW THEM TO DO OTHERWISE--)</i></p>
-<p><i>(IF ONLY MIRABELLE DIDN'T DEAL THE FINAL HIT EVERY TIME... IF ONLY SHE...!!!!!!)</i></p>
-<p><i>(If only)</i></p>
-
-<br>
-
-<p><i>(If only you knew if only the wish wasn't broken if only you could get to the king deal the final hit end it all and finally you'll be with your family forever and you'll be okay and you can just end it all you just need to get</i></p>
-<p><i>to the king deal the final hit make the wish come true make sure it all loops around you kill the king rip him to pieces for making you remember for making you see for not understanding for killing bonnie for getting in your</i></p>
-<p><i>blinding way every time you just need to kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him you just)</i></p>
-
-<br>
-
-<p><i>(need to get to the end)</i></p>
-<p><i>(and win)</i></p>
-<p><i>(and make sure everyone's wish comes true)</i></p>
-<p><i>(you just)</i></p>
-<p><i>(you just need to)</i></p>
-<p><i>(You just need to defeat the King on your own.)</i></p>
-<p><i>(You're fine.)</i></p>
-<p><i>(Get up, Siffrin.)</i></p>
-
-<br>
-
-<p><i>(You have&nbsp; a country&nbsp; to save)</i></p>
-
-<br>
-
-<p><i>Siffrin gets up and walks toward town. They bump into Mirabelle.</i></p>
-
-<br>
-
-<p><b>Mirabelle (happy2):</b> Oh, Siffrin! You're awake!</p>
-<p><b>Mirabelle (happy1):</b> Hehe, I thought you were napping, so I was just--</p>
-
-<br>
-
-<p><b>Siffrin (TS_fake1):</b> "--About to wake me up."</p>
-<p><b>Mirabelle (awkward2):</b> Ah, yes! I'm... Sorry? I hope that's okay...</p>
-<p><b>Mirabelle (anxious2):</b> . . .</p>
-<p><b>Mirabelle (awkward2):</b> W-Well, um... I had an idea for tonight, and I--</p>
-<p><b>Siffrin (TS_fake1):</b> "To all meet at the Clocktower for a sleepover."</p>
-<p><b>Mirabelle (anxious3):</b> Y-Yes? Oh, did you have... The same idea?</p>
-
-<br>
-
-<p><i>(You nod.)</i></p>
-
-<br>
-
-<p><b>Mirabelle (awkward2):</b> ...Okay... Well, I won't keep you, then...</p>
-<p><b>Mirabelle (hm1):</b> Um, let's all meet at the Clocktower later, then, alright?</p>
-
-<br>
-
-<p><i>Mirabelle exits the scene to the north.</i></p>
-
-<br>
-
-<p><b>Mirabelle (anxious2):</b> T-Talk to you later!</p>
-
-<br>
-
-<p><i>(...)</i></p>
-<p><i>(Mirabelle.)</i></p>
-<p><i>(...)</i></p>
-<p><i>(You need&nbsp; your family's strength)</i></p>
-<p><i>(Yes, you need to kill the King before Mirabelle, but)</i></p>
-<p><i>(you don't want to be here anymore.)</i></p>
-<p><i>(You have to get to the King as fast as possible, get him close to death as fast as possible.)</i></p>
-<p><i>(And for that,)</i></p>
-<p><i>(You need to make sure everyone else is strong enough.)</i></p>
-<p><i>(You need&nbsp; to make sure&nbsp; they're all as powerful as they can be.)</i></p>
-<p><i>(So.)</i></p>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
-
-</body>
+                        <br>
+                        <p class="dialogue-line">
+                            (You're back.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            --frin!
+                        </p>
+                        <br>
+                        <p class="dialogue-note">
+                            Mirabelle enters the scene from the north, stopping just above Siffrin.
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            Siffrin!
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                            </span>
+                            ...Siffrin?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            Good morning!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward1)</span>
+                            </span>
+                            Well, more like, good afternoon, I guess...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            Were you taking a nap? That's just like... ...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious3)</span>
+                            </span>
+                            Siffrin, what's wrong?
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You can't breathe.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You won, didn't you? Why are you back? <i>WHY ARE YOU BACK?!)</i>
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                            </span>
+                            Siffrin, answer me, what's wrong?
+                        </p>
+                        <p class="dialogue-line">
+                            (Your hands are shaking)
+                        </p>
+                        <p class="dialogue-line">
+                            (Your stomach is killing you)
+                        </p>
+                        <p class="dialogue-line">
+                            (The whole Universe is closing in on you)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're back to the start)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're back here)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're back here you're back here you're back here you're back here you're back here you're back here you're back here you're back here you're back here your journey was over a<i>nd you're&nbsp; back&nbsp; here)</i>
+                        </p>
+                        <p class="dialogue-line">
+                            <i>(Your journey was over, wasn't it!!!! You won, didn't you!!! You all survived, right!!!! And yet!!!! AND YET, YOU'RE--!!!!!!)</i>
+                        </p>
+                        <p class="dialogue-line">
+                            <i>(YOU TRY BREATHING IN BUT YOU CAN'T BREATHE- YOU CAN'T BREATHE--)</i>
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(yell1)</span>
+                            </span>
+                            SIFFRIN!!!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(what2)</span>
+                            </span>
+                            (AH!)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(what2)</span>
+                            </span>
+                            Mira...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious3)</span>
+                            </span>
+                            Oh, Siffrin, finally you answered! What's wrong, what happened?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                            </span>
+                            You weren't answering me...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                            </span>
+                            And you're so pale...!
+                        </p>
+                        <p class="dialogue-line">
+                            (Slowly,&nbsp; gently,&nbsp; she touches your cheek.)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You still flinch.)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(uwah1)</span>
+                            </span>
+                            Ah, s-sorry!!!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                            </span>
+                            I'm sorry... ...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(wonder1)</span>
+                            </span>
+                            Did you...&nbsp; have a nightmare?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide4)</span>
+                            </span>
+                            (...) ...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide5)</span>
+                            </span>
+                            Yes, that's exactly it.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                            </span>
+                            Oh no... It must've been a horrible nightmare...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(gentle1)</span>
+                            </span>
+                            But you're awake now.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(wonder1)</span>
+                            </span>
+                            ...Do you want to talk about it?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide6)</span>
+                            </span>
+                            I...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide3)</span>
+                            </span>
+                            ...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide3)</span>
+                            </span>
+                            I... I was crying...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious3)</span>
+                            </span>
+                            Crying...? Why?
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide3)</span>
+                            </span>
+                            ...because...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide3)</span>
+                            </span>
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                            ...I was making onion quiche.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(wonder1)</span>
+                            </span>
+                            ...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward2)</span>
+                            </span>
+                            ...Um, why would making onion quiche make you--
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake4)</span>
+                            </span>
+                            I was cutting a lot of onions!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(uwah1)</span>
+                            </span>
+                            SIFFRIN!!!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(angry1)</span>
+                            </span>
+                            SIFFRIN, YOU CRAB!!! I CAN'T BELIEVE I WAS WORRIED!!!
+                        </p>
+                        <p class="dialogue-line">
+                            (You laugh in a very convincing way.)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(hmf1)</span>
+                            </span>
+                            Hmf! I'm glad at least your nightmare wasn't that bad, but... Hmf!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(hmf1)</span>
+                            </span>
+                            Hmf!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward2)</span>
+                            </span>
+                            ...Okay, well...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(stressed1)</span>
+                            </span>
+                            I'll be waiting in the village, alright? Come talk to me later!!!
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (With Mirabelle gone, your smile drops.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're&nbsp; back.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Why are you back...? You beat the King, didn't you? Did something go wrong?)
+                        </p>
+                        <p class="dialogue-line">
+                            (It was the end of your journey, and yet you...)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (The Head Housemaiden... She said something about the world being rotten?)
+                        </p>
+                        <p class="dialogue-line">
+                            (. . .)
+                        </p>
+                        <br>
+                        <p class="dialogue-line">
+                            (You should go see Loop.)
+                        </p>
+                        <p class="dialogue-line">
+                            (They're the only one you can talk to... They might... know what's going on...)
+                        </p>
+
+                    </div>
+
+                <br>
+
+                <h1 id="act34">ACT 3-4</h1>
+                    <p>
+                        ACT 4 can start with two different events. The first is the end of <a href="/acts/act3-4/kingquest.html">Kingquest</a>. The other is the end of <a href="/acts/act3-4/friendquest.html">Friendquest</a>. (WIP note: that is not a page yet.)
+                    </p>
+                    <p>
+                        Both need to be completed to enter ACT 4, it's just that whichever you do last incriments the ACT counter. The scenes for each remain identical whether they are first or second.
+                    </p>
+
+                    <ul>
+                        <li><a href="kingquest">Kingquest</a></li>
+                        <li><a href="friendquest">Friendquest</a></li>
+                    </ul>
+
+                    <br>
+
+                    <h2 id="kingquest">Kingquest</h2>
+
+                        <h3>Say it</h3>
+                        <p>After trying to say the country's name. For details, see <a href="/acts/act3-4/kingquest.html#meadow">here</a>.</p>
+                        <p>Siffrin's monologue changes depending on whether he tried to say the country's name.</p>
+
+                        <ul>
+                            <li><a href="#meadow_yes">Said it twice</a></li>
+                            <li><a href="#meadown_no">Didn't say it twice</a></li>
+                            <li><a href="#meadow_maybe">Chose one of each option</a></li>
+                        </ul>
+
+                        <br>
+
+                        <h4 id="meadow_yes">Said it twice</h4>
+
+                            <div class="dialogue indented">
+                                <p class="dialogue-line">
+                                    (Ah!!!!!!)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Ah, ah, aaaaaaaaah......)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You cough, cough, cough.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You cough until you can't move or even breathe anymore.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Your throat hurts.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You&nbsp;&nbsp; couldn't say it.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You couldn't say it.)
+                                </p>
+                            </div>
+
+                            <br>
+
+                        <h4 id="meadow_no">Didn't say it twice</h4>
+
+                            <div class="dialogue indented">
+                                <p class="dialogue-line">
+                                    (You cover your mouth with both hands, and try not to breathe, try not to make a single sound.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You can't say it.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Even now, you can't say it, because you know, you know, you know...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Something terrible will happen if you try. Something has to.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (That's the reason you won't try to say it, will never try to say it, that's the reason, the only reason.)
+                                </p>
+                                <p class="dialogue-line">
+                                    "(Hope is for braver people than you are!!!!!)"
+                                </p>
+                            </div>
+
+                            <br>
+
+                        <h4 id="meadow_maybe">Chose one of each option</h4>
+
+                            <div class="dialogue indented">
+                                <p class="dialogue-line">
+                                    (You gasp loudly.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And breathe in.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And out.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And in.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And out.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And in.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (And out.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Couldn't even stick to it.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You should have tried to say it twice.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (It would've worked, if you said it twice, it would've worked, it would have, you just know it would have.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (See, if you say it now, it might work! You might be able to say it! Just say it! Just say it!!! JUST SAY IT!!!!!!)
+                                </p>
+                                <p class="dialogue-line">
+                                    (No sounds come out of your mouth.)
+                                </p>
+                            </div>
+
+                            <br>
+
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (What was the point, anyway? What was the point of saying its name? What was the King thinking?!?)
+                            </p>
+                            <p class="dialogue-line">
+                                (It's gone.)
+                            </p>
+                            <p class="dialogue-line">
+                                (Your home is gone, and has been for a long time.)
+                            </p>
+                            <p class="dialogue-line">
+                                (There's nothing you can do to bring it back. Doesn't the King see that?)
+                            </p>
+                            <p class="dialogue-line">
+                                (Doesn't he see that you have to let it go?)
+                            </p>
+                            <p class="dialogue-line">
+                                (You start laughing.)
+                            </p>
+                            <p class="dialogue-line">
+                                (Will you ever take your own advice?)
+                            </p>
+                            <p class="dialogue-line">
+                                (Ha.)
+                            </p>
+                            <p class="dialogue-line">
+                                (You need to go and talk to the King.)
+                            </p>
+                            <p class="dialogue-line">
+                                (One&emsp;last&emsp;time.)
+                            </p>
+                        </div>
+
+                        <br>
+
+                        <h4>End</h4>
+                            <p>
+                                The ending of <a href="/acts/act3-4/kingquest.html#meadowfinal">Kingquest</a>.
+                            </p>
+                            <p>
+                                This scene can enter the player into ACT 4, if they've already done Friendquest.
+                            </p>
+
+                        <br>
+
+
+
+                    <h2 id="friendquest">Friendquest</h2>
+                        <p>After reaching the end with all Friendquests completed in one loop.</p>
+                        <p>This scene can enter the player into ACT 4, if they've already done Kingquest.</p>
+
+                        <br>
+
+                        <div class="dialogue">
+
+                            <p class="dialogue-line">
+                                (You open your eyes, hand already reaching out.)
+                            </p>
+                            <p class="dialogue-line">
+                                (Reaching out to nothing.)
+                            </p>
+                            <p class="dialogue-line">
+                                (Stupid.)
+                            </p>
+
+                            <br>
+
+                            <p class="dialogue-line">
+                                (You press your palms against your eyes.)
+                            </p>
+                            <p class="dialogue-line">
+                                (And laugh.)
+                            </p>
+                            <p class="dialogue-line">
+                                (You really believed it, stupid!)
+                            </p>
+                            <p class="dialogue-line">
+                                (You really thought this was it!)
+                            </p>
+                            <p class="dialogue-line">
+                                (You really thought helping them would save you!!!)
+                            </p>
+                            <p class="dialogue-line">
+                                (If you helped them, if you were loved, it had to save you, didn't it?)
+                            </p>
+                            <p class="dialogue-line">
+                                (Friendship would save you, wouldn't it!!!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Hahahahaha!)
+                            </p>
+                            <p class="dialogue-line">
+                                (It WAS different!)
+                            </p>
+                            <p class="dialogue-line">
+                                (But not enough to save you!!!)
+                            </p>
+                            <p class="dialogue-line">
+                                (And now!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Mirabelle is back to feeling awful and out of place!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Isabeau won't remember the night you spent under the stars!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Odile is still hiding everything about herself!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Bonbon is back to Bonnie, is back to hating you!)
+                            </p>
+                            <p class="dialogue-line">
+                                (And you're back here!!!)
+                            </p>
+                            <p class="dialogue-line">
+                                (That's what you get for hoping! That's what you deserve! Haha! Hahahahahaha!!!)
+                            </p>
+                            <p class="dialogue-line">
+                                (Ha ha ha ha ha ha ha ha ha ha ha ha
+                            </p>
+                            <p class="dialogue-line">
+                                (Hahahahahahahahahahahaha oh, Mirabelle will be here soon, won't she?)
+                            </p>
+                            <p class="dialogue-line">
+                                (Just breathe, Siffrin.)
+                            </p>
+                            <p class="dialogue-line">
+                                (The power of friendship didn't work, it's fine.)
+                            </p>
+                            <p class="dialogue-line">
+                                (All you can do is try something else, now.)
+                            </p>
+                            <p class="dialogue-line">
+                                (It's fine, that it didn't work.)
+                            </p>
+                            <p class="dialogue-line">
+                                (It's fine, that they don't remember.)
+                            </p>
+                            <p class="dialogue-line">
+                                (It's all fine, that everything that just happened has been reset.)
+                            </p>
+                            <p class="dialogue-line">
+                                (It's totally fine.)
+                            </p>
+                            <p class="dialogue-line">
+                                (You're fine.)
+                            </p>
+                            <p class="dialogue-line">
+                                (You're fine, you're fine, you're fine.)
+                            </p>
+                            <p class="dialogue-line">
+                                Back to the stage.)
+                            </p>
+
+                            <br>
+
+                            <p class="dialogue-line">
+                                (You got a MEMORY OF FAMILY!)</i></p>
+                            <p class="dialogue-line">
+                                (You'll always remember this.)</i></p>
+
+                            <p class="dialogue-line">
+                                [When equipped, Memory of Family doubles everyone's EXP gained in battle, except for yours.]
+                            </p>
+                        </div>
+
+                        <br>
+
+                        <h3>If this is also the first time you talked to the Head Housemaiden in ACT 3</h3>
+
+                            <div class="dialogue indented">
+                                <p class="dialogue-line">
+                                    (...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (As for the Head Housemaiden...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (She didn't say anything different. It was the exact same, even though... Even though everything about her was different.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Why is she repeating the same thing over and over? It was almost like you weren't there...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (The King spoke of something called "Time Craft". It might be time to find out more.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You should ask the Dormont librarian, see if they know something...)
+                                </p>
+                            </div>
+
+                        <br>
+
+                        <h3>If you've talked to the Head Housemaiden, and just found the first book on Time Craft</h3>
+
+                            <div class="dialogue indented">
+                                <p class="dialogue-line">
+                                    (But, what now?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You've now talked to the King and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Who else could you talk to about the loops? To theorize?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (. . .)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Oh, wait.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (There is ONE person.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You needed to go and talk to them anyway, so...)
+                                </p>
+                            </div>
+
+                        <br>
+
+                    <h2 id="loopquest">Loopquest</h2>
+
+                        <h3>Head Housemaiden</h3>
+                            <p>
+                                Talking to the Head Housemaiden for the first time without also doing Friendquest.
+                            </p>
+
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (The Head Housemaiden said the exact same thing.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Time looped again.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You're back here.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (She... She really repeated the exact same thing, huh?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Usually, when you react differently, everyone reacts differently as well, but she...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (It was like you weren't here.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Why...?)
+                                </p>
+                            </div>
+
+                        <br>
+
+                        <h4>If you haven't read the first Time Craft book yet</h4>
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (The King spoke of something called "Time Craft". It might be time to find out more.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You should ask the Dormont librarian, see if they know something...)
+                                </p>
+                            </div>
+
+                        <br>
+
+                        <h4>If you have</h4>
+                            <div class="dialogue">
+                                <p class="dialogue-line">
+                                    (...)
+                                </p>
+                                <p class="dialogue-line">
+                                    (What now?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You've now talked to the King and the Head Housemaiden... Are those really the only two people that would know a
+                                    ing about the loops you're stuck in?)</i></p>
+                                <p class="dialogue-line">
+                                    (Who else could you talk to about the loops? To theorize?)
+                                </p>
+                                <p class="dialogue-line">
+                                    (. . .)
+                                </p>
+                                <p class="dialogue-line">
+                                    (Oh, wait.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (There is ONE person.)
+                                </p>
+                                <p class="dialogue-line">
+                                    (You needed to go and talk to them anyway, so...)
+                                </p>
+                            </div>
+
+                        <br>
+
+                <h1 id="act5">ACT 5 Intro</h1>
+                    <p>
+                        Note: "TS" is the designation for Siffrin portraits specific to ACT 5.
+                    </p>
+
+                    <br>
+
+                    <div class="dialogue">
+                        <p class="dialogue-line">
+                            (You're back.)
+                        </p>
+                        <p class="dialogue-line">
+                            (YOU'RE&emsp;BACK)
+                        </p>
+
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (Haha, no, it's fine, it's fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You had a theory, and it was wrong.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You thought the Head Housemaiden would know how to save you, but she doesn't. That's all good. It's fine! It's all fine!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (At least you know why you're here.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're here because everyone wished for it!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (Everyone in Vaugarde wished for your suffering!&emsp;Everyone wished for you to be stuck repeating everything, to bE ROTTING HERE FOREVER--)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (No, it's fine, it's fine, it's fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (People in Vaugarde wished for the King to be defeated, for Vaugarde to be saved, but no one knew how to do Wish Craft. No one knew the correct rituals.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Is that why? Is that why you've been stuck in this loop?)
+                        </p>
+                        <p class="dialogue-line">
+                            (They wished for it, but wished wrong, and so the wish is breaking, folding in on itself? Because it was done wrong?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Or maybe-- Maybe!!! Maybe YOU did it wrong! hey wished for it, for the King to die, but-- But he disappears, every time you win, and the wish revolves around you, so maybe--)
+                        </p>
+                        <p class="dialogue-line">
+                            (MAYBE YOU'RE DOING SOMETHING WRONG EVERY TIME, AND THAT'S WHY YOU'RE STUCK HERE!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (THAT HAS TO BE WHY!!! If you're still looping, after everything, after trying it all, then it must be that you're missing something!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (You must be going against the wish's will without realizing, and that's why it brings you back, because you're doing something wrong!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (You don't want to be here, so what-- What are you doing wrong?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Is it waking up?! Are you waking up wrong?!? Or, going to the House? But you have to, you have to go, you have to beat the King, save Vaugarde, because obviously, saving Vaugarde is why you're here--)
+                        </p>
+                        <p class="dialogue-line">
+                            (Defeating the King is why you're here, and you do defeat him, you fight, you get his guard down, he talks, everyone talks, you attack all at once, and you defeat the King with your own two hands--)
+                        </p>
+                        <p class="dialogue-line">
+                            (No.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You DON'T defeat him with your own two hands.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Mirabelle. She's always the one who deals the final strike, isn't she.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You've never, even once, defeated him yourself.)
+                        </p>
+                        <p class="dialogue-line">
+                            Is that why?)
+                        </p>
+                        <p class="dialogue-line">
+                            (It has to be why!)
+                        </p>
+                        <p class="dialogue-line">
+                            (...But, why do you, specifically, need to defeat the King, why would everyone's wish revolve around--)
+                        </p>
+                        <p class="dialogue-line">
+                            (No, don't think about it, this is definitely it.)
+                        </p>
+                        <p class="dialogue-line">
+                            (THIS IS IT!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (If they all wished for you to defeat him. And you're the only one stuck in this loop.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Then.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Then?)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (Then you need to do it yourself. Fight him and tear him to pieces and rip his hair out and reach into his chest and kill!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (It always comes back to him, doesn't it!!! It's his fault you're here!!! It's his fault you can't escape!!! It's his fault so many people are suffering!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (There you go, hahaha! That's a theory! That's a goal!)
+                        </p>
+                        <p class="dialogue-line">
+                            (You just need to make sure Mirabelle doesn't deal the final hit! That's all you need! That's all you BLINDING NEED--)
+                        </p>
+                        <p class="dialogue-line">
+                            (Aaah, but it's okay, right? It's fine, isn't it?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Even if the entire country wished for you to be here... It's okay, isn't it?)
+                        </p>
+                        <p class="dialogue-line">
+                            (Because your family is here?)
+                        </p>
+                        <p class="dialogue-line">
+                            (You can stay with them forever?)
+                        </p>
+                        <p class="dialogue-line">
+                            (It's fine, as long as you're with them.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You can live with this, as long as you're with them.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine, as long as you're with them.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine, aren't you?)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (. . .)
+                        </p>
+                        <p class="dialogue-line">
+                            (...But...)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (But this thought... IS NOT ENOUGH FOR YOU TO GO ON ANYMORE!!!!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (YOU WANT TO BE WITH YOUR FAMILY!!! NOT WITH THOSE FICTIONAL CHARACTERS THAT HAVE TAKEN THEIR PLACE!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (THEY CAN NEVER CHANGE! THEY CAN NEVER FIND OUT! THEY CAN NEVER TRULY SEE YOU! THEY CAN ONLY REPEAT THE SAME LINES OVER AND O
+                            AND OVER, BECAUSE THAT'S ALL THEY CAN DO, BECAUSE YOU WON'T EVEN ALLOW THEM TO DO OTHERWISE--)</i></p>
+                        <p class="dialogue-line">
+                            (IF ONLY MIRABELLE DIDN'T DEAL THE FINAL HIT EVERY TIME... IF ONLY SHE...!!!!!!)
+                        </p>
+                        <p class="dialogue-line">
+                            (If only)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (If only you knew if only the wish wasn't broken if only you could get to the king deal the final hit end it all and finally you'll be with your family forever and you'll be okay and you can just end it all you just need to get<br>
+                            to the king deal the final hit make the wish come true make sure it all loops around you kill the king rip him to pieces for making you remember for making you see for not understanding for killing bonnie for getting in your<br>
+                            blinding way every time you just need to kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him kill him you just)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (need to get to the end)
+                        </p>
+                        <p class="dialogue-line">
+                            (and win)
+                        </p>
+                        <p class="dialogue-line">
+                            (and make sure everyone's wish comes true)
+                        </p>
+                        <p class="dialogue-line">
+                            (you just)
+                        </p>
+                        <p class="dialogue-line">
+                            (you just need to)
+                        </p>
+                        <p class="dialogue-line">
+                            (You just need to defeat the King on your own.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You're fine.)
+                        </p>
+                        <p class="dialogue-line">
+                            (Get up, Siffrin.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You have&nbsp; a country&nbsp; to save)
+                        </p>
+                    </div>
+
+                    <br>
+
+                    <p>
+                        Siffrin gets up and walks toward town. They bump into Mirabelle.
+                    </p>
+
+                    <br>
+
+                    <div class="dialogue">
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            Oh, Siffrin! You're awake!
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(happy1)</span>
+                            </span>
+                            Hehe, I thought you were napping, so I was just--
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(TS_fake1)</span>
+                            </span>
+                            --About to wake me up.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward2)</span>
+                            </span>
+                            Ah, yes! I'm... Sorry? I hope that's okay...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious2)</span>
+                            </span>
+                            . . .
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward2)</span>
+                            </span>
+                            W-Well, um... I had an idea for tonight, and I--
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(TS_fake1)</span>
+                            </span>
+                            To all meet at the Clocktower for a sleepover.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious3)</span>
+                            </span>
+                            Y-Yes? Oh, did you have... The same idea?
+                        </p>
+                        <p class="dialogue-line">
+                            (You nod.)
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(awkward2)</span>
+                            </span>
+                            ...Okay... Well, I won't keep you, then...
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(hm1)</span>
+                            </span>
+                            Um, let's all meet at the Clocktower later, then, alright?
+                        </p>
+                        <p class="dialogue-note">
+                            Mirabelle exits the scene to the north.
+                        </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Mirabelle</span>
+                                <span class="dialogue-expression">(anxious2)</span>
+                            </span>
+                            T-Talk to you later!
+                        </p>
+                        <p class="dialogue-line">
+                            (...)
+                        </p>
+                        <p class="dialogue-line">
+                            (Mirabelle.)
+                        </p>
+                        <p class="dialogue-line">
+                            (...)
+                        </p>
+                        <p class="dialogue-line">
+                            (You need&nbsp; your family's strength)
+                        </p>
+                        <p class="dialogue-line">
+                            (Yes, you need to kill the King before Mirabelle, but)
+                        </p>
+                        <p class="dialogue-line">
+                            (you don't want to be here anymore.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You have to get to the King as fast as possible, get him close to death as fast as possible.)
+                        </p>
+                        <p class="dialogue-line">
+                            (And for that,)
+                        </p>
+                        <p class="dialogue-line">
+                            (You need to make sure everyone else is strong enough.)
+                        </p>
+                        <p class="dialogue-line">
+                            (You need&nbsp; to make sure&nbsp; they're all as powerful as they can be.)
+                        </p>
+                        <p class="dialogue-line">
+                            (So.)
+                        </p>
+                    </div>
+
+
+            </main>
+
+            <foot-er></foot-er>
+
+        </div>
+
+    </body>
 
 </html>
