@@ -27,10 +27,10 @@ class Header extends HTMLElement {
 
                         <h2>Font Changers</h2>
                         <button onclick="changeFontStyle(null)">Default</button>
-                        <button onclick="changeFontStyle('VCR_OSD_MONO')">ISAT Font</button>
+                        <button onclick="changeFontStyle('VCR_OSD_MONO')"><abbr title="In Stars and Time">ISAT</abbr> Font</button>
                         <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
 
-                        <h2>The ISAT script</h2>
+                        <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
                         <ul>
                             <li><a href="/about.html">About</a></li>
                             <li><a href="/feed.txt">RSS Feed</a></li>
