@@ -67,15 +67,14 @@ button {
  */
 
 :root {
-    --header-image: url('https://felicitations.neocities.org/header.png');
-    --body-bg-image: url('https://felicitations.neocities.org/background.png');
+    --header-image: url('/header.png');
+    --body-bg-image: url('/background.png');
 
     /* colors */
     --content: #43256E;
 }
     
 body {
-    /* you can delete the line below if you'd prefer to not use an image */
     color: white;
     background-image: var(--body-bg-image);
     font-family: 'CascadiaCode';
@@ -95,16 +94,16 @@ body {
 .dialogue {
     font-family: 'VCR_OSD_MONO';
     font-size: 22px;
-	border: 15px solid transparent;
-    border-image: url("/border.png") 15 round;
+	border: 13px solid transparent;
+    border-image: url("/border.png") 14 round;
 }
 .dialogue-option {
     margin: 0.5em;
     padding: 0.5em;
 	border: 3px solid transparent;
-    border-image: url("/border-choice.png") 3 round;
+    border-image: url("/border-choice.png") 3 stretch;
 }
-.dialogue-option::marker {
+.dialogue-option::marker { /* why won't the marker DIE */
     display: none;
     opacity: 0.0;
 }
@@ -138,7 +137,9 @@ body {
 .big {
     font-size: bigger;
 }
-
+.indented {
+    margin-left: 2em;
+}
 
 
 
