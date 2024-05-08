@@ -205,6 +205,7 @@ body {
     width: 100%;
     background-color: #434343;
     font-family: 'VCR_OSD_MONO' !important;
+    position: sticky;
 
     /*
      * Personal note:
@@ -214,10 +215,9 @@ body {
 }
 
 #headerArea {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
     z-index: 1;
+    position: static;
 }
 
 /* navigation section!! */
@@ -225,6 +225,7 @@ body {
     min-height: 40px;
     width: 100%;
     background-color: #434343; /* navbar color */
+    position: static;
 }
 
 #navbar ul {
@@ -255,6 +256,7 @@ body {
     display: flex;
     float: left;
     height: 100%;
+    position: sticky;
 }
 
 /* 
@@ -266,6 +268,8 @@ aside {
     width: 200px;
     padding: 20px;
     font-size: smaller; /* makes sidebar text slightly smaller */
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
 }
 
 
@@ -287,6 +291,7 @@ main {
 
 #leftSidebar {
     order: 1;
+    position: sticky;
 }
 
 #rightSidebar {
