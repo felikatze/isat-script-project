@@ -23,64 +23,3104 @@
 
 <h1>Game Over</h1>
 
-<p><i>Lines and dialogues surrounding dying, the game over screen, and what comes immediately after.</i></p>
+<p>The game over screen, and what comes immediately after. Does not include the actual dying, for the most part. See respective pages linked in individual sections for that.</p>
 <p><b>Due to the subject matter, this page contains referneces to suicide, self harm, and graphic violence.</b></p>
-<p><b>Sources:</b> Common Events 67 (ITEM_suicide), 88 (MonsterDefeat), 90 (KingLose), 104 (LOOP_loopbackDialogue), 106 (GAMEOVER_Picture), 108 (GAMEOVER_Teleport).</p>
+<p><b>Sources:</b> Common Events 88 (MonsterDefeat), 90 (KingLose), 104 (LOOP_loopbackDialogue), 106 (GAMEOVER_Picture), 108 (GAMEOVER_Teleport), 119 (LoopBackTo?Text).</p>
 
 <br>
 
-<p><i>For death events tied to specific story moments, see <a href="/rooms/dormont/meadow.html">Meadow Events</a>.</i></p>
+<p>For death events tied to specific story moments, see <a href="/rooms/dormont/meadow.html">Meadow Events</a>.</p>
 
 <br>
 
 <h1>Index</h1>
 
-GAME OVER Screen
-Banana
-Monster
-King
-Tears
-The End
-Rock Trap
-Pineapple
-Dagger
-The End, Friendquest Edition
+<ul>
+  <li><a href="#gameover">Game Over Screen</a>
+    <ul>
+      <li><a href="#screen">Game over screen text</a></li>
+      <li><a href="#map">Teleport select text</a></li>
+      <li><a href="#tuto">Looping tutorial</a></li>
+      <li><a href="#funsies">Special game over messages</a></li>
+      <li><a href="#quit">Quitting</a></li>
+    </ul>
+  <li><a href="#banana">Banana</a></li>
+  <li><a href="#dagger">Dagger</a></li>
+  <li><a href="#end">The End</a></li>
+  <li><a href="friendquest">The End, Friendquest variant</a></li>
+  <li><a href="#king">King</a></li>
+  <li><a href="#pineapple">Pineapple</a></li>
+  <li><a href="#rock">Rock Trap</a></li>
+  <li><a href="#sadness">Sadness</a></li>
+  <li><a href="#tears">Tears</a></li>
+  <li><a href="#special">Special Events</a>
+    <ul>
+      <li><a href="#loops">Loop Milestones</a></li>
+      <li><a href="#skip">Skipping loops</a></li>
+      <li><a href="#name">What's her name?</a></li>
+    </ul>
+</ul>
 
+<hr>
 
 <h1 id="gameover">Game Over Screen</h1>
 <p>The limbo inbetween loops.</p>
 
-<h1 id="banana">Banana</h1>
-<p><i>Slipping on the banana peel.</i></p>
-<p><i>For the dying part, see <a href="/rooms/dormont/center">central Dormont</a> (WIP)</i></p>
+<h2 id="screen">Game over screen text</h2>
 
-<h1 id="dagger">Dagger</h1>
-<p><i>Using the dagger.</i></p>
-<p><i>For the dying part, see <a href="/random/souvenirs1.html#dagger">Souvenirs 1</a>.</i></p>
+<p class="dialogue-note">
+  The screen consists of an animation of Siffrin floating in place, a game over message reflecting their death beneath him.
+</p>
 
-<h1 id="end">The End</h1>
-<p><i>Reaching the ending by talking to Euphrasie.</i></p>
-<p><i>For the dying part, see <a href="/rooms/end/euphrasie.html">Euphrasie</a>.</i></p>
+<p class="dialogue-note">
+  Underneath that are two options.
+</p>
 
-<h1 id="friendquest">The End, Friendquest Edition</h1>
-<p><i>Reaching the ending by talking to Euphrasie in a loop with all Friendquests completed.</i></p>
-<p><i>For the dying part, see <a href="/rooms/end/euphrasie.html">Euphrasie</a>.</i></p>
+<ul>
+  <li class="dialogue-option">START AGAIN</li>
+  <li class="dialogue-option">QUIT</li>
+</ul>
 
-<h1 id="king">King</h1>
-<p><i>Dying to the King in battle.</i></p>
-<p><i>For the first death relating to the ACT 2 storyline or to  <a href="/acts/act3-4/kingquest.html">Kingquest</a>, see <a href="/public/rooms/dormont/meadow.html">Meadow Events</a>.</i></p>
+<hr>
 
+<h2 id="map">Teleport select text</h2>
+<p>For the map where you choose where to loop back to.</p>
 
-<h1 id="rock">Rock Trap</h1>
-<p><i>Being crushed by the trap in the Death Corridor.</i></p>
-<p><i>For the special death in ACT 1, see (WIP)</i></p>
-<p><i>For the dying part, see, uh (WIP)</i></p>
+<h3>Available locations</h3>
 
-
-<h1 id="sadness">Sadness</h1>
-<p><i>Dying to a Sadness in battle. Does not differ between generic enemies and bosses.</i></p>
+<ul>
+  <li class="dialogue-option">DORMONT</li>
+  <li class="dialogue-option">FLOOR 1</li>
+  <li class="dialogue-option">FLOOR 2</li>
+  <li class="dialogue-option">FLOOR 3</li>
+  <li class="dialogue-option">THE KING</li>
+</ul>
 
 <br>
+
+<h3>Looping back without keys</h3>
+
+<p class="dialogue-line">
+  [LOOP BACK TO [location]?]
+</p>
+
+<br>
+
+<h3>Looping back with keys</h3>
+
+<p class="dialogue-line">
+  [LOOP BACK TO [location] WITH ALL DOORS OPENED?]
+</p>
+
+<br>
+
+<h3>Looping forwards without keys</h3>
+<p class="dialogue-note">
+  Memories of Skrimish are referred to in game like this with a sparkle, but I can't do that without getting fancy, so they'll be called [memories].
+</p>
+
+<br>
+
+<p class="dialogue-line">
+  USE [number] [memories] TO LOOP FORWARDS TO [location]?]
+</p>
+
+<br>
+
+<h3>Looping forwards with keys</h3>
+<p class="dialogue-line">
+  USE [number] [memories] TO LOOP FORWARDS TO [location] WITH ALL DOORS UNLOCKED?]
+</p>
+
+<br>
+
+<h3>Not enough Memories to loop forwards</h3>
+
+<p class="dialogue-line">
+  DON'T HAVE ENOUGH [memories].
+</p>
+
+<br>
+
+<h3>Selection options</h3>
+
+<ul>
+  <li class="dialogue-option">YES</li>
+  <li class="dialogue-option">NO</li>
+</ul>
+
+<hr>
+
+<h2 id="tuto">Looping tutorial</h2>
+<p>Loop's tutorial on looping to specific spots anytime you loop after that first time touching a tear.</p>
+
+<br>
+
+<div class="dialogue">
+
+  <p class="dialogue-line">
+    (You see something appear before you...)
+  </p>
+
+  <p class="dialogue-line">
+    (This is... Dormont? And the House?)
+  </p>
+
+  <p class="dialogue-line">
+    (Can you decide where to loop back...?)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    [Heya, stardust! Welcome back!]
+  </p>
+
+  <p class="dialogue-line">
+    [Here's something I forgot to mention before. It'll save you time, so it's important, so listen up!]
+  </p>
+
+  <p class="dialogue-line">
+    [Do you see the House, now? Do you see how you can loop to specific moments, specific places?]
+  </p>
+
+  <p class="dialogue-line">
+    [Looping backwards in time is a piece of cake for you, but looping FORWARDS in time is going to be a little harder. You're going against the loops' will, after all.]
+  </p>
+
+  <p class="dialogue-line">
+    [To be able to move forwards in time when you die, you'll need to use up some of your Memories!]
+  </p>
+
+  <p class="dialogue-line">
+    [Do you see that little star symbol, at the bottom of the screen? It shows you how many Memories you have at your disposal.]
+  </p>
+
+  <p class="dialogue-line">
+    [Trying to get farther than where you just died will cost you some Memories, so make sure you have enough Memories to spend!]
+  </p>
+
+  <p class="dialogue-line">
+    [...Oh, I can sense you're panicking. Don't worry!]
+  </p>
+
+  <p class="dialogue-line">
+    [This won't use up the good, fun memories you have of your party. Just the boring, useless memories you have of your battles.]
+  </p>
+
+  <p class="dialogue-line">
+    [Have you noticed? For each battle you've fought, you've gained one Memory of Skirmish. And those are the memories you can use to loop forwards!]
+  </p>
+
+  <p class="dialogue-line">
+    [Over time, you'll fight some battles that'll earn you even more memories. Isn't that neat?]
+  </p>
+
+  <p class="dialogue-line">
+    [Wow, look at me, yapping and yapping. I'll condense all of that information in one sentence!]
+  </p>
+
+  <p class="dialogue-line">
+    [To loop forwards in time, you'll need Memories, which you gain every time you win a battle!]
+  </p>
+
+  <br>
+  
+  <h4>If you advanced to the next floor by this point:</h4>
+
+  <p class="dialogue-line">
+    [And, by the way, you opened a floor's gate! Good work, good work.]
+  </p>
+
+  <p class="dialogue-note">
+    This skips to <a href="#key">this point</a>.
+  </p>
+
+  <br>
+
+  <h4>If not:</h4>
+
+  <p class="dialogue-line">
+    [Okay, that's it for now! Bye, stardust!!!]
+  </p>
+
+  <hr>
+
+  <h3>Trying to select Dormont during the tutorial</h3>
+
+  <p class="dialogue-line">
+    (You can see the village of Dormont.)
+  </p>
+
+  <p class="dialogue-line">
+    (Something is keeping you from getting there right now...)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    [It's me. Tee-hee!]
+  </p>
+
+  <p class="dialogue-line">
+    [Don't worry, I promise you'll get to loop back to Dormont at some point. But it's tutorial time now! You have no choice!]
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Urgh.)
+  </p>
+
+  <hr>
+
+  <h3>If you advanced to the next floor</h3>
+  <h4>If you did not unlock the next floor during the first loop tutorial</h4>
+
+  <p class="dialogue-line">
+    [Heya stardust!]
+  </p>
+
+  <p class="dialogue-line">
+    [Wow, you opened a floor's gate! Good work, good work.]
+  </p>
+
+  <hr>
+
+  <h4 id="key">Regardless if this is the first or second tutorial</h4>
+
+  <p class="dialogue-line">
+    [If you managed to open a floor's gate, in the future, when you loop back, you'll be able to get to that floor with most doors open by using Memories!]
+  </p>
+
+  <p class="dialogue-line">
+    [Pretty useful if you're too lazy to find all those keys again!]
+  </p>
+
+  <p class="dialogue-line">
+    [To unlock all those doors, press [button] on this map screen. Do it! Do it!!! Well, not now, I'm talking. Okay, NOW!]
+  </p>
+
+
+</div>
+
+
+<h2 id="funsies">Special game over messages</h2>
+<p>When dying, the game rolls a random number between 1 and 50. It adds +2 to the number in ACT 2, +3 in ACT 3, and +5 in ACT 4. If the number hits exactly 51, one of these messages is displayed.</p>
+<p>These can override all messages excluding the ones related to Kingquest and Friendquests.</p>
+
+<br>
+
+<div class="dialogue">
+
+  <ul>
+    <li class="dialogue-option">(You died.)</li>
+    <li class="dialogue-option">(You don't know how long you can keep doing this.)</li>
+    <li class="dialogue-option">(You've heard this one before.)</li>
+    <li class="dialogue-option">(You are stuck in a prison of your own making.)</li>
+    <li class="dialogue-option">(The end is inevitable. You play along.)</li>
+    <li class="dialogue-option">(You're out of time.)</li>
+    <li class="dialogue-option">(You feel a tug on your stomach.)</li>
+  </ul>
+</div>
+
+<hr>
+
+<h2 id="quit">Quitting</h2>
+<p>Selecting "Quit" on the game over screen.</p>
+
+<br>
+
+<div class="dialogue">
+
+  <ul>
+    <li class="dialogue-option"><b>Only option in ACT 2, unavailable in ACT 4:</b> (You cannot quit.)</li>
+    <li class="dialogue-option"><b>1/10 in ACT 3, 1/3 in ACT 4:</b> (YOU CANNOT ESCAPE.)</li>
+    <li class="dialogue-option"><b>2/3 in ACT 4:</b> (GET BACK TO THE STAGE.)</li>
+    <li class="dialogue-option"><b>Unused:</b> (FOLLOW THE SCRIPT.)</li>
+  </ul>
+</div>
+
+<hr>
+
+<h1 id="banana">Banana</h1>
+<p>Slipping on the banana peel.</p>
+<p>For the dying part, see <a href="/rooms/dormont/center">central Dormont</a> (WIP)</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <ul>
+    <li class="dialogue-option"><b>Forced the first time:</b> (You slipped on a banana peel.)</li>
+    <li class="dialogue-option">(You broke your head open on a rock.)</li>
+    <li class="dialogue-option"><b>Possible in ACT 3 onwards:</b> (You're a living comedy sketch.)</li>
+  </ul>
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Truly a dangerous forbidden fruit.)
+  </p>
+
+  <p class="dialogue-line">
+    (But since death seems to be the easiest way to loop, this banana peel might come in useful sometime...)
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (The banana killed you again.)
+  </p>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 2</h3>
+
+  <p class="dialogue-line">
+    (The banana killed you again.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-note">At random:</p>
+  
+  <ul>
+    <li class="dialogue-option">(You're so clumsy, tee-hee!)</li>
+    <li class="dialogue-option">(You feel a little dumb.)</li>
+    <li class="dialogue-option">(Once again, vanquished by the mighty banana.)</li>
+    <li class="dialogue-option">(Thank the stars no one's here to see you die from a banana like a stupid character from a play.)</li>
+    <li class="dialogue-option">(Oh, the embarrassment. Oh, the despair.)</li>
+  </ul>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 3</h3>
+  
+  <p class="dialogue-note">At random:</p>
+  
+  <ul>
+    <li class="dialogue-option">(What a delicious death.)</li>
+    <li class="dialogue-option">(Looping back resets your wounds, but your neck still hurts.)</li>
+    <li class="dialogue-option">(You're annoyed there isn't a more dignified way to loop back in the village.)</li>
+  </ul>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 4</h3>
+  
+  <p class="dialogue-note">At random:</p>
+  
+  <ul>
+    <li class="dialogue-option">
+      (You wonder if you'll ever be able to stomach bananas again.)</li>
+    <li class="dialogue-option">(You'll never be able to stomach the scent of bananas without throwing up.)"</li>
+    <li class="dialogue-option">(Hahaha! He fell and broke his neck again! Hilarious!!!)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h1 id="dagger">Dagger</h1>
+<p>Using the dagger.</p>
+<p>For the dying part, see <a href="/random/dagger.html">Your Dagger</a>.</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <h3>First three times</h3>
+
+  <p class="dialogue-line">
+    (You killed yourself.)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards</h3>
+
+  <p class="dialogue-line">
+    (You saved yourself some time.)
+  </p>
+
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (. . .)
+  </p>
+
+  <p class="dialogue-line">
+    (Hahaha, well, that wasn't instant!)
+  </p>
+
+  <p class="dialogue-line">
+    (This felt like forever!)
+  </p>
+
+  <p class="dialogue-line">
+    (Endless seconds, bleeding out, having to watch your [allies/family members] watch you die!)
+  </p>
+
+  <p class="dialogue-line">
+    (Felt like the end! Coming and staying!)
+  </p>
+
+  <p class="dialogue-line">
+    (Ah, but it's fine, though.)
+  </p>
+
+  <p class="dialogue-line">
+    (Being able to loop back whenever you want is great, isn't it? Isn't it?)
+  </p>
+
+  <p class="dialogue-line">
+    (It's fine, it's fine, you're fine, hahaha!!!)
+  </p>
+  
+  <p class="dialogue-line">
+    (You feel like throwing up.)
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (Ow, ow, ow, it hurts, it hurts still.)
+  </p>
+
+  <p class="dialogue-line">
+    (You're getting the hang of it, but it felt terrible.)
+  </p>
+
+  <p class="dialogue-line">
+    (Felt like the end.)
+  </p>
+
+  <p class="dialogue-line">
+    (You breathe in, and out, and in, and out.)
+  </p>
+
+  <hr>
+
+  <h3>Third time onward, ACT 2</h3>
+
+  <p class="dialogue-line">
+    (This felt awful!)
+  </p>
+
+  <p class="dialogue-line">
+    (It felt like breathing out, slowly, painfully.)
+  </p>
+
+  <hr>
+
+  <h3>Third time onward, ACT 3</h3>
+
+  <p class="dialogue-line">
+    (Aaaah...)
+  </p>
+
+  <ul>
+    <li class="dialogue-option">(It felt like popping a balloon! Like getting emptier, emptier, emptier!!!)</li>
+    <li class="dialogue-option">(It felt like stabbing raw meat! Again and again!!!)</li>
+    <li class="dialogue-option">(It felt like dying, and then like nothing! And knowing you put yourself there!!!)</li>
+  </ul>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <h3>First time in ACT 4</h3>
+  <p class="dialogue-note">The first use of the dagger in ACT 4 that is not the first and second total use.</p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Aaaah...)
+  </p>
+
+  <p class="dialogue-line">
+    (Why waste time monologuing about how it felt?)
+  </p>
+
+  <p class="dialogue-line">
+    (That's not the point of this whole stabbing business, isn't it?)
+  </p>
+
+  <p class="dialogue-line">
+    (You're doing this because it's faster and more convenient than any other way to kill yourself.)
+  </p>
+
+  <p class="dialogue-line">
+    (A knife right to your neck, near instant death, whenever you want! Whenever you choose! Or your money back, teehee!!!!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (It'll be even faster next time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to the stage.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times in ACT 4</h3>
+
+  <p class="dialogue-line">
+    (Back to the stage.)
+  </p>
+
+</div>
+
+<hr>
+
+<h1 id="end">The End</h1>
+<p>Reaching the ending by talking to Euphrasie.</p>
+<p>For the dying part, see <a href="/rooms/end/euphrasie.html">Euphrasie</a>.</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <h3>First time (ACT 2)</h3>
+
+  <p class="dialogue-line">
+    (YOU FEEL A TUG ON YOUR STOMACH.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times</h3>
+  
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option">(The curtain falls.)</li>
+    <li class="dialogue-option">(Something's broken, failing, rotting.)</li>
+    <li class="dialogue-option">(You got to the end.)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+  <h3>ACT 3</h3>
+  
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back here again.)
+  </p>
+
+  <p class="dialogue-line">
+    (At this rate you'll know her entire lines by heart.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back here again.)
+  </p>
+
+  <p class="dialogue-line">
+    (Time to play.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back here again.)
+  </p>
+
+  <p class="dialogue-line">
+    (Performing is getting tiring.)
+  </p>
+
+  <hr>
+
+  <h3>ACT 4</h3>
+  
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (The curtain rises once more.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Act I, Scene I. Dormont.)
+  </p>
+
+  <p class="dialogue-line">
+    (Siffrin is laying on the grass. They look at the sky for a bit, then get up.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Encore, encore, encore!)
+  </p>
+
+</div>
+
+<hr>
+
+<h1 id="friendquest">The End, Friendquest variant</h1>
+<p>Reaching the ending by talking to Euphrasie in a loop with all Friendquests completed.</p>
+<p>For the dying part, see <a href="/rooms/end/euphrasie.html">Euphrasie</a>.</p>
+<p>For the first time completing all Friendquests, see <a href="/rooms/dormont/meadow.html#friendquest">Meadow Events</a>.</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (In this moment, you were loved.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times</h3>
+
+  <p class="dialogue-line">
+    (Again, again, again!)
+  </p>
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (You're back here.)
+  </p>
+
+  <p class="dialogue-line">
+    (You're happy to have helped everyone become the best versions of themselves again!)
+  </p>
+
+  <hr>
+
+  <h3>Third time</h3>
+
+  <p class="dialogue-line">
+    (You're back here.)
+  </p>
+
+  <p class="dialogue-line">
+    (It was fun! Helping everyone is so much fun! But...)
+  </p>
+
+  <p class="dialogue-line">
+    (You missed your cue a few times, didn't you?)
+  </p>
+
+  <p class="dialogue-line">
+    (That was a nice rehearsal, but you bet you could help everyone even better next time!!!)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option">(Let's run through this one more time!!!)</li>
+    <li class="dialogue-option">(The actor has become the director!!!)</li>
+    <li class="dialogue-option">(Good show, good show, good show!!!)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h1 id="king">King</h1>
+<p>Dying to the King in battle.</p>
+
+<br>
+
+<h2>Dying</h2>
+
+<div class="dialogue">
+
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (One hit.)
+  </p>
+
+  <p class="dialogue-line">
+    (One hit.)
+  </p>
+
+  <p class="dialogue-line">
+    (The King got you all in one hit.)
+  </p>
+
+  <p class="dialogue-line">
+    (You'd laugh if you had the energy to do so.)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't move.)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't see.)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't really&nbsp; feel anything, either.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't think you'll get out of this one.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Isabeau</span>
+    </span>
+    Urgh...!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Isabeau</span>
+    </span>
+    Sif...
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    We can't... Let it end this way...
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    Come on, you useless body... Move...!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (No, no, your allies, they're...)
+  </p>
+
+  <p class="dialogue-line">
+    (No, you can't let him)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't let the King hurt them)
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Mirabelle</span>
+    </span>
+    Bonnie... Just run...!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (The sound&emsp; of footsteps.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    They escaped... We need to buy them time...!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (No, please, not your allies)
+  </p>
+
+  <p class="dialogue-line">
+    (You have to do something)
+  </p>
+
+  <p class="dialogue-line">
+    (Move)
+  </p>
+
+  <p class="dialogue-line">
+    (Move)
+  </p>
+
+  <p class="dialogue-line">
+    (Move!!!!!!!)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Mirabelle</span>
+    </span>
+    Please... Do whatever you want with us...
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Mirabelle</span>
+    </span>
+    But don't hurt Bonnie... Please...
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Oh, ooooooh.....
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Do not worry. After I take care of you all......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    The young one will have a wonderful rest.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    But before that...
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (The King...)
+  </p>
+
+  <p class="dialogue-line">
+    (STRIKES.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-note">
+    The sound of a hit.
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Ahh...
+  </p>
+
+  <p class="dialogue-line">
+    (Ahh... AAAAAAAAAAAAAAAH!!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (EVERYTHING HURTS!!!!!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (YOU CAN'T MOVE!!!! IT HURTS!!!!! IT HURTS!!!!!!!)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS IT HURTS it hurts it hurts it hurts&nbsp; it&ensp;&nbsp;h urts&ensp;&nbsp;it&emsp;h&nbsp; u r t&emsp;s&emsp;&ensp;&nbsp;i&ensp;&nbsp;t&emsp;h&emsp;&nbsp;u)
+  </p>
+
+  <p class="dialogue-line">
+    (you feel&nbsp; a tug&nbsp; on your&nbsp; stomach)
+  </p>
+
+  <p class="dialogue-line">
+    (and&emsp;&emsp;&ensp;&nbsp;then    
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (The King&nbsp; got you again.)
+  </p>
+
+  <p class="dialogue-line">
+    (You'd forgotten the pain, but...)
+  </p>
+
+  <p class="dialogue-line">
+    (At least&nbsp; you can move a little&nbsp; this time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Stars, it hurts.)
+  </p>
+
+  <p class="dialogue-line">
+    (It hurts.)
+  </p>
+
+  <p class="dialogue-line">
+    (It hurts it hurts it hurts it hurts it hurts.)
+  </p>
+
+  <p class="dialogue-line">
+    (You try to speak.)
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Bonnie..."
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Run away..."
+  </p>
+
+  <br>
+  
+  <p class="dialogue-line">
+    (Silence, and then footsteps.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    Come on, you useless body... Move...!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Bonnie ran away.)
+  </p>
+
+
+  <p class="dialogue-line">
+    (Bonnie&nbsp; must be safe now)
+  </p>
+
+  <p class="dialogue-line">
+    (And so&nbsp; before the King strikes)
+  </p>
+
+  <p class="dialogue-line">
+    (You&emsp; let&emsp; go.)
+  </p>
+
+  <hr>
+  
+  <h3>Third time</h3>
+
+  <p class="dialogue-line">
+    (Here again.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Bonnie, run."
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    N-No!!! I-I can't--
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    Just run, Boniface!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Do not worry......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    I will give the young one time.
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (That's the best you can do.)
+  </p>
+
+  <p class="dialogue-line">
+    (Stars, it hurts, it hurts, but you're getting used to it.)
+  </p>
+
+  <hr>
+
+  <h4>Regular</h4>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "King..."
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "..."
+  </p>
+
+  <hr>
+
+  <h4>After asking <a href="/acts/act3-4/kingquest.html#remember">"What should I remember?"</a> in Kingquest</h4>
+  
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "King..."
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "What am I... Supposed to remember...?"
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    . . . . . . Bright one......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    As you lay there, dying...... What do you see?
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (...Nothing.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "The ceiling."
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You hear Isabeau laugh, tiredly.)
+  </p>
+
+  <p class="dialogue-line">
+    (Hearing it, you laugh, too.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    ......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Oh, oooooooooh...... So...... Even death will not bring it back.....
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    I knew this...... I knew this, and yet......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Ooooh, oooooooohhhh......!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (The King&emsp; strikes.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times, ACT 2</h3>
+
+  <p class="dialogue-line">
+    (Here again.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Bonnie, run."
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    N-No!!! I-I can't--
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    Just run, Boniface!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Do not worry......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    I will give the young one time.
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (That's the best you can do.)
+  </p>
+
+  <p class="dialogue-line">
+    (You just have to wait for the end, now.)
+  </p>
+
+  <p class="dialogue-line">
+    (...Hearing the dying words of your friends&nbsp; isn't your favorite.)
+  </p>
+
+  <p class="dialogue-line">
+    (You want to cry.)
+  </p>
+
+  <p class="dialogue-line">
+    (But you can't do anything. Can't make it go faster.)
+  </p>
+
+  <p class="dialogue-line">
+    (You just have to wait.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Ooooh, oooooooohhhh......!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You feel a tug on your stomach already.)
+  </p>
+
+  <p class="dialogue-line">
+    (The King&emsp; strikes.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times, ACT 3</h3>
+
+  <p class="dialogue-line">
+    (Here again.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Bonnie, run."
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    N-No!!! I-I can't--
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    Just run, Boniface!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Bonnie</span>
+    </span>
+    ...!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    Do not worry......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    I will give the young one time.
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (That's the best you can do.)
+  </p>
+
+  <p class="dialogue-line">
+    (Now...)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "King..."
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    ......
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "Could you kill me first?"
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "I'd appreciate it."
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    ......Of course, bright one.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">King</span>
+    </span>
+    May death bring it all back.
+  </p>
+
+  <br>
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option">(So generous.)</li>
+    <li class="dialogue-option">(Real heart of gold, that one.)</li>
+    <li class="dialogue-option">(What a sweetheart.)</li>
+  </ul>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You'll get him for it soon anyway.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Mirabelle</span>
+    </span>
+    SIFFRIN?!?
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Isabeau</span>
+    </span>
+    No, NO, SIF!!!!!!!
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Odile</span>
+    </span>
+    No, STOP IT, SIFFRIN!!!!!!!!!
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You feel a tug on your stomach already.)
+  </p>
+
+  <p class="dialogue-line">
+    (The King&emsp; strikes.)
+  </p>
+
+  <hr>
+
+  <h3>After Kingquest</h3>
+
+  <p class="dialogue-line">
+    (You make sure to loop back before anything happens to anyone.)
+  </p>
+
+</div>
+
+<hr>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+
+  <h3>Regular</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option"><b>Forced the first time:</b> (The King killed you.)</li>
+    <li class="dialogue-option">(The King killed you again.)</li>
+    <li class="dialogue-option">(One more time.)</li>
+  </ul>
+
+  <hr>
+
+  <h3>After trying to <a href="/acts/act3-4/kingquest.html#sayit">say the country's name</a></h3>
+
+  <p class="dialogue-line">
+    (BUT IT'S ALL GONE!!!!!!!)
+  </p>
+
+  <hr>
+
+  <h3>After <a href="/acts/act3-4/kingquest.html#kingfinal">Bonnie</a></h3>
+
+  <p class="dialogue-line">
+    (GO BACK GO BACK GO BACK GO BACK)
+  </p>
+
+
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<hr>
+
+<div class="dialogue">
+
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Woah, hahaha! Woohoo!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (THAT WAS AWFUL!!!!!!!!!!!!!!!!!!!!!!!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (You try to catch your breath.)
+  </p>
+
+  <p class="dialogue-line">
+    (Your body is fine and unharmed, but your brain still hasn't gotten the message, it seems.)
+  </p>
+
+  <p class="dialogue-line">
+    (Stars, this was awful!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (Did he really kill you in one strike? This feels a little disrespectful, doesn't it?)
+  </p>
+
+  <p class="dialogue-line">
+    (That attack was so strong!!! Why was it so strong??? HOW is he so strong???)
+  </p>
+
+  <p class="dialogue-line">
+    (That strike hit so hard, you don't think just buffing your defense with skills or equipment will be enough to survive it...)
+  </p>
+
+  <p class="dialogue-line">
+    (Is there something out there that could protect you against it? A Craft Skill, maybe?)
+  </p>
+
+  <p class="dialogue-line">
+    (...Mirabelle...)
+  </p>
+
+  <p class="dialogue-line">
+    (She's the one who usually heals you all in battle. She knows healing Crafts you've never even heard of.)
+  </p>
+
+  <p class="dialogue-line">
+    (Maybe she would know something.)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (But for now...)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You got a MEMORY OF DEFEAT!)
+  </p>
+
+  <p class="dialogue-line">
+    (You'll always remember this.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    [When equipped, Memory of Defeat gives you 3 Memories of Skirmish instead of one when you defeat regular Sadnesses!]
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Back to the stage, Siffrin.)
+  </p>
+
+  <p class="dialogue-line">
+    (You have a King to beat.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times, ACT 2</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Ow!)
+  </p>
+
+  <p class="dialogue-line">
+    (This one hurt.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't remember exactly how you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (Maybe that's your brain protecting you from terrible pain and trauma, haha!)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Ouch!)
+  </p>
+
+  <p class="dialogue-line">
+    (The King made such a fine paste out of you, you're trying to remember what it's like to have a body again.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Yeowch!)
+  </p>
+
+  <p class="dialogue-line">
+    (Scary!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't remember anyone telling you that dying was so scary!!!)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times, before finishing Kingquest</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back.)
+  </p>
+
+  <p class="dialogue-line">
+    (The King defeated you once again.)
+  </p>
+
+  <p class="dialogue-line">
+    (You remember Bonnie fleeing. Their footsteps becoming fainter and fainter.)
+  </p>
+
+  <p class="dialogue-line">
+    (If time goes on after you die, you hope... You hope...)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back.)
+  </p>
+
+  <p class="dialogue-line">
+    (You remember Isabeau's face as you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (He was scared, more than scared, he was terrified, but...)
+  </p>
+
+  <p class="dialogue-line">
+    (He was looking right at you. Like he wanted to take your pain away.)
+  </p>
+
+  <p class="dialogue-line">
+    (Oh, Isabeau.)
+  </p>
+
+  <p class="dialogue-line">
+    (Taking pain away isn't his job anymore!)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back.)
+  </p>
+
+  <p class="dialogue-line">
+    (You remember Odile.)
+  </p>
+
+  <p class="dialogue-line">
+    (She couldn't move, was facing away from you, is always facing away from you.)
+  </p>
+
+  <p class="dialogue-line">
+    (She can never move, then, can she? She can't protect any of you, can't protect herself, can't even think about it?)
+  </p>
+
+  <p class="dialogue-line">
+    (What face is she making, during those final moments?)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You're back.)
+  </p>
+
+  <p class="dialogue-line">
+    (You remember Mirabelle's face.)
+  </p>
+
+  <p class="dialogue-line">
+    (Even faced with her own end, she was looking straight at the King.)
+  </p>
+
+  <p class="dialogue-line">
+    (Unbroken, even then.)
+  </p>
+
+  <p class="dialogue-line">
+    (The King must hate that, every time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times, after Kingquest</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You remember)
+  </p>
+
+  <p class="dialogue-line">
+    (N O T H I N G)
+  </p>
+
+  <p class="dialogue-line">
+    (You close your eye and breathe in, out, in, out.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (He killed you again.)
+  </p>
+
+  <p class="dialogue-line">
+    (You remember every single time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Death is just routine.)
+  </p>
+
+  <p class="dialogue-line">
+    (You try again.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (Curse him, curse him, curse him.)
+  </p>
+
+  <p class="dialogue-line">
+    (You want to kill the King, reduce him into a fine paste grab his throat and squeeze tear his hair out until his skull is nothing left but blood and bone)
+  </p>
+
+  <p class="dialogue-line">
+    (eat all of him until there's nothing left pop his brain out of his skull strip the star from his armor and dig in and tear out his heart that's the cost of his betrayal he betrayed you)
+  </p>
+
+  <p class="dialogue-line">
+    (He betrayed you!!! He couldn't say it!!! Or maybe he did, and you couldn't hear it!!! And yet he won't repeat it!!! He knows!!! You're sure of it!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (Even now, he knows, he remembers, and he won't say a single thing!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (He should know without asking!!! How much you want to know!!!)
+  </p>
+  <p class="dialogue-line">
+    (You want him to DIE!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (And you suppose you'll get the chance to kill him yourself soon.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (Back to the stage.)
+  </p>
+
+</div>
+
+<hr>
+
+<h1 id="pineapple">Pineapple</h1>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (You choked on a pineapple slice...?)
+  </p>
+
+  <hr>
+
+  <h3>Subsequent times</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option">(You're allergic to pineapples.)</li>
+    <li class="dialogue-option">(You're hungry, still.)</li>
+  </ul>
+
+</div>
+  
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (YOU'RE ALLERGIC TO PINEAPPLES.)
+  </p>
+
+  <p class="dialogue-line">
+    (DIDN'T LOOP SAY YOU WERE ALLERGIC TO PINEAPPLES?)
+  </p>
+
+  <p class="dialogue-line">
+    (LOOP WAS RIGHT? YOU'RE ALLERGIC? WHAT?)
+  </p>
+
+  <p class="dialogue-line">
+    (Loop is gonna have a field day with this one.)
+  </p>
+
+  <p class="dialogue-line">
+    (That pineapple was pretty good, though.)
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (YOU'RE ALLERGIC, STUPID!!!!!!!)
+  </p>
+
+  <hr>
+
+  <h3>Third time onwards</h3>
+
+  <ul>
+    <li class="dialogue-option"><b>ACT 2:</b> (Yep, that sure was a great pineapple while it lasted.)</li>
+    <li class="dialogue-option"><b>ACT 3:</b> (Your mouth still feels weird.)</li>
+    <li class="dialogue-option"><b>ACT 4:</b> (You want to throw up, but your stomach is empty.)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h1 id="rock">Rock Trap</h1>
+<p>Being crushed by the trap in the Death Corridor.</p>
+<p>For the special death in ACT 1, see (WIP)</p>
+<p>For the dying part, see, uh (WIP)</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (You got crushed.)
+  </p>
+
+  <br>
+
+  <h3>Subsequent times</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option">(You forgot about the trap.)</li>
+    <li class="dialogue-option">(You felt safe.)</li>
+    <li class="dialogue-option"><b>Possible in ACT 3 onwards:</b> (You're stupid and forgetful.)</li>
+  </ul>
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (THE SWITCH!)
+  </p>
+
+  <p class="dialogue-line">
+    (You forgot to press the switch. Stupid, stupid, stupid.)
+  </p>
+
+  <p class="dialogue-line">
+    (Your whole body hurts.)
+  </p>
+
+  <hr>
+
+  <h3>Third time</h3>
+
+  <p class="dialogue-line">
+    (Forgot about the switch again!)
+  </p>
+
+  <p class="dialogue-line">
+    (Ow.)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards</h3>
+
+  <ul>
+    <li class="dialogue-option"><b>ACT 2:</b> (What is it about this switch that makes it so forgettable?)</li>
+    <li class="dialogue-option"><b>ACT 3:</b> (Stupid, stupid, stupid.)</li>
+    <li class="dialogue-option"><b>ACT 4:</b> (Can't even remember basic stage directions.)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h1 id="sadness">Sadness</h1>
+<p>Dying to a Sadness in battle. Does not differ between generic enemies and bosses.</p>
+
+<br>
+
+<h2>Dying</h2>
+<p>This text only occurs the first time you die to a Sadness.</p>
+
+<br>
+
+<div class="dialogue">
+
+  <p class="dialogue-line">
+    (It's over.)
+  </p>
+
+  <p class="dialogue-line">
+    (The Sadness looms over you all.)
+  </p>
+
+  <p class="dialogue-line">
+    (Odile is passed out.)
+  </p>
+
+  <p class="dialogue-line">
+    (Bonnie is giving Isabeau a Tonic. Isabeau, who's trying to stand up, but can't. Won't.)
+  </p>
+
+  <p class="dialogue-line">
+    (Mirabelle is-- no, she's breathing. She's fine. She'll be fine.)
+  </p>
+
+  <p class="dialogue-line">
+    (You will not.)
+  </p>
+
+  <p class="dialogue-line">
+    (You feel&emsp;&emsp;&ensp;cold.)
+  </p>
+
+  <p class="dialogue-line">
+      (Yo u &ensp; c an't&emsp;&emsp;&emsp;m o v&ensp;&nbsp;e.)
+  </p>
+
+  <p class="dialogue-line">
+    (Yo u ca n' t&ensp;&nbsp;l et&ensp;&nbsp;i&nbsp; t&nbsp; en d li k e t hi s)
+  </p>
+
+  <p class="dialogue-line">
+    (The s ad&nbsp; ness is ab out to &nbsp;stri k e)
+  </p>
+
+  <p class="dialogue-line">
+    (Y ou g rip&emsp; yo ur&emsp;&emsp;&emsp; da gge&nbsp; r)
+  </p>
+
+  <p class="dialogue-line">
+    (an d&nbsp; wi t &nbsp;h t h e la s t&nbsp;&nbsp;&nbsp;o f&ensp;&nbsp;yo&nbsp; u r&emsp; s t r e n&nbsp; g t h )
+  </p>
+
+  <p class="dialogue-line">
+    (&nbsp;y&emsp; o&emsp;&emsp;&emsp;u)
+  </p>
+
+  <br>
+
+  <p class="dialogue-note">
+    The sound of an attack, and of Siffrin hitting the ground.
+  </p>
+
+</div>
+
+<hr>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option"><b>Forced the first time:</b> (You died saving your friends.)</li>
+    <li class="dialogue-option">(A Sadness killed you.)</li>
+    <li class="dialogue-option"><b>Possible in ACT 3 onwards:</b> (Sadness tore you apart.)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Oh!)
+  </p>
+
+  <p class="dialogue-line">
+    (So even deaths like this loop you back, huh.)
+  </p>
+
+  <p class="dialogue-line">
+    (At least you managed to make sure you dealt the final blow. Everyone should've been able to continue without you...)
+  </p>
+
+  <p class="dialogue-line">
+    (... Does the world continue after you die? Or does looping restart it all?)
+  </p>
+
+  <p class="dialogue-line">
+    (You could ask Loop later...)
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't remember what happened as you died this time.)
+  </p>
+
+  <p class="dialogue-line">
+    (You vaguely remember dealing the final blow to the Sadness this time too...)
+  </p>
+
+  <p class="dialogue-line">
+    (Better try and make sure to do that every time.)
+  </p>
+
+  <p class="dialogue-line">
+    (You'd rather be the only one who dies!)
+  </p>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 2</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You died protecting Bonnie, this time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you felt nostalgic.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You didn't manage to deal the final hit before you died, this time.)
+  </p>
+
+  <p class="dialogue-line">
+    (Isabeau took care of it.)
+  </p>
+
+  <p class="dialogue-line">
+    (He screamed your name as you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (What a nice guy.)
+  </p>
+
+  <p class="dialogue-line">
+    (You know it's all been reset, but...)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel sad.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You managed to deal the final hit, before you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (If time keeps going after you die... You can only hope that they managed to get to the King.)
+  </p>
+
+  <p class="dialogue-line">
+    (. . .)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel guilty.)
+  </p>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 3</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You touch your side to make sure it's not bleeding.)
+  </p>
+
+  <p class="dialogue-line">
+    (Nothing. You're back.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel like the wound is still here.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You dealt the final hit.)
+  </p>
+
+  <p class="dialogue-line">
+    (You made sure everyone lived, even if you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel accomplished.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You saved them by dealing the final hit, but they all screamed your name as you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel like smiling.)
+  </p>
+
+  <hr>
+
+  <h3>Third time onwards, ACT 4</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (This time, you didn't have time to deal the final hit before you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (You tell the crowd in your head to stop booing.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel like running. Running so far no one could ever look at you again.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You killed the enemy before dying.)
+  </p>
+
+  <p class="dialogue-line">
+    (You heard someone plead for you not to die.)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel happy, happy, happy.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Odile dealt the final hit just before you died.)
+  </p>
+
+  <p class="dialogue-line">
+    (She really gets everything you want, doesn't she?)
+  </p>
+
+  <p class="dialogue-line">
+    (Somehow, you feel angry, guilty, pathetic.)
+  </p>
+
+</div>
+
+<hr>
+
+<h1 id="tears">Tears</h1>
+<p>Being frozen by a tear.</p>
+<p>For the first tear death in ACT 2, see... WIP.</p>
+<p>For the dying part, see <a href="/random/generic.html#tears">Generic Dialogues</a>.</p>
+
+<h2>Game over messages</h2>
+
+<div class="dialogue">
+
+  <p class="dialogue-note">At random:</p>
+
+  <ul>
+    <li class="dialogue-option"><b>Forced the first time:</b> (A Tear froze you in time.)</li>
+    <li class="dialogue-option">(You had a good sleep.)</li>
+    <li class="dialogue-option"><b>Possible in ACT 3 onwards:</b> (You froze yourself in time.)</li>
+  </ul>
+
+</div>
+
+<hr>
+
+<h2>Starting over</h2>
+
+<div class="dialogue">
+  <h3>First time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Oh, you're back!)
+  </p>
+
+  <p class="dialogue-line">
+    (For a second you were genuinely worried you weren't going to loop back, and stay frozen in time, forever.)
+  </p>
+
+  <p class="dialogue-line">
+    (Being frozen in time felt like sleeping.)
+  </p>
+
+  <p class="dialogue-line">
+    (So tears freeze you in time, and being frozen in time makes you loop back...)
+  </p>
+
+  <p class="dialogue-line">
+    (Seems like a pretty painless way to loop back whenever you please.)
+  </p>
+
+  <hr>
+
+  <h3>Second time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You wake up.)
+  </p>
+
+  <p class="dialogue-line">
+    (You yawn.)
+  </p>
+
+  <p class="dialogue-line">
+    (Who knew being frozen in time just felt like a nice nap.)
+  </p>
+
+  <hr>
+
+  <h3>Third time</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You wake up.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't exactly dream, when you're frozen in time, but it's similar.)
+  </p>
+
+  <p class="dialogue-line">
+    (Or more like... It's a slice of a dream, stretched into minutes, hours, days.)
+  </p>
+
+  <p class="dialogue-line">
+    (A single thought, concept, forever rolling out like taffy.)
+  </p>
+
+  <p class="dialogue-line">
+    (You dreamt about bananas!)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards, ACT 2</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You wake up.)
+  </p>
+
+  <p class="dialogue-line">
+    (You dreamt you were eating a samosa as big as your head.)
+  </p>
+
+  <p class="dialogue-line">
+    (You're hungry!)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You wake up.)
+  </p>
+
+  <p class="dialogue-line">
+    (You dreamt you fell right through some stairs.)
+  </p>
+
+  <p class="dialogue-line">
+    (Scary!)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You wake up.)
+  </p>
+
+  <p class="dialogue-line">
+    (You dreamt about thousands of lights.)
+  </p>
+
+  <p class="dialogue-line">
+    (It felt nostalgic.)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards, ACT 3</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt about someone crying into nothing.)
+  </p>
+
+  <p class="dialogue-line">
+    (Whose voice was it...?)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt about the tick of a clock.)
+  </p>
+
+  <p class="dialogue-line">
+    (You hear it, still.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt you were eating a rotten apple.)
+  </p>
+
+  <p class="dialogue-line">
+    (Your stomach hurts already.)
+  </p>
+
+  <hr>
+
+  <h3>Fourth time onwards, ACT 4</h3>
+
+  <p class="dialogue-note">At random:</p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt you were falling, falling, falling.)
+  </p>
+
+  <p class="dialogue-line">
+    (You feel unsteady.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt you were eating your friends whole.)
+  </p>
+
+  <p class="dialogue-line">
+    (You want to throw up.)
+  </p>
+
+  <hr>
+
+  <p class="dialogue-line">
+    (You dreamt about stars, stars, stars.)
+  </p>
+
+  <p class="dialogue-line">
+    (You want to cry.)
+  </p>
+
+</div>
+
+<h1 id="special">Special Events</h1>
+<p>These override other "Starting over" monologues if conditions are met. If dialogue is for a special occasion and not randomized text, assume these can't happen then.</p>
+
+<br>
+
+<h2 id="loop">Loop Milestones</h2>
+<p>These count the displayed number of loops, not the actual number, meaning "fake" skipped loops are included.</p>
+
+<div class="dialogue">
+  <h3>20 loops</h3>
+
+  <p class="dialogue-line">
+    (Oh! It's been... One, two, three...)
+  </p>
+
+  <p class="dialogue-line">
+    (...You've just passed your twentieth loop!)
+  </p>
+
+  <p class="dialogue-line">
+    (Twenty... Is that a lot, or too little, still?)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+  <h3>50 loops</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Fifty! Fifty loops! The big five-oh!)
+  </p>
+
+  <p class="dialogue-line">
+    (You could do some math to figure out how many days, weeks, months you've been stuck here.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't always spend very long in a single loop... But sometimes, you do spend more than 24 hours in there...  So doing the math would be easy enough...)
+  </p>
+
+  <p class="dialogue-line">
+    (But you won't~! Because you're smart~!)
+  </p>
+
+  <p class="dialogue-line">
+    (You can guess what it would do to your brain~~~!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (Back to it.)
+  </p>
+
+  <hr>
+
+
+  <h3>100 loops</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (One hundred loops.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't want to count, anymore.)
+  </p>
+
+  <p class="dialogue-line">
+    (But you have to, or you'll go insane, even more than you are now.)
+  </p>
+
+  <p class="dialogue-line">
+    (You don't know how much longer you can keep doing this.)
+  </p>
+
+</div>
+
+<hr>
+
+<h2 id="skip">Skipped loops</h2>
+<p>In ACT 3, looping adds 1-3 loops to the counter. In ACT 4, it's 1 to 5 loops. If Siffrin has Memory of Self equipped, it always only adds a single loop. If a special milestone is reached (e.g. story events) only one loop is added as well.</p>
+<p>These texts only happen once.</p>
+
+<br>
+
+<div class="dialogue">
+  <h3>2-4 loops added</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You feel like you forgot something.)
+  </p>
+
+  <p class="dialogue-line">
+    (What were you doing, during your last loop?)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Must not have been important.)
+  </p>
+
+  <hr>
+
+  <h3>5 loops added</h3>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You feel like you forgot something.)
+  </p>
+
+  <p class="dialogue-line">
+    (You feel like&nbsp; you forgot&nbsp; a lot of somethings.)
+  </p>
+
+  <p class="dialogue-line">
+    (What have you been doing, for the past few loops?)
+  </p>
+
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (You suppose it doesn't matter.)
+  </p>
+
+  <p class="dialogue-line">
+    (It's not like anything new would've happened, anyway.)
+  </p>
+
+</div>
+
+<hr>
+
+<h2 id="name">What's her name?</h2>
+<p>Special conversation that can trigger in ACT 4, if you called Loop 10 or more times and choose to loop to the meadow. It has a 10% chance of occuring under these circumstances and unlocks a Loop <a href="/rooms/loop/predialogue.html#names">PreDialogue</a>.</p>
+
+<br>
+
+<div class="dialogue">
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    (Urgh.)
+  </p>
+
+  <p class="dialogue-line">
+    (One more for the road.)
+  </p>
+
+  <p class="dialogue-line">
+    (You're so exhausted.)
+  </p>
+
+  <p class="dialogue-line">
+    (You wish you could just sleep in for a bit.)
+  </p>
+
+  <p class="dialogue-line">
+    (How long has it been since you last got a good night's sleep...?)
+  </p>
+
+  <p class="dialogue-line">
+    (But you have to wake up, or... or she...)
+  </p>
+
+  <p class="dialogue-line">
+    (. . .)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (She...?)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (The one who wakes you up, the Housemaiden... What...)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't... Remember... Her name...!!!)
+  </p>
+
+  <p class="dialogue-line">
+    (You can't, you can't, you--)
+  </p>
+
+  <p class="dialogue-line">
+    (As fast as you can, you make the stupid hand sign, and wish, wish you could just talk to--)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(teehee5)</span>
+    </span>
+    Yes, hello stard--
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "WHAT'S HER NAME?!"
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(oh1)</span>
+    </span>
+    Um.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "The Housemaiden, the one who wakes me up, I can't remember--"
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(oh my1)</span>
+    </span>
+    ...
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "I think it's something to do with fruits, something nice, but I can't remember--
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Siffrin</span>
+    </span>
+    "I can't remember... Any of their names...!!!"
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(subdued1)</span>
+    </span>
+    . . .
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    It's Mirabelle. You usually call her "Mira".
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+      "You always wondered if it was fine to call her by a nickname when she only calls you "Siffrin", but always figured it was too late to ask.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    You thought that since that Fighter called her "Mira", and they were friends, if you called her Mira too, you might become friends, too.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    And the Fighter's name is Isabeau, but you always call him "Isa". He calls you "Sif".
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    He called you Sif first, because that's the type of person he is...
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    ...and you called him Isa, because you at least understood that nicknames are how he expresses friendship.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    No one else calls you Sif, no one else calls him Isa. You don't know why, or maybe you do, now, but that's how it is.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    The Researcher's name is Odile. That's what you call her, too. A very Vaugardian name, which always struck you as weird.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    It makes sense, now, that she's half Vaugardian. Maybe she chose that name herself, maybe it was given to her.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    And the Kid's name is Bonnie. Boniface, but no one except Odile calls them that.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    They have trouble seeing this name as theirs, because they're still young. They introduced themselves as Bonnie as soon as they could talk.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    You called them "Bonbon" for a while, because they always had snacks and sweets on them. But you stopped, after you started thinking they hated you.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    Nicknames are for people who like you, after all.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    ...I think you could call them Bonbon again, and they wouldn't mind.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(well2)</span>
+    </span>
+    Mirabelle, Isabeau, Odile, Bonnie.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(happy1)</span>
+    </span>
+    Those are their names.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(serious2)</span>
+    </span>
+    . . .
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (. . .)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(happy1)</span>
+    </span>
+    Are we okay, now?
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    (You nod.)
+  </p>
+
+  <br>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(happy1)</span>
+    </span>
+    Hm.
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(serious2)</span>
+    </span>
+    . . .
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(teehee3)</span>
+    </span>
+    Take a break, stardust. Do that breathing thing you like. We can talk later, okay?
+  </p>
+
+  <br>
+  <p class="dialogue-line">
+    (...)
+  </p>
+
+  <p class="dialogue-line">
+    <span class="dialogue-head">
+      <span class="dialogue-name">Loop</span>
+      <span class="dialogue-expression">(happy1)</span>
+    </span>
+    Talk to you later, stardust.
+  </p>
+
+</div>
+
 </main>
 
 <foot-er></foot-er>
