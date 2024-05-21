@@ -52,7 +52,7 @@ random number. rerolled whenever needed
 # 0009. LOOP\<\<fakeloop\# CanBeSeen\>\>
 
 number of fake loops, added onto the number of real loops.
-for every loop, at least 1 is added to this variable, making it equal to or greater than the number of real loops. the amount added is determined by variable [[#0377. FakeLoopAdded]].
+for every loop, at least 1 is added to this variable, making it equal to or greater than the number of real loops. the amount added is determined by variable **#0377. FakeLoopAdded**. <!-- note: link this properly later -->
 this is the number shown to the player, whenever the number of loops are mentioned.
 
 this is how the game determines this variable's count:
