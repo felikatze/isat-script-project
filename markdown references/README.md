@@ -9,7 +9,7 @@ some of the information covered in the spreadsheets is also covered in these fil
 
 # contribution guide
 
-in order to make these tables, i'm using the plugin [advanced tables](obsidian://show-plugin?id=table-editor-obsidian) ([alt link](https://github.com/tgrosinger/advanced-tables-obsidian)) - either use that, or follow the same syntax when contributing.
+in order to make these tables, i'm using the plugin [advanced tables](https://github.com/tgrosinger/advanced-tables-obsidian) - either use that, or follow the same syntax when contributing.
 
 make sure all items are included, including empty ones! they should all be numbered as XXXX., ones not under headers should be h1, ones under \[--THESE HEADERS--\] should be h2, and ones under -THESE HEADERS- should be h3. empty items should be h6.
 
