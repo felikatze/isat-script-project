@@ -9,10 +9,10 @@ act number
 | value | start trigger (colloquial)      | start trigger (technical)                             |
 | ----- | ------------------------------- | ----------------------------------------------------- |
 | 1     | start of game                   | start of game                                         |
-| 2     | first death                     | map 086:DeathCorridor > event 016:Death               | 
+| 2     | first death                     | map **086:DeathCorridor > 016:Death**                 | 
 | 3     | first time beating the king     |                                                       |
 | 4     | the king killing bonnie         |                                                       |
-| 5     | head housemaiden can't help you | variable [[#0027. !!!LoopQuest]] = 14 at loop's start |
+| 5     | head housemaiden can't help you | variable **#0027. !!!LoopQuest = 14** at loop's start |
 | 6     | falling                         |                                                       |
 
 # 0003. Random \#
