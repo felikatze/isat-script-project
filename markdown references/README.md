@@ -15,6 +15,8 @@ make sure all items are included, including empty ones! they should all be numbe
 
 don't put descriptions under empty items and headers, but put descriptions under everything else where possible, no matter how self explanatory the item's name is.
 
+notate notes as  you would in html: `<!-- like this -->`
+
 as an example:
 
 ```md
@@ -38,6 +40,7 @@ this is a variable
 ### 0005. VariableUnderTwoHeaders
 
 make sure to look at the currently existing pages for examples!
+<!-- this is a note! you can't see this unless looking at the raw content of the file -->
 
 ###### 0006.
 ```
