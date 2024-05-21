@@ -17,7 +17,8 @@ don't put descriptions under empty items and headers (unless they have a descrip
 
 notate notes as  you would in html: `<!-- like this -->`
 
-as an example:
+> [!NOTE]
+> there are exceptions! some headers aren't formatted as the header that they are, for example
 
 ```md
 # 0001. VariableWithoutHeader
