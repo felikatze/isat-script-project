@@ -2,70 +2,59 @@
 
 ## 0002. Sour Tonic
 
-> [!quote] description
 > Drink that heals 50% of \v\[285\]'s HP.
 > Tastes sour...
 <!-- link properly later -->
 
 ## 0003. Super Sour Tonic
 
-> [!quote] description
 > Drink that heals 40% of everyone's HP.
 > Makes you do a kissy face when you drink it!
 
 ## 0004. Crafted Water
 
-> [!quote] description
-> Drink that revives a \i\[1\] ]]KO'd \v\[283\], restoring 60% of their HP. Tastes fruity!
+> Drink that revives a \i\[1\]KO'd \v\[283\], restoring 60% of their HP. Tastes fruity!
 <!-- link properly later -->
 
 
 ## 0005. Pepper Juice
 
-> [!quote] description
 > Boosts everyone's ATTACK. The spice will make you strong!
 
 ## 0006. Ginger Juice
 
-> [!quote] description
 > Boosts everyone's DEFENSE.
 > Did you know ginger helps you not be sick?
 
 ## 0007. Thyme Juice
 
-> [!quote] description
 > Makes everyone FASTER. Apparently this is a fun wordplay in some languages...
 
 ###### 0008.
 
 ## 0009. Sweet Tonic
 
-> [!quote] description
 > Drink that completely recovers one \v\[283\]'s HP. Tastes sweet! So sweet!
 <!-- link properly later -->
 
 
 ## 0010. Super Sweet Tonic
 
-> [!quote] description
 > Drink that completely heals everyone's HP.
 > Makes you smile when you drink it!
 
 ## 0011. Salty Broth
 
-> [!quote] description
 > Drink that lowers all of \v\[285\]'s Craft Skill \i\[6\]COOLDOWNS by 6. So salty?!?
 <!-- link properly later -->
 
 
 ## 0012. Your Dagger
 
-> [!quote] description
 > To use on yourself.
 
 ## 0013. Bomb
 
-> [!quote] description
 > It's a bomb!!! Use it once to do some big damage.
 
 ###### 0014.
