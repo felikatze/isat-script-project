@@ -13,7 +13,7 @@ in order to make these tables, i'm using the plugin [advanced tables](https://gi
 
 make sure all items are included, including empty ones! they should all be numbered as XXXX., ones not under headers should be h1, ones under \[--THESE HEADERS--\] should be h2, and ones under -THESE HEADERS- should be h3. empty items should be h6.
 
-don't put descriptions under empty items and headers, but put descriptions under everything else where possible, no matter how self explanatory the item's name is.
+don't put descriptions under empty items and headers (unless they have a description built-in), but put descriptions under everything else where possible, no matter how self explanatory the item's name is.
 
 notate notes as  you would in html: `<!-- like this -->`
 
