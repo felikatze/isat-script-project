@@ -102,15 +102,40 @@ body {
 	border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
 }
-.dialogue-option {
-    margin: 0.5em;
+ul.dialogue-option {
+    padding: 0;
+    margin-right: 0.5em;
+}
+.dialogue-option li {
+    list-style: none;
+}
+.dialogue-option summary,
+.dialogue-option-only {
+    margin: 0.5em 0 0.5em 2em;
     padding: 0.5em;
 	border: 3px solid transparent;
     border-image: url("/border-choice.png") 3 stretch;
 }
-.dialogue-option::marker { /* why won't the marker DIE */
+summary::-webkit-details-marker,
+summary::marker {
+    list-style: none;
     display: none;
-    opacity: 0.0;
+    content: '';
+}
+.dialogue-option details::before {
+    content: ">";
+    float: left;
+    margin: 0.5em;
+}
+.dialogue-option details[open]::before {
+    content: "v";
+}
+.dialogue-option a {
+    text-decoration: none;
+    font-weight: normal;
+}
+details .dialogue {
+    margin-left: 2em;
 }
 .dialogue-line {
     display: block;
@@ -126,7 +151,7 @@ body {
     opacity: 0.75;
 }
 .dialogue-expression::before {
-    content: "\00a0";
+    content: "\00a0"; /* space */
 }
 .dialogue-head {
     display: inline-flex;
@@ -199,8 +224,6 @@ body {
 }
 
 #headerArea {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
     z-index: 1;
 }
@@ -329,6 +352,10 @@ strong {
         width: 100%
     }
 
+    .dialogue {
+        font-size: 16.5px;
+    }
+
     /*
      * the order of the items is adjusted here for responsiveness!
      * since the sidebars would be too small on a mobile device.
@@ -359,6 +386,9 @@ strong {
     }
     #flex {
         flex-wrap: wrap;
+    }
+    .dialogue {
+        font-size: 11px;
     }
 
     /* 
