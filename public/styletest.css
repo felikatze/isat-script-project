@@ -128,11 +128,10 @@ summary::marker {
     margin: 0.5em;
 }
 .dialogue-option details[open]::before {
-    content: "v";
+    transform: rotate(90deg);
 }
-.dialogue-option a {
-    text-decoration: none;
-    font-weight: normal;
+.dialogue-option .dialogue-note details::before {
+    opacity: 0.5;
 }
 details .dialogue {
     margin-left: 2em;
