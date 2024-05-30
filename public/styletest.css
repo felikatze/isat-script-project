@@ -164,7 +164,7 @@ details .dialogue {
     opacity: 0.5;
 }
 .big {
-    font-size: bigger;
+    font-size: larger;
 }
 .indented {
     margin-left: 2em;
@@ -380,15 +380,22 @@ strong {
 }
 
 @media only screen and (max-width: 800px) {
-    aside {
-        width: 100%;
-    }
+
     #flex {
         flex-wrap: wrap;
     }
     .dialogue {
         font-size: 11px;
     }
+
+    #headerArea {
+        position: static;
+    }
+
+    .dialogue {
+        font-size: 16px;
+    }
+
 
     /* 
      * the order of the items is adjusted here for responsiveness, since the
@@ -401,7 +408,6 @@ strong {
     }
     #leftSidebar {
         order: 2;
-        display: none;
     }
     #mobileSidebar {
         order: 3;
