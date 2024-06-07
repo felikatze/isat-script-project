@@ -12,10 +12,11 @@ class Header extends HTMLElement {
                     <ul class="vcr">
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/events.html">Special Events</a></li>
-                        <li><a href="/overview/acts.html">Story Events</a></li>
-                        <li><a href="/overview/random">Random Events</a></li>
-                        <li><a href="/overview/rooms.html">Room Dialogues</a></li>
+                        <li><a href="/overview/events.html">Events</a></li>
+                        <li><a href="/overview/acts.html">Story</a></li>
+                        <li><a href="/overview/random">Random</a></li>
+                        <li><a href="/overview/rooms.html">Rooms</a></li>
+                        <li><a href="/overview/sasasap.html">START AGAIN</a></li>
                         <li><a href="/thanks">Special Thanks</a></li>
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                     </ul>
