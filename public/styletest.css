@@ -116,6 +116,9 @@ ul.dialogue-option {
 	border: 3px solid transparent;
     border-image: url("/border-choice.png") 3 stretch;
 }
+.dialogue-option-only {
+    margin-left: 0.5em;
+}
 summary::-webkit-details-marker,
 summary::marker {
     list-style: none;
@@ -161,6 +164,11 @@ details .dialogue {
 .dialogue-note {
     display: block;
     margin: 0.5em;
+    opacity: 0.5;
+}
+.inline-note {
+    float: right;
+    margin: 0 0.5em;
     opacity: 0.5;
 }
 .big {
