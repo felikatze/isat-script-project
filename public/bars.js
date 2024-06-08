@@ -27,13 +27,13 @@ class Header extends HTMLElement {
 
                         <h2>Font Changers</h2>
                         <button onclick="changeFontStyle(null)">Default</button>
-                        <button onclick="changeFontStyle('VCR_OSD_MONO')"><abbr title="In Stars and Time">ISAT</abbr> Font</button>
+                        <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
                         <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
 
                         <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
                         <ul>
                             <li><a href="/about.html">About</a></li>
-                            <li><a href="/feed.txt">RSS Feed</a></li>
+                            <li><a href="/feed.xml">RSS Feed</a></li>
                             <li><a href="/portraits">Dialogue portrait names</a></li>
                             <li>Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">github</a>!
                             <li>For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr.</a></li>
