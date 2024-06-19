@@ -15,7 +15,7 @@ make sure all items are included, including empty ones! they should all be numbe
 
 don't put descriptions under empty items and headers (unless they have a description built-in), but put descriptions under everything else where possible, no matter how self explanatory the item's name is.
 
-notate notes as  you would in html: `<!-- like this -->`
+notate notes as you would in html: `<!-- like this -->`
 
 > [!NOTE]
 > there are exceptions! some headers aren't formatted as the header that they are, for example
