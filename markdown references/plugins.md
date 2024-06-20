@@ -1,5 +1,3 @@
-the plugins are complicated oh stars this is gonna be painful
-
 # text
 
 this is based on usage in the game. some of these have the potential to do more things, but i'm simplifying their meanings here to fit how isat uses them as to not overcomplicate things
