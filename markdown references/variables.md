@@ -6,14 +6,14 @@ number of loops, not including fake loops. incremented by 1 at the start of each
 
 act number
 
-| value | start trigger (colloquial)      | start trigger (technical)                             |
-| ----- | ------------------------------- | ----------------------------------------------------- |
-| 1     | start of game                   | start of game                                         |
-| 2     | first death                     | map **086:DeathCorridor > 016:Death**                 | 
-| 3     | first time beating the king     |                                                       |
-| 4     | the king killing bonnie         |                                                       |
-| 5     | head housemaiden can't help you | variable **#0027. !!!LoopQuest = 14** at loop's start |
-| 6     | falling                         |                                                       |
+| value | start trigger (colloquial)      | start trigger (technical)                                       |
+| ----- | ------------------------------- | --------------------------------------------------------------- |
+| 1     | start of game                   | start of game                                                   |
+| 2     | first death                     | map **086:DeathCorridor** > event **016:Death**                 | 
+| 3     | first time beating the king     |                                                                 |
+| 4     | the king killing bonnie         |                                                                 |
+| 5     | head housemaiden can't help you | variable **#0027. !!!LoopQuest = 14** at loop's start           |
+| 6     | falling                         |                                                                 |
 
 # 0003. Random \#
 
@@ -78,6 +78,11 @@ determines siffrin's dialogue when he can only say one thing but it uses a choic
 # 0014. SpecialEvent \#\_TL
 
 # 0015. SPACE BEFORE CHOICE
+
+| game language | value                                                                                                         |
+| ------------- | ------------------------------------------------------------------------------------------------------------- |
+| english       | <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> |
+| japanese      | ` `                                                                                                           |
 
 # 0016. Self Var_EventCheck_1
 
@@ -815,13 +820,48 @@ text when using an item in battle. item name comes immediately after
 
 ## 0296. "time"
 
+the text in battles, eg. "Siffrin time!" or "シフランのターン！"
+
+| game language | value                   |
+| ------------- | ----------------------- |
+| english       | <code>&nbsp;time</code> |
+| japanese      | `のターン`              |
+
 ## 0297. "mirabelle"
+
+used in name boxes
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `MIRABELLE` |
+| japanese      | `ミラベル`  |
 
 ## 0298. "isabeau"
 
+used in name boxes
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `ISABEAU`   |
+| japanese      | `イザボー`  |
+
 ## 0299. "odile"
 
+used in name boxes
+
+| game language | value         |
+| ------------- | ------------- |
+| english       | `ODILE`       |
+| japanese      | `オディール`  |
+
 ## 0300. "bonnie"
+
+used in name boxes
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `BONNIE`    |
+| japanese      | `ボニー`    |
 
 # 0301. \[--SAVE ITEMS--\]
 
@@ -851,15 +891,51 @@ text when using an item in battle. item name comes immediately after
 
 ## 0314. "the king"
 
+used in name boxes
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `THE KING`  |
+| japanese      | `王`        |
+
 ## 0315. "the hhm"
+
+used in name boxes
+
+| game language | value                  |
+| ------------- | ---------------------- |
+| english       | `THE HEAD HOUSEMAIDEN` |
+| japanese      | `侍祭長`               |
 
 ## 0316. "loop"
 
+used in name boxes
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `LOOP`      |
+| japanese      | `ループ`    |
+
 ## 0317. "attack"
+
+| game language | value       |
+| ------------- | ----------- |
+| english       | `Attack`    |
+| japanese      | `攻撃`      |
 
 ## 0318. "guard"
 
+| game language | value       |
+| ------------- | ----------- |
+| english       | `Guard`     |
+| japanese      | `防御`      |
+
 ## 0319. "button"
+
+| game language | value          |
+| ------------- | -------------- |
+| english       | (empty string) |
+| japanese      | `ボタン`       |
 
 ## 0320. Isaagi
 
