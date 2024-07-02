@@ -181,9 +181,6 @@
                             </span> (...)
                         </li>
                     </ul>
-
-                    <br>
-
                     <ul class="dialogue-option">
                         <li>
                             <details>
@@ -389,13 +386,17 @@
                     <br>
 
                     <ul>
-                        <li><b>ACT 2: </b> 
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(smiling1)</span>:
+                        <li><b>ACT 2: </b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(smiling1)</span>
+                            </span>
                         </li>
                         <li><b>ACT 3 & 4: </b> 
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(fake1)</span>:
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
                         </li>
                     </ul>
 
@@ -441,17 +442,18 @@
 
                     <ul>
                         <li><b>ACT 2: </b> 
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(smiling1)</span>: (You think so, yes.)
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(smiling1)</span>
+                            </span> (You think so, yes.)
                         </li>
                         <li><b>ACT 3 & 4: </b>
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(fake1)</span>: (You really, really will.)
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span> (You really, really will.)
                         </li>
                     </ul>
-
-                    <br>
-
                     <ul class="dialogue-option">
                         <li><details>
                                 <summary>"I always remember things."</summary>
@@ -533,8 +535,8 @@
                                     <br>
 
                                     <ul>
-                                        <li><b>ACT 2:</b> (You do!)</li>
-                                        <li><b>ACT 3 & 4:</b> (You really, really do.)</li>
+                                        <li class="option"><b>ACT 2:</b> (You do!)</li>
+                                        <li class="option"><b>ACT 3 & 4:</b> (You really, really do.)</li>
                                     </ul>
 
                                     <br>
@@ -701,8 +703,8 @@
     <hr>
 
     <ul>
-        <li><b>ACT 1 & 2:</b> (You wave goodbye.)</li>
-        <li><b>ACT 3 & 4:</b> (You watch her go.)</li>
+        <li class="option"><b>ACT 1 & 2:</b> (You wave goodbye.)</li>
+        <li class="option"><b>ACT 3 & 4:</b> (You watch her go.)</li>
     </ul>
 
 </div>
@@ -2121,24 +2123,45 @@
         <span class="dialogue-expression">(fake1)</span>: (...)
     </li>
 </ul>
-
-<br>
-
 <ul>
-    <li><a href="#where">"Where is everyone again?"</a></li>
-    <li><a href="#feefees">"How are you feeling?"</a></li>
-    <li><a href="#after">"What will you do after?"</a></li>
-    <li><a href="#weird">"Anything weird happen lately?"</a></li>
-    <li><a href="#help">"Can I help you with anything?"</a></li>
-    <li><a href="#choose">"So, which one will you choose?"</a></li>
-    <li><a href="#drawing">"What's the thing you drew?"</a></li>
-    <li><a href="#death">(The King killed you last time...)</a></li>
-    <li><a href="#flower">"Flower for you."</a></li>
-    <li><a href="#fan">"You have a fan."</a></li>
-    <li><a href="#mail">"Fanmail delivery!"</a></li>
-    <li><a href="#silent">(Stay silent.)</a>
+    <li class="option">
+        "<a href="#where">Where is everyone again?</a>"
     </li>
-    <li><a href="#nope">"Nope!"</a>
+    <li class="option">
+        "<a href="#feefees">How are you feeling?</a>"
+    </li>
+    <li class="option">
+        "<a href="#after">What will you do after?</a>"
+    </li>
+    <li class="option">
+        "<a href="#weird">Anything weird happen lately?</a>"
+    </li>
+    <li class="option">
+        "<a href="#help">Can I help you with anything?</a>"
+    </li>
+    <li class="option">
+        "<a href="#choose">So, which one will you choose?</a>"
+    </li>
+    <li class="option">
+        "<a href="#drawing">What's the thing you drew?</a>"
+    </li>
+    <li class="option">
+        <a href="#death">(The King killed you last time...)</a>
+    </li>
+    <li class="option">"<a href="#flower">Flower for you.</a>"
+    </li>
+    <li class="option">
+        "<a href="#fan">You have a fan.</a>"
+    </li>
+    <li class="option">
+        "<a href="#mail">Fanmail delivery!</a>"
+    </li>
+    <li class="option">
+        <a href="#silent">(Stay silent.)</a>
+    </li>
+    <li class="option">
+        "<a href="#nope">Nope!</a>
+    </li>
 </ul>
 
 <br>
@@ -2275,9 +2298,11 @@
             <span class="dialogue-name">Siffrin</span>
             <span class="dialogue-expression">(neutral1)</span>: (...)
         </li>
-    </ul>
+        <li class="option">
+            "We'll save them all tomorrow."
+        </li>
 
-    <p class="dialogue-line">"We'll save them all tomorrow."</p>
+    </ul>
 
     <br>
 
@@ -2503,9 +2528,6 @@
             <span class="dialogue-expression">(fake1)</span>:
         </li>
     </ul>
-
-    <br>
-
     <ul class="dialogue-option">
         <li>
             <details>
@@ -2786,59 +2808,60 @@
             <span class="dialogue-name">Siffrin</span>
             <span class="dialogue-expression">(fake1):</span>
         </li>
-    </ul>
-
-    <br>
-
-    <ul>
-        <li><b>First time: </b>"Y-you're choosing someone for something, right?!"</li>
-        <li><b>Subsequent times: </b> "You're choosing someone for something, right?"</li>
-    </ul>
-
-    <br>
-
-    <ul>
-        <li><b>First time: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(awkward1)</span>:
-        </li>
-        <li><b>ACT 3: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling3)</span>:
-        </li>
-        <li><b>ACT 4: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>:
-        </li>
-    </ul>
-
-    <br>
-
-    <ul>
-        <li><b>First time: </b>"It seems important!!!"</li>
-        <li><b>Subsequent times: </b>It seems important."</li>
+        <li class="option"><b>First time: </b>"Y-you're choosing someone for something, right?!"</li>
+        <li class="option"><b>Subsequent times: </b> "You're choosing someone for something, right?"</li>
     </ul>
 
     <br>
 
     <ul>
         <li><b>First time: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(n-nya1)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(awkward1)</span>
+            </span>
         </li>
         <li><b>ACT 3: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(smiling3)</span>
+            </span>
         </li>
         <li><b>ACT 4: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake4)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
         </li>
+        <li class="option"><b>First time: </b>"It seems important!!!"</li>
+        <li class="option"><b>Subsequent times: </b>It seems important."</li>
     </ul>
 
-    <p class="dialogue-line">
-        "Maybe I can help?"
-    </p>
+    <br>
+
+    <ul>
+        <li><b>First time: </b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(n-nya1)</span>
+            </span>
+        </li>
+        <li><b>ACT 3: </b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
+        </li>
+        <li><b>ACT 4: </b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake4)</span>
+            </span>
+        </li>
+        <li class="option">
+            "Maybe I can help?"
+        </li>
+    </ul>
 
     <br>
 
@@ -2906,22 +2929,27 @@
 
     <ul>
         <li><b>First time: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling2)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(smiling2)</span>
+            </span>
         </li>
         <li><b>ACT 3: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
         </li>
         <li><b>ACT 4: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake4)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake4)</span>
+            </span>
+        </li>
+        <li class="option">
+            "Sure!"
         </li>
     </ul>
-
-    <p class="dialogue-line">
-        "Sure!"
-    </p>
 
     <br>
 
@@ -2945,21 +2973,24 @@
 
     <ul>
         <li><b>First time: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling2)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(smiling2)</span>
+            </span>
         </li>
         <li><b>ACT 3: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
         </li>
         <li><b>ACT 4: </b>
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake4)</span>:
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake4)</span>
+            </span>
         </li>
     </ul>
-
-    <br>
-
     <ul class="dialogue-option">
         <li>
             <details>
@@ -2993,8 +3024,8 @@
                     <br>
 
                     <ul>
-                        <li>(Yes.)</li>
-                        <li>(No.)</li>
+                        <li class="option">(Yes.)</li>
+                        <li class="option">(No.)</li>
                     </ul>
 
                     <br>
@@ -3475,8 +3506,8 @@
     <br>
 
     <ul>
-        <li><b>If Mirabelle has the Stylish Bow equipped:</b> (You point at the bow Mirabelle is wearing.)</li>
-        <li><b>If not:</b> (You point at Mirabelle's pockets.)</li>
+        <li class="option"><b>If Mirabelle has the Stylish Bow equipped:</b> (You point at the bow Mirabelle is wearing.)</li>
+        <li class="option"><b>If not:</b> (You point at Mirabelle's pockets.)</li>
     </ul>
 
     <br>
@@ -3597,8 +3628,8 @@
     <br>
 
     <ul>
-        <li><b>If Mirabelle has the Stylish Bow equipped:</b> (You point at the bow Mirabelle is wearing.)</li>
-        <li><b>If not:</b> (You point at Mirabelle's pockets.)</li>
+        <li class="option"><b>If Mirabelle has the Stylish Bow equipped:</b> (You point at the bow Mirabelle is wearing.)</li>
+        <li class="option"><b>If not:</b> (You point at Mirabelle's pockets.)</li>
     </ul>
 
     <br>
