@@ -105,6 +105,17 @@ body {
 	border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
 }
+
+/* Feli note: for options without dialogue attached - cannibalized from Glow's dialogue-option class. */
+/* did you know: you can put this in the same ul as the sif portrait variations that use regular li */
+
+.option {
+    margin: 0.5em 0 0.5em 2em;
+    padding: 0.5em;
+	border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+}
+
 ul.dialogue-option {
     padding: 0;
     margin-right: 0.5em;
