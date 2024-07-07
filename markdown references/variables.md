@@ -13,7 +13,7 @@ act number
 | 3     | first time beating the king     |                                                                 |
 | 4     | the king killing bonnie         |                                                                 |
 | 5     | head housemaiden can't help you | variable **#0027. !!!LoopQuest = 14** at loop's start           |
-| 6     | falling                         |                                                                 |
+| 6     | after falling                   | map **053:EPILOGUE** > event **006:Event**                      |
 
 # 0003. Random \#
 
@@ -407,7 +407,7 @@ determines the picture on the title screen.
 | 3     | start act 3 |
 | 4     | start act 4 |
 | 5     | start act 5 |
-| 6     | start act 6 | 
+| 6     | start act 6 | map **053:EPILOGUE** > event **006:Event**  |
 
 ## 0128. MemoriesOwned\#
 
