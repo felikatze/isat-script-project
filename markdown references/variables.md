@@ -8,7 +8,7 @@ act number
 
 | value | start trigger (colloquial)      | start trigger (technical)                                       |
 | ----- | ------------------------------- | --------------------------------------------------------------- |
-| 1     | start of game                   | start of game                                                   |
+| 1     | start of game                   | common event **0009. StartingGameSwitches**                     |
 | 2     | first death                     | map **086:DeathCorridor** > event **016:Death**                 | 
 | 3     | first time beating the king     |                                                                 |
 | 4     | the king killing bonnie         |                                                                 |
@@ -162,6 +162,13 @@ which wish you chose at the start of the game. used when referencing it later on
 
 # 0032. SavePointAppears\_AL
 
+stores the save points you can see.
+
+| value | meaning                               |
+| ----- | ------------------------------------- |
+| 1     | (tba)                                 |
+| 2     | previous, plus Map 076:FLOOR 1, START |
+
 # 0033. \[--FRIENDQUEST--\]
 
 ## 0034. !!!FriendsQuestAL
@@ -207,6 +214,10 @@ name in the namebox during dialogue. set as needed.
 ## 0053. QQQ_mirabellefan_AL
 
 ## 0054. LoopConvoSeenThisLoop?
+
+| value       | trigger                                     |
+| ----------- | ------------------------------------------- |
+| `["empty"]` | common event **0009. StartingGameSwitches** |
 
 ## 0055. CurrentLoopConvo\#
 
@@ -370,13 +381,13 @@ number of times talking to the head housemaiden during friendquest loops sent yo
 
 ## 0126. CurrentPosition
 
-represents your current  position in the current loop.
+represents your current position in the current loop.
 
 <!-- note: be more specific in the table -->
 
-| value | location | 
-| ----- | -------- |
-| 1     | meadow   |
+| value | location | technical trigger(s)                                       |
+| ----- | -------- | ---------------------------------------------------------- |
+| 1     | dormont  | common event **0009: StartingGameSwitches** (and more tba) |
 | 2     | floor 1  |
 | 3     | floor 2  |
 | 4     | floor 3  |
@@ -389,8 +400,9 @@ determines the picture on the title screen.
 
 <!-- note: be more specific in the table -->
 
-| value | trigger     |
-| ----- | ----------- |
+| value | trigger     | technical trigger |
+| ----- | ----------- | ------------------------------------------- |
+| 1     | start act 1 | common event **0009: StartingGameSwitches** |
 | 2     | start act 2 |
 | 3     | start act 3 |
 | 4     | start act 4 |
@@ -405,6 +417,12 @@ determines the picture on the title screen.
 
 ## 0131. KeySelector
 
+did you choose to unlock all doors when teleporting?
+
+| value | meaning |
+| ----- | ------- |
+| 1     | no      |
+
 ## 0132. KeySelector X
 
 ## 0133. KeySelector Y
@@ -412,6 +430,10 @@ determines the picture on the title screen.
 ## 0134. LoopResetSwitches
 
 ## 0135. SavePointCode
+
+| value | meaning                              |
+| ----- | ------------------------------------ |
+| 1     | last saved at map 076:FLOOR 1, START |
 
 ## 0136. SavedEquipment
 
@@ -781,12 +803,12 @@ text for the drawn card in the menu
 
 ## 0290. Snacks
 
-text for the eternal snacks in the menu. references the switch **RE_ateeternalsnacks** <!-- note: link this properly later, when the switches page exists -->
+text for the eternal snacks in the menu. references the switch **0289. RE_ateeternalsnacks** <!-- note: link this properly later, when the switches page exists -->
 
-| switch | value                                     |
-| ------ | ----------------------------------------- |
-| OFF    | Wh-- How did those snacks get here?!      |
-| ON     | A bunch of snacks given to you by Bonnie. | 
+| switch     | value                                     |
+| ---------- | ----------------------------------------- |
+| s289 = OFF | Wh-- How did those snacks get here?!      |
+| s289 = ON  | A bunch of snacks given to you by Bonnie. | 
 
 ## 0291. MemoryOfSkirmish
 
@@ -800,27 +822,27 @@ text for the memory of skirmish in the menu
 
 ## 0292. GiftFormirabelle
 
-text for the fanmail in the menu. references the switch **QQQ_OpenedMirabellesGift_TL** <!-- note: link this properly later, when the switches page exists -->
+text for the fanmail in the menu. references the switch **0056. QQQ_OpenedMirabellesGift_TL** <!-- note: link this properly later, when the switches page exists -->
 
-| switch | value                                             |
-| ------ | ------------------------------------------------- |
-| OFF    | A gift for Mirabelle. It's lovingly wrapped.      |
-| ON     | A gift for Mirabelle. It can't be gifted anymore. |
+| switch    | value                                             |
+| --------- | ------------------------------------------------- |
+| s56 = OFF | A gift for Mirabelle. It's lovingly wrapped.      |
+| s56 = ON  | A gift for Mirabelle. It can't be gifted anymore. |
 
 ## 0294. UseItem
 
 text when using an item in battle. item name comes immediately after
 
-| act | value                 |
-| --- | --------------------- |
-| ≥5  | You use a             |
-| <5  | Bonnie runs in with a | 
+| act | value                   |
+| --- | ----------------------- |
+| ≥5  | `You use a`             |
+| <5  | `Bonnie runs in with a` | 
 
 ## 0295. FriendquestPrompts
 
 ## 0296. "time"
 
-the text in battles, eg. "Siffrin time!" or "シフランのターン！"
+for the text in battles, eg. "Siffrin__ time__!" or "シフラン__のターン__！"
 
 | game language | value                   |
 | ------------- | ----------------------- |
@@ -1033,9 +1055,9 @@ number of times you've bumped into the counter in the kitchen
 
 determines which term is used for variables **#0283. friend/ally**, **#0284. friends/allies**, and **#0357. friend ally family**. <!-- note: link these properly later -->
 
-| value      | trigger                                                         | 
-| ---------- | --------------------------------------------------------------- |
-| 0 (friend) | start of game                                                   |
+| value      | trigger                                                    | 
+| ---------- | ---------------------------------------------------------- |
+| 0 (friend) | start of game                                              |
 | 1 (ally)   | first time event **037:FLOOR 2, START > 001:Event** is run |
 | 2 (family) | friendquest variant of event **023:THE KING > 008:Event**  |
 <!-- note: link these properly later -->
