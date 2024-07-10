@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last Room / Snack Room</title>
+
+  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+
+  <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+
+  <script src="https://felicitations.neocities.org/bars.js" defer></script> 
+
+</head>
+
+<body>
+
+<div id="container">
+
+<head-er></head-er>
+
+<main>
+
+<h1>Last Room / Snack Room</h1>
+<p>Text for the last room before facing the King in START AGAIN.</p>
+<p>The True End triggers at 10+ Weird points, the Perfect End at 4 or less.</p>
+<p>Any Weird Point value between the two, as well as the first loop of the game, results in the regular ending(s).</p>
+
+<br>
+
+<p>Text for seeing True End before is only possible to obtain if you died battling the King on the True End path.</p>
+
+<br>
+
+<p>"Galre" is Adrienne's typo, not mine. Check your game files. It's there.</p>
+
+<br>
+
+<h1>Index</h1>
+
+<ul>
+    <li><a href="#event">Event</a>
+        <ul>
+            <li><a href="#regevent">Regular</a></li>
+            <li><a href="#trueevent">True End path</a></li>
+        </ul>
+    </li>
+    <li><a href="#party">Party interactions</a>
+        <ul>
+            <li><a href="#fighter">The Fighter</a>
+                <ul>
+                    <li><a href="#fightreg">Regular</a></li>
+                    <li><a href="#fighttrue">True End </a></li>
+                    <li><a href="#fightrepeat">Repeated interaction</a></li>
+                </ul>
+            </li>
+            <li><a href="#maiden">The Housemaiden</a>
+                <ul>
+                    <li><a href="#maidreg">Regular</a></li>
+                    <li><a href="#maidtrue">True End</a></li>
+                    <li><a href="#maidrepeat">Repeated interaction</a></li>
+                </ul>
+            </li>
+            <li><a href="#kid">The Kid</a>
+                <ul>
+                    <li><a href="#kidreg">Regular</a></li>
+                    <li><a href="#kidtrue">True End</a></li>
+                    <li><a href="#kidrepeat">Repeated interaction</a></li>
+                </ul>
+            </li>
+            <li><a href="#teach">The Researcher</a>
+                <ul>
+                    <li><a href="#teachreg">Regular</a></li>
+                    <li><a href="#teachtrue">True End</a></li>
+                    <li><a href="#teachrepeat">Repeated interaction</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#exit">Exit</a></li>
+</ul>
+
+
+<hr>
+
+<h1 id="event">Event</h1>
+
+<h2 id="regevent">Regular</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        (The room just before the King...)
+    </p>
+
+    <p class="dialogue-line">
+        (Everyone is happily encouraging everyone else, giving each other potions, getting ready to save Vaugarde.)
+    </p>
+
+    <p class="dialogue-line">
+        (You zone out.)
+    </p>
+
+    <hr>
+
+    <h3>First time</h3>
+
+    <p class="dialogue-line">
+        (You've heard all this many, many, many times before.)
+    </p>
+
+    <p class="dialogue-line">
+        (They look so happy... So peaceful... And all you can do is stitch your smile permanently on, as you always have.)
+    </p>
+
+    <p class="dialogue-line">
+        (It's selfishness, not telling them they'll die in the very next room.)
+    </p>
+
+    <p class="dialogue-line">
+        (You don't want them to know. You don't want them to have to deal with this.)
+    </p>
+
+    <p class="dialogue-line">
+        (You don't want them to suffer like you do.)
+    </p>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <p class="dialogue-line">
+        (You wonder how everyone will die this time.)
+    </p>
+
+    <p class="dialogue-line">
+        (Will the King beat them with Craft until they are no more?)
+    </p>
+
+    <p class="dialogue-line">
+        (Will he freeze them in time, unable to move or breathe for all eternity?)
+    </p>
+
+    <p class="dialogue-line">
+        (How will YOU meet your end?)
+    </p>
+
+    <p class="dialogue-line">
+        (In blood and stars maybe... In tears and time perhaps...)
+    </p>
+
+    <hr>
+
+    <h3>Subsequent times</h3>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <p class="dialogue-line">
+        (.........)
+    </p>
+
+    <hr>
+
+    <h3>If you've seen the <a href="#trueevent">True End version</a> before</h3>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <p class="dialogue-line">
+        (You've seen this so many times before.)
+    </p>
+
+    <p class="dialogue-line">
+        (You finally saw something different before...)
+    </p>
+
+    <p class="dialogue-line">
+        (What did you do last time that you didn't do this time...?)
+    </p>
+
+</div>
+
+<hr>
+<br>
+
+<h2 id="trueevent">True End Path</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">
+        The fighter and the housemaiden stand opposite one another in the center of the room. The kid and the researcher are at the far side of the room, with the researcher staring at the exit.
+    </p>
+
+    <p class="dialogue-note">
+        Siffrin enters the room.
+    </p>
+
+    Isa jumps again w sweat drop effect at "WOAH WOAH WOAH"
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined1)</span>
+        </span>
+        <span style="font-size:smaller">(pst pst pst)</span>
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(embarassed1)</span>
+        </span>
+        <span style="font-size:smaller">(pst pst pst)</span>
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (They're both whispering to each other...)
+    </p>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <hr>
+
+    <h4>First time</h4>
+
+    <p class="dialogue-line">
+        (...did...)
+    </p>
+
+    <p class="dialogue-line">
+        (Did this happen before...?)
+    </p>
+
+    <hr>
+
+    <h4>Subsequent times</h4>
+
+    <p class="dialogue-line">
+        (You've seen this before, you have, but...)
+    </p>
+
+    <p class="dialogue-line">
+        (You don't want to ignore things this time.)
+    </p>
+
+    <p class="dialogue-line">
+        (Not for this.)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(distressed1)</span>
+        </span>
+        <span style="font-size:smaller">(you have to talk to them, they might listen if it's you--)</span>
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(worried1b)</span>
+        </span>
+        <span style="font-size:smaller">(i don't know what i would even say--)</span>
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter jumps and turns in Siffrin's direction.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(embarassed4)</span>
+        </span>
+        A-ah! Um!!!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter and the housemaiden walk over to Siffrin, stopping in front of him.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised2)</span>
+        </span>
+        Sif, we were talking, and we couldn't help but notice, that you're acting a little weird, and,
+    </p>
+
+    <hr>
+
+    <h4>First time</h4>
+
+    <p class="dialogue-line">
+        (No, you haven't heard this before. This is new. Focus. Focus. Focus.)
+    </p>
+
+    <p class="dialogue-line">
+        (FOCUS!!!)
+    </p>
+
+    <hr>
+
+    <h4>Subsequent times</h4>
+
+    <p class="dialogue-line">
+        (This isn't new anymore. You listen anyway.)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(embarassed1)</span>
+        </span>
+        We know this is a stressful time, and we were wondering if--
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined2)</span>
+        </span>
+        Tell us what's wrong!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Everybody reacts in surprise. The kid and the researcher now face the rest of the group.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(reading_up1)</span>
+        </span>
+        Oh boy.
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter turns to the housemaiden.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised3)</span>
+        </span>
+        WE SAID WE WERE GONNA BUILD UP TO IT!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined1)</span>
+        </span>
+        TELL US WHAT'S WRONG!!!!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(distressed1)</span>
+        </span>
+        You're acting weird! You're forgetting things, you know too much, you're super strong,
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined1)</span>
+        </span>
+        ...and you look sad and tired every time you think we're not looking!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter turns back to Siffrin.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(ohfuck1)</span>
+        </span>
+        Hahaha, what she's saying is--
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The kid and the researcher walk down, stopping left and right of Siffrin.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(wondering1)</span>
+        </span>
+        What she's saying is stop it.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(ohfuck2)</span>
+        </span>
+        UM, what she MEANS is--
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        What she's saying is you're acting weird and it's BUMMING US OUT!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter jumps, sweating.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised3)</span>
+        </span>
+        WOAH WOAH WOAH, WHAT EVERYONE IS SAYING IS--
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined2)</span>
+        </span>
+        If you have something on your mind, you can talk to us!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(reading1)</span>
+        </span>
+        And if you keep being down, it'll affect our performance in battle.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(ohfuck3)</span>
+        </span>
+        Oh crab.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(determined2)</span>
+        </span>
+        And we want to help you, and we love you!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter sweats, again.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(embarassed4)</span>
+        </span>
+        YEAH, THAT!!! WE WANT TO HELP YOU!!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(blushing1)</span>
+        </span>
+        and we, uh-- we-- we l-love you... and stuff.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(sad3)</span>
+        </span>
+        Ew...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(oof1)</span>
+        </span>
+        I am not saying that.
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The fighter stares at the researcher.
+    </p>
+    
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(GALRE1)</span>
+        </span>
+        <span style="font-size:larger">(GLARE)</span>
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        The kid and the researcher sweat.
+    </p>
+
+    <br>
+
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(shy1)</span>
+        </span>
+        ...and we want to
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(shy1)</span>
+        </span>
+        ...and we want to help you, and we love you.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(distressed1)</span>
+        </span>
+        Siffrin, please tell us what's wrong.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(sad3)</span>
+        </span>
+        W-we can help, right? And if we can't, we can still listen...
+    </p>
+
+    <hr>
+
+    <h4>First time only</h4>
+
+    <p class="dialogue-line">
+        (uh)
+    </p>
+
+    <p class="dialogue-line">
+        (What's happening?)
+    </p>
+
+    <p class="dialogue-line">
+        (This never happened before. You don't know what to do. You don't know what to do you don't know what to do you don't know what to do.)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(worried2)</span>
+        </span>
+        ...Sif...?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(fake2)</span>
+        </span>
+        (say something anything!!!)
+    </p>
+
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>"Th-thank you!"</summary>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        No problem!
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"N-nothing's wrong though?"</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Proceed with the scene.
+                    </p>
+                </div>
+
+            </details>
+        </li>
+    </ul>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(awkward1)</span>
+        </span>
+        ...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(sad3)</span>            
+        </span>
+        ...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(angry2)</span>
+        </span>
+        ...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(awkward1)</span>
+        </span>
+        ...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(offguard1)</span>
+        </span>
+        (...) "..."
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Siffrin looks left and right as silence reigns.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (You look around.)
+    </p>
+
+    <hr>
+
+    <h4>First time</h4>
+
+    <p class="dialogue-line">
+        (This usually works, why isn't it working now???)
+    </p>
+
+    <p class="dialogue-line">
+        (Just say something, you can't let them figure it out--)
+    </p>
+
+    <hr>
+
+    <h4>Subsequent times</h4>
+
+    <p class="dialogue-line">
+        (This is already more than you've ever hope you'd ever see.)
+    </p>
+
+    <p class="dialogue-line">
+        (You don't want to risk it by changing the script.)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(sigh1)</span>
+        </span>
+        (SIGH.)
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Siffrin looks at the researcher.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(oof1)</span>
+        </span>
+        One thing. Just tell us one thing that bothers you.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(question1)</span>
+        </span>
+        It doesn't have to be The Thing. Just one thing. What's bothering you right now?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(hide1)</span>
+        </span>
+        (...) "...I'm tired."
+    </p>
+        
+    <br>
+
+    <p class="dialogue-line">
+        (Nope! Too true. The words don't even escape your mouth.)
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(surprised2)</span>
+        </span>
+        (say something else.) "...I'm hungry?"        
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(zomg1)</span>
+        </span>
+        <span style="font-size:larger">!!!!!!!!!!!!!!!!!!!!!!!</span>
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(neutral1)</span>
+        </span>
+         My time&emsp; has come.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (The kid looks into their pocket which seems to contain a frankly impressive array of snacks.)
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(pout1)</span>
+        </span>
+        Best snacks, best snacks...
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        OKAY! I haaaaaave...
+    </p>
+
+    <br>
+
+    <img src="https://instarsandtime.wiki.gg/images/2/23/SASASAP_Event_Food_Palmier.png" alt="The kid presenting some palmiers.">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        ...some palmiers!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(wondering2)</span>
+        </span>
+        (What is that?)
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(neutral1)</span>
+        </span>
+        (it's a kind of flaky sweet pastry!)
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(pout1)</span>
+        </span>
+        And I also have...
+    </p>
+
+    <br>
+
+    <img src="https://instarsandtime.wiki.gg/images/6/67/SASASAP_Event_Food_Samoussa.png" alt="The kid presenting a samoussa.">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        ...a samoussa!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised2)</span>
+        </span>
+        (what is that???)
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(reading1)</span>
+        </span>
+        (A savory pastry, popular in coastal places like Bambouche.)
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        It's our specialty!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(ew1)</span>
+        </span>
+        And finally...
+    </p>
+
+    <br>
+
+    <img src="https://instarsandtime.wiki.gg/images/5/5e/SASASAP_Event_Food_Fish_Head.png" alt="The kid presenting a fish head.">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(excited1)</span>
+        </span>
+        A grilled fish head!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Researcher</span>
+            <span class="dialogue-expression">(ew1)</span>
+        </span>
+        Hm.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised3)</span>
+        </span>
+        WHAT?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(THEFUCK1)</span>
+        </span>
+        THE WHOLE HEAD???
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(phew1)</span>
+        </span>
+        Fish heads are yummy and the textures are different and good!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Housemaiden</span>
+            <span class="dialogue-expression">(awkward2)</span>
+        </span>
+        ARE THEY???
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(surprised3)</span>
+        </span>
+        ARE THEY REALLY
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Kid</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        THEY ARE!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(surprised1)</span>
+        </span>
+        (uh)
+    </p>
+
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>"Palmier please?"</summary>
+
+                <div class="dialogue">
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"Is it a potato samoussa?"</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Asking this boots you back to the choice, enabling you to pick a snack. Unlocks the option to pick the samoussa.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"Samoussa please..."</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Only available after asking whether it's a potato samoussa.
+                    </p>
+
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"What fish is it?"</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Asking this boots you back to the choice, enabling you to pick a snack. Unlocks the option to pick the fish head.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"Fish head please."</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Only available after asking what fish it is.
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>
+    
+
+
+
+
+
+
+
+</div>
+
+<h1 id="party">Party interactions</h1>
+
+<h2 id="fighter">The Fighter</h2>
+
+<h3 id="fightreg">Regular</h3>
+
+<h3 id="fighttrue">True End path</h3>
+
+<h3 id="fightrepeat">Repeated interaction</h3>
+
+<h2 id="maiden">The Housemaiden</h2>
+
+<h3 id="maidreg">Regular</h3>
+
+<h3 id="maidtrue">True End path</h3>
+
+<h3 id="maidrepeat">Repeated interaction</h3>
+
+<h2 id="kid">The Kid</h2>
+
+<h3 id="kidreg">Regular</h3>
+
+<h3 id="kidtrue">True End path</h3>
+
+<h3 id="kidrepeat">Repeated interaction</h3>
+
+<h2 id="teach">The Researcher</h2>
+
+<h3 id="teachreg">Regular</h3>
+
+<h3 id="teachtrue">True End path</h3>
+
+<h3 id="teachrepeat">Repeated interaction</h3>
+
+<h1 id="exit">Exit</h1>
+
+<h2 id="exitreg">Regular</h2>
+
+<div class="dialogue">
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        Ready to go?
+    </p>
+
+
+    <p class="dialogue-line">        
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(fake1)</span>
+        </span> (...)
+    </p>
+
+    <ul>
+        <li>
+            <details>
+                <summary>"Ready!"</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Siffrin walks onward.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"Not yet!"</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Siffrin turns around.
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>  
+</div>
+
+<hr>
+<br>
+
+<h2 id="exitperfect">Perfect End path</h2>
+
+<div class="dialogue">
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Fighter</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        Ready to go?
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(fake1)</span>
+        </span> (...)
+    </p>
+
+    <ul>
+        <li>
+            <details>
+                <summary>"Ready!"</summary>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(confident1)</span>
+                        </span>
+                        Awesome!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        ...I'm glad you're feeling better, though!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                        </span>
+                        (...?) "What do you mean...?"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed1)</span>
+                        </span>
+                        Oh!!! Um, you were...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed2)</span>
+                        </span>
+                        Well! You were acting a little weird when we were way closer to the Castle's entrance......
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(wondering2)</span>
+                        </span>
+                        You weren't really listening to us, you were kinda smiling the way you do when you're actually not happy...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed2)</span>
+                        </span>
+                        ...and you like, almost acted like you knew exactly where you were going?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        But clearly you're feeling better now! You're acting just like normal!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(phew1)</span>
+                        </span>
+                        Pff, I told you they were fine... Siffrin would never be worried about anything!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>Hehe! 
+                        If Siffrin was worried, then we would have no chance, would we?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(smug1)</span>
+                        </span>
+                        A Siffrin worried about things means the end of the world is nigh. But since they're back to normal, we will definitely win.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        What are they, a good luck charm? Haha!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <br>
+
+                    <hr>
+
+                    <h4>First time</h4>
+
+                    <p class="dialogue-line">
+                        (You're acting... "normal"...?)
+                    </p>
+
+                    <hr>
+
+                    <h4>Subsequent times</h4>
+
+                    <p class="dialogue-line">
+                        (But maybe this time...)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(confident1)</span>
+                        </span>
+                        Anyway, let's go, let's go, let's go!!! We have a country to save!!!
+                    </p>
+
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"Not yet!</summary>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Siffrin turns around.
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>
+
+</div>
+
+</main>
+
+<foot-er></foot-er>
+
+</div>
+
+</body>
+
+</html>
