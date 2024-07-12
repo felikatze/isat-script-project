@@ -89,88 +89,73 @@
         <li>
             <details>
                 <summary>(Stay silent.)</summary>
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(teehee2)</span>
+                        </span>
+                        My my, struck speechless, are you?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You flip them off.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (They laugh.)
+                    </p>
+                </div>
             </details>
         </li>
     </ul>
 
     <hr>
 
-    <h2>BIG TEXT BIG TEXT</h2>
+    <button onclick="toggleDialogue();">Toggle choices</button>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(heh)</span>
-        </span>
-        <b>Bold</b>
-    </p>
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>Testing, testing~</summary>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(YEAH)</span>
-        </span>
-        BOLDER!!!
-    </p>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        All systems go?
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Hello, hello? Can you read me?</summary>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(heh)</span>
-        </span>
-        "Bolder" isn't allowed as a child of a p element, Isabeau.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(boo)</span>
-        </span>
-        Dang nabbit.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(WAHOOOO)</span>
-        </span>
-        <span style="font-weight:900">NINE HUNDRED!!!</span>
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smug)</span>
-        </span>
-        Get this. <span style="font-weight:1000">A thousand.</span>
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(teehee)</span>
-        </span>
-        And you totally didn't set it down. Because you totally knew the maximum font-weight is 1000. Uh huh. 1200? What's that?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(HEY)</span>
-        </span>
-        <span class="wish">NUH UH.</span>
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(woah)</span>
-        </span>
-        Now THAT'S some <span class="wish">wish text!</span>
-    </p>
-
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        What's cookin', good lookin'?
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>
     
 </div>
+
+<pre>
+    function toggleDialogue() {
+const details = document.querySelector('details:not(#settings)');
+
+    if (details.open === true) {
+    details.removeAttribute("open", "");
+    }
+    else {
+        details.setAttribute("open", "");
+    }
+}
+</pre>
 
 </main>
 

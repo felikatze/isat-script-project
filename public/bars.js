@@ -157,12 +157,16 @@ function topFunction() {
 // toggle dialogue options (details) on/ off
 
 function toggleDialogue() {
-    const details = document.querySelector('details:not(#settings)');
+    const details = document.querySelectorAll('details:not(#settings)');
 
-    if (details.open == true) {
-    details.removeAttribute("open", "");
-    }
-    else {
-        details.setAttribute("open", "");
+    for(var i = 0; i < details.length; i++) {
+        if (details[i].open == true) {
+            details[i].removeAttribute("open", "")
+            console.log("closed all dialogue options!")
+        }
+        else {
+            details[i].setAttribute("open", "");
+            console.log("opened all dialogue options!")
+        }
     }
 }
