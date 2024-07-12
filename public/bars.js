@@ -9,9 +9,9 @@ class Header extends HTMLElement {
                 <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
-                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle Expressions</button>
+                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
                         <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
-                        <button onclick="changeFontStyle(null)" id="button4" class="helper">Default Font</button>
+                        <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
                         <button onclick="changeFontStyle('CascadiaCode')" id="button5" class="helper">Cascadia Code</button>
                         <button onclick="changeFontStyle('OpenDyslexic3')" id="button6" class="helper">OpenDyslexic3</button>
                     </details>
@@ -157,12 +157,16 @@ function topFunction() {
 // toggle dialogue options (details) on/ off
 
 function toggleDialogue() {
-    const details = document.querySelector('details:not(#settings)');
+    const details = document.querySelectorAll('details:not(#settings)');
 
-    if (details.open == true) {
-    details.removeAttribute("open", "");
-    }
-    else {
-        details.setAttribute("open", "");
+    for(var i = 0; i < details.length; i++) {
+        if (details[i].open == true) {
+            details[i].removeAttribute("open", "")
+            console.log("closed all dialogue options!")
+        }
+        else {
+            details[i].setAttribute("open", "");
+            console.log("opened all dialogue options!")
+        }
     }
 }
