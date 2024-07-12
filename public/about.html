@@ -55,29 +55,58 @@
 <br>
 <h3>Basics</h3>
 
-<ul>
-    <li>Character names are followed by the respective portrait name in parentheses. These are always bolded.</li>
-    <li>A new line of dialogue starts whenever a new portrait is called by the game's script, even if that portrait is the same as the previous.</li>
-    <li>Siffrin's monologues are displayed in italics.</li>
-    <li>Notes added by me to describe animations and such are not in italics nor parentheses.</li>
-    <li>All instances of dialogue and monologue are separated by an empty line.</li>
-</ul>
+<div class="dialogue">
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Loop</span>
+            <span class="dialogue-expression">(teehee2)</span>
+        </span>
+        This is test dialogue!
+    </p>
+</div>
 
 <br>
+
+<p>Chunks of dialogue (typically under larger headings) are all contained inside an outlined box, and displayed in the VCR OSD MONO font, which is the font used in ISAT. To change the font, press the Settings button on the buttom right, and select either "Cascadia Mono" or "OpenDyslexic3" as desired. "Default Font" restores the default.</p>
+
+<br>
+
+<p>Character names are followed by the respective portrait name in parentheses. These are greyed out, <span class="dialogue-expression">(like this)</span> and can be toggled using the "Toggle Expressions" button on the bottom right.</p>
+
+<br>
+<p>A new line of dialogue starts whenever a new portrait is called by the game's script, even if that portrait is the same as the previous.</p>
+
+<br>
+
+<p>All instances of dialogue and monologue are separated by an empty line.</p>
+
+
+<br>
+
+<p>Notes that are not part of the game's script are displayed</p>
+<p class="dialogue-note">
+    Greyed out like this.
+</p>
+
+<hr>
 
 <h3>Variations on dialogue</h3>
 <p>When any text varies for any reason whatsoever, most commonly due to different acts, these variations are marked by a bold heading. The level of the heading varies on a case by case basis, though it is most commonly a heading level of 4.</p>
 
 <br>
 
-<ul>
-    <li>If only a single line is varied, variations are shown through a list.</li>
-    <li>If multiple lines vary, variations are shown through headings and separate paragraphs.</li>
-</ul>
+<p>If only a single line is varied, variations are shown through a list.</p>
+
+<br>
+<p>If multiple lines vary, variations are shown through headings and separate paragraphs.</p>
 
 <br>
 
-<h4>Siffrin's dialogue portraits</h4>
+<p>Variations are separated by a horizontal line. If there was text with a heading specifying its condition, followed by a horizontal line, and the next block of text doesn't have a heading, then this is unconditional text.</p>
+
+<hr>
+
+<h3>Siffrin's dialogue portraits</h3>
 <p>Even if no dialogue variation occurs, it's still noted when Siffrin's dialogue portraits vary.</p>
 <p>This is always done through a list. This list includes the conditions of the specific portrait, as well as the internal thoughts attached to the specific textbox of the dialogue.</p>
 
@@ -89,18 +118,42 @@
 
 <p>All of Siffrin's dialogue is in quotation marks for stylistic consistency within the game.</p>
 
-<br>
+<hr>
 
 <h3>Dialogue choices</h3>
 
-<p>When a branching dialogue choice occurs, it is presented as a list with links to the choice-specific sections.</p>
-<p>Choices may not have links if they either lead to no dialogue variation or lead to exceedingly short variation.</p>
+<p>When a branching dialogue choice occurs, all choices are presented in a clickable list. Clicking a dialogue option reveals all text attached to it.</p>
+<p>Common dialogue follows below the list.</p>
+<p>All dialogue options can be opened at once using the "Toggle choices" button. Note that this button actually reverses what's open and what's closed - if you've opened some and not others, it'll switch their states around.</p>
 
 <br>
+<p>Why don't you give it a shot?</p>
+<ul class="dialogue-option">
+    <li>
+        <details>
+            <summary>Sure!</summary>
 
-<p>Sections for dialogue choices are marked by headings. The level of the heading depends on a case by case basis.</p>
+            <div class="dialogue">
+                <p class="dialogue-line">
+                    Nifty, isn't it?
+                </p>
+            </div>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>No thanks!</summary>
 
-<br>
+            <div class="dialogue">
+                <p class="dialogue-line">
+                    Suit yourself, I suppose?
+                </p>
+            </div>
+        </details>
+    </li>
+</ul>
+
+<hr>
 
 <h2 id="site">The Site's foundations</h2>
 <h3>Construction</h3>
