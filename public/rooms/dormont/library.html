@@ -168,27 +168,7 @@
                                             "Anything about Time Craft?"
                                         </summary>
                                         <span class="dialogue-note indented">
-                                            Available during Kingquest, except for right after you've read the craftonomy book.
-                                            <br>
-                                            <p style="font-size:small">
-                                                (note: this <i>sounds</i> wrong? but i think that's what the code says. check html code here for more info)
-                                                <!--
-                                                    goldstargloww:
-    
-                                                        alright. the condition for this is <<v[24] < 2||v[24] > 4>>,
-                                                        meaning variable 24 (kingquest) is either LESS than 2 or GREATER
-                                                        han 4, meaning it's just 3. but it'd just make more sense to do
-                                                        <<v[24] == 3>>, right?
-    
-                                                        also this implies it's available outside of kingquest as well which
-                                                        doesn't make sense to me. am i just reading this wrong?? remembering
-                                                        this wrong?? does it make sense for this question to be unavailable
-                                                        ONLY while in kingquest step 3??
-    
-                                                        this is Map066:Library > Event001:NPC_books in about the middle.
-                                                        they don't put numbers on the lines which is annoying, sorry :/
-                                                -->
-                                            </p>
+                                            Available during Kingquest, when you need to read the craftonomy book.
                                         </span>
                                         <div class="dialogue">
                                             <p class="dialogue-line">
@@ -384,7 +364,7 @@
                                             <span style="opacity:0.5">("What did you wish for?")</span>
                                         </summary>
                                         <span class="dialogue-note indented">
-                                            During Loopquest.
+                                            Automatically run during Loopquest.
                                         </span>
                                         <div class="dialogue">
                                             <p class="dialogue-line">
