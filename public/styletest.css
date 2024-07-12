@@ -1,8 +1,8 @@
 /* all the annotations n gunk are copied from sadgrl lol. except this one duh */
 
 @font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
+    font-family: 'VCR_OSD_MONO';
+    src: url(/VCR_OSD_MONO.ttf);
 }
 
 @font-face {
@@ -29,9 +29,9 @@ main {
     overflow: auto;
 }
 
-ul, 
+ul,
 ul li,
-ol li { 
+ol li {
     margin-bottom: 10px;
 }
 
@@ -57,12 +57,70 @@ button {
     cursor: pointer;
 }
 
+/*class for bottom right buttons */
+
+.helper {
+    position: fixed;
+    right: 30px;
+    z-index: 99;
+    width: 180px;
+    background-color: #434343;
+    color: white;
+    border-color: white;
+    border: 2px solid;
+    font-family: 'VCR_OSD_MONO';
+}
+
+/*Separate position by 40px per button*/
+
+#button1 {
+    bottom: 300px;
+}
+
+#button2 {
+    bottom: 260px;
+}
+
+#button3 {
+    bottom: 220px;
+}
+
+#button4 {
+    bottom: 180px;
+}
+
+#button5 {
+    bottom: 140px;
+}
+
+#button6 {
+    bottom: 100px;
+}
+
+#button7 {
+    bottom: 60px;
+}
+
+#settings {
+    bottom: 20px;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.helper:hover {
+    background-color: #6d6d6d;
+    /* Add a dark-grey background on hover */
+}
+
 hr {
     border: 1px white solid;
     margin: 2em 1em;
 }
-
-
 
 /* 
  * user styles
@@ -78,7 +136,7 @@ hr {
     /* colors */
     --content: #43256E;
 }
-    
+
 body {
     color: white;
     background-image: var(--body-bg-image);
@@ -95,14 +153,14 @@ body {
 /* dialogue ***************************************************************** */
 
 .wish {
-        font-weight: 1000;
-        text-shadow: 1px 1px 2px white;
-    }
+    font-weight: 1000;
+    text-shadow: 1px 1px 2px white;
+}
 
 .dialogue {
     font-family: 'VCR_OSD_MONO';
     font-size: 22px;
-	border: 13px solid transparent;
+    border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
 }
 
@@ -112,7 +170,7 @@ body {
 .option {
     margin: 0.5em 0 0.5em 2em;
     padding: 0.5em;
-	border: 3px solid transparent;
+    border: 3px solid transparent;
     border-image: url("/border-choice.png") 3 stretch;
 }
 
@@ -120,66 +178,83 @@ ul.dialogue-option {
     padding: 0;
     margin-right: 0.5em;
 }
+
 .dialogue-option li {
     list-style: none;
 }
+
 .dialogue-option summary,
 .dialogue-option-only {
     margin: 0.5em 0 0.5em 2em;
     padding: 0.5em;
-	border: 3px solid transparent;
+    border: 3px solid transparent;
     border-image: url("/border-choice.png") 3 stretch;
 }
+
 summary::-webkit-details-marker,
 summary::marker {
     list-style: none;
     display: none;
     content: '';
 }
+
 .dialogue-option details::before {
     content: ">";
     float: left;
     margin: 0.5em;
 }
+
 .dialogue-option details[open]::before {
     transform: rotate(90deg);
 }
+
 .dialogue-option .dialogue-note details::before {
     opacity: 0.5;
 }
+
 details .dialogue {
     margin-left: 2em;
 }
+
 .dialogue-line {
     display: block;
     margin: 0.5em;
 }
+
 .dialogue-name {
     font-weight: bold;
     display: inline-flex;
 }
+
 .dialogue-expression {
     display: inline-flex;
     font-size: smaller;
     opacity: 0.75;
 }
+
 .dialogue-expression::before {
-    content: "\00a0"; /* space */
+    content: "\00a0";
+    /* space */
 }
+
 .dialogue-head {
     display: inline-flex;
 }
+
 .dialogue-head::after {
     content: ":";
 }
+
 .dialogue-note {
     display: block;
     margin: 0.5em;
     opacity: 0.5;
 }
+
 .big {
     font-size: larger;
 }
+
 .indented {
     margin-left: 2em;
 }
@@ -204,7 +279,8 @@ details .dialogue {
      * query according to the comment!
      */
 
-    margin: 0 auto; /* centers entire page */
+    margin: 0 auto;
+    /* centers entire page */
 
     background: black;
     display: inline;
@@ -216,7 +292,7 @@ details .dialogue {
     font-weight: bold;
     /* if you want to remove the underline you can uncomment this: */
     /* text-decoration: none; */
-     
+
 }
 
 #header {
@@ -242,32 +318,35 @@ details .dialogue {
 }
 
 /* navigation section!! */
-#navbar {
+.navbar {
     min-height: 40px;
     width: 100%;
-    background-color: #434343; /* navbar color */
+    background-color: #434343;
+    /* navbar color */
 }
 
-#navbar ul {
+.navbar ul {
     display: flex;
     padding: 0;
     margin: 0;
     list-style-type: none;
     justify-content: space-evenly;
+    flex: wrap;
 }
 
-#navbar li {
+.navbar li {
     padding: 10px 0 0 10px;
 }
 
 /* navigation links*/
-#navbar li a {
-    color: white; /* navbar text color */
+.navbar li a {
+    color: white;
+    /* navbar text color */
     font-weight: 800;
 }
 
 /* navigation link when a link is hovered over */
-#navbar li a:hover {
+.navbar li a:hover {
     color: white;
     text-decoration: underline;
 }
@@ -284,9 +363,9 @@ details .dialogue {
  */
 aside {
     background-color: #6d6d6d;
-    width: 200px;
     padding: 20px;
-    font-size: smaller; /* makes sidebar text slightly smaller */
+    font-size: smaller;
+    /* makes sidebar text slightly smaller */
 }
 
 
@@ -309,6 +388,7 @@ main {
 #leftSidebar {
     order: 1;
     height: 100%;
+    width: min-content;
 }
 
 #rightSidebar {
@@ -325,25 +405,19 @@ footer {
 
 h1,
 h2,
-h3, 
+h3,
 h4 {
     color: white;
-    font-family: 'VCR_OSD_MONO' ;
-    
+    font-family: 'VCR_OSD_MONO';
+
 }
 
-h2
-    {
-        font-size: 32px;
-    }
+h2 {
+    font-size: 32px;
+}
 
-h3
-    {
-        font-size: 26px;
-    }
-
-strong {
-    color: #ED64F5;
+h3 {
+    font-size: 26px;
 }
 
 
@@ -365,8 +439,9 @@ strong {
  * is 900px. in order to keep things responsive, take your new height, and then
  * subtrack it by 100. use this new number as the "max-width" value below
  */
+/* Feli note: Make the desktop layout min-width using the max of the mobile layout. That way both are 100% separate and you don't have mobile UI elements stacking onto the desktop layout. */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 800px) {
     #flex {
         flex-wrap: wrap;
     }
@@ -393,23 +468,17 @@ strong {
         order: 2;
     }
 
-    #mobileSidebar {
-        order: 3;
+    #mobnav {
         display: none;
     }
 
-    #navbar ul {
-        flex-wrap: wrap;
-    }
 }
 
 @media only screen and (max-width: 800px) {
 
     #flex {
-        flex-wrap: wrap;
-    }
-    .dialogue {
-        font-size: 11px;
+        display: block;
+        float: none;
     }
 
     #headerArea {
@@ -420,6 +489,9 @@ strong {
         font-size: 16px;
     }
 
+    #desknav {
+        display: none;
+    }
 
     /* 
      * the order of the items is adjusted here for responsiveness, since the
@@ -430,13 +502,10 @@ strong {
     main {
         order: 1;
     }
+
     #leftSidebar {
         order: 2;
+        width: 100%;
     }
-    #mobileSidebar {
-        order: 3;
-    }
-    #navbar ul {
-        flex-wrap: wrap;
-    }
+
 }
