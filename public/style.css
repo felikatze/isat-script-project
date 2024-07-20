@@ -1,36 +1,8 @@
 /* all the annotations n gunk are copied from sadgrl lol. except this one duh */
-/*  ↑ before github */
-
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- *
- * goldstargloww:
- * many things here are variables in order to allow for lots of flexibility,
- * both when it comes to those using userstyles, and for updating the site
- * in the future
- */
-
-:root {
-    --header-image: url('https://felicitations.neocities.org/header.png');
-    --body-bg-image: url('https://felicitations.neocities.org/background.png');
-
-    /* colors */
-    --content: #43256E;
-    --white: #FFF;
-    --light-gray: #6D6D6D;
-    --gray: #434343;
-    --black: #000;
-}
-
-
-/** fonts ******************************************************************* */
 
 @font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
+    font-family: 'VCR_OSD_MONO';
+    src: url(/VCR_OSD_MONO.ttf);
 }
 
 @font-face {
@@ -43,19 +15,13 @@
     src: url(/OpenDyslexic3-Regular.ttf);
 }
 
-/** the other stuff ********************************************************* */
-
-* {
-    box-sizing: border-box;
+.head {
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-body {
-    background-size: 65px; /* the size of the background image. delete this line to size natively */
-    color: var(--white);
-    background-image: var(--body-bg-image);
-    font-family: 'CascadiaCode';
-    max-width: 1200px;
-    margin: auto;
+.vcr {
+    font-family: 'VCR_OSD_MONO';
 }
 
 main {
@@ -63,18 +29,10 @@ main {
     overflow: auto;
 }
 
-.head {
-    padding: 0.25em 0;
-}
-
-.vcr {
-    font-family: 'VCR_OSD_MONO';
-}
-
-ul, 
+ul,
 ul li,
-ol li { 
-    margin-bottom: 0.625em;
+ol li {
+    margin-bottom: 10px;
 }
 
 br {
@@ -87,17 +45,222 @@ img {
 }
 
 button {
-    background-color: var(--white);
-    border: 0.125em var(--gray);
-    color: var(--black);
-    padding: 0.5em 1em;
+    background-color: white;
+    border: 2px #434343;
+    color: black;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
-    margin: 0.25em 0.125em;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
 }
+
+/*class for bottom right buttons */
+
+.helper {
+    position: fixed;
+    right: 30px;
+    z-index: 99;
+    width: 180px;
+    background-color: #434343;
+    color: white;
+    border-color: white;
+    border: 2px solid;
+    font-family: 'VCR_OSD_MONO';
+}
+
+/*Separate position by 40px per button*/
+
+#button1 {
+    bottom: 300px;
+}
+
+#button2 {
+    bottom: 260px;
+}
+
+#button3 {
+    bottom: 220px;
+}
+
+#button4 {
+    bottom: 180px;
+}
+
+#button5 {
+    bottom: 140px;
+}
+
+#button6 {
+    bottom: 100px;
+}
+
+#button7 {
+    bottom: 60px;
+}
+
+#settings {
+    bottom: 20px;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.helper:hover {
+    background-color: #6d6d6d;
+    /* Add a dark-grey background on hover */
+}
+
+hr {
+    border: 1px white solid;
+    margin: 2em 1em;
+}
+
+/* 
+ * user styles
+ * styles are what change the color and sizes of stuff on your site. these are
+ * variables that are being used in the code. these tended to confuse some
+ * people, so I only kept the images as variables
+ */
+
+:root {
+    --header-image: url('/header.png');
+    --body-bg-image: url('/background.png');
+
+    /* colors */
+    --content: #43256E;
+}
+
+body {
+    color: white;
+    background-image: var(--body-bg-image);
+    font-family: 'CascadiaCode';
+    max-width: 1200px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* dialogue ***************************************************************** */
+
+.wish {
+    font-weight: 1000;
+    text-shadow: 1px 1px 2px white;
+}
+
+.dialogue {
+    font-family: 'VCR_OSD_MONO';
+    font-size: 22px;
+    border: 13px solid transparent;
+    border-image: url("/border.png") 14 round;
+}
+
+/* Feli note: for options without dialogue attached - cannibalized from Glow's dialogue-option class. */
+/* did you know: you can put this in the same ul as the sif portrait variations that use regular li */
+
+.option {
+    margin: 0.5em 0 0.5em 2em;
+    padding: 0.5em;
+    border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+}
+
+ul.dialogue-option {
+    padding: 0;
+    margin-right: 0.5em;
+}
+
+.dialogue-option li {
+    list-style: none;
+}
+
+.dialogue-option summary,
+.dialogue-option-only {
+    margin: 0.5em 0 0.5em 2em;
+    padding: 0.5em;
+    border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+}
+
+summary::-webkit-details-marker,
+summary::marker {
+    list-style: none;
+    display: none;
+    content: '';
+}
+
+.dialogue-option details::before {
+    content: ">";
+    float: left;
+    margin: 0.5em;
+}
+
+.dialogue-option details[open]::before {
+    transform: rotate(90deg);
+}
+
+.dialogue-option .dialogue-note details::before {
+    opacity: 0.5;
+}
+
+details .dialogue {
+    margin-left: 2em;
+}
+
+.dialogue-line {
+    display: block;
+    margin: 0.5em;
+}
+
+.dialogue-name {
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.dialogue-expression {
+    display: inline-flex;
+    font-size: smaller;
+    opacity: 0.75;
+}
+
+.dialogue-expression::before {
+    content: "\00a0";
+    /* space */
+}
+
+.dialogue-head {
+    display: inline-flex;
+}
+
+.dialogue-head::after {
+    content: ":";
+}
+
+.dialogue-note {
+    display: block;
+    margin: 0.5em;
+    opacity: 0.5;
+}
+
+.big {
+    font-size: larger;
+}
+
+.indented {
+    margin-left: 2em;
+}
+
+
+
 
 
 /* 
@@ -116,19 +279,20 @@ button {
      * query according to the comment!
      */
 
-    margin: 0 auto; /* centers entire page */
+    margin: 0 auto;
+    /* centers entire page */
 
-    background: var(--black);
+    background: black;
     display: inline;
 }
 
 /* the area below is for all links on your page EXCEPT for the navigation */
 #container a {
-    color: var(--white);
+    color: white;
     font-weight: bold;
     /* if you want to remove the underline you can uncomment this: */
     /* text-decoration: none; */
-     
+
 }
 
 #header {
@@ -138,8 +302,7 @@ button {
      */
 
     width: 100%;
-    background-color: var(--gray);
-    background-repeat: no-repeat;
+    background-color: #434343;
     font-family: 'VCR_OSD_MONO' !important;
 
     /*
@@ -149,40 +312,49 @@ button {
      */
 }
 
-/* navigation section!! */
-#navbar {
-    min-height: 2.5em;
-    width: 100%;
-    background-color: var(--gray); /* navbar color */
+#headerArea {
+    top: 0;
+    z-index: 1;
 }
 
-#navbar ul {
+/* navigation section!! */
+.navbar {
+    min-height: 40px;
+    width: 100%;
+    background-color: #434343;
+    /* navbar color */
+}
+
+.navbar ul {
     display: flex;
     padding: 0;
     margin: 0;
     list-style-type: none;
     justify-content: space-evenly;
+    flex: wrap;
 }
 
-#navbar li {
-    padding: 0.625em 0 0 0.625em;
+.navbar li {
+    padding: 10px 0 0 10px;
 }
 
 /* navigation links*/
-#navbar li a {
-    color: var(--white); /* navbar text color */
+.navbar li a {
+    color: white;
+    /* navbar text color */
     font-weight: 800;
 }
 
 /* navigation link when a link is hovered over */
-#navbar li a:hover {
-    color: var(--white);
+.navbar li a:hover {
+    color: white;
     text-decoration: underline;
 }
 
 #flex {
     display: flex;
     float: left;
+    height: 100%;
 }
 
 /* 
@@ -190,18 +362,18 @@ button {
  * create styles for #leftSidebar and #rightSidebar
  */
 aside {
-    background-color: var(--light-gray);
-    width: 12.5em;
-    padding: 1.25;
-    font-size: smaller; /* makes sidebar text slightly smaller */
+    background-color: #6d6d6d;
+    padding: 20px;
+    font-size: smaller;
+    /* makes sidebar text slightly smaller */
 }
 
 
 /* this is the main content area, between the sidebars */
 main {
-    background-color: var(--black);
+    background-color: black;
     flex: 1;
-    padding: 1.25;
+    padding: 20px;
     order: 2;
 }
 
@@ -215,6 +387,8 @@ main {
 
 #leftSidebar {
     order: 1;
+    height: 100%;
+    width:min-content;
 }
 
 #rightSidebar {
@@ -222,24 +396,28 @@ main {
 }
 
 footer {
-    background-color: var(--gray);
+    background-color: #434343;
     width: 100%;
     height: 100px;
-    padding: 0.625em;
+    padding: 10px;
     text-align: center;
 }
 
 h1,
 h2,
-h3, 
+h3,
 h4 {
-    color: var(--white);
-    font-family: 'VCR_OSD_MONO' ;
-    
+    color: white;
+    font-family: 'VCR_OSD_MONO';
+
 }
 
-strong {
-    color: #ED64F5;
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
 }
 
 
@@ -247,24 +425,33 @@ strong {
 
 #topBar {
     width: 100%;
-    height: 1.875em;
-    padding: 0.625em;
+    height: 30px;
+    padding: 10px;
     font-size: smaller;
     background-color: #13092D;
 }
 
 
-/** media query ************************************************************* */
+/** MEDIA QUERY ************************************************************* */
 
 /*
  * so you wanna change the width of your page? by default, the container width
  * is 900px. in order to keep things responsive, take your new height, and then
  * subtrack it by 100. use this new number as the "max-width" value below
  */
-  
-@media only screen and (max-width: 1100px) {
+ /* Feli note: Make the desktop layout min-width using the max of the mobile layout. That way both are 100% separate and you don't have mobile UI elements stacking onto the desktop layout. */
+
+@media only screen and (min-width: 800px) {
     #flex {
         flex-wrap: wrap;
+    }
+
+    aside {
+        width: 100%
+    }
+
+    .dialogue {
+        font-size: 16.5px;
     }
 
     /*
@@ -276,20 +463,34 @@ strong {
     main {
         order: 1;
     }
+
     #leftSidebar {
         order: 2;
     }
-    #navbar ul {
-        flex-wrap: wrap;
+
+    #mobnav {
+        display: none;
     }
+
 }
-  
+
 @media only screen and (max-width: 800px) {
-    aside {
-        width: 100%;
-    }
+
     #flex {
-        flex-wrap: wrap;
+        display: block;
+        float: none;
+    }
+
+    #headerArea {
+        position: static;
+    }
+
+    .dialogue {
+        font-size: 16px;
+    }
+
+    #desknav {
+        display: none;
     }
 
     /* 
@@ -301,13 +502,10 @@ strong {
     main {
         order: 1;
     }
+
     #leftSidebar {
         order: 2;
+        width: 100%;
     }
-    #rightSidebar {
-        order: 3;
-    }
-    #navbar ul {
-        flex-wrap: wrap;
-    }
+
 }

@@ -7,29 +7,45 @@ class Header extends HTMLElement {
         this.innerHTML = 
             `<div id="headerArea">
                 <div id="header"><img src="/header.png" alt=""></div>
-                  
-                <nav id="navbar">
+                   <details class="helper" id="settings">
+                        <summary>Settings</summary>
+                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
+                        <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
+                        <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
+                        <button onclick="changeFontStyle('CascadiaCode')" id="button5" class="helper">Cascadia Code</button>
+                        <button onclick="changeFontStyle('OpenDyslexic3')" id="button6" class="helper">OpenDyslexic3</button>
+                    </details>
+                    <button onclick="topFunction()" id="button7" title="Go to top" class="helper">Go to top</button>
+                <nav class="navbar" id="desknav">
+                   
                     <ul class="vcr">
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/events.html">Special Events</a></li>
-                        <li><a href="/overview/acts.html">Story Events</a></li>
-                        <li><a href="/overview/random">Random Events</a></li>
-                        <li><a href="/overview/rooms.html">Room Dialogues</a></li>
+                        <li><a href="/overview/events.html">Events</a></li>
+                        <li><a href="/overview/acts.html">Story</a></li>
+                        <li><a href="/overview/random">Random</a></li>
+                        <li><a href="/overview/rooms.html">Rooms</a></li>
+                        <li><a href="/overview/sasasap.html">START AGAIN</a></li>
                         <li><a href="/thanks">Special Thanks</a></li>
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                    </ul>
+                </nav>
+                <nav class="navbar" id="mobnav">
+                    <ul class="vcr">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/overview/events.html">Events</a></li>
+                        <li><a href="/overview/acts.html">Story</a></li>
+                        <li><a href="/overview/random">Random</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/overview/rooms.html">Rooms</a></li>
+                        <li><a href="/overview/sasasap.html">START AGAIN</a></li>
+                        <li><a href="/thanks">Special Thanks</a></li>
                     </ul>
                 </nav>
 
                 <div id="flex">
                     <aside id="leftSidebar">
-                        <button onclick="toggleExpressions();">Toggle Expressions</button>
-
-                        <h2>Font Changers</h2>
-                        <button onclick="changeFontStyle(null)">Default</button>
-                        <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
-                        <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
-
                         <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
                         <ul>
                             <li><a href="/about.html">About</a></li>
@@ -125,4 +141,32 @@ window.onload = function() {
         console.log("expressions stayed the same on load!");
     }
     // end gold's expressions toggle code
+}
+
+//Feli's Button test corner
+// So i don't need to ruin the original bars file on my pc
+
+//Copied from w3school
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// toggle dialogue options (details) on/ off
+
+function toggleDialogue() {
+    const details = document.querySelectorAll('details:not(#settings)');
+
+    for(var i = 0; i < details.length; i++) {
+        if (details[i].open == true) {
+            details[i].removeAttribute("open", "")
+            console.log("closed all dialogue options!")
+        }
+        else {
+            details[i].setAttribute("open", "");
+            console.log("opened all dialogue options!")
+        }
+    }
 }

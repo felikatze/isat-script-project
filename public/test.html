@@ -9,407 +9,11 @@
 
   <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
 
-  <script src="https://felicitations.neocities.org/bars.js" defer></script> 
-
-
-<style>
-/* all the annotations n gunk are copied from sadgrl lol. except this one duh */
-
-@font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
-}
-
-@font-face {
-    font-family: 'CascadiaCode';
-    src: url(/CascadiaCode.ttf);
-}
-
-@font-face {
-    font-family: 'OpenDyslexic3';
-    src: url(/OpenDyslexic3-Regular.ttf);
-}
-
-.head {
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-.vcr {
-    font-family: 'VCR_OSD_MONO';
-}
-
-main {
-    max-width: 100%;
-    overflow: auto;
-}
-
-ul, 
-ul li,
-ol li { 
-    margin-bottom: 10px;
-}
-
-br {
-    line-height: 1.2;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    background-color: white;
-    border: 2px #434343;
-    color: black;
-    padding: 7px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-hr {
-    border: 1px white solid;
-    margin: 2em 1em;
-}
-
-
-
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- */
-
-:root {
-    --header-image: url('/header.png');
-    --body-bg-image: url('/background.png');
-
-    /* colors */
-    --content: #43256E;
-}
-    
-body {
-    color: white;
-    background-image: var(--body-bg-image);
-    font-family: 'CascadiaCode';
-    max-width: 1200px;
-    margin: auto;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-
-/* dialogue ***************************************************************** */
-
-
-
-.dialogue {
-    font-family: 'VCR_OSD_MONO';
-    font-size: 22px;
-	border: 13px solid transparent;
-    border-image: url("/border.png") 14 round;
-}
-.dialogue-option {
-    margin: 0.5em;
-    padding: 0.5em;
-	border: 3px solid transparent;
-    border-image: url("/border-choice.png") 3 stretch;
-}
-.dialogue-option::marker { /* why won't the marker DIE */
-    display: none;
-    opacity: 0.0;
-}
-.dialogue-line {
-    display: block;
-    margin: 0.5em;
-}
-.dialogue-name {
-    font-weight: bold;
-    display: inline-flex;
-}
-.dialogue-expression {
-    display: inline-flex;
-    font-size: smaller;
-    opacity: 0.75;
-}
-.dialogue-expression::before {
-    content: "\00a0";
-}
-.dialogue-head {
-    display: inline-flex;
-}
-.dialogue-head::after {
-    content: ":";
-}
-.dialogue-note {
-    display: block;
-    margin: 0.5em;
-    opacity: 0.5;
-}
-
-.indented {
-    margin-left: 2em;
-}
-.big {
-    font-size: larger;
-}
-
-
-
-
-/* 
- * below this line is CSS for the layout
- *
- * the "container" is what wraps your entire website
- * if you want something (like the header) to be Wider than the other elements,
- * you will need to move that div outside of the container
- */
-
-#container {
-    max-width: 1000px;
-    /* 
-     * this is the width of your layout!
-     * if you change the above value, scroll to the bottom and change the media
-     * query according to the comment!
-     */
-
-    margin: 0 auto; /* centers entire page */
-
-    background: black;
-    display: inline;
-}
-
-/* the area below is for all links on your page EXCEPT for the navigation */
-#container a {
-    color: white;
-    font-weight: bold;
-    /* if you want to remove the underline you can uncomment this: */
-    /* text-decoration: none; */
-     
-}
-
-#header {
-    /* 
-     * this is only for a background image! if you want to put images IN the
-     * header, you can add them directly to the <div id="header"></div> element
-     */
-
-    width: 100%;
-    background-color: #434343;
-    font-family: 'VCR_OSD_MONO' !important;
-    position: sticky;
-
-    /*
-     * Personal note:
-     * putting image in header directly means the header height adjusts to
-     * image height. BETTER FOR MOBILE.
-     */
-}
-
-#headerArea {
-    top: 0;
-    z-index: 1;
-    position: static;
-}
-
-/* navigation section!! */
-#navbar {
-    min-height: 40px;
-    width: 100%;
-    background-color: #434343; /* navbar color */
-    position: static;
-}
-
-#navbar ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
-
-#navbar li {
-    padding: 10px 0 0 10px;
-}
-
-/* navigation links*/
-#navbar li a {
-    color: white; /* navbar text color */
-    font-weight: 800;
-}
-
-/* navigation link when a link is hovered over */
-#navbar li a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-#flex {
-    display: flex;
-    float: left;
-    height: 100%;
-    position: sticky;
-}
-
-/* 
- * this colors BOTH sidebars! if you want to style them separately,
- * create styles for #leftSidebar and #rightSidebar
- */
-aside {
-    background-color: #6d6d6d;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller; /* makes sidebar text slightly smaller */
-    position: sticky;
-    position: -webkit-sticky; /* Safari */
-}
-
-
-/* this is the main content area, between the sidebars */
-main {
-    background-color: black;
-    flex: 1;
-    padding: 20px;
-    order: 2;
-}
-
-/*
- * what's this "order" stuff about??
- * allow me to explain!
- *
- * if you're using both sidebars, the "order" value tells the CSS the order in
- * which to display them. left sidebar is 1, content is 2, and right sidebar is 3
- */
-
-#leftSidebar {
-    order: 1;
-    position: sticky;
-}
-
-#rightSidebar {
-    order: 3;
-}
-
-footer {
-    background-color: #434343;
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-}
-
-h1,
-h2,
-h3, 
-h4 {
-    color: white;
-    font-family: 'VCR_OSD_MONO' ;
-    
-}
-
-
-/** CSS for extras ********************************************************** */
-
-#topBar {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: smaller;
-    background-color: #13092D;
-}
-
-
-/** MEDIA QUERY ************************************************************* */
-
-/*
- * so you wanna change the width of your page? by default, the container width
- * is 900px. in order to keep things responsive, take your new height, and then
- * subtrack it by 100. use this new number as the "max-width" value below
- */
-
-@media only screen and (max-width: 1100px) {
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%
-    }
-
-    /*
-     * the order of the items is adjusted here for responsiveness!
-     * since the sidebars would be too small on a mobile device.
-     * feel free to play around with the order!
-     */
-
-    main {
-        order: 1;
-    }
-
-    #leftSidebar {
-        order: 2;
-    }
-
-    #mobileSidebar {
-        order: 3;
-        display: none;
-    }
-
-    #navbar ul {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media only screen and (max-width: 800px) {
-
-    
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    #headerArea {
-        position: static;
-    }
-
-    .dialogue {
-        font-size: 16px;
-    }
-
-    /* 
-     * the order of the items is adjusted here for responsiveness, since the
-     * sidebars would be too small on a mobile device.
-     * feel free to play around with the order!
-    */
-
-    main {
-        order: 1;
-    }
-    #leftSidebar {
-        order: 2;
-    }
-    #mobileSidebar {
-        order: 3;
-    }
-    #navbar ul {
-        flex-wrap: wrap;
-    }
-}
-
-</style>
+  <script src="/bars.js" defer></script> 
 
 </head>
 
 <body>
-
 <div id="container">
 
 <head-er></head-er>
@@ -449,43 +53,111 @@ h4 {
     
     <br>
 
-    <ul>
-        <li class="dialogue-option">
-            "What the fuck are you talking about."
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>
+                "What the fuck are you talking about."
+                </summary>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        I wink at the camera.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Loop winks at nothing.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(yelling4)</span>
+                        </span>
+                        <span class="big">"WHAT THE HELL'S A CAMERA???"</span>
+                    </p>
+                </div>
+            </details>
         </li>
-        <li class="dialogue-option">
-            (Stay silent.)
+        <li>
+            <details>
+                <summary>(Stay silent.)</summary>
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(teehee2)</span>
+                        </span>
+                        My my, struck speechless, are you?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You flip them off.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (They laugh.)
+                    </p>
+                </div>
+            </details>
         </li>
     </ul>
 
     <hr>
 
-    <h2>"What the fuck are you talking about?"</h2>
+    <button onclick="toggleDialogue();">Toggle choices</button>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        I wink at the camera.
-    </p>
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>Testing, testing~</summary>
 
-    <br>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        All systems go?
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Hello, hello? Can you read me?</summary>
 
-    <p class="dialogue-line">
-        (Loop winks at nothing.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(yelling4)</span>
-        </span>
-        <span class="big">"WHAT THE HELL'S A CAMERA???"</span>
-    </p>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        What's cookin', good lookin'?
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>
+    
 </div>
+
+<pre>
+    function toggleDialogue() {
+const details = document.querySelector('details:not(#settings)');
+
+    if (details.open === true) {
+    details.removeAttribute("open", "");
+    }
+    else {
+        details.setAttribute("open", "");
+    }
+}
+</pre>
+
+<p>TEST</p>
 
 </main>
 
