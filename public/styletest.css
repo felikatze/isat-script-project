@@ -209,6 +209,10 @@ summary::marker {
     margin: 0.5em;
 }
 
+.dialogue-option .invis-arrow details::before {
+    color: transparent;
+}
+
 .dialogue-option details[open]::before {
     transform: rotate(90deg);
 }
@@ -264,11 +268,18 @@ details .dialogue {
     font-size: larger;
 }
 
+.small {
+    font-size: smaller;
+}
+
 .indented {
     margin-left: 2em;
 }
 
-
+.invis {
+    opacity: 0;
+    /* for when there's a line break in the middle of dialogue. just copy the head and make it invisible i guess */
+}
 
 
 
