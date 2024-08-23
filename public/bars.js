@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
             `<div id="headerArea">
-                <div id="header"><img src="/header.png" alt=""></div>
+                <div id="header"><img src="/header.png" aria-hidden="true"></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
                         <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
@@ -19,7 +19,7 @@ class Header extends HTMLElement {
                 <nav class="navbar" id="desknav">
                    
                     <ul class="vcr">
-                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                        <li><img src="/Craft.png" aria-hidden="true" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/overview/acts.html">Story</a></li>
                         <li><a href="/overview/events.html">Events</a></li>
@@ -27,7 +27,7 @@ class Header extends HTMLElement {
                         <li><a href="/overview/random.html">Random</a></li>
                         <li><a href="/overview/sasasap.html">START AGAIN</a></li>
                         <li><a href="/thanks.html">Special Thanks</a></li>
-                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                        <li><img src="/Craft.png" aria-hidden="true" width="32" class="head"></li>
                     </ul>
                 </nav>
                 <nav class="navbar" id="mobnav">
