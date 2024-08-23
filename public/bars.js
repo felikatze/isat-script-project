@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
             `<div id="headerArea">
-                <div id="header"><img src="/header.png" aria-hidden="true"></div>
+                <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
                         <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
@@ -19,28 +19,28 @@ class Header extends HTMLElement {
                 <nav class="navbar" id="desknav">
                    
                     <ul class="vcr">
-                        <li><img src="/Craft.png" aria-hidden="true" width="32" class="head"></li>
+                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/acts.html">Story</a></li>
                         <li><a href="/overview/events.html">Events</a></li>
+                        <li><a href="/overview/acts.html">Story</a></li>
+                        <li><a href="/overview/random">Random</a></li>
                         <li><a href="/overview/rooms.html">Rooms</a></li>
-                        <li><a href="/overview/random.html">Random</a></li>
                         <li><a href="/overview/sasasap.html">START AGAIN</a></li>
-                        <li><a href="/thanks.html">Special Thanks</a></li>
-                        <li><img src="/Craft.png" aria-hidden="true" width="32" class="head"></li>
+                        <li><a href="/thanks">Special Thanks</a></li>
+                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                     </ul>
                 </nav>
                 <nav class="navbar" id="mobnav">
                     <ul class="vcr">
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/acts.html">Story</a></li>
                         <li><a href="/overview/events.html">Events</a></li>
-                        <li><a href="/overview/rooms.html">Rooms</a></li>
+                        <li><a href="/overview/acts.html">Story</a></li>
+                        <li><a href="/overview/random">Random</a></li>
                     </ul>
                     <ul>
-                        <li><a href="/overview/random.html">Random</a></li>
+                        <li><a href="/overview/rooms.html">Rooms</a></li>
                         <li><a href="/overview/sasasap.html">START AGAIN</a></li>
-                        <li><a href="/thanks.html">Special Thanks</a></li>
+                        <li><a href="/thanks">Special Thanks</a></li>
                     </ul>
                 </nav>
 
@@ -120,7 +120,7 @@ function toggleExpressions() {
             console.log("expressions off!");
         }
     }
-    sessionStorage.setItem("expressionsToggle", expressionsOff);
+    sessionStorage.setItem("expressionsToggle", expressionsOff)
 }
 // end gold's expressions toggle code
 
@@ -141,7 +141,7 @@ window.onload = function() {
         console.log("expressions stayed the same on load!");
     }
     // end gold's expressions toggle code
-};
+}
 
 //Feli's Button test corner
 // So i don't need to ruin the original bars file on my pc
@@ -161,12 +161,12 @@ function toggleDialogue() {
 
     for(var i = 0; i < details.length; i++) {
         if (details[i].open == true) {
-            details[i].removeAttribute("open", "");
-            console.log("closed all dialogue options!");
+            details[i].removeAttribute("open", "")
+            console.log("closed all dialogue options!")
         }
         else {
             details[i].setAttribute("open", "");
-            console.log("opened all dialogue options!");
+            console.log("opened all dialogue options!")
         }
     }
 }
