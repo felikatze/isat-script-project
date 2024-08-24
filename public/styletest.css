@@ -286,7 +286,30 @@ details .dialogue {
     /* for when there's a line break in the middle of dialogue. just copy the head and make it invisible i guess */
 }
 
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
 
+
+/* 
+ * goldstargloww:
+ * okay my thought was that i could still make the screenreader text selectable but like
+ * it was hard
+ * the problem is that this text doesn't wrap (yes i've tried text-wrap: wrap; it doesn't work)
+ * but otherwise it's fine??
+ * when you do this you need to put this before the visible text
+ */
+.sr-only2 {
+    position: absolute;
+    color: transparent;
+}
 
 /* 
  * below this line is CSS for the layout
