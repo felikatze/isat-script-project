@@ -74,17 +74,20 @@ button {
     font-family: 'VCR_OSD_MONO';
 }
 
-/*Separate position by 40px per button*/
+/* Separate position by 40px per button if the previous 
+ * button has one line of text, and 59.2px if the previous
+ * button has two lines of text
+ */
 
-#button1 {
-    bottom: 300px;
+#button7 {
+    bottom: 319.2px;
 }
 
-#button2 {
+#button6 {
     bottom: 260px;
 }
 
-#button3 {
+#button5 {
     bottom: 220px;
 }
 
@@ -92,15 +95,15 @@ button {
     bottom: 180px;
 }
 
-#button5 {
+#button3 {
     bottom: 140px;
 }
 
-#button6 {
+#button2 {
     bottom: 100px;
 }
 
-#button7 {
+#button1 {
     bottom: 20px;
 }
 
@@ -158,6 +161,12 @@ body {
 .wish {
     font-weight: 1000;
     text-shadow: 1px 1px 2px white;
+}
+
+.wish2 {
+    font-weight: normal;
+    text-shadow: none;
+    -webkit-text-stroke: 3px #FFF5;
 }
 
 .dialogue {

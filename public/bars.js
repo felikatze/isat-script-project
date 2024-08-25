@@ -9,13 +9,14 @@ class Header extends HTMLElement {
                 <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
-                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
-                        <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
+                        <button onclick="toggleWishStyle();" id="button7" class="helper">Change wish style</button>
+                        <button onclick="toggleExpressions();" id="button6" class="helper">Toggle expressions</button>
+                        <button onclick="toggleDialogue();" id="button5" class="helper">Toggle choices</button>
                         <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
-                        <button onclick="changeFontStyle('CascadiaCode')" id="button5" class="helper">Cascadia Code</button>
-                        <button onclick="changeFontStyle('OpenDyslexic3')" id="button6" class="helper">OpenDyslexic3</button>
+                        <button onclick="changeFontStyle('CascadiaCode')" id="button3" class="helper">Cascadia Code</button>
+                        <button onclick="changeFontStyle('OpenDyslexic3')" id="button2" class="helper">OpenDyslexic3</button>
                     </details>
-                    <button onclick="topFunction()" id="button7" title="Go to top" class="helper">Go to top</button>
+                    <button onclick="topFunction()" id="button1" title="Go to top" class="helper">Go to top</button>
                 <nav class="navbar" id="desknav">
                    
                     <ul class="vcr">
@@ -123,6 +124,26 @@ function toggleExpressions() {
     sessionStorage.setItem("expressionsToggle", expressionsOff);
 }
 // end gold's expressions toggle code
+
+// gold's wish style toggle code
+function toggleWishStyle() {
+    var wishStyleOne;
+    var things = document.getElementsByClassName("wish");
+
+    for(var i = 0; i < things.length; i++) {
+        if (things[i].classList.contains("wish2")) {
+            things[i].classList.remove = "wish2";
+            wishStyleOne = true;
+            console.log("wish style one!");
+        } else {
+            things[i].classList.add = "wish2";
+            wishStyleOne = false;
+            console.log("wish style two!");
+        }
+    }
+    sessionStorage.setItem("wishToggle", wishStyleOne);
+}
+// end gold's wish style toggle code
 
 
 // load correct font if it had been set previously
