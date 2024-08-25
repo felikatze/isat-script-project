@@ -156,8 +156,18 @@ body {
 /* dialogue ***************************************************************** */
 
 .wish {
+    /* more easily readable */
     font-weight: 1000;
     text-shadow: 1px 1px 2px white;
+}
+
+.wish2 {
+    /* same as the game */
+    -webkit-text-stroke: 3px #FFF5;
+}
+
+.center {
+    text-align: center;
 }
 
 .dialogue {
@@ -269,6 +279,9 @@ details .dialogue {
     margin: 0 0.5em;
     opacity: 0.5;
 }
+.note-color {
+    opacity: 0.5;
+}
 .big {
     font-size: larger;
 }
@@ -297,6 +310,35 @@ details .dialogue {
     position: absolute;
 }
 
+.skill {
+    font-family: 'VCR_OSD_MONO';
+    text-align: center;
+    display: block;
+}
+
+.skill img {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 2px;
+}
+
+.skill-name {
+    font-size: 22px;
+    padding: 0.1em 0.25em 0.25em 0.25em;
+    border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+    display: inline-block;
+}
+
+.skill-desc {
+    padding: 0.5em;
+    border: 13px solid transparent;
+    border-image: url("/border.png") 14 round;
+    display: inline-block;
+}
 
 /* 
  * goldstargloww:
