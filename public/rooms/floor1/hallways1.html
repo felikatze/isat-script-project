@@ -3,7 +3,7 @@
   <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hallways</title>
+  <title>Floor 1 Hallways</title>
 
   <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
 
@@ -31,9 +31,9 @@
 <h2>Floor 1</h2>
 
 <ul>
-    <li>Right side Hallways
+    <li><a href="#floor1R">Right side Hallways</a>
         <ul>
-            <li><a href="floor1R1">Level difference</a></li>
+            <li><a href="#floor1R1">Level difference</a></li>
             <li><a href="#floor1R2">First Tears</a>
                 <ul>
                     <li><a href="#tear">Tear Event</a>
@@ -46,15 +46,22 @@
                     <li><a href="#storage">Storage Room door</a></li>
                 </ul>
             </li>
+            <li><a href="#floor1R3">First row of Tears</a>
+                <ul>
+                    <li><a href="#1R3E">Event</a></li>
+                    <li><a href="#rowtears">Row of Tears</a></li>
+                </ul>
+            </li>
         </ul>
     </li>
 </ul>
     
 <br>
 
-<h1>Floor 1 right side hallways</h1>
+<h1 id="floor1R">Right side hallways</h1>
 <h2 id="floor1R1">Level Difference</h2>
 <p><b>Source:</b> Map124 (Hallway (LVL difference))</p>
+<p>First hallway to the right from the central room after the tutorial area. Has no rooms except another hallway attached to it.</p>
 <p>This event triggers if you walk through the hallway and Siffrin's level is 20 higher than the average of Mirabelle's, Isabeau's, and Odile's levels.</p>
 
 <br>
@@ -344,6 +351,7 @@
 
 <h2 id="floor1R2">First Tears</h2>
 <p><b>Source:</b> Map109 (Hallway (Tear)), Map140 (ACT5_Hallway (Tear))</p>
+<p>Second hallway to the right, after the Level Difference one. Features doors to the <a href="/rooms/floor1/stostorageroomoom.html">locked storage room</a> and the break room (WIP, no link).</p>
 
 <br>
 
@@ -924,6 +932,667 @@
 
 <hr>
 <br>
+
+<h1 id="floor1R3">First row of Tears</h1>
+<p><b>Source:</b> Map113 (Hallway (RowTears))</p>
+<p>Third hallway to the right, past the one with the first tears. Has doors to the kitchen past the row of tears (WIP, no link), and the room with the first Nostalgie (WIP, no link).</p>
+
+<!-- Floor1_Events_TL is +1 for doing the event, prevents redo and decides row of tears text.
+
+Floor1_Tears_TL is for defeating the first Nostalgie + having the first Star Crest, decides whether the event happens subsequent times (does NOT happen if you have the Crest.)
+
+The party never knows about tears at this point cuz you die when it's explained the first time.
+ -->
+
+<br>
+
+<h2 id="1R3E">Event</h2>
+<p>This event always occurs the first time you walk toward the row of tears. On subsequent loops, it only occurs if you do not have the Star Crest.</p>
+
+<br>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">
+        Everybody walks down the hallway. Mirabelle, Siffrin, and Isabeau walk ahead. Bonnie sprints after them, and Odile meanders in last. They come to a stop in front of a row of Tears.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(up1)</span>
+        </span>
+        I am DEFINITELY not looking around me and I'm admiring the view instead so tell me if I'm about to run into something dangerouuuuuus!
+    </p>
+
+    <br>
+
+    <hr>
+
+    <h4>ACT 2 & 3</h4>
+
+    <p class="dialogue-note">
+        Before Isabeau can take another step forward, Siffrin stops him. They only look at him for this the first time.
+    </p>
+
+    <br>
+
+    <ul>
+        <li><b>First time:</b> (WOAH WOAH WOAH WOAH WOAH)</li>
+        <li><b>Subsequent times & ACT 3:</b> (Woah woah woah woah!)</li>
+    </ul>
+
+    <br>
+
+    <p class="dialogue-note">
+        Isabeau jumps.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (You keep Isabeau from running into the life-ending tears.)
+    </p>
+
+    <hr>
+
+    <h4>ACT 4</h4>
+
+    <p class="dialogue-note">
+        Siffrin stops Isabeau without even turning. He jumps.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (You do the thing.)
+    </p>
+
+    <hr>
+
+    <h4>25% chance</h4>
+    <p class="dialogue-note">
+        Some additional dialogue occurs at a 25% chance in ACT 3 and 4.
+        All text labelled as such occurs for the same chance.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (For a second, you forget what you're supposed to do, until your body takes over on its own.)
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Siffrin turns to Isabeau and stops him from running ahead.
+    </p>
+
+    <br>
+    <br>
+
+    <p class="dialogue-line">
+        (You almost forgot.)
+    </p>
+
+    <p class="dialogue-line">
+        (You almost forgot to catch Isabeau before he runs right into the Tears.)
+    </p>
+
+    <p class="dialogue-line">
+        (You feel cold all over.)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awawa1)</span>
+        </span>
+        Huh?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(surprised1)</span>
+        </span>
+        Hah?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(huhwah1)</span>
+        </span>
+        <i>WAH!</i> Wh-what?  What is it???
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Everybody looks at Isabeau.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(surprised1)</span>
+        </span>
+        Is it the water? Should I... not touch the weird floating water?
+    </p>
+
+    <hr>
+
+    <h4>25% chance</h4>
+
+    <p class="dialogue-line">
+        (You're still thinking about what would've happened if you didn't catch Isabeau.)
+    </p>
+
+    <p class="dialogue-line">
+        (You have trouble breathing, but you can't let them notice--)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(gimme1)</span>
+        </span>
+        The same weird water as before...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(wow1)</span>
+        </span>
+        Oh, wait, I've heard about those!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        The villagers in Dormont call them Tears, and if you touch them you get frozen in time!!!
+    </p>
+
+    <hr>
+
+    <h4>First time only</h4>
+
+    <p class="dialogue-line">
+        (Oh, right, they haven't talked about it before...)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(omgggg1)</span>
+        </span>
+        Wait, so I almost <i>DIED?!?</i>
+    </p>
+
+    <hr>
+
+    <h4>25% chance</h4>
+
+    <p class="dialogue-line">
+        (He would have died.)
+    </p>
+
+    <p class="dialogue-line">
+        (Mirabelle wouldn't have been able to revive him.)
+    </p>
+
+    <p class="dialogue-line">
+        (Tears are different than the Time Stop skills enemies can hit you with, aren't they?)
+    </p>
+
+    <p class="dialogue-line">
+        (You don't know why you're so certain of that fact, but that would've been it for him, wouldn't it?)
+    </p>
+
+    <p class="dialogue-line">
+        (That's why you loop when you touch a Tear, but not when you're frozen in battle, right?)
+    </p>
+
+    <p class="dialogue-line">
+        (It would've been it, wouldn't it?)
+    </p>
+
+    <p class="dialogue-line">
+        <i>(Isabeau would've died?)</i>
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(urgh1)</span>
+        </span>
+        Maybe you should pay more attention, distracted one.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(brag1)</span>
+        </span>
+        I'm keeping my eyes open for all threats except the ones in front of me!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious3)</span>
+        </span>
+        We should be more careful... We wouldn't want to touch those!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(proud1)</span>
+        </span>
+        Also, also! I also heard that being frozen makes you go to sleep, and gives you a super good dream!
+    </p>
+
+    <hr>
+
+    <h4>First time only</h4>
+
+    <p class="dialogue-line">
+        (Oh?)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(neutral1)</span>
+        </span>
+        Oh?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy3)</span>
+        </span>
+        Oh?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(huh1)</span>
+        </span>
+        Oh... Did you hear this from the people in Dormont, too?
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        One by one, everyone turns to Bonnie as they speak up.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(wait1)</span>
+        </span>
+        Ah, um...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        Um... A nice lady told me that when she heard my sister got frozen...
+    </p>
+
+    <hr>
+
+    <h4>First time only</h4>
+
+    <p class="dialogue-line">
+        (Oh!!!)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(huhwah1)</span>
+        </span>
+        OH!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        OH!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Isabeau and Mirabelle both jump when they speak up.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        Oh...
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        Bonnie hops thrice, as though stomping their feet.
+    </p>
+
+    <hr>
+
+    <h4>If you haven't done <a href="/acts/act3-4/bonniequest.html">Bonnie's Friendquest</a> this loop</h4>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!1)</span>
+        </span>
+        I-I know it's not true!!! I'm not stupid!!!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk2)</span>
+        </span>
+        Just... It would be nice... If that was true.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk1)</span>
+        </span>
+        ...So...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sad2)</span>
+        </span>
+        ...
+    </p>
+
+    <hr>
+
+    <h4>If you've done Bonnie's Friendquest this loop</h4>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(happy2)</span>
+        </span>
+        Oh, I know it's not true!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(happy2)</span>
+        </span>
+        It just would be nice if it was, you know.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(and then1)</span>
+        </span>
+        So!
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(lol1)</span>
+        </span>
+        So you should touch the weird frozen water and be frozen and let me know how it goes!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(uwah!1)</span>
+        </span>
+        Pass...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        Well, we might still need to go this way, so... We should look around and find if there's a way to make those disappear!
+    </p>
+
+    <hr>
+
+    <h4>25% chance</h4>
+
+    <br>
+
+    <p class="dialogue-line">
+        (He's fine. He's fine. He's fine.)
+    </p>
+
+    <p class="dialogue-line">
+        (You're fine.)
+    </p>
+
+    <p class="dialogue-line">
+        (You keep going.)
+    </p>
+
+    <hr>
+
+    <h4>If you have a Star Crest</h4>
+
+    <p class="dialogue-line">
+        (You do have this Star Crest though...)
+    </p>
+</div>
+
+<hr>
+<br>
+
+<h2 id="rowtears">Row of Tears</h2>
+<p>If you do not have a Star Crest, the row of Tears acts like <a href="/random/generic.html#tears">generic tears</a>.</p>
+
+<br>
+
+
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        (The Tear floats gently.)
+    </p>
+
+    <hr>
+
+    <h4>First time</h4>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <p class="dialogue-line">
+        (Okay, this might be stupid, but... What if you used the Star Crest you just got on those Tears, and see if it does something?)
+    </p>
+
+    <p class="dialogue-line">
+        (There is a teardrop engraved on that Star Crest, after all...)
+    </p>
+
+    <p class="dialogue-line">
+        (And if it doesn't work, well, yeah, you'll look stupid, but you can always loop back! And not look stupid!!!)
+    </p>
+
+    <hr>
+
+    <h4>Subsequent times</h4>
+
+    <p class="dialogue-line">
+        (You have a Star Crest, so...)
+    </p>
+
+    <hr>
+
+    <p class="dialogue-line">
+        (Use the Star Crest?)
+    </p>
+
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary><b>ACT 2:</b> (Free path time!) / <b>ACT 3 onwards:</b> (Yes.)</summary>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        (You use the Star Crest.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The row of tears vanishes in a flash of light.
+                    </p>
+
+                    <hr>
+
+                    <h4>If you haven't seen <a href="#1R3E">event</a> this loop</h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                        </span>
+                        Well, I don't know what this water was, but the crest made it go away...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(wow1)</span>
+                        </span>
+                        Oh, wait, I remember! Those were Tears!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(proud1)</span>
+                        </span>
+                        The villagers in Dormont call them Tears, and if you touch them you get frozen in time!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        Good thing we found this crest, then!
+                    </p>
+
+                    <hr>
+
+                    <h4>If you have</h4>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        It worked!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Bye bye, Tears!
+                    </p>
+
+                    <br>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (PHEW.)
+                    </p>
+
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><b>ACT 2:</b> (Nah.) / <b>ACT 3 onwards:</b> (No.)</summary>
+
+                <div class="dialogue">
+
+                    <h4>ACT 2 only</h4>
+
+                    <p class="dialogue-line">
+                        (You decide to not use the Star Crest right now.)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">
+                        Siffrin walks away from the row of tears.
+                    </p>
+
+                </div>
+            </details>
+        </li>
+    </ul>
+
+    <br>
+
+
+</div>
 
 </main>
 
