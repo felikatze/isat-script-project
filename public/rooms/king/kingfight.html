@@ -22,10 +22,11 @@
 <main>
 
 <h1>King Fight</h1>
-<p>WIP note: reformat to new standard.</p>
+<small>Edited by candycoatedrox</small>
 <p>The standard King fight, as seen in your average loop.</p>
+<p>If you're looking for the questions you can ask the King in ACT 3 & 4, see <a href="/rooms/king/questions.html">King Questions</a>.</p>
 <p>If you're looking for the King fight in ACT 5, go <a href="/rooms/king/kingfight-act5.html">here</a>.</p>
-<p><b>Source:</b> Map 024 (King Room) + Map 013 (THE END) + Common Events 234 to 237 (King_Turn1 to 4)</p>
+<p><b>Sources:</b> Map 024 (King Room), Map 013 (THE END), Common Events 234 to 237 (King_Turn1 to 4)</p>
 
 <br>
 
@@ -33,642 +34,1970 @@
 
 <ul>
     <li><a href="#start">Opening</a></li>
-    <li><a href="#turn1">Fight Start</a></li>
+    <li><a href="#turn1">Fight Start</a>
+        <ul>
+            <li><a href="#attack">The King's Special Attack</a></li>
+        </ul>
+    </li>
     <li><a href="#turn2">70% HP Dialogue</a></li>
     <li><a href="#turn3">40% HP Dialogue</a></li>
-    <li><a href="#turn4">10% HP Dialogue</a></li>
-    <li><a href="#fightend">Fight End</a></li>
+    <li><a href="#turn4">10% HP Dialogue</a>
+        <ul>
+            <li><a href="#fightend">Fight End</a></li>
+        </ul>
+    </li>
     <li><a href="#end">Victory</a></li>
 </ul>
 
+<hr>
+<br>
 
 <h1 id="start">Opening</h1>
 <p>Fun fact! The later the act, the shorter the wait before the scene starts. First time: 260 frames, ACT 2: 120 frames, ACT 3: 60 frames, ACT 4: no wait! Pretty cool.</p>
-<p><b>Location:</b> House of Change, Floor 3, last room.</p>
-<p><b>Source:</b> Map 024 (King Room)</p>
-<p>For the alternate opening for the finale of ACT 3, see <a href="/acts/act3-4/kingquest.html#kingfinal">Kingquest</a>.</p>
 
 <br>
+    
+<div class="dialogue">
 
-<p>The group come to a stop before the King, standing side by side opposite him.</p>
+    <p class="dialogue-note">The group come to a stop before the King, standing side by side opposite him.</p>
 
-<br>
+    <br>
 
-<p><b>Isabeau (disappointed1):</b> ...</p>
-<p><b>Mirabelle (serious1):</b> ...</p>
-<p><b>Odile (serious1):</b> ...</p>
-<p><b>Bonnie (sulk1):</b> ...</p>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(disappointed1)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk1)</span>
+        </span>
+        ...
+    </p>
 
-<br>
+    <br>
 
-<p><b>Siffrin (hide2):</b></p>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(hide1)</span>
+        </span>
+    </p>
 
-<ul>
-    <li><a href="#dotdotdot">"..."</a></li>
-    <li><b>Available after dying to the King thrice or more:</b><a href="#doittoit">" "Let's just get right to it."</a></li>
-</ul>
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>"..."</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Ah...... ah......</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Oh...... Young ones......
+                        <br>Are you...... here to kill me......?</i>
+                    </p>
 
-<h2 id="dotdotdot">"..."</h2>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        ...
+                    </p>
 
-<p><b>King:</b> Ah...... ah......</p>
-<p><b>King:</b> Oh...... Young ones...... Are you...... here to kill me......?</p>
-<p><b>Mirabelle (serious1):</b> ...</p>
-<p><b>King:</b> Oh...... Young lady...... You stand for Change Themselves, do you not......?</p>
-<p><b>King:</b> ...I...</p>
-<p><b>King:</b> I... I just want the world to stay the way it is now...... To be frozen in eternal beauty.......</p>
-<p><b>King:</b> A world of everlasting peace and rest.</p>
-<p><b>King:</b> Young housemaiden...... In a way... Isn't my wish a form of Change? Why aren't you on my side......?</p>
-<p><b>Mirabelle (serious3):</b> ...</p>
-<p><b>King:</b> Ah...... Can't you feel it, young lady......?</p>
-<p><b>King:</b> The Universe yearns for everyone's hopes to be encased in limitless ice......</p>
-<p><b>King:</b> Won't you allow your fate to be ended......?</p>
-<p><b>Mirabelle (serious2):</b> Corrupting and ending people's lives? You call this a form of Change?</p>
-<p><b>Mirabelle (serious5):</b> You DARE compare your dreams of ice and stillness to Change themselves?!</p>
-<p><b>Mirabelle (serious4):</b> This is NOT true Change! This is just you, acting as a god would, for your own satisfaction!</p>
-<p><b>Odile (serious2):</b> One would think keeping a whole country from changing and evolving is the farthest thing away from change</p>
-<p><b>Bonnie (no!1):</b> P-Pretty self explanatory, stupid!!!</p>
-<p><b>Isabeau (really3):</b> Seems like a pretty pathetic way to appeal to a Housemaiden's good nature, huh?</p>
-<p><b>Mirabelle (serious2):</b> Is this what you want, then? For us to peacefully let ourselves be frozen in time?</p>
-<p><b>Mirabelle (serious3):</b> I will never be on your side, King.</p>
-<p><b>Mirabelle (fight1):</b> Not in a million years!!!</p>
-<p><b>King:</b> Oh......</p>
-<p><b>King:</b> Ha...... Spoken like a true Housemaiden of Change......</p>
-<p><b>King:</b> But......</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Oh...... Young lady......
+                        <br>You stand for Change Themselves, do you not......?</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        ...I...
+                    </p>
 
-<p>From here, skip to <a href="#battlestart">here.</a></p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">I... I just want the world to stay the way it is now......
+                        <br>To be frozen in eternal beauty.......</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">A world of everlasting peace and rest.</i>
+                    </p>
 
-<h2 id="doittoit">"Let's just get right to it."</h2>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Young housemaiden......
+                        <br>In a way... Isn't my wish a form of Change?
+                        <br>Why aren't you on my side......?</i>
+                    </p>
 
-<p><b>Mirabelle (anxious2):</b> Yes...!</p>
-<p><b>Isabeau (yeah!1):</b> Aw, and I had a whole speech prepared too!</p>
-<p><b>Odile (fight1):</b> Get ready, everyone.
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious3)</span>
+                        </span>
+                        ...
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Ah......
+                        <br>Can't you feel it, young lady......?</i>
+                    </p>
 
-<h2 id="battlestart">Battle Start</h2>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">The Universe yearns for everyone's hopes to be encased in limitless ice......</i>
+                    </p>
 
-<p><b>King:</b> Wait.</p>
-<p><b>King:</b> ......</p>
-<p><b>King:</b> You. Traveler.</p>
-<p><b>Odile (doubt1):</b> ...?</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Won't you allow your fate to be ended......?</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        Corrupting and ending people's lives? You call this a form of Change?
+                    </p>
 
-<p>(Odile looks at you with an expression screaming "does he mean you or me?")</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious5)</span>
+                        </span>
+                        You DARE compare your dreams of ice and stillness to Change themselves?!
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious4)</span>
+                        </span>
+                        This is NOT true Change! This is just you, acting as a god would, for your own satisfaction!
+                    </p>
 
-<ul>
-    <li><b>First time:</b> (You shrug.)</li>
-    <li><b>Subsequent times:</b> (You look back at the King.)</li>
-</ul>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        One would think keeping a whole country from changing and evolving is the farthest thing away from change.
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        P-Pretty self explanatory, stupid!!!
+                    </p>
 
-<p><b>King:</b> Bright one.</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really3)</span>
+                        </span>
+                        Seems like a pretty pathetic way to appeal to a Housemaiden's good nature, huh?
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        Is this what you want, then? For us to peacefully let ourselves be frozen in time?
+                    </p>
 
-<h4>First time:</h4>
-<p>(Ah, so he means you.)</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious3)</span>
+                        </span>
+                        I will never be on your side, King.
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        Not in a million years!!!
+                    </p>
 
-<p><b>King:</b> ......Do you remember?</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Oh......</i>
+                    </p>
 
-<h4>First time:</h4>
-<p>(Remember...?)</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Ha...... Spoken like a true Housemaiden of Change......</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">But......</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        
+        <li>
+            <details>
+                <summary>
+                    <b>Available after dying to the King thrice or more:</b>
+                    "Let's just get right to it."
+                </summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Yes...!
+                    </p>
 
-<p><b>Siffrin (surprised1):</b>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        Aw, and I had a whole speech prepared too!
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        Get ready, everyone.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li><a href="#dotdotdot"></a></li>
+        <li></li>
+    </ul>
 
-<h4>Subsequent times:</h4>
-<p><b>Siffrin (hide1):</b> (...)</p>
+    <hr>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        Wait.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        ......
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">You. Traveler.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(doubt1)</span>
+        </span>
+        ...?
+    </p>
 
-<ul>
-    <li>"Remember what?"</li>
-    <li>"Do you?"</li>
-    <li>"I remember YOU."</li>
-    <li>"...Does it matter?"</li>
-    <li>"..."</li>
-</ul>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        (Odile looks at you with an expression screaming "does he mean you or me?")
+    </p>
 
-<h3>"Remember what?"</h3>
-<p>Available right from the start.</p>
+    <br>
 
-<br>
+    <ul>
+        <li>
+            <b>First time:</b>
+            (You shrug.)
+        </li>
+        
+        <li>
+            <b>Subsequent times:</b>
+            (You look back at the King.)
+        </li>
+    </ul>
 
-<p><b>King:</b> Oh...... Oh, oh......!!!</p>
-<p><b>King:</b> ......It seems you do not.</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Bright one.</i>
+    </p>
 
-<h3>"Do you?"</h3>
-<p>Available from the second time onward.</p>
+    <br>
+    
+    <ul>
+        <li>
+            <b>First time:</b>
+            (Ah, so he means you.)
+        </li>
+    </ul>
 
-<br>
+    <br>
 
-<p><b>King:</b> ......Haha......</p>
-<p><b>King:</b> HAHAHAHAHAHAHAHA!!!</p>
-<p><b>King:</b> No...... That is not how it works, does it?</p>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">......Do you remember?</i>
+    </p>
+    
+    <br>
 
-<br>
+    <ul>
+        <li>
+            <b>First time:</b>
+            (Remember...?)
+        </li>
+    </ul>
 
-<h3>"I remember YOU."</h3>
-<p>Available after resetting because of the Head Housemaiden for the first time. (Read: After starting ACT 3.)</p>
+    <br>
+    
+    <ul>
+        <li>
+            <b>First time:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(surprised1)</span>
+            </span>
+        </li>
+        
+        <li>
+            <b>Subsequent times:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(hide1)</span>
+            </span>
+        </li>
+    </ul>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>"Remember what?"</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Oh...... Oh, oh......!!!</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">......It seems you do not.</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary><b>Available second time onward:</b>
+                    "Do you?"</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">......Haha......</i>
+                    </p>
 
-<p><b>King:</b> Is that so...?</p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake big">HAHAHAHAHAHAHAHA!!!</i>
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">No...... That is not how it works, does it?</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary><b>Available in ACT 3+:</b>
+                    "I remember YOU."</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Is that so...?</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary><b>Available after asking the King <a href="/rooms/king/questions.html#remember">"What should I remember?"</a> during <a href="/acts/act3-4/kingquest.html#remember">Kingquest</a>:</b>
+                    "...Does it matter?"</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">But...... What else does?</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary><b>Only available option after finishing <a href="/acts/act3-4/kingquest.html">Kingquest</a>:</b>
+                    "..."</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        (The King looks at you, and sobs.)
+                    </p>
 
-<h3>"Does it matter?"</h3>
-<p>Available after asking the King "What should I remember?" as part of <a href="/acts/act3-4/kingquest.html#remember">Kingquest</a>.</p>
+                    <br>
 
-<br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Oooooh, oooooooh......</i>
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
 
-<p><b>King:</b> But...... What else does?</p>
+    <hr>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">......&ensp;&ensp;&ensp;We shall fight.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">AND WE SHALL SEE WHICH SIDE THE UNIVERSE FAVORS!!!</i>
+    </p>
 
-<h3>"..."</h3>
-<p>The only option available after finishing <a href="/acts/act3-4/kingquest.html">Kingquest</a>.</p>
+    <br>
 
-<br>
+    <p class="dialogue-note">
+        Everybody draws their weapons. Battle begins.
+    </p>
+    
+</div>
 
-<p>(The King looks at you, and sobs.)</p>
-
-<br>
-
-<p><b>King:</b> Oooooh, oooooooh......</p>
-
-<br>
-
-<h3>Regardless of previous:</h3>
-
-<p><b>King:</b> ......We shall fight.</p>
-<p><b>King:</b> AND WE SHALL SEE WHICH SIDE THE UNIVERSE FAVORS!!!</p>
-
-<br>
-
-<p>Everybody draws their weapons. Battle begins.</p>
-
+<hr>
 <br>
 
 
 <h1 id="turn1">Fight Start</h1>
-<p>Dialogue for the beginning of battle.</p>
-<p><b>Source:</b> Common Event 234 (King_Turn1)</p>
+
+<div class="dialogue">
+    
+    <h4>Second time onward</h4>
+
+    <p class="dialogue-line">
+        (...Zone out for this part?)
+    </p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <ul>
+                        <li>
+                            <b>ACT 2:</b>
+                            (Might as well.)
+                        </li>
+
+                        <li>
+                            <b>ACT 3:</b>
+                            (You've heard this before.)
+                        </li>
+
+                        <li>
+                            <b>ACT 4:</b>
+                            (You wait for your next action.)
+                        </li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        ...Get ready, everyone!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The rest of the dialogue is skipped.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary>(No...)</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        (Concentrate.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Dialogue continues.</p>
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
+
+    
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Oh...... Oh.......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Despite what you may think......
+        <br>I am......
+        <br>A merciful King.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">I will give you some time to come to terms with your end......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">A most beautiful end......
+        <br>An eternal end......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaa1)</span>
+        </span>
+        Wow, he's really taking us for chumps, isn't he...?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        We've gotten this far! We will not back down!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        Get ready, everyone!
+    </p>
+
+    <hr>
+
+    <h4>At the start of Kingquest</h4>
+    <p class="dialogue-note">Your first time fighting him in ACT 3.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (The King...)
+    </p>
+    
+    <p class="dialogue-line">
+        (You finally managed to beat him last time, but you still have so many questions...)
+    </p>
+    
+    <p class="dialogue-line">
+        (Why is he freezing Vaugarde in time? Does his power have anything to do with the time loops you're stuck in?)
+    </p>
+    
+    <p class="dialogue-line">
+        (If you ask him something... Will he answer...?)
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        [Urgh, fine.]
+    </p>
+    
+    <p class="dialogue-line">
+        [You can now "Ask" the King questions by going into your Craft menu!]
+    </p>
+    
+    <p class="dialogue-line">
+        [The things I let you do, stardust, I swear.]
+    </p>
+
+    <hr>
+
+    <h4>During Kingquest</h4>
+    <p class="dialogue-line">
+        (You still have questions for the King.)
+    </p>
+    
+</div>
 
 <br>
 
-<p>(...Zone out for this part?)</p>
+<h2 id="attack">The King's Special Attack</h2>
 
-<ul>
-    <li><a href="#yes1">(Yes.)</a></li>
-    <li><a href="#no1">(No...)</a></li>
-</ul>
+<h3>The King's First Turn</h3>
+    
+<div class="dialogue">
 
-<br>
-
-<h2 id="yes1">(Yes.)</h2>
-
-<ul>
-    <li><b>ACT 2:</b> (Might as well.)</li>
-    <li><b>ACT 3:</b> (You've heard this before.)</li>
-    <li><b>ACT 4:</b> (You wait for your next action.)</li>
-</ul>
+    <p class="dialogue-line">
+        (The King waits...)
+    </p>
+    
+</div>
 
 <br>
 
-<p><b>Odile (fight1):</b> ...Get ready, everyone!</p>
+<h3>The King's Second Turn</h3>
+    
+<div class="dialogue">
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Ooh, ooooooh......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        It is time, saviors.
+    </p>
 
-<h2 id="no1">(No.)</h2>
+    <br>
 
-<p>(Concentrate.)</p>
+    <p class="dialogue-line">
+        (You see a vision of the future...)
+    </p>
 
-<br>
+    <br>
 
-<p><b>King:</b> Oh...... Oh.......</p>
-<p><b>King:</b> Despite what you may think...... I am...... A merciful King.</p>
-<p><b>King:</b> I will give you some time to come to terms with your end......</p>
-<p><b>King:</b> A most beautiful end...... An eternal end......</p>
-<p><b>Isabeau (hahaaa1):</b> Wow, he's really taking us for chumps, isn't he...?</p>
-<p><b>Mirabelle (fight2):</b> We've gotten this far! We will not back down!!!</p>
-<p><b>Odile (fight1):</b> Get ready, everyone!</p>
+    <p class="dialogue-note">
+        If you don't have Adorable Moving Shield up, you die instantly. Any party member who doesn't is K.O.'d instantly. Before the 1.0.4 patch, you'd get a game over if Siffrin died, regardless if another party member survived.
+    </p>
 
-<br>
+    <hr>
 
-<h2>At the start of Kingquest</h2>
-<p>First time fighting him in ACT 3.</p>
+    <h4>If you survived</h4>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        Ngh...!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(urgh1)</span>
+        </span>
+        W-We survived it...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        Everyone okay?!?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Oh...... Oooooooh...... You're still here......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        Good. Let us fight to the death, then.
+    </p>
+    
+</div>
 
-<p>(The King...)</p>
-<p>(You finally managed to beat him last time, but you still have so many questions...)</p>
-<p>(Why is he freezing Vaugarde in time? Does his power have anything to do with the time loops you're stuck in?)</p>
-<p>(If you ask him something... Will he answer...?)</p>
-
-<br>
-
-<p>[Urgh, fine.]</p>
-<p>[You can now "Ask" the King questions by going into your Craft menu!]</p>
-<p>[The things I let you do, stardust, I swear.]</p>
-
-<br>
-
-<h3>During Kingquest:</h3>
-<p>(You still have questions for the King.)</p>
-
-<br>
-
-<h2>King's Special Attack</h2>
-
-<p>(The King waits...)</p>
-
-<br>
-
-<p><b>King:</b> Ooh, ooooooh......</p>
-<p><b>King:</b> It is time, saviors.</p>
-
-<br>
-
-<p>(You see a vision of the future...)</p>
-
-<br>
-
-<p>If you don't have Adorable Moving Shield up, you die instantly. Any party member who doesn't is K.O.'d instantly. Before the 1.0.4 patch, you'd get a game over if Siffrin died, regardless if another party member survived.</p>
-
-<br>
-
-<h3>If you survived:</h3>
-
-<p><b>Mirabelle (sad2):</b> Ngh...!!!</p>
-<p><b>Odile (urgh1):</b> W-We survived it...</p>
-<p><b>Isabeau (fight1):</b> Everyone okay?!?</p>
-<p><b>King:</b> Oh...... Oooooooh...... You're still here......</p>
-<p><b>King:</b> Good. Let us fight to the death, then.</p>
-
+<hr>
 <br>
 
 <h1 id="turn2">70% HP Dialogue</h1>
-<p><b>Source:</b> Common Event 235 (King_Turn2)</p>
 
 <h2>Before getting Adorable Moving Shield</h2>
+    
+<div class="dialogue">
 
-<p>(Heh...)</p>
-<p>(You're doing pretty good!)</p>
-<p>(You stick your tongue out at the King.)</p>
-<p>(But, as you do this...)</p>
+    <p class="dialogue-line">
+        (Heh...)
+    </p>
+    
+    <p class="dialogue-line">
+        (You're doing pretty good!)
+    </p>
+    
+    <p class="dialogue-line">
+        (You stick your tongue out at the King.)
+    </p>
+    
+    <p class="dialogue-line">
+        (But, as you do this...)
+    </p>
 
-<br>
+    <br>
 
-<p>The King instantly kills you.</p>
+    <p class="dialogue-note">
+        The King instantly kills you.
+    </p>
+    
+</div>
 
 <br>
 
 <h2>After getting Adorable Moving Shield</h2>
+    
+<div class="dialogue">
+    
+    <h4>Second time onward</h4>
 
-<p>(...Zone out for this part?)</p>
+    <p class="dialogue-line">
+        (...Zone out for this part?)
+    </p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <ul>
+                        <li>
+                            <b>ACT 2:</b>
+                            (Why not.)
+                        </li>
 
-<ul>
-    <li><a href="yes2">(Yes.)</a></li>
-    <li><a href="no2">(No...)</a></li>
-</ul>
+                        <li>
+                            <b>ACT 3:</b>
+                            (You've heard this before.)
+                        </li>
 
-<br>
+                        <li>
+                            <b>ACT 4:</b>
+                            (You wait for your next line.)
+                        </li>
+                    </ul>
 
-<h2 id="yes2">(Yes.)</h2>
+                    <br>
 
-<ul>
-    <li><b>ACT 2:</b> (Why not.)</li>
-    <li><b>ACT 3:</b> (You've heard this before.)</li>
-    <li><b>ACT 4:</b> (You wait for your next line.)</li>
-</ul>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        --DON'T HAVE THE RIGHT TO CRY!!!
+                    </p>
 
-<br>
+                    <br>
 
-<p><b>Bonnie (angry2):</b> --DON'T HAVE THE RIGHT TO CRY!!!</p>
+                    <p class="dialogue-line">
+                        (The King doesn't answer.)
+                    </p>
 
-<p>(The King doesn't answer.)</p>
+                    <br>
 
-<br>
+                    <p class="dialogue-note">
+                        The rest of the dialogue is skipped.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary>(No...)</summary>
+                
+                <div class="dialogue">
+                    
+                    
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
 
-<h2 id="no2">(No...)</h2>
+    <p class="dialogue-line">
+        (Concentrate.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">Dialogue continues.</p>
 
-<p>(Concentrate.)</p>
+    <hr>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Oh...... Ooooh......!</i>
+    </p>
 
-<p><b>King:</b> Oh...... Ooooh......!</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        (The King cries and cries and cries...)
+    </p>
+    
+    <p class="dialogue-line">
+        (Tears appear to protect the King[!/.])
+    </p>
 
-<p>(The King cries and cries and cries...)</p>
-<p>(Tears appear to protect the King[!/.])</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Why......
+        <br>Why won't you understand......
+        <br>Why won't you understand!!!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        Crying still, huh...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(disappointed1)</span>
+        </span>
+        Glad you're expressing your emotions and everything, very healthy, but learn to read the room.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(ew1)</span>
+        </span>
+        Stop crying...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        Stop crying!!! JUST STOP CRYING!!! YOU CAN'T!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!1)</span>
+        </span>
+        You hurt so many people!!! People who won't ever move again unless we beat you!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        Vaugarde, my village, m-my sister...
+    </p>
+    
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        They're all frozen in time, because of you!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(angry2)</span>
+        </span>
+        YOU DON'T HAVE THE RIGHT TO CRY!!!
+    </p>
 
-<p><b>King:</b> Why...... Why won't you understand...... Why won't you understand!!!</p>
-<p><b>Isabeau (angry1):</b> Crying still, huh...</p>
-<p><b>Isabeau (disappointed1):</b> Glad you're expressing your emotions and everything, very healthy, but learn to read the room.</p>
-<p><b>Bonnie (ew1):</b> Stop crying...</p>
-<p><b>Bonnie (angry1):</b> Stop crying!!! JUST STOP CRYING!!! YOU CAN'T!!!</p>
-<p><b>Bonnie (no!1):</b> You hurt so many people!!! People who won't ever move again unless we beat you!!!</p>
-<p><b>Bonnie (angry1):</b> Vaugarde, my village, m-my sister...</p>
-<p><b>Bonnie (angry1):</b> They're all frozen in time, because of you!!!</p>
-<p><b>Bonnie (angry2):</b> YOU DON'T HAVE THE RIGHT TO CRY!!!</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        (The King&ensp;&ensp;&ensp;doesn't answer.)
+    </p>
 
-<p>(The King&emsp;doesn't answer.)</p>
+    <hr>
 
-<br>
-
-<h3>If it's easy:</h3>
-<p>If you reach 70% HP on the King before his second turn (read: before he can use his special attack.)</p>
-
-<h4>First time:</h4>
-<p>(. . .)</p>
-<p>(...Was it always this easy to fight the King?)</p>
-
-<br>
-
-<h4>Subsequent times:</h4>
-<p>(. . .)</p>
-<p>(Even the King feels easy to fight, now.)</p>
-
+    <h4>If it's easy</h4>
+    <p class="dialogue-note">If you reach 70% HP on the King before his second turn (read: before he can use his special attack.)</p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (. . .)
+    </p>
+    
+    <br>
+    
+    <ul>
+        <li>
+            <b>First time:</b>
+            (...Was it always this easy to fight the King?)
+        </li>
+        
+        <li>
+            <b>Subsequent times:</b>
+            (Even the King feels easy to fight, now.)
+        </li>
+    </ul>
+    
+</div>
+    
+<hr>
 <br>
 
 <h1 id="turn3">40% HP Dialogue</h1>
+    
+<div class="dialogue">
 
-<h4>If the King's Tears have not been defeated:</h4>
-<p>(The King's Tears disappeared and healed the King[!/.])</p>
+    <h4>If the King's Tears have not been defeated</h4>
+    <p class="dialogue-line">
+        (The King's Tears disappeared and healed the King[!/.])
+    </p>
 
-<br>
+    <hr>
 
-<h4>Third fight onwards:</h4>
+    <h4>Third fight onward</h4>
 
-<ul>
-    <li><b>ACT 2:</b> (The King's speech washes over you.)</li>
-    <li><b>ACT 3 & 4:</b> (The King's dialogue washes over you.)</li>
-</ul>
+    <ul>
+        <li>
+            <b>ACT 2:</b>
+            (The King's speech washes over you.)
+        </li>
+        
+        <li>
+            <b>ACT 3 & 4:</b>
+            (The King's dialogue washes over you.)
+        </li>
+    </ul>
 
-<br>
+    <hr>
+    
+    <h4>Second time onward</h4>
+    
+    <p class="dialogue-line">(...Zone out for this part?)</p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <ul>
+                        <li>
+                            <b>ACT 2:</b>
+                            (Save some time.)
+                        </li>
 
-<h2>Actual Speech:</h2>
+                        <li>
+                            <b>ACT 3:</b>
+                            (You have&ensp;&ensp;&ensp;heard this&ensp;&ensp;&ensp;before.)
+                        </li>
 
-<ul>
-    <li><a href="#yes3">(Yes.)</a></li>
-    <li><a href="#no3">(No...)</a></li>
-</ul>
+                        <li>
+                            <b>ACT 4:</b>
+                            (You wait for the play to end.)
+                        </li>
+                    </ul>
 
-<h2 id="yes3">(Yes.)</h2>
+                    <br>
 
-<ul>
-    <li><b>ACT 2:</b> (Save some time.)</li>
-    <li><b>ACT 3:</b> (You have&emsp;heard this&emsp;before.)</li>
-    <li><b>ACT 4:</b> (You wait for the play to end.)</li>
-</ul>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <i class="shake">Hahaha......</i>
+                    </p>
 
-<br>
+                    <br>
 
-<p><b>King:</b> Hahaha......</p>
+                    <p class="dialogue-note">
+                        The rest of the dialogue is skipped.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary>(No...)</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">(Concentrate.)</p>
 
-<br>
+                    <br>
 
-<h2 id="no3">(No...)</h2>
+                    <p class="dialogue-note">Dialogue continues.</p>
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
 
-<p>(Concentrate.)
+    <hr>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Oh...... Ooooh......!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Please......
+        <br>Please, all of you...... Tell me......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Why are you all fighting against me?</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        <b>Odile (urgh1):</b> Really?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        <b>Mirabelle (fight1):</b> YOU DARE ASK THAT QUESTION?!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">But don't you see it?
+        <br>Don't you want it?
+        <br>This perfect ending?</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Right now...
+        <br>You are fighting me, a being close to divinity.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">The Universe Itself follows my will.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">And yet......
+        <br>You are all facing me, without fear.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">You're all so powerful......
+            <br>So united......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">And...... I can see it.</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Oooooh......
+        <br>You're all so stunningly......
+            <br>So wholeheartedly......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        Happy.
+    </p>
 
-<p><b>King:</b> Oh...... Ooooh......!</p>
-<p><b>King:</b> Please...... Please, all of you...... Tell me......</p>
-<p><b>King:</b> Why are you all fighting against me?</p>
-<p><b>Odile (urgh1):</b> Really?</p>
-<p><b>Mirabelle (fight1):</b> YOU DARE ASK THAT QUESTION?!</p>
-<p><b>King:</b> But don't you see it? Don't you want it? This perfect ending?</p>
-<p><b>King:</b> Right now... You are fighting me, a being close to divinity.</p>
-<p><b>King:</b> The Universe Itself follows my will.</p>
-<p><b>King:</b> And yet...... You are all facing me, without fear.</p>
-<p><b>King:</b> You're all so powerful...... So united......</p>
-<p><b>King:</b> And...... I can see it.</p>
-<p><b>King:</b> Oooooh...... You're all so stunningly...... So wholeheartedly......</p>
-<p><b>King:</b> Happy.</p>
+    <br>
 
-<br>
+    <ul>
+        <li>
+            <b>First time:</b>
+            (What...?)
+        </li>
+        
+        <li>
+            <b>ACT 4:</b>
+            <i class="shake">(...!!!)</i>
+        </li>
+    </ul>
 
-<ul>
-    <li><b>First time:</b> (What...?)</li>
-    <li><b>ACT 4:</b> (...!!!)</li>
-</ul>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(huhwah1)</span>
+        </span>
+        Huh-?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!1)</span>
+        </span>
+        <span class="big">WHAT?!?</span>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        ...!!! What are you--
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(serious2)</span>
+        </span>
+        What kind of stupid--
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Ah, aaaaaaaah, and that's why you should all understand!!!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Even now, don't you agree?
+        <br>Don't you want it?!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Look at you all!!! You're all so powerful!!!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">You all managed to get this far!!!
+        <br>Don't you want to be immortalized right now?
+        <br>As winners?!</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">DON'T YOU WANT IT ALL
+        <br>TO END LIKE THIS!!!!!!</i>
+    </p>
 
-<p><b>Isabeau (huhwah1):</b> Huh-?</p>
-<p><b>Bonnie (no!1):</b> WHAT?!?</p>
-<p><b>Mirabelle (no!2):</b> ...!!! What are you--</p>
-<p><b>Odile (serious2):</b> What kind of stupid--</p>
-<p><b>King:</b> Ah, aaaaaaaah, and that's why you should all understand!!!</p>
-<p><b>King:</b> Even now, don't you agree? Don't you want it?!</p>
-<p><b>King:</b> Look at you all!!! You're all so powerful!!!</p>
-<p><b>King:</b> You all managed to get this far!!! Don't you want to be immortalized right now? As winners?!</p>
-<p><b>King:</b> DON'T YOU WANT IT ALL TO END LIKE THIS!!!!!!</p>
+    <br>
 
-<br>
+    <h4>ACT 2:</h4>
+    <p class="dialogue-line">
+        (What is he...)
+    </p>
+    
+    <p class="dialogue-line">
+        (...)
+    </p>
 
-<h4>ACT 2:</h4>
-<p>(What is he...)</p>
-<p>(...)</p>
+    <h4>ACT 3:</h4>
+    <p class="dialogue-line">
+        (You know this is all just a way to make you all stop fighting, but...)
+    </p>
+    
+    <p class="dialogue-line">
+        (...)
+    </p>
 
-<h4>ACT 3:</h4>
-<p>(You know this is all just a way to make you all stop fighting, but...)</p>
-<p>(...)</p>
+    <h4>ACT 4:</h4>
+    <p class="dialogue-line">
+        <i class="shake">(Don't you want the play to stop here!!!)</i>
+    </p>
 
-<h4>ACT 4:</h4>
-<p>(Don't you want the play to stop here!!!)</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(angry2)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot2)</span>
+        </span>
+        ...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Hahaha......</i>
+    </p>
+    
+</div>
 
-<p><b>Bonnie (sad1):</b> ...</p>
-<p><b>Mirabelle (no!2):</b> ...</p>
-<p><b>Isabeau (angry2):</b> ...</p>
-<p><b>Odile (dotdotdot2):</b> ...</p>
-<p><b>King:</b> Hahaha......</p>
-
+<hr>
 <br>
 
 <h1 id="turn4">10% HP Dialogue</h1>
+    
+<div class="dialogue">
 
-<h3>During Kingquest:</h3>
-<p>If you have a question to ask and didn't ask anything for the entire battle.</p>
+    <h4>During Kingquest</h4>
+    <p class="dialogue-note">
+        Only if you have a question to ask and didn't ask anything for the entire battle.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (You did it...!!!)
+    </p>
+    
+    <p class="dialogue-line">
+        (The King... You've beaten him again, but you haven't asked him anything!!!)
+    </p>
+    
+    <p class="dialogue-line">
+        (Quickly, before he dies...)
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">
+        You then get the chance to ask him questions.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+    
+    <p class="dialogue-line">
+        (Alright. Time for the King's end.)
+    </p>
+
+    <hr>
+    
+    <h4>ACT 3+</h4>
+    
+    <p class="dialogue-line">(...Zone out for this part?)</p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <ul>
+                        <li>
+                            <b>ACT 3:</b>
+                            (YOU HAVE HEARD THIS BEFORE.)
+                        </li>
+
+                        <li>
+                            <b>ACT 4:</b>
+                            (Soon, the curtains will close.)
+                        </li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        <b>Bonnie (no!1):</b> --just a dumb baby idiot who froze the country in time for dumb baby idiot reasons!!!!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Skip to <a href="#fightend">Fight End</a>.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary>(No...)</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">(Concentrate.)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Dialogue continues.</p>
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
+
+    <hr>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        Ah......!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        N-no...... This can't--!
+    </p>
+
+    <br>
+
+    <h4>Fourth time onward:</h4>
+    <ul>
+        <li>
+            <b>ACT 2:</b>
+            (Mirabelle's speech washes over you.)
+        </li>
+        
+        <li>
+            <b>ACT 3 & 4:</b>
+            (Mirabelle's dialogue washes over you.)
+        </li>
+    </ul>
+    
+    <br>
+
+    <p class="dialogue-note">
+        Note: Since this is the fight's ending, it can't actually be replayed in ACT 2... since defeating the King for the first time and getting to the End is what boots you to ACT 3.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(sad2)</span>
+        </span>
+        King... I don't...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        I do not want time to stop now.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        I don't want eternity.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        I don't want to be stuck here, in what you deem a "perfect moment"!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Ooooh......
+            <br>But...... Do you truly think your life will get more extraordinary than this?</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Do you truly think you will become more powerful, more fulfilled than you are right now? Fighting me?</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious4)</span>
+        </span>
+        ...Do I think something will fulfill me more than fighting you to save my country?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        YES! OF COURSE IT WILL!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(disappointed1)</span>
+        </span>
+        ...!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        ...!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol1)</span>
+        </span>
+        Heh.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious4)</span>
+        </span>
+        "Life will never get better than this, so you should give up now"?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(angy1)</span>
+        </span>
+        GIVE ME A BREAK!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        The eternity you wish for... I want no part of it!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        WE WANT NO PART OF IT!!! WE WILL NOT GIVE IN!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(serious5)</span>
+        </span>
+        Because your eternity means the end of change!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(stressed1)</span>
+        </span>
+        And I believe in change, King! I believe in a life that goes on!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        Things CANNOT stay the same! They can't! They won't!!! Or we as humans cannot change for the better!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        So I will NEVER let you have your way!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaha2)</span>
+        </span>
+        Hahaha!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(yeah!1)</span>
+        </span>
+        Yeah, what she said! Nice try, trying to manipulate us into being frozen!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        But we won't listen to you.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(yeah!1)</span>
+        </span>
+        This isn't the end of our story, King! Not by a long shot!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol3)</span>
+        </span>
+        How egocentric to think fighting you is the highlight of our lives.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol2)</span>
+        </span>
+        Believe it or not, beating you isn't even worth writing on my resume.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!1)</span>
+        </span>
+        Saying all those things to push us into being frozen... You're the worst, King!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(angry1)</span>
+        </span>
+        You're nothing!!! You're not even a King, you're no one! No one!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!1)</span>
+        </span>
+        You're just a dumb baby idiot who froze the country in time for dumb baby idiot reasons!!!!!!
+    </p>
+    
+</div>
 
 <br>
 
-<p>(You did it...!!!)</p>
-<p>(The King... You've beaten him again, but you haven't asked him anything!!!)</p>
-<p>(Quickly, before he dies...)</p>
+<h2 id="fightend">Fight End</h2>
+<p>I'm not including the pictures and all the five billion variations of them here. Just No. Look the scene up on YouTube for that.</p>
 
 <br>
+    
+<div class="dialogue">
 
-<p>You then get the chance to ask him questions.</p>
+    <ul>
+        <li>
+            <b>ACT 2:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fight2)</span>
+            </span>
+            (Heh...)
+        </li>
+        
+        <li>
+            <b>ACT 3:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
+            (Your turn.)
+        </li>
+        
+        <li>
+            <b>ACT 4:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fake1)</span>
+            </span>
+            (...)
+        </li>
+    </ul>
+    
+    <ul class="dialogue-option">
+        <li class="option">"Sounds like there's nothing else for me to add, huh?"</li>
+    </ul>
 
-<br>
+    <br>
 
-<p>(...)</p>
-<p>(Alright. Time for the King's end.)</p>
+    <ul>
+        <li>
+            <b>ACT 2 & 3:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(fight3)</span>
+            </span>
+        </li>
+        
+        <li>
+            <b>ACT 4:</b>
+            <span class="dialogue-head">
+                <span class="dialogue-name">Siffrin</span>
+                <span class="dialogue-expression">(scary1)</span>
+            </span>
+        </li>
+    </ul>
+    
+    <ul class="dialogue-option">
+        <li class="option">"So all you need to do right now is disappear."</li>
+    </ul>
 
-<br>
+    <br>
 
-<h2>Regular</h2>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">No......
+        <br>No, no, no, NO!!!</i>
+    </p>
 
-<ul>
-    <li><a href="#yes4">(Yes.)</a></li>
-    <li><a href="#no4">(No...)</a></li>
-</ul>
+    <br>
 
-<h2 id="yes4">(Yes.)</h2>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+        </span>
+        Disappear!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+        </span>
+        Disappear!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+        </span>
+        Disappear!
+    </p>
 
-<ul>
-    <li><b>ACT 3:</b> (YOU HAVE HEARD THIS BEFORE.)</li>
-    <li><b>ACT 4:</b> (Soon, the curtains will close.)</li>
-</ul>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+        </span>
+        DISAPPEAR!!!!
+    </p>
 
-<p><b>Bonnie (no!1):</b> --just a dumb baby idiot who froze the country in time for dumb baby idiot reasons!!!!!!</p>
+    <br>
 
-<br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake big">NO!!!!!!!!!</i>
+    </p>
 
-<h2 id="no4">(No...)</h2>
+    <br>
 
-<p>(Concentrate.)</p>
+    <p class="dialogue-line">
+        (You attack the King with all you've got[!!!/...])
+    </p>
 
-<br>
+    <hr>
 
-<p><b>King:</b> Ah......!!!</p>
-<p><b>King:</b> N-no...... This can't--!</p>
+    <h4>First three times</h4>
+    <p class="dialogue-line">
+        (You all attacked the King and hit as hard as you could...)
+    </p>
+    
+    <p class="dialogue-line">
+        (Mirabelle's attack brings the King to his knees.)
+    </p>
+    
+    <hr>
 
-<br>
+    <h4>Fourth time onward</h4>
+    <p class="dialogue-line">
+        (You all attacked the King.)
+    </p>
+    
+    <p class="dialogue-line">
+        (Like before, as always, Mirabelle's attack brings the King to his knees.)
+    </p>
 
-<h4>Fourth time onwards:</h4>
-<ul>
-    <li><b>ACT 2:</b> (Mirabelle's speech washes over you.)</li>
-    <li><b>ACT 3 & 4:</b> (Mirabelle's dialogue washes over you.)</li>
-</ul>
+    <hr>
 
-<p>Note: Since this is the fight's ending, it can't actually be replayed in ACT 2... since defeating the King for the first time and getting to the End is what boots you to ACT 3.</p>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">No, I can't...... I can't disappear......</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">Not yet...... No t&nbsp;&ensp;w&ensp;h e n...... I&ensp;&ensp;&ensp;s&ensp;t&ensp;i l l&ensp;&ensp;c&ensp;a n&nbsp;&ensp;' t&nbsp;&ensp;s&nbsp;&ensp;a&ensp;y&ensp;i&ensp;&ensp;&nbsp;t..&ensp;.. .. ..</i>
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">King</span>
+        </span>
+        <i class="shake">o o&nbsp;&ensp;o&ensp;&ensp;o&ensp;o&ensp;&ensp;o o o&nbsp;&ensp;h . .&nbsp;&ensp;.&nbsp;&ensp;.&ensp;&ensp;.&nbsp;&ensp;&ensp;.</i>
+    </p>
+    
+</div>
 
-<br>
-
-<p><b>Mirabelle (sad2):</b> King... I don't...</p>
-<p><b>Mirabelle (serious1):</b> I do not want time to stop now.</p>
-<p><b>Mirabelle (serious1):</b> I don't want eternity.</p>
-<p><b>Mirabelle (fight1):</b> I don't want to be stuck here, in what you deem a "perfect moment"!!!</p>
-<p><b>King:</b> Ooooh...... But...... Do you truly think your life will get more extraordinary than this?</p>
-<p><b>King:</b> Do you truly think you will become more powerful, more fulfilled than you are right now? Fighting me?</p>
-<p><b>Mirabelle (serious4):</b> ...Do I think something will fulfill me more than fighting you to save my country?</p>
-<p><b>Mirabelle (fight1):</b> YES! OF COURSE IT WILL!!!</p>
-<p><b>Isabeau (disappointed1):</b> ...!</p>
-<p><b>Bonnie (sad2):</b> ...!</p>
-<p><b>Odile (lol1):</b> Heh.</p>
-<p><b>Mirabelle (serious4):</b> "Life will never get better than this, so you should give up now"?</p>
-<p><b>Mirabelle (angy1):</b> GIVE ME A BREAK!!!</p>
-<p><b>Mirabelle (fight1):</b> The eternity you wish for... I want no part of it!!!</p>
-<p><b>Mirabelle (fight1):</b> WE WANT NO PART OF IT!!! WE WILL NOT GIVE IN!!!</p>
-<p><b>Mirabelle (serious5):</b> Because your eternity means the end of change!!!</p>
-<p><b>Mirabelle (stressed1):</b> And I believe in change, King! I believe in a life that goes on!!!</p>
-<p><b>Mirabelle (fight1):</b> Things CANNOT stay the same! They can't! They won't!!! Or we as humans cannot change for the better!</p>
-<p><b>Mirabelle (fight1):</b> So I will NEVER let you have your way!!!</p>
-<p><b>Isabeau (hahaha2):</b> Hahaha!</p>
-<p><b>Isabeau (yeah!1):</b> Yeah, what she said! Nice try, trying to manipulate us into being frozen!</p>
-<p><b>Isabeau (fight1):</b> But we won't listen to you.</p>
-<p><b>Isabeau (yeah!1):</b> This isn't the end of our story, King! Not by a long shot!!!</p>
-<p><b>Odile (lol3):</b> How egocentric to think fighting you is the highlight of our lives.</p>
-<p><b>Odile (lol2):</b> Believe it or not, beating you isn't even worth writing on my resume.</p>
-<p><b>Bonnie (no!1):</b> Saying all those things to push us into being frozen... You're the worst, King!!!</p>
-<p><b>Bonnie (angry1):</b> You're nothing!!! You're not even a King, you're no one! No one!!!</p>
-<p><b>Bonnie (no!1):</b> You're just a dumb baby idiot who froze the country in time for dumb baby idiot reasons!!!!!!</p>
-
-<br>
-
-<h1 id="fightend">Fight End</h1>
-<p>I'm not including the pictures and all the five billion variations of them here. Just No. Look the scene up on youtube for that.</p>
-
-<br>
-
-<ul>
-    <li><b>ACT 2: Siffrin (fight2):</b> (Heh...)</li>
-    <li><b>ACT 3: Siffrin (fake1):</b> (Your turn.)</li>
-    <li><b>ACT 4: Siffrin (fake1):</b> (...)</li>
-</ul>
-
-<p>"Sounds like there's nothing else for me to add, huh?"</p>
-
-<br>
-
-<ul>
-    <li><b>ACT 2 & 3: Siffrin (fight3):</b></li>
-    <li><b>ACT 4: Siffrin (scary1):</b></li>
-</ul>
-
-<p>"So all you need to do right now is disappear."</p>
-
-<br>
-
-<p><b>King:</b> No...... No, no, no, NO!!!</p>
-
-<br>
-
-<p><b>Odile:</b> Disappear!</p>
-<p><b>Isabeau:</b> Disappear!</p>
-<p><b>Bonnie:</b> Disappear!</p>
-
-<br>
-
-<p><b>Mirabelle:</b> DISAPPEAR!!!!</p>
-
-<br>
-
-<p><b>King:</b> NO!!!!!!!!!</p>
-
-<br>
-
-<p>(You attack the King with all you've got[!!!/...])</p>
-
-<br>
-
-<h4>First three times:</h4>
-<p>(You all attacked the King and hit as hard as you could...)</p>
-<p>(Mirabelle's attack brings the King to his knees.)</p>
-
-<h4>Fourth time onward:</h4>
-<p>(You all attacked the King.)</p>
-<p>(Like before, as always, Mirabelle's attack brings the King to his knees.)</p>
-
-<br>
-
-<p><b>King:</b> No, I can't...... I can't disappear......</p>
-<p><b>King:</b> Not yet...... No t&nbsp;&ensp;w&ensp;h e n...... I&ensp;&ensp;&ensp;s&ensp;t&ensp;i l l&ensp;&ensp;c&ensp;a n&nbsp;&ensp;' t&nbsp;&ensp;s&nbsp;&ensp;a&ensp;y&ensp;i&ensp;&ensp;&nbsp;t..&ensp;.. .. ..</p>
-<p><b>King:</b> o o&nbsp;&ensp;o&ensp;&ensp;o&ensp;o&ensp;&ensp;o o o&nbsp;&ensp;h . .&nbsp;&ensp;.&nbsp;&ensp;.&ensp;&ensp;.&nbsp;&ensp;&ensp;.</p>
-
+<hr>
 <br>
 
 <h1 id="end">Victory</h1>
