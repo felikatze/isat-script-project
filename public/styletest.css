@@ -211,6 +211,11 @@ ul.dialogue-option {
     border-image: url("/border-choice.png") 3 stretch;
 }
 .dialogue-option-only {
+    /*
+     * this class is used when there's only one option to choose from,
+     * or when there's no reason to have a dropdown because the option
+     * chosen doesn't affect anything
+     */
     margin-left: 0.5em;
 }
 summary::-webkit-details-marker,
