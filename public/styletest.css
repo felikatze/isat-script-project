@@ -47,6 +47,13 @@ img {
     margin-right: auto;
 }
 
+img.cg {
+    object-fit: cover;
+    object-position: top;
+    height: 460px;
+    width: 816px;
+}
+
 button {
     background-color: white;
     border: 2px #434343;
