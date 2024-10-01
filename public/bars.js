@@ -246,8 +246,9 @@ function toggleAnimations() {
 wrapAllCharacters(document.getElementsByClassName("shake"));
 
 
-var shakeMagnitude = 2;
+var shakeMagnitude = 5;
 var shakeSpeed = 0.2;
+var shakeUnit = "%";
 
 function applyShakeAnimation() {
     var elements = document.getElementsByClassName("shake");
@@ -255,15 +256,15 @@ function applyShakeAnimation() {
     for (var element in elements) {
         children = elements[element].children;
         for (var child in children) {
-            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) { // if's styleable and isn't whitespace
+            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) { // if it's styleable and isn't whitespace
                 children[child].classList.remove("shake-visual");
     
                 children[child].style.display = "inline-block";
                 children[child].style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
                 
-                children[child].style.setProperty("--shake-state-1", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
-                children[child].style.setProperty("--shake-state-2", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
-                children[child].style.setProperty("--shake-state-3", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
+                children[child].style.setProperty("--shake-state-1", `translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-2", `translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-3", `translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
             }
         }
     }
