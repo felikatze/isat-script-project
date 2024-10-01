@@ -170,3 +170,158 @@ function toggleDialogue() {
         }
     }
 }
+
+
+// SHAKING + WAVING TEXT
+
+// https://oat.zone/markdown-plus/###
+function rand() {
+    return Math.floor(Math.random() * 100) / 100;
+}
+function srand() {
+    return rand() * 2 - 1;
+}
+
+function shakeRandom() {
+    return [-2,-1,0,1,2].random();
+}
+
+// https://stackoverflow.com/a/24137301
+// for choosing random from array
+Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+
+
+// https://stackoverflow.com/a/9666441
+// https://jsfiddle.net/6bEuW/
+// wraps all characters in an element in a span
+function wrapCharacters(element) {
+    var child = element.firstChild;
+    while (child) {
+        // have to get a reference before we replace the child node
+        var nextSibling = child.nextSibling;
+
+        if (child.nodeType === 1) { // element node
+            wrapCharacters(child);
+        }
+        else if (child.nodeType === 3) { // text node
+            var d_ = document.createDocumentFragment();
+
+            for (var i = 0, len = child.nodeValue.length; i < len; i++) {
+                var span = document.createElement('span');
+                span.innerHTML = child.nodeValue.charAt(i);
+                d_.appendChild(span);
+            }
+            // document fragments are just awesome
+            child.parentNode.replaceChild(d_, child);
+        }
+        child = nextSibling;
+    }
+}
+
+
+function wrapAllCharacters(elements) {
+    for (var element in elements) {
+        wrapCharacters(elements[element]);
+    }
+}
+
+
+
+var animationToggle = true;
+function toggleAnimations() {
+    if (animationToggle) {
+        disableShakeAnimation();
+        disableWaveAnimation();
+    } else {
+        applyShakeAnimation();
+        applyWaveAnimation();
+    }
+    animationToggle = !animationToggle;
+}
+
+// SHAKE
+wrapAllCharacters(document.getElementsByClassName("shake"));
+
+
+var shakeMagnitude = 2;
+var shakeSpeed = 0.2;
+
+function applyShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) { // if's styleable and isn't whitespace
+                children[child].classList.remove("shake-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
+                
+                children[child].style.setProperty("--shake-state-1", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
+                children[child].style.setProperty("--shake-state-2", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
+                children[child].style.setProperty("--shake-state-3", `translate(${srand() * shakeMagnitude}px,${srand() * shakeMagnitude}px)`);
+            }
+        }
+    }
+}
+
+applyShakeAnimation();
+
+function disableShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("shake-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+
+// WAVE
+wrapAllCharacters(document.getElementsByClassName("wave"));
+
+var wavelength = 0.1; // what unit? who knows
+var waveAmplitude = 10;
+var waveSpeed = 0.75;
+
+function applyWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    for (var element in elements) {
+        children = elements[element].childNodes;
+        for (var child in children) {
+            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.remove("wave-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${waveSpeed}s wave cubic-bezier(0.37, 0, 0.63, 1) infinite ${-child * wavelength}s alternate`;
+                children[child].style.setProperty("--wave-amplitude", `${waveAmplitude}%`);
+            }
+        }
+    }
+}
+
+applyWaveAnimation();
+
+function disableWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (children[child].style && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("wave-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+// END SHAKING + WAVING TEXT

@@ -360,6 +360,35 @@ details .dialogue {
     color: transparent;
 }
 
+.shake-visual,
+.wave-visual {
+    font-style: italic;
+}
+
+@keyframes shake {
+    0% {
+        transform: var(--shake-state-1);
+    }
+    33% {
+        transform: var(--shake-state-2);
+    }
+    66% {
+        transform: var(--shake-state-3);
+    }
+    100% {
+        transform: var(--shake-state-1);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(var(--wave-amplitude));
+    }
+    100% {
+        transform: translateY(calc(var(--wave-amplitude) * -1));
+    }
+}
+
 /* 
  * below this line is CSS for the layout
  *
