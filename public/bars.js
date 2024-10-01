@@ -9,6 +9,7 @@ class Header extends HTMLElement {
                 <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
+                        <button onclick="toggleAnimations();" id="button1" class="helper">Toggle animations</button>
                         <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
                         <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
                         <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
