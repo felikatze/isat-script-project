@@ -290,7 +290,7 @@ function disableShakeAnimation() {
 // WAVE
 wrapAllCharacters(document.getElementsByClassName("wave"));
 
-var wavelength = 0.1; // what unit? who knows
+var wavelength = 0.025; // what unit? who knows
 var waveAmplitude = 10;
 var waveSpeed = 0.75;
 
