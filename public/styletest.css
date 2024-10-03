@@ -260,7 +260,7 @@ details .dialogue {
 .dialogue-expression {
     display: inline-flex;
     font-size: smaller;
-    opacity: 0.75;
+    color: #ffffffbf;
     position: relative;
 }
 
@@ -350,6 +350,7 @@ details .dialogue {
 
 .tooltip {
     visibility: hidden;
+    opacity: 1;
     position: absolute;
     bottom: 120%;
     z-index: 99;

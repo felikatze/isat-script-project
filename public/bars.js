@@ -171,19 +171,198 @@ function toggleDialogue() {
     }
 }
 
-var expressions = document.getElementsByClassName("dialogue-expression");
-for (var exp in expressions) {
-    if (expressions[exp].nodeName) { // if it's an element
 
-        // create the tooltip
-        expressions[exp].appendChild(document.createElement("span"));
-        var tooltip = expressions[exp].firstElementChild;
-        tooltip.classList.add("tooltip");
+function tooltipImages() {
 
-        // set its text to almost the same thing as the expression (goes through step by step for readability)
-        var newContent = expressions[exp].innerText; // same as the expression text
-        var newContent = newContent.replace(/\((.+)\)/i, "$1"); // remove the parentheses
-        var newContent = newContent.replace(/(.+[^_\d])(\d)/i, "$1_$2"); // put an underscore between the words and number if there isn't one already
-        tooltip.innerHTML = newContent;
+    var dialogueHeads = document.getElementsByClassName("dialogue-head"); // get all dialogue heads
+
+    for (headIndex in dialogueHeads) { // for every dialogue head
+
+        if (dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")) { // if this dialogue head has an expression
+
+            var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
+            var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
+
+            // get the text
+            var expression = expressionElement.innerHTML; // same as the expression text
+            var expression = expression.replace(/\((.+)\)/i, "$1"); // remove the parentheses
+            
+            // create the tooltip
+            expressionElement.appendChild(document.createElement("span")); // make a span
+            var tooltip = expressionElement.firstElementChild; // get that span we just made
+            tooltip.classList.add("tooltip"); // give it the tooltip text
+
+            tooltip.innerHTML = expression; // set the text
+
+            var imageSrc = false;
+
+            switch (nameElement.innerHTML) {
+
+                case "Bonnie":
+                    console.log(nameElement, "it is bonnie");
+                    break;
+
+                case "Euphrasie":
+                    console.log(nameElement, "it is euphrasie");
+                    break;
+
+                case "Isabeau":
+                    console.log(nameElement, "it is isabeau");
+                    break;
+
+                case "King":
+                    console.log(nameElement, "it is the king");
+                    break;
+
+                case "Loop":
+                    console.log(nameElement, "it is loop", expression);
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b3/ISAT_Portrait_Loop_Angry.png";
+                            break;
+                        case "away1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/76/ISAT_Portrait_Loop_Looking_Away.png";
+                            break;
+                        case "ew1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png";
+                            break;
+                        case "expressionnumber1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png";
+                            break;
+                        case "fake1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Loop_Fake_1.png";
+                            break;
+                        case "fake2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Loop_Fake_2.png"
+                            break;
+                        case "guilty1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Loop_Guilty_1.png";
+                            break;
+                        case "guilty2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Loop_Guilty_2.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Loop_Happy_1.png";
+                            break;
+                        case "happy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/wiki/File:ISAT_Portrait_Loop_Happy_2.png";
+                            break;
+                        case "happy3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Loop_Happy_3.png";
+                            break;
+                        case "hm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Considering.png";
+                            break;
+                        case "hmmm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Loop_Thinking.png";
+                            break;
+                        case "lol1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png";
+                            break;
+                        case "lol2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Loop_LOL_2.png";
+                            break;
+                        case "lol3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a6/ISAT_Portrait_Loop_LOL_3.png";
+                            break;
+                        case "lol4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1a/ISAT_Portrait_Loop_LOL_4.png";
+                            break;
+                        case "lol5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d9/ISAT_Portrait_Loop_LOL_5.png";
+                            break;
+                        case "lol6":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Loop_LOL_6.png";
+                            break;
+                        case "oh my1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/df/ISAT_Portrait_Loop_Fake_Shocked.png";
+                            break;
+                        case "oh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/38/ISAT_Portrait_Loop_Oh.png";
+                            break;
+                        case "possessed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Loop_Possessed.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3f/ISAT_Portrait_Loop_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Loop_Sad_2.png";
+                            break;
+                        case "serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/26/ISAT_Portrait_Loop_Serious_1.png";
+                            break;
+                        case "serious2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e0/ISAT_Portrait_Loop_Serious_2.png";
+                            break;
+                        case "shock1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5f/ISAT_Portrait_Loop_Shock_1.png";
+                            break;
+                        case "shock2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Loop_Shock_2.png";
+                            break;
+                        case "subdued1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/78/ISAT_Portrait_Loop_Subdued.png";
+                            break;
+                        case "teehee1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/43/ISAT_Portrait_Loop_Teehee_1.png";
+                            break;
+                        case "teehee2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Loop_Teehee_2.png";
+                            break;
+                        case "teehee3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/21/ISAT_Portrait_Loop_Teehee_3.png";
+                            break;
+                        case "teehee4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Loop_Teehee_4.png";
+                            break;
+                        case "teehee5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Loop_Teehee_5.png";
+                            break;
+                        case "urgh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Urgh.png";
+                            break;
+                        case "well1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Loop_Well_1.png";
+                            break;
+                        case "well2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/91/ISAT_Portrait_Loop_Well_2.png";
+                            break;
+                        case "well3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/78/ISAT_Portrait_Loop_Well_3.png";
+                            break;
+                        case "well4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png";
+                            break;
+                    }
+
+                    break;
+
+                case "Mirabelle":
+                    console.log(nameElement, "it is mirabelle");
+                    break;
+
+                case "Odile":
+                    console.log(nameElement, "it is odile");
+                    break;
+
+                case "Siffrin":
+                    console.log(nameElement, "it is siffrin");
+                    break;
+
+                default: 
+                    console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`);
+                    break;
+            }
+
+            if (imageSrc) {
+                dialogueImage = document.createElement("img");
+                dialogueImage.src = imageSrc;
+                tooltip.appendChild(dialogueImage);
+            }
+
+        }
     }
 }
+tooltipImages()
