@@ -200,6 +200,163 @@ function tooltipImages() {
 
                 case "Bonnie":
                     console.log(nameElement, "it is bonnie");
+
+                    switch (expression) {
+                        case "and then1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Bonnie_Pumped.png";
+                            break;
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ea/ISAT_Portrait_Bonnie_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Bonnie_Angry_2.png";
+                            break;
+                        case "crying1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Bonnie_Crying_1.png";
+                            break;
+                        case "crying2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/86/ISAT_Portrait_Bonnie_Crying_2.png";
+                            break;
+                        case "crying3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Crying_3.png";
+                            break;
+                        case "crying4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bd/ISAT_Portrait_Bonnie_Crying_4.png";
+                            break;
+                        case "crying5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/06/ISAT_Portrait_Bonnie_Crying_5.png";
+                            break;
+                        case "crying6":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Bonnie_Crying_6.png";
+                            break;
+                        case "ew1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Bonnie_Disgusted.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Neutral.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4a/ISAT_Portrait_Bonnie_Happy_1.png";
+                            break;
+                        case "happy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Bonnie_Happy_2.png";
+                            break;
+                        case "hmf1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Bonnie_Hmf_1.png";
+                            break;
+                        case "hmf2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Bonnie_Hmf_2.png";
+                            break;
+                        case "hmf3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Bonnie_Hmf_3.png";
+                            break;
+                        case "lmao1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/82/ISAT_Portrait_Bonnie_Ridiculing.png";
+                            break;
+                        case "lol1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Bonnie_Laughing_1.png";
+                            break;
+                        case "lol2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Bonnie_Laughing_2.png";
+                            break;
+                        case "mock1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Bonnie_Mocking.png";
+                            break;
+                        case "no!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Bonnie_Yelling_1.png";
+                            break;
+                        case "no!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/08/ISAT_Portrait_Bonnie_Yelling_2.png";
+                            break;
+                        case "oh!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Bonnie_Pointing.png";
+                            break;
+                        case "proud1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Proud.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Bonnie_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f0/ISAT_Portrait_Bonnie_Sad_2.png";
+                            break;
+                        case "serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Bonnie_Serious.png";
+                            break;
+                        case "shy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Bonnie_Shy_1.png";
+                            break;
+                        case "shy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Bonnie_Shy_2.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ac/ISAT_Portrait_Bonnie_Smile_1.png";
+                            break;
+                        case "smile2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Bonnie_Smile_2.png";
+                            break;
+                        case "smile3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/32/ISAT_Portrait_Bonnie_Smile_3.png";
+                            break;
+                        case "smile4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Bonnie_Smile_4.png";
+                            break;
+                        case "spooky1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Bonnie_Spooky.png";
+                            break;
+                        case "stop!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7a/ISAT_Portrait_Bonnie_Protesting_1.png";
+                            break;
+                        case "stop!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Bonnie_Protesting_2.png";
+                            break;
+                        case "sulk1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/df/ISAT_Portrait_Bonnie_Sulking_1.png";
+                            break;
+                        case "sulk2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3e/ISAT_Portrait_Bonnie_Sulking_2.png";
+                            break;
+                        case "sulk3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Bonnie_Sulking_3.png";
+                            break;
+                        case "sulk4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b3/ISAT_Portrait_Bonnie_Sulking_4.png";
+                            break;
+                        case "sulk5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/14/ISAT_Portrait_Bonnie_Sulking_5.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Bonnie_Surprised.png";
+                            break;
+                        case "UWAH1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Bonnie_Flustered.png";
+                            break;
+                        case "victory1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Victorious.png";
+                            break;
+                        case "wait1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Confused.png";
+                            break;
+                        case "whichone1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Bonnie_Troubled.png";
+                            break;
+                        case "wow1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Bonnie_Awed.png";
+                            break;
+                        case "yeah!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3b/ISAT_Portrait_Bonnie_Excited_1.png";
+                            break;
+                        case "yeah!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b6/ISAT_Portrait_Bonnie_Excited_2.png";
+                            break;
+                        case "yeah!3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Excited_3.png";
+                            break;
+                        case "zomg1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
+                            break;
+                    }
+
                     break;
 
                 case "Euphrasie":
@@ -212,6 +369,7 @@ function tooltipImages() {
 
                 case "King":
                     console.log(nameElement, "it is the king");
+                    imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
@@ -246,7 +404,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Loop_Happy_1.png";
                             break;
                         case "happy2":
-                            imageSrc = "https://instarsandtime.wiki.gg/wiki/File:ISAT_Portrait_Loop_Happy_2.png";
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9c/ISAT_Portrait_Loop_Happy_2.png";
                             break;
                         case "happy3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Loop_Happy_3.png";
