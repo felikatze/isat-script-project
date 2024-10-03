@@ -361,6 +361,64 @@ function tooltipImages() {
 
                 case "Euphrasie":
                     console.log(nameElement, "it is euphrasie");
+
+                    switch (expression) {
+                        case "CRAB1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3c/ISAT_Portrait_Head_Housemaiden_Shocked.png";
+                            break;
+                        case "ending1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Head_Housemaiden_Crying_1.png";
+                            break;
+                        case "ending2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Head_Housemaiden_Crying_2.png";
+                            break;
+                        case "ending3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Head_Housemaiden_Crying_3.png";
+                            break;
+                        case "ending4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d1/ISAT_Portrait_Head_Housemaiden_Crying_4.png";
+                            break;
+                        case "ending5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Head_Housemaiden_Crying_5.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Head_Housemaiden_Smiling_1.png";
+                            break;
+                        case "mirabelle1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Head_Housemaiden_Affectionate.png";
+                            break;
+                        case "oh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Head_Housemaiden_Taken_Aback.png";
+                            break;
+                        case "smiling1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Head_Housemaiden_Smiling_1.png";
+                            break;
+                        case "smiling2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Head_Housemaiden_Smiling_2.png";
+                            break;
+                        case "smiling3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5e/ISAT_Portrait_Head_Housemaiden_Smiling_3.png";
+                            break;
+                        case "smiling4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Head_Housemaiden_Smiling_4.png";
+                            break;
+                        case "sorry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Head_Housemaiden_Apologizing_1.png";
+                            break;
+                        case "sorry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Head_Housemaiden_Apologizing_2.png";
+                            break;
+                        case "sorry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5c/ISAT_Portrait_Head_Housemaiden_Apologizing_3.png";
+                            break;
+                        case "thankyou1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Head_Housemaiden_Grateful_1.png";
+                            break;
+                        case "thankyou2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
+                            break;
+                    }
+
                     break;
 
                 case "Isabeau":
