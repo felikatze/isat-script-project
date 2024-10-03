@@ -170,3 +170,20 @@ function toggleDialogue() {
         }
     }
 }
+
+var expressions = document.getElementsByClassName("dialogue-expression");
+for (var exp in expressions) {
+    if (expressions[exp].nodeName) { // if it's an element
+
+        // create the tooltip
+        expressions[exp].appendChild(document.createElement("span"));
+        var tooltip = expressions[exp].firstElementChild;
+        tooltip.classList.add("tooltip");
+
+        // set its text to almost the same thing as the expression (goes through step by step for readability)
+        var newContent = expressions[exp].innerText; // same as the expression text
+        var newContent = newContent.replace(/\((.+)\)/i, "$1"); // remove the parentheses
+        var newContent = newContent.replace(/(.+[^_\d])(\d)/i, "$1_$2"); // put an underscore between the words and number if there isn't one already
+        tooltip.innerHTML = newContent;
+    }
+}
