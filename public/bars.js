@@ -356,7 +356,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression} not found for bonnie`);
+                            console.log(nameElement, `expression '${expression}' not found for bonnie`);
                             break;
                     }
 
@@ -421,7 +421,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression} not found for euphrasie`);
+                            console.log(nameElement, `expression '${expression}' not found for euphrasie`);
                             break;
                     }
 
@@ -630,7 +630,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression} not found for isabeau`);
+                            console.log(nameElement, `expression '${expression}' not found for isabeau`);
                             break;
                     }
 
@@ -762,12 +762,185 @@ function tooltipImages() {
                         case "well4":
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png";
                             break;
+                        default:
+                            console.log(nameElement, `expression '${expression}' not found for loop`);
+                            break;
                     }
 
                     break;
 
                 case "Mirabelle":
                     console.log(nameElement, "it is mirabelle");
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Mirabelle_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/56/ISAT_Portrait_Mirabelle_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b0/ISAT_Portrait_Mirabelle_Angry_3.png";
+                            break;
+                        case "angry4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/af/ISAT_Portrait_Mirabelle_Angry_4.png";
+                            break;
+                        case "angry5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d8/ISAT_Portrait_Mirabelle_Angry_5.png";
+                            break;
+                        case "angy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ed/ISAT_Portrait_Mirabelle_Irritated.png";
+                            break;
+                        case "anxious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Mirabelle_Anxious_1.png";
+                            break;
+                        case "anxious2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ad/ISAT_Portrait_Mirabelle_Anxious_2.png";
+                            break;
+                        case "anxious3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Mirabelle_Anxious_3.png";
+                            break;
+                        case "awawa1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ad/ISAT_Portrait_Mirabelle_Panicking.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/06/ISAT_Portrait_Mirabelle_Awkward_1a.png";
+                            break;
+                        case "awkward1b":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Mirabelle_Awkward_1b.png";
+                            break;
+                        case "awkward2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/af/ISAT_Portrait_Mirabelle_Awkward_2.png";
+                            break;
+                        case "excited1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Mirabelle_Excited.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Mirabelle_Awkward_1b.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f5/ISAT_Portrait_Mirabelle_Fight_1.png";
+                            break;
+                        case "fight2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Mirabelle_Fight_2.png";
+                            break;
+                        case "fight3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/94/ISAT_Portrait_Mirabelle_Fight_3.png";
+                            break;
+                        case "fight4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Mirabelle_Fight_4.png";
+                            break;
+                        case "fight5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a1/ISAT_Portrait_Mirabelle_Fight_5.png";
+                            break;
+                        case "gentle1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Mirabelle_Gentle_1.png";
+                            break;
+                        case "gentle2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/eb/ISAT_Portrait_Mirabelle_Gentle_2.png";
+                            break;
+                        case "haha1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Mirabelle_Laughing.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Mirabelle_Happy_1.png";
+                            break;
+                        case "happy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Mirabelle_Happy_2.png";
+                            break;
+                        case "happy3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Mirabelle_Happy_3.png";
+                            break;
+                        case "happy4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/54/ISAT_Portrait_Mirabelle_Happy_4.png";
+                            break;
+                        case "hm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/04/ISAT_Portrait_Mirabelle_Contemplative_1.png";
+                            break;
+                        case "hm2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Mirabelle_Contemplative_2.png";
+                            break;
+                        case "hm3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Mirabelle_Contemplative_3.png";
+                            break;
+                        case "hmf1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/64/ISAT_Portrait_Mirabelle_Hmf.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f9/ISAT_Portrait_Mirabelle_Neutral.png";
+                            break;
+                        case "no!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1d/ISAT_Portrait_Mirabelle_Horrified_1.png";
+                            break;
+                        case "no!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Mirabelle_Horrified_2.png";
+                            break;
+                        case "oh!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Mirabelle_Surprised.png";
+                            break;
+                        case "pft1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/79/ISAT_Portrait_Mirabelle_Chuckling.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6c/ISAT_Portrait_Mirabelle_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7d/ISAT_Portrait_Mirabelle_Sad_2.png";
+                            break;
+                        case "sad3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/22/ISAT_Portrait_Mirabelle_Sad_3.png";
+                            break;
+                        case "sad4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Sad_4.png";
+                            break;
+                        case "serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/51/ISAT_Portrait_Mirabelle_Serious_1.png";
+                            break;
+                        case "serious2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Mirabelle_Serious_2.png";
+                            break;
+                        case "serious3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Mirabelle_Serious_3.png";
+                            break;
+                        case "serious4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Mirabelle_Serious_4.png";
+                            break;
+                        case "serious5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e5/ISAT_Portrait_Mirabelle_Serious_5.png";
+                            break;
+                        case "spooky1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Mirabelle_Spooky.png";
+                            break;
+                        case "stressed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Mirabelle_Stressed_1.png";
+                            break;
+                        case "stressed2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Mirabelle_Stressed_2.png";
+                            break;
+                        case "stressed3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Thinking.png";
+                            break;
+                        case "thinking1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Thinking.png";
+                            break;
+                        case "uwahh!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Mirabelle_Uwah.png";
+                            break;
+                        case "wonder1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9c/ISAT_Portrait_Mirabelle_Wondering.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Mirabelle_Worried.png";
+                            break;
+                        case "yell1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Mirabelle_Yelling.png";
+                            break;
+                        default:
+                            console.log(nameElement, `expression '${expression}' not found for mirabelle`);
+                            break;
+
+                    }
+
                     break;
 
                 case "Odile":
@@ -792,4 +965,5 @@ function tooltipImages() {
         }
     }
 }
-tooltipImages()
+
+tooltipImages();
