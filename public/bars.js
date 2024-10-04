@@ -176,15 +176,11 @@ function tooltipImages() {
 
     var dialogueHeads = document.getElementsByClassName("dialogue-head"); // get all dialogue heads
 
-    console.log(`${dialogueHeads.length} heads:`, dialogueHeads);
-
     for (headIndex in dialogueHeads) { // for every dialogue head
 
-        if (
-            dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] // if this dialogue head has an expression
-            &&
-            (typeof dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] !== "undefined") // and if that expression is defined (i don't know why i needed this but it kept yelling at me i'm so confused)
-        ) {
+        // if this item is an object, and if it has an expression
+        // (everything SHOULD be an object but for some reason javascript is weird and puts non-objects in there. idk this stopped it throwing errors)
+        if (typeof dialogueHeads[headIndex] == "object" && dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]) {
 
             var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
             var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
