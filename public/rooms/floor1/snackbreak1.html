@@ -1,3401 +1,3293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Snack Break</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>First Snack Break</title>
 
-    <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
 
-    <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+		<link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
 
-    <script src="/bars.js" defer></script> 
+    <script src="https://felicitations.neocities.org/bars.js" defer></script> 
 
 </head>
 
-<body>
+	<body>
+		<div id="container">
+			<head-er></head-er>
 
-<div id="container">
+			<main>
+				<h1>First Snack Break</h1>
+				<small>Edited by candycoatedrox</small>
+				<p>All text for the snack break on Floor 1!</p>
+				<p>
+					<b>Sources:</b> Map037 (FLOOR 2, START), Map149 (FLOOR 2, START) (ACT 5), Common Event 187 (TriedAllSnacks)
+				</p>
 
-<head-er></head-er>
+				<br>
+				<p>
+					Since Snacks aren't saved as full images and just background + snack as separate files... I tried my best to approximate! These may be a little teensy bit off..... I try..... sobs... ~Feli
+				</p>
 
-<main>
+				<br>
 
-<h1>First Snack Break</h1>
-<small>Edited by candycoatedrox</small>
-<p>All text for the snack break on Floor 1!</p>
-<p><b>Sources:</b> Map037 (FLOOR 2, START), Map149 (FLOOR 2, START) (ACT 5), Common Event 187 (TriedAllSnacks)</p>
-    
-<br>
-<p>Since Snacks aren't saved as full images and just background + snack as separate files... I tried my best to approximate! These may be a little teensy bit off..... I try..... sobs...</p>
+				<h1>Index</h1>
 
-<br>
+				<ul>
+					<li><a href="#event">Start</a></li>
+					<li><a href="#snacks">Snack Time</a></li>
+					<li>
+						<a href="#postsnacks">After Snacks</a>
+						<ul>
+							<li><a href="#memory">Memory of Safe Rooms</a></li>
+						</ul>
+					</li>
+					<li>
+						Character Interactions
+						<ul>
+							<li><a href="#bonnie">Bonnie</a></li>
+							<li><a href="#mirabelle">Mirabelle</a></li>
+							<li><a href="#isabeau">Isabeau</a></li>
+							<li><a href="#odile">Odile</a></li>
+						</ul>
+					</li>
+					<li><a href="#exit">Exit</a></li>
+					<li><a href="#act5">ACT 5</a></li>
+				</ul>
 
-<h1>Index</h1>
+				<hr>
+				<br>
 
-<ul>
-    <li><a href="#event">Start</a>
-        <ul>
-            <li><a href="#act5">ACT 5</a></li>
-        </ul>
-    </li>
-    <li><a href="#snacks">Snack Time</a>
-        <ul>
-            <li><a href="#chips">Plantain Chips</a></li>
-            <li><a href="#chips">Cookies</a></li>
-            <li><a href="#chips">Onigiri</a></li>
-        </ul>
-    </li>
-    <li><a href="#postsnacks">After Snacks</a>
-        <ul>
-            <li><a href="#memory">Memory of Safe Rooms</a></li>
-        </ul>
-    </li>
-    <li>Character Interactions
-        <ul>        
-            <li><a href="#bonnie">Bonnie</a></li>
-            <li><a href="#mirabelle">Mirabelle</a></li>
-            <li><a href="#isabeau">Isabeau</a></li>
-            <li><a href="#odile">Odile</a></li>
-        </ul>
-    </li>
-    <li><a href="#exit">Exit</a></li>
-</ul>
+				<h1 id="event">Start</h1>
+				<p>Triggers as soon as you enter the room.</p>
 
-<hr>
-<br>
+				<br>
 
-<h1 id="event">Start</h1>
-<p>Triggers as soon as you enter the room.</p>
+				<!--
+				The branching dialogue in the "Start" section (coin flip outcomes and friendquest completion) is formatted as dialogue options, because there are so many different branches that split and then come right back together, and it looked really confusing with so many horizontal breaks.
 
-<br>
-    
-<!--
-    The branching dialogue in the "Start" section (coin flip outcomes and
-    friendquest completion) is formatted as dialogue options, because there
-    are so many different branches that split and then come right back
-    together, and it looked really confusing with so many horizontal breaks.
--->
-    
-<div class="dialogue">
+				Looks good (thumbsup) ~Feli
+				-->
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        This room feels different than the others, doesn't it? It's missing the threatening pressure the rest of the House has.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        Shall we take a little break, then?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        N-no! We should keep going, and--
-    </p>
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(wonder2)</span>
+						</span>
+						This room feels different than the others, doesn't it? It's missing the threatening pressure the rest of the House has.
+					</p>
 
-    <br>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(huh1)</span>
+						</span>
+						Shall we take a little break, then?
+					</p>
 
-    <p class="dialogue-note">
-        The sound of a stomach growling.
-    </p>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(anxious2)</span>
+						</span>
+						N-no! We should keep going, and--
+					</p>
 
-    <br>
+					<br>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(ew1)</span>
-        </span>
-        What was that?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        . . .
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward1b)</span>
-        </span>
-        ...I think I'm hungry.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!2)</span>
-        </span>
-        <span class="big">!!!!!!!!!!!!!!!!!!!!!!</span>
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(stop!1)</span>
-        </span>
-        MY TIME! MY TIME! <i>MY TIME TO BE THE LEADER!!!</i>
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        Why.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(UWAH1)</span>
-        </span>
-        <span class="big"><i>BECAUSE IT'S SNACKS TIME, BABYYYYYYYYYYYYYYY!!!!!!!!</i></span>
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(victory1)</span>
-        </span>
-        Snacks are important to keep hunger away and keep morale up! I learned that because I'm a growing kid!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        That sure is true!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        B-But do we have time to...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(disappointed1)</span>
-        </span>
-        Mira.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        ...Let's take a break, alright?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha1)</span>
-        </span>
-        Even people blessed by the Change God like you need to take a break sometimes!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        ... &ensp;Alright.
-    </p>
+					<p class="dialogue-note">
+						The sound of a stomach growling.
+					</p>
 
-    <br>
+					<br>
 
-    <p class="dialogue-note">
-        The group sits down. Bonnie is off in the corner, preparing snacks.
-    </p>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(ew1)</span>
+						</span>
+						What was that?
+					</p>
 
-    <br>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(hm1)</span>
+						</span>
+						. . .
+					</p>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(proud1)</span>
-        </span>
-        You guys stay here! I'll get some snacks ready!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Okay, Snack Leader!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        ...Oh, I remembered something.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        Isabeau, heads or tails?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Huh? Um... &ensp;Tails!
-    </p>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(awkward1b)</span>
+						</span>
+						...I think I'm hungry.
+					</p>
 
-    <br>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(no!2)</span>
+						</span>
+						<span class="big">!!!!!!!!!!!!!!!!!!!!!!</span>
+					</p>
 
-    <p class="dialogue-line">
-        (Odile takes a coin from her pocket and flips it in the air.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Flip flip flip flip...)</p>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(stop!1)</span>
+						</span>
+						MY TIME! MY TIME! <i>MY TIME TO BE THE LEADER!!!</i>
+					</p>
 
-    <br>
-    
-    <p class="dialogue-note">
-        Odile is guaranteed to lose the coin flip the first time it occurs, and win the second time. From the third time onward, it's random.
-    </p>
-    
-    <br>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(hm1)</span>
+						</span>
+						Why.
+					</p>
 
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Tails</summary>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(UWAH1)</span>
+						</span>
+						<i class="big">BECAUSE IT'S SNACKS TIME, BABYYYYYYYYYYYYYYY!!!!!!!!</i>
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(victory1)</span>
+						</span>
+						Snacks are important to keep hunger away and keep morale up! I learned that because I'm a growing kid!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(brag1)</span>
+						</span>
+						That sure is true!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(anxious2)</span>
+						</span>
+						B-But do we have time to...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(disappointed1)</span>
+						</span>
+						Mira.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						...Let's take a break, alright?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha1)</span>
+						</span>
+						Even people blessed by the Change God like you need to take a break sometimes!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(sad1)</span>
+						</span>
+						... &ensp;Alright.
+					</p>
+
+					<br>
+
+					<p class="dialogue-note">
+						The group sits down. Bonnie is off in the corner, preparing snacks.
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(proud1)</span>
+						</span>
+						You guys stay here! I'll get some snacks ready!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha2)</span>
+						</span>
+						Okay, Snack Leader!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(huh1)</span>
+						</span>
+						...Oh, I remembered something.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(wonder1)</span>
+						</span>
+						Isabeau, heads or tails?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha2)</span>
+						</span>
+						Huh? Um... &ensp;Tails!
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Odile takes a coin from her pocket and flips it in the air.)
+					</p>
+
+					<p class="dialogue-line">(Flip flip flip flip...)</p>
+
+					<br>
+
+					<p class="dialogue-note">
+						Odile is guaranteed to lose the coin flip the first time it occurs, and win the second time. From the third time onward, it's random.
+					</p>
+
+					<br>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>Tails</summary>
+
+								<div class="dialogue">
+
+									<p class="dialogue-line">
+										(...It fell on tails.)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(huh1)</span>
+										</span>
+										...Huh. I lost.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(hahaha2)</span>
+										</span>
+										Yay!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(neutral1)</span>
+										</span>
+										What do I win?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol1)</span>
+										</span>
+										The sweet taste of victory and nothing else.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(sniff1)</span>
+										</span>
+										I don't even get congrats? Wow m'dame... I thought we were friends...
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>Heads</summary>
+
+								<div class="dialogue">
+
+									<p class="dialogue-line">
+										(...It fell on heads.)
+									</p>
+
+									<hr>
+
+									<h4>First time only</h4>
+
+									<p class="dialogue-line">
+										(...Heads? But last time, didn't it...)
+									</p>
+
+									<hr>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(huh1)</span>
+										</span>
+										...Huh.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(boo1)</span>
+										</span>
+										Aw, too bad.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(huh1)</span>
+										</span>
+										Interesting.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol1)</span>
+										</span>
+										You now owe me.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(huh1)</span>
+										</span>
+										We were betting?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol2)</span>
+										</span>
+										You now owe me a thousand.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(huhwah1)</span>
+										</span>
+										A THOUSAND WHAT?!?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol4)</span>
+										</span>
+										Books.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(NO!1)</span>
+										</span>
+										<span class="big">BOOKS?!??!</span>
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(NO!1)</span>
+										</span>
+										Urgh, can't believe this... Betrayed by a friend...
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+
+					<hr>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>Without Friendquests completed this loop</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(reading1)</span>
+										</span>
+										We're not friends.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol3)</span>
+										</span>
+										We're associates.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(really1)</span>
+										</span>
+										Not companions?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol4)</span>
+										</span>
+										Colleagues. Allies, at best.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(oh1)</span>
+										</span>
+										Not even soulmates?!?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol2)</span>
+										</span>
+										Can't believe you've gone down to being an acquaintance now.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(NO!1)</span>
+										</span>
+										NO!!!
+									</p>
+
+									<br>
+
+									<p class="dialogue-note">
+										If this is the first time you're seeing this, all menu text and skill descriptions and various points of narration will now refer to everybody as "allies" instead of "friends"!
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>With Friendquests completed this loop</summary>
+
+								<div class="dialogue">
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol4)</span>
+										</span>
+										Friends, huh...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(boo1)</span>
+										</span>
+										Not anymore, m'dame. It's over between us.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(hahaha1)</span>
+										</span>
+										We are friends NO MORE!!!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol1)</span>
+										</span>
+										Uh huh.
+									</p>
+
+									<hr>
+
+									<h4>Second time only</h4>
+
+									<p class="dialogue-line">
+										(. . . &ensp;Huh?)
+									</p>
+
+									<p class="dialogue-line">
+										(Is that new? Is that the first time she's said this?)
+									</p>
+
+									<p class="dialogue-line">
+										(...)
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+
+					<hr>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy3)</span>
+						</span>
+						What was the coin flip about, madame?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(wonder1)</span>
+						</span>
+						Ah, well...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(wonder1)</span>
+						</span>
+						I asked the Favor Tree to make me win my next coin flip.
+					</p>
+
+					<br>
+
+					<p class="dialogue-note">
+						Bonnie jumps.
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(wait1)</span>
+						</span>
+						Huh?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(anxious1)</span>
+						</span>
+						Such a silly favor...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading2)</span>
+						</span>
+						Purely for scientific reasons. I was wondering whether this Favor Tree business had any truth to it.
+					</p>
+
+					<br>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>If Odile lost</summary>
+
+								<div class="dialogue">
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(huh2)</span>
+										</span>
+										As we can see, it doesn't.
+									</p>
+
+									<br>
+
+									<ul>
+										<li><b>First time only:</b> (Oh.)</li>
+									</ul>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious2)</span>
+										</span>
+										Hmm...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										Welp!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(wait1)</span>
+										</span>
+										...
+									</p>
+
+									<br>
+
+									<p class="dialogue-note">Bonnie turns away.</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sad2)</span>
+										</span>
+										...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										...But m'dame Odile didn't put any thought or hope into her favor, so why would it come true, right?
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>If Odile won</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(huh2)</span>
+										</span>
+										As we can see, it does.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(reading2)</span>
+										</span>
+										But that wasn't the best experiment to prove it.. There IS a 50/50 chance, after all.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious2)</span>
+										</span>
+										You don't believe you won thanks to the Favor Tree?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol1)</span>
+										</span>
+										Not really. Call me weird, but I don't think a tree can grant favors.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(wait1)</span>
+										</span>
+										...
+									</p>
+
+									<br>
+
+									<p class="dialogue-note">Bonnie turns away.</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sad1)</span>
+										</span>
+										...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										...But m'dame Odile didn't care about what she was asking, so why would the Favor Tree care, huh?
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+
+					<hr>
+
+					<p class="dialogue-note">Bonnie turns back to the group.</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						If you want something to come true, it definitely will.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						You think so?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha2)</span>
+						</span>
+						Absolutely!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						...
+					</p>
+
+					<hr>
+
+					<h4>First time only</h4>
+					<p class="dialogue-line">(That's right...)</p>
+
+					<p class="dialogue-line">
+						(Bonnie probably wished for their sister to be okay, didn't they...)
+					</p>
+
+					<hr>
+
+					<h4>Second to fifth time</h4>
+					<p class="dialogue-line">(You're glad to see Bonnie smile again.)</p>
+
+					<hr>
+
+					<h4>Sixth time onwards</h4>
+					<p class="dialogue-line">(...)</p>
+
+					<hr>
+
+					<p class="dialogue-note">Bonnie returns to the main group.</p>
+
+					<br>
+
+					<p class="dialogue-note">
+						For the rest, skip to <a href="#snacks">snack time.</a>
+					</p>
+				</div>
+
+				<hr>
+				<br>
+
+				<h1 id="snacks">Snack Time</h1>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(and then1)</span>
+						</span>
+						Okay, who wants snacks? I have SNACKS!!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(mock1)</span>
+						</span>
+						Today, I have many snacks at your disposal. I have...
+					</p>
+
+					<img src="https://felicitations.neocities.org/images/plantain%20chips.png" alt="Image ID: Bonnie holding up a handful of plantain chips. End ID.">
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(and then1)</span>
+						</span>
+						Some PLANTAIN CHIPS!!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						Oooh, did you use the last of those not-bananas to make them?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(victory1)</span>
+						</span>
+						Yes. Yes I did.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(hmf2)</span>
+						</span>
+						Crunchy. Delicious. And full of potassium.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(and then1)</span>
+						</span>
+						That's plantain chips!!!
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">(You all clap.)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(sulk5)</span>
+						</span>
+						Second snack is...
+					</p>
+
+					<img
+						src="https://felicitations.neocities.org/images/cookies.png"
+						alt="Image ID: Bonnie holding up two chocolate chip cookies. End ID.">
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(yeah!2)</span>
+						</span>
+						Some boring but delicious cookies!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(excited1)</span>
+						</span>
+						Cookies!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(really2)</span>
+						</span>
+						Great sales pitch, Bonbon.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(fufufu1)</span>
+						</span>
+						Boring but delicious. Cookies, the taste of home.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(sulk4)</span>
+						</span>
+						What kinda home is boring but delicious? Za, you're weird.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(blush1)</span>
+						</span>
+						...
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						And for our third and final snack, we are proud to present...
+					</p>
+
+					<img
+						src="https://felicitations.neocities.org/images/onigiri.png"
+						alt="Image ID: Bonnie holding up an onigiri. End ID.">
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(victory1)</span>
+						</span>
+						Some, uh... O-gi-ni-ri.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading1)</span>
+						</span>
+						Onigiri.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(serious1)</span>
+						</span>
+						O-ri-ni-gi.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(huh2)</span>
+						</span>
+						Onigiri.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(lol1)</span>
+						</span>
+						Onion-geeree.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(lol2)</span>
+						</span>
+						You messed that one up on purpose.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(lol2)</span>
+						</span>
+						Yes!!!!!!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						I have some onigiris for everyone!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha2)</span>
+						</span>
+						One of those Ka Buan rice balls, right?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(lol1)</span>
+						</span>
+						Yeah. Rice.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(and then1)</span>
+						</span>
+						I. Love. Rice.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(lol4)</span>
+						</span>
+						You and every other kid on this planet, Boniface.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(hmf2)</span>
+						</span>
+						Hmf.
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>If you've started figuring out Bonnie's favorite foods:</b> (So
+							Bonnie likes rice, huh...)
+						</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(and then1)</span>
+						</span>
+						Now, choose! Choose which one you want! Don't worry, I have enough for everyone!
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(smiling3)</span>
+							</span>
+						</li>
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fufu1)</span>
+							</span>
+						</li>
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+						</li>
+					</ul>
+
+					<p class="dialogue-line">(You'd like...)</p>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"Some chips, please."</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(and then1)</span>
+										</span>
+										There!!! You!!! GO!!!!!!!!
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										(Bonnie hands you a few handfuls of plantain chips.)
+									</p>
+
+									<hr>
+
+									<h4>First time</h4>
+
+									<p class="dialogue-line">(Crunch, crunch!)</p>
+
+									<p class="dialogue-line">
+										(They're not bananas, but they're just as good!)
+									</p>
+
+									<hr>
+
+									<h4>Subsequent times</h4>
+
+									<p class="dialogue-line">(Crunch, crunch.)</p>
+
+									<hr>
+
+									<h4>After dying to the banana peel ten times or more</h4>
+
+									<p class="dialogue-line">(The smell hits you.)</p>
+
+									<p class="dialogue-line">
+										(You think about tripping and dying.)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">(You want to throw up.)</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(surprised1)</span>
+										</span>
+										Wuh oh! You okay, Sif?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(no!2)</span>
+										</span>
+										Did the chips go bad???
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(awawa1)</span>
+										</span>
+										Do chips go bad???
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(huh1)</span>
+										</span>
+										Here, have one of my cookies...
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										(You take a deep breath, and accept one of Isabeau's cookies.)
+									</p>
+
+									<p class="dialogue-line">
+										(You make sure to smile as you eat it.)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(sad3)</span>
+										</span>
+										...
+									</p>
+
+									<br>
+
+									<p class="dialogue-note">
+										You just got a weird point for this!
+									</p>
+								</div>
+							</details>
+						</li>
+						<li>
+							<details>
+								<summary>"I'll take a cookie."</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(and then1)</span>
+										</span>
+										There!!! You!!! GO!!!!!!!!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										Me as well, please!
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										(Bonnie hands you and Mirabelle a few cookies.)
+									</p>
+
+									<hr>
+
+									<h4>First time</h4>
+
+									<p class="dialogue-line">(Delicious, delicious cookies.)</p>
+
+									<p class="dialogue-line">
+										(Boring, but you could never get sick of them!)
+									</p>
+
+									<hr>
+
+									<h4>Second time</h4>
+
+									<p class="dialogue-line">(Delicious cookies.)</p>
+
+									<p class="dialogue-line">
+										(They're still good, even though you've eaten them before.)
+									</p>
+
+									<hr>
+
+									<h4>Third time onwards</h4>
+
+									<p class="dialogue-line">(You take a tiny bite.)</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										(Yeah, you're getting sick of them.)
+									</p>
+								</div>
+							</details>
+						</li>
+						<li>
+							<details>
+								<summary>"Some onigiri for me."</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(and then1)</span>
+										</span>
+										There!!! You!!! GO!!!!!!!!
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">(Bonnie hands you one onigiri.)</p>
+
+									<hr>
+
+									<h4>First time</h4>
+
+									<p class="dialogue-line">
+										(Odile taught Bonnie how to make onigiri a few weeks back.)
+									</p>
+
+									<p class="dialogue-line">
+										(You wonder what Bonnie put inside this time...)
+									</p>
+
+									<p class="dialogue-line">(...Apple slices...???)</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(urgh1)</span>
+										</span>
+										Did you... Put apple slices in the onigiris?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										Yeah! Dile put a plum in hers before so I figured I'd try putting another fruit in there.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(surprised1)</span>
+										</span>
+										Is it good?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(dotdotdot2)</span>
+										</span>
+										.........................
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										(.........................)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy2)</span>
+										</span>
+										It's okay, Dile. I know you're old and don't like change, so I have one with a plum if you want.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(urgh1)</span>
+										</span>
+										Thank... You.
+									</p>
+
+									<hr>
+
+									<h4>Second time</h4>
+
+									<p class="dialogue-line">
+										(You eat the apple onigiri before Odile has time to realize what's inside.)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										D'you like it, Frin? I tried to change the recipe a bit...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol3)</span>
+										</span>
+										Really? What did you change?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(lol2)</span>
+										</span>
+										You often experiment with food in very interesting ways, so I'd be curious to know what you did with this Ka Buan recipe.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(hmf2)</span>
+										</span>
+										I added apple slices as filling!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(urgh1)</span>
+										</span>
+										.........................
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy2)</span>
+										</span>
+										It's okay, Dile. I know you're old and don't like change, so I have one with a plum if you want.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Odile</span>
+											<span class="dialogue-expression">(urgh1)</span>
+										</span>
+										Thank... You.
+									</p>
+
+									<hr>
+
+									<h4>Third time onwards</h4>
+
+									<p class="dialogue-line">(You eat the apple onigiri.)</p>
+
+									<p class="dialogue-line">(It's not very good.)</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+				<br>
+
+				<h1 id="aftersnacks">After Snacks</h1>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(happy)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(proud)</span>
+						</span>
+						S-So? Do you all like it? Did I do a good job as Snack Leader?
+					</p>
+
+					<br>
+
+					<ul>
+						<li><b>First time:</b> (You absently nod.)</li>
+						<li>
+							<b>Subsequent times:</b> (You nod, but prepare yourself for what
+							comes next.)
+						</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(brag1)</span>
+						</span>
+						Yeah, this is good.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						Mhm!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading2)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(surprised1)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(sulk5)</span>
+						</span>
+						. . .
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(huh2)</span>
+						</span>
+						Ah.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(awawa1)</span>
+						</span>
+						Um.
+					</p>
+
+					<br>
+
+					<h4>First time only</h4>
+					<p class="dialogue-line">(Uh oh.)</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>First time:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(awkward1)</span>
+							</span>
+							(You say very loudly:)
+						</li>
+
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(smiling2)</span>
+							</span>
+							(You say very loudly:)
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake5)</span>
+							</span>
+							(Do not make Bonnie sad!!!)
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+							(Do not make Bonnie sad.)
+						</li>
+						<li class="option">
+							"THANK YOU SNACK LEADER FOR THIS DELICIOUS MEAL!"
+						</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(angy1)</span>
+						</span>
+						<i>Ooooh, this is soo good!!!</i> Thank you, Bonniiiiiie!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(LMAO1)</span>
+						</span>
+						Mmmmm, so good, Bonbon!!! I feel refreshed, invigorated, alive!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(hmf2)</span>
+						</span>
+						Hmf.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(serious1)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading2)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(glare1)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading1)</span>
+						</span>
+						Mmm, good food, yummy yum yum.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(UWAH1)</span>
+						</span>
+						<span class="big"><i>YES</i></span>
+					</p>
+
+					<hr>
+
+					<h4>First time</h4>
+
+					<p class="dialogue-line">(You got a MEMORY OF SNACKS!)</p>
+
+					<p class="dialogue-line">(You'll always remember this.)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						[When equipped, Memory of Snacks makes the Kid more likely to heal during battle.]
+					</p>
+
+					<hr>
+
+					<h4>Second time</h4>
+
+					<p class="dialogue-line">
+						(The result of the coin flip was different this time...)
+					</p>
+
+					<p class="dialogue-line">
+						(So things related to chance are random...? Good to know...)
+					</p>
+
+					<hr>
+
+					<p class="dialogue-line">
+						(After eating your snacks, everyone's health has been restored[!/.])
+					</p>
+				</div>
+
+				<br>
+
+				<h2 id="memory">Memory of Safe Rooms</h2>
+				<p>Triggers only once you've tried all of Bonnie's snacks.</p>
+
+				<br>
+
+				<div class="dialogue">
+					<p class="dialogue-line">(. . .)</p>
+
+					<p class="dialogue-line">(Wait.)</p>
+
+					<p class="dialogue-line">
+						(Have you tried every single one of Bonnie's snacks?)
+					</p>
+
+					<p class="dialogue-line">(You count them in your head.)</p>
+
+					<p class="dialogue-line">
+						(Plantain chips, cookies, malanga fritters... &ensp;Yes, you have.)
+					</p>
+
+					<p class="dialogue-line">(Huh.)</p>
+
+					<p class="dialogue-line">(...)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Just the fact that you've tasted them all... Means you've been looping for a while...)
+					</p>
+
+					<p class="dialogue-line">
+						(And even though you might be tired of some of them, they're all so different and delicious still.)
+					</p>
+
+					<p class="dialogue-line">
+						(How long did it take Bonnie to prepare all those snacks for today...?)
+					</p>
+
+					<p class="dialogue-line">(...)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Siffrin</span>
+							<span class="dialogue-expression">(smiling3)</span>
+						</span>
+						"You're a really talented cook, Bonnie."
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(shy2)</span>
+						</span>
+						H-Huh?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(shy2)</span>
+						</span>
+						. . .
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(shy1)</span>
+						</span>
+						W-Well, of course I am!!! Stupid!!!!!!!!!!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(shy1)</span>
+						</span>
+						SOMEONE has to make sure you eat good things so you can be happy and not sad!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(yeah1)</span>
+						</span>
+						Is that so...?
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						Hehe, thank you for taking care of us, Bonnie!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(happy1)</span>
+						</span>
+						Thanks Bonbon! You're the best, Bonbon!!!
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">(You all clap your hands.)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(shy2)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(sulk5)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(smile4)</span>
+						</span>
+						Hehehe...
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">(You got a MEMORY OF SAFE ROOMS!)</p>
+
+					<p class="dialogue-line">(You'll always remember this.)</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						[When equipped, Memory of Safe Rooms lets you recover all your HP after a battle ends.]
+					</p>
+				</div>
+
+				<hr>
+				<br>
+
+				<h1>Interactions</h1>
+
+				<h2 id="bonnie">Bonnie</h2>
+				<p>
+					Repeated interaction just replays the event and lets you pick a different option.
+				</p>
+
+				<br>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(sulk5)</span>
+						</span>
+						Za's stupid.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Bonnie</span>
+							<span class="dialogue-expression">(mock1)</span>
+						</span>
+						We can't be friends! That'd be like being friends with your mom or your sister.
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(questions1)</span>
+							</span>
+							(So then...)
+						</li>
+						<li>
+							<b>ACT 3 and 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+							(...)
+						</li>
+					</ul>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"Which one is Odile?"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										Hm...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(lol1)</span>
+										</span>
+										Actually, Dile's more like a grandma, isn't she?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										And you DEFINITELY can't be friends with your grandma.
+									</p>
+
+									<hr>
+
+									<h4>ACT 2 only</h4>
+
+									<p class="dialogue-line">(Is that how it works?)</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>"Which one is Mira?"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										Belle's like a cool sister!!!
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										The one who'd give me sweets when I ask.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										Unlike my actual older sister who sucks.
+									</p>
+
+									<hr>
+
+									<h4>ACT 2 only</h4>
+
+									<p class="dialogue-line">(Is that how it works?)</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>"Which one is Isa?"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										<b>Bonnie (sulk5):</b> Hm...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(mock1)</span>
+										</span>
+										<b>Bonnie (mock1):</b> Za's like a little brother.
+									</p>
+
+									<hr>
+
+									<h4>ACT 2 only</h4>
+
+									<p class="dialogue-line">(Is that how it works?)</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>"Which one am I?"</summary>
+
+								<div class="dialogue">
+									<h4>Without Bonnie's Friendquest</h4>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										<b>Bonnie (serious1):</b> You're...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										<b>Bonnie (sulk1):</b> . . .
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										<b>Bonnie (sad1):</b> I dunno.
+									</p>
+
+									<hr>
+
+									<h4>ACT 2 only</h4>
+
+									<p class="dialogue-line">(Is that how it works?)</p>
+
+									<hr>
+
+									<h4>With Bonnie's Friendquest</h4>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Bonnie</span>
+											<span class="dialogue-expression">(sulk5)</span>
+										</span>
+										<b>Bonnie (smile2):</b> You're my cousin who I see once a year and we have a really good time!!!
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">(...)</p>
+
+									<br>
+
+									<h4>ACT 4 only</h4>
+
+									<p class="dialogue-line">
+										(So in this hypothetical situation, you're only together once a year?)
+									</p>
+
+									<p class="dialogue-line">
+										(Don't think about it, don't think about it, don't think about it.)
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+				<br>
+
+				<h2 id="mirabelle">Mirabelle</h2>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(worried1)</span>
+						</span>
+						...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(worried1)</span>
+						</span>
+						I hope everyone is alright...
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(questions1)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(neutral3)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake4)</span>
+							</span>
+						</li>
+					</ul>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"The people in Dormont?"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious1)</span>
+										</span>
+										Yes... But...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(stressed2)</span>
+										</span>
+										The King's Curse probably got to them already. It was so close, when we arrived a few days ago.
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(stressed2)</span>
+										</span>
+										Even if we decided to go back, there'd be nothing to come back to...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(sad2)</span>
+										</span>
+										So all we can do now is...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(sad2)</span>
+										</span>
+										. . .
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>"The people in the House?"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious1)</span>
+										</span>
+										Yes... Well...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious3)</span>
+										</span>
+										They're most likely all frozen in time, aren't they?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious3)</span>
+										</span>
+										We haven't seen anyone yet, but...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(stressed2)</span>
+										</span>
+										Maybe... Maybe someone survived...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(sad2)</span>
+										</span>
+										Maybe the Head Housemaiden managed to...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(sad2)</span>
+										</span>
+										. . .
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(stressed1)</span>
+						</span>
+						T-Tell me a joke, Siffrin, please! To get my mind off things!!!
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>First time:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(awkward1)</span>
+							</span>
+							(Oh, um...)
+						</li>
+
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(blep1)</span>
+							</span>
+							(Joke time.)
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(blep1)</span>
+							</span>
+							(Make her smile!)
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+							(Make her smile.)
+						</li>
+						<li class="option">"I had a meeting with a plum today."</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(anxious1)</span>
+						</span>
+						A plum? Like the fruit?
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>First time:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(okay2)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(joke1)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(smiling3)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+						</li>
+					</ul>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"Yes. That meeting was--"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(thinking1)</span>
+										</span>
+										Oh, let me guess. Was it a very "fruitful" meeting?
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">(...)</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious1)</span>
+										</span>
+										Oh no. Was that it?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious1)</span>
+										</span>
+										Sorry... For stealing your joke...?
+									</p>
+
+									<hr>
+
+									<h4>First time</h4>
+
+									<p class="dialogue-line">
+										(This is the worst thing that could ever happen to you.)
+									</p>
+
+									<p class="dialogue-line">
+										(Who are you. If you are not the funnyjokespun person.)
+									</p>
+
+									<hr>
+
+									<h4>Second time onwards</h4>
+
+									<ul>
+										<li>
+											<b>ACT 2:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(shit1)</span>
+											</span>
+											(YOU CAN STILL SAVE THIS...!!!)
+										</li>
+
+										<li>
+											<b>ACT 3:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(smiling3)</span>
+											</span>
+											(Nah, you got it.)
+										</li>
+
+										<li>
+											<b>ACT 4:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(fake1)</span>
+											</span>
+											(Heh.)
+										</li>
+										<li class="option">
+											"The fact that you stole my joke, Mirabelle..."
+										</li>
+									</ul>
+
+									<br>
+
+									<ul>
+										<li>
+											<b>ACT 2:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(joke2)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 3:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(joke1)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 4:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(smiling3)</span>
+											</span>
+										</li>
+										<li class="option">"What a PIT-iful experience for me."</li>
+									</ul>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(anxious1)</span>
+										</span>
+										. . .
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(happy1)</span>
+										</span>
+										You kind of brought it back! Hehehe...
+									</p>
+
+									<br>
+
+									<ul>
+										<li>
+											<b>ACT 2:</b>
+											(But you didn't bring it back enough...)
+										</li>
+
+										<li>
+											<b>ACT 3:</b>
+											(You chuckle along with her.)
+										</li>
+
+										<li>
+											<b>ACT 4:</b>
+											(You smile.)
+										</li>
+									</ul>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>
+									<b>Available second time onwards:</b>
+									"Yesthatmeetingwasfruitful!!"
+								</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										(You finished the joke quickly to make sure she wouldn't
+										finish it herself.)
+									</p>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(awkward2)</span>
+										</span>
+										...What?
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Mirabelle</span>
+											<span class="dialogue-expression">(awkward1b)</span>
+										</span>
+										Oh, "fruitful"! I guess that's funny, hehe.
+									</p>
+
+									<hr>
+
+									<h4>ACT 2</h4>
+
+									<p class="dialogue-line">
+										(SHE GUESSES...)
+									</p>
+
+									<p class="dialogue-line">
+										(FAILURE...)
+									</p>
+
+									<h4>ACT 3</h4>
+
+									<p class="dialogue-line">
+										(Yeah, that's not the way to go.)
+									</p>
+
+									<h4>ACT 4</h4>
+
+									<p class="dialogue-line">
+										(Stupid, stupid, stupid.)
+									</p>
                 
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (...It fell on tails.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh1)</span>
-                        </span>
-                        ...Huh. I lost.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha2)</span>
-                        </span>
-                        Yay!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(neutral1)</span>
-                        </span>
-                        What do I win?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        The sweet taste of victory and nothing else.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(sniff1)</span>
-                        </span>
-                        I don't even get congrats? Wow m'dame... I thought we were friends...
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>Heads</summary>
-                
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (...It fell on heads.)
-                    </p>
-
-                    <hr>
-                    
-                    <h4>First time only</h4>
-
-                    <p class="dialogue-line">
-                        (...Heads? But last time, didn't it...)
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh1)</span>
-                        </span>
-                        ...Huh.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(boo1)</span>
-                        </span>
-                        Aw, too bad.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh1)</span>
-                        </span>
-                        Interesting.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        You now owe me.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(huh1)</span>
-                        </span>
-                        We were betting?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
-                        </span>
-                        You now owe me a thousand.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(huhwah1)</span>
-                        </span>
-                        A THOUSAND WHAT?!?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol4)</span>
-                        </span>
-                        Books.
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(NO!1)</span>
-                        </span>
-                        <span class="big">BOOKS?!??!</span>
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(NO!1)</span>
-                        </span>
-                        Urgh, can't believe this... Betrayed by a friend...
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-    <hr>
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Without Friendquests completed this loop</summary>
-                
-                <div class="dialogue">
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading1)</span>
-                        </span>
-                        We're not friends.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol3)</span>
-                        </span>
-                        We're associates.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(really1)</span>
-                        </span>
-                        Not companions?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol4)</span>
-                        </span>
-                        Colleagues. Allies, at best.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(oh1)</span>
-                        </span>
-                        Not even soulmates?!?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
-                        </span>
-                        Can't believe you've gone down to being an acquaintance now.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(NO!1)</span>
-                        </span>
-                        NO!!!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        If this is the first time you're seeing this, all menu text and skill descriptions and various points of narration will now refer to everybody as "allies" instead of "friends"!
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>With Friendquests completed this loop</summary>
-                
-                <div class="dialogue">
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol4)</span>
-                        </span>
-                        Friends, huh...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(boo1)</span>
-                        </span>
-                        Not anymore, m'dame. It's over between us.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha1)</span>
-                        </span>
-                        We are friends NO MORE!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        Uh huh.
-                    </p>
-
-                    <hr>
-
-                    <h4>Second time only</h4>
-
-                    <p class="dialogue-line">
-                        (. . . &ensp;Huh?)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Is that new? Is that the first time she's said this?)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (...)
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-    </ul>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy3)</span>
-        </span>
-        What was the coin flip about, madame?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        Ah, well...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        I asked the Favor Tree to make me win my next coin flip.
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        Bonnie jumps.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(wait1)</span>
-        </span>
-        Huh?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Such a silly favor...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading2)</span>
-        </span>
-        Purely for scientific reasons. I was wondering whether this Favor Tree business had any truth to it.
-    </p>
-    
-    <br>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>If Odile lost</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh2)</span>
-                        </span>
-                        As we can see, it doesn't.
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>First time only:</b> (Oh.)</li>
-                    </ul>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious2)</span>
-                        </span>
-                        Hmm...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        Welp!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(wait1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        Bonnie turns away.</p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sad2)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        ...But m'dame Odile didn't put any thought or hope into her favor, so why would it come true, right?
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>If Odile won</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh2)</span>
-                        </span>
-                        As we can see, it does.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading2)</span>
-                        </span>
-                        But that wasn't the best experiment to prove it.. There IS a 50/50 chance, after all.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious2)</span>
-                        </span>
-                        You don't believe you won thanks to the Favor Tree?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        Not really. Call me weird, but I don't think a tree can grant favors.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(wait1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        Bonnie turns away.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sad1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        ...But m'dame Odile didn't care about what she was asking, so why would the Favor Tree care, huh?
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-    <hr>
-
-    <p class="dialogue-note">
-        Bonnie turns back to the group.
-    </p>
-    
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        If you want something to come true, it definitely will.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        You think so?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Absolutely!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        ...
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-    <p class="dialogue-line">
-        (That's right...)
-    </p>
-    
-    <p class="dialogue-line">
-        (Bonnie probably wished for their sister to be okay, didn't they...)
-    </p>
-    
-    <hr>
-
-    <h4>Second to fifth time</h4>
-    <p class="dialogue-line">
-        (You're glad to see Bonnie smile again.)
-    </p>
-    
-    <hr>
-
-    <h4>Sixth time onwards</h4>
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-note">
-        Bonnie returns to the main group.
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        For the rest, skip to <a href="#snacks">snack time.</a>
-    </p>
-    
-</div>
-
-<hr>
-<br>
-    
-<h2 id="act5">ACT 5</h2>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-note">
-        As Siffrin walks into the room, his <s>family members</s> actors appear to be sitting in their regular spots, eating. They quickly fade away.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (What...)
-    </p>
-    
-    <p class="dialogue-line">
-        (...)
-    </p>
-    
-    <p class="dialogue-line">
-        (You thought you saw something, but it was just you.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You're alone, but it's fine.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You just need to defeat the king on your own.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (You're hungry.)
-    </p>
-    
-</div>
-    
-<p>There is no snack time.</p>
-    
-<hr>
-<br>
-
-<h1 id="snacks">Snack Time</h1>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        Okay, who wants snacks? I have SNACKS!!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(mock1)</span>
-        </span>
-        Today, I have many snacks at your disposal. I have...
-    </p>
-
-    <img src="https://felicitations.neocities.org/images/plantain%20chips.png" alt="Image ID: Bonnie holding up a handful of plantain chips. End ID.">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        Some PLANTAIN CHIPS!!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Oooh, did you use the last of those not-bananas to make them?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(victory1)</span>
-        </span>
-        Yes. Yes I did.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(hmf2)</span>
-        </span>
-        Crunchy. Delicious. And full of potassium.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        That's plantain chips!!!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You all clap.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Second snack is...
-    </p>
-
-    <img src="https://felicitations.neocities.org/images/cookies.png" alt="Image ID: Bonnie holding up two chocolate chip cookies. End ID.">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(yeah!2)</span>
-        </span>
-        Some boring but delicious cookies!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(excited1)</span>
-        </span>
-        Cookies!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really2)</span>
-        </span>
-        Great sales pitch, Bonbon.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        Boring but delicious. Cookies, the taste of home.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk4)</span>
-        </span>
-        What kinda home is boring but delicious? Za, you're weird.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(blush1)</span>
-        </span>
-        ...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        And for our third and final snack, we are proud to present...
-    </p>
-
-    <img src="https://felicitations.neocities.org/images/onigiri.png" alt="Image ID: Bonnie holding up an onigiri. End ID.">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(victory1)</span>
-        </span>
-        Some, uh... O-gi-ni-ri.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Onigiri.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-         O-ri-ni-gi.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh2)</span>
-        </span>
-        Onigiri.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        Onion-geeree.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        You messed that one up on purpose.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        Yes!!!!!!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        I have some onigiris for everyone!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        One of those Ka Buan rice balls, right?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        Yeah. Rice.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        I. Love. Rice.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol4)</span>
-        </span>
-        You and every other kid on this planet, Boniface.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(hmf2)</span>
-        </span>
-        Hmf.
-    </p>
-
-    <br>
-    
-    <ul>
-        <li><b>If you've started figuring out Bonnie's favorite foods:</b> (So Bonnie likes rice, huh...)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        Now, choose! Choose which one you want! Don't worry, I have enough for everyone!
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(smiling3)</span>
-            </span>
-        </li>
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fufu1)</span>
-            </span>
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-        </li>
-    </ul>
-
-    <p class="dialogue-line">
-        (You'd like...)
-    </p>
-
-    <ul>
-        <li class="option"><a href="#chips">"Some chips, please."</a></li>
-        <li class="option"><a href="#cookies">"I'll take a cookie."</a></li>
-        <li class="option"><a href="#onigiri">"Some onigiri for me."</a></li>
-    </ul>
-
-</div>
-<br>
-
-<h3 id="chips">Plantain chips</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        There!!! You!!! GO!!!!!!!!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Bonnie hands you a few handfuls of plantain chips.)
-    </p>
-
-    <hr>
-
-    <h4>First time</h4>
-
-    <p class="dialogue-line">
-        (Crunch, crunch!)
-    </p>
-    
-    <p class="dialogue-line">
-        (They're not bananas, but they're just as good!)
-    </p>
-
-    <hr>
-
-    <h4>Subsequent times</h4>
-
-    <p class="dialogue-line">
-        (Crunch, crunch.)
-    </p>
-
-    <hr>
-
-    <h4>After dying to the banana peel ten times or more</h4>
-
-    <p class="dialogue-line">
-        (The smell hits you.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You think about tripping and dying.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (You want to throw up.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        Wuh oh! You okay, Sif?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!2)</span>
-        </span>
-        Did the chips go bad???
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        Do chips go bad???
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        Here, have one of my cookies...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You take a deep breath, and accept one of Isabeau's cookies.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You make sure to smile as you eat it.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(sad3)</span>
-        </span>
-        ...
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        You just got a weird point for this!
-    </p>
-
-</div>
-<br>
-
-<h3 id="cookies">Cookies</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        There!!! You!!! GO!!!!!!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Me as well, please!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Bonnie hands you and Mirabelle a few cookies.)
-    </p>
-
-    <hr>
-
-    <h4>First time</h4>
-
-    <p class="dialogue-line">
-        (Delicious, delicious cookies.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Boring, but you could never get sick of them!)
-    </p>
-
-    <hr>
-
-    <h4>Second time</h4>
-
-    <p class="dialogue-line">
-        (Delicious cookies.)
-    </p>
-    
-    <p class="dialogue-line">
-        (They're still good, even though you've eaten them before.)
-    </p>
-
-    <hr>
-
-    <h4>Third time onwards</h4>
-
-    <p class="dialogue-line">
-        (You take a tiny bite.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Yeah, you're getting sick of them.)
-    </p>
-
-</div>
-<br>
-
-<h3 id="onigiri">Onigiri</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        There!!! You!!! GO!!!!!!!!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Bonnie hands you one onigiri.)
-    </p>
-
-    <hr>
-
-    <h4>First time</h4>
-
-    <p class="dialogue-line">
-        (Odile taught Bonnie how to make onigiri a few weeks back.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You wonder what Bonnie put inside this time...)
-    </p>
-    
-    <p class="dialogue-line">
-        (...Apple slices...???)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        Did you... Put apple slices in the onigiris?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Yeah! Dile put a plum in hers before so I figured I'd try putting another fruit in there.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        Is it good?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        .........................
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (.........................)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        It's okay, Dile. I know you're old and don't like change, so I have one with a plum if you want.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        Thank... You.
-    </p>
-
-    <hr>
-
-    <h4>Second time</h4>
-
-    <p class="dialogue-line">
-        (You eat the apple onigiri before Odile has time to realize what's inside.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        D'you like it, Frin? I tried to change the recipe a bit...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol3)</span>
-        </span>
-        Really? What did you change?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        You often experiment with food in very interesting ways, so I'd be curious to know what you did with this Ka Buan recipe.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(hmf2)</span>
-        </span>
-        I added apple slices as filling!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        .........................
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        It's okay, Dile. I know you're old and don't like change, so I have one with a plum if you want.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        Thank... You.
-    </p>
-
-    <hr>
-
-    <h4>Third time onwards</h4>
-
-    <p class="dialogue-line">
-        (You eat the apple onigiri.)
-    </p>
-    
-    <p class="dialogue-line">
-        (It's not very good.)
-    </p>
-
-</div>
-
-<hr>
-
-<br>
-
-<h1 id="aftersnacks">After Snacks</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(proud)</span>
-        </span>
-        S-So? Do you all like it? Did I do a good job as Snack Leader?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b> (You absently nod.)</li>
-        <li><b>Subsequent times:</b> (You nod, but prepare yourself for what comes next.)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Yeah, this is good.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Mhm!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading2)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        . . .
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(huh2)</span>
-        </span>
-        Ah.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        Um.
-    </p>
-    
-    <br>
-    
-    <ul>
-        <li><b>First time:</b> (Uh oh.)</li>
-    </ul>
-    
-    <br>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(awkward1)</span>
-            </span>
-            (You say very loudly:)
-        </li>
-        
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(smiling2)</span>
-            </span>
-            (You say very loudly:)
-        </li>
-        
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake5)</span>
-            </span>
-            (Do not make Bonnie sad!!!)
-        </li>
-        
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (Do not make Bonnie sad.)
-        </li>
-        
-    </ul>
-    
-    <ul class="dialogue-option">
-        
-        <li class="dialogue-option-only">
-            "THANK YOU SNACK LEADER FOR THIS DELICIOUS MEAL!"
-        </li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(angy1)</span>
-        </span>
-        <i>Ooooh, this is soo good!!!</i> Thank you, Bonniiiiiie!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(LMAO1)</span>
-        </span>
-        Mmmmm, so good, Bonbon!!! I feel refreshed, invigorated, alive!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(hmf2)</span>
-        </span>
-        Hmf.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading2)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(glare1)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Mmm, good food, yummy yum yum.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(UWAH1)</span>
-        </span>
-        <span class="big"><i>YES</i></span>
-    </p>
-
-    <hr>
-
-    <h4>First time</h4>
-
-    <p class="dialogue-line">
-        (You got a MEMORY OF SNACKS!)
-    </p>
-    
-    <p class="dialogue-line">
-        (You'll always remember this.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        [When equipped, Memory of Snacks makes the Kid more likely to heal during battle.]
-    </p>
-
-    <hr>
-
-    <h4>Second time</h4>
-
-    <p class="dialogue-line">
-        (The result of the coin flip was different this time...)
-    </p>
-    
-    <p class="dialogue-line">
-        (So things related to chance are random...? Good to know...)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        (After eating your snacks, everyone's health has been restored[!/.])
-    </p>
-
-</div>
-    
-<br>
-    
-<h2 id="memory">Memory of Safe Rooms</h2>
-<p>Triggers only once you've tried all of Bonnie's snacks.</p>
-    
-<br>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (. . .)
-    </p>
-    
-    <p class="dialogue-line">
-        (Wait.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Have you tried every single one of Bonnie's snacks?)
-    </p>
-    
-    <p class="dialogue-line">
-        (You count them in your head.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Plantain chips, cookies, malanga fritters... &ensp;Yes, you have.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Huh.)
-    </p>
-    
-    <p class="dialogue-line">
-        (...)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Just the fact that you've tasted them all... Means you've been looping for a while...)
-    </p>
-    
-    <p class="dialogue-line">
-        (And even though you might be tired of some of them, they're all so different and delicious still.)
-    </p>
-    
-    <p class="dialogue-line">
-        (How long did it take Bonnie to prepare all those snacks for today...?)
-    </p>
-    
-    <p class="dialogue-line">
-        (...)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling3)</span>
-        </span>
-        "You're a really talented cook, Bonnie."
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(shy2)</span>
-        </span>
-        H-Huh?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(shy2)</span>
-        </span>
-        . . .
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(shy1)</span>
-        </span>
-        W-Well, of course I am!!! Stupid!!!!!!!!!!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(shy1)</span>
-        </span>
-        SOMEONE has to make sure you eat good things so you can be happy and not sad!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(yeah1)</span>
-        </span>
-        Is that so...?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Hehe, thank you for taking care of us, Bonnie!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Thanks Bonbon! You're the best, Bonbon!!!
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (You all clap your hands.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(shy2)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(smile4)</span>
-        </span>
-        Hehehe...
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (You got a MEMORY OF SAFE ROOMS!)
-    </p>
-    
-    <p class="dialogue-line">
-        (You'll always remember this.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        [When equipped, Memory of Safe Rooms lets you recover all your HP after a battle ends.]
-    </p>
-    
-</div>
-
-<hr>
-<br>
-    
-<h1>Interactions</h1>
-
-<h2 id="bonnie">Bonnie</h2>
-<p>Repeated interaction just replays the event and lets you pick a different option.</p>
-
-<br>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Za's stupid.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(mock1)</span>
-        </span>
-        We can't be friends! That'd be like being friends with your mom or your sister.
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(questions1)</span>
-        </span>
-            (So then...)</li>
-        <li><b>ACT 3 and 4:</b>
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-            (...)</li>
-    </ul>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Which one is Odile?"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        Hm...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        Actually, Dile's more like a grandma, isn't she?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        And you DEFINITELY can't be friends with your grandma.
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2 only:</b> (Is that how it works?)</li>
-                    </ul>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>"Which one is Mira?"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Belle's like a cool sister!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        The one who'd give me sweets when I ask.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        Unlike my actual older sister who sucks.
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2 only:</b> (Is that how it works?)</li>
-                    </ul>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>"Which one is Isa?"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        <b>Bonnie (sulk5):</b> Hm...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(mock1)</span>
-                        </span>
-                        <b>Bonnie (mock1):</b> Za's like a little brother.
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2 only:</b> (Is that how it works?)</li>
-                    </ul>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>"Which one am I?"</summary>
-                
-                <div class="dialogue">
-                
-                    <h4>Without Bonnie's Friendquest</h4>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        <b>Bonnie (serious1):</b> You're...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        <b>Bonnie (sulk1):</b> . . .
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        <b>Bonnie (sad1):</b> I dunno.
-                    </p>
-
-                    <ul>
-                        <li><b>ACT 2 only:</b> (Is that how it works?)</li>
-                    </ul>
-
-                    <hr>
-
-                    <h4>With Bonnie's Friendquest</h4>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        <b>Bonnie (smile2):</b> You're my cousin who I see once a year and we have a really good time!!!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (...)
-                    </p>
-
-                    <br>
-
-                    <h4>ACT 4 only</h4>
-
-                    <p class="dialogue-line">
-                        (So in this hypothetical situation, you're only together once a year?)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Don't think about it, don't think about it, don't think about it.)
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="mirabelle">Mirabelle</h2>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(worried1)</span>
-        </span>
-        ...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(worried1)</span>
-        </span>
-        I hope everyone is alright...
-    </p>
-    
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(questions1)</span>
-            </span>
-        </li>
-        
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(neutral3)</span>
-            </span>
-        </li>
-        
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake4)</span>
-            </span>
-        </li>
-    </ul>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"The people in Dormont?"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        Yes... But...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(stressed2)</span>
-                        </span>
-                        The King's Curse probably got to them already. It was so close, when we arrived a few days ago.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(stressed2)</span>
-                        </span>
-                        Even if we decided to go back, there'd be nothing to come back to...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(sad2)</span>
-                        </span>
-                        So all we can do now is...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(sad2)</span>
-                        </span>
-                        . . .
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>"The people in the House?"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        Yes... Well...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious3)</span>
-                        </span>
-                        They're most likely all frozen in time, aren't they?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious3)</span>
-                        </span>
-                        We haven't seen anyone yet, but...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(stressed2)</span>
-                        </span>
-                        Maybe... Maybe someone survived...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(sad2)</span>
-                        </span>
-                        Maybe the Head Housemaiden managed to...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(sad2)</span>
-                        </span>
-                        . . .
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(stressed1)</span>
-        </span>
-        T-Tell me a joke, Siffrin, please! To get my mind off things!!!
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(awkward1)</span>
-            </span>
-            (Oh, um...)
-        </li>
-        
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(blep1)</span>
-            </span>
-            (Joke time.)
-        </li>
-        
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(blep1)</span>
-            </span>
-            (Make her smile!)
-        </li>
-        
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (Make her smile.)
-        </li>
-        
-    </ul>
-    
-    <ul class="dialogue-option">
-        
-        <li class="dialogue-option-only">"I had a meeting with a plum today."</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        A plum? Like the fruit?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(okay2)</span>
-            </span>
-        </li>
-        
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(joke1)</span>
-            </span>
-        </li>
-        
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(smiling3)</span>
-            </span>
-        </li>
-        
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-        </li>
-    </ul>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Yes. That meeting was--"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(thinking1)</span>
-                        </span>
-                        Oh, let me guess. Was it a very "fruitful" meeting?
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">(...)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        Oh no. Was that it?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        Sorry... For stealing your joke...?
-                    </p>
-
-                    <hr>
-
-                    <h4>First time</h4>
-
-                    <p class="dialogue-line">
-                        (This is the worst thing that could ever happen to you.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Who are you. If you are not the funnyjokespun person.)
-                    </p>
-
-                    <hr>
-
-                    <h4>Second time onwards</h4>
-
-                    <ul>
-                        <li><b>ACT 2:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(shit1)</span>
-                            </span>
-                            (YOU CAN STILL SAVE THIS...!!!)
-                        </li>
-
-                        <li><b>ACT 3:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(smiling3)</span>
-                            </span>
-                            (Nah, you got it.)
-                        </li>
-
-                        <li><b>ACT 4:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(fake1)</span>
-                            </span>
-                            (Heh.)
-                        </li>
-                        
-                    </ul>
-                    
-                    <ul class="dialogue-option">
-
-                        <li class="dialogue-option-only">
-                            "The fact that you stole my joke, Mirabelle..."
-                        </li>
-                    </ul>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(joke2)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 3:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(joke1)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 4:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(smiling3)</span>
-                            </span>
-                        </li>
-                        
-                    </ul>
-                    
-                    <ul class="dialogue-option">
-
-                        <li class="dialogue-option-only">
-                            "What a PIT-iful experience for me."
-                        </li>
-                    </ul>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        . . .
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        You kind of brought it back! Hehehe...
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2:</b>
-                            (But you didn't bring it back enough...)
-                        </li>
-
-                        <li><b>ACT 3:</b>
-                            (You chuckle along with her.)
-                        </li>
-
-                        <li><b>ACT 4:</b>
-                            (You smile.)
-                        </li>
-                    </ul>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary><b>Available second time onwards:</b> "Yesthatmeetingwasfruitful!!"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        (You finished the joke quickly to make sure she wouldn't finish it herself.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(awkward2)</span>
-                        </span>
-                        ...What?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(awkward1b)</span>
-                        </span>
-                        Oh, "fruitful"! I guess that's funny, hehe.
-                    </p>
-
-                    <br>
-
-                    <h4>ACT 2</h4>
-
-                    <p class="dialogue-line">
-                        (SHE GUESSES...)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (FAILURE...)
-                    </p>
-
-                    <h4>ACT 3</h4>
-
-                    <p class="dialogue-line">
-                        (Yeah, that's not the way to go.)
-                    </p>
-
-                    <h4>ACT 4</h4>
-
-                    <p class="dialogue-line">
-                        (Stupid, stupid, stupid.)
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-    
-<br>
-
-<h3>Repeated Interaction</h3>
-    
-<div class="dialogue">
-
-    <h4>If you told the joke right:</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy4)</span>
-        </span>
-        "Pit-iful"...
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy4)</span>
-        </span>
-        Hehehe...
-    </p>
-
-    <hr>
-
-    <h4>If you mucked up:</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        I guess we all have our off days, don't we...?
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="isabeau">Isabeau</h2>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(sif!1)</span>
-        </span>
-        Hey Sif!!!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        ...Let me guess, you're still hungry? I can see it on your face.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Want half of this cookie?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Isabeau waves his last cookie at you.)
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time only:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(n-nya2)</span>
-            </span>
-            (Yes.)
-        </li>
-        
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fufu1)</span>
-            </span>
-            (Yes.)
-        </li>
-        
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(smiling3)</span>
-            </span>
-            (You really would.)
-        </li>
-        
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (Your stomach screams.)
-        </li>
-    </ul>
-
-    <br>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Nah, it's fine."</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(fufufu1)</span>
-                        </span>
-                        ...Okay, let's try that again, and this time you say "Yes please, Mr Amazing-Wonderful-Funny-Buff Isabeau".</p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        I ask again, would you like half of this cookie?</p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(lol1)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 3:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(smiling3)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 4:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(fake1)</span>
-                            </span>
-                        </li>
-                        
-                    </ul>
-                    
-                    <ul class="dialogue-option">
-
-                        <li class="dialogue-option-only">"Yes please, Mr Amazing-Wonderful- Funny-Buff Isabeau!!!"</li>
-                    </ul>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        Of course!!! Here you go!!!</p>
-
-                    <hr>
-
-                    <h4>ACT 2:</h4>
-
-                    <p class="dialogue-line">
-                        (Isabeau gave you half of his cookie!!!)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (CHOMP.)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 3:</h4>
-
-                    <p class="dialogue-line">
-                        (Free cookie.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You eat it in two bites.)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 4:</h4>
-
-                    <p class="dialogue-line">
-                        (You eat the cookie.)
-                    </p>
-
-                    <hr>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(sif!1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>ACT 2:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(awkward1)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 3:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(smiling3)</span>
-                            </span>
-                        </li>
-
-                        <li><b>ACT 4:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(fake3)</span>
-                            </span>
-                        </li>
-
-                        <li class="option"><b>First time: </b>"Th-thank you?"</li>
-
-                        <li class="option"><b>Second time onwards:</b> "Thanks, Isa."</li>
-                    </ul>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha1)</span>
-                        </span>
-                        Heh, no problem!
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary><b>Available second time onwards:</b> "Yes please, Mr Amazing-Wonderful-Funny-Buff Isabeau!"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-note">
-                        Dialogue changes labelled <b>"If you know"</b> mean that Isabeau's confession in the final room has been interrupted by every party member (Odile being last) across at minimum three loops and Siffrin figured out his fee-fees, or that he tried to shoulder touch Siffrin five times in Dormont (triggering the "he's never going to touch you" mini-monologue.) I don't want to type this every time. Thanks.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha2)</span>
-                        </span>
-                        Ha...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(omgggg1)</span>
-                        </span>
-                        <i>HUWAH?!??!</i>
-                    </p>
-
-                    <hr>
-
-                    <h4>First time</h4>
-
-                    <p class="dialogue-line">
-                        (Isabeau was so surprised by what you said he destroyed the cookie he was holding into a thousand crumbs!!!)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (No!!! Not the cookie!!!)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 2</h4>
-
-                    <p class="dialogue-line">
-                        (He destroyed the cookie again!!!)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Why did you say it again!!! The cookie!!!)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 3, if You Don't Know</h4>
-                    <p class="dialogue-line">
-                        (Cookie...)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 3, if You Know</h4>
-
-                    <p class="dialogue-line">
-                        (You should stop saying that.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (It's not fair to him.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You look at the cookie crumbles on the floor.)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 4. if You Don't Know</h4>
-
-                    <p class="dialogue-line">
-                        (The cookie has been destroyed.)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 4, if You Know</h4>
-
-                    <p class="dialogue-line">
-                        (You look at him.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (He's blushing.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You feel powerful, and, immediately after, disgusting.)
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(omgggg1)</span>
-                        </span>
-                        <i>SIF!!! Y-you can't just say that!!!</i>
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(blush2)</span>
-                        </span>
-                        I-I really have the heart of a delicate maiden, you know. You have to be careful with me.
-                    </p>
-
-                    <br>
-
-                    <ul>
-                        <li><b>First time:</b> (Okay...)</li>
-                        <li><b>ACT 2:</b> (Poor guy, he's also devastated that the cookie was destroyed.)</li>
-                        <li><b>If You Know:</b> (. . .)</li>
-                        <li><b>ACT 3:</b> (Yeah, you feel awful about the cookie too.)</li>
-                        <li><b>ACT 4:</b> (...)</li>
-                    </ul>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-<br>
-
-<h2>Repeated interaction</h2>
-    
-<div class="dialogue">
-
-    <h4>If he handed you the cookie</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha1)</span>
-        </span>
-        Hey!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Isabeau smiles at you.)
-    </p>
-
-    <hr>
-
-    <h4>If he destroyed the cookie</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(blush2)</span>
-        </span>
-        H-Hey...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Isabeau seems to have trouble looking you in the eye.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="odile">Odile</h2>
-<p>This section lets you confirm whether you're on track for Sus Run. You need her to remark on both Time and Wish Craft.</p>
-
-<h3>Default</h3>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(guilty1)</span>
-        </span>
-        Hm... I hope I didn't make Bonnie upset earlier.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You both look Bonnie's way...)
-    </p>
-    
-    <p class="dialogue-line">
-        (Bonnie is stuffing their cheeks happily.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        ...Nevermind.
-    </p>
-
-</div>
-    
-<br>
-
-<h3>Suspicious</h3>
-<p>If you got four sus points or more.</p>
-
-<br>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        . . .
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Odile seems lost in thought...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        . . .
-    </p>
-    
-    <hr>
-
-    <h4>Time & Wish Craft</h4>
-    <p class="dialogue-note">
-        If you read both the book on Time Craft in the Candle Room and the book on Wish Craft in the storage room.
-    </p>
-
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Time Craft, and Wish Craft, huh...?
-    </p>
-    
-    <hr>
-
-    <h4>Time Craft only:</h4>
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Time Craft, huh...?
-    </p>
-    
-    <hr>
-
-    <h4>Wish Craft only:</h4>
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Wish Craft, huh...?
-    </p>
-
-    <hr>
-
-    <h4>Neither Time Craft nor Wish Craft:</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        Ah, Siffrin. I'm just thinking, don't mind me...
-    </p>
-    
-    <hr>
-
-    <p class="dialogue-line">
-        (She's looking at you weird. Did you do something wrong...?)
-    </p>
-
-</div>
-    
-<br>
-
-<h3>Repeated interaction</h3>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Leave me be, now. I need some alone time.
-    </p>
-
-    <br>
-    
-    <ul>
-        <li>
-            <b>ACT 2:</b>
-            (You understand.)
-        </li>
-        
-        <li>
-            <b>ACT 3:</b>
-            (But...)
-        </li>
-        
-        <li>
-            <b>ACT 4:</b>
-            (...)
-        </li>
-    </ul>
-
-    <br>
-    
-    <p class="dialogue-line">
-        (You leave Odile be.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="exit">Exit</h1>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Are you ready?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling1)</span>
-        </span>
-        </li>
-        
-        <li><b>ACT 3 onwards:</b>
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        </li>
-    </ul>
-
-    <br>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Ready!"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(yeah!1)</span>
-                        </span>
-                        Alright! Let's go!!!
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>"Not yet!"</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        Okay! We can stay here a bit longer.
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
-
-</body>
-
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
+
+				<br>
+
+				<h3>Repeated Interaction</h3>
+
+				<div class="dialogue">
+					<h4>If you told the joke right:</h4>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy4)</span>
+						</span>
+						"Pit-iful"...
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(happy4)</span>
+						</span>
+						Hehehe...
+					</p>
+
+					<hr>
+
+					<h4>If you mucked up:</h4>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Mirabelle</span>
+							<span class="dialogue-expression">(anxious1)</span>
+						</span>
+						I guess we all have our off days, don't we...?
+					</p>
+				</div>
+
+				<hr>
+				<br>
+
+				<h2 id="isabeau">Isabeau</h2>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(sif!1)</span>
+						</span>
+						Hey Sif!!!
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(really1)</span>
+						</span>
+						...Let me guess, you're still hungry? I can see it on your face.
+					</p>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(neutral1)</span>
+						</span>
+						Want half of this cookie?
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Isabeau waves his last cookie at you.)
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>First time only:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(n-nya2)</span>
+							</span>
+							(Yes.)
+						</li>
+
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fufu1)</span>
+							</span>
+							(Yes.)
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(smiling3)</span>
+							</span>
+							(You really would.)
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+							(Your stomach screams.)
+						</li>
+					</ul>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"Nah, it's fine."</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(fufufu1)</span>
+										</span>
+										...Okay, let's try that again, and this time you say "Yes please, Mr Amazing-Wonderful-Funny-Buff Isabeau".
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										I ask again, would you like half of this cookie?
+									</p>
+
+									<br>
+
+									<ul>
+										<li>
+											<b>ACT 2:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(lol1)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 3:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(smiling3)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 4:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(fake1)</span>
+											</span>
+										</li>
+									</ul>
+
+									<ul class="dialogue-option">
+										<li class="option">
+											"Yes please, Mr Amazing-Wonderful- Funny-Buff Isabeau!!!"
+										</li>
+									</ul>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										Of course!!! Here you go!!!
+									</p>
+
+									<hr>
+
+									<h4>ACT 2:</h4>
+
+									<p class="dialogue-line">
+										(Isabeau gave you half of his cookie!!!)
+									</p>
+
+									<p class="dialogue-line">(CHOMP.)</p>
+
+									<hr>
+
+									<h4>ACT 3:</h4>
+
+									<p class="dialogue-line">(Free cookie.)</p>
+
+									<p class="dialogue-line">(You eat it in two bites.)</p>
+
+									<hr>
+
+									<h4>ACT 4:</h4>
+
+									<p class="dialogue-line">(You eat the cookie.)</p>
+
+									<hr>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(sif!1)</span>
+										</span>
+										...
+									</p>
+
+									<br>
+
+									<ul>
+										<li>
+											<b>ACT 2:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(awkward1)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 3:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(smiling3)</span>
+											</span>
+										</li>
+
+										<li>
+											<b>ACT 4:</b>
+											<span class="dialogue-head">
+												<span class="dialogue-name">Siffrin</span>
+												<span class="dialogue-expression">(fake3)</span>
+											</span>
+										</li>
+
+										<li class="option"><b>First time: </b>"Th-thank you?"</li>
+
+										<li class="option">
+											<b>Second time onwards:</b> "Thanks, Isa."
+										</li>
+									</ul>
+
+									<br>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(hahaha1)</span>
+										</span>
+										Heh, no problem!
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>
+									<b>Available second time onwards:</b> "Yes please, Mr Amazing-Wonderful-Funny-Buff Isabeau!"
+								</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(hahaha2)</span>
+										</span>
+										Ha...
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(omgggg1)</span>
+										</span>
+										<i>HUWAH?!??!</i>
+									</p>
+
+									<hr>
+
+									<h4>First time</h4>
+
+									<p class="dialogue-line">
+										(Isabeau was so surprised by what you said he destroyed the cookie he was holding into a thousand crumbs!!!)
+									</p>
+
+									<p class="dialogue-line">
+										(No!!! Not the cookie!!!)
+									</p>
+
+									<hr>
+
+									<h4>ACT 2</h4>
+
+									<p class="dialogue-line">
+										(He destroyed the cookie again!!!)
+									</p>
+
+									<p class="dialogue-line">
+										(Why did you say it again!!! The cookie!!!)
+									</p>
+
+									<hr>
+
+									<h4>ACT 3, if You Don't Know</h4>
+									<p class="dialogue-line">
+										(Cookie...)
+									</p>
+
+									<hr>
+
+									<h4>
+										ACT 3, if You <a href="/events/confession.html">Know</a>
+									</h4>
+
+									<p class="dialogue-line">(You should stop saying that.)</p>
+
+									<p class="dialogue-line">(It's not fair to him.)</p>
+
+									<p class="dialogue-line">
+										(You look at the cookie crumbles on the floor.)
+									</p>
+
+									<hr>
+
+									<h4>ACT 4, if You Don't Know</h4>
+
+									<p class="dialogue-line">
+										(The cookie has been destroyed.)
+									</p>
+
+									<hr>
+
+									<h4>ACT 4, if You Know</h4>
+
+									<p class="dialogue-line">
+										(You look at him.)
+									</p>
+
+									<p class="dialogue-line">
+										(He's blushing.)
+									</p>
+
+									<p class="dialogue-line">
+										(You feel powerful, and, immediately after, disgusting.)
+									</p>
+
+									<hr>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(omgggg1)</span>
+										</span>
+										<i>SIF!!! Y-you can't just say that!!!</i>
+									</p>
+
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(blush2)</span>
+										</span>
+										I-I really have the heart of a delicate maiden, you know. You have to be careful with me.
+									</p>
+
+									<br>
+
+									<ul>
+										<li><b>First time:</b> (Okay...)</li>
+										<li>
+											<b>ACT 2:</b> (Poor guy, he's also devastated that the cookie was destroyed.)
+										</li>
+										<li>
+											<b>ACT 3:</b> (Yeah, you feel awful about the cookie too.)
+										</li>
+										<li><b>ACT 4:</b> (...)</li>
+										<li><b>If You Know:</b> (. . .)</li>
+									</ul>
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
+
+				<br>
+
+				<h2>Repeated interaction</h2>
+
+				<div class="dialogue">
+					<h4>If he handed you the cookie</h4>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(hahaha1)</span>
+						</span>
+						Hey!
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Isabeau smiles at you.)
+					</p>
+
+					<hr>
+
+					<h4>If he destroyed the cookie</h4>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(blush2)</span>
+						</span>
+						H-Hey...
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Isabeau seems to have trouble looking you in the eye.)
+					</p>
+				</div>
+
+				<hr>
+				<br>
+
+				<h2 id="odile">Odile</h2>
+				<p>
+					This section lets you confirm whether you're on track for
+					<a href="/events/odilesus.html">Sus Event</a>. You need her to remark on both Time and Wish Craft.
+				</p>
+
+				<h3>Default</h3>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(guilty1)</span>
+						</span>
+						Hm... I hope I didn't make Bonnie upset earlier.
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(You both look Bonnie's way...)
+					</p>
+
+					<p class="dialogue-line">
+						(Bonnie is stuffing their cheeks happily.)
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(hm1)</span>
+						</span>
+						...Nevermind.
+					</p>
+				</div>
+
+				<br>
+
+				<h3>Suspicious</h3>
+				<p>
+					If you got four Weird Points or more. For an elaboration on Weird Points, check the
+					<a href="https://instarsandtime.wiki.gg/wiki/Suspicious_Event">wiki page</a> on the event.
+				</p>
+
+				<br>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(dotdotdot2)</span>
+						</span>
+						. . .
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						(Odile seems lost in thought...)
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(dotdotdot2)</span>
+						</span>
+						. . .
+					</p>
+
+					<hr>
+
+					<h4>Time & Wish Craft</h4>
+					<p class="dialogue-note">
+						If you read both the book on Time Craft in the Candle Room and the book on Wish Craft in the storage room.
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(dotdotdot2)</span>
+						</span>
+						Time Craft, and Wish Craft, huh...?
+					</p>
+
+					<hr>
+
+					<h4>Time Craft only:</h4>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(dotdotdot2)</span>
+						</span>
+						Time Craft, huh...?
+					</p>
+
+					<hr>
+
+					<h4>Wish Craft only:</h4>
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(dotdotdot2)</span>
+						</span>
+						Wish Craft, huh...?
+					</p>
+
+					<hr>
+
+					<h4>Neither Time Craft nor Wish Craft:</h4>
+
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(huh1)</span>
+						</span>
+						Ah, Siffrin. I'm just thinking, don't mind me...
+					</p>
+
+					<hr>
+
+					<p class="dialogue-line">
+						(She's looking at you weird. Did you do something wrong...?)
+					</p>
+				</div>
+
+				<br>
+
+				<h3>Repeated interaction</h3>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Odile</span>
+							<span class="dialogue-expression">(reading1)</span>
+						</span>
+						Leave me be, now. I need some alone time.
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>ACT 2:</b>
+							(You understand.)
+						</li>
+
+						<li>
+							<b>ACT 3:</b>
+							(But...)
+						</li>
+
+						<li>
+							<b>ACT 4:</b>
+							(...)
+						</li>
+					</ul>
+
+					<br>
+
+					<p class="dialogue-line">
+						(You leave Odile be.)
+					</p>
+				</div>
+
+				<hr>
+				<br>
+
+				<h1 id="exit">Exit</h1>
+
+				<div class="dialogue">
+					<p class="dialogue-line">
+						<span class="dialogue-head">
+							<span class="dialogue-name">Isabeau</span>
+							<span class="dialogue-expression">(neutral1)</span>
+						</span>
+						Are you ready?
+					</p>
+
+					<br>
+
+					<ul>
+						<li>
+							<b>ACT 2:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(smiling1)</span>
+							</span>
+						</li>
+
+						<li>
+							<b>ACT 3 onwards:</b>
+							<span class="dialogue-head">
+								<span class="dialogue-name">Siffrin</span>
+								<span class="dialogue-expression">(fake1)</span>
+							</span>
+						</li>
+					</ul>
+
+					<br>
+
+					<ul class="dialogue-option">
+						<li>
+							<details>
+								<summary>"Ready!"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(yeah!1)</span>
+										</span>
+										Alright! Let's go!!!
+									</p>
+								</div>
+							</details>
+						</li>
+
+						<li>
+							<details>
+								<summary>"Not yet!"</summary>
+
+								<div class="dialogue">
+									<p class="dialogue-line">
+										<span class="dialogue-head">
+											<span class="dialogue-name">Isabeau</span>
+											<span class="dialogue-expression">(brag1)</span>
+										</span>
+										Okay! We can stay here a bit longer.
+									</p>
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+				<br>
+
+				<h1 id="act5">ACT 5</h1>
+
+				<div class="dialogue">
+					<p class="dialogue-note">
+						As Siffrin walks into the room, his <s>family members</s> actors
+						appear to be sitting in their regular spots, eating. They quickly
+						fade away.
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">(What...)</p>
+
+					<p class="dialogue-line">(...)</p>
+
+					<p class="dialogue-line">
+						(You thought you saw something, but it was just you.)
+					</p>
+
+					<p class="dialogue-line">(You're alone, but it's fine.)</p>
+
+					<p class="dialogue-line">
+						(You just need to defeat the king on your own.)
+					</p>
+
+					<br>
+
+					<p class="dialogue-line">(You're hungry.)</p>
+				</div>
+
+				<p>There is no snack time.</p>
+			</main>
+
+			<foot-er></foot-er>
+		</div>
+	</body>
 </html>

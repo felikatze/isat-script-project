@@ -22,7 +22,7 @@
 <main>
 <h1>Second Snack Break</h1>
 <small>Edited by candycoatedrox</small>
-<p>All dialogue for the second floor's snack break! Once again, snack images are my best approximation...</p>
+<p>All dialogue for the second floor's snack break! Once again, snack images are my best approximation... ~Feli</p>
 <p><b>Sources:</b> Map041 (FLOOR 3, START), Map173 (FLOOR 3, START) (ACT 5), Common Event 187 (TriedAllSnacks)</p>
     
 <br>
@@ -38,16 +38,9 @@
             <li><a href="#eventnorm">Regular Event</a></li>
             <li><a href="#yelling">Bonnie yells at Siffrin variant</a></li>
             <li><a href="#friendquest">Friendquests variant</a></li>
-            <li><a href="#act5">ACT 5</a></li>
         </ul>
     </li>
-    <li><a href="#snacks">Snack Time</a>
-        <ul>
-            <li><a href="#madeleine">Madeleines</a></li>
-            <li><a href="#pineapple">Pineapple Slices</a></li>
-            <li><a href="#fishhead">Fish Head</a></li>
-        </ul>
-    </li>
+    <li><a href="#snacks">Snack Time</a></li>
     <li><a href="after">After Snacks</a>
         <ul>
             <li><a href="#memory">Memory of Safe Rooms</a></li>
@@ -56,26 +49,22 @@
     <li>Character interactions
         <ul>        
             <li><a href="#bonnie">Bonnie</a>
-                <ul>
-                    <li><a href="#bonnienorm">Regular</a></li>
-                    <li><a href="#yells">Same loop as yelling</a></li>
-                    <li><a href="#bonniefriend">Friendquest variant</a></li>
-                    <li><a href="#promise">Memory of Promise</a></li>
-                    <li><a href="#bonnierepeat">Repeated interaction</a></li>
-                </ul>
             </li>
             <li><a href="#mirabelle">Mirabelle</a></li>
             <li><a href="#isabeau">Isabeau</a>
-                <ul>
-                    <li><a href="#isanorm">Regular</a></li>
-                    <li><a href="#isafriend">Friendquest variant</a></li>
-                    <li><a href="#isarepeat">Repeated interaction</a></li>
-                </ul>
             </li>
             <li><a href="#odile">Odile</a></li>
         </ul>
     </li>
     <li><a href="#exit">Exit</a></li>
+    <li><a href="#act5">ACT 5</a>
+        <ul>
+            <li><a href="#bonnie-act5">Bonnie</a></li>
+            <li><a href="#mira-act5">Mirabelle</a></li>
+            <li><a href="#isa-act5">Isabeau</a></li>
+            <li><a href="#odile-act5">Odile</a></li>
+        </ul>
+    </li>
 </ul>
 
 <hr>
@@ -181,7 +170,7 @@
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(brag1)</span>
         </span>
-        Bonbooooon, how much longer until the snacks are dooooone?
+        <span class="big">Bonbooooon, how much longer until the snacks are dooooone?</span>
     </p>
     
     <p class="dialogue-line">
@@ -189,7 +178,7 @@
             <span class="dialogue-name">Bonnie</span>
             <span class="dialogue-expression">(no!1)</span>
         </span>
-        Five minuuuuuutes!!!
+        <span class="big">Five minuuuuuutes!!!</span>
     </p>
     
     <p class="dialogue-line">
@@ -197,7 +186,7 @@
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(brag1)</span>
         </span>
-        Okay take your tiiiiiiime!
+        <span class="big">Okay take your tiiiiiiime!</span>
     </p>
 
     <br>
@@ -609,7 +598,7 @@
         I mean, I'd be dead, right? So I don't really... care that much about later.
     </p>
     
-    <p class="dialogue-line">
+    <p class="dialogue-line" id="fqalt">
         <span class="dialogue-head">
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(awkward1)</span>
@@ -690,7 +679,7 @@
 
     <hr>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line" id="yellalt">
         <span class="dialogue-head">
             <span class="dialogue-name">Mirabelle</span>
             <span class="dialogue-expression">(anxious1)</span>
@@ -858,15 +847,9 @@
                                 <span class="dialogue-expression">(fake1)</span>
                             </span>
                         </li>
+                        <li class="option">"One full of catharsis?"</li>
                         
                     </ul>
-                    
-                    <ul class="dialogue-option">
-
-                        <li class="dialogue-option-only">"One full of catharsis?"</li>
-                    </ul>
-
-                    <p></p>
 
                     <br>
 
@@ -922,14 +905,9 @@
                                 <span class="dialogue-expression">(fake1)</span>
                             </span>
                             (Joke time.)</li>
+                            <li class="option">"I get it, 'cause I'm full of--"</li>
                         
                     </ul>
-                    
-                    <ul class="dialogue-option">
-
-                        <li class="dialogue-option-only">"I get it, 'cause I'm full of--"</li>
-                    </ul>
-                
                 </div>
             </details>
         </li>
@@ -1035,16 +1013,60 @@
 
     <br>
 
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        ...Hey, are you done talking?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk2)</span>
+        </span>
+        Because...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        It's snacks time, baby.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(really1)</span>
+        </span>
+        Oh, it's a serious business snack time. I'm listening.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        Snack times are always serious business, dummy.
+    </p>
+
+    <br>
+
     <p class="dialogue-note">
         For the rest, skip to <a href="#snacks">snack time.</a>
     </p>
 
 </div>
 
+<hr>
 <br>
 
 <h1 id="yelling">Bonnie yelling at Siffrin variant</h1>
-<p>This dialogue diverges after Mirabelle asks, "...What about you, Siffrin?"</p>
+<p>This dialogue diverges after Mirabelle asks, <a href="#yellalt">"...What about you, Siffrin?"</a></p>
+<p>Occurs as part of <a href="/events/bonnieside.html">Bonnie's Sidequest</a>, after finding a second copy of the book Bonnie was reading.</p>
 
 <br>
 
@@ -1410,6 +1432,46 @@
         Yeah, sorry, I shouldn't have--
     </p>
     
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        ...Hey, are you done talking?
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk2)</span>
+        </span>
+        Because...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        It's snacks time, baby.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(really1)</span>
+        </span>
+        Oh, it's a serious business snack time. I'm listening.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        Snack times are always serious business, dummy.
+    </p>
+
     <br>
 
     <p class="dialogue-note">
@@ -1423,7 +1485,7 @@
 <br>
 
 <h1 id="friendquest">Friendquest variant</h1>
-<p>With all Friendquests done this loop.</p>
+<p>With all Friendquests done this loop. Diverges from normal after Isabeau says, <a href="#fqalt">"And for, well, Bonnie, what should--"</a></p>
     
 <br>
     
@@ -1616,7 +1678,7 @@
             <span class="dialogue-name">Odile</span>
             <span class="dialogue-expression">(wry1)</span>
         </span>
-        Am I... Really getting reassured by a kid right now...?
+        <span class="small">Am I... Really getting reassured by a kid right now...?</span>
     </p>
     
     <p class="dialogue-line">
@@ -1732,61 +1794,6 @@
     </p>
 
 </div>
-
-<hr>
-<br>
-    
-<h2 id="act5">ACT 5</h2>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-note">
-        The rest of Siffrin's family appears to be in their regular spots, eating.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        Siffrin!
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Sif! Where were you?
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol3)</span>
-        </span>
-        You took so long to get here, we started eating our snacks without you.
-    </p>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(yeah!2)</span>
-        </span>
-        Come here, Frin! I have some snacks for you to eat!!!
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <i>(...)</i>
-    </p>
-    
-</div>
-    
-<p>There is no snack time. You can only interact with your <s>family members</s> actors.</p>
     
 <hr>
 <br>
@@ -1794,60 +1801,6 @@
 <h1 id="snacks">Snack Time</h1>
 
 <div class="dialogue">
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Without all Friendquests completed this loop</summary>
-                
-                <div class="dialogue">
-                
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(serious1)</span>
-                        </span>
-                        ...Hey, are you done talking?
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk2)</span>
-                        </span>
-                        Because...
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(serious1)</span>
-                        </span>
-                        It's snacks time, baby.
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(really1)</span>
-                        </span>
-                        Oh, it's a serious business snack time. I'm listening.
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(serious1)</span>
-                        </span>
-                        Snack times are always serious business, dummy.
-                    </p>
-                
-                </div>
-            </details>
-        </li>
-    </ul>
-
-    <br>
 
     <p class="dialogue-line">
         <span class="dialogue-head">
@@ -2024,7 +1977,7 @@
             <span class="dialogue-name">Bonnie</span>
             <span class="dialogue-expression">(yeah!1)</span>
         </span>
-        <i>FISH HEAD!!!!!!!!!!!!!!!!!!!!</i>
+        <span class="big"><i>FISH HEAD!!!!!!!!!!!!!!!!!!!!</i></span>
     </p>
     
     <p class="dialogue-line">
@@ -2134,19 +2087,12 @@
 
     <p class="dialogue-line">(You'd like...)</p>
 
-    <ul>
-        <li class="option"><a href="#madeleine">"Some madeleines for me."</a></li>
-        <li class="option"><a href="#pineapple">"I'll try the pineapple."</a></li>
-        <li class="option"><a href="#fishhead">"One fish head, please."</a></li>
-    </ul>
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>"Some madeleines for me."</summary>
 
-</div>
-    
-<br>
-
-<h2 id="madeleine">Madeleines</h2>
-    
-<div class="dialogue">
+                <div class="dialogue">
 
     <p class="dialogue-line">
         <span class="dialogue-head">
@@ -2162,7 +2108,7 @@
         (Bonnie hands you some madeleines.)
     </p>
 
-    <br>
+    <hr>
 
     <h4>First time:</h4>
     <p class="dialogue-line">
@@ -2173,6 +2119,8 @@
         (Soft! Delicious!)
     </p>
 
+    <hr>
+
     <h4>Second time:</h4>
     <p class="dialogue-line">
         (You bite into one.)
@@ -2182,18 +2130,21 @@
         (Delicious!)
     </p>
 
+    <hr>
+
     <h4>Third time onwards:</h4>
     <p class="dialogue-line">
         (You bite into one.)
     </p>
 
 </div>
-    
-<br>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"I'll try the pineapple."</summary>
 
-<h2 id="pineapple">Pineapple Slices</h2>
-    
-<div class="dialogue">
+                <div class="dialogue">
 
     <p class="dialogue-line">
         <span class="dialogue-head">
@@ -2211,14 +2162,15 @@
         Pineapples are one of my three favorite foods! Sounds like you have good taste sometimes, Frin!!!
     </p>
 
-    <br>
+    <hr>
     
-    <ul>
-        <li><b>If you've started figuring out Bonnie's favorite foods:</b>
-        (So pineapple is one of Bonnie's favorite foods, huh...?)</li>
-    </ul>
+    <h4>If you've started figuring out Bonnie's favorite foods</h4>
+
+    <p class="dialogue-line">
+        (So pineapple is one of Bonnie's favorite foods, huh...?)
+    </p>
     
-    <br>
+    <hr>
 
     <p class="dialogue-line">
         (Bonnie hands you the snack.)
@@ -2280,12 +2232,13 @@
     </p>
 
 </div>
-
-<br>
-
-<h2 id="fishhead">Fish Head</h2>
-    
-<div class="dialogue">
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>"One fish head, please."</summary>
+                
+                <div class="dialogue">
 
     <p class="dialogue-line">
         <span class="dialogue-head">
@@ -2476,6 +2429,11 @@
         (You eat the fish head.)
     </p>
     
+</div>
+            </details>
+        </li>
+    </ul>
+
 </div>
     
 <hr>
@@ -2678,7 +2636,6 @@
     <li><a href="#bonniefriend">Friendquest variant</a></li>
     <li><a href="#promise">Memory of Promise</a></li>
     <li><a href="#bonnierepeat">Repeated interaction</a></li>
-    <li><a href="#bonnie-act5">ACT 5</a></li>
 </ul>
 
 <br>
@@ -2691,11 +2648,14 @@
         (Bonnie seems to be thinking hard about something...)
     </p>
     
-    <ul>
-        <li><b>If you've started Bonnie's Sidequest:</b>
-            (...)
-        </li>
-    </ul>
+    <hr>
+    <h4>If you've started Bonnie's Sidequest</h4>
+
+    <p class="dialogue-line">
+        (...)
+    </p>
+
+    <hr>
 
     <br>
 
@@ -2715,14 +2675,10 @@
                 <span class="dialogue-expression">(shit1)</span>
             </span>
         </li>
+        <li class="option">"We'll save your sister, Bonnie."</li>
         
     </ul>
     
-    <ul class="dialogue-option">
-        
-        <li class="dialogue-option-only">"We'll save your sister, Bonnie."</li>
-    </ul> 
-
     <br>
 
     <p class="dialogue-line">
@@ -2762,7 +2718,7 @@
 <br>
 
 <h3 id="yells">On the same loop as Bonnie yells at Siffrin</h3>
-<p>When you try to talk to them at all in the same loop as them yelling at Siffrin for the sidequest.</p>
+<p>When you try to talk to them at all in the same loop as them yelling at Siffrin for the <a href="/events/bonnieside.html">sidequest</a>.</p>
 
 <br>
     
@@ -3143,67 +3099,6 @@
     
 </div>
     
-<br>
-
-<h3 id="bonnie-act5">ACT 5</h3>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(smile3)</span>
-        </span>
-        Fri
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        Suddenly, the screen is covered with a static effect.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(spooky1)</span>
-        </span>
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <i>(...)</i>
-    </p>
-    
-    <p class="dialogue-line">
-        (You
-    </p>
-    
-    <p class="dialogue-line">
-        (You just need to defeat the King on your own.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Your stomach hurts.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You feel cold.)
-    </p>
-    
-</div>
-
 <hr>
 <br>
 
@@ -3213,7 +3108,6 @@
     <li><a href="#miranorm">Regular</a></li>
     <li><a href="#mirafriend">Friendquest variant</a></li>
     <li><a href="#mirarepeat">Repeated interaction</a></li>
-    <li><a href="#mira-act5">ACT 5</a></li>
 </ul>
 
 <br>
@@ -3262,15 +3156,14 @@
                 <span class="dialogue-expression">(fake1)</span>
             </span>
         </li>
+        <li class="option">"Nails."</li>
     </ul>
+
+    <br>
 
     <p class="dialogue-line">
         (You point to them.)
     </p>
-    
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"Nails."</li>
-    </ul>
 
     <br>
 
@@ -3348,12 +3241,7 @@
                 <span class="dialogue-expression">(fake3)</span>
             </span>
         </li>
-        
-    </ul>
-    
-    <ul class="dialogue-option">
-        
-        <li class="dialogue-option-only">"We're gonna be okay."</li>
+        <li class="option">"We're gonna be okay."</li>
     </ul>
 
     <br>
@@ -3392,13 +3280,9 @@
                 <span class="dialogue-expression">(fake1)</span>
             </span>
         </li>
-        
+        <li class="option">"You might even say..."</li>
     </ul>
     
-    <ul class="dialogue-option">    
-        <li class="dialogue-option-only">"You might even say..."</li>
-    </ul>
-
     <br>
 
     <p class="dialogue-line">
@@ -3435,13 +3319,9 @@
                 <span class="dialogue-expression">(fake1)</span>
             </span>
         </li>
-        
+        <li class="option">"...We're gonna NAIL it."</li>
     </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"...We're gonna NAIL it."</li>
-    </ul>
-
+    
     <br>
 
     <p class="dialogue-line">
@@ -3518,11 +3398,7 @@
                 <span class="dialogue-expression">(sadsmile2)</span>
             </span>
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"Mira."</li>
+        <li class="option">"Mira."</li>
     </ul>
 
     <br>
@@ -3553,11 +3429,7 @@
                 <span class="dialogue-expression">(sadsmile4)</span>
             </span>
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"Mira!"</li>
+        <li class="option">"Mira!"</li>
     </ul>
 
     <br>
@@ -3738,67 +3610,6 @@
     
 </div>
     
-<br>
-
-<h3 id="mira-act5">ACT 5</h3>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy3)</span>
-        </span>
-        Siffrin, what would y
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        Suddenly, the screen is covered with a static effect.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(spooky1)</span>
-        </span>
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <i>(...)</i>
-    </p>
-    
-    <p class="dialogue-line">
-        (You
-    </p>
-    
-    <p class="dialogue-line">
-        (You just need to defeat the King on your own.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Your stomach hurts.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You feel cold.)
-    </p>
-    
-</div>
-
 <hr>
 <br>
 
@@ -3808,7 +3619,6 @@
     <li><a href="#isanorm">Regular</a></li>
     <li><a href="#isafriend">Friendquest variant</a></li>
     <li><a href="#isarepeat">Repeated interaction</a></li>
-    <li><a href="#isa-act5">ACT 5</a></li>
 </ul>
     
 <br>
@@ -3871,11 +3681,7 @@
             </span>
             (...)
         </li>
-        
-    </ul>
-    
-    <ul class="dialogue-option">    
-        <li class="dialogue-option-only">"No I don't[!/.]"</li>
+        <li class="option">"No I don't[!/.]"</li>
     </ul>
 
     <br>
@@ -3922,11 +3728,7 @@
                 <span class="dialogue-expression">(scary2)</span>
             </span>
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"Isabeau..."</li>
+        <li class="option">"Isabeau..."</li>
     </ul>
 
     <br>
@@ -3977,11 +3779,7 @@
                 <span class="dialogue-expression">(fake1)</span>
             </span>
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"...Stop being 'cheeky'."</li>
+        <li class="option">"...Stop being 'cheeky'."</li>
     </ul>
 
     <br>
@@ -4073,11 +3871,7 @@
             </span>
             (...)
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"Why?"</li>
+        <li class="option">"Why?"</li>
     </ul>
 
     <br>
@@ -4127,11 +3921,7 @@
             </span>
             (...)
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"About my eye, you mean?"</li>
+        <li class="option">"About my eye, you mean?"</li>
     </ul>
 
     <br>
@@ -4351,67 +4141,6 @@
     </ul>
     
 </div>
-    
-<br>
-
-<h3 id="isa-act5">ACT 5</h3>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Sif, what's
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        Suddenly, the screen is covered with a static effect.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(spooky1)</span>
-        </span>
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <i>(...)</i>
-    </p>
-    
-    <p class="dialogue-line">
-        (You
-    </p>
-    
-    <p class="dialogue-line">
-        (You just need to defeat the King on your own.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Your stomach hurts.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You feel cold.)
-    </p>
-    
-</div>
 
 <hr>
 <br>
@@ -4423,7 +4152,6 @@
     <li><a href="#odilesus">Suspicious variant</a></li>
     <li><a href="#odilefriend">Friendquest variant</a></li>
     <li><a href="#odilerepeat">Repeated interaction</a></li>
-    <li><a href="#odile-act5">ACT 5</a></li>
 </ul>
 
 <br>
@@ -4482,11 +4210,7 @@
                 <span class="dialogue-expression">(hide1)</span>
             </span>
         </li>
-        
-    </ul>
-        
-    <ul class="dialogue-option">
-        <li class="dialogue-option-only">"You won't die today, Odile[!/.]"</li>
+        <li class="option">"You won't die today, Odile[!/.]"</li>
     </ul>
 
     <br>
@@ -4727,7 +4451,7 @@
 <br>
 
 <h3 id="odilesus">Suspicious variant</h3>
-<p>Her dialogue changes if you have four Weird Points or more. For an in-depth explanation on Weird Points, look at <a href="https://instarsandtime.wiki.gg/wiki/Suspicious_Event"><abbr title="In Stars and Time">ISAT</abbr>wiki</a>. This dialogue change also overrides Friendquest dialogue changes.</p>
+<p>Her dialogue changes if you have four Weird Points or more as part of the <a href="/events/odilesus.html">Sus Event</a>. For an in-depth explanation on Weird Points, look at <a href="https://instarsandtime.wiki.gg/wiki/Suspicious_Event"><abbr title="In Stars and Time">ISAT</abbr>wiki</a>. This dialogue change also overrides Friendquest dialogue changes.</p>
 
 <br>
     
@@ -4935,67 +4659,6 @@
     
 </div>
     
-<br>
-
-<h3 id="odile-act5">ACT 5</h3>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        Siffrin, how are y
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        Suddenly, the screen is covered with a static effect.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(spooky1)</span>
-        </span>
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-note">
-        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        <i>(...)</i>
-    </p>
-    
-    <p class="dialogue-line">
-        (You
-    </p>
-    
-    <p class="dialogue-line">
-        (You just need to defeat the King on your own.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Your stomach hurts.)
-    </p>
-    
-    <p class="dialogue-line">
-        (You feel cold.)
-    </p>
-    
-</div>
-
 <hr>
 <br>
 
@@ -5068,6 +4731,309 @@
             </details>
         </li>
     </ul>
+    
+</div>
+
+<hr>
+<br>
+    
+<h1 id="act5">ACT 5</h1>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-note">
+        The rest of Siffrin's family appears to be in their regular spots, eating.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy2)</span>
+        </span>
+        Siffrin!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(oh1)</span>
+        </span>
+        Sif! Where were you?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol3)</span>
+        </span>
+        You took so long to get here, we started eating our snacks without you.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(yeah!2)</span>
+        </span>
+        Come here, Frin! I have some snacks for you to eat!!!
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <i>(...)</i>
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h2>Character interactions</h2>
+
+<h3 id="bonnie-act5">Bonnie</h3>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(smile3)</span>
+        </span>
+        Fri
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        Suddenly, the screen is covered with a static effect.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(spooky1)</span>
+        </span>
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <i>(...)</i>
+    </p>
+    
+    <p class="dialogue-line">
+        (You
+    </p>
+    
+    <p class="dialogue-line">
+        (You just need to defeat the King on your own.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Your stomach hurts.)
+    </p>
+    
+    <p class="dialogue-line">
+        (You feel cold.)
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h3 id="mira-act5">Mirabelle</h3>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy3)</span>
+        </span>
+        Siffrin, what would y
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        Suddenly, the screen is covered with a static effect.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(spooky1)</span>
+        </span>
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <i>(...)</i>
+    </p>
+    
+    <p class="dialogue-line">
+        (You
+    </p>
+    
+    <p class="dialogue-line">
+        (You just need to defeat the King on your own.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Your stomach hurts.)
+    </p>
+    
+    <p class="dialogue-line">
+        (You feel cold.)
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h3 id="isa-act5">Isabeau</h3>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(neutral1)</span>
+        </span>
+        Sif, what's
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        Suddenly, the screen is covered with a static effect.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(spooky1)</span>
+        </span>
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <i>(...)</i>
+    </p>
+    
+    <p class="dialogue-line">
+        (You
+    </p>
+    
+    <p class="dialogue-line">
+        (You just need to defeat the King on your own.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Your stomach hurts.)
+    </p>
+    
+    <p class="dialogue-line">
+        (You feel cold.)
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h3 id="odile-act5">ACT 5</h3>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol1)</span>
+        </span>
+        Siffrin, how are y
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        Suddenly, the screen is covered with a static effect.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(spooky1)</span>
+        </span>
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-note">
+        The screen glitches and flashes red after a moment. When it clears, your actors are gone.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        <i>(...)</i>
+    </p>
+    
+    <p class="dialogue-line">
+        (You
+    </p>
+    
+    <p class="dialogue-line">
+        (You just need to defeat the King on your own.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Your stomach hurts.)
+    </p>
+    
+    <p class="dialogue-line">
+        (You feel cold.)
+    </p>
     
 </div>
 
