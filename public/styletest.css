@@ -356,6 +356,7 @@ details .dialogue {
     z-index: 99;
     text-align: center;
     background-color: red; /* temp color */
+    width: 150px;
 }
 .dialogue-expression:hover .tooltip {
     visibility: visible;
