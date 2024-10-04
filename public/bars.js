@@ -1,3 +1,6 @@
+debugMode = false;
+// change this to true and check console for debug logs!
+
 class Header extends HTMLElement {
     constructor() {
         super();
@@ -113,11 +116,11 @@ function toggleExpressions() {
         if (things[i].style.display === "none") {
             things[i].style.display = "inline-flex";
             expressionsOff = false;
-            console.log("expressions on!");
+            if (debugMode) {console.log("expressions on!");};
         } else {
             things[i].style.display = "none";
             expressionsOff = true;
-            console.log("expressions off!");
+            if (debugMode) {console.log("expressions off!");};
         }
     }
     sessionStorage.setItem("expressionsToggle", expressionsOff);
@@ -127,6 +130,7 @@ function toggleExpressions() {
 
 // load correct font if it had been set previously
 window.onload = function() {
+    // i don't think this works at all actually. i've never seen it do anything -gold
 
     var font = sessionStorage.getItem('font');
     if(!!font) {
@@ -136,9 +140,9 @@ window.onload = function() {
     // gold's expressions toggle code
     if(sessionStorage.getItem("expressionsToggle") == true) {
         toggleExpressions();
-        console.log("toggled expressions on load!");
+        if (debugMode) {console.log("toggled expressions on load!");};
     } else {
-        console.log("expressions stayed the same on load!");
+        if (debugMode) {console.log("expressions stayed the same on load!");};
     }
     // end gold's expressions toggle code
 };
@@ -162,11 +166,11 @@ function toggleDialogue() {
     for(var i = 0; i < details.length; i++) {
         if (details[i].open == true) {
             details[i].removeAttribute("open", "");
-            console.log("closed all dialogue options!");
+            if (debugMode) {console.log("closed all dialogue options!");};
         }
         else {
             details[i].setAttribute("open", "");
-            console.log("opened all dialogue options!");
+            if (debugMode) {console.log("opened all dialogue options!");};
         }
     }
 }
@@ -200,7 +204,7 @@ function tooltipImages() {
             switch (nameElement.innerHTML) {
 
                 case "Bonnie":
-                    console.log(nameElement, `head ${headIndex} is bonnie`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`);};
 
                     switch (expression) {
                         case "and then1":
@@ -357,14 +361,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for bonnie`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for bonnie`);};
                             break;
                     }
 
                     break;
 
                 case "Euphrasie":
-                    console.log(nameElement, `head ${headIndex} is euphrasie`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is euphrasie`);};
 
                     switch (expression) {
                         case "CRAB1":
@@ -422,14 +426,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for euphrasie`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for euphrasie`);};
                             break;
                     }
 
                     break;
 
                 case "Isabeau":
-                    console.log(nameElement, `head ${headIndex} is isabeau`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is isabeau`);};
 
                     switch (expression) {
                         case "angry1":
@@ -631,19 +635,19 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for isabeau`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for isabeau`);};
                             break;
                     }
 
                     break;
 
                 case "King":
-                    console.log(nameElement, `head ${headIndex} is the king`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is the king`);};
                     imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
-                    console.log(nameElement, `head ${headIndex} is loop`, expression);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is loop`, expression);};
 
                     switch (expression) {
                         case "angry1":
@@ -764,14 +768,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for loop`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for loop`);};
                             break;
                     }
 
                     break;
 
                 case "Mirabelle":
-                    console.log(nameElement, `head ${headIndex} is mirabelle`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is mirabelle`);};
 
                     switch (expression) {
                         case "angry1":
@@ -937,14 +941,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Mirabelle_Yelling.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for mirabelle`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for mirabelle`);};
                             break;
                     }
 
                     break;
 
                 case "Odile":
-                    console.log(nameElement, `head ${headIndex} is odile`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is odile`);};
 
                     switch (expression) {
                         case "angry1":
@@ -1125,14 +1129,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/5d/ISAT_Portrait_Odile_Yeah.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for odile`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`);};
                             break;
                     }
 
                     break;
 
                 case "Siffrin":
-                    console.log(nameElement, `head ${headIndex} is siffrin`);
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is siffrin`);};
 
                     switch (expression) {
                         case "angry1":
@@ -1553,14 +1557,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/17/ISAT_Portrait_Siffrin_Yahoo_3_ACT6.png";
                             break;
                         default:
-                            console.log(nameElement, `expression '${expression}' not found for siffrin`);
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for siffrin`);};
                             break;
                     }
 
                     break;
 
                 default: 
-                    console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`);
+                    if (debugMode) {console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`);};
                     break;
             }
 
