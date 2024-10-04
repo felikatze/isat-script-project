@@ -176,9 +176,15 @@ function tooltipImages() {
 
     var dialogueHeads = document.getElementsByClassName("dialogue-head"); // get all dialogue heads
 
+    console.log(`${dialogueHeads.length} heads:`, dialogueHeads);
+
     for (headIndex in dialogueHeads) { // for every dialogue head
 
-        if (dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")) { // if this dialogue head has an expression
+        if (
+            dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] // if this dialogue head has an expression
+            &&
+            (typeof dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] !== "undefined") // and if that expression is defined (i don't know why i needed this but it kept yelling at me i'm so confused)
+        ) {
 
             var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
             var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
@@ -199,7 +205,7 @@ function tooltipImages() {
             switch (nameElement.innerHTML) {
 
                 case "Bonnie":
-                    console.log(nameElement, "it is bonnie");
+                    console.log(nameElement, `head ${headIndex} is bonnie`);
 
                     switch (expression) {
                         case "and then1":
@@ -363,7 +369,7 @@ function tooltipImages() {
                     break;
 
                 case "Euphrasie":
-                    console.log(nameElement, "it is euphrasie");
+                    console.log(nameElement, `head ${headIndex} is euphrasie`);
 
                     switch (expression) {
                         case "CRAB1":
@@ -428,7 +434,7 @@ function tooltipImages() {
                     break;
 
                 case "Isabeau":
-                    console.log(nameElement, "it is isabeau");
+                    console.log(nameElement, `head ${headIndex} is isabeau`);
 
                     switch (expression) {
                         case "angry1":
@@ -637,12 +643,12 @@ function tooltipImages() {
                     break;
 
                 case "King":
-                    console.log(nameElement, "it is the king");
+                    console.log(nameElement, `head ${headIndex} is the king`);
                     imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
-                    console.log(nameElement, "it is loop", expression);
+                    console.log(nameElement, `head ${headIndex} is loop`, expression);
 
                     switch (expression) {
                         case "angry1":
@@ -770,7 +776,7 @@ function tooltipImages() {
                     break;
 
                 case "Mirabelle":
-                    console.log(nameElement, "it is mirabelle");
+                    console.log(nameElement, `head ${headIndex} is mirabelle`);
 
                     switch (expression) {
                         case "angry1":
@@ -923,7 +929,7 @@ function tooltipImages() {
                         case "thinking1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Thinking.png";
                             break;
-                        case "uwahh!1":
+                        case "uwah!1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Mirabelle_Uwah.png";
                             break;
                         case "wonder1":
@@ -938,17 +944,200 @@ function tooltipImages() {
                         default:
                             console.log(nameElement, `expression '${expression}' not found for mirabelle`);
                             break;
-
                     }
 
                     break;
 
                 case "Odile":
-                    console.log(nameElement, "it is odile");
+                    console.log(nameElement, `head ${headIndex} is odile`);
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Odile_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Odile_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/84/ISAT_Portrait_Odile_Angry_3.png";
+                            break;
+                        case "angryBUTSUPER1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Odile_Furious_1.png";
+                            break;
+                        case "angryBUTSUPER2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f6/ISAT_Portrait_Odile_Furious_2.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Odile_Awkward.png";
+                            break;
+                        case "dotdotdot1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/44/ISAT_Portrait_Odile_Dotdotdot_1.png";
+                            break;
+                        case "dotdotdot2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/34/ISAT_Portrait_Odile_Dotdotdot_2.png";
+                            break;
+                        case "dotdotdot3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0c/ISAT_Portrait_Odile_Dotdotdot_3.png";
+                            break;
+                        case "doubt":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Odile_Doubt.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Odile_Reading_1.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bf/ISAT_Portrait_Odile_Fight.png";
+                            break;
+                        case "gentle1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/75/ISAT_Portrait_Odile_Gentle.png";
+                            break;
+                        case "gimme1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Gimme.png";
+                            break;
+                        case "guilty1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cd/ISAT_Portrait_Odile_Guilty_1.png";
+                            break;
+                        case "guilty2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ce/ISAT_Portrait_Odile_Guilty_2.png";
+                            break;
+                        case "hm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Odile_Hm_1.png";
+                            break;
+                        case "hm2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9d/ISAT_Portrait_Odile_Hm_2.png";
+                            break;
+                        case "huh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a2/ISAT_Portrait_Odile_Huh_1.png";
+                            break;
+                        case "huh2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Odile_Huh_2.png";
+                            break;
+                        case "huh3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Odile_Huh_3.png";
+                            break;
+                        case "isthatso1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a1/ISAT_Portrait_Odile_Amused.png";
+                            break;
+                        case "laugh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Laugh.png";
+                            break;
+                        case "lol1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Odile_LOL_1.png";
+                            break;
+                        case "lol2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/37/ISAT_Portrait_Odile_LOL_2.png";
+                            break;
+                        case "lol3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4f/ISAT_Portrait_Odile_LOL_3.png";
+                            break;
+                        case "lol4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Odile_LOL_4.png";
+                            break;
+                        case "melan1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/60/ISAT_Portrait_Odile_Melancholy_1.png";
+                            break;
+                        case "melan2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Odile_Melancholy_2.png";
+                            break;
+                        case "melan3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/71/ISAT_Portrait_Odile_Melancholy_3.png";
+                            break;
+                        case "melan4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/70/ISAT_Portrait_Odile_Melancholy_4.png";
+                            break;
+                        case "melan5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d3/ISAT_Portrait_Odile_Melancholy_5.png";
+                            break;
+                        case "melan6":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3b/ISAT_Portrait_Odile_Melancholy_6.png";
+                            break;
+                        case "no!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Odile_No.png";
+                            break;
+                        case "question1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/32/ISAT_Portrait_Odile_Question_1.png";
+                            break;
+                        case "question2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Odile_Question_2.png";
+                            break;
+                        case "reading1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Odile_Reading_1.png";
+                            break;
+                        case "reading2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/48/ISAT_Portrait_Odile_Reading_2.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Odile_Sad.png";
+                            break;
+                        case "serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5a/ISAT_Portrait_Odile_Serious_1.png";
+                            break;
+                        case "serious2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Odile_Serious_2.png";
+                            break;
+                        case "serious3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/30/ISAT_Portrait_Odile_Serious_3.png";
+                            break;
+                        case "serious4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Odile_Serious_4.png";
+                            break;
+                        case "sigh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/59/ISAT_Portrait_Odile_Sigh_1.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cf/ISAT_Portrait_Odile_Smile.png";
+                            break;
+                        case "spooky1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/64/ISAT_Portrait_Odile_Spooky.png";
+                            break;
+                        case "up1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fe/ISAT_Portrait_Odile_Looking_Up.png";
+                            break;
+                        case "urgh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Odile_Urgh.png";
+                            break;
+                        case "uwah!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Odile_Shocked.png";
+                            break;
+                        case "wellactually1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5e/ISAT_Portrait_Odile_Well_Actually.png";
+                            break;
+                        case "what1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b9/ISAT_Portrait_Odile_What_1.png";
+                            break;
+                        case "what2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d9/ISAT_Portrait_Odile_What_2.png";
+                            break;
+                        case "wonder1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b6/ISAT_Portrait_Odile_Wonder_1.png";
+                            break;
+                        case "wonder2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Odile_Wonder_2.png";
+                            break;
+                        case "wonder3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Odile_Wonder_3.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ae/ISAT_Portrait_Odile_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Worried_2.png";
+                            break;
+                        case "wry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/66/ISAT_Portrait_Odile_Wry.png";
+                            break;
+                        case "yeah1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5d/ISAT_Portrait_Odile_Yeah.png";
+                            break;
+                        default:
+                            console.log(nameElement, `expression '${expression}' not found for odile`);
+                            break;
+                    }
+
                     break;
 
                 case "Siffrin":
-                    console.log(nameElement, "it is siffrin");
+                    console.log(nameElement, `head ${headIndex} is siffrin`);
                     break;
 
                 default: 
