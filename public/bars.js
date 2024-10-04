@@ -653,9 +653,9 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/7/76/ISAT_Portrait_Loop_Looking_Away.png";
                             break;
                         case "ew1":
-                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png";
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Urgh.png";
                             break;
-                        case "expressionnumber1":
+                        case "expressionnumber":
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png";
                             break;
                         case "fake1":
