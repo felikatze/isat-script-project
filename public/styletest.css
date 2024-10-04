@@ -355,7 +355,8 @@ details .dialogue {
     bottom: 120%;
     z-index: 99;
     text-align: center;
-    background-color: red; /* temp color */
+    background-color: #0008;
+    border-radius: 5px;
     width: 150px;
 }
 .dialogue-expression:hover .tooltip {

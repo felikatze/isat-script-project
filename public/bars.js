@@ -193,9 +193,7 @@ function tooltipImages() {
             // create the tooltip
             expressionElement.appendChild(document.createElement("span")); // make a span
             var tooltip = expressionElement.firstElementChild; // get that span we just made
-            tooltip.classList.add("tooltip"); // give it the tooltip text
-
-            tooltip.innerHTML = expression; // set the text
+            tooltip.classList.add("tooltip"); // give it the tooltip class
 
             var imageSrc = false;
 
@@ -1570,6 +1568,8 @@ function tooltipImages() {
                 dialogueImage = document.createElement("img");
                 dialogueImage.src = imageSrc;
                 tooltip.appendChild(dialogueImage);
+            } else {
+                tooltip.innerHTML = "image not found";
             }
 
         }
