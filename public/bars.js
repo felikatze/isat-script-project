@@ -1138,6 +1138,430 @@ function tooltipImages() {
 
                 case "Siffrin":
                     console.log(nameElement, `head ${headIndex} is siffrin`);
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fc/ISAT_Portrait_Siffrin_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Siffrin_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e6/ISAT_Portrait_Siffrin_Angry_3.png";
+                            break;
+                        case "angry4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8c/ISAT_Portrait_Siffrin_Angry_4.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Siffrin_Awkward.png";
+                            break;
+                        case "blep1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7a/ISAT_Portrait_Siffrin_Blep.png";
+                            break;
+                        case "boo1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Siffrin_Boo.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/eb/ISAT_Portrait_Siffrin_Smiling_4.png";
+                            break;
+                        case "fake1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Siffrin_Fake_1.png";
+                            break;
+                        case "fake2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Siffrin_Fake_2.png";
+                            break;
+                        case "fake3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Siffrin_Fake_3.png";
+                            break;
+                        case "fake4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Siffrin_Fake_4.png";
+                            break;
+                        case "fake5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Siffrin_Fake_5.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4d/ISAT_Portrait_Siffrin_Fight_1.png";
+                            break;
+                        case "fight2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/60/ISAT_Portrait_Siffrin_Fight_2.png";
+                            break;
+                        case "fight3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Siffrin_Fight_3.png";
+                            break;
+                        case "fight4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d5/ISAT_Portrait_Siffrin_Fight_4.png";
+                            break;
+                        case "fight5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e9/ISAT_Portrait_Siffrin_Fight_5.png";
+                            break;
+                        case "fufu1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4d/ISAT_Portrait_Siffrin_Fufu.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cf/ISAT_Portrait_Siffrin_Happy.png";
+                            break;
+                        case "hide1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/86/ISAT_Portrait_Siffrin_Hide_1.png";
+                            break;
+                        case "hide2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Siffrin_Hide_2.png";
+                            break;
+                        case "hide3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Siffrin_Hide_3.png";
+                            break;
+                        case "hide4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Hide_4.png";
+                            break;
+                        case "hide5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Siffrin_Hide_5.png";
+                            break;
+                        case "hide6":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fd/ISAT_Portrait_Siffrin_Hide_6.png";
+                            break;
+                        case "joke1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Siffrin_Joke_1.png";
+                            break;
+                        case "joke2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Siffrin_Joke_2.png";
+                            break;
+                        case "LMAO1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/77/ISAT_Portrait_Siffrin_LMAO.png";
+                            break;
+                        case "lol1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Siffrin_LOL.png";
+                            break;
+                        case "lost1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Siffrin_Lost.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Siffrin_Neutral_1.png";
+                            break;
+                        case "neutral2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Siffrin_Neutral_2.png";
+                            break;
+                        case "neutral3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/74/ISAT_Portrait_Siffrin_Neutral_3.png";
+                            break;
+                        case "n-nya1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Siffrin_Startled_1.png";
+                            break;
+                        case "n-nya2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a3/ISAT_Portrait_Siffrin_Startled_2.png";
+                            break;
+                        case "no!!!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Siffrin_Horrified_1.png";
+                            break;
+                        case "no!!!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Siffrin_Horrified_2.png";
+                            break;
+                        case "no1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Siffrin_Emotional.png";
+                            break;
+                        case "nya":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Grin.png";
+                            break;
+                        case "okay1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Siffrin_Disbelieving_1.png";
+                            break;
+                        case "okay2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e0/ISAT_Portrait_Siffrin_Disbelieving_2.png";
+                            break;
+                        case "omg1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e4/ISAT_Portrait_Siffrin_Ecstatic_1.png";
+                            break;
+                        case "omg2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Siffrin_Ecstatic_2.png";
+                            break;
+                        case "questions1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Questioning_1.png";
+                            break;
+                        case "questions2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e4/ISAT_Portrait_Siffrin_Questioning_2.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Siffrin_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c8/ISAT_Portrait_Siffrin_Sad_2.png";
+                            break;
+                        case "sadsmile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0d/ISAT_Portrait_Siffrin_Sad_Smile_1.png";
+                            break;
+                        case "sadsmile2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8d/ISAT_Portrait_Siffrin_Sad_Smile_2.png";
+                            break;
+                        case "sadsmile3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ce/ISAT_Portrait_Siffrin_Sad_Smile_3.png";
+                            break;
+                        case "sadsmile4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/15/ISAT_Portrait_Siffrin_Sad_Smile_4.png";
+                            break;
+                        case "sadsmile5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f5/ISAT_Portrait_Siffrin_Sad_Smile_5.png";
+                            break;
+                        case "scary1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Scary_1.png";
+                            break;
+                        case "scary2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Scary_2.png";
+                            break;
+                        case "scary3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Siffrin_Scary_3.png";
+                            break;
+                        case "serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Serious.png";
+                            break;
+                        case "shit1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Siffrin_Troubled.png";
+                            break;
+                        case "siiiiigh":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Sigh.png";
+                            break;
+                        case "smiling1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/80/ISAT_Portrait_Siffrin_Smiling_1.png";
+                            break;
+                        case "smiling2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Smiling_2.png";
+                            break;
+                        case "smiling3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/66/ISAT_Portrait_Siffrin_Smiling_3.png";
+                            break;
+                        case "stuffed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6a/ISAT_Portrait_Siffrin_Stuffed.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Siffrin_Surprised_1.png";
+                            break;
+                        case "surprised2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Siffrin_Surprised_2.png";
+                            break;
+                        case "surprised3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Siffrin_Surprised_3.png";
+                            break;
+                        case "terrified1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Siffrin_Terrified.png";
+                            break;
+                        case "tired1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0f/ISAT_Portrait_Siffrin_Tired_1.png";
+                            break;
+                        case "tired2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2c/ISAT_Portrait_Siffrin_Tired_2.png";
+                            break;
+                        case "um1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Um_1.png";
+                            break;
+                        case "um2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Siffrin_Um_2.png";
+                            break;
+                        case "unhinged1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c0/ISAT_Portrait_Siffrin_Unhinged_1.png";
+                            break;
+                        case "unhinged2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b9/ISAT_Portrait_Siffrin_Unhinged_2.png";
+                            break;
+                        case "unhinged3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/ISAT_Portrait_Siffrin_Unhinged_3.png";
+                            break;
+                        case "unhinged4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b5/ISAT_Portrait_Siffrin_Unhinged_4.png";
+                            break;
+                        case "upset1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Siffrin_Upset.png";
+                            break;
+                        case "what1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Siffrin_What_1.png";
+                            break;
+                        case "what2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/92/ISAT_Portrait_Siffrin_What_2.png";
+                            break;
+                        case "what3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Siffrin_What_3.png";
+                            break;
+                        case "yelling1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Yelling_1.png";
+                            break;
+                        case "yelling2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/46/ISAT_Portrait_Siffrin_Yelling_2.png";
+                            break;
+                        case "yelling2b":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/75/ISAT_Portrait_Siffrin_Yelling_2b.png";
+                            break;
+                        case "yelling3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Yelling_3.png";
+                            break;
+                        case "yelling4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Siffrin_Yelling_4.png";
+                            break;
+                        case "TS_angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Siffrin_Angry_1_ACT5.png";
+                            break;
+                        case "TS_angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9e/ISAT_Portrait_Siffrin_Angry_2_ACT5.png";
+                            break;
+                        case "TS_away1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/76/ISAT_Portrait_Siffrin_Looking_Away_1.png";
+                            break;
+                        case "TS_away2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c8/ISAT_Portrait_Siffrin_Looking_Away_2.png";
+                            break;
+                        case "TS_busted1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/87/ISAT_Portrait_Siffrin_Busted_1.png";
+                            break;
+                        case "TS_busted2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/55/ISAT_Portrait_Siffrin_Busted_2.png";
+                            break;
+                        case "TS_despair1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Despair_1.png";
+                            break;
+                        case "TS_despair2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/ff/ISAT_Portrait_Siffrin_Despair_2.png";
+                            break;
+                        case "TS_dismissive1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Dismissive_1.png";
+                            break;
+                        case "TS_dismissive2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c5/ISAT_Portrait_Siffrin_Dismissive_2.png";
+                            break;
+                        case "TS_dotdotdot1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4e/ISAT_Portrait_Siffrin_Dotdotdot.png";
+                            break;
+                        case "TS_fake1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Siffrin_Fake_1_ACT5.png";
+                            break;
+                        case "TS_fake1b":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/56/ISAT_Portrait_Siffrin_Fake_1b_ACT5.png";
+                            break;
+                        case "TS_fake2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d5/ISAT_Portrait_Siffrin_Fake_2_ACT5.png";
+                            break;
+                        case "TS_fake2b":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Siffrin_Fake_2b_ACT5.png";
+                            break;
+                        case "TS_fake2c":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Siffrin_Fake_2c_ACT5.png";
+                            break;
+                        case "TS_normal1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Normal_1.png";
+                            break;
+                        case "TS_normal2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/84/ISAT_Portrait_Siffrin_Normal_2.png";
+                            break;
+                        case "TS_normal3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Siffrin_Normal_3.png";
+                            break;
+                        case "TS_shocked1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/45/ISAT_Portrait_Siffrin_Shocked_1.png";
+                            break;
+                        case "TS_shocked2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Siffrin_Shocked_2.png";
+                            break;
+                        case "TS_spooky1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Siffrin_Spooky.png";
+                            break;
+                        case "TS_unhinged1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/24/ISAT_Portrait_Siffrin_Unhinged_1_ACT5.png";
+                            break;
+                        case "TS_unhinged2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/89/ISAT_Portrait_Siffrin_Unhinged_2_ACT5.png";
+                            break;
+                        case "TS_":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Despair_3.png";
+                            break;
+                        case "US_awawa1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/ISAT_Portrait_Siffrin_Flustered_1.png";
+                            break;
+                        case "US_awawa2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Siffrin_Flustered_2.png";
+                            break;
+                        case "US_expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Blep_ACT6.png";
+                            break;
+                        case "US_fufu1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Fufu_ACT6.png";
+                            break;
+                        case "US_guilty1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/81/ISAT_Portrait_Siffrin_Guilty_1.png";
+                            break;
+                        case "US_guilty2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/92/ISAT_Portrait_Siffrin_Guilty_2.png";
+                            break;
+                        case "US_happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/00/ISAT_Portrait_Siffrin_Happy_1_ACT6.png";
+                            break;
+                        case "US_happy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Happy_2_ACT6.png";
+                            break;
+                        case "US_happyyy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4c/ISAT_Portrait_Siffrin_Joyful.png";
+                            break;
+                        case "US_hnnn1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/61/ISAT_Portrait_Siffrin_Embarrassed.png";
+                            break;
+                        case "US_joke1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2e/ISAT_Portrait_Siffrin_Joke_ACT6.png";
+                            break;
+                        case "US_maybeweshould1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Siffrin_Maybe_We_Should.png";
+                            break;
+                        case "US_neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/74/ISAT_Portrait_Siffrin_Neutral_ACT6.png";
+                            break;
+                        case "US_no!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d1/ISAT_Portrait_Siffrin_Horrified_1_ACT6.png";
+                            break;
+                        case "US_no!2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Siffrin_Horrified_2_ACT6.png";
+                            break;
+                        case "US_ohshit1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Siffrin_Yikes.png";
+                            break;
+                        case "US_question1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/39/ISAT_Portrait_Siffrin_Questioning_ACT6.png";
+                            break;
+                        case "US_sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/70/ISAT_Portrait_Siffrin_Sad_1_ACT6.png";
+                            break;
+                        case "US_sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ef/ISAT_Portrait_Siffrin_Sad_2_ACT6.png";
+                            break;
+                        case "US_sad3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/47/ISAT_Portrait_Siffrin_Sad_3_ACT6.png";
+                            break;
+                        case "US_sad4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/04/ISAT_Portrait_Siffrin_Sad_4_ACT6.png";
+                            break;
+                        case "US_sadsmile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a9/ISAT_Portrait_Siffrin_Sad_Smile_ACT6.png";
+                            break;
+                        case "US_serious1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/00/ISAT_Portrait_Siffrin_Serious_1_ACT6.png";
+                            break;
+                        case "US_serious2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/71/ISAT_Portrait_Siffrin_Serious_2_ACT6.png";
+                            break;
+                        case "US_shy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e1/ISAT_Portrait_Siffrin_Shy.png";
+                            break;
+                        case "US_surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Siffrin_Surprised_ACT6.png";
+                            break;
+                        case "US_upset1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Siffrin_Upset_ACT6.png";
+                            break;
+                        case "US_yahoo1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Siffrin_Yahoo_1_ACT6.png";
+                            break;
+                        case "US_yahoo2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Yahoo_2_ACT6.png";
+                            break;
+                        case "US_yahoo3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/17/ISAT_Portrait_Siffrin_Yahoo_3_ACT6.png";
+                            break;
+                        default:
+                            console.log(nameElement, `expression '${expression}' not found for siffrin`);
+                            break;
+                    }
+
                     break;
 
                 default: 
