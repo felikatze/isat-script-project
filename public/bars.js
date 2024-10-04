@@ -423,6 +423,210 @@ function tooltipImages() {
 
                 case "Isabeau":
                     console.log(nameElement, "it is isabeau");
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/01/ISAT_Portrait_Isabeau_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Isabeau_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6e/ISAT_Portrait_Isabeau_Angry_3.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Isabeau_Awkward.png";
+                            break;
+                        case "blank1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/22/ISAT_Portrait_Isabeau_Blank.png";
+                            break;
+                        case "blush1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Isabeau_Blush_1.png";
+                            break;
+                        case "blush2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Isabeau_Blush_2.png";
+                            break;
+                        case "blush3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Isabeau_Blush_3.png";
+                            break;
+                        case "boo1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Isabeau_Boo.png";
+                            break;
+                        case "brag1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Isabeau_Brag.png";
+                            break;
+                        case "disappointed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f7/ISAT_Portrait_Isabeau_Disappointed_1.png";
+                            break;
+                        case "disappointed2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Isabeau_Disappointed_2.png";
+                            break;
+                        case "expressionnumber":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/59/ISAT_Portrait_Isabeau_Smile.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Isabeau_Fight_1.png";
+                            break;
+                        case "fight2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Fight_2.png";
+                            break;
+                        case "fufufu1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Fufufu.png";
+                            break;
+                        case "glare1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9b/ISAT_Portrait_Isabeau_Glare.png";
+                            break;
+                        case "hahaaa1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Isabeau_Awkward_Laugh.png";
+                            break;
+                        case "hahaha1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/81/ISAT_Portrait_Isabeau_Laugh_1.png";
+                            break;
+                        case "hahaha2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3f/ISAT_Portrait_Isabeau_Laugh_2.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Isabeau_Fond_2.png";
+                            break;
+                        case "hey1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Isabeau_Startled_2.png";
+                            break;
+                        case "hm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Isabeau_Hm_1.png";
+                            break;
+                        case "hm2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Hm_2.png";
+                            break;
+                        case "h3m":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Hm_3.png";
+                            break;
+                        case "hm4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Isabeau_Hm_4.png";
+                            break;
+                        case "hm5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Isabeau_Hm_5.png";
+                            break;
+                        case "huh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Isabeau_Startled_1.png";
+                            break;
+                        case "huh2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Isabeau_Startled_2.png";
+                            break;
+                        case "huh3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Isabeau_Startled_3.png";
+                            break;
+                        case "huhwah1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8a/ISAT_Portrait_Isabeau_Alarmed.png";
+                            break;
+                        case "jhgsaghjsaghjas1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Isabeau_Keysmash.png";
+                            break;
+                        case "LMAO1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Isabeau_Guffaw.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Isabeau_Neutral_1.png";
+                            break;
+                        case "neutral2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/46/ISAT_Portrait_Isabeau_Neutral_2.png";
+                            break;
+                        case "no1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ec/ISAT_Portrait_Isabeau_Weeping.png";
+                            break;
+                        case "oh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Isabeau_Oh.png";
+                            break;
+                        case "omgggg1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/ea/ISAT_Portrait_Isabeau_Flustered.png";
+                            break;
+                        case "practice1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Isabeau_Fond_1.png";
+                            break;
+                        case "really1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Really_1.png";
+                            break;
+                        case "really2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Isabeau_Really_2.png";
+                            break;
+                        case "really3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c7/ISAT_Portrait_Isabeau_Really_3.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Isabeau_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7d/ISAT_Portrait_Isabeau_Sad_2.png";
+                            break;
+                        case "sad3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Isabeau_Sad_3.png";
+                            break;
+                        case "sad4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4e/ISAT_Portrait_Isabeau_Sad_4.png";
+                            break;
+                        case "sad5":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Sad_5.png";
+                            break;
+                        case "scared1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Isabeau_Scared.png";
+                            break;
+                        case "shock1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Isabeau_Shocked_1.png";
+                            break;
+                        case "shock2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a3/ISAT_Portrait_Isabeau_Shocked_2.png";
+                            break;
+                        case "shock3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Isabeau_Shocked_3.png";
+                            break;
+                        case "shy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Isabeau_Shy_1.png";
+                            break;
+                        case "shy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/27/ISAT_Portrait_Isabeau_Shy_2.png";
+                            break;
+                        case "sif!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Isabeau_Affectionate.png";
+                            break;
+                        case "sniff1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e6/ISAT_Portrait_Isabeau_Sniff.png";
+                            break;
+                        case "spooky1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5a/ISAT_Portrait_Isabeau_Spooky.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Isabeau_Startled_1.png";
+                            break;
+                        case "um1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/61/ISAT_Portrait_Isabeau_Um.png";
+                            break;
+                        case "up1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Isabeau_Looking_Up.png";
+                            break;
+                        case "uwah!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/dd/ISAT_Portrait_Isabeau_Uwah.png";
+                            break;
+                        case "weh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/be/ISAT_Portrait_Isabeau_Weh.png";
+                            break;
+                        case "wonder1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/97/ISAT_Portrait_Isabeau_Wonder_1.png";
+                            break;
+                        case "wonder2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Isabeau_Wonder_2.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Isabeau_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Isabeau_Worried_2.png";
+                            break;
+                        case "yeah!1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png";
+                            break;
+                        default:
+                            console.log(nameElement, `expression '${expression} not found for isabeau`);
+                    }
+
                     break;
 
                 case "King":
