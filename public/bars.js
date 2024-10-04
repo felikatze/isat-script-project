@@ -355,6 +355,9 @@ function tooltipImages() {
                         case "zomg1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
+                        default:
+                            console.log(nameElement, `expression '${expression} not found for bonnie`);
+                            break;
                     }
 
                     break;
@@ -416,6 +419,9 @@ function tooltipImages() {
                             break;
                         case "thankyou2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
+                            break;
+                        default:
+                            console.log(nameElement, `expression '${expression} not found for euphrasie`);
                             break;
                     }
 
@@ -625,6 +631,7 @@ function tooltipImages() {
                             break;
                         default:
                             console.log(nameElement, `expression '${expression} not found for isabeau`);
+                            break;
                     }
 
                     break;
