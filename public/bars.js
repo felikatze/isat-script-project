@@ -143,15 +143,15 @@ window.onload = function() {
     // end gold's expressions toggle code
 };
 
-//Feli's Button test corner
+// Feli's Button test corner
 // So i don't need to ruin the original bars file on my pc
 
 //Copied from w3school
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
 // toggle dialogue options (details) on/ off
@@ -170,6 +170,7 @@ function toggleDialogue() {
         }
     }
 }
+
 
 
 function tooltipImages() {
