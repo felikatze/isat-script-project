@@ -260,7 +260,8 @@ details .dialogue {
 .dialogue-expression {
     display: inline-flex;
     font-size: smaller;
-    opacity: 0.75;
+    color: #ffffffbf;
+    position: relative;
 }
 
 .dialogue-expression::before {
@@ -345,6 +346,21 @@ details .dialogue {
     border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
     display: inline-block;
+}
+
+.tooltip {
+    visibility: hidden;
+    opacity: 1;
+    position: absolute;
+    bottom: 120%;
+    z-index: 99;
+    text-align: center;
+    background-color: #0008;
+    border-radius: 5px;
+    width: 150px;
+}
+.dialogue-expression:hover .tooltip {
+    visibility: visible;
 }
 
 /* 
