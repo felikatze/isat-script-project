@@ -1319,7 +1319,7 @@ function tooltipImages() {
                         case "shit1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Siffrin_Troubled.png";
                             break;
-                        case "siiiiigh":
+                        case "siiiiigh1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Sigh.png";
                             break;
                         case "smiling1":
