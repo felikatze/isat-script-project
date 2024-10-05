@@ -183,7 +183,7 @@ function tooltipImages() {
 
     for (headIndex in dialogueHeads) { // for every dialogue head
 
-        // if this item is an object, and if it has an expression
+        // if this item is an object, and if it has an expression, and if it isn't an exception
         // (everything SHOULD be an object but for some reason javascript is weird and puts non-objects in there. idk this stopped it throwing errors)
         if (
             typeof dialogueHeads[headIndex] == "object"
@@ -196,6 +196,22 @@ function tooltipImages() {
             var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
             var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
 
+            if (dialogueHeads[headIndex].getElementsByClassName("sasasap")[0]) {
+                if (nameElement.innerHTML == "Siffrin") {
+                    nameReference = "Sapfrin";
+                } else if (nameElement.innerHTML == "Isabeau") {
+                    nameReference = "Fighter";
+                } else if (nameElement.innerHTML == "Mirabelle") {
+                    nameReference = "Housemaiden";
+                } else if (nameElement.innerHTML == "Bonnie") {
+                    nameReference = "Kid";
+                } else if (nameElement.innerHTML == "Odile") {
+                    nameReference = "Researcher";
+                }
+            } else {
+                nameReference = nameElement.innerHTML;
+            }
+
             // get the text
             var expression = expressionElement.innerHTML; // same as the expression text
             var expression = expression.replace(/\((.+)\)/i, "$1"); // remove the parentheses
@@ -207,7 +223,7 @@ function tooltipImages() {
 
             var imageSrc = false;
 
-            switch (nameElement.innerHTML) {
+            switch (nameReference) {
 
                 case "Bonnie":
                     if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`);};
@@ -1319,7 +1335,7 @@ function tooltipImages() {
                         case "shit1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Siffrin_Troubled.png";
                             break;
-                        case "siiiiigh":
+                        case "siiiiigh1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Sigh.png";
                             break;
                         case "smiling1":
@@ -1564,6 +1580,433 @@ function tooltipImages() {
                             break;
                         default:
                             if (debugMode) {console.log(nameElement, `expression '${expression}' not found for siffrin`);};
+                            break;
+                    }
+
+                    break;
+
+                case "Fighter":
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is fighter`);};
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f9/SASASAP_Portrait_Isabeau_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/83/SASASAP_Portrait_Isabeau_Angry_2.png";
+                            break;
+                        case "annoyed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/69/SASASAP_Portrait_Isabeau_Annoyed.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/89/SASASAP_Portrait_Isabeau_Awkward.png";
+                            break;
+                        case "blushing1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/98/SASASAP_Portrait_Isabeau_Blushing_1.png";
+                            break;
+                        case "blushing2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/1e/SASASAP_Portrait_Isabeau_Blushing_2.png";
+                            break;
+                        case "confident1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7d/SASASAP_Portrait_Isabeau_Confident.png";
+                            break;
+                        case "embarassed1": // sic
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/35/SASASAP_Portrait_Isabeau_Embarrassed_1.png";
+                            break;
+                        case "embarassed2": // sic
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e5/SASASAP_Portrait_Isabeau_Embarrassed_2.png";
+                            break;
+                        case "embarassed3": // sic
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/32/SASASAP_Portrait_Isabeau_Embarrassed_3.png";
+                            break;
+                        case "embarassed4": // sic
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b6/SASASAP_Portrait_Isabeau_Embarrassed_4.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b6/SASASAP_Portrait_Isabeau_Embarrassed_4.png";
+                            break;
+                        case "fight2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/72/SASASAP_Portrait_Isabeau_Fight_2.png";
+                            break;
+                        case "fight3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9b/SASASAP_Portrait_Isabeau_Fight_3.png";
+                            break;
+                        case "GALRE1": // sic
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/09/SASASAP_Portrait_Isabeau_Glare.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/SASASAP_Portrait_Isabeau_Happy_1.png";
+                            break;
+                        case "happy2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5c/SASASAP_Portrait_Isabeau_Happy_2.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7e/SASASAP_Portrait_Isabeau_Neutral_1.png";
+                            break;
+                        case "ohfuck1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c0/SASASAP_Portrait_Isabeau_Sheepish_1.png";
+                            break;
+                        case "ohfuck2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b8/SASASAP_Portrait_Isabeau_Sheepish_2.png";
+                            break;
+                        case "ohfuck3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8c/SASASAP_Portrait_Isabeau_Sheepish_3.png";
+                            break;
+                        case "proud1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/46/SASASAP_Portrait_Isabeau_Proud.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8c/SASASAP_Portrait_Isabeau_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/da/SASASAP_Portrait_Isabeau_Sad_2.png";
+                            break;
+                        case "sad3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d0/SASASAP_Portrait_Isabeau_Sad_3.png";
+                            break;
+                        case "sad4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/44/SASASAP_Portrait_Isabeau_Sad_4.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/58/SASASAP_Portrait_Isabeau_Smile.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f4/SASASAP_Portrait_Isabeau_Surprised_1.png";
+                            break;
+                        case "surprised2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3c/SASASAP_Portrait_Isabeau_Surprised_2.png";
+                            break;
+                        case "surprised3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/27/SASASAP_Portrait_Isabeau_Surprised_3.png";
+                            break;
+                        case "thinking1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f7/SASASAP_Portrait_Isabeau_Thinking_1.png";
+                            break;
+                        case "thinking2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8f/SASASAP_Portrait_Isabeau_Thinking_2.png";
+                            break;
+                        case "wondering1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b5/SASASAP_Portrait_Isabeau_Wondering_1.png";
+                            break;
+                        case "wondering2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/bd/SASASAP_Portrait_Isabeau_Wondering_2.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/SASASAP_Portrait_Isabeau_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2a/SASASAP_Portrait_Isabeau_Worried_2.png";
+                            break;
+                        case "worried3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Isabeau_Worried_3.png";
+                            break;
+                        case "worried4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/96/SASASAP_Portrait_Isabeau_Worried_4.png";
+                            break;
+                        default:
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for fighter`);};
+                            break;
+                    }
+
+                    break;
+
+                case "Housemaiden":
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is housemaiden`);};
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/56/SASASAP_Portrait_Mirabelle_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cd/SASASAP_Portrait_Mirabelle_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/59/SASASAP_Portrait_Mirabelle_Angry_3.png";
+                            break;
+                        case "awkward1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/08/SASASAP_Portrait_Mirabelle_Awkward_1.png";
+                            break;
+                        case "awkward2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c2/SASASAP_Portrait_Mirabelle_Awkward_2.png";
+                            break;
+                        case "awkward3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/79/SASASAP_Portrait_Mirabelle_Awkward_3.png";
+                            break;
+                        case "cry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/27/SASASAP_Portrait_Mirabelle_Crying.png";
+                            break;
+                        case "determined1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/b/b6/SASASAP_Portrait_Mirabelle_Determined_1.png";
+                            break;
+                        case "determined2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/08/SASASAP_Portrait_Mirabelle_Determined_2.png";
+                            break;
+                        case "distressed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/SASASAP_Portrait_Mirabelle_Distressed_1.png";
+                            break;
+                        case "distressed2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9d/SASASAP_Portrait_Mirabelle_Distressed_2.png";
+                            break;
+                        case "distressed3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/92/SASASAP_Portrait_Mirabelle_Distressed_3.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/SASASAP_Portrait_Mirabelle_Fight_1.png";
+                            break;
+                        case "fight2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d7/SASASAP_Portrait_Mirabelle_Fight_2.png";
+                            break;
+                        case "gentle1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/84/SASASAP_Portrait_Mirabelle_Gentle.png";
+                            break;
+                        case "hm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3f/SASASAP_Portrait_Mirabelle_Considering_1.png";
+                            break;
+                        case "hmmm1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/00/SASASAP_Portrait_Mirabelle_Considering_2.png";
+                            break;
+                        case "pray1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/82/SASASAP_Portrait_Mirabelle_Pray_1.png";
+                            break;
+                        case "pray2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/39/SASASAP_Portrait_Mirabelle_Pray_2.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/01/SASASAP_Portrait_Mirabelle_Smile_1.png";
+                            break;
+                        case "smile2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/dd/SASASAP_Portrait_Mirabelle_Smile_2.png";
+                            break;
+                        case "smile3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/13/SASASAP_Portrait_Mirabelle_Smile_3.png";
+                            break;
+                        case "smile4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9d/SASASAP_Portrait_Mirabelle_Smile_4.png";
+                            break;
+                        case "surprise1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/05/SASASAP_Portrait_Mirabelle_Surprise.png";
+                            break;
+                        case "THEFUCK1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/7c/SASASAP_Portrait_Mirabelle_Shocked.png";
+                            break;
+                        case "wondering1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d2/SASASAP_Portrait_Mirabelle_Wondering.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/3e/SASASAP_Portrait_Mirabelle_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/af/SASASAP_Portrait_Mirabelle_Worried_2.png";
+                            break;
+                        case "worried3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/SASASAP_Portrait_Mirabelle_Worried_3.png";
+                            break;
+                        default:
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for housemaiden`);};
+                            break;
+                    }
+
+                    break;
+
+                case "Kid":
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is kid`);};
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/67/SASASAP_Portrait_Bonnie_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/95/SASASAP_Portrait_Bonnie_Angry_2.png";
+                            break;
+                        case "angry3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/aa/SASASAP_Portrait_Bonnie_Angry_3.png";
+                            break;
+                        case "angry4":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/SASASAP_Portrait_Bonnie_Angry_4.png";
+                            break;
+                        case "annoyed1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9b/SASASAP_Portrait_Bonnie_Annoyed.png";
+                            break;
+                        case "ew1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/SASASAP_Portrait_Bonnie_Disgusted_1.png";
+                            break;
+                        case "ew2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/55/SASASAP_Portrait_Bonnie_Disgusted_2.png";
+                            break;
+                        case "excited1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Bonnie_Excited.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/dd/SASASAP_Portrait_Bonnie_Neutral_2.png";
+                            break;
+                        case "neutral2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/77/SASASAP_Portrait_Bonnie_Neutral_3.png";
+                            break;
+                        case "phew1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/16/SASASAP_Portrait_Bonnie_Phew.png";
+                            break;
+                        case "pout1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/83/SASASAP_Portrait_Bonnie_Pout.png";
+                            break;
+                        case "pray1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/62/SASASAP_Portrait_Bonnie_Pray.png";
+                            break;
+                        case "proud1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/25/SASASAP_Portrait_Bonnie_Proud.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/ce/SASASAP_Portrait_Bonnie_Sad_1.png";
+                            break;
+                        case "sad2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a7/SASASAP_Portrait_Bonnie_Sad_2.png";
+                            break;
+                        case "sad3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/a/a2/SASASAP_Portrait_Bonnie_Sad_3.png";
+                            break;
+                        case "shy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/85/SASASAP_Portrait_Bonnie_Shy.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/36/SASASAP_Portrait_Bonnie_Surprised_1.png";
+                            break;
+                        case "uwah1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4b/SASASAP_Portrait_Bonnie_Surprised_2.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/63/SASASAP_Portrait_Bonnie_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/44/SASASAP_Portrait_Bonnie_Worried_2.png";
+                            break;
+                        case "zomg1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/53/SASASAP_Portrait_Bonnie_Amazed.png";
+                            break;
+                        default:
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for kid`);};
+                            break;
+                    }
+
+                    break;
+                
+                case "Researcher":
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is researcher`);};
+
+                    switch (expression) {
+                        case "angry1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/40/SASASAP_Portrait_Odile_Angry_1.png";
+                            break;
+                        case "angry2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/4c/SASASAP_Portrait_Odile_Angry_2.png";
+                            break;
+                        case "ew1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f3/SASASAP_Portrait_Odile_Disgusted.png";
+                            break;
+                        case "happy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/f/f5/SASASAP_Portrait_Odile_Happy.png";
+                            break;
+                        case "oof1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e2/SASASAP_Portrait_Odile_Oof.png";
+                            break;
+                        case "question1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/0/07/SASASAP_Portrait_Odile_Question.png";
+                            break;
+                        case "reading1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/49/SASASAP_Portrait_Odile_Reading_1.png";
+                            break;
+                        case "readingup1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2f/SASASAP_Portrait_Odile_Reading_2.png";
+                            break;
+                        case "shy1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/85/SASASAP_Portrait_Odile_Shy.png";
+                            break;
+                        case "sigh1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cb/SASASAP_Portrait_Odile_Sigh.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c1/SASASAP_Portrait_Odile_Smile.png";
+                            break;
+                        case "smug1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/75/SASASAP_Portrait_Odile_Smug.png";
+                            break;
+                        case "wondering1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/e/e8/SASASAP_Portrait_Odile_Wondering_1.png";
+                            break;
+                        case "wondering2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/5f/SASASAP_Portrait_Odile_Wondering_2.png";
+                            break;
+                        case "wondering3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/59/SASASAP_Portrait_Odile_Wondering_3.png";
+                            break;
+                        case "worried1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/8/84/SASASAP_Portrait_Odile_Worried_1.png";
+                            break;
+                        case "worried2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/92/SASASAP_Portrait_Odile_Worried_2.png";
+                            break;
+                        case "worried3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/1/14/SASASAP_Portrait_Odile_Worried_3.png";
+                            break;
+                        default:
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`);};
+                            break;
+                    }
+
+                    break;
+                
+                case "Sapfrin":
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is sapfrin`);};
+
+                    switch (expression) {
+                        case "fake1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/cb/SASASAP_Portrait_Siffrin_Fake_1.png";
+                            break;
+                        case "fake2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/4/43/SASASAP_Portrait_Siffrin_Fake_2.png";
+                            break;
+                        case "fight1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2a/SASASAP_Portrait_Siffrin_Fight.png";
+                            break;
+                        case "hide1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/d8/SASASAP_Portrait_Siffrin_Hide.png";
+                            break;
+                        case "neutral1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/2a/SASASAP_Portrait_Siffrin_Neutral_2.png";
+                            break;
+                        case "normalsmile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/78/SASASAP_Portrait_Siffrin_Smile_1.png";
+                            break;
+                        case "offguard1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/3/32/SASASAP_Portrait_Siffrin_Sheepish.png";
+                            break;
+                        case "sadsmile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/9d/SASASAP_Portrait_Siffrin_Sad_Smile.png";
+                            break;
+                        case "sad1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/dd/SASASAP_Portrait_Siffrin_Sad.png";
+                            break;
+                        case "shock1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/d/dc/SASASAP_Portrait_Siffrin_Shocked_1.png";
+                            break;
+                        case "shock2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/c/c4/SASASAP_Portrait_Siffrin_Shocked_2.png";
+                            break;
+                        case "shock3":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/6/69/SASASAP_Portrait_Siffrin_Shocked_3.png";
+                            break;
+                        case "smile1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/5/52/SASASAP_Portrait_Siffrin_Smile_2.png";
+                            break;
+                        case "smile2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/7/79/SASASAP_Portrait_Siffrin_Smile_3.png";
+                            break;
+                        case "surprised1":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/9/95/SASASAP_Portrait_Siffrin_Surprised_1.png";
+                            break;
+                        case "surprised2":
+                            imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Siffrin_Surprised_2.png";
+                            break;
+                        default:
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for sapfrin`);};
                             break;
                     }
 

@@ -132,13 +132,6 @@ hr {
     margin: 2em 1em;
 }
 
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- */
-
 :root {
     --header-image: url('/header.png');
     --body-bg-image: url('/background.png');
@@ -290,10 +283,10 @@ details .dialogue {
 .note-color {
     opacity: 0.5;
 }
+
 .big {
     font-size: larger;
 }
-
 .small {
     font-size: smaller;
 }
@@ -359,7 +352,9 @@ details .dialogue {
     border-radius: 5px;
     width: 150px;
 }
-.dialogue-expression:hover .tooltip {
+.dialogue-expression:hover .tooltip,
+.dialogue-expression:active .tooltip,
+.dialogue-expression:focus .tooltip {
     visibility: visible;
 }
 
