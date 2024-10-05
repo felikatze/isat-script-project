@@ -182,15 +182,13 @@ function tooltipImages() {
     var dialogueHeads = document.getElementsByClassName("dialogue-head"); // get all dialogue heads
 
     for (headIndex in dialogueHeads) { // for every dialogue head
-
-        // if this item is an object, and if it has an expression, and if it isn't an exception
-        // (everything SHOULD be an object but for some reason javascript is weird and puts non-objects in there. idk this stopped it throwing errors)
+        
         if (
-            typeof dialogueHeads[headIndex] == "object"
+            typeof dialogueHeads[headIndex] == "object" // is it an object
+            && // (everything SHOULD be an object but for some reason javascript is weird and puts non-objects in there. idk this stopped it throwing errors)
+            dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] // does it have an expression
             &&
-            dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]
-            &&
-            !(dialogueHeads[headIndex].getElementsByClassName("expression-exception")[0])
+            !(dialogueHeads[headIndex].getElementsByClassName("expression-exception")[0]) // is it NOT an exception
         ) {
 
             var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
@@ -198,7 +196,7 @@ function tooltipImages() {
 
             var nameReference;
 
-            if (typeof dialogueHeads[headIndex].getElementsByClassName("sasasap")[0] != "undefined") {
+            if (typeof dialogueHeads[headIndex].getElementsByClassName("sasasap")[0] != "undefined") { // is it a sasasap exception
 
                 if (nameElement.innerHTML == "Siffrin") {
                     nameReference = "Sapfrin";
@@ -213,21 +211,21 @@ function tooltipImages() {
                 }
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
 
-            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-loop")[0] != "undefined") {
+            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-loop")[0] != "undefined") { // should it be loop
 
                 nameReference = "Loop";
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
 
-            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-siffrin")[0] != "undefined") {
+            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-siffrin")[0] != "undefined") { // should it be siffrin
 
                 nameReference = "Siffrin";
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
                 
-            } else {
+            } else { // okay it's just normal then
                 nameReference = nameElement.innerHTML;
             }
 
-            // get the text
+            // get the expression text
             var expression = expressionElement.innerHTML; // same as the expression text
             var expression = expression.replace(/\((.+)\)/i, "$1"); // remove the parentheses
             
@@ -236,7 +234,7 @@ function tooltipImages() {
             var tooltip = expressionElement.firstElementChild; // get that span we just made
             tooltip.classList.add("tooltip"); // give it the tooltip class
 
-            var imageSrc = false;
+            var imageSrc = false; // declaring variable. if we don't get an image, this stays false
 
             switch (nameReference) {
 
@@ -2032,12 +2030,12 @@ function tooltipImages() {
                     break;
             }
 
-            if (imageSrc) {
-                dialogueImage = document.createElement("img");
-                dialogueImage.src = imageSrc;
-                tooltip.appendChild(dialogueImage);
-            } else {
-                tooltip.innerHTML = "image not found";
+            if (imageSrc) { // we got an image
+                dialogueImage = document.createElement("img"); // make an image
+                dialogueImage.src = imageSrc; // give it a source
+                tooltip.appendChild(dialogueImage); // put it in the tooltip
+            } else { // we didn't get an image
+                tooltip.innerHTML = "image not found"; // make the tooltip say that
             }
 
         }
