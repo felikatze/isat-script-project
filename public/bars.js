@@ -984,7 +984,7 @@ function tooltipImages() {
                         case "dotdotdot3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0c/ISAT_Portrait_Odile_Dotdotdot_3.png";
                             break;
-                        case "doubt":
+                        case "doubt1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Odile_Doubt.png";
                             break;
                         case "expressionnumber":
