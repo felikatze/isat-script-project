@@ -1,4 +1,4 @@
-debugMode = false;
+debugMode = true;
 // change this to true and check console for debug logs!
 
 class Header extends HTMLElement {
@@ -196,7 +196,10 @@ function tooltipImages() {
             var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
             var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
 
-            if (dialogueHeads[headIndex].getElementsByClassName("sasasap")[0]) {
+            var nameReference;
+
+            if (typeof dialogueHeads[headIndex].getElementsByClassName("sasasap")[0] != "undefined") {
+
                 if (nameElement.innerHTML == "Siffrin") {
                     nameReference = "Sapfrin";
                 } else if (nameElement.innerHTML == "Isabeau") {
@@ -208,6 +211,18 @@ function tooltipImages() {
                 } else if (nameElement.innerHTML == "Odile") {
                     nameReference = "Researcher";
                 }
+                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+
+            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-loop")[0] != "undefined") {
+
+                nameReference = "Loop";
+                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+
+            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-siffrin")[0] != "undefined") {
+
+                nameReference = "Siffrin";
+                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+                
             } else {
                 nameReference = nameElement.innerHTML;
             }
@@ -1947,7 +1962,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/14/SASASAP_Portrait_Odile_Worried_3.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for researcher`);};
                             break;
                     }
 
