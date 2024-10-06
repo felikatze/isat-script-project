@@ -572,7 +572,7 @@ function tooltipImages() {
                         case "neutral2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/4/46/ISAT_Portrait_Isabeau_Neutral_2.png";
                             break;
-                        case "no1":
+                        case "NO!1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/e/ec/ISAT_Portrait_Isabeau_Weeping.png";
                             break;
                         case "oh1":
@@ -1287,7 +1287,7 @@ function tooltipImages() {
                         case "no1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Siffrin_Emotional.png";
                             break;
-                        case "nya":
+                        case "nya1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Grin.png";
                             break;
                         case "okay1":
