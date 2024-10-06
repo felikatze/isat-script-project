@@ -134,14 +134,12 @@ window.onload = function() {
         changeFontStyle(font);
     }
 
-    // gold's expressions toggle code
     if (sessionStorage.getItem("expressionsToggle") == "off") {
         toggleExpressions();
         if (debugMode) {console.log("toggled expressions off on load!");};
     } else {
         if (debugMode) {console.log("expressions stayed on on load!");};
     }
-    // end gold's expressions toggle code
 };
 
 // Feli's Button test corner
