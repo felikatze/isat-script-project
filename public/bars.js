@@ -126,8 +126,9 @@ function toggleExpressions() {
 // end gold's expressions toggle code
 
 
-// load correct font if it had been set previously
 window.onload = function() {
+
+    tooltipImages();
 
     var font = sessionStorage.getItem('font');
     if (!!font) {
@@ -2036,5 +2037,3 @@ function tooltipImages() {
         }
     }
 }
-
-tooltipImages();
