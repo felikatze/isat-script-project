@@ -115,11 +115,11 @@ function toggleExpressions() {
         if (things[i].style.display === "none") {
             things[i].style.display = "inline-flex";
             sessionStorage.setItem("expressionsToggle", "on");
-            if (debugMode) {console.log("expressions on!");};
+            if (debugMode) {console.log("expressions on!")};
         } else {
             things[i].style.display = "none";
             sessionStorage.setItem("expressionsToggle", "off");
-            if (debugMode) {console.log("expressions off!");};
+            if (debugMode) {console.log("expressions off!")};
         }
     }
 }
@@ -137,9 +137,9 @@ window.onload = function() {
 
     if (sessionStorage.getItem("expressionsToggle") == "off") {
         toggleExpressions();
-        if (debugMode) {console.log("toggled expressions off on load!");};
+        if (debugMode) {console.log("toggled expressions off on load!")};
     } else {
-        if (debugMode) {console.log("expressions stayed on on load!");};
+        if (debugMode) {console.log("expressions stayed on on load!")};
     }
 };
 
@@ -162,11 +162,11 @@ function toggleDialogue() {
     for(var i = 0; i < details.length; i++) {
         if (details[i].open == true) {
             details[i].removeAttribute("open", "");
-            if (debugMode) {console.log("closed all dialogue options!");};
+            if (debugMode) {console.log("closed all dialogue options!")};
         }
         else {
             details[i].setAttribute("open", "");
-            if (debugMode) {console.log("opened all dialogue options!");};
+            if (debugMode) {console.log("opened all dialogue options!")};
         }
     }
 }
@@ -235,7 +235,7 @@ function tooltipImages() {
             switch (nameReference) {
 
                 case "Bonnie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`)};
 
                     switch (expression) {
                         case "and then1":
@@ -392,14 +392,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for bonnie`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for bonnie`)};
                             break;
                     }
 
                     break;
 
                 case "Euphrasie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is euphrasie`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is euphrasie`)};
 
                     switch (expression) {
                         case "CRAB1":
@@ -457,14 +457,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for euphrasie`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for euphrasie`)};
                             break;
                     }
 
                     break;
 
                 case "Isabeau":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is isabeau`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is isabeau`)};
 
                     switch (expression) {
                         case "angry1":
@@ -666,19 +666,19 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for isabeau`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for isabeau`)};
                             break;
                     }
 
                     break;
 
                 case "King":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is the king`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is the king`)};
                     imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is loop`, expression);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is loop`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -799,14 +799,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for loop`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for loop`)};
                             break;
                     }
 
                     break;
 
                 case "Mirabelle":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is mirabelle`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is mirabelle`)};
 
                     switch (expression) {
                         case "angry1":
@@ -972,14 +972,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Mirabelle_Yelling.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for mirabelle`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for mirabelle`)};
                             break;
                     }
 
                     break;
 
                 case "Odile":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is odile`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is odile`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1160,14 +1160,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/5d/ISAT_Portrait_Odile_Yeah.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`)};
                             break;
                     }
 
                     break;
 
                 case "Siffrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is siffrin`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is siffrin`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1588,14 +1588,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/17/ISAT_Portrait_Siffrin_Yahoo_3_ACT6.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for siffrin`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for siffrin`)};
                             break;
                     }
 
                     break;
 
                 case "Fighter":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is fighter`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is fighter`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1713,14 +1713,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/96/SASASAP_Portrait_Isabeau_Worried_4.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for fighter`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for fighter`)};
                             break;
                     }
 
                     break;
 
                 case "Housemaiden":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is housemaiden`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is housemaiden`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1811,14 +1811,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/SASASAP_Portrait_Mirabelle_Worried_3.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for housemaiden`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for housemaiden`)};
                             break;
                     }
 
                     break;
 
                 case "Kid":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is kid`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is kid`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1891,14 +1891,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/53/SASASAP_Portrait_Bonnie_Amazed.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for kid`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for kid`)};
                             break;
                     }
 
                     break;
                 
                 case "Researcher":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is researcher`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is researcher`)};
 
                     switch (expression) {
                         case "angry1":
@@ -1956,14 +1956,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/14/SASASAP_Portrait_Odile_Worried_3.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for researcher`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for researcher`)};
                             break;
                     }
 
                     break;
                 
                 case "Sapfrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is sapfrin`);};
+                    if (debugMode) {console.log(nameElement, `head ${headIndex} is sapfrin`)};
 
                     switch (expression) {
                         case "fake1":
@@ -2015,14 +2015,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Siffrin_Surprised_2.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for sapfrin`);};
+                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for sapfrin`)};
                             break;
                     }
 
                     break;
 
                 default: 
-                    if (debugMode) {console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`);};
+                    if (debugMode) {console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`)};
                     break;
             }
 
