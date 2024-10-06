@@ -110,39 +110,36 @@ function changeFontStyle(fontFamily) {
 // gold's expressions toggle code
 function toggleExpressions() {
     var things = document.getElementsByClassName("dialogue-expression");
-    var expressionsOff;
 
     for(var i = 0; i < things.length; i++) {
         if (things[i].style.display === "none") {
             things[i].style.display = "inline-flex";
-            expressionsOff = false;
+            sessionStorage.setItem("expressionsToggle", "on");
             if (debugMode) {console.log("expressions on!");};
         } else {
             things[i].style.display = "none";
-            expressionsOff = true;
+            sessionStorage.setItem("expressionsToggle", "off");
             if (debugMode) {console.log("expressions off!");};
         }
     }
-    sessionStorage.setItem("expressionsToggle", expressionsOff);
 }
 // end gold's expressions toggle code
 
 
 // load correct font if it had been set previously
 window.onload = function() {
-    // i don't think this works at all actually. i've never seen it do anything -gold
 
     var font = sessionStorage.getItem('font');
-    if(!!font) {
+    if (!!font) {
         changeFontStyle(font);
     }
 
     // gold's expressions toggle code
-    if(sessionStorage.getItem("expressionsToggle") == true) {
+    if (sessionStorage.getItem("expressionsToggle") == "off") {
         toggleExpressions();
-        if (debugMode) {console.log("toggled expressions on load!");};
+        if (debugMode) {console.log("toggled expressions off on load!");};
     } else {
-        if (debugMode) {console.log("expressions stayed the same on load!");};
+        if (debugMode) {console.log("expressions stayed on on load!");};
     }
     // end gold's expressions toggle code
 };
