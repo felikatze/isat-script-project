@@ -1,4 +1,4 @@
-debugMode = false;
+debugMode = true;
 // change this to true and check console for debug logs!
 
 class Header extends HTMLElement {
@@ -12,6 +12,7 @@ class Header extends HTMLElement {
                 <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
+                        <button onclick="toggleAnimations();" id="button1" class="helper">Toggle animations</button>
                         <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
                         <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
                         <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
@@ -125,6 +126,24 @@ function toggleExpressions() {
 }
 // end gold's expressions toggle code
 
+var animationToggle;
+
+function toggleAnimations() {
+    if (animationToggle == "off") {
+        animationToggle = "on";
+        applyShakeAnimation();
+        applyWaveAnimation();
+        sessionStorage.setItem("animationToggle", "on");
+        if (debugMode) {console.log("animations on!")};
+    } else {
+        animationToggle = "off";
+        disableShakeAnimation();
+        disableWaveAnimation();
+        sessionStorage.setItem("animationToggle", "off");
+        if (debugMode) {console.log("animations off!")};
+    }
+    return animationToggle;
+}
 
 window.onload = function() {
 
@@ -140,6 +159,13 @@ window.onload = function() {
         if (debugMode) {console.log("toggled expressions off on load!")};
     } else {
         if (debugMode) {console.log("expressions stayed on on load!")};
+    }
+
+    if (sessionStorage.getItem("animationToggle") == "off") {
+        toggleAnimations();
+        if (debugMode) {console.log("toggled animations off on load!")};
+    } else {
+        if (debugMode) {console.log("animations stayed on on load!")};
     }
 };
 
@@ -170,6 +196,138 @@ function toggleDialogue() {
         }
     }
 }
+
+
+// SHAKING + WAVING TEXT
+
+// https://oat.zone/markdown-plus/###
+function rand() {
+    return Math.floor(Math.random() * 100) / 100;
+}
+function srand() {
+    return rand() * 2 - 1;
+}
+
+// https://stackoverflow.com/a/24137301
+// for choosing random from array
+Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+
+
+// https://stackoverflow.com/a/9666441
+// https://jsfiddle.net/6bEuW/
+// wraps all characters in an element in a span
+function wrapCharacters(element) {
+    var child = element.firstChild;
+    while (child) {
+        var nextSibling = child.nextSibling;
+        if (child.nodeType === 1) {
+            wrapCharacters(child);
+        } else if (child.nodeType === 3) {
+            var d_ = document.createDocumentFragment();
+            for (var i = 0, len = child.nodeValue.length; i < len; i++) {
+                var span = document.createElement('span');
+                span.innerHTML = child.nodeValue.charAt(i);
+                d_.appendChild(span);
+            }
+            child.parentNode.replaceChild(d_, child);
+        }
+        child = nextSibling;
+    }
+}
+
+function wrapAllCharacters(elements) {
+    for (var element in elements) {
+        wrapCharacters(elements[element]);
+    }
+}
+
+
+// SHAKE
+wrapAllCharacters(document.getElementsByClassName("shake"));
+
+var shakeMagnitude = 5;
+var shakeSpeed = 0.2;
+var shakeUnit = "%";
+
+function applyShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) { // if it's styleable and isn't whitespace
+                children[child].classList.remove("shake-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
+                
+                children[child].style.setProperty("--shake-state-1",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-2",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-3",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+            }
+        }
+    }
+}
+
+applyShakeAnimation();
+
+function disableShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("shake-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+
+// WAVE
+wrapAllCharacters(document.getElementsByClassName("wave"));
+
+var wavelength = 0.025; // what unit? who knows
+var waveAmplitude = 10;
+var waveSpeed = 0.75;
+
+function applyWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    for (var element in elements) {
+        children = elements[element].childNodes;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.remove("wave-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${waveSpeed}s wave cubic-bezier(0.37, 0, 0.63, 1) infinite ${-child * wavelength}s alternate`;
+                children[child].style.setProperty("--wave-amplitude", `${waveAmplitude}%`);
+            }
+        }
+    }
+}
+
+applyWaveAnimation();
+
+function disableWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("wave-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+// END SHAKING + WAVING TEXT
 
 
 
