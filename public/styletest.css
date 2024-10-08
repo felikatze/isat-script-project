@@ -47,6 +47,13 @@ img {
     margin-right: auto;
 }
 
+img.cg {
+    object-fit: cover;
+    object-position: top;
+    height: 460px;
+    width: 816px;
+}
+
 button {
     background-color: white;
     border: 2px #434343;
@@ -124,13 +131,6 @@ hr {
     border: 1px white solid;
     margin: 2em 1em;
 }
-
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- */
 
 :root {
     --header-image: url('/header.png');
@@ -253,7 +253,8 @@ details .dialogue {
 .dialogue-expression {
     display: inline-flex;
     font-size: smaller;
-    opacity: 0.75;
+    color: #ffffffbf;
+    position: relative;
 }
 
 .dialogue-expression::before {
@@ -282,10 +283,10 @@ details .dialogue {
 .note-color {
     opacity: 0.5;
 }
+
 .big {
     font-size: larger;
 }
-
 .small {
     font-size: smaller;
 }
@@ -338,6 +339,23 @@ details .dialogue {
     border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
     display: inline-block;
+}
+
+.tooltip {
+    visibility: hidden;
+    opacity: 1;
+    position: absolute;
+    bottom: 120%;
+    z-index: 99;
+    text-align: center;
+    background-color: #0008;
+    border-radius: 5px;
+    width: 150px;
+}
+.dialogue-expression:hover .tooltip,
+.dialogue-expression:active .tooltip,
+.dialogue-expression:focus .tooltip {
+    visibility: visible;
 }
 
 /* 
