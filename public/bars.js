@@ -393,7 +393,7 @@ function tooltipImages() {
             switch (nameReference) {
 
                 case "Bonnie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is bonnie`, expression)};
 
                     switch (expression) {
                         case "and then1":
@@ -557,7 +557,7 @@ function tooltipImages() {
                     break;
 
                 case "Euphrasie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is euphrasie`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is euphrasie`, expression)};
 
                     switch (expression) {
                         case "CRAB1":
@@ -622,7 +622,7 @@ function tooltipImages() {
                     break;
 
                 case "Isabeau":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is isabeau`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is isabeau`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -831,12 +831,12 @@ function tooltipImages() {
                     break;
 
                 case "King":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is the king`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is the king`, expression)};
                     imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is loop`, expression)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is loop`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -964,7 +964,7 @@ function tooltipImages() {
                     break;
 
                 case "Mirabelle":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is mirabelle`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is mirabelle`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1137,7 +1137,7 @@ function tooltipImages() {
                     break;
 
                 case "Odile":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is odile`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is odile`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1325,7 +1325,7 @@ function tooltipImages() {
                     break;
 
                 case "Siffrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is siffrin`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is siffrin`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1412,7 +1412,7 @@ function tooltipImages() {
                         case "joke2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Siffrin_Joke_2.png";
                             break;
-                        case "LMAO1":
+                        case "lmao1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/7/77/ISAT_Portrait_Siffrin_LMAO.png";
                             break;
                         case "lol1":
@@ -1652,7 +1652,7 @@ function tooltipImages() {
                         case "TS_unhinged2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/8/89/ISAT_Portrait_Siffrin_Unhinged_2_ACT5.png";
                             break;
-                        case "TS_":
+                        case "TS_yahoo2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Despair_3.png";
                             break;
                         case "US_awawa1":
@@ -1664,7 +1664,7 @@ function tooltipImages() {
                         case "US_expressionnumber":
                             imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Blep_ACT6.png";
                             break;
-                        case "US_fufu1":
+                        case "US_fufufu1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Fufu_ACT6.png";
                             break;
                         case "US_guilty1":
@@ -1679,7 +1679,7 @@ function tooltipImages() {
                         case "US_happy2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Happy_2_ACT6.png";
                             break;
-                        case "US_happyyy1":
+                        case "US_happyy1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/4/4c/ISAT_Portrait_Siffrin_Joyful.png";
                             break;
                         case "US_hnnn1":
@@ -1753,7 +1753,7 @@ function tooltipImages() {
                     break;
 
                 case "Fighter":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is fighter`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is fighter`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1878,7 +1878,7 @@ function tooltipImages() {
                     break;
 
                 case "Housemaiden":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is housemaiden`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is housemaiden`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1976,7 +1976,7 @@ function tooltipImages() {
                     break;
 
                 case "Kid":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is kid`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is kid`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -2056,7 +2056,7 @@ function tooltipImages() {
                     break;
                 
                 case "Researcher":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is researcher`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is researcher`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -2121,7 +2121,7 @@ function tooltipImages() {
                     break;
                 
                 case "Sapfrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is sapfrin`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is sapfrin`, expression)};
 
                     switch (expression) {
                         case "fake1":
