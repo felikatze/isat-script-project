@@ -697,7 +697,7 @@ function tooltipImages() {
                         case "hm2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Hm_2.png";
                             break;
-                        case "h3m":
+                        case "hm3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Hm_3.png";
                             break;
                         case "hm4":
@@ -1861,13 +1861,13 @@ function tooltipImages() {
                         case "worried1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/SASASAP_Portrait_Isabeau_Worried_1.png";
                             break;
-                        case "worried2":
+                        case "worried1b":
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/2a/SASASAP_Portrait_Isabeau_Worried_2.png";
                             break;
-                        case "worried3":
+                        case "worried2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Isabeau_Worried_3.png";
                             break;
-                        case "worried4":
+                        case "worried3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/96/SASASAP_Portrait_Isabeau_Worried_4.png";
                             break;
                         default:
