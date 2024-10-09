@@ -9,7 +9,7 @@
 
     <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
 
-    <script src="/bars.js" defer></script> 
+    <script src="https://felicitations.neocities.org/bars.js" defer></script> 
 
 </head>
 
@@ -22,9 +22,12 @@
 <main>
 
 <h1>Generic Text</h1>
-<p>WIP note: reformat to new standard.</p>
+<small>Edited by candycoatedrox</small>
 <p>A page for dialogue that stays the same across all rooms.</p>
-<p>I don't want to write it down every time, and it's not even that interesting. Mostly</p>
+<p>I don't want to write it down every time, and it's not even that interesting.</p>
+    
+<p><b>Sources:</b> Common Events 190 (BirdEvent), 197 (FakeDoorDormont) 194 (FlowersInteract), 195 (BunchaFlowersInteract), 219 (HoleInteract), 133 (Locked Door),
+    120 (Save Point), 83 (Tears Code), 195 (TorchInteract), 135 (WeaponFoundAgain), 201 (Act5_PickUpTonics), 200 (Act5_SavePoint), 207 (Act5_NothingElse)</p>
 
 <br>
 
@@ -34,40 +37,44 @@
     <li><a href="#bird">Birds</a></li>
     <li><a href="#chair">Chairs</a></li>
     <li><a href="#ornament">Change ornaments</a></li>
+    <li><a href="#dormont">Doors in Dormont</a></li>
     <li><a href="#flowers">Flowers</a></li>
     <li><a href="#hole">Holes</a></li>
-    <li><a href="#door">Locked doors</a></li>
+    <li><a href="#door">Locked openphrase doors</a></li>
     <li><a href="#save">Save points</a></li>
     <li><a href="#tears">Tears</a></li>
     <li><a href="#torch">Torches</a></li>
     <li><a href="#equipment">Refinding equipment</a></li>
     <li><a href="#act5">ACT 5</a>
         <ul>
-            <li><a href="#items5">Items</a></li>
+            <li><a href="#item5">Items</a></li>
+            <li><a href="#tears5">Tears</a></li>
             <li><a href="#save5">Save points</a></li>
             <li><a href="#nothing">Nothing else</a></li>
         </ul>
     </li>
 </ul>
 
+<hr>
 <br>
 
 <h1 id="bird">Birds</h1>
 <p><b>Source:</b> Common Event 190 (BirdEvent)</p>
 
 <div class="dialogue">
-    <h2>First time</h2>
-    <p class="dialogue-note">
+    <p class="dialogue-note">First time only</p>
+    
+    <p class="dialogue-note indented">
         This gets skipped if the first interaction with a bird is in ACT 3 or 4.
     </p>
 
     <br>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (The bird chirps.)
     </p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (Oh! In Vaugarde, they say birds go "peeoo peeoo"!)
     </p>
 
@@ -81,125 +88,180 @@
     </p>
 
     <br>
-
-    <p class="dialogue-line">
-        (Peeoo peeoo!)
-    </p>
-
-    <br>
-
-    <h2>Subsequent times</h2>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bird</span>
-        </span>
-        Piou piou!
-    </p>
-
-    <br>
-
-    <h4>ACT 1 & 2 only:</h4>
-
-    <p class="dialogue-line">
-        (Peeoo peeoo!)
-    </p>
+    
+    <ul>
+        <li>
+            <b>ACT 1 & 2 only:</b>
+            (Peeoo peeoo!)
+        </li>
+    </ul>
 
 </div>
 
 <hr>
+<br>
 
 <h1 id="chair">Chairs and stools</h1>
 <p>The text is very often (but not always) the same, yet it's not a Common Event, for some reason.</p>
 
 <br>
+    
+<div class="dialogue">
 
-<p><i>(A [chair/stool].)</i></p>
-<p><i>(But there's only one, so it'd be rude to sit down.)</i></p>
+    <p class="dialogue-line">(A [chair/stool].)</p>
+    
+    <p class="dialogue-line">(But there's only one, so it'd be rude to sit down.)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="ornament">Change ornaments</h1>
+<p>Despite being the same in every instance, it's not a Common Event.</p>
+    
+<br>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Before learning what it is</p>
+    
+    <p class="dialogue-line indented">
+        (You're not sure what it is, but it has something to do with the Change belief.)
+    </p>
+    
+    <p class="dialogue-line indented">
+        (Mirabelle has a similar brooch design.)
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">After learning what it is</p>
+    
+    <p class="dialogue-line indented">
+        (A Change ornament.)
+    </p>
+    
+</div>
+
+<hr>
+<br>
+    
+<h1 id="dormont">Doors in Dormont</h1>
+
+<h3>ACT 1 & 2</h3>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        (This door must lead to the rest of the house.)
+    </p>
+
+    <p class="dialogue-line">
+        (But you can't go there. You've been told going farther than the first room in other people's houses is very rude.)
+    </p>
+
+    <p class="dialogue-line">
+        (Vaugardian customs are so weird.)
+    </p>
+
+</div>
 
 <br>
 
-<h1 id="ornament">Change ornament</h1>
-<p>The text is always the same, yet it's not a Common Event, for some reason.</p>
+<h3>ACT 3 & 4</h3>
 
-<br>
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        (This door leads to the rest of the house.)
+    </p>
 
-<h4>Before learning what it is:</h4>
-<p><i>(You're not sure what it is, but it has something to do with the Change belief.)</i></p>
-<p><i>(Mirabelle has a similar brooch design.)</i></p>
+</div>
 
-<br>
-
-<h4>After learning what it is:</h4> 
-<p><i>(A Change ornament.)</i></p>
-
+<hr>
 <br>
 
 <h1 id="flowers">Flowers</h1>
-<p><b>Source:</b> Common Event 194 (FlowersInteract) + Common Event 195 (BunchaFlowersInteract)</p>
 <p>These only apply to flowers in flowerpots. Flowers in the grass in Dormont cannot be interacted with.</p>
 
-<br>
 
 <h3>Regular flowers</h3>
+    
+<div class="dialogue">
 
-<h4>Regular:</h4>
+    <p class="dialogue-note">Regular</p>
 
-<p><i>(Some flowers.)</i></p>
-<p><i>(They smell like... flowers.)</i></p>
+    <p class="dialogue-line indented">(Some flowers.)</p>
+    <p class="dialogue-line indented">(They smell like... flowers.)</p>
 
-<br>
+    <br>
 
-<h4>ACT 5:</h4>
-<p><i>(Flowers.)</i></p>
+    <p class="dialogue-note">ACT 5</p>
+    <p class="dialogue-line indented">(Flowers.)</p>
 
-<br>
+    <br>
 
-<h4>ACT 6:</h4>
-<p><i>(Some flowers.)</i></p>
-<p><i>(They smell flowery!)</i></p>
+    <p class="dialogue-note">ACT 6</p>
+    <p class="dialogue-line indented">(Some flowers.)</p>
+    <p class="dialogue-line indented">(They smell flowery!)</p>
+    
+</div>
 
 <br>
 
 <h3>Frozen flowers</h3>
+    
+<div class="dialogue">
 
-<h4>Regular:</h4>
-<p><i>(Some frozen flowers.)</i></p>
-<p><i>(They smell like... flowers.)</i></p>
+    <p class="dialogue-note">Regular</p>
+    <p class="dialogue-line indented">(Some frozen flowers.)</p>
+    <p class="dialogue-line indented">(They smell like... flowers.)</p>
 
-<br>
+    <br>
 
-<h4>ACT 5:</h4>
-<p><i>(Some frozen flowers.)</i></p>
+    <p class="dialogue-note">ACT 5</p>
+    <p class="dialogue-line indented">(Some frozen flowers.)</p>
+    
+</div>
 
 <br>
 
 <h3>Buncha flowers</h3>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-note">ACT 1 & 2</p>
 
-<h4>ACT 1 & 2</h4>
-<ul>
-    <li><i>(Flowers.)</i></li>
-    <li><i>(A bunch of flowers.)</i></li>
-    <li><i>(That sure is a lot of flowers.)</i></li>
-</ul>
+    <ul>
+        <li>(Flowers.)</li>
+        <li>(A bunch of flowers.)</li>
+        <li>(That sure is a lot of flowers.)</li>
+    </ul>
+    
+    <br>
 
-<h4>ACT 3 to 6</h4>
-<p><i>(Flowers.)</i></p>
+    <p class="dialogue-note">ACTS 3-6</p>
+    <p class="dialogue-line indented">(Flowers.)</p>
+    
+</div>
 
+<hr>
 <br>
 
 <h1 id="hole">Holes</h1>
-<p><b>Source:</b> Common Event 219 (HoleInteract)</p>
+    
+<div class="dialogue">
 
+    <p class="dialogue-line">(A hole in the wall.)</p>
+    <p class="dialogue-line">(The hole doesn't really bring you anywhere.)</p>
+
+</div>
+
+<hr>
 <br>
 
-<p><i>(A hole in the wall.)</i></p>
-<p><i>(The hole doesn't really bring you anywhere.)</i></p>
-
-<br>
-
-<h1 id="door">Locked doors</h1>
-<p><b>Source:</b> Common Event 133 (Locked Door)</p>
+<h1 id="door">Locked openphrase doors</h1>
 
 <div class="dialogue">
 
@@ -326,15 +388,92 @@
 <br>
 
 
-<h1 id="save">Save Points</h1>
-<p><b>Source:</b> Common Event 120 (Save Point)</p>
+<h1 id="save">Save points</h1>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        (You reach towards the light...)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Everyone was healed.)
+    </p>
+    
+    <p class="dialogue-line">
+        (Your [friends/allies/family members]' Craft Skills and Experience has been recorded for this location.)
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line">
+        (Save your progress?)
+    </p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+            
+                <div class="dialogue">
 
-<h1 id="tears">Tears</h1>
-<p><b>Source:</b> Common Event 83 (Tears Code)</p>
+                    <p class="dialogue-note">ACT 1 & 2</p>
+                    
+                    <p class="dialogue-line indented">
+                        (You close your eyes.)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">ACT 3 & 4</p>
+                    
+                    <p class="dialogue-line indented">
+                        (You close your single eye.)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">ACT 6</p>
+                    
+                    <p class="dialogue-line indented">
+                        (You close your eye.)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">
+                        The screen fades out, and you are taken to the save screen.
+                    </p>
 
+                </div>
+            </details>
+        </li>
+
+        <li>
+            <details>
+                <summary>(No.)</summary>
+            
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        Dialogue ends here.
+                    </p>
+
+                </div>
+            </details>
+        </li>
+    </ul>
+    
+</div>
+
+<hr>
 <br>
 
-<h2>Regular</h2>
+<h1 id="tears">Tears</h1>
+
+<h3>Regular</h3>
 
 <div class="dialogue">
 
@@ -346,74 +485,110 @@
         (Touch it?)
     </p>
 
-    <br>
+    <hr>
 
+    <h4>ACT 2</h4>
     <ul class="dialogue-option">
         <li>
             <details>
-                <summary><b>ACT 2:</b> (Yes, looping time!) / <b>ACT 3 & 4:</b> (Yes.)</summary>
+                <summary>(Yes, looping time!)</summary>
                 
                 <div class="dialogue">
+                    
                     <p class="dialogue-line">
                         (You reach out to the Tear...)
                     </p>
+                    
+                    <br>
 
                     <p class="dialogue-note">
-                        You then <a href="/random/deaths.html#tears">die</a>.
+                        You <a href="/random/deaths.html#tears">die</a>.
                     </p>
-
+                    
                 </div>
             </details>
         </li>
+        
         <li>
             <details>
-                <summary><b>ACT 2:</b>(No, living time.) / <b>ACt 3 & 4:</b> (No.)</summary>
+                <summary>(No, living time.)</summary>
                 
                 <div class="dialogue">
-
+                    
                     <p class="dialogue-line">
                         (You walk away from the Tear.)
                     </p>
-
+                    
                 </div>
             </details>
         </li>
     </ul>
-</div>
+    
+    <br>
 
-<h2>ACT 5</h2>
+    <h4>ACT 3 & 4</h4>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        (You reach out to the Tear...)
+                    </p>
+                    
+                    <br>
 
-<div class="dialogue">
-    <p class="dialogue-line">
-        (You've slept too long already.)
-    </p>
-
-    <p class="dialogue-note">
-        Siffrin walks away from the Tear.
-    </p>
+                    <p class="dialogue-note">
+                        You <a href="/random/deaths.html#tears">die</a>.
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+        
+        <li>
+            <details>
+                <summary>(No.)</summary>
+                
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        (You walk away from the Tear.)
+                    </p>
+                    
+                </div>
+            </details>
+        </li>
+    </ul>
     
 </div>
 
 <hr>
-
-<h1 id="torch">Torches</h1>
-<p><b>Source:</b> Common Event 195 (TorchInteract)</p>
-
 <br>
 
-<p><i>(A torch.)</i></p>
-<p><i>(It burns brightly.)</i></p>
+<h1 id="torch">Torches</h1>
+    
+<div class="dialogue">
 
+    <p class="dialogue-line">(A torch.)</p>
+    
+    <p class="dialogue-line">(It burns brightly.)</p>
+
+</div>
+
+<hr>
 <br>
 
 <h1 id="equipment">Refinding Equipment</h1>
-<p><b>Source:</b> Common Event 135 (WeaponFoundAgain)</p>
 <p>When you pick up equipment you already have, the world skips and this happens.</p>
 <p>The only exceptions are equipment you receive from NPCs, meaning the Stylish Bow and the First Issue.</p>
 
 <br>
 
-<h2>First time</h2>
+<h3>First time</h3>
 <div class="dialogue">
 
     <p class="dialogue-line">
@@ -442,7 +617,7 @@
 
 <br>
 
-<h2>Second time</h2>
+<h3>Second time</h3>
 
 <div class="dialogue">
 
@@ -462,7 +637,7 @@
 
 <br>
 
-<h2>Third time</h2>
+<h3>Third time</h3>
 
 <div class="dialogue">
 
@@ -486,7 +661,7 @@
 
 <br>
 
-<h2>Fourth time</h2>
+<h3>Fourth time</h3>
 
 <div class="dialogue">
 
@@ -502,7 +677,7 @@
 
 <br>
 
-<h2>Fifth time onwards</h2>
+<h3>Fifth time onwards</h3>
 
 <div class="dialogue">
 
@@ -514,7 +689,7 @@
 
 <br>
 
-<h2>Four in one loop</h2>
+<h3>Four in one loop</h3>
 
 <div class="dialogue">
 
@@ -572,12 +747,11 @@
 <h1 id="act5">ACT 5</h1>
 
 <h2 id="item5">Items</h2>
-<p><b>Source:</b> Common Event 201 (Act5_PickUpTonics)</p>
 <p>Trying to pick up any restorative item in ACT 5.</p>
 
 <br>
 
-<h4>First time</h4>
+<h3>First time</h3>
 
 <div class="dialogue">
 
@@ -599,7 +773,7 @@
 
 <br>
 
-<h4>Second time</h4>
+<h3>Second time</h3>
 
 <div class="dialogue">
 
@@ -615,7 +789,7 @@
 
 <br>
 
-<h4>Third time</h4>
+<h3>Third time</h3>
 
 <div class="dialogue">
 
@@ -627,7 +801,7 @@
 
 <br>
 
-<h4>Fourth time onwards</h4>
+<h3>Fourth time onwards</h3>
 
 <div class="dialogue">
 
@@ -639,15 +813,75 @@
 
 <hr>
 <br>
+    
+<h2 id="tears5">Tears</h2>
 
-<h2 id="save5">Save point</h2>
-<p><b>Source:</b> Common Event 200 (Act5_SavePoint)</p>
+<div class="dialogue">
+    <p class="dialogue-line">
+        (You've slept too long already.)
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">
+        Siffrin walks away from the Tear.
+    </p>
+    
+</div>
+    
+<hr>
+<br>
+
+<h2 id="save5">Save Points</h2>
+    
+<div class="dialogue">
+    
+    <p class="dialogue-line">
+        (Save your progress?)
+    </p>
+    
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary>(Yes.)</summary>
+            
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (You close your eye tightly.)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">
+                        The screen fades out, and you are taken to the save screen.
+                    </p>
+
+                </div>
+            </details>
+        </li>
+
+        <li>
+            <details>
+                <summary>(No.)</summary>
+            
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        Dialogue ends here.
+                    </p>
+
+                </div>
+            </details>
+        </li>
+    </ul>
+    
+</div>
 
 <hr>
 <br>
 
 <h2 id="nothing">Nothing else</h2>
-<p><b>Source:</b> Common Event 207 (Act5_NothingElse)</p>
 <p>Interacting with spaces that had equipment, weapons, or souvenirs.</p>
 
 <br>
@@ -657,56 +891,56 @@
     <p class="dialogue-note">
         At random:
     </p>
+    
+    <br>
 
-    <hr>
+    <p class="dialogue-note">Option 1</p>
 
-    <h4>Option 1</h4>
-
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (Nothing here.)
     </p>
 
-    <hr>
+    <br>
 
-    <h4>Option 2</h4>
+    <p class="dialogue-note">Option 2</p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (Empty!)
     </p>
 
-    <hr>
+    <br>
 
-    <h4>Option 3</h4>
+    <p class="dialogue-note">Option 3</p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (Nothing to pick up!!!)
     </p>
 
-    <hr>
+    <br>
 
-    <h4>Option 4</h4>
+    <p class="dialogue-note">Option 4</p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (You breathe in, and out.)
     </p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (It doesn't help.)
     </p>
 
-    <hr>
+    <br>
 
-    <h4>Option 5</h4>
+    <p class="dialogue-note">Option 5</p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (You ignore how the world is breaking down around you.)
     </p>
 
-    <hr>
+    <br>
 
-    <h4>Option 6</h4>
+    <p class="dialogue-note">Option 6</p>
 
-    <p class="dialogue-line">
+    <p class="dialogue-line indented">
         (You smell sugar coming from somewhere.)
     </p>
 
