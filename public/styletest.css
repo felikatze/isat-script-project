@@ -58,7 +58,7 @@ button {
     background-color: white;
     border: 2px #434343;
     color: black;
-    padding: 7px 16px;
+    padding: 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -89,6 +89,7 @@ button {
 
 #button2 {
     bottom: 260px;
+    font-size: 0.95em;
 }
 
 #button3 {
@@ -369,6 +370,35 @@ details .dialogue {
 .sr-only2 {
     position: absolute;
     color: transparent;
+}
+
+.shake-visual,
+.wave-visual {
+    font-style: italic;
+}
+
+@keyframes shake {
+    0% {
+        transform: var(--shake-state-1);
+    }
+    33% {
+        transform: var(--shake-state-2);
+    }
+    66% {
+        transform: var(--shake-state-3);
+    }
+    100% {
+        transform: var(--shake-state-1);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(var(--wave-amplitude));
+    }
+    100% {
+        transform: translateY(calc(var(--wave-amplitude) * -1));
+    }
 }
 
 /* 
