@@ -12,6 +12,7 @@ class Header extends HTMLElement {
                 <div id="header"><img src="/header.png" alt=""></div>
                    <details class="helper" id="settings">
                         <summary>Settings</summary>
+                        <button onclick="toggleAnimations();" id="button1" class="helper">Toggle animations</button>
                         <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
                         <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
                         <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
@@ -125,6 +126,24 @@ function toggleExpressions() {
 }
 // end gold's expressions toggle code
 
+var animationToggle;
+
+function toggleAnimations() {
+    if (animationToggle == "off") {
+        animationToggle = "on";
+        applyShakeAnimation();
+        applyWaveAnimation();
+        sessionStorage.setItem("animationToggle", "on");
+        if (debugMode) {console.log("animations on!")};
+    } else {
+        animationToggle = "off";
+        disableShakeAnimation();
+        disableWaveAnimation();
+        sessionStorage.setItem("animationToggle", "off");
+        if (debugMode) {console.log("animations off!")};
+    }
+    return animationToggle;
+}
 
 window.onload = function() {
 
@@ -140,6 +159,13 @@ window.onload = function() {
         if (debugMode) {console.log("toggled expressions off on load!")};
     } else {
         if (debugMode) {console.log("expressions stayed on on load!")};
+    }
+
+    if (sessionStorage.getItem("animationToggle") == "off") {
+        toggleAnimations();
+        if (debugMode) {console.log("toggled animations off on load!")};
+    } else {
+        if (debugMode) {console.log("animations stayed on on load!")};
     }
 };
 
@@ -170,6 +196,138 @@ function toggleDialogue() {
         }
     }
 }
+
+
+// SHAKING + WAVING TEXT
+
+// https://oat.zone/markdown-plus/###
+function rand() {
+    return Math.floor(Math.random() * 100) / 100;
+}
+function srand() {
+    return rand() * 2 - 1;
+}
+
+// https://stackoverflow.com/a/24137301
+// for choosing random from array
+Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+
+
+// https://stackoverflow.com/a/9666441
+// https://jsfiddle.net/6bEuW/
+// wraps all characters in an element in a span
+function wrapCharacters(element) {
+    var child = element.firstChild;
+    while (child) {
+        var nextSibling = child.nextSibling;
+        if (child.nodeType === 1) {
+            wrapCharacters(child);
+        } else if (child.nodeType === 3) {
+            var d_ = document.createDocumentFragment();
+            for (var i = 0, len = child.nodeValue.length; i < len; i++) {
+                var span = document.createElement('span');
+                span.innerHTML = child.nodeValue.charAt(i);
+                d_.appendChild(span);
+            }
+            child.parentNode.replaceChild(d_, child);
+        }
+        child = nextSibling;
+    }
+}
+
+function wrapAllCharacters(elements) {
+    for (var element in elements) {
+        wrapCharacters(elements[element]);
+    }
+}
+
+
+// SHAKE
+wrapAllCharacters(document.getElementsByClassName("shake"));
+
+var shakeMagnitude = 5;
+var shakeSpeed = 0.2;
+var shakeUnit = "%";
+
+function applyShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) { // if it's styleable and isn't whitespace
+                children[child].classList.remove("shake-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
+                
+                children[child].style.setProperty("--shake-state-1",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-2",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+                children[child].style.setProperty("--shake-state-3",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+            }
+        }
+    }
+}
+
+applyShakeAnimation();
+
+function disableShakeAnimation() {
+    var elements = document.getElementsByClassName("shake");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("shake-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+
+// WAVE
+wrapAllCharacters(document.getElementsByClassName("wave"));
+
+var wavelength = 0.025; // what unit? who knows
+var waveAmplitude = 10;
+var waveSpeed = 0.75;
+
+function applyWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    for (var element in elements) {
+        children = elements[element].childNodes;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.remove("wave-visual");
+    
+                children[child].style.display = "inline-block";
+                children[child].style.animation = `${waveSpeed}s wave cubic-bezier(0.37, 0, 0.63, 1) infinite ${-child * wavelength}s alternate`;
+                children[child].style.setProperty("--wave-amplitude", `${waveAmplitude}%`);
+            }
+        }
+    }
+}
+
+applyWaveAnimation();
+
+function disableWaveAnimation() {
+    var elements = document.getElementsByClassName("wave");
+    
+    for (var element in elements) {
+        children = elements[element].children;
+        for (var child in children) {
+            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
+                children[child].classList.add("wave-visual");
+                children[child].style.animation = "none";
+            }
+        }
+    }
+}
+
+// END SHAKING + WAVING TEXT
 
 
 
@@ -235,7 +393,7 @@ function tooltipImages() {
             switch (nameReference) {
 
                 case "Bonnie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is bonnie`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is bonnie`, expression)};
 
                     switch (expression) {
                         case "and then1":
@@ -399,7 +557,7 @@ function tooltipImages() {
                     break;
 
                 case "Euphrasie":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is euphrasie`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is euphrasie`, expression)};
 
                     switch (expression) {
                         case "CRAB1":
@@ -464,7 +622,7 @@ function tooltipImages() {
                     break;
 
                 case "Isabeau":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is isabeau`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is isabeau`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -539,7 +697,7 @@ function tooltipImages() {
                         case "hm2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Hm_2.png";
                             break;
-                        case "h3m":
+                        case "hm3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Hm_3.png";
                             break;
                         case "hm4":
@@ -673,12 +831,12 @@ function tooltipImages() {
                     break;
 
                 case "King":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is the king`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is the king`, expression)};
                     imageSrc = "https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png";
                     break;
 
                 case "Loop":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is loop`, expression)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is loop`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -806,7 +964,7 @@ function tooltipImages() {
                     break;
 
                 case "Mirabelle":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is mirabelle`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is mirabelle`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -979,7 +1137,7 @@ function tooltipImages() {
                     break;
 
                 case "Odile":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is odile`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is odile`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1167,7 +1325,7 @@ function tooltipImages() {
                     break;
 
                 case "Siffrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is siffrin`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is siffrin`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1254,7 +1412,7 @@ function tooltipImages() {
                         case "joke2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Siffrin_Joke_2.png";
                             break;
-                        case "LMAO1":
+                        case "lmao1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/7/77/ISAT_Portrait_Siffrin_LMAO.png";
                             break;
                         case "lol1":
@@ -1494,7 +1652,7 @@ function tooltipImages() {
                         case "TS_unhinged2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/8/89/ISAT_Portrait_Siffrin_Unhinged_2_ACT5.png";
                             break;
-                        case "TS_":
+                        case "TS_yahoo2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Despair_3.png";
                             break;
                         case "US_awawa1":
@@ -1506,7 +1664,7 @@ function tooltipImages() {
                         case "US_expressionnumber":
                             imageSrc = "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Blep_ACT6.png";
                             break;
-                        case "US_fufu1":
+                        case "US_fufufu1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Fufu_ACT6.png";
                             break;
                         case "US_guilty1":
@@ -1521,7 +1679,7 @@ function tooltipImages() {
                         case "US_happy2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Happy_2_ACT6.png";
                             break;
-                        case "US_happyyy1":
+                        case "US_happyy1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/4/4c/ISAT_Portrait_Siffrin_Joyful.png";
                             break;
                         case "US_hnnn1":
@@ -1595,7 +1753,7 @@ function tooltipImages() {
                     break;
 
                 case "Fighter":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is fighter`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is fighter`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1703,13 +1861,13 @@ function tooltipImages() {
                         case "worried1":
                             imageSrc = "https://instarsandtime.wiki.gg/images/8/8e/SASASAP_Portrait_Isabeau_Worried_1.png";
                             break;
-                        case "worried2":
+                        case "worried1b":
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/2a/SASASAP_Portrait_Isabeau_Worried_2.png";
                             break;
-                        case "worried3":
+                        case "worried2":
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Isabeau_Worried_3.png";
                             break;
-                        case "worried4":
+                        case "worried3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/96/SASASAP_Portrait_Isabeau_Worried_4.png";
                             break;
                         default:
@@ -1720,7 +1878,7 @@ function tooltipImages() {
                     break;
 
                 case "Housemaiden":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is housemaiden`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is housemaiden`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1818,7 +1976,7 @@ function tooltipImages() {
                     break;
 
                 case "Kid":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is kid`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is kid`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1898,7 +2056,7 @@ function tooltipImages() {
                     break;
                 
                 case "Researcher":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is researcher`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is researcher`, expression)};
 
                     switch (expression) {
                         case "angry1":
@@ -1963,7 +2121,7 @@ function tooltipImages() {
                     break;
                 
                 case "Sapfrin":
-                    if (debugMode) {console.log(nameElement, `head ${headIndex} is sapfrin`)};
+                    if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is sapfrin`, expression)};
 
                     switch (expression) {
                         case "fake1":
