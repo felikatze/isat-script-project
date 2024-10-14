@@ -22,45 +22,80 @@
 <main>
 
 <h1>Floor 1 Hallways</h1>
-<p>All of the hallways in Floor 1 that actually include text in them.</p>
+<small>Created by fairywrenss and <!--who else?-->.</small>
+<p>All the hallways in Floor 1 that have anything of interest in them.</p>
 <p>For the Death Corridor, go <a href="/rooms/floor1/deathcorridor.html">here</a> instead.</p>
 
 <br>
 
 <h1>Index</h1>
 
-<h2>Floor 1</h2>
-
 <ul>
-    <li><a href="#floor1R">Right side Hallways</a>
+    <li><a href="left">Left side hallways</a>
         <ul>
-            <li><a href="#floor1R1">Level difference</a></li>
-            <li><a href="#floor1R2">First Tears</a>
+            <li><a href="#egg">Egg Key Door</a></li>
+            <li><a href="#ghost">Ghost</a></li>
+        </ul>
+    </li>
+    <li><a href="#right">Right side hallways</a>
+        <ul>
+            <li><a href="#lvldiff">Level difference</a></li>
+            <li><a href="#tutotears">First Tears</a>
                 <ul>
-                    <li><a href="#tear">Tear Event</a>
-                        <ul>
-                            <li><a href="#tear1">First time</a></li>
-                            <li><a href="#tear2">Second time</a></li>
-                            <li><a href="#tear3">Subsequent interactions with the tear</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#tear">Tear Event</a></li>
                     <li><a href="#storage">Storage Room door</a></li>
                 </ul>
             </li>
-            <li><a href="#floor1R3">First row of Tears</a>
+            <li><a href="#tutocrest">First row of Tears</a>
                 <ul>
-                    <li><a href="#1R3E">Event</a></li>
+                    <li><a href="#explain">Event</a></li>
                     <li><a href="#rowtears">Row of Tears</a></li>
                 </ul>
             </li>
         </ul>
     </li>
 </ul>
-    
+
+<hr>
 <br>
 
-<h1 id="floor1R">Right side hallways</h1>
-<h2 id="floor1R1">Level Difference</h2>
+<h1 id="left">Left side hallways</h1>
+<br>
+
+<h2 id="egg">Egg Key Door</h2>
+<p><b>Source:</b> Map075 (Hallway (Locked 1-1))</p>
+<p>The hallway immediately to the left of the central room. Leads to the armory (page WIP) and the <a href="#ghost">hallway with the ghost</a>, which is locked.</p>
+
+<h3>Without the key</h3>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Interaction text is <a href="/random/generic.html#locked">generic</a>. The key is the Egg Key, found in the kitchen on the right.</p>
+
+</div>
+
+<h3>With the key</h3>
+
+<div class="dialogue">
+    
+    <p class="dialogue-note">Interaction text is <a href="/random/generic.html#unlock">generic</a>.</p>
+
+</div>
+
+<hr>
+<br>
+
+<h2 id="ghost">Ghost</h2>
+<p><b>Source:</b> Map125 (Hallway (Ghost1))</p>
+<p>Past the egg key locked door, there's <a href="/events/ghost.html">a ghost</a>. There's no text for this one, though.</p>
+
+<hr>
+<br>
+
+<h1 id="right">Right side hallways</h1>
+<br>
+
+<h2 id="lvldiff">Level Difference</h2>
 <p><b>Source:</b> Map124 (Hallway (LVL difference))</p>
 <p>First hallway to the right from the central room after the tutorial area. Has no rooms except another hallway attached to it.</p>
 <p>This event triggers if you walk through the hallway and Siffrin's level is 20 higher than the average of Mirabelle's, Isabeau's, and Odile's levels.</p>
@@ -358,7 +393,7 @@
 <hr>
 <br>
 
-<h2 id="floor1R2">First Tears</h2>
+<h2 id="tutotears">First Tears</h2>
 <p><b>Source:</b> Map109 (Hallway (Tear)), Map140 (ACT5_Hallway (Tear))</p>
 <p>Second hallway to the right, after the Level Difference one. Features doors to the <a href="/rooms/floor1/stostorageroomoom.html">locked storage room</a> and the break room (WIP, no link).</p>
 
@@ -366,7 +401,7 @@
 
 <h2 id="tear">Tear Event</h2>
 
-<h3 id="tear1">First time</h3>
+<h3>First time</h3>
 
 <div class="dialogue">
 
@@ -588,10 +623,9 @@
 
 </div>
 
-<hr>
 <br>
 
-<h3 id="tear2">Second time</h3>
+<h3>Second time</h3>
 
 <div class="dialogue">
 
@@ -609,13 +643,10 @@
 
 </div>
 
-<hr>
 <br>
 
-<h3 id="tear3">Subsequent interactions with the tear</h3>
+<h3>Subsequent interactions with the tear</h3>
 <p>From the second time in this hallway onwards, if you interact with the tear that Siffrin originally fell into.</p>
-
-<br>
 
 <div class="dialogue">
     
@@ -663,7 +694,6 @@
 
 </div>
 
-<hr>
 <br>
 
 <h2 id="storage">Storage Room door</h2>
@@ -888,10 +918,9 @@
 
 </div>
 
-<hr>
 <br>
 
-<h4>ACT 5</h4>
+<h3>ACT 5</h3>
 
 <div class="dialogue">
 
@@ -942,7 +971,7 @@
 <hr>
 <br>
 
-<h1 id="floor1R3">First row of Tears</h1>
+<h1 id="tutocrest">First row of Tears</h1>
 <p><b>Source:</b> Map113 (Hallway (RowTears))</p>
 <p>Third hallway to the right, past the one with the first tears. Has doors to the kitchen past the row of tears (WIP, no link), and the room with the first Nostalgie (WIP, no link).</p>
 
@@ -955,7 +984,7 @@ The party never knows about tears at this point cuz you die when it's explained 
 
 <br>
 
-<h2 id="1R3E">Event</h2>
+<h2 id="explain">Event</h2>
 <p>This event always occurs the first time you walk toward the row of tears. On subsequent loops, it only occurs if you do not have the Star Crest.</p>
 
 <br>
@@ -1510,7 +1539,7 @@ The party never knows about tears at this point cuz you die when it's explained 
 
                     <hr>
 
-                    <h4>If you haven't seen <a href="#1R3E">event</a> this loop</h4>
+                    <h4>If you haven't seen <a href="#explain">event</a> this loop</h4>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
