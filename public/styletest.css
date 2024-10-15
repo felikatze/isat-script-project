@@ -50,8 +50,8 @@ img {
 img.cg {
     object-fit: cover;
     object-position: top;
-    height: 460px;
-    width: 816px;
+    max-height: 460px;
+    max-width: 816px;
 }
 
 button {
