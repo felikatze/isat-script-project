@@ -50,8 +50,8 @@ img {
 img.cg {
     object-fit: cover;
     object-position: top;
-    height: 460px;
-    width: 816px;
+    aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplified */
+    width: 816px; /* i don't know why this doesn't force it to 816px BUT IT WORKS AND I'M MOVING ON -gold */
 }
 
 button {
