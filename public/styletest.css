@@ -50,7 +50,7 @@ img {
 img.cg {
     object-fit: cover;
     object-position: top;
-    aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplfied */
+    aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplified */
     width: 816px; /* i don't know why this doesn't force it to 816px BUT IT WORKS AND I'M MOVING ON -gold */
 }
 
