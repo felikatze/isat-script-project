@@ -129,9 +129,8 @@ button {
 }
 
 hr {
-    border: 1px white solid;
+    border: 1px #ffffff80 solid;
     margin: 2em 1em;
-    opacity: 0.5;
 }
 
 :root {
@@ -235,7 +234,7 @@ summary::marker {
 }
 
 .dialogue-option .dialogue-note details::before {
-    opacity: 0.5;
+    color: #ffffff80;
 }
 
 details .dialogue {
@@ -275,15 +274,22 @@ details .dialogue {
 .dialogue-note {
     display: block;
     margin: 0.5em;
-    opacity: 0.5;
-}
-.inline-note {
-    float: right;
-    margin: 0 0.5em;
-    opacity: 0.5;
+    color: #ffffff80;
 }
 .note-color {
-    opacity: 0.5;
+    color: #ffffff80;
+}
+.inline-note-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+.inline-note-box > :first-child {
+    flex: 2 1 auto;
+}
+.inline-note-box > :last-child {
+    flex: 1 1 auto;
+    color: #ffffff80;
+    text-align: right;
 }
 
 .big {
