@@ -1,4 +1,4 @@
-debugMode = false;
+debugMode = true;
 // change this to true and check console for debug logs!
 
 class Header extends HTMLElement {
