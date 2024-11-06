@@ -39,6 +39,13 @@ br {
     line-height: 1.2;
 }
 
+del, s { /* strikethrough */
+    /* can't change the position of line-through; using underline and offset instead */
+    text-decoration: underline currentcolor solid 2px;
+    text-underline-offset: -0.45rem;
+    text-decoration-skip-ink: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
