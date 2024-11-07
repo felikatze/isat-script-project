@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrance Storage Room</title>
+
+    <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    
+    <script src="/bars.js" defer></script> 
+</head>
+
+<body>
+
+<div id="container">
+
+<head-er></head-er>
+
+<main>
+
+<h1>Entrance Storage Room</h1>
+<small>Created by fairywrenss.</small>
+<p><b>Source:</b> Map029 (StorageRoom), Common Event 125 (Potionsjoke), Map129 (ACT5_StorageRoom)</p>
+<p></p>
+
+<br>
+
+<h1>Index</h1>
+
+<ul>
+    <li><a href="#enter">Entering</a></li>
+    <li><a href="#potions">Collecting the tonics</a>
+        <ul>
+            <li><a href="#sour">Sour Tonic</a></li>
+            <li><a href="#supersour">Super Sour Tonic</a></li>
+            <li><a href="#water">Crafted Water</a></li>
+            <li><a href="#spices">Spices</a></li>
+            <li><a href="#imonduty">Bonnie takes them</a></li>
+        </ul>
+    </li>
+    <li><a href="#closet">Closet</a></li>
+    <li><a href="#flyer">Flyers</a></li>
+    <li><a href="#barrels">Barrels</a></li>
+    <li><a href="#pillars">Pillars</a></li>
+    <li><a href="#stools">Stools</a></li>
+</ul>
+
+<hr>
+<br>
+
+<h1 id="enter">Entering</h1>
+<p>Plays the first time you enter the room in a loop.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaha1)</span>
+        </span>
+        A storage room! Let's look around!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(gimme1)</span>
+        </span>
+        I see a few tonics on those tables... Make sure to pick them up and give them to Bonnie before we leave.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(brag1)</span>
+        </span>
+        Check that closet too, there might be some cool stuff in there!
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">ACT 1</p>
+    <p class="dialogue-line indented">(You should check those out...)</p>
+
+    <br>
+
+    <p class="dialogue-note">Second time (ACT 2 only)</p>
+
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(okay2)</span>
+        </span>
+        (Urgh, items to pick up again.) "Do we REALLY need items?"
+    </p>
+    
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol2)</span>
+        </span>
+        Oh? I'm surprised to hear this from you, since you just love to pick up random things.
+    </p>
+    
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(question1)</span>
+        </span>
+        Of course we need those items. Tonics, juices... Those items will keep our health up, and are integral to our survival.
+    </p>
+    
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(worried2)</span>
+        </span>
+        We can't always count on Mirabelle to heal us. Don't hesitate to use tonics or items in battle if you get overwhelmed.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line indented">(...)</p>
+    <p class="dialogue-line indented">(This seems important... You decide to remember those words.)</p>
+    <p class="dialogue-line indented">(It'd be bad to be beaten in battle because you forgot about the items you carry...)</p>
+
+    <br>
+
+    <p class="dialogue-line indented">(You got a MEMORY OF TONICS!)</p>
+    <p class="dialogue-line indented">(You'll always remember this.)</p>
+
+    <br>
+
+    <p class="dialogue-line indented">[When Memory of Tonics is equipped, any tonic the Researcher uses will recover more HP!]</p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 3 & 4</p>
+    <p class="dialogue-line indented">(You don't say anything.)</p>
+    
+</div>
+
+<hr>
+<br>
+
+<h1 id="potions">Collecting the tonics</h1>
+
+<h3 id="sour">Sour Tonic</h3>
+<p>On the right side of the right table.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Some small glass containers.)</p>
+    <p class="dialogue-line">(You look around...)</p>
+    <br>
+    <p class="dialogue-line">(You found a SOUR TONIC!)</p>
+
+    <br>
+
+    <p class="dialogue-note">The appropiate part of the <a href="#imonduty">potions joke</a> plays.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awkward1b)</span>
+        </span>
+        T-Tonics are good to keep your HP up so you don't get knocked out in battle!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        They're very sour...<br>But the sourness is sure to make you more awake and ready for anything!
+    </p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(The table has nothing else interesting on it.)</p>
+    
+</div>
+
+<br>
+
+<h3 id="supersour">Super Sour Tonic</h3>
+<p>On the left side of the right table.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Some small glass containers.)</p>
+    <p class="dialogue-line">(You look around...)</p>
+    <br>
+    <p class="dialogue-line">(You got a SUPER SOUR TONIC!)</p>
+
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        Oh! Sour tonics for everyone to share!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(hmf1)</span>
+        </span>
+        Y'know, I always wondered why they're more powerful than regular sour tonics when they're the same size.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(hm1)</span>
+        </span>
+        They're just that concentrated.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(brag1)</span>
+        </span>
+        I tried drinking a full Super Sour Tonic once!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol1)</span>
+        </span>
+        And... What happened?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaha2)</span>
+        </span>
+        I couldn't taste anything for weeks!!!
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(The table has nothing else interesting on it.)</p>
+    
+</div>
+
+<br>
+
+<h3 id="water">Crafted Water</h3>
+<p>On the top-right of the left table.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(You look at what's on the table...)</p>
+    <br>
+    <p class="dialogue-line">(You found a CRAFTED WATER!)</p>
+
+    <br>
+
+    <p class="dialogue-note">The appropiate part of the <a href="#imonduty">potions joke</a> plays.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        Um, this is a Crafted Water!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        If someone gets <!--\i[1] do we have this icon-->Knocked Out during battle... <br>Just a drop of it is enough to wake them right up!
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        Someone at school told me it was just coconut water!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awawa1)</span>
+        </span>
+        Wait... is it?
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(The table has nothing else interesting on it.)</p>
+    
+</div>
+
+<br>
+
+<h3 id="spices">Spices</h3>
+<p>On the bottom-left of the left table.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(You look at what's on the table...)</p>
+    <br>
+    <p class="dialogue-line">(You found one GINGER JUICE!)</p>
+    <p class="dialogue-line">(You found one PEPPER JUICE!)</p>
+    <p class="dialogue-line">(You found one THYME JUICE!)</p>
+
+    <br>
+
+    <p class="dialogue-note">The appropiate part of the <a href="#imonduty">potions joke</a> plays.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(oh1)</span>
+        </span>
+        Still, that's a lot of spices you found there...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(and then1)</span>
+        </span>
+        Oh, oh, I know this one! <br>Pepper raises your ATTACK, ginger raises your DEFENSE, and thyme makes you faster!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(hmf3)</span>
+        </span>
+        Because spicy stuff makes people angry, ginger makes you not sick, and thyme...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk5)</span>
+        </span>
+        Well... I don't actually know why thyme makes you faster.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awkward1)</span>
+        </span>
+        Me neither...
+    </p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(The table has nothing else interesting on it.)</p>
+    
+</div>
+
+<br>
+
+<h3 id="imonduty">Bonnie takes them</h3>
+<p>These play regardless of the order you pick the items in, with Bonnie adjusting the item they mention appropiately.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">First item</p>
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-line">(Someone just took the bottle from you.)</p>
+        <br>
+
+        <p class="dialogue-note">Without Bonnie's friendquest done this loop</p>
+
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(serious1)</span>
+            </span>
+            ...
+        </p>
+        
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(hmf3)</span>
+            </span>
+            ...Dile said I'm on [tonics/water/spices] duty.
+        </p>
+        
+        <br>
+
+        <p class="dialogue-note">With Bonnie's friendquest done this loop</p>
+
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(hmf2)</span>
+            </span>
+            Dile said I'm on [tonics/water/spices] duty!
+        </p>
+
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">Second item</p>
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-line">(Someone just took the bottle from you.)</p>
+        <br>
+
+        <p class="dialogue-note">Without Bonnie's friendquest done this loop</p>
+
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(serious1)</span>
+            </span>
+            ...
+        </p>
+        
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(hmf3)</span>
+            </span>
+            ...Dile also said I'm on [tonics/water/spices] duty.
+        </p>
+        
+        <br>
+
+        <p class="dialogue-note">With Bonnie's friendquest done this loop</p>
+
+        <p class="dialogue-line indented">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(yeah!2)</span>
+            </span>
+            Dile also said I'm on [tonics/water/spices] duty!
+        </p>
+
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">Third item</p>
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(serious1)</span>
+            </span>
+            ...
+        </p>
+    
+        <br>
+    
+        <p class="dialogue-line">(You just give it all to them.)</p>
+    
+        <br>
+    
+        <div class="indented">
+    
+            <p class="dialogue-note">Without Bonnie's friendquest done this loop</p>
+    
+            <p class="dialogue-line indented">
+                <span class="dialogue-head">
+                    <span class="dialogue-name">Bonnie</span>
+                    <span class="dialogue-expression">(lol1)</span>
+                </span>
+                Heh, you learn fast, Frin.
+            </p>
+            
+            <br>
+    
+            <p class="dialogue-note">With Bonnie's friendquest done this loop</p>
+    
+            <p class="dialogue-line indented">
+                <span class="dialogue-head">
+                    <span class="dialogue-name">Bonnie</span>
+                    <span class="dialogue-expression">(and then1)</span>
+                </span>
+                YAHOO!!!
+            </p>
+            
+        </div>
+    
+        <br>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(question1)</span>
+            </span>
+            Be careful with those items, Boniface. Guard them well.
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(hm2)</span>
+            </span>
+            Be ready to throw those at us if we need them during battle. It's probably safer than making all of us carry some...
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(oh1)</span>
+            </span>
+            But Sif found those! You don't trust Sif to keep our items safe?
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(huh1)</span>
+            </span>
+            The person who a few weeks ago mixed up all the items we had to make a so-called "Super Potion"?
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(urgh1)</span>
+            </span>
+            No. I don't trust Siffrin with items.
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(LMAO1)</span>
+            </span>
+            HA!
+        </p>
+        
+        <hr>
+    
+        <p class="dialogue-note">ACT 1-3</p>
+        <p class="dialogue-line indented">(You cutely bat your eyes.)</p>
+    
+        <br>
+    
+        <p class="dialogue-note">ACT 4</p>
+        <p class="dialogue-line indented">(A lifetime ago for you now.)</p>
+
+    </div>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+
+<div class="dialogue">
+    <p class="dialogue-note">Interaction text is <a href="/random/generic.html#item5">generic</a> for all items.</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="closet">Closet</h1>
+<p>For souvenir interaction, see <a href="/random/souvenirs1.html#bell">Souvenirs 1</a>.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(You open the closet.)</p>
+    <p class="dialogue-line">(It's full of boxes and paper, and...)</p>
+    <p class="dialogue-line">(A pendant shaped like a bell.)</p>
+    <br>
+    <p class="dialogue-line">(You got a BELL PENDANT!)</p>
+    
+    <br>
+
+    <p class="dialogue-note">Second time onwards</p>
+    <p class="dialogue-line indented">(You put the pendant in your pocket along with your Souvenirs.)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(hm1)</span>
+        </span>
+        Well. That closet was useless.
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(oh1)</span>
+        </span>
+        Pretty pendant though.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(doubt1)</span>
+        </span>
+        Can the pendant heal me when I'm hurt?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy1)</span>
+        </span>
+        Maybe it can! You don't know!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">First time</p>
+    <p class="dialogue-line indented">(You look at the pendant closely...)</p>
+    <p class="dialogue-line indented">(It's just a pendant shaped like a bell.)</p>
+    <p class="dialogue-line indented">(But you like it, so you put it in your pocket along with your Souvenirs.)</p>
+    <p class="dialogue-line indented">(Tonics and any useful items will usually be visible, but you might get some useless but interesting things if you check everything in an room...)</p>
+
+    <br>
+
+    <p class="dialogue-line">(You got the bell pendant back.)</p>
+
+    <br>
+
+    <p class="dialogue-note">Second time</p>
+    <p class="dialogue-line indented">(Hm... You wonder if you could find a chain for it somewhere!)</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 1 & 2</p>
+    <p class="dialogue-line indented">(Ding ding!)</p>
+
+    <p class="dialogue-note">ACT 3</p>
+    <p class="dialogue-line indented">(Ding ding.)</p>
+
+    <p class="dialogue-note">ACT 4</p>
+    <p class="dialogue-line indented">(You hold it tightly in your hand.)</p>
+    
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+
+    <p class="dialogue-line">(The closet doesn't have anything interesting left in it.)</p>
+    
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(You open the useless closet.)</p>
+    <p class="dialogue-line">(...)</p>
+    <p class="dialogue-line">(Got the Bell Pendant.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction text is <a href="/random/generic.html#nothing">generic</a>.</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="flyer">Flyers</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Some flyers.)</p>
+    <p class="dialogue-line">(They say: <i>"House of Change open! Come and see what you can do for the community, and what the community can do for you!!!"</i>)</p>
+    <p class="dialogue-line">(There's some people with sparkly eyes holding hands drawn on it.)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(haha1)</span>
+        </span>
+        Hehehe...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awkward1b)</span>
+        </span>
+        I drew those a few years ago to get people to come to the House... <br>It's a little embarrassing now.
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">ACT 1 & 2</p>
+    <p class="dialogue-line indented">(You think they look nice!)</p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 3</p>
+    <p class="dialogue-line indented">(...)</p>
+    <p class="dialogue-line indented">(One of the people she drew looks like the Head Housemaiden.)</p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 4</p>
+    <p class="dialogue-line indented">(...)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>    
+    <p class="dialogue-line">(Some flyers.)</p>
+    
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+
+<div class="dialogue">
+    <p class="dialogue-line">(Some flyers.)</p>
+    <p class="dialogue-line">(You look at the people holding hands for a bit, and keep going.)</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="barrels">Barrels</h1>
+
+<div class="dialogue">
+    <p class="dialogue-note">Interaction text is <a href="/random/barrels.html#barrel_randoms">generic</a>.</p><!--including the inaccessible one behind the chair, lol-->
+</div>
+
+<hr>
+<br>
+
+<h1 id="pillars">Pillars</h1>
+
+<div class="dialogue">
+    <p class="dialogue-note">Interaction text is <a href="/random/barrels.html#pillar_randoms">generic</a>.</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="stools">Stools</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A stool.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 5</p>
+    <p class="dialogue-line indented">(But you're fine, so it'd be a waste of time to sit down.)</p>
+
+</div>
+
+</main>
+
+<foot-er></foot-er>
+
+</div>
+
+</body>
+
+</html>
