@@ -9,6 +9,7 @@
         <script src="/bars.js" defer></script> 
     </head>
     <body>
+    <!--i don't know whose formatter did this but this page is somehow harder to read than ones with less indents /lh-->
 
         <div id="container">
 
@@ -24,7 +25,8 @@
                     <b>Due to the subject matter, this page contains referneces to suicide, self harm, and graphic violence.</b>
                 </p>
                 <p>
-                    <b>Sources:</b> Common Events 88 (MonsterDefeat), 90 (KingLose), 104 (LOOP_loopbackDialogue), 106 (GAMEOVER_Picture), 108 (GAMEOVER_Teleport), 119 (LoopBackTo?Text).
+                    <b>Sources:</b> Common Events 88 (MonsterDefeat), 90 (KingLose), 104 (LOOP_loopbackDialogue), 
+                    106 (GAMEOVER_Picture), 108 (GAMEOVER_Teleport), 119 (LoopBackTo?Text), 62 (BATTLE_StartBattle).
                 </p>
 
                 <br>
@@ -49,7 +51,7 @@
                 <li><a href="#banana">Banana</a></li>
                 <li><a href="#dagger">Dagger</a></li>
                 <li><a href="#end">The End</a></li>
-                <li><a href="friendquest">The End, Friendquest variant</a></li>
+                <li><a href="#friendquest">The End, Friendquest variant</a></li>
                 <li><a href="#king">King</a></li>
                 <li><a href="#pineapple">Pineapple</a></li>
                 <li><a href="#rock">Rock Trap</a></li>
@@ -836,8 +838,24 @@
 
                     </div>
 
-                <hr>
+            <hr>
+            <br>
 
+            <h1>Starting a battle</h1>
+            <p>At the start of the first battle you enter post-loop if you defeated the King. Plays after both the normal and friendquest variant ends.</p>
+
+            <div class="dialogue">
+
+                <p class="dialogue-line">(You managed to beat the King earlier...)</p>
+                <p class="dialogue-line">(You feel stronger.)</p>
+                <p class="dialogue-line">(You gained a lot of EXP.)</p><!--calls v286 but this can only play in act 3 onwards, no?-->
+
+                <br>
+                <p class="dialogue-note">Siffrin gains 10000 EXP.</p>
+
+            </div>
+
+            <hr>
             <br>
 
             <h1 id="king">King</h1>
@@ -1983,8 +2001,23 @@
 
                     </div>
 
-                <hr>
+            <hr>
+            <br>
 
+            <h1>Starting a battle</h1>
+            <p>At the start of the first battle you enter post-loop if the King killed you.</p>
+
+            <div class="dialogue">
+
+                <p class="dialogue-line">(You didn't manage to beat the King earlier, but you feel a little stronger.)</p>
+                <p class="dialogue-line">(You gained some EXP[!/.])</p>
+
+                <br>
+                <p class="dialogue-note">Siffrin gains 2000 EXP.</p>
+
+            </div>
+
+            <hr>
             <br>
 
             <h1 id="pineapple">Pineapple</h1>
@@ -2485,8 +2518,23 @@
 
                     </div>
 
-                <hr>
+            <hr>
+            <br>
 
+            <h1>Starting a battle</h1>
+            <p>At the start of the first battle you enter post-loop.</p>
+
+            <div class="dialogue">
+
+                <p class="dialogue-line">(A Sadness killed you earlier... But you feel a tiny bit stronger.)</p>
+                <p class="dialogue-line">(You gained a little bit of EXP[!/.])</p>
+
+                <br>
+                <p class="dialogue-note">Siffrin gains 500 EXP.</p>
+
+            </div>
+
+            <hr>
             <br>
 
             <h1 id="tears">Tears</h1>
