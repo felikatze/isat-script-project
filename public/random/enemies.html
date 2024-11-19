@@ -22,25 +22,246 @@
 <main>
 
 <h1>Enemies</h1>
-<p><b>Source:</b> Common Event 49 (EXAMINE)
-<p>Examine text for enemies. For things like stats and skills, please check out the ISATwiki instead.
+<p><b>Source:</b> 
+    Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3); 
+    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 062 (BATTLE_StartBattle), 256 (SmallEvents), 
+    305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 308 (FinalHit), 309 (FinalHit2), 310 (ReviveAct5), 
+    224 (MidBoss1), 297 (MidBoss2A), 298 (MidBoss2B), 299 (MidBoss3A1), 300 (MidBoss3A2), 301 (MidBoss3B1), 302 (MidBoss3B2), 303 (MidBoss3C1), 303 (MidBoss3C2)
+<p>All text (maybe) for all things combat.</p>
+<ul>
+    <li>For things like stats and skills, please check out the <a href="https://instarsandtime.wiki.gg">ISAT wiki</a> instead.</li>
+    <li>For the tutorial in the House, see <a href="/events/tutorial">Tutorial</a>.</li>
+    <li>For Tutorial Kid's battle, see <a href="/rooms/dormont/tutokid">their page</a>.</li>
+    <li>For the King, see <a href="/rooms/king/kingfight.html">King Fight</a> or <a href="/rooms/king/kingfight-act5.html">King Fight ACT 5</a>.</li>
+</ul>
 <p>WIP page because a friend asked for some text, teehee.</p>
 
-<!-- we could add other text, but i dont wanna rn.-->
+<!--
+ we could add other text, but i dont wanna rn.
+
+ unfortunately i am stubborn here we goooo -wren
+-->
 
 <br>
 
 <h1>Index</h1>
 
 <ul>
-    <li><a href="#a&a">Accablement & Abattement</a></li>
+    <li>
+        <a href="#generic">Generic Battle Text</a>
+        <ul>
+            <li><a href="#buffs">Buffs from Memories</a></li>
+            <li><a href="#exp">Gaining EXP from death</a></li>
+            <li><a href="#bonnie">Bonnie helps</a></li>
+            <li><a href="#tutobon">Bonnie deals the final hit</a></li>
+            <li><a href="#buttkicking">Mirabelle revives someone</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#act5">ACT 5</a>
+        <ul>
+            <li><a href="#revive5">Siffrin loops back</a></li>
+            <li><a href="#bonnie5">Bonnie "helps"</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#f1">Floor 1 Enemies</a>
+        <ul>
+            <li><a href="#mid1">Calamité</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#f2">Floor 2 Enemies</a>
+        <ul>
+            <li><a href="#mid2">Accablement & Abattement</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#f3">Floor 3 Enemies</a>
+        <ul>
+            <li><a href="#mid3">Bourdon</a></li>
+        </ul>
+    </li>
 </ul>
+
+<hr>
+<br>
+
+<h1 id="generic">Generic Battle Text</h1>
+<p>Text that can happen anywhere.</p>
+<br>
+
+<h1 id="buffs">Buffs from Memories</h1>
+<p><b>Source:</b> Common Event 062 (BATTLE_StartBattle); Skills 115 ([MEMORY_timestopshield]), 152 ([MEMORY_Start_Atk Up]), 153 ([MEMORY_Start_Def Up]), 154 ([MEMORY_Start_Agi Up])</p>
+<p>Plays at the start of battle with certain Memories equipped.</p>
+
+<div class="dialogue">
+    
+    <p class="dialogue-note">With Memory of Victory equipped</p>
+    <p class="dialogue-line indented">(Everyone feels more powerful!)</p>
+
+    <br>
+
+    <p class="dialogue-note">With Memory of Reflection equipped</p>
+    <p class="dialogue-line indented">(Everyone feels stronger!)</p>
+
+    <br>
+
+    <p class="dialogue-note">With Memory of First Strike equipped</p>
+    <p class="dialogue-line indented">(Everyone feels faster!)</p>
+
+    <br>
+
+    <p class="dialogue-note">With Memory of Change God equipped</p>
+    <p class="dialogue-line indented">(Everyone is protected!)</p>
+
+</div>
 
 <br>
 
-<h1 id="a&a">Accablement & Abattement</h1>
+<h1 id="exp">Gaining EXP from death</h1>
+<p><b>Source:</b> Common Event 062 (BATTLE_StartBattle); Troop54 (BASE TROOP)</p>
+<p>After certain deaths, you'll gain EXP next time you enter a battle. This text plays after buffs are applied but before anyone takes a turn.</p>
 
-<h2>Both alive</h2>
+<div class="dialogue">
+
+    <p class="dialogue-note">After dying to a Sadness</p>
+    <p class="dialogue-line indented">(A Sadness killed you earlier... But you feel a tiny bit stronger.)</p>
+    <p class="dialogue-line indented">(You gained a little bit of EXP[!/.])</p>
+    <br>
+    <p class="dialogue-note indented">Siffrin gains 500 EXP.</p>
+
+    <hr>
+
+    <p class="dialogue-note">After dying to the King</p>
+    <p class="dialogue-line indented">(You didn't manage to beat the King earlier, but you feel a little stronger.)</p>
+    <p class="dialogue-line indented">(You gained some EXP[!/.])</p>
+    <br>
+    <p class="dialogue-note indented">Siffrin gains 2000 EXP.</p>
+
+    <hr>
+
+    <p class="dialogue-note">After getting to the end</p>
+    <p class="dialogue-line indented">(You managed to beat the King earlier...)</p>
+    <p class="dialogue-line indented">(You feel stronger.)</p>
+    <p class="dialogue-line indented">(You gained a lot of EXP.)</p><!--calls v286 but this can only play in act 3 onwards, no?-->
+    <br>
+    <p class="dialogue-note indented">Siffrin gains 10000 EXP.</p>
+                
+</div>
+
+<br>
+
+<h1 id="bonnie">Bonnie helps</h1>
+<p><b>Source:</b> Common Event 048 (BONNIEACTION); Skills 052-059</p>
+<p>Every second turn, Bonnie will try to help.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">During the tutorial</p>
+
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(stop!2)</span>
+        </span>
+        I WANNA HELP TOO!!!
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">
+        If Memory of Bonnie, Memory of Snacks, or Memory of Promise is equipped, the game rolls a number between 1 in 3. 
+        If a 1 is rolled, Bonnie will try to take the action specified by their Memory (attacking, healing, or buffing, respectively).
+    </p>
+    <p class="dialogue-note">If not, the game rolls a number between 1 and 5.</p>
+    <!--<p class="dialogue-note indented">If a 1 is rolled, Bonnie will try to heal.</p>
+    <p class="dialogue-note indented">If a 2 is rolled or Bonnie can't heal, they'll try to buff.</p>
+    <p class="dialogue-note indented">If a 3, 4, or 5 is rolled, or Bonnie can't buff, they'll try to attack.</p>-->
+
+    <br>
+
+    <p class="dialogue-note">Bonnie will try to heal if a 1 is rolled</p>
+    <p class="dialogue-note indented">
+        If Isabeau's<!--actor(2), which is isa i think?--> <abbr title="Health Points">HP</abbr> is below 80%, Bonnie will heal the whole party by 20%. If not, they'll try to buff instead.
+    </p>
+    
+    <br>
+    
+    <p class="dialogue-line indented">(Bonnie runs in with snacks!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Bonnie will try to heal if a 2 is rolled, or if they couldn't heal</p>
+    <p class="dialogue-note indented">
+        If Bonnie has the Griddle Pan, the Wok, or the unused Saucepan equipped, 
+        they'll always try to buff <abbr title="Attack">ATK</abbr>, <abbr title="Defence">DEF</abbr>, or <abbr title="Speed">ATKSPD</abbr>, respectively.
+    </p>
+    <p class="dialogue-note indented">
+        If not, Bonnie will buff anything Siffrin is debuffed in, with the priority of <abbr title="Speed">ATKSPD</abbr> over <abbr title="Attack">ATK</abbr> over <abbr title="Defence">DEF</abbr>.
+    </p>
+    <p class="dialogue-note indented">
+        If not, a buff will be picked at random. If Siffrin already has that buff in any form, Bonnie will try to attack instead.
+    </p>
+    
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
+        <p class="dialogue-line indented">(Bonnie puffs their cheeks!)</p>
+
+        <br>
+
+        <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p>
+        <p class="dialogue-line indented">(Bonnie yells encouragement everyone's way!)</p>
+
+        <br>
+
+        <p class="dialogue-note">Buffing <abbr title="Speed">ATKSPD</abbr></p>
+        <p class="dialogue-line indented">(Bonnie runs in a circle!)</p>
+
+    </div>
+
+    <br>
+
+    <p class="dialogue-note">Bonnie will try to attack if a 3, 4, or 5 is rolled, or if they couldn't buff</p>
+    <p class="dialogue-note indented">
+        If Memory of Training is equipped, Bonnie will never miss.
+    </p>
+    <p class="dialogue-note indented">
+        If fighting against the King, Bonnie hits 70% of the time. Otherwise, they have a 50/50 chance of missing.
+    </p>
+
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-note">Without Bonnie's friendquest completed this loop</p>
+        <p class="dialogue-line indented">(Bonnie whacks the enemy!)</p>
+
+        <br>
+
+        <p class="dialogue-note">With Bonnie's friendquest completed this loop<!-- - Billion Blows Technique does four times as much damage as Thousand Blows Technique--></p>
+        <p class="dialogue-line indented">(Bonnie whacks the enemy really hard!)</p>
+
+        <br>
+
+        <p class="dialogue-note">If they missed</p>
+        <p class="dialogue-line indented">(Bonnie missed...)</p>
+
+    </div>
+
+</div>
+
+<br>
+
+<h1 id="tutobon">Bonnie deals the final hit</h1>
+<p><b>Source:</b> Common Events 308 (FinalHit), 309 (FinalHit2); Skill 058 ([Bonnie's final blow])</p>
+<p>
+    Bonnie can deal the final hit on an enemy (except the tutorial Sadnesses, Bourdon and its hands, or the King) 
+    if it has less than 5% <abbr title="Health Points">HP</abbr> left after a party member takes their turn, killing them in one hit. The first time this happens, this text plays.
+</p>
 
 <div class="dialogue">
 
@@ -49,281 +270,341 @@
             <span class="dialogue-name">Bonnie</span>
             <span class="dialogue-expression">(no!2)</span>
         </span>
-        Two of them!!!
+        AW!!! We almost got it!!!
     </p>
-
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
+            <span class="dialogue-expression">(anxious2)</span>
         </span>
-        The long-haired one looks enamored with the other... It looks like it wants to protect the short-haired one more than it wants to attack us.
+        It's very weak... A slightly stronger blow would've done it!
     </p>
-
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(fufufu1)</span>
+        </span>
+        Well, if it's weak...
+    </p>
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(brag1)</span>
         </span>
-        Ah, young love.
+        Wanna deal the final blow, Bonnie?
     </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(gimme1)</span>
-        </span>
-        We could go for the one that doesn't attack, or the one that does... It's up to you, Siffrin.
-    </p>
-
-</div>
-
-<br>
-
-<h2>Accablement sacrificed itself</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        With its dying breath, it protected its partner...
-    </p>
-
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
+            <span class="dialogue-expression">(wow1)</span>
         </span>
-        And now it's dead.
+        CAN I?!??
     </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        ...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        Hm. And how does that make you feel, Bonnie?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaaa1)</span>
-        </span>
-        Hey, m'dame...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk3)</span>
-        </span>
-        Stupid.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        It makes you feel stupid?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk2)</span>
-        </span>
-        No! I mean the SADNESS is stupid.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk1)</span>
-        </span>
-        We're gonna beat the other one now. It should've protected itself, and not another Sadness.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk1)</span>
-        </span>
-        It's stupid for protecting the other one.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk4)</span>
-        </span>
-        And the one who's being protected is stupid too!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hm5)</span>
-        </span>
-        ...
-    </p>
-
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Odile</span>
             <span class="dialogue-expression">(dotdotdot2)</span>
         </span>
-        ...
+        It IS pretty weak, so...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol3)</span>
+        </span>
+        Sure. Knock yourself out.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(stop!2)</span>
+        </span>
+        O-OKAY!!!! HERE I GO!!!!!
     </p>
 
-    <hr>
+    <br>
 
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>
-                    Without Bonnie's <a href="/acts/act3-4/bonniequest.html">Friendquest</a> completed this loop
-                </summary>
+    <img src="https://instarsandtime.wiki.gg/images/9/97/ISAT_Special_Bonnie.png" 
+    alt="Image ID: Bonnie runs forward with their frying pan at the ready and a determined expression. End ID." >
+    <!--i don't know what i'm doingggg this is the styling bonnie's friendquest cut-in uses which is to say no styling-->
 
-                <div class="dialogue">
+    <br>
 
-                    <p class="dialogue-note">
-                        If Bonnie's Friendquest has never been completed
-                    </p>
+    <p class="dialogue-line">(Bonnie deals the final blow!!!)</p>
 
-                    <p class="dialogue-line indented">
-                        (...?)
-                    </p>
+    <br>
 
-                    <br>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(UWAH1)</span>
+        </span>
+        <span class="big">YEAAAAAAAAAAAAAAAAAAAH!!!!!!!</span>
+    </p>
+    
+    <br>
 
-                    <p class="dialogue-note">
-                        If Bonnie's Friendquest has been completed, but not this loop
-                    </p>
+    <p class="dialogue-line">(You clap.)</p>
 
-                    <p class="dialogue-line indented">
-                        (Bonnie...)
-                    </p>
+    <br>
 
-                    <hr>
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaha2)</span>
+        </span>
+        Great job, Bonbon!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol2)</span>
+        </span>
+        You did good.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(excited1)</span>
+        </span>
+        What would we have done without you!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(hmf2)</span>
+        </span>
+        HMF!!!!!!!!!!!
+    </p>
+    
+    <br>
 
-                    <p class="dialogue-line">
-                        (Odile roughly ruffles Bonnie's hair.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk1)</span>
-                        </span>
-                        Mrmp.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh2)</span>
-                        </span>
-                        Stop worrying about it.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(dotdotdot1)</span>
-                        </span>
-                        Let's keep fighting, everyone.
-                    </p>
-
-                </div>
-
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>With Bonnie's Friendquest completed this loop</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(joke1)</span>
-                        </span>
-                        (...) "We can be stupid together, Bonnie."
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(surprised1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(smile3)</span>
-                        </span>
-                        Heh, I'm not stupid, YOU'RE stupid!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (Bonnie kicks your leg.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (It doesn't hurt.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You smile.)
-                    </p>
-
-                </div>
-            </details>
-        </li>
-    </ul>
+    <p class="dialogue-line">[If an enemy is close to death, your little kiddo might deal the final blow!]</p>
+    <p class="dialogue-line">[Look at them. So proud. Like a little bird who flew for the first time.]</p>
 
 </div>
 
 <br>
 
-<h2>Abattement killed Accablement</h2>
+<h1 id="buttkicking">Mirabelle revives someone</h1>
+<p><b>Source:</b> Common Events 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3); Troop54 (BASE TROOP); Skill 158 ([MEMORY_Revive])</p>
+<p>
+    With Memory of Buttkicking equipped, Mirabelle can revive someone as soon as they're knocked out. 
+    This is supposed to be able to happen once per battle, but in practice it seems to only happen once per save.
+    <!--the base troop event that revives an actor toggles Sw137 RevivedAlly to on, but nowhere seems to toggle it back off-->
+</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Reviving Siffrin</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight4)</span>
+        </span>
+        Siffrin...!!!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Reviving Isabeau</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight2)</span>
+        </span>
+        Isabeau, this is NOT the time!!!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Reviving Odile</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight4)</span>
+        </span>
+        Odile, wake up...!!!
+    </p>    
+
+    <hr>
+
+    <p class="dialogue-line">(Mirabelle brings her hands to the sky!)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="act5">ACT 5</h1>
+<p>Text that appears in battles during ACT 5.</p>
+<br>
+
+<h1 id="revive5">Siffrin loops back in ACT 5</h1>
+<p><b>Source:</b> Common Event 310 (ReviveAct5); Troop54 (BASE TROOP); Skill 187 ([Heal with timeloop])</p>
+<p>The first time Siffrin dies in battle during ACT 5, this text plays. Subsequent times, just the glitch and (You looped back.) play.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(No.)</p>
+
+    <br>
+
+    <p class="dialogue-note">Time rewinds.</p>
+
+    <br>
+
+    <p class="dialogue-line">(You looped back.)</p>
+    <p class="dialogue-line">(Get back on the stage.)</p>
+
+</div>
+
+<br>
+
+<h1 id="bonnie5">Bonnie "helps"</h1>
+<p><b>Source:</b> Common Event 048 (BONNIEACTION)</p>
+<p>Normally, Bonnie will help every other turn. During ACT 5, the first time you hit a 1 in 7 chance on their turn, this text plays.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(...)</p>
+    <p class="dialogue-line">(You wait for help that won't come.)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="f1">Floor 1 Enemies</h1>
+<p>Enemies that initially appear on the first floor.</p>
+<br>
+
+<hr>
+<br>
+
+<h1 id="f2">Floor 2 Enemies</h1>
+<p>Enemies that initially appear on the second floor.</p>
+<br>
+
+<h1 id="mid2">Accablement & Abattement</h1>
+<ul>
+    <li><a href="#mid2start">Battle start</a></li>
+    <li><a href="#mid2sac">Accablement sacrifices itself</a></li>
+    <li><a href="#mid2kill">Abattement kills Accablement</a></li>
+    <li><a href="#mid2examine">Examine</a></li>
+    <li><a href="#mid2end">Battle end</a></li>
+</ul>
+
+<br>
+
+<h2 id="mid2start">Battle Start</h2>
 
 <div class="dialogue">
 
     <p class="dialogue-line">
         <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!2)</span>
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot1)</span>
         </span>
-        It killed the other one!!!
+        Strong Sadnesses again...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(brag1)</span>
+        </span>
+        Eh, we'll be fine.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(stop!1)</span>
+        </span>
+        Let's go, go, go!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">Everyone draws their weapons, and the battle begins.</p>
+
+    <br>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(fight1)</span>
+        </span>
+        Two Sadnesses... Get ready, everyone.
+    </p>
+    
+</div>
+
+<br>
+
+<h2 id="mid2sac">Accablement sacrifices itself</h2>
+<p>After Accablement (the long-haired one) reaches 15% <abbr title="Health Points">HP</abbr>.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        The long-haired one is doing something...!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(wait1)</span>
+        </span>
+        ...!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awawa1)</span>
+        </span>
+        It... It sacrificed itself!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot1)</span>
+        </span>
+        And gave the other one more strength in the process...
+    </p>
+    
+</div>
+
+<br>
+
+<h2 id="mid2kill">Abattement kills Accablement</h2>
+<p>After Abattement (the short-haired one) reaches 30% <abbr title="Health Points">HP</abbr>.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        The short-haired one is doing something...!!!
     </p>
 
     <p class="dialogue-line">
@@ -331,42 +612,393 @@
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(huhwah1)</span>
         </span>
-        No!!! Young love, dashed into pieces!!!
+        Oh crab!!!
     </p>
-
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        It killed the other one?!?
+    </p>
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol4)</span>
+            <span class="dialogue-expression">(hm1)</span>
         </span>
-        Heh...
+        And healed itself in the process...
     </p>
+    
+</div>
+
+<br>
+
+<h2 id="mid2examine">Examine</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Both alive</p>
+
+    <div class="indented">
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(no!2)</span>
+            </span>
+            Two of them!!!
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Mirabelle</span>
+                <span class="dialogue-expression">(anxious1)</span>
+            </span>
+            The long-haired one looks enamored with the other... It looks like it wants to protect the short-haired one more than it wants to attack us.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(brag1)</span>
+            </span>
+            Ah, young love.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(gimme1)</span>
+            </span>
+            We could go for the one that doesn't attack, or the one that does... It's up to you, Siffrin.
+        </p>
+
+    </div>
+    
+    <hr>
+
+    <p class="dialogue-note">After Accablement sacrifices itself</p>
+
+    <div class="indented">
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(brag1)</span>
+            </span>
+            With its dying breath, it protected its partner...
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(serious1)</span>
+            </span>
+            And now it's dead.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sad1)</span>
+            </span>
+            ...
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(lol2)</span>
+            </span>
+            Hm. And how does that make you feel, Bonnie?
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(hahaaa1)</span>
+            </span>
+            Hey, m'dame...
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk5)</span>
+            </span>
+            . . .
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk3)</span>
+            </span>
+            Stupid.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(hm2)</span>
+            </span>
+            It makes you feel stupid?
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk2)</span>
+            </span>
+            No! I mean the SADNESS is stupid.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk1)</span>
+            </span>
+            We're gonna beat the other one now. It should've protected itself, and not another Sadness.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk1)</span>
+            </span>
+            It's stupid for protecting the other one.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(sulk4)</span>
+            </span>
+            And the one who's being protected is stupid too!
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(hm5)</span>
+            </span>
+            ...
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(dotdotdot2)</span>
+            </span>
+            ...
+        </p>
+    
+        <br>
+    
+        <ul class="dialogue-option">
+            <li>
+                <details>
+                    <summary>
+                        Without Bonnie's <a href="/acts/act3-4/bonniequest.html">Friendquest</a> completed this loop
+                    </summary>
+    
+                    <div class="dialogue">
+    
+                        <p class="dialogue-note">
+                            If Bonnie's Friendquest has never been completed
+                        </p>
+    
+                        <p class="dialogue-line indented">
+                            (...?)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-note">
+                            If Bonnie's Friendquest has been completed, but not this loop
+                        </p>
+    
+                        <p class="dialogue-line indented">
+                            (Bonnie...)
+                        </p>
+    
+                        <hr>
+    
+                        <p class="dialogue-line">
+                            (Odile roughly ruffles Bonnie's hair.)
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Bonnie</span>
+                                <span class="dialogue-expression">(sulk1)</span>
+                            </span>
+                            Mrmp.
+                        </p>
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(huh2)</span>
+                            </span>
+                            Stop worrying about it.
+                        </p>
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(dotdotdot1)</span>
+                            </span>
+                            Let's keep fighting, everyone.
+                        </p>
+    
+                    </div>
+    
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>With Bonnie's Friendquest completed this loop</summary>
+    
+                    <div class="dialogue">
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(joke1)</span>
+                            </span>
+                            (...) "We can be stupid together, Bonnie."
+                        </p>
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Bonnie</span>
+                                <span class="dialogue-expression">(surprised1)</span>
+                            </span>
+                            ...
+                        </p>
+    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Bonnie</span>
+                                <span class="dialogue-expression">(smile3)</span>
+                            </span>
+                            Heh, I'm not stupid, YOU'RE stupid!
+                        </p>
+    
+                        <br>
+    
+                        <p class="dialogue-line">
+                            (Bonnie kicks your leg.)
+                        </p>
+    
+                        <p class="dialogue-line">
+                            (It doesn't hurt.)
+                        </p>
+    
+                        <p class="dialogue-line">
+                            (You smile.)
+                        </p>
+    
+                    </div>
+                </details>
+            </li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">After Abattement kills Accablement</p>
+
+    <div class="indented">
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(no!2)</span>
+            </span>
+            It killed the other one!!!
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(huhwah1)</span>
+            </span>
+            No!!! Young love, dashed into pieces!!!
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(lol4)</span>
+            </span>
+            Heh...
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(lol3)</span>
+            </span>
+            This is what love does to you.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(brag1)</span>
+            </span>
+            Stop acting like a jaded old woman, m'dame, it doesn't suit you.
+        </p>
+    
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(laugh1)</span>
+            </span>
+            Hah!
+        </p>
+
+    </div>
+
+</div>
+
+<br>
+
+<h2 id="mid2end">Battle end</h2>
+
+<div class="dialogue">
 
     <p class="dialogue-line">
         <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol3)</span>
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
         </span>
-        This is what love does to you.
+        We won!
     </p>
-
+    
     <p class="dialogue-line">
         <span class="dialogue-head">
             <span class="dialogue-name">Isabeau</span>
             <span class="dialogue-expression">(brag1)</span>
         </span>
-        Stop acting like a jaded old woman, m'dame, it doesn't suit you.
+        Alright! One last floor to go!!!
     </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(laugh1)</span>
-        </span>
-        Hah!
-    </p>
-
+    
 </div>
+
+<hr>
+<br>
+
+<h1 id="f3">Floor 3 Enemies</h1>
+<p>Enemies that initially appear on the third floor.</p>
+<br>
 
 </main>
 
