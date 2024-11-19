@@ -22,19 +22,21 @@
 <main>
 
 <h1>Enemies</h1>
+<p>Currently a WIP.</p>
 <p><b>Source:</b> 
     Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3); 
-    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 062 (BATTLE_StartBattle), 256 (SmallEvents), 
+    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 062 (BATTLE_StartBattle), 256 (SmallEvents), 093 (MonsterCodeEntireCode), 
     305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 308 (FinalHit), 309 (FinalHit2), 310 (ReviveAct5), 
     224 (MidBoss1), 297 (MidBoss2A), 298 (MidBoss2B), 299 (MidBoss3A1), 300 (MidBoss3A2), 301 (MidBoss3B1), 302 (MidBoss3B2), 303 (MidBoss3C1), 303 (MidBoss3C2)
-<p>All text (maybe) for all things combat.</p>
+<p>All text (maybe) for all things combat. Enemies are organised by the floor they appear on in ACT 2, although any enemy can appear on any floor from ACT 3 onwards.</p>
 <ul>
     <li>For things like stats and skills, please check out the <a href="https://instarsandtime.wiki.gg">ISAT wiki</a> instead.</li>
     <li>For the tutorial in the House, see <a href="/events/tutorial">Tutorial</a>.</li>
-    <li>For Tutorial Kid's battle, see <a href="/rooms/dormont/tutokid">their page</a>.</li>
+    <li>For Tutorial Kid's battle, see <a href="/rooms/dormont/tutokid">Tutorial Kid</a>.</li>
     <li>For the King, see <a href="/rooms/king/kingfight.html">King Fight</a> or <a href="/rooms/king/kingfight-act5.html">King Fight ACT 5</a>.</li>
+    <li>For Mal du Pays' battle, see <a href="/acts/act5/maldupays">Mal du Pays</a>.</li>
+    <li>For the battle against the party, see <a href="/acts/act5/VSFriends">VS Friends</a>.</li>
 </ul>
-<p>WIP page because a friend asked for some text, teehee.</p>
 
 <!--
  we could add other text, but i dont wanna rn.
@@ -67,19 +69,28 @@
     <li>
         <a href="#f1">Floor 1 Enemies</a>
         <ul>
-            <li><a href="#mid1">Calamité</a></li>
+            <li><a href="#goomba1">Tristesse</a></li>
+            <li><a href="#triplets">Chagrin, Dépit & Peine</a></li>
+            <li><a href="#upperdowner">Amertume & Rancoeur</a></li>
+            <li><a href="#midboss1">Calamité</a></li>
         </ul>
     </li>
     <li>
         <a href="#f2">Floor 2 Enemies</a>
         <ul>
-            <li><a href="#mid2">Accablement & Abattement</a></li>
+            <li><a href="#goomba2">Détresse</a></li>
+            <li><a href="#shield">Angoisse & Deuil</a></li>
+            <li><a href="#bomb">Anxiété</a></li>
+            <li><a href="#midboss2">Accablement & Abattement</a></li>
         </ul>
     </li>
     <li>
         <a href="#f3">Floor 3 Enemies</a>
         <ul>
-            <li><a href="#mid3">Bourdon</a></li>
+            <li><a href="#goomba3">Misère</a></li>
+            <li><a href="#knots">Tourment</a></li>
+            <li><a href="#hands">Désespoir</a></li>
+            <li><a href="#midboss3">Bourdon</a></li>
         </ul>
     </li>
 </ul>
@@ -487,16 +498,542 @@
 
 <h1 id="f1">Floor 1 Enemies</h1>
 <p>Enemies that initially appear on the first floor.</p>
+<ul>
+    <li><a href="#goomba1">Tristesse</a></li>
+    <li><a href="#triplets">Chagrin, Dépit & Peine</a></li>
+    <li><a href="#upperdowner">Amertume & Rancoeur</a></li>
+    <li><a href="#midboss1">Calamité</a></li>
+</ul>
+
+<hr>
 <br>
+
+<h1 id="goomba1">Tristesse</h1>
+<p>Encounted solo, and come in all three Craft types.</p>
+
+<h2>Moves</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Idle</p>
+    <p class="dialogue-line indented">(TRISTESSE is distracted.)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-line indented">(TRISTESSE attacks!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-line indented">(TRISTESSE strikes wildly!)</p>
+
+</div>
+
+<br>
+
+<h2>Examine</h2>
+<p>This is also the Examine that plays in the <a href="/events/tutorial">tutorial</a>!</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(melan4)</span>
+        </span>
+        Remnants of the people that were defeated by the King...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(melan3)</span>
+        </span>
+        Their grief and sadness is all that remains.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(sad1)</span>
+        </span>
+        They cannot tell friend from foe anymore. Defeating them is all we can do...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(huh1)</span>
+        </span>
+        Every Sadness has a different resistance and weakness.
+        <br>Maybe there's a way to figure it out from their appearance...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(surprised1)</span>
+        </span>
+        Umm...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk5)</span>
+        </span>
+        We need to do certain hand signs when we Craft skills... So maybe we should look at their hands?
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h1 id="triplets">Chagrin, Dépit & Peine</h1>
+<p>Come in groups of three, one of each Craft type.</p>
+
+<h2>Moves</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">At the start of battle</p>
+    <p class="dialogue-note indented">The screen fades to black and wooshing sounds play. When visuals return, the Sadnesses are in a random order.</p>
+    <p class="dialogue-line indented">(The sadnesses got all mixed up[!/.])</p>
+
+    <br>
+
+    <p class="dialogue-note">Idle</p>
+    <p class="dialogue-note indented">Uses the idle text of whatever enemy you last fought.</p><!--it seems like they don't set a v345 EnemyDistract value-->
+
+    <br>
+
+    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-line indented">([CHAGRIN/DÉPIT/PEINE] attacks!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-line indented">([CHAGRIN/DÉPIT/PEINE] strikes wildly!)</p>
+
+</div>
+
+<br>
+
+<h2>Examine</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(sif!1)</span>
+        </span>
+        Triplets! Cute!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot1)</span>
+        </span>
+        They must be different somehow... If we can catch a difference, it might become easier to find their weakness.
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h1 id="upperdowner">Amertume & Rancoeur</h1>
+<p>
+    Come in a pair. 
+    Rancoeur (the top one) is Scissors type and can buff <abbr title="Attack">ATK</abbr> and <abbr title="Defence">DEF</abbr>, 
+    and Amertume (the bottom one) is Rock type and can debuff <abbr title="Attack">ATK</abbr> and <abbr title="Defence">DEF</abbr>.
+    On their first turns, Rancoeur will buff their <abbr title="Attack">ATK</abbr> and Amertume will debuff your <abbr title="Defence">DEF</abbr>.
+</p>
+
+<h2>Moves</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
+    <p class="dialogue-line indented">(RANCOEUR powers up the enemy!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p>
+    <p class="dialogue-line indented">(RANCOEUR strengthens the enemy!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr> or <abbr title="Defence">DEF</abbr></p>
+    <p class="dialogue-line indented">(You feel weaker...)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-line indented">([RANCOEUR/AMERTUME] attacks!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-line indented">([RANCOEUR/AMERTUME] strikes wildly!)</p>
+
+</div>
+
+<br>
+
+<h2>Examine</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot2)</span>
+        </span>
+        One strengthens our enemies, the other weakens us...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        It'll be bad if we let them do as they please!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(huh2)</span>
+        </span>
+        Isabeau, you have a few similar Crafts at your disposal, so...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(fight2)</span>
+        </span>
+        I'm on it! Just keep attacking, and I'll buff you guys up!
+    </p>
+    
+</div>
+
+<hr>
+<br>
+
+<h1 id="midboss1">Calamité</h1>
+<p><b>Source:</b> Map008 (BossHallway_1); Common Events 224, (Midboss1), 256 (SmallEvents)</p>
+<p>The boss at the end of Floor 1.</p>
+<ul>
+    <li><a href="#mid1start">Battle start</a></li>
+    <li><a href="#mid1change">Calamité changes type</a></li>
+    <li><a href="#mid1moves">Moves</a></li>
+    <li><a href="#mid1examine">Examine</a></li>
+    <li><a href="#mid1end">Battle end</a></li>
+</ul>
+
+<br>
+
+<h2 id="mid1start">Battle Start</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awawa1)</span>
+        </span>
+        A Sadness!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(question1)</span>
+        </span>
+        It seems to be guarding the rest of the House from us...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(stop!1)</span>
+        </span>
+        It feels strong! Stronger than those we've seen so far!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(yeah!1)</span>
+        </span>
+        Get ready, everyone!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Everyone draws their weapons, and battle begins.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        Big ball head.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(LMAO1)</span>
+        </span>
+        Big ball head!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        Wait, something's happening!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Calamité flashes the Craft sign for its randomly selected type.</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awawa1)</span>
+        </span>
+        Something appeared for a second on the big ball head!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awkward2)</span>
+        </span>
+        That was... A [Rock/Paper/Scissors] sign?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(wonder2)</span>
+        </span>
+        Does it mean something?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(awkward1)</span>
+        </span>
+        We can probably assume that's its current Craft Type...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(gimme1)</span>
+        </span>
+        If you need help, Siffrin, let me know and I'll analyze this enemy.
+    </p>
+    
+</div>
+
+<br>
+
+<h2 id="mid1change">Calamité changes type</h2>
+
+<div class="dialogue">
+    
+    <p class="dialogue-line">(The Sadness changed its Craft Type!)</p>
+
+    <br>
+
+    <p class="dialogue-note">At low <abbr title="Health Points">HP</abbr> (less than 45%)</p>
+    <p class="dialogue-line indented">(But you can't see anything...)</p>
+
+    <br>
+
+    <div class="indented">
+        <p class="dialogue-note">First time</p>
+        <p class="dialogue-line indented">(Looks like you'll have to figure out its type based on how it attacks.)</p>
+    </div>
+
+</div>
+
+<br>
+
+<h2 id="mid1moves">Moves</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-line indented">(CALAMITÉ attacks!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-line indented">(CALAMITÉ strikes wildly!)</p>
+
+    <br>
+
+    <p class="dialogue-note">Breaking resistance to its current Craft type</p>
+    <!--it says it has these as skills, but i've never seen it actually use it? maybe it's just me tho-->
+    <p class="dialogue-line indented">(CALAMITÉ casts [Rock/Paper/Scissors] Break!)</p>
+    
+</div>
+
+<br>
+
+<h2 id="mid1examine">Examine</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Normally</p>
+
+    <div class="indented">
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(stop!1)</span>
+            </span>
+            It showed a [Rock/Paper/Scissors] symbol! So it's [Rock/Paper/Scissors] type now!
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Mirabelle</span>
+                <span class="dialogue-expression">(anxious2)</span>
+            </span>
+            I'm not sure [Rock and Scissors/Paper and Rock/Paper and Scissors] attacks will work...
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(yeah!1)</span>
+            </span>
+            [Paper/Scissors/Rock] attacks it is!
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(huh2)</span>
+            </span>
+            This might be a good opportunity to build up Jackpot points, everyone.
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(lol2)</span>
+            </span>
+            Let's use the same Craft Type five times in a row!
+        </p>
+
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">At low <abbr title="Health Points">HP</abbr> (less than 45%)</p>
+
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot2)</span>
+        </span>
+        It's not advertising its new Craft Type anymore...
+    </p>
+    
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(yeah!1)</span>
+        </span>
+        Sounds like we'll have to try stuff out and see what hits!!!
+    </p>
+    
+</div>
+
+<br>
+
+<h2 id="mid1end">Battle end</h2>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious2)</span>
+        </span>
+        We did it...!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(and then1)</span>
+        </span>
+        Victory!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(doubt1)</span>
+        </span>
+        Alright, let's keep moving.
+    </p>
+    
+</div>
 
 <hr>
 <br>
 
 <h1 id="f2">Floor 2 Enemies</h1>
 <p>Enemies that initially appear on the second floor.</p>
+<ul>
+    <li><a href="#goomba2">Détresse</a></li>
+    <li><a href="#shield">Angoisse & Deuil</a></li>
+    <li><a href="#bomb">Anxiété</a></li>
+    <li><a href="#midboss2">Accablement & Abattement</a></li>
+</ul>
+
+<hr>
 <br>
 
-<h1 id="mid2">Accablement & Abattement</h1>
+<h1 id="goomba2">Détresse</h1>
+
+<hr>
+<br>
+
+<h1 id="shield">Angoisse & Deuil</h1>
+
+<hr>
+<br>
+
+<h1 id="bomb">Anxiété</h1>
+
+<hr>
+<br>
+
+<h1 id="midboss2">Accablement & Abattement</h1>
 <ul>
     <li><a href="#mid2start">Battle start</a></li>
     <li><a href="#mid2sac">Accablement sacrifices itself</a></li>
@@ -998,7 +1535,32 @@
 
 <h1 id="f3">Floor 3 Enemies</h1>
 <p>Enemies that initially appear on the third floor.</p>
+<ul>
+    <li><a href="#goomba3">Misère</a></li>
+    <li><a href="#knots">Tourment</a></li>
+    <li><a href="#hands">Désespoir</a></li>
+    <li><a href="#midboss3">Bourdon</a></li>
+</ul>
+
+<hr>
 <br>
+
+<h1 id="goomba3">Misère</h1>
+
+<hr>
+<br>
+
+<h1 id="knots">Tourment</h1>
+
+<hr>
+<br>
+
+<h1 id="hands">Désespoir</h1>
+
+<hr>
+<br>
+
+<h1 id="midboss3">Bourdon</h1>
 
 </main>
 
