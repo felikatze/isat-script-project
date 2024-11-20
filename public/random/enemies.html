@@ -22,7 +22,6 @@
 <main>
 
 <h1>Enemies</h1>
-<p>Currently a WIP.</p>
 <p><b>Source:</b> 
     Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3), Map116 (Room (Crest)<!--f1-->), Map088 (Room (Crest)<!--f2-->), Map097 (Room (Crest)<!--f1-->); 
     Common Events 049 (EXAMINE), 048 (BONNIEACTION), 062 (BATTLE_StartBattle), 265 (SmallEvents), 093 (MonsterCodeEntireCode), 
@@ -36,6 +35,8 @@
     <li>For the King, see <a href="/rooms/king/kingfight.html">King Fight</a> or <a href="/rooms/king/kingfight-act5.html">King Fight ACT 5</a>.</li>
     <li>For Mal du Pays' battle, see <a href="/acts/act5/maldupays">Mal du Pays</a>.</li>
     <li>For the battle against the party, see <a href="/acts/act5/VSFriends">VS Friends</a>.</li>
+    <li>For Loop's battle, see <a href="/rooms/loop/loopfight.html">Favor Tree, ACT 6</a>.</li>
+    <li>For the text that plays when a party member levels up, see <a href="/random/levels.html">Level Milestones</a>.</li>
 </ul>
 
 <!--
@@ -54,9 +55,10 @@
         <ul>
             <li><a href="#buffs">Buffs from Memories</a></li>
             <li><a href="#exp">Gaining EXP from death</a></li>
+            <li><a href="#buttkicking">Mirabelle revives someone</a></li>
             <li><a href="#bonnie">Bonnie helps</a></li>
             <li><a href="#tutobon">Bonnie deals the final hit</a></li>
-            <li><a href="#buttkicking">Mirabelle revives someone</a></li>
+            <li><a href="#exprecieved">Battle end</a></li>
         </ul>
     </li>
     <li>
@@ -166,9 +168,58 @@
 
 <br>
 
+<h1 id="buttkicking">Mirabelle revives someone</h1>
+<p><b>Source:</b> Common Events 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3); Troop54 (BASE TROOP); Skill 158 ([MEMORY_Revive])</p>
+<p>
+    With Memory of Buttkicking equipped, Mirabelle can revive someone as soon as they're knocked out. 
+    This is supposed to be able to happen once per battle, but in practice it seems to only happen once per save.
+    <!--the base troop event that revives an actor toggles Sw137 RevivedAlly to on, but nowhere seems to toggle it back off-->
+</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Reviving Siffrin</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight4)</span>
+        </span>
+        Siffrin...!!!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Reviving Isabeau</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight2)</span>
+        </span>
+        Isabeau, this is NOT the time!!!
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">Reviving Odile</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(fight4)</span>
+        </span>
+        Odile, wake up...!!!
+    </p>    
+
+    <hr>
+
+    <p class="dialogue-line">(Mirabelle brings her hands to the sky!)</p>
+
+</div>
+
+<br>
+
 <h1 id="bonnie">Bonnie helps</h1>
 <p><b>Source:</b> Common Event 048 (BONNIEACTION); Skills 052-059</p>
-<p>Every second turn, Bonnie will try to help.</p>
+<p>Every other turn, Bonnie will try to help.</p>
 
 <div class="dialogue">
 
@@ -274,7 +325,8 @@
 <p><b>Source:</b> Common Events 308 (FinalHit), 309 (FinalHit2); Skill 058 ([Bonnie's final blow])</p>
 <p>
     Bonnie can deal the final hit on an enemy (except the tutorial Sadnesses, Bourdon and its hands, or the King) 
-    if it has less than 5% HP left after a party member takes their turn, killing them in one hit. The first time this happens, this text plays.
+    if it has less than 5% HP left after a party member (including Bonnie themself) takes their turn, finishing it off in one hit. 
+    The first time this happens, this text plays.
 </p>
 
 <div class="dialogue">
@@ -410,50 +462,20 @@
 
 <br>
 
-<h1 id="buttkicking">Mirabelle revives someone</h1>
-<p><b>Source:</b> Common Events 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3); Troop54 (BASE TROOP); Skill 158 ([MEMORY_Revive])</p>
-<p>
-    With Memory of Buttkicking equipped, Mirabelle can revive someone as soon as they're knocked out. 
-    This is supposed to be able to happen once per battle, but in practice it seems to only happen once per save.
-    <!--the base troop event that revives an actor toggles Sw137 RevivedAlly to on, but nowhere seems to toggle it back off-->
-</p>
+<h1 id="exprecieved">Battle end</h1>
+<p>Plays at the end of battle, before closing the battle menu. For the text that plays when a party member levels up, see <a href="/random/levels.html">Level Milestones</a>.</p>
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Reviving Siffrin</p>
-    <p class="dialogue-line indented">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(fight4)</span>
-        </span>
-        Siffrin...!!!
-    </p>
+    <p class="dialogue-note">Normally</p>
+    <p class="dialogue-line indented">(You breathe in, and out.)</p>
+    <p class="dialogue-line indented">([number] EXP received[!/.])</p>
     
-    <br>
-
-    <p class="dialogue-note">Reviving Isabeau</p>
-    <p class="dialogue-line indented">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(fight2)</span>
-        </span>
-        Isabeau, this is NOT the time!!!
-    </p>
-    
-    <br>
-
-    <p class="dialogue-note">Reviving Odile</p>
-    <p class="dialogue-line indented">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(fight4)</span>
-        </span>
-        Odile, wake up...!!!
-    </p>    
-
     <hr>
 
-    <p class="dialogue-line">(Mirabelle brings her hands to the sky!)</p>
+    <p class="dialogue-note">With Memory of Family equipped</p>
+    <p class="dialogue-line indented">(You breathe in, and out.)</p>
+    <p class="dialogue-line indented">([number] EXP received. EXP doubled for everyone else.)</p>
 
 </div>
 
@@ -466,20 +488,32 @@
 
 <h1 id="revive5">Siffrin loops back in ACT 5</h1>
 <p><b>Source:</b> Common Event 310 (ReviveAct5); Troop54 (BASE TROOP); Skill 187 ([Heal with timeloop])</p>
-<p>The first time Siffrin dies in battle during ACT 5, this text plays. Subsequent times, just the glitch and (You looped back.) play.</p>
+<p>When Siffrin dies in ACT 5, the battle doesn't end. After this text plays, Siffrin is restored to full HP and any debuffs are removed.</p>
 
 <div class="dialogue">
 
-    <p class="dialogue-line">(No.)</p>
+    <p class="dialogue-note">First time</p>
+
+    <p class="dialogue-line indented">(No.)</p>
 
     <br>
 
-    <p class="dialogue-note">Time rewinds.</p>
+    <p class="dialogue-note indented">Time rewinds.</p>
 
     <br>
 
-    <p class="dialogue-line">(You looped back.)</p>
-    <p class="dialogue-line">(Get back on the stage.)</p>
+    <p class="dialogue-line indented">(You looped back.)</p>
+    <p class="dialogue-line indented">(Get back on the stage.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Subsequent times</p>
+
+    <p class="dialogue-note indented">Time rewinds.</p>
+
+    <br>
+
+    <p class="dialogue-line indented">(You looped back.)</p>
 
 </div>
 
@@ -505,6 +539,7 @@
     <li><a href="#goomba1">Tristesse</a></li>
     <li><a href="#triplets">Chagrin, Dépit & Peine</a></li>
     <li><a href="#upperdowner">Amertume & Rancoeur</a></li>
+    <li><a href="#crest1">Nostalgie</a></li>
     <li><a href="#midboss1">Calamité</a></li>
 </ul>
 
@@ -518,17 +553,21 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Idle</p>
+    <p class="dialogue-note">Idle; only in the tutorial</p>
+    <!--
+     paper and rock tuto tristesses only have does something
+     otherwise does something is rating 2 and thus out of range
+    -->
     <p class="dialogue-line indented">(TRISTESSE is distracted.)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(TRISTESSE attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets; available below 50% HP</p>
+    <p class="dialogue-note">Attacking three targets; available below 50% HP</p><!--r3 hp 0~50%-->
     <p class="dialogue-line indented">(TRISTESSE strikes wildly!)</p>
 
 </div>
@@ -605,19 +644,16 @@
     <p class="dialogue-note indented">The screen fades to black and wooshing sounds play. When visuals return, the Sadnesses are in a random order.</p>
     <p class="dialogue-line indented">(The sadnesses got all mixed up[!/.])</p>
 
-    <br>
-
-    <p class="dialogue-note">Idle</p>
-    <p class="dialogue-note indented">Uses the idle text of whatever enemy you last fought.</p><!--it seems like they don't set a v345 EnemyDistract value-->
+    <!--they have a does something r2, but not only is it out of range they don't set a enemydistract value so i kicked it off the page entirely-->
 
     <br>
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">([CHAGRIN/DÉPIT/PEINE] attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets</p><!--r3-->
     <p class="dialogue-line indented">([CHAGRIN/DÉPIT/PEINE] strikes wildly!)</p>
 
 </div>
@@ -654,35 +690,36 @@
     Come in a pair. 
     Rancoeur (the top one) is Scissors type and can buff <abbr title="Attack">ATK</abbr> and <abbr title="Defence">DEF</abbr>, 
     and Amertume (the bottom one) is Rock type and can debuff <abbr title="Attack">ATK</abbr> and <abbr title="Defence">DEF</abbr>.
-    On their first turns, Rancoeur will buff their <abbr title="Attack">ATK</abbr> and Amertume will debuff your <abbr title="Defence">DEF</abbr>.
 </p>
 
 <h2>Moves</h2>
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
+    <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr>; guaranteed first turn</p><!--atk buff usually r5, turn 1 condition has r9 making everything else out of range-->
     <p class="dialogue-line indented">(RANCOEUR powers up the enemy!)</p>
 
     <br>
 
-    <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p>
+    <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p><!--r5-->
     <p class="dialogue-line indented">(RANCOEUR strengthens the enemy!)</p>
 
     <br>
 
-    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr> or <abbr title="Defence">DEF</abbr></p>
+    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr> or <abbr title="Defence">DEF</abbr>; available every other turn starting on Amertume's third turn</p><!--r5 on turn1+2*x-->
+    <!--alledgedly def debuff is r9 turn 1 but that doesn't seem to be the case in practice? i wonder if rancoeur's turn 1 move means that amertume's first turn is "turn 2"-->
     <p class="dialogue-line indented">(You feel weaker...)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target; available every other turn for Rancoeur</p><!--r4 for amertume, r5 turn2*x for rancoeur-->
     <p class="dialogue-line indented">([RANCOEUR/AMERTUME] attacks!)</p>
 
     <br>
 
     <p class="dialogue-note">Attacking three targets</p>
-    <p class="dialogue-line indented">([RANCOEUR/AMERTUME] strikes wildly!)</p>
+    <!--r2 for both. amertume's r4 attack and turn conditional debuffs makes this in range; rancoeur's r5 attack+buffs makes it out of range-->
+    <p class="dialogue-line indented">(AMERTUME strikes wildly!)</p>
 
 </div>
 
@@ -814,17 +851,17 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(NOSTALGIE attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
     <p class="dialogue-line indented">(NOSTALGIE strikes wildly!)</p>
 	
 	<br>
 
-    <p class="dialogue-note">Healing itself; available below 40% HP</p>
+    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
     <p class="dialogue-line indented">(NOSTALGIE curls into a ball!)</p>
 
 </div>
@@ -1133,18 +1170,17 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r7 type is conditional to its current type-->
     <p class="dialogue-line indented">(CALAMITÉ attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; unused</p><!--r3, out of range-->
     <p class="dialogue-line indented">(CALAMITÉ strikes wildly!)</p>
 
     <br>
 
-    <p class="dialogue-note">Breaking resistance to its current Craft type</p>
-    <!--it says it has these as skills, but i've never seen it actually use it? maybe it's just me tho-->
+    <p class="dialogue-note">Breaking resistance to its current Craft type; unused</p><!--r3, out of range-->
     <p class="dialogue-line indented">(CALAMITÉ casts [Rock/Paper/Scissors] Break!)</p>
     
 </div>
@@ -1264,6 +1300,7 @@
     <li><a href="#goomba2">Détresse</a></li>
     <li><a href="#shield">Angoisse & Deuil</a></li>
     <li><a href="#bomb">Anxiété</a></li>
+    <li><a href="#crest2">Nostalgie</a></li>
     <li><a href="#midboss2">Accablement & Abattement</a></li>
 </ul>
 
@@ -1277,27 +1314,27 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Idle</p>
+    <p class="dialogue-note">Idle; unused</p><!--r2, out of range-->
     <p class="dialogue-line indented">(DÉTRESSE is distracted.)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(DÉTRESSE attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets; available below 50% HP (Paper and Scissors only)<!--which seems like a bug but w/e. king rock type favoritism--></p>
+    <p class="dialogue-note">Attacking three targets; available below 50% HP (always available for Rock)<!--which seems like a bug but w/e. king rock type favoritism--></p><!--r3 hp 0~50% on p+s-->
     <p class="dialogue-line indented">(DÉTRESSE strikes wildly!)</p>
 
     <br>
 
-    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr>; available above 50% HP</p>
+    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr>; unused</p><!--r2 hp 50~100%, out of range-->
     <p class="dialogue-line indented">(You feel weaker...)</p>
 	
     <br>
     
-    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr></p>
+    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr>; guaranteed every fifth turn starting on the second</p><!--r9 turn1+5*x-->
     <p class="dialogue-line indented">(You feel slower...)</p>
 
 </div>
@@ -1557,27 +1594,27 @@
 
     <br>
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5 for both-->
     <p class="dialogue-line indented">([ANGOISSE/DEUIL] attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; only with Angoisse alive</p><!--r3 for both-->
     <p class="dialogue-line indented">([ANGOISSE/DEUIL] strikes wildly!)</p>
 
     <br>
 
-    <p class="dialogue-note">Deuil healing Angoisse</p>
+    <p class="dialogue-note">Deuil healing Angoisse; only with Angoisse alive</p><!--r4-->
     <p class="dialogue-line indented">(DEUIL helps its ally!)</p>
 
     <br>
 
-    <p class="dialogue-note">Freezing one target in time</p>
+    <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
     <p class="dialogue-line indented">(DEUIL cries out!)</p>
 
     <br>
 
-    <p class="dialogue-note">Idle; only after Angoisse is killed</p>
+    <p class="dialogue-note">Idle; only after Angoisse is killed</p><!--r7 with angoisse dead-->
     <p class="dialogue-line indented">(DEUIL cries softly.)</p>
 
 </div>
@@ -1653,12 +1690,12 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">First three times</p>
+    <p class="dialogue-note">First three times</p><!--r5-->
     <p class="dialogue-line indented">(ANXIÉTÉ ticks...)</p>
 
     <br>
 
-    <p class="dialogue-note">Immediately after the third tick</p>
+    <p class="dialogue-note">Immediately after the third tick</p><!--handled by ce053 SKILL_bomb-->
     <p class="dialogue-line indented">(ANXIÉTÉ explodes!!!)</p>
 
 </div>
@@ -1790,17 +1827,17 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(NOSTALGIE attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
     <p class="dialogue-line indented">(NOSTALGIE strikes wildly!)</p>
 	
 	<br>
 
-    <p class="dialogue-note">Healing itself; available below 40% HP</p>
+    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
     <p class="dialogue-line indented">(NOSTALGIE curls into a ball!)</p>
 
 </div>
@@ -2031,37 +2068,46 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Accablement</p>
+    <p class="dialogue-note">Accablement</p><!--all moves are r8 w conditional except does something-->
 
     <div class="indented">
-        
-        <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
-        <p class="dialogue-line indented">(ACCABLEMENT powers up the enemy!)</p>
-    
+
+        <p class="dialogue-note">Accablement will idle on its first turn, then move in the order any debuff > any buff > heal Abattement.</p>
+
         <br>
-    
-        <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p>
-        <p class="dialogue-line indented">(ACCABLEMENT strengthens the enemy!)</p>
+
+        <p class="dialogue-note">Idle</p><!--r2, only move if conditionals aren't met-->
+        <p class="dialogue-line indented">(ACCABLEMENT gazes at the other Sadness.)</p>
 
         <br>
     
-        <p class="dialogue-note">Buffing <abbr title="Speed">ATKSPD</abbr></p>
-        <p class="dialogue-line indented">(ACCABLEMENT makes the enemy faster!)</p>
-    
-        <br>
-    
-        <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr> or <abbr title="Defence">DEF</abbr></p>
+        <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr> or <abbr title="Defence">DEF</abbr></p><!--turn1+3*x-->
         <p class="dialogue-line indented">(You feel weaker...)</p>
 
         <br>
     
-        <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr></p>
+        <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr></p><!--turn1+3*x-->
         <p class="dialogue-line indented">(You feel slower...)</p>
 
         <br>
+        
+        <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p><!--turn2+3*x-->
+        <p class="dialogue-line indented">(ACCABLEMENT powers up the enemy!)</p>
+    
+        <br>
+    
+        <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p><!--turn2+3*x-->
+        <p class="dialogue-line indented">(ACCABLEMENT strengthens the enemy!)</p>
 
-        <p class="dialogue-note">Idle</p>
-        <p class="dialogue-line indented">(ACCABLEMENT gazes at the other Sadness.)</p>
+        <br>
+    
+        <p class="dialogue-note">Buffing <abbr title="Speed">ATKSPD</abbr></p><!--turn2+3*x-->
+        <p class="dialogue-line indented">(ACCABLEMENT makes the enemy faster!)</p>
+    
+        <br>
+
+        <p class="dialogue-note">Accablement healing Abattement</p><!--turn3+3*x-->
+        <p class="dialogue-line indented">(ACCABLEMENT helps its ally!)</p>
 
     </div>
 
@@ -2071,17 +2117,17 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
     <div class="indented">
     
-        <p class="dialogue-note">Attacking one target</p>
+        <p class="dialogue-note">Attacking one target</p><!--r5-->
         <p class="dialogue-line indented">(ABATTEMENT attacks!)</p>
     
         <br>
     
-        <p class="dialogue-note">Attacking three targets</p>
+        <p class="dialogue-note">Attacking three targets; available every third turn</p><!--r8 turn2+3*x-->
         <p class="dialogue-line indented">(ABATTEMENT strikes wildly!)</p>
 
         <br>
     
-        <p class="dialogue-note">Freezing one target in time</p>
+        <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
         <p class="dialogue-line indented">(ABATTEMENT cries out!)</p>
 
     </div>
@@ -2457,6 +2503,7 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
     <li><a href="#goomba3">Misère</a></li>
     <li><a href="#knots">Tourment</a></li>
     <li><a href="#hands">Désespoir</a></li>
+    <li><a href="#crest3">Nostalgie</a></li>
     <li><a href="#midboss3">Bourdon</a></li>
 </ul>
 
@@ -2470,19 +2517,19 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r6-->
     <p class="dialogue-line indented">(MISÈRE attacks!)</p>
 
     <br>
 
     <br>
 
-    <p class="dialogue-note">Freezing one target in time</p>
+    <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
     <p class="dialogue-line indented">(MISÈRE cries out!)</p>
 
     <br>
     
-    <p class="dialogue-note">Idle</p>
+    <p class="dialogue-note">Idle; unused</p><!--r3, out of range-->
     <p class="dialogue-line indented">(MISÈRE stares at you.)</p>
 
 </div>
@@ -2530,18 +2577,18 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(TOURMENT attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; available below 50% HP (always available for Paper)</p><!--r3 hp 0~50%-->
     <p class="dialogue-line indented">(TOURMENT strikes wildly!)</p>
 	
 	<br>
     
-    <p class="dialogue-note">Idle; unused</p>
-    <p class="dialogue-line indented">(TOURMONT tries to untangle itself.)</p>
+    <p class="dialogue-note">Idle; unused</p><!--it's straight up a skill they don't have, but they set an enemydistract value and it made me sad so on the page it goes! poor tourment :( -->
+    <p class="dialogue-line indented">(TOURMENT tries to untangle itself.)</p>
 
 </div>
 
@@ -2616,27 +2663,32 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(DÉSESPOIR attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
     <p class="dialogue-line indented">(DÉSESPOIR strikes wildly!)</p>
 
     <br>
 
-    <p class="dialogue-note">Healing itself; available below 40% HP</p>
+    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
     <p class="dialogue-line indented">(DÉSESPOIR curls into a ball!)</p>
 
     <br>
 	
-	<p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
+	<p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr>; available every fourth turn starting on the second</p><!--r5 turn1+4*x-->
     <p class="dialogue-line indented">(DÉSESPOIR powers up the enemy!)</p>
 	
 	<br>
+
+    <p class="dialogue-note">Freezing one target in time; guaranteed every fifth turn starting on the third</p><!--r9 turn2+5*x-->
+    <p class="dialogue-line indented">(DÉSESPOIR cries out!)</p>
     
-    <p class="dialogue-note">Idle; unused</p>
+    <br>
+    
+    <p class="dialogue-note">Idle; unused</p><!--sets enemydistact but doesn't have does something-->
     <p class="dialogue-line indented">(DÉSESPOIR stares at you.)</p>
 
 </div>
@@ -2785,7 +2837,7 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
     
     <br>
 
-    <p class="dialogue-note">Nostalgie turns and notices the party. Battle begins</p>
+    <p class="dialogue-note">Nostalgie turns and notices the party. Battle begins.</p>
 
 </div>
 
@@ -2795,17 +2847,17 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target</p><!--r5-->
     <p class="dialogue-line indented">(NOSTALGIE attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
     <p class="dialogue-line indented">(NOSTALGIE strikes wildly!)</p>
 	
 	<br>
 
-    <p class="dialogue-note">Healing itself; available below 40% HP</p>
+    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
     <p class="dialogue-line indented">(NOSTALGIE curls into a ball!)</p>
 
 </div>
@@ -3049,22 +3101,22 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Attacking one target</p>
+    <p class="dialogue-note">Attacking one target; only above 50% HP</p><!--r5, out of range after getting time freeze and slow-->
     <p class="dialogue-line indented">(BOURDON attacks!)</p>
 
     <br>
 
-    <p class="dialogue-note">Attacking three targets</p>
+    <p class="dialogue-note">Attacking three targets; available every third turn</p><!--r7 turn2+3*x-->
     <p class="dialogue-line indented">(BOURDON strikes wildly!)</p>
 	
 	<br>
 
-    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr></p>
+    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr>; available below 50% HP</p><!--r7 hp 0~50%-->
     <p class="dialogue-line indented">(You feel slower...)</p>
 	
 	<br>
 
-    <p class="dialogue-note">Freezing one target in time</p>
+    <p class="dialogue-note">Freezing one target in time; available below 50% HP</p><!--r8 hp 0~50%-->
     <p class="dialogue-line indented">(BOURDON cries out!)</p>
 
 </div>
@@ -3206,6 +3258,11 @@ idk if we want separate nostalgie pages, and nostalgie's room decor seems irrele
     </p>
     
 </div>
+
+<br>
+<hr>
+
+<small>mv's attack rating and condition system is hostile to human life</small>
 
 </main>
 
