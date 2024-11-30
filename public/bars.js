@@ -546,7 +546,7 @@ function tooltipImages() {
                         case "yeah!3":
                             imageSrc = "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Excited_3.png";
                             break;
-                        case "zomg1":
+                        case "zomg":
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
                         default:
