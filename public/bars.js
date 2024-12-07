@@ -34,8 +34,8 @@ class Header extends HTMLElement {
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                     </ul>
                 </nav>
-                <nav class="navbar" id="mobnav">
-                    <ul class="vcr">
+                <nav class="navbar vcr" id="mobnav">
+                    <ul>
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/overview/acts.html">Story</a></li>
                         <li><a href="/overview/events.html">Events</a></li>
