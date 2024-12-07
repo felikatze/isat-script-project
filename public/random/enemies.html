@@ -21,10 +21,10 @@
 
 <main>
 
-<h1>Enemies</h1>
+<h1>Combat</h1>
 <p><b>Source:</b> 
     Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3), Map116 (Room (Crest)<!--f1-->), Map088 (Room (Crest)<!--f2-->), Map097 (Room (Crest)<!--f1-->); 
-    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 062 (BATTLE_StartBattle), 265 (SmallEvents), 093 (MonsterCodeEntireCode), 
+    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 054 (!!!TEXT VARIABLES), 068 (ITEM_memory of skirmish), 062 (BATTLE_StartBattle), 265 (SmallEvents), 093 (MonsterCodeEntireCode), 
     305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 308 (FinalHit), 309 (FinalHit2), 310 (ReviveAct5), 
     224 (MidBoss1), 297 (MidBoss2A), 298 (MidBoss2B), 299 (MidBoss3A1), 300 (MidBoss3A2), 301 (MidBoss3B1), 302 (MidBoss3B2), 303 (MidBoss3C1), 303 (MidBoss3C2)
 <p>All text (maybe) for all things combat. Enemies are organised by the floor they appear on in ACT 2, although any enemy can appear on any floor from ACT 3 onwards.</p>
@@ -59,6 +59,7 @@
             <li><a href="#bonnie">Bonnie helps</a></li>
             <li><a href="#tutobon">Bonnie deals the final hit</a></li>
             <li><a href="#exprecieved">Battle end</a></li>
+            <li><a href="#skirmish">Using Memory of Skirmish</a></li>
         </ul>
     </li>
     <li>
@@ -476,6 +477,60 @@
     <p class="dialogue-note">With Memory of Family equipped</p>
     <p class="dialogue-line indented">(You breathe in, and out.)</p>
     <p class="dialogue-line indented">([number] EXP received. EXP doubled for everyone else.)</p>
+
+</div>
+
+<br>
+
+<h1 id="skirmish">Using Memory of Skirmish</h1>
+<p>Plays when you use the Memory of Skirmish item in the menu.</p>
+<small>"Hey, this isn't really a battle text if it's in the menu?" Well, we had to put it somewhere!</small>
+
+<h2>Description</h2>
+<p><b>Source:</b> Common Event 054 (!!!TEXT VARIABLES)</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">ACT 1</p>
+    <p class="dialogue-line indented">Pew! Bam! Kapow! Easy-peasy!</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 2</p>
+    <p class="dialogue-line indented">Not gonna be done anytime soon.</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 3 onwards</p>
+    <p class="dialogue-line indented">Too many to count.</p>
+
+</div>
+
+<br>
+
+<h2>Usage</h2>
+<p><b>Source:</b> Common Event 068 (ITEM_memory of skirmish)</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">ACT 1</p>
+    <p class="dialogue-line indented">(You remember the battles you have fought.)</p>
+    <p class="dialogue-line indented">(Battles sure are easy, aren't they?)</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 2-4</p>
+    <div class="indented">
+        <p class="dialogue-note">First time only</p>
+        <p class="dialogue-line indented">(Battles aren't so important that you need to remember them all.)</p>
+        <br>
+        <p class="dialogue-line">(You currently have [number] memories you can use.)</p>
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 5</p>
+    <p class="dialogue-line indented"><span class="shake">(Enough!!!)</span></p>
 
 </div>
 
