@@ -75,7 +75,7 @@ class Footer extends HTMLElement {
     }
   
     connectedCallback() {
-        this.innerHTML = `<footer id="footer">The script is free to use even without attribution to me. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
+        this.innerHTML = `<footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
     }
 }
   
