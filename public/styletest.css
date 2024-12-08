@@ -76,64 +76,35 @@ button {
 
 /*class for bottom right buttons */
 
-.helper {
+#helper {
+    display: block;
     position: fixed;
-    right: 30px;
+    left: 20px;
+    bottom: 20px;
     z-index: 99;
     width: 180px;
+    font-size: 16px;
+}
+
+#helper button {
+    margin: 2px;
+    padding: 7px 0;
+    width: 100%;
+    height: 40px;
+    border: 2px solid white;
     background-color: #434343;
     color: white;
-    border-color: white;
-    border: 2px solid;
-    font-family: 'VCR_OSD_MONO';
-}
-
-/*Separate position by 40px per button*/
-
-#button1 {
-    bottom: 300px;
-}
-
-#button2 {
-    bottom: 260px;
-    font-size: 0.95em;
-}
-
-#button3 {
-    bottom: 220px;
-}
-
-#button4 {
-    bottom: 180px;
-}
-
-#button5 {
-    bottom: 140px;
-}
-
-#button6 {
-    bottom: 100px;
-}
-
-#button7 {
-    bottom: 20px;
-}
-
-#settings {
-    bottom: 60px;
-    text-align: center;
-    padding: 7px 16px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+    font-family: 'VCR_OSD_MONO';
+    text-align: center;
+    text-decoration: none;
 }
 
-.helper:hover {
+#helper button:hover {
     background-color: #6d6d6d;
-    /* Add a dark-grey background on hover */
 }
+
+
 
 hr {
     border: 1px #ffffff80 solid;
@@ -169,7 +140,7 @@ body {
     text-shadow: 1px 1px 2px white;
 }
 
-.wish2 {
+.wish-alt {
     /* same as the game */
     -webkit-text-stroke: 3px #FFF5;
 }
