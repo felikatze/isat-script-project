@@ -10,18 +10,7 @@ class Header extends HTMLElement {
         this.innerHTML = 
             `<div id="headerArea">
                 <div id="header"><img src="/header.png" alt=""></div>
-                   <details class="helper" id="settings">
-                        <summary>Settings</summary>
-                        <button onclick="toggleAnimations();" id="button1" class="helper">Toggle animations</button>
-                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
-                        <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
-                        <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
-                        <button onclick="changeFontStyle('CascadiaCode')" id="button5" class="helper">Cascadia Code</button>
-                        <button onclick="changeFontStyle('OpenDyslexic3')" id="button6" class="helper">OpenDyslexic3</button>
-                    </details>
-                    <button onclick="topFunction()" id="button7" title="Go to top" class="helper">Go to top</button>
                 <nav class="navbar" id="desknav">
-                   
                     <ul class="vcr">
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
@@ -60,6 +49,18 @@ class Header extends HTMLElement {
                         </ul>
                     </aside>
                 </div>
+            </div>
+            <div id="helper">
+                <div id="settings" style="display: none;">
+                    <button onclick="toggleAnimations();">Toggle animations</button>
+                    <button onclick="toggleExpressions();" style="font-size: 0.95em">Toggle expressions</button>
+                    <button onclick="toggleDialogue();">Toggle choices</button>
+                    <button onclick="changeFontStyle(null)">Default font</button>
+                    <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
+                    <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
+                </div>
+                <button onclick="toggleSettings();">Settings</button>
+                <button onclick="topFunction()">Go to top</button>
             </div>`
         ;
     }
@@ -178,6 +179,15 @@ window.onload = function() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+function toggleSettings() {
+    var settings = document.getElementById("settings");
+    if (settings.style.display == "none") {
+        settings.style.display = "block";
+    } else {
+        settings.style.display = "none";
+    }
 }
 
 // toggle dialogue options (details) on/ off
