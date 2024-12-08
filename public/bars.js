@@ -336,7 +336,7 @@ function disableShakeAnimation() {
 wrapAllCharacters(document.getElementsByClassName("wave"));
 
 var wavelength = 0.025; // what unit? who knows
-var waveAmplitude = 10;
+var waveAmplitude = 15;
 var waveSpeed = 0.75;
 
 function applyWaveAnimation() {
@@ -348,7 +348,9 @@ function applyWaveAnimation() {
                 children[child].classList.remove("wave-visual");
     
                 children[child].style.display = "inline-block";
-                children[child].style.animation = `${waveSpeed}s wave cubic-bezier(0.37, 0, 0.63, 1) infinite ${-child * wavelength}s alternate`;
+                // if live editing a page to change all cubic-bezier to linear this looks weird but hopefully it works fine
+                // linear is more accurate to the game (with an amplitude of 15-20ish % ?
+                children[child].style.animation = `${waveSpeed}s wave linear infinite ${-child * wavelength}s alternate`;
                 children[child].style.setProperty("--wave-amplitude", `${waveAmplitude}%`);
             }
         }
