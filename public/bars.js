@@ -10,18 +10,7 @@ class Header extends HTMLElement {
         this.innerHTML = 
             `<div id="headerArea">
                 <div id="header"><img src="/header.png" alt=""></div>
-                   <details class="helper" id="settings">
-                        <summary>Settings</summary>
-                        <button onclick="toggleAnimations();" id="button1" class="helper">Toggle animations</button>
-                        <button onclick="toggleExpressions();" id="button2" class="helper">Toggle expressions</button>
-                        <button onclick="toggleDialogue();" id="button3" class="helper">Toggle choices</button>
-                        <button onclick="changeFontStyle(null)" id="button4" class="helper">Default font</button>
-                        <button onclick="changeFontStyle('CascadiaCode')" id="button5" class="helper">Cascadia Code</button>
-                        <button onclick="changeFontStyle('OpenDyslexic3')" id="button6" class="helper">OpenDyslexic3</button>
-                    </details>
-                    <button onclick="topFunction()" id="button7" title="Go to top" class="helper">Go to top</button>
                 <nav class="navbar" id="desknav">
-                   
                     <ul class="vcr">
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                         <li><a href="/index.html">Home</a></li>
@@ -60,6 +49,19 @@ class Header extends HTMLElement {
                         </ul>
                     </aside>
                 </div>
+            </div>
+            <div id="helper">
+                <div id="settings" style="display: none;">
+                    <button onclick="changeWishStyle();">Change wish style</button>
+                    <button onclick="toggleAnimations();">Toggle animations</button>
+                    <button onclick="toggleExpressions();" style="font-size: 0.95em">Toggle expressions</button>
+                    <button onclick="toggleDialogue();">Toggle choices</button>
+                    <button onclick="changeFontStyle(null)">Default font</button>
+                    <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
+                    <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
+                </div>
+                <button onclick="toggleSettings();">Settings</button>
+                <button onclick="topFunction()">Go to top</button>
             </div>`
         ;
     }
@@ -73,7 +75,7 @@ class Footer extends HTMLElement {
     }
   
     connectedCallback() {
-        this.innerHTML = `<footer id="footer">The script is free to use even without attribution to me. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
+        this.innerHTML = `<footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
     }
 }
   
@@ -167,6 +169,13 @@ window.onload = function() {
     } else {
         if (debugMode) {console.log("animations stayed on on load!")};
     }
+
+    if (sessionStorage.getItem("wishStyle") == "alt") {
+        changeWishStyle();
+        if (debugMode) {console.log("changed wish style on load!")};
+    } else {
+        if (debugMode) {console.log("wish style stayed on load!")};
+    }
 };
 
 // Feli's Button test corner
@@ -178,6 +187,15 @@ window.onload = function() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+function toggleSettings() {
+    var settings = document.getElementById("settings");
+    if (settings.style.display == "none") {
+        settings.style.display = "block";
+    } else {
+        settings.style.display = "none";
+    }
 }
 
 // toggle dialogue options (details) on/ off
@@ -193,6 +211,32 @@ function toggleDialogue() {
         else {
             details[i].setAttribute("open", "");
             if (debugMode) {console.log("opened all dialogue options!")};
+        }
+    }
+}
+
+function changeWishStyle() {
+    var wishes = document.querySelectorAll(".wish");
+    if (wishes.length != 0) {
+        sessionStorage.setItem("wishStyle", "alt");
+        if (debugMode) {console.log("wish style alt")};
+        for (var i = 0; i < wishes.length; i++) {
+            wishes[i].classList.remove("wish");
+            wishes[i].classList.add("wish-alt");
+            if (debugMode) {console.log("changing class to alt", wishes[i])};
+        }
+    } else {
+        wishes = document.querySelectorAll(".wish-alt");
+        if (wishes.length != 0) {
+            sessionStorage.setItem("wishStyle", "default");
+            if (debugMode) {console.log("wish style default")};
+            for (var i = 0; i < wishes.length; i++) {
+                wishes[i].classList.remove("wish-alt");
+                wishes[i].classList.add("wish");
+                if (debugMode) {console.log("changing class to default", wishes[i])};
+            }
+        } else {
+            if (debugMode) {console.log("no wish text found")};
         }
     }
 }
@@ -552,7 +596,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for bonnie`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for bonnie`)};
                             break;
                     }
 
@@ -617,7 +661,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for euphrasie`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for euphrasie`)};
                             break;
                     }
 
@@ -826,7 +870,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for isabeau`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for isabeau`)};
                             break;
                     }
 
@@ -959,7 +1003,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for loop`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for loop`)};
                             break;
                     }
 
@@ -1132,7 +1176,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Mirabelle_Yelling.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for mirabelle`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for mirabelle`)};
                             break;
                     }
 
@@ -1320,7 +1364,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/5d/ISAT_Portrait_Odile_Yeah.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for odile`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for odile`)};
                             break;
                     }
 
@@ -1748,7 +1792,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/17/ISAT_Portrait_Siffrin_Yahoo_3_ACT6.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for siffrin`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for siffrin`)};
                             break;
                     }
 
@@ -1873,7 +1917,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/9/96/SASASAP_Portrait_Isabeau_Worried_4.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for fighter`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for fighter`)};
                             break;
                     }
 
@@ -1971,7 +2015,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/d/d4/SASASAP_Portrait_Mirabelle_Worried_3.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for housemaiden`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for housemaiden`)};
                             break;
                     }
 
@@ -2051,7 +2095,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/5/53/SASASAP_Portrait_Bonnie_Amazed.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for kid`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for kid`)};
                             break;
                     }
 
@@ -2116,7 +2160,7 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/1/14/SASASAP_Portrait_Odile_Worried_3.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for researcher`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for researcher`)};
                             break;
                     }
 
@@ -2175,14 +2219,14 @@ function tooltipImages() {
                             imageSrc = "https://instarsandtime.wiki.gg/images/2/28/SASASAP_Portrait_Siffrin_Surprised_2.png";
                             break;
                         default:
-                            if (debugMode) {console.log(nameElement, `expression '${expression}' not found for sapfrin`)};
+                            if (debugMode) {console.log(nameElement, `(ERROR) expression '${expression}' not found for sapfrin`)};
                             break;
                     }
 
                     break;
 
                 default: 
-                    if (debugMode) {console.log(nameElement, `'${nameElement.innerHTML}' isn't a recognized name`)};
+                    if (debugMode) {console.log(nameElement, `(ERROR) '${nameElement.innerHTML}' isn't a recognized name`)};
                     break;
             }
 
