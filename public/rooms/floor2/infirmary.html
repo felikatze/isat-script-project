@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infirmary</title>
+
+    <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    
+    <script src="/bars.js" defer></script> 
+</head>
+
+<body>
+
+<div id="container">
+
+<head-er></head-er>
+
+<main>
+
+<h1>Infirmary</h1>
+<small>Created by fairywrenss.</small>
+<p><b>Source:</b> Map091 (Infirmary), Map167 (ACT5_Infirmary)</p>
+<p>All text for the Infirmary in the dead end on Floor 2.</p>
+
+<br>
+
+<h1>Index</h1>
+
+<ul>
+    <li><a href="#enter">Entering the room</a></li>
+    <li><a href="#doll">Closet</a> (Broken Doll)</li>
+    <li><a href="#earring">Empty Bed</a> (Drop Earring)</li>
+    <li><a href="#frozen">Frozen person</a></li>
+    <li><a href="#grapejuiceforadults">Drawer</a></li>
+    <li><a href="#washurhands">Poster</a></li>
+    <li><a href="#flowers">Flowers</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#item">Items</a></li>
+    <li><a href="#cg">Change God statue</a></li>
+    <li><a href="#seats">Chair and Stool</a></li>
+    <li><a href="#beds">Empty Beds</a> (ACT 5 only)</li>
+</ul>
+
+<hr>
+<br>
+
+<h1 id="enter">Entering the room</h1>
+<p>Plays once per loop, the first time you enter the room. Doesn't play in ACT 5.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">First time</p>
+    <div class="indented">
+
+        <p class="dialogue-line">(...)</p>
+        <p class="dialogue-line">(You don't feel like there's a key there... But you could be wrong?)</p>
+        <br>
+        <p class="dialogue-note">With a chime, an X appears in the top right corner.</p>
+        <br>
+        <p class="dialogue-line">[You're not! You picked the wrong way, stardust!]</p>
+        <br>
+        <p class="dialogue-line">(Aw.)</p>
+
+    </div>
+
+    <hr>
+
+    <p class="dialogue-note">Subsequent times</p>
+    <p class="dialogue-note indented">With a chime, an X appears in the top right corner.</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="doll">Closet</h1>
+<p>For souvenir interaction, see <a href="/random/souvenirs1.html#doll">Souvenirs 1</a>.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A closet. There's a porcelain doll in it.)</p>
+    <p class="dialogue-line">(It's cracked, with half of its face missing. Someone probably threw it away.)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(sulk2)</span>
+        </span>
+        Scary.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(brag1)</span>
+        </span>
+        Looks kinda sad, doesn't it?
+    </p>
+    
+    <br>
+
+    <p class="dialogue-note">ACT 2</p>
+    <p class="dialogue-line indented">(You think it's cute!)</p>
+    <p class="dialogue-note">ACT 3 & 4</p>
+    <p class="dialogue-line indented">(You think it looks nice.)</p>
+
+    <br>
+
+    <p class="dialogue-line">(You got the BROKEN DOLL!)</p>
+    <p class="dialogue-line">(You put the doll in your pocket along with your Souvenirs.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Subsequent times, ACT 2</p>
+    <p class="dialogue-line indented">(You got the broken doll again!)</p>
+    <br>
+    <p class="dialogue-note">Subsequent times, ACT 3 & 4</p>
+    <p class="dialogue-line indented">(You got the broken doll again.)</p>
+    <br>
+    <p class="dialogue-line indented">(This doll will never see the end.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(A closet.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A closet. There's a porcelain doll in it.)</p>
+    <p class="dialogue-line">(It's cracked, with half its face missing. Someone probably threw it away.)</p>
+    <br>
+    <p class="dialogue-line">(Got the BROKEN DOLL.)</p>
+    <p class="dialogue-line">(You put the doll in your pocket along with your Souvenirs.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(You'll see the end this time, broken doll!)</p>
+    <p class="dialogue-line indented"><span class="shake">(Even if it's the last thing you do!!!)</span></p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="earring">Empty Bed</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A bed.)</p>
+    <p class="dialogue-line">(Doesn't seem very comfy.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">If you don't have the Drop Earring</p>
+
+    <div class="indented">
+
+        <p class="dialogue-line">(There's a bunch of things on the bed, like... Oh?)</p>
+
+        <br>
+
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(happy2)</span>
+            </span>
+            Earrings! Pretty!
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Odile</span>
+                <span class="dialogue-expression">(doubt1)</span>
+            </span>
+            Just one, though.
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Bonnie</span>
+                <span class="dialogue-expression">(hmf1)</span>
+            </span>
+            And it's broken, too!
+        </p>
+        
+        <p class="dialogue-line">
+            <span class="dialogue-head">
+                <span class="dialogue-name">Isabeau</span>
+                <span class="dialogue-expression">(yeah!1)</span>
+            </span>
+            I'll TAKE IT.
+        </p>
+        
+        <br>
+
+        <p class="dialogue-line">(You got the DROP EARRING!)</p>
+        <p class="dialogue-line">(You give the Drop Earring to Isabeau to equip later.)</p>
+
+    </div>
+
+    <br>
+
+    <p class="dialogue-note">If you do</p>
+    <p class="dialogue-note indented">The text for <a href="/random/generic.html#equipment">refinding equipment</a> plays.</p>
+    <br>
+    <p class="dialogue-line indented">(There's a bunch of things on the bed, but none catch your eye.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(A bed.)</p>
+    <p class="dialogue-line indented">(Doesn't seem very comfy.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+     
+<div class="dialogue">
+    
+    <p class="dialogue-line">(You look at everything that's on the bed.)</p>
+    <br>
+    <p class="dialogue-note">Time skips.</p>
+    <br>
+    <p class="dialogue-line">(...)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(A bed.)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="frozen">Frozen person</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Someone is laying on the bed, frozen in time.)</p>
+    <p class="dialogue-line">(They look like they're sleeping.)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious3)</span>
+        </span>
+        That's...!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(awkward2)</span>
+        </span>
+        Um. I don't actually know who that is.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hm2)</span>
+        </span>
+        They look Poterean, don't they? Look at those clothes.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        And they're covered in bandages.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(doubt1)</span>
+        </span>
+        A traveler, perhaps? Trying to escape from something?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(anxious3)</span>
+        </span>
+        Maybe...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(oh!1)</span>
+        </span>
+        They left their home and then went right back to Vaugarde, right to the King! And got frozen!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(hm1)</span>
+        </span>
+        Talk about bad luck...
+    </p>
+    
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(Someone is laying on the bed, frozen in time.)</p>
+    <p class="dialogue-line indented">(They look like they're sleeping.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+ 
+<div class="dialogue">
+    <p class="dialogue-line">(Someone is laying on the bed, frozen in time.)</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="grapejuiceforadults">Drawer</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A drawer with nothing on it.)</p>
+    <p class="dialogue-line">(You look inside the drawer...)</p>
+
+    <br>
+
+    <p class="dialogue-note">First time</p>
+    <p class="dialogue-line indented">(Gasp! It's a tiny bottle with a label saying "Grape Juice For Adults".)</p>
+    <p class="dialogue-note">Subsequent times</p>
+    <p class="dialogue-line indented">(It's a tiny bottle with a label saying "Grape Juice For Adults".)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(uwah!1)</span>
+        </span>
+        OH NO!!!!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(hahaha2)</span>
+        </span>
+        Oh wow, what a criminal!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(really3)</span>
+        </span>
+        They probably snuck it in.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(serious1)</span>
+        </span>
+        Can...
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        Can you not drink grape juice in an infirmary???
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(isthatso1)</span>
+        </span>
+        No, Boniface, it's against the law.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        Oh no!!!!!!!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(wonder1)</span>
+        </span>
+        Ah... Have you drank grape juice in an infirmary before, Bonnie?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy4)</span>
+        </span>
+        You know you can get severely punished for that, right?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(no!2)</span>
+        </span>
+        OH NO!!!!!!!!!!!!!!!!!
+    </p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 2</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(joke1)</span>
+        </span>
+    </p>
+    
+    <p class="dialogue-note">ACT 3</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(smiling2)</span>
+        </span>
+    </p>
+    
+    <p class="dialogue-note">ACT 4</p>
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Siffrin</span>
+            <span class="dialogue-expression">(fake1)</span>
+        </span>
+    </p>
+    
+    <p class="dialogue-option-only">"We won't tell anyone that you broke  the law."</p><!--double space sic, which i think won't render on site anyway-->
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(wait1)</span>
+        </span>
+        Wah... You promise?
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Mirabelle</span>
+            <span class="dialogue-expression">(happy2)</span>
+        </span>
+        We promise!
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(isthatso1)</span>
+        </span>
+        Yes, we promise.
+    </p>
+    
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Isabeau</span>
+            <span class="dialogue-expression">(fufufu1)</span>
+        </span>
+        We super duper promise.
+    </p>
+    
+    <br>
+
+    <p class="dialogue-line">(Isabeau pats Bonnie's head.)</p>
+
+    <br>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Bonnie</span>
+            <span class="dialogue-expression">(wait1)</span>
+        </span>
+        Aaaah... Thank you... I'm sorry I'm a criminal...
+    </p>
+
+    <p class="dialogue-line">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(lol4)</span>
+        </span>
+        Aren't we all.
+    </p>
+    
+    <hr>
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(A drawer with nothing on it.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+ 
+<div class="dialogue">
+
+    <p class="dialogue-line">(A drawer with nothing on it.)</p>
+    <p class="dialogue-line">(Inside the drawer is a tiny bottle with a label saying "Grape Juice For Adults".)</p>
+    <p class="dialogue-line">(You hate the taste of alcohol, but you take a swig anyway.)</p>
+    <p class="dialogue-line">(.&nbsp;.&nbsp;.)</p>
+    <p class="dialogue-line">(It tastes like normal, non-alcoholic grape juice.)</p>
+    <p class="dialogue-line"><span class="wave">(Hahahahahahahahahahahahahahahaha!!!!!!)</span></p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(Can't get drunk in peace around here!!!)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="washurhands">Poster</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(There's a poster on the wall.)</p>
+    <p class="dialogue-line">(It says, in big bold letters: "WASH YOUR CRABBING HANDS.")</p>
+
+    <hr>
+
+    <p class="dialogue-note">ACT 2</p>
+    <p class="dialogue-line indented">(This is why you wear gloves, haha!)</p>
+    
+    <br>
+    
+    <p class="dialogue-line indented">
+        <span class="dialogue-head">
+            <span class="dialogue-name">Odile</span>
+            <span class="dialogue-expression">(dotdotdot1)</span>
+        </span>
+        You should wash your gloves too.
+    </p>
+
+    <br>
+
+    <p class="dialogue-line indented">(Aw.)</p>
+    
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+<p>You can't actually get to the poster in ACT 5; there's a bed in the way.</p>
+ 
+<div class="dialogue">
+    <p class="dialogue-line">(There's a poster on the wall.)</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="flowers">Flowers</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Frozen flowers.)</p>
+    <p class="dialogue-line">(A little note is attached to them.)</p>
+    <p class="dialogue-line">("Get well soon so we can go PARTY!!!!!!!", with a lot of hearts.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+ 
+<div class="dialogue">
+    <p class="dialogue-line">(Frozen flowers.)</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="books">Books</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Some medical books.)</p>
+    <p class="dialogue-line">(...And a volume of "The Cursing of Château Castle", issue #10.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">After talking to <a href="/rooms/dormont/castlehouse.html">the Castle-loving One</a></p>
+    <p class="dialogue-line indented">(...Issue #10? You should remember this number.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+ 
+<div class="dialogue">
+    <p class="dialogue-line">(Some medical books.)</p>
+</div>
+
+<hr>
+<br>
+
+<h1 id="item">Items</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(Some vials.)</p>
+
+    <br>
+
+    <p class="dialogue-note">First time</p>
+    <p class="dialogue-line indented">(Let's see...)</p>
+    <p class="dialogue-note">Subsequent times</p>
+    <p class="dialogue-line indented">(You pick them up.)</p>
+
+    <br>
+
+    <p class="dialogue-line">(You got one SUPER SWEET TONIC!)</p>
+    <p class="dialogue-line">(You give it to Bonnie for safekeeping.)</p>
+
+    <hr>
+
+    <p class="dialogue-note">Repeated interaction</p>
+    <p class="dialogue-line indented">(Nothing else here.)</p>
+
+</div>
+
+<br>
+
+<h3>ACT 5</h3>
+ 
+<div class="dialogue">
+
+    <p class="dialogue-note">Interaction text is <a href="/random/generic.html#item5">generic</a>.</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="cg">Change God statue</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">Interaction text is <a href="/random/change_god_statues.html">generic</a>.</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="seats">Chair and Stool</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(A [chair/stool].)</p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 5</p>
+    <p class="dialogue-line indented">(BUT YOU'RE FINE.)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="beds">Empty Beds</h1>
+<p>These two additional empty beds are only here in ACT 5. Press X to doubt, Siffrin.</p>
+
+<div class="dialogue">
+    <p class="dialogue-line">(The same bed as always.)</p>
+</div>
+
+<hr>
+<br>
+
+</main>
+
+<foot-er></foot-er>
+
+</div>
+
+</body>
+
+</html>
