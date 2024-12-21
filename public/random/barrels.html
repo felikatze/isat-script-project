@@ -51,6 +51,7 @@
 <h1 id="barrels">Barrels</h1>
 
 <h2 id="dormont">In Dormont</h2>
+<p>Barrels in Dormont do not count towards Memory of Barrels.</p>
 
 <div class="dialogue">
     
@@ -66,45 +67,54 @@
     
 <div class="dialogue">
 
-    <ul>
-      <li>(Barrel.)</li>
-      <li>(A barrel.)</li>
-    </ul>
-    
+    <p class="dialogue-line">(It's a barrel.)</p>
+
     <br>
 
-    <ul>
-      <li>(It says on the side: "DO NOT SHAKE!!!")</li>
-      <li>(It's full of various nuts.)</li>
-      <li>(It's full of water.)</li>
-      <li>(It's full of nothing.)</li>
-    </ul>
-    
+    <p class="dialogue-note">At random</p><!--random 1..10 w/o memory | random 1..20 w/ memory-->
+    <p class="dialogue-line indented">(It says on the side: "DO NOT SHAKE!!!")</p><!--1 | 1..2-->
+    <p class="dialogue-line indented">(It's full of various nuts.)</p><!--2..4 | 3..5-->
+    <p class="dialogue-line indented">(It's full of water.)</p><!--5..7 | 6..10-->
+    <p class="dialogue-line indented">(It's full of nothing.)</p><!--8..10 | 11..15-->
+        
+    <br>
+
+    <p class="dialogue-note">1 in 5 chance with Memory of Barrels equipped</p><!-- | 16..20-->
+    <p class="dialogue-line indented">(...There's something in there[!/.])</p>
+
+    <br>
+
+    <div class="indented">
+
+        <p class="dialogue-note">At random</p>
+
+        <p class="dialogue-line indented">(You got one SUPER SWEET TONIC!)</p>
+        <p class="dialogue-line indented">(You got one SUPER SOUR TONIC!)</p>
+        <p class="dialogue-line indented">(You got two SALTY BROTHS!)</p>
+        <p class="dialogue-line indented">(You got three CRAFTED WATERS!)</p>
+
+    </div>
+
+    <br>
+
+    <p class="dialogue-line indented">(You give it to Bonnie for safekeeping.)</p>
+
     <hr>
 
-    <h4>With Memory of Barrels equipped:</h4>
-
-    <p class="dialogue-line">
-        (There's something in there!)
-    </p>
-    
-    <ul>
-      <li>(You got one SUPER SWEET TONIC!)</li> 
-      <li>(You got one SUPER SOUR TONIC!)</li>
-      <li>(You got two SALTY BROTHS!)</li> 
-      <li>(You got three CRAFTED WATERS!)</li>
-    </ul>
-
-    <p class="dialogue-line">
-        (You give it to Bonnie for safekeeping.)
-    </p>
+    <p class="dialogue-note">ACT 5</p>
+    <div class="indented">
+        <p class="dialogue-note">Floor 2</p>
+        <p class="dialogue-line indented">(Barrel.)</p>
+        <p class="dialogue-note">Elsewhere in the House</p>
+        <p class="dialogue-line indented">(A barrel.)</p>
+    </div>
     
 </div>
 
 <br>
  
 <h2 id="memory_of_barrels">Memory of Barrels</h2>
-<p>Triggers if you look at 25 barrels in the same loop.</p>
+<p>Triggers if you look at 15 barrels in the same loop, including if you already have Memory of Barrels.</p>
 
 <br>
     
@@ -205,35 +215,39 @@
 
     <hr>
     
-    <h4>First time only</h4>
+    <p class="dialogue-note">First time only</p>
 
-    <p class="dialogue-line">
-        (You just like looking into barrels, it's fun.)
-    </p>
+    <div class="indented">
+
+        <p class="dialogue-line">
+            (You just like looking into barrels, it's fun.)
+        </p>
+        
+        <p class="dialogue-line">
+            (But Isabeau's right... You could find something interesting in those...)
+        </p>
     
-    <p class="dialogue-line">
-        (But Isabeau's right... You could find something interesting in those...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You got a MEMORY OF BARRELS!)
-    </p>
+        <br>
     
-    <p class="dialogue-line">
-        (You'll always remember this.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        [If you have Memory of Barrels equipped, examining barrels might give you some cool items!.]
-    </p>
+        <p class="dialogue-line">
+            (You got a MEMORY OF BARRELS!)
+        </p>
+        
+        <p class="dialogue-line">
+            (You'll always remember this.)
+        </p>
     
-    <p class="dialogue-line">
-        [Huh?! Is that how barrels work?!? Well, I guess that's how they work now. Yay for you!]
-    </p>
+        <br>
+    
+        <p class="dialogue-line">
+            [If you have Memory of Barrels equipped, examining barrels might give you some cool items!.]
+        </p>
+        
+        <p class="dialogue-line">
+            [Huh?! Is that how barrels work?!? Well, I guess that's how they work now. Yay for you!]
+        </p>
+
+    </div>
 
 </div>
 
@@ -246,65 +260,67 @@
     
 <div class="dialogue">
 
-    <p class="dialogue-note">
-        At random:
-    </p>
+    <p class="dialogue-note">Whole pillar; at random</p>
+    <p class="dialogue-line indented">(It's a pillar.)</p>
+    <p class="dialogue-line indented">(A pillar.)</p>
+    <p class="dialogue-line indented">(That sure is a pillar.)</p>
 
     <br>
 
-    <h4>Whole:</h4>
-    
-    <ul>
-      <li>(It's a pillar.)</li>
-      <li>(A pillar.)</li>
-      <li>(That sure is a pillar.)</li>
-    </ul>
+    <p class="dialogue-note">Broken pillar; at random</p>
+    <p class="dialogue-line indented">(It's a broken pillar.)</p>
+    <p class="dialogue-line indented">(A broken pillar.)</p>
+    <p class="dialogue-line indented">(That sure is a broken pillar.)</p>
 
     <hr>
 
-    <h4>Broken:</h4>
+    <p class="dialogue-note">4 in 13 chance with Memory of Pillars equipped</p><!--weirdass probability. homestuck number-->
 
-    <p class="dialogue-note">
-        At random:
-    </p>
+    <div class="indented">
 
-    <br>
-
-    <ul>
-      <li>(It's a broken pillar.)</li>
-      <li>(A broken pillar.)</li>
-      <li>(That sure is a broken pillar.)</li>
-    </ul>
-
-    <hr>
-
-    <h4>With Memory of Pillars equipped:</h4>
-
-    <p class="dialogue-line">
+        <p class="dialogue-line">
         (...There's something inside?)
-    </p>
-    
-    <br>
+        </p>
 
-    <ul>
-      <li>(You got one SUPER SOUR TONIC!)</li>
-      <li>(You got one PEPPER JUICE!)</li>
-      <li>(You got one GINGER JUICE!)</li>
-      <li>(You got one THYME JUICE!)</li>
-    </ul>
-    
-    <br>
+        <br>
 
-    <p class="dialogue-line">
+        <p class="dialogue-note">At random</p><!--random 1..10-->
+        <p class="dialogue-line indented">(You got one SUPER SOUR TONIC!)</p><!--1-->
+        <p class="dialogue-line indented">(You got one PEPPER JUICE!)</p><!--2..4-->
+        <p class="dialogue-line indented">(You got one GINGER JUICE!)</p><!--5..7-->
+        <p class="dialogue-line indented">(You got one THYME JUICE!)</p><!--8..10-->
+
+        <br>
+
+        <p class="dialogue-line">
         (You give it to Bonnie for safekeeping.)
-    </p>
+        </p>
 
+    </div>
+    
+    <hr>
+
+    <p class="dialogue-note">ACT 5</p>
+    <div class="indented">
+
+        <p class="dialogue-note">Whole pillar; Floor 2</p>
+        <p class="dialogue-line indented">(Pillar.)</p>
+        <p class="dialogue-note">Whole pillar; elsewhere in the House</p>
+        <p class="dialogue-line indented">(A pillar.)</p>
+        <br>
+        <p class="dialogue-note">Broken pillar; Floor 2</p>
+        <p class="dialogue-line indented">(Broken pillar.)</p>
+        <p class="dialogue-note">Broken pillar; elsewhere in the House</p>
+        <p class="dialogue-line indented">(A broken pillar.)</p>
+
+    </div>
+    
 </div>
 
 <br>
 
 <h2 id="memory_of_pillars">Memory of Pillars</h2>
-<p>Triggers if you look at 25 pillars in the same loop.</p>
+<p>Triggers if you look at 25 pillars in the same loop, including if you already have Memory of Pillars.</p>
 
 <br>
     
@@ -328,35 +344,39 @@
 
     <hr>
     
-    <h4>First time only</h4>
+    <p class="dialogue-note">First time</p>
 
-    <p class="dialogue-line">
-        (But what if one of those columns hides another switch?!?! You just can't take the chance.)
-    </p>
+    <div class="indented">
+
+        <p class="dialogue-line">
+            (But what if one of those columns hides another switch?!?! You just can't take the chance.)
+        </p>
+        
+        <p class="dialogue-line">
+            (And if not switches... They might have SOMETHING in them.)
+        </p>
     
-    <p class="dialogue-line">
-        (And if not switches... They might have SOMETHING in them.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You got a MEMORY OF PILLARS!)
-    </p>
+        <br>
     
-    <p class="dialogue-line">
-        (You'll always remember this.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        [If you have Memory of Pillars equipped, examining pillars might give you some cool items!]
-    </p>
+        <p class="dialogue-line">
+            (You got a MEMORY OF PILLARS!)
+        </p>
+        
+        <p class="dialogue-line">
+            (You'll always remember this.)
+        </p>
     
-    <p class="dialogue-line">
-        [Which is a little weird, I gotta say. Why would you find stuff in them? I don't get it, but that's how the world works now. Yay?]
-    </p>
+        <br>
+    
+        <p class="dialogue-line">
+            [If you have Memory of Pillars equipped, examining pillars might give you some cool items!]
+        </p>
+        
+        <p class="dialogue-line">
+            [Which is a little weird, I gotta say. Why would you find stuff in them? I don't get it, but that's how the world works now. Yay?]
+        </p>
+
+    </div>
 
 </div>
 
