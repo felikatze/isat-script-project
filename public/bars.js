@@ -312,6 +312,7 @@ function applySettings() {
 ////////////////////////////////////////////////////////////////////////////////
 
 window.onload = function() {
+    updateButtonsPosition();
     applySettings();
     tooltipImages();
 };
@@ -363,6 +364,18 @@ function wrapAllCharacters(elements) {
         wrapCharacters(element)
     })
 }
+
+function updateButtonsPosition() {
+    if (window.innerWidth < 992) {
+        var targetRect = document.querySelector("header").getBoundingClientRect();
+        document.querySelector("help-er").style.top = Math.max(targetRect.bottom + 20, 20) + "px";
+    } else {
+        document.querySelector("help-er").style.top = ""
+    }
+}
+
+window.onscroll = updateButtonsPosition;
+window.onresize = updateButtonsPosition;
 
 
 
