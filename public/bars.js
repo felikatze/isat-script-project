@@ -22,14 +22,14 @@ class Header extends HTMLElement {
     constructor() {
         super();
     }
-  
+
     connectedCallback() {
-        this.innerHTML = 
+        this.innerHTML =
             `<div id="headerArea">
                 <div id="header"><img src="/header.png" alt=""></div>
                 <nav class="navbar" id="desknav">
                     <ul class="vcr">
-                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                        <li><img src="/Craft.png" alt="" width="32"></li>
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/overview/acts.html">Story</a></li>
                         <li><a href="/overview/events.html">Events</a></li>
@@ -37,7 +37,7 @@ class Header extends HTMLElement {
                         <li><a href="/overview/random.html">Random</a></li>
                         <li><a href="/overview/sasasap.html">START AGAIN</a></li>
                         <li><a href="/thanks.html">Special Thanks</a></li>
-                        <li><img src="/Craft.png" alt="" width="32" class="head"></li>
+                        <li><img src="/Craft.png" alt="" width="32"></li>
                     </ul>
                 </nav>
                 <nav class="navbar vcr" id="mobnav">
@@ -69,15 +69,15 @@ class Header extends HTMLElement {
             </div>
             <div id="helper">
                 <div id="settings" style="display: none;">
-                    <button onclick="changeWishStyle();">Change wish style</button>
-                    <button onclick="toggleAnimations();">Toggle animations</button>
-                    <button onclick="toggleExpressions();" style="font-size: 0.95em">Toggle expressions</button>
-                    <button onclick="toggleChoices();">Toggle choices</button>
+                    <button onclick="changeWishStyle()">Change wish style</button>
+                    <button onclick="toggleAnimations()">Toggle animations</button>
+                    <button onclick="toggleExpressions()" style="font-size: 0.95em">Toggle expressions</button>
+                    <button onclick="toggleChoices()">Toggle choices</button>
                     <button onclick="changeFontStyle(null)">Default font</button>
                     <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
                     <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
                 </div>
-                <button onclick="toggleSettings();">Settings</button>
+                <button onclick="toggleSettings()">Settings</button>
                 <button onclick="topFunction()">Go to top</button>
             </div>`
         ;
@@ -88,14 +88,14 @@ class Footer extends HTMLElement {
     constructor() {
         super();
     }
-  
+
     connectedCallback() {
         this.innerHTML = `<footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
     }
 }
 
-customElements.define('head-er', Header);
-customElements.define('foot-er', Footer);
+customElements.define("head-er", Header);
+customElements.define("foot-er", Footer);
 
 
 
@@ -110,16 +110,16 @@ function changeFontStyle(fontFamily) {
     // writes current fontFamily into sessionStorage / removes it if the font was already set or fontFamily is null
     // pass fontFamily = null to reset to default
     var change;
-    var elements = document.querySelectorAll('body, body *:not(script)');
+    var elements = document.querySelectorAll("body, body *:not(script)");
 
-    var isSetOrNull = elements[0].style.fontFamily == fontFamily || !fontFamily || fontFamily == 'null';
+    var isSetOrNull = elements[0].style.fontFamily == fontFamily || !fontFamily || fontFamily == "null";
 
     if(!isSetOrNull) {
-        sessionStorage.setItem('font', fontFamily);
+        sessionStorage.setItem("font", fontFamily);
         change = (element) => element.style.fontFamily = fontFamily;
     }
     else {
-        sessionStorage.removeItem('font');
+        sessionStorage.removeItem("font");
         change = (element) => element.style.fontFamily = null;
     }
 
@@ -171,7 +171,7 @@ function toggleExpressions(state = null) {
 
 function toggleChoices(state = null) {
     // toggle dialogue options (details) on/off
-    document.querySelectorAll('details').forEach(function(details) {
+    document.querySelectorAll("details").forEach(function(details) {
         if (state == false || state == null && details.open == true) {
             details.removeAttribute("open");
         } else if (state == true || state == null && details.open != true) {
@@ -258,7 +258,7 @@ function disableWaveAnimation() {
 }
 
 function applySettings() {
-    var font = sessionStorage.getItem('font');
+    var font = sessionStorage.getItem("font");
     if (!!font) {
         changeFontStyle(font);
     }
@@ -325,7 +325,7 @@ function wrapCharacters(element) {
         } else if (child.nodeType === 3) {
             var d_ = document.createDocumentFragment();
             for (var i = 0, len = child.nodeValue.length; i < len; i++) {
-                var span = document.createElement('span');
+                var span = document.createElement("span");
                 span.innerHTML = child.nodeValue.charAt(i);
                 d_.appendChild(span);
             }
@@ -2054,7 +2054,7 @@ function tooltipImages() {
                     }
 
                     break;
-                
+
                 case "Researcher":
                     if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is researcher`, expression)};
 
@@ -2119,7 +2119,7 @@ function tooltipImages() {
                     }
 
                     break;
-                
+
                 case "Sapfrin":
                     if (debugMode) {console.log(dialogueHeads[headIndex], `head ${headIndex} is sapfrin`, expression)};
 
@@ -2179,7 +2179,7 @@ function tooltipImages() {
 
                     break;
 
-                default: 
+                default:
                     if (debugMode) {console.log(nameElement, `(ERROR) '${nameElement.innerHTML}' isn't a recognized name`)};
                     break;
             }
