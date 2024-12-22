@@ -1,217 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST</title>
-
     <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml"
-        title="ISAT Script RSS Feed!">
-
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
     <script src="/bars.js" defer></script>
-
 </head>
 
 <body>
+        
+    <help-er>
+        <div id="settings" style="display: none;">
+            <button onclick="changeWishStyle()">Change wish style</button>
+            <button onclick="toggleAnimations()">Toggle animations</button>
+            <button onclick="toggleExpressions()" style="font-size: 0.95em">Toggle expressions</button>
+            <button onclick="toggleChoices()">Toggle choices</button>
+            <button onclick="changeFontStyle(null)">Default font</button>
+            <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
+            <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
+        </div>
+        <button onclick="toggleSettings()">Settings</button>
+        <button onclick="topFunction()">Go to top</button>
+    </help-er>
+
     <div id="container">
 
-        <head-er></head-er>
+        <head-er>
+            <header>
+                <img src="/header.png" alt="">
+                <nav>
+                    <img src="/Craft.png" alt="">
+                    <span><a href="/index.html">Home</a></span>
+                    <span><a href="/overview/acts.html">Story</a></span>
+                    <span><a href="/overview/events.html">Events</a></span>
+                    <span><a href="/overview/rooms.html">Rooms</a></span>
+                    <span><a href="/overview/random.html">Random</a></span>
+                    <span><a href="/overview/sasasap.html">START AGAIN</a></span>
+                    <span><a href="/thanks.html">Special Thanks</a></span>
+                    <img src="/Craft.png" alt="">
+                </nav>
+            </header>
+        </head-er>
 
-        <main>
-
-            <h1>This is a test page. Please leave.</h1>
-
-            <p class="dialogue-note">
-                This is a test note.
-            </p>
-
-            <div class="dialogue">
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Loop</span>
-                        <span class="dialogue-expression">(teehee2)</span>
-                    </span>
-                    This is a test dialogue~ <del>adhjgkdsflhgkdfsghkjdfz</del>
+        <div id="center">
+            <side-bar>
+                <aside>
+                    <h2>The <abbr title="In Stars and Time">ISAT</abbr> Script</h2>
+                    <ul>
+                        <li>
+                            <a href="/about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="/feed.xml">RSS Feed</a>
+                        </li>
+                        <li>
+                            <a href="/portraits">Dialogue portrait names</a>
+                        </li>
+                        <li>
+                            Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">GitHub</a>!
+                        </li>
+                        <li>
+                            For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr</a>.
+                        </li>
+                    </ul>
+                </aside>
+            </side-bar>
+    
+            <main>
+    
+                <h1>This is a test page. Please leave.</h1>
+    
+                <p class="dialogue-note">
+                    This is a test note.
                 </p>
-
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Siffrin</span>
-                        <span class="dialogue-expression">(what1)</span>
-                    </span>
-                    "A test for what?"
-                </p>
-
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Loop</span>
-                        <span class="dialogue-expression">(oh my1)</span>
-                    </span>
-                    Wouldn't you like to know, weather boy?
-                </p>
-
-                <br>
-
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Siffrin</span>
-                        <span class="dialogue-expression">(what1)</span>
-                    </span>
-                    (What is Loop talking about.)
-                </p>
-
-                <ul class="dialogue-option">
-                    <li>
-                        <details>
-                            <summary>
-                                "What the fuck are you talking about."
-                            </summary>
-                            <div class="dialogue">
-                                <p class="dialogue-line">
-                                    <span class="dialogue-head">
-                                        <span class="dialogue-name">Loop</span>
-                                        <span class="dialogue-expression">(lol2)</span>
-                                    </span>
-                                    I wink at the camera.
-                                </p>
-
-                                <br>
-
-                                <p class="dialogue-line">
-                                    (Loop winks at nothing.)
-                                </p>
-
-                                <br>
-
-                                <p class="dialogue-line">
-                                    <span class="dialogue-head">
-                                        <span class="dialogue-name">Siffrin</span>
-                                        <span class="dialogue-expression">(yelling4)</span>
-                                    </span>
-                                    <span class="big">"WHAT THE HELL'S A CAMERA???"</span>
-                                </p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>(Stay silent.)</summary>
-                            <div class="dialogue">
-
-                                <p class="dialogue-line">
-                                    <span class="dialogue-head">
-                                        <span class="dialogue-name">Loop</span>
-                                        <span class="dialogue-expression">(teehee2)</span>
-                                    </span>
-                                    My my, struck speechless, are you?
-                                </p>
-
-                                <br>
-
-                                <p class="dialogue-line">
-                                    (You flip them off.)
-                                </p>
-
-                                <p class="dialogue-line">
-                                    (They laugh.)
-                                </p>
-                            </div>
-                        </details>
-                    </li>
-                </ul>
-
-                <hr>
-
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Siffrin</span>
-                        <span class="dialogue-expression">(what1)</span>
-                    </span>
-                    (Example thoughts.)
-                </p>
-
-                <ul class="dialogue-option">
-                    <li>
-                        <details>
-                            <summary>Option 1</summary>
-                            <div class="dialogue">
-                                Text.
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Option 2</summary>
-                            <div class="dialogue">
-                                Text.
-                            </div>
-                        </details>
-                    </li>
-                </ul>
-
-                <br>
-
-                <p class="dialogue-line">
-                    <span class="dialogue-head">
-                        <span class="dialogue-name">Loop</span>
-                        <span class="dialogue-expression">(teehee2)</span>
-                    </span>
-                    That's weird to say, stardust~
-                </p>
-
-                <button onclick="toggleDialogue();">Toggle choices</button>
-
-                <ul class="dialogue-option">
-                    <li>
-                        <details>
-                            <summary>Testing, testing~</summary>
-
-                            <div class="dialogue">
-                                <p class="dialogue-line">
-                                    All systems go?
-                                </p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Hello, hello? Can you read me?</summary>
-
-                            <div class="dialogue">
-                                <p class="dialogue-line">
-                                    What's cookin', good lookin'?
-                                </p>
-                            </div>
-                        </details>
-                    </li>
-                </ul>
-
-            </div>
-
-            <pre>
-function toggleDialogue() {
-const details = document.querySelector('details:not(#settings)');
-
-    if (details.open === true) {
-    details.removeAttribute("open", "");
+    
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(teehee2)</span>
+                        </span>
+                        This is a test dialogue~ <del>adhjgkdsflhgkdfsghkjdfz</del>
+                    </p>
+    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(what1)</span>
+                        </span>
+                        "A test for what?"
+                    </p>
+    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(oh my1)</span>
+                        </span>
+                        Wouldn't you like to know, weather boy?
+                    </p>
+    
+                    <br>
+    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(what1)</span>
+                        </span>
+                        (What is Loop talking about.)
+                    </p>
+    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>
+                                    "What the fuck are you talking about."
+                                </summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(lol2)</span>
+                                        </span>
+                                        I wink at the camera.
+                                    </p>
+    
+                                    <br>
+    
+                                    <p class="dialogue-line">
+                                        (Loop winks at nothing.)
+                                    </p>
+    
+                                    <br>
+    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Siffrin</span>
+                                            <span class="dialogue-expression">(yelling4)</span>
+                                        </span>
+                                        <span class="big">"WHAT THE HELL'S A CAMERA???"</span>
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Stay silent.)</summary>
+                                <div class="dialogue">
+    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(teehee2)</span>
+                                        </span>
+                                        My my, struck speechless, are you?
+                                    </p>
+    
+                                    <br>
+    
+                                    <p class="dialogue-line">
+                                        (You flip them off.)
+                                    </p>
+    
+                                    <p class="dialogue-line">
+                                        (They laugh.)
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+    
+                    <hr>
+    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(what1)</span>
+                        </span>
+                        (Example thoughts.)
+                    </p>
+    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>Option 1</summary>
+                                <div class="dialogue">
+                                    Text.
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Option 2</summary>
+                                <div class="dialogue">
+                                    Text.
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+    
+                    <br>
+    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(teehee2)</span>
+                        </span>
+                        That's weird to say, stardust~
+                    </p>
+    
+                    <button onclick="toggleDialogue();">Toggle choices</button>
+    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>Testing, testing~</summary>
+    
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        All systems go?
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Hello, hello? Can you read me?</summary>
+    
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        What's cookin', good lookin'?
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+                <pre>
+    function toggleDialogue() {
+    const details = document.querySelector('details:not(#settings)');
+    
+        if (details.open === true) {
+        details.removeAttribute("open", "");
+        }
+        else {
+            details.setAttribute("open", "");
+        }
     }
-    else {
-        details.setAttribute("open", "");
-    }
-}
-            </pre>
+                </pre>
+    
+                <p>TEST</p>
+    
+            </main>
+        </div>
 
-            <p>TEST</p>
-
-        </main>
-
-        <foot-er></foot-er>
+        <foot-er>
+            <footer>
+                The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.
+            </footer>
+        </foot-er>
 
     </div>
 
 </body>
-
 </html>

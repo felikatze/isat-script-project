@@ -106,8 +106,19 @@ class Footer extends HTMLElement {
     }
 }
 
-customElements.define("head-er", Header);
-customElements.define("foot-er", Footer);
+class Sidebar extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML =
+        ``
+    }
+}
+
+// customElements.define("head-er", Header);
+// customElements.define("foot-er", Footer);
 
 
 
