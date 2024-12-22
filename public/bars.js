@@ -1,5 +1,22 @@
-debugMode = false;
-// change this to true and check console for debug logs!
+////////////////////////////////////////////////////////////////////////////////
+//                                  variables                                 //
+////////////////////////////////////////////////////////////////////////////////
+
+debugMode = true; // change this to true and check console for debug logs!
+var animationToggle;
+var wavelength = 0.025;
+var waveAmplitude = 15;
+var waveSpeed = 0.75;
+var shakeMagnitude = 5;
+var shakeSpeed = 0.2;
+var shakeUnit = "%";
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//                               custom elements                              //
+//                              (header / footer)                             //
+////////////////////////////////////////////////////////////////////////////////
 
 class Header extends HTMLElement {
     constructor() {
@@ -55,7 +72,7 @@ class Header extends HTMLElement {
                     <button onclick="changeWishStyle();">Change wish style</button>
                     <button onclick="toggleAnimations();">Toggle animations</button>
                     <button onclick="toggleExpressions();" style="font-size: 0.95em">Toggle expressions</button>
-                    <button onclick="toggleDialogue();">Toggle choices</button>
+                    <button onclick="toggleChoices();">Toggle choices</button>
                     <button onclick="changeFontStyle(null)">Default font</button>
                     <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
                     <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
@@ -66,9 +83,7 @@ class Header extends HTMLElement {
         ;
     }
 }
-  
-customElements.define('head-er', Header);
-  
+
 class Footer extends HTMLElement {
     constructor() {
         super();
@@ -78,23 +93,24 @@ class Footer extends HTMLElement {
         this.innerHTML = `<footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
     }
 }
-  
+
+customElements.define('head-er', Header);
 customElements.define('foot-er', Footer);
 
 
-// for questions, ask riu, cuz she made all of this, lmao. I have no idea how it works. -Feli //
 
-// function to change Fonts
-// parameter: string fontFamily = name of the font you want to change the document to
-// appends style = "font-family: fontFamily" to almost all elements in the body + the body itself
-// writes current fontFamily into sessionStorage / removes it if the font was already set or fontFamily is null
-// pass fontFamily = null to reset to default
-
-
+////////////////////////////////////////////////////////////////////////////////
+//                            changers and toggles                            //
+////////////////////////////////////////////////////////////////////////////////
 
 function changeFontStyle(fontFamily) {
+    // function to change Fonts
+    // parameter: string fontFamily = name of the font you want to change the document to
+    // appends style = "font-family: fontFamily" to almost all elements in the body + the body itself
+    // writes current fontFamily into sessionStorage / removes it if the font was already set or fontFamily is null
+    // pass fontFamily = null to reset to default
     var change;
-    var elements = document.querySelectorAll('body,body *:not(script)');
+    var elements = document.querySelectorAll('body, body *:not(script)');
 
     var isSetOrNull = elements[0].style.fontFamily == fontFamily || !fontFamily || fontFamily == 'null';
 
@@ -110,34 +126,79 @@ function changeFontStyle(fontFamily) {
     elements.forEach(element => change(element));
 }
 
-// gold's expressions toggle code
-function toggleExpressions() {
-    var things = document.getElementsByClassName("dialogue-expression");
-
-    for(var i = 0; i < things.length; i++) {
-        if (things[i].style.display === "none") {
-            things[i].style.display = "inline-flex";
-            sessionStorage.setItem("expressionsToggle", "on");
-            if (debugMode) {console.log("expressions on!")};
+function changeWishStyle() {
+    var wishes = document.querySelectorAll(".wish");
+    if (wishes.length != 0) {
+        wishes.forEach(function(wish) {
+            wish.classList.remove("wish");
+            wish.classList.add("wish-alt");
+        })
+        sessionStorage.setItem("wishStyle", "alt");
+        if (debugMode) {console.log("wish style alt")};
+    } else {
+        wishes = document.querySelectorAll(".wish-alt");
+        if (wishes.length != 0) {
+            wishes.forEach(function(wish) {
+                wish.classList.remove("wish-alt");
+                wish.classList.add("wish");
+            })
+            sessionStorage.setItem("wishStyle", "default");
+            if (debugMode) {console.log("wish style default")};
         } else {
-            things[i].style.display = "none";
-            sessionStorage.setItem("expressionsToggle", "off");
-            if (debugMode) {console.log("expressions off!")};
+            if (debugMode) {console.log("no wish text found")};
         }
     }
 }
-// end gold's expressions toggle code
 
-var animationToggle;
+function toggleExpressions(state = null) {
+    document.querySelectorAll(".dialogue-expression").forEach(function(expression){
+        if (state == true || state == null && expression.style.display == "none") {
+            expression.style.display = "inline-flex";
+            sessionStorage.setItem("expressionsToggle", "on");
+        } else if (state == false || state == null && expression.style.display != "none") {
+            expression.style.display = "none";
+            sessionStorage.setItem("expressionsToggle", "off");
+        }
+    })
+    if (debugMode) {
+        if (sessionStorage.getItem("expressionsToggle") == "on") {
+            console.log("expressions on!");
+        } else {
+            console.log("expressions off!");
+        }
+    }
+}
 
-function toggleAnimations() {
-    if (animationToggle == "off") {
+function toggleChoices(state = null) {
+    // toggle dialogue options (details) on/off
+    document.querySelectorAll('details').forEach(function(details) {
+        if (state == false || state == null && details.open == true) {
+            details.removeAttribute("open");
+        } else if (state == true || state == null && details.open != true) {
+            details.setAttribute("open", "");
+        }
+    })
+}
+
+function toggleSettings(state = null) {
+    var settings = document.getElementById("settings");
+    if (state == true || state == null && settings.style.display == "none") {
+        settings.style.display = "block";
+    } else if (state == false || state == null && settings.style.display != "none") {
+        settings.style.display = "none";
+    }
+}
+
+// // //                           animations                           // // //
+
+function toggleAnimations(state = null) {
+    if (state == true || state == null && animationToggle == "off") {
         animationToggle = "on";
         applyShakeAnimation();
         applyWaveAnimation();
         sessionStorage.setItem("animationToggle", "on");
         if (debugMode) {console.log("animations on!")};
-    } else {
+    } else if (state == false || state == null && animationToggle != "off") {
         animationToggle = "off";
         disableShakeAnimation();
         disableWaveAnimation();
@@ -147,10 +208,56 @@ function toggleAnimations() {
     return animationToggle;
 }
 
-window.onload = function() {
+function applyShakeAnimation() {
+    var elements = document.querySelectorAll(".shake span");
 
-    tooltipImages();
+    elements.forEach(function(span) {
+        if (!(/\s/g.test(span.innerHTML))) {
+            span.classList.remove("shake-visual");
 
+            span.style.display = "inline-block"
+            span.style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
+
+            span.style.setProperty("--shake-state-1",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+            span.style.setProperty("--shake-state-2",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+            span.style.setProperty("--shake-state-3",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
+        }
+    })
+}
+
+function disableShakeAnimation() {
+    var elements = document.querySelectorAll(".shake span");
+
+    elements.forEach(function(span) {
+        if (!(/\s/g.test(span.innerHTML))) {
+            span.classList.add("shake-visual");
+            span.style.animation = "none";
+        }
+    })
+}
+
+function applyWaveAnimation() {
+    document.querySelectorAll(".wave span").forEach(function(span, index) {
+        if (!(/\s/g.test(span.innerHTML))) {
+            span.classList.remove("wave-visual");
+
+            span.style.display = "inline-block"
+            span.style.animation = `${waveSpeed}s wave linear infinite ${-index * wavelength}s alternate`;
+            span.style.setProperty("--wave-amplitude", `${waveAmplitude}%`)
+        }
+    })
+}
+
+function disableWaveAnimation() {
+    document.querySelectorAll(".wave span").forEach(function(span) {
+        if (!(/\s/g.test(span.innerHTML))) {
+            span.classList.add("wave-visual");
+            span.style.animation = "none";
+        }
+    })
+}
+
+function applySettings() {
     var font = sessionStorage.getItem('font');
     if (!!font) {
         changeFontStyle(font);
@@ -159,110 +266,57 @@ window.onload = function() {
     if (sessionStorage.getItem("expressionsToggle") == "off") {
         toggleExpressions();
         if (debugMode) {console.log("toggled expressions off on load!")};
-    } else {
-        if (debugMode) {console.log("expressions stayed on on load!")};
     }
 
+    wrapAllCharacters(document.querySelectorAll(".shake, .wave"));
     if (sessionStorage.getItem("animationToggle") == "off") {
-        toggleAnimations();
+        toggleAnimations(false);
         if (debugMode) {console.log("toggled animations off on load!")};
     } else {
-        if (debugMode) {console.log("animations stayed on on load!")};
+        toggleAnimations(true);
     }
 
     if (sessionStorage.getItem("wishStyle") == "alt") {
         changeWishStyle();
         if (debugMode) {console.log("changed wish style on load!")};
-    } else {
-        if (debugMode) {console.log("wish style stayed on load!")};
     }
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//                               other functions                              //
+////////////////////////////////////////////////////////////////////////////////
+
+window.onload = function() {
+    applySettings();
+    tooltipImages();
 };
 
-// Feli's Button test corner
-// So i don't need to ruin the original bars file on my pc
-
-//Copied from w3school
-
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
 
-function toggleSettings() {
-    var settings = document.getElementById("settings");
-    if (settings.style.display == "none") {
-        settings.style.display = "block";
-    } else {
-        settings.style.display = "none";
-    }
-}
-
-// toggle dialogue options (details) on/ off
-
-function toggleDialogue() {
-    const details = document.querySelectorAll('details:not(#settings)');
-
-    for(var i = 0; i < details.length; i++) {
-        if (details[i].open == true) {
-            details[i].removeAttribute("open", "");
-            if (debugMode) {console.log("closed all dialogue options!")};
-        }
-        else {
-            details[i].setAttribute("open", "");
-            if (debugMode) {console.log("opened all dialogue options!")};
-        }
-    }
-}
-
-function changeWishStyle() {
-    var wishes = document.querySelectorAll(".wish");
-    if (wishes.length != 0) {
-        sessionStorage.setItem("wishStyle", "alt");
-        if (debugMode) {console.log("wish style alt")};
-        for (var i = 0; i < wishes.length; i++) {
-            wishes[i].classList.remove("wish");
-            wishes[i].classList.add("wish-alt");
-            if (debugMode) {console.log("changing class to alt", wishes[i])};
-        }
-    } else {
-        wishes = document.querySelectorAll(".wish-alt");
-        if (wishes.length != 0) {
-            sessionStorage.setItem("wishStyle", "default");
-            if (debugMode) {console.log("wish style default")};
-            for (var i = 0; i < wishes.length; i++) {
-                wishes[i].classList.remove("wish-alt");
-                wishes[i].classList.add("wish");
-                if (debugMode) {console.log("changing class to default", wishes[i])};
-            }
-        } else {
-            if (debugMode) {console.log("no wish text found")};
-        }
-    }
-}
-
-
-// SHAKING + WAVING TEXT
-
-// https://oat.zone/markdown-plus/###
 function rand() {
+    // https://oat.zone/markdown-plus/###
     return Math.floor(Math.random() * 100) / 100;
 }
 function srand() {
+    // https://oat.zone/markdown-plus/###
     return rand() * 2 - 1;
 }
 
-// https://stackoverflow.com/a/24137301
-// for choosing random from array
 Array.prototype.random = function () {
-  return this[Math.floor((Math.random()*this.length))];
+    // https://stackoverflow.com/a/24137301
+    // for choosing random from array
+    return this[Math.floor((Math.random()*this.length))];
 }
 
-
-// https://stackoverflow.com/a/9666441
-// https://jsfiddle.net/6bEuW/
-// wraps all characters in an element in a span
 function wrapCharacters(element) {
+    // https://stackoverflow.com/a/9666441
+    // https://jsfiddle.net/6bEuW/
+    // wraps all characters in an element in a span
     var child = element.firstChild;
     while (child) {
         var nextSibling = child.nextSibling;
@@ -282,122 +336,28 @@ function wrapCharacters(element) {
 }
 
 function wrapAllCharacters(elements) {
-    for (var element in elements) {
-        wrapCharacters(elements[element]);
-    }
+    elements.forEach(function(element) {
+        wrapCharacters(element)
+    })
 }
 
 
-// SHAKE
-wrapAllCharacters(document.getElementsByClassName("shake"));
 
-var shakeMagnitude = 5;
-var shakeSpeed = 0.2;
-var shakeUnit = "%";
-
-function applyShakeAnimation() {
-    var elements = document.getElementsByClassName("shake");
-    
-    for (var element in elements) {
-        children = elements[element].children;
-        for (var child in children) {
-            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) { // if it's styleable and isn't whitespace
-                children[child].classList.remove("shake-visual");
-    
-                children[child].style.display = "inline-block";
-                children[child].style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
-                
-                children[child].style.setProperty("--shake-state-1",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
-                children[child].style.setProperty("--shake-state-2",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
-                children[child].style.setProperty("--shake-state-3",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
-            }
-        }
-    }
-}
-
-applyShakeAnimation();
-
-function disableShakeAnimation() {
-    var elements = document.getElementsByClassName("shake");
-    
-    for (var element in elements) {
-        children = elements[element].children;
-        for (var child in children) {
-            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
-                children[child].classList.add("shake-visual");
-                children[child].style.animation = "none";
-            }
-        }
-    }
-}
-
-
-// WAVE
-wrapAllCharacters(document.getElementsByClassName("wave"));
-
-var wavelength = 0.025; // what unit? who knows
-var waveAmplitude = 15;
-var waveSpeed = 0.75;
-
-function applyWaveAnimation() {
-    var elements = document.getElementsByClassName("wave");
-    for (var element in elements) {
-        children = elements[element].childNodes;
-        for (var child in children) {
-            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
-                children[child].classList.remove("wave-visual");
-    
-                children[child].style.display = "inline-block";
-                // if live editing a page to change all cubic-bezier to linear this looks weird but hopefully it works fine
-                // linear is more accurate to the game (with an amplitude of 15-20ish % ?
-                children[child].style.animation = `${waveSpeed}s wave linear infinite ${-child * wavelength}s alternate`;
-                children[child].style.setProperty("--wave-amplitude", `${waveAmplitude}%`);
-            }
-        }
-    }
-}
-
-applyWaveAnimation();
-
-function disableWaveAnimation() {
-    var elements = document.getElementsByClassName("wave");
-    
-    for (var element in elements) {
-        children = elements[element].children;
-        for (var child in children) {
-            if (typeof children[child] == "object" && !(/\s/g.test(children[child].innerHTML))) {
-                children[child].classList.add("wave-visual");
-                children[child].style.animation = "none";
-            }
-        }
-    }
-}
-
-// END SHAKING + WAVING TEXT
-
-
+////////////////////////////////////////////////////////////////////////////////
+//                               tooltip images                               //
+////////////////////////////////////////////////////////////////////////////////
 
 function tooltipImages() {
 
-    var dialogueHeads = document.getElementsByClassName("dialogue-head"); // get all dialogue heads
+    var dialogueHeads = document.querySelectorAll(".dialogue-head");
 
-    for (headIndex in dialogueHeads) { // for every dialogue head
-        
-        if (
-            typeof dialogueHeads[headIndex] == "object" // is it an object
-            && // (everything SHOULD be an object but for some reason javascript is weird and puts non-objects in there. idk this stopped it throwing errors)
-            dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0] // does it have an expression
-            &&
-            !(dialogueHeads[headIndex].getElementsByClassName("expression-exception")[0]) // is it NOT an exception
-        ) {
-
-            var nameElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-name")[0] // get the dialogue name
-            var expressionElement = dialogueHeads[headIndex].getElementsByClassName("dialogue-expression")[0]; // get the dialogue expression
-
+    dialogueHeads.forEach(function(head, headIndex) {
+        if (head.querySelector(".dialogue-expression") && !head.querySelector(".expression-exception")) {
+            var nameElement = head.querySelector(".dialogue-name");
+            var expressionElement = head.querySelector(".dialogue-expression");
             var nameReference;
 
-            if (typeof dialogueHeads[headIndex].getElementsByClassName("sasasap")[0] != "undefined") { // is it a sasasap exception
-
+            if (head.querySelector(".sasasap")) {
                 if (nameElement.innerHTML == "Siffrin") {
                     nameReference = "Sapfrin";
                 } else if (nameElement.innerHTML == "Isabeau") {
@@ -410,31 +370,25 @@ function tooltipImages() {
                     nameReference = "Researcher";
                 }
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
-
-            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-loop")[0] != "undefined") { // should it be loop
-
+            }
+            else if (head.querySelector(".expression-exception-loop")) {
                 nameReference = "Loop";
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
-
-            } else if (typeof dialogueHeads[headIndex].getElementsByClassName("expression-exception-siffrin")[0] != "undefined") { // should it be siffrin
-
+            }
+            else if (head.querySelector(".expression-exception-siffrin")) {
                 nameReference = "Siffrin";
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
-                
-            } else { // okay it's just normal then
+            }
+            else {
                 nameReference = nameElement.innerHTML;
             }
 
-            // get the expression text
-            var expression = expressionElement.innerHTML; // same as the expression text
-            var expression = expression.replace(/\((.+)\)/i, "$1"); // remove the parentheses
-            
-            // create the tooltip
-            expressionElement.appendChild(document.createElement("span")); // make a span
-            var tooltip = expressionElement.firstElementChild; // get that span we just made
-            tooltip.classList.add("tooltip"); // give it the tooltip class
+            var expression = expressionElement.innerHTML.replace(/\((.+)\)/i, "$1");
+            expressionElement.appendChild(document.createElement("span"));
+            var tooltip = expressionElement.firstElementChild;
+            tooltip.classList.add("tooltip");
 
-            var imageSrc = false; // declaring variable. if we don't get an image, this stays false
+            var imageSrc = null;
 
             switch (nameReference) {
 
@@ -2230,14 +2184,13 @@ function tooltipImages() {
                     break;
             }
 
-            if (imageSrc) { // we got an image
-                dialogueImage = document.createElement("img"); // make an image
-                dialogueImage.src = imageSrc; // give it a source
-                tooltip.appendChild(dialogueImage); // put it in the tooltip
-            } else { // we didn't get an image
-                tooltip.innerHTML = "image not found"; // make the tooltip say that
+            if (imageSrc) {
+                dialogueImage = document.createElement("img");
+                dialogueImage.src = imageSrc;
+                tooltip.appendChild(dialogueImage);
+            } else {
+                tooltip.innerHTML = "image not found";
             }
-
         }
-    }
+    })
 }
