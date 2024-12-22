@@ -1,4 +1,6 @@
-/* all the annotations n gunk are copied from sadgrl lol. except this one duh */
+/* ************************************************************************** */
+/*                                    base                                    */
+/* ************************************************************************** */
 
 @font-face {
     font-family: 'VCR_OSD_MONO';
@@ -15,127 +17,20 @@
     src: url(/OpenDyslexic3-Regular.ttf);
 }
 
-.head {
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-.vcr {
-    font-family: 'VCR_OSD_MONO';
-}
-
-main {
-    max-width: 100%;
-    overflow: auto;
-}
-
-ul,
-ul li,
-ol li {
-    margin-bottom: 10px;
-}
-
-br {
-    line-height: 1.2;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    background-color: white;
-    border: 2px #434343;
-    color: black;
-    padding: 7px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-/*class for bottom right buttons */
-
-.helper {
-    position: fixed;
-    right: 30px;
-    z-index: 99;
-    width: 180px;
-    background-color: #434343;
-    color: white;
-    border-color: white;
-    border: 2px solid;
-    font-family: 'VCR_OSD_MONO';
-}
-
-/*Separate position by 40px per button*/
-
-#button1 {
-    bottom: 300px;
-}
-
-#button2 {
-    bottom: 260px;
-}
-
-#button3 {
-    bottom: 220px;
-}
-
-#button4 {
-    bottom: 180px;
-}
-
-#button5 {
-    bottom: 140px;
-}
-
-#button6 {
-    bottom: 100px;
-}
-
-#button7 {
-    bottom: 60px;
-}
-
-#settings {
-    bottom: 20px;
-    text-align: center;
-    padding: 7px 16px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.helper:hover {
-    background-color: #6d6d6d;
-    /* Add a dark-grey background on hover */
-}
-
-hr {
-    border: 1px white solid;
-    margin: 2em 1em;
-}
-
-/* 
- * user styles
- * styles are what change the color and sizes of stuff on your site. these are
- * variables that are being used in the code. these tended to confuse some
- * people, so I only kept the images as variables
- */
-
 :root {
     --header-image: url('/header.png');
     --body-bg-image: url('/background.png');
-
-    /* colors */
-    --content: #43256E;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* ************************************************************************** */
+/*                                  elements                                  */
+/* ************************************************************************** */
 
 body {
     color: white;
@@ -145,29 +40,177 @@ body {
     margin: auto;
 }
 
-* {
-    box-sizing: border-box;
+main {
+    max-width: 100%;
+    overflow: auto;
+    background-color: black;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+}
+
+ul, ul li, ol li {
+    margin-bottom: 10px;
+}
+
+br {
+    line-height: 1.2;
+}
+
+hr {
+    border: 1px #ffffff7f solid;
+    margin: 2em 1em;
+}
+
+del, s { /* strikethrough */
+    /* can't change the position of line-through; using underline and offset instead */
+    text-decoration: underline currentcolor solid 2px;
+    text-underline-offset: -0.45rem;
+    text-decoration-skip-ink: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: white;
+    border: 2px #434343;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#container a {
+    /* all links except nav */
+    color: inherit;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    font-family: 'VCR_OSD_MONO';
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
 }
 
 
-/* dialogue ***************************************************************** */
 
-.wish {
-    font-weight: 1000;
-    text-shadow: 1px 1px 2px white;
+/* ************************************************************************** */
+/*                              basic formatting                              */
+/* ************************************************************************** */
+
+.vcr {
+    font-family: 'VCR_OSD_MONO';
 }
+
+.center {
+    text-align: center;
+}
+
+.big {
+    font-size: larger;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.invis {
+    opacity: 0;
+    /* for when there's a line break in the middle of dialogue. just copy the head and make it invisible i guess */
+}
+
+.indented {
+    margin-left: 2em;
+}
+
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+img.cg {
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplified */
+    width: 816px; /* i don't know why this doesn't force it to 816px BUT IT WORKS AND I'M MOVING ON -gold */
+}
+
+
+
+/* ************************************************************************** */
+/*                                  dialogue                                  */
+/* ************************************************************************** */
+
+/* * *                        containers and stuff                        * * */
 
 .dialogue {
     font-family: 'VCR_OSD_MONO';
-    font-size: 22px;
+    font-size: 16.5px;
     border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
 }
 
-/* Feli note: for options without dialogue attached - cannibalized from Glow's dialogue-option class. */
-/* did you know: you can put this in the same ul as the sif portrait variations that use regular li */
+.tooltip {
+    visibility: hidden;
+    opacity: 1;
+    position: absolute;
+    bottom: 120%;
+    z-index: 99;
+    text-align: center;
+    background-color: #0008;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.dialogue-expression:hover .tooltip,
+.dialogue-expression:active .tooltip,
+.dialogue-expression:focus .tooltip {
+    visibility: visible;
+}
 
 .option {
+    /* DEPRECATED - use dialogue-option-only instead */
+    margin: 0.5em 0 0.5em 2em;
+    padding: 0.5em;
+    border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+}
+
+.dialogue-option-only {
+    /*
+     * this class is used when there's only one option to choose from,
+     * or when there's no reason to have a dropdown because the option
+     * chosen doesn't affect anything
+     */
+    margin-left: 0.5em;
+}
+
+.dialogue-option summary,
+.dialogue-option-only {
     margin: 0.5em 0 0.5em 2em;
     padding: 0.5em;
     border: 3px solid transparent;
@@ -183,14 +226,6 @@ ul.dialogue-option {
     list-style: none;
 }
 
-.dialogue-option summary,
-.dialogue-option-only {
-    margin: 0.5em 0 0.5em 2em;
-    padding: 0.5em;
-    border: 3px solid transparent;
-    border-image: url("/border-choice.png") 3 stretch;
-}
-
 summary::-webkit-details-marker,
 summary::marker {
     list-style: none;
@@ -204,37 +239,27 @@ summary::marker {
     margin: 0.5em;
 }
 
+.dialogue-option .invis-arrow details::before {
+    color: transparent;
+}
+
 .dialogue-option details[open]::before {
     transform: rotate(90deg);
 }
 
 .dialogue-option .dialogue-note details::before {
-    opacity: 0.5;
+    color: #ffffff7f;
 }
 
 details .dialogue {
     margin-left: 2em;
 }
 
+/* * *                           dialogue lines                           * * */
+
 .dialogue-line {
     display: block;
     margin: 0.5em;
-}
-
-.dialogue-name {
-    font-weight: bold;
-    display: inline-flex;
-}
-
-.dialogue-expression {
-    display: inline-flex;
-    font-size: smaller;
-    opacity: 0.75;
-}
-
-.dialogue-expression::before {
-    content: "\00a0";
-    /* space */
 }
 
 .dialogue-head {
@@ -245,154 +270,232 @@ details .dialogue {
     content: ":";
 }
 
+.dialogue-name {
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.dialogue-expression {
+    display: inline-flex;
+    font-size: smaller;
+    color: #ffffffbf;
+    position: relative;
+}
+
+.dialogue-expression::before {
+    content: "\00a0" /* space */;
+}
+
+/* * *                                notes                               * * */
+
 .dialogue-note {
     display: block;
     margin: 0.5em;
-    opacity: 0.5;
+    color: #ffffff7f;
 }
 
-.big {
-    font-size: larger;
+.note-color {
+    color: #ffffff7f;
 }
 
-.indented {
-    margin-left: 2em;
+.inline-note-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inline-note-box > :first-child {
+    flex: 2 1 auto;
+}
+
+.inline-note-box > :last-child {
+    flex: 1 1 auto;
+    color: #ffffff7f;
+    text-align: right;
+}
+
+/* * *                               skills                               * * */
+
+.skill {
+    font-family: 'VCR_OSD_MONO';
+    text-align: center;
+    display: block;
+}
+
+.skill img {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 2px;
+}
+
+.skill-name {
+    font-size: 22px;
+    padding: 0.1em 0.25em 0.25em 0.25em;
+    border: 3px solid transparent;
+    border-image: url("/border-choice.png") 3 stretch;
+    display: inline-block;
+}
+
+.skill-desc {
+    padding: 0.5em;
+    border: 13px solid transparent;
+    border-image: url("/border.png") 14 round;
+    display: inline-block;
 }
 
 
 
+/* ************************************************************************** */
+/*                               text formatting                              */
+/* ************************************************************************** */
 
+.wish {
+    /* more easily readable */
+    font-weight: 1000;
+    text-shadow: 1px 1px 2px white;
+}
 
-/* 
- * below this line is CSS for the layout
- *
- * the "container" is what wraps your entire website
- * if you want something (like the header) to be Wider than the other elements,
- * you will need to move that div outside of the container
- */
+.wish-alt {
+    /* same as the game */
+    -webkit-text-stroke: 3px #FFF5;
+}
+
+.shake-visual,
+.wave-visual {
+    font-style: italic;
+}
+
+@keyframes shake {
+    0% {
+        transform: var(--shake-state-1);
+    }
+    33% {
+        transform: var(--shake-state-2);
+    }
+    66% {
+        transform: var(--shake-state-3);
+    }
+    100% {
+        transform: var(--shake-state-1);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(var(--wave-amplitude));
+    }
+    100% {
+        transform: translateY(calc(var(--wave-amplitude) * -1));
+    }
+}
+
+/* ************************************************************************** */
+/*                                   layout                                   */
+/* ************************************************************************** */
+
+help-er {
+    display: block;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 99;
+    width: 180px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+help-er button {
+    margin: 2px;
+    padding: 7px 0;
+    width: 100%;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #434343;
+    color: white;
+    cursor: pointer;
+    font-family: 'VCR_OSD_MONO';
+    text-align: center;
+    text-decoration: none;
+}
+
+help-er button:hover {
+    background-color: #6d6d6d;
+}
+
+#settings {
+    order: 1;
+}
+
+button[onclick="toggleSettings()"] {
+    order: 2;
+}
+
+button[onclick="topFunction()"] {
+    order: 3;
+}
 
 #container {
-    max-width: 1000px;
-    /* 
-     * this is the width of your layout!
-     * if you change the above value, scroll to the bottom and change the media
-     * query according to the comment!
-     */
-
+    max-width: 1200px;
     margin: 0 auto;
-    /* centers entire page */
-
-    background: black;
-    display: inline;
-}
-
-/* the area below is for all links on your page EXCEPT for the navigation */
-#container a {
-    color: white;
-    font-weight: bold;
-    /* if you want to remove the underline you can uncomment this: */
-    /* text-decoration: none; */
-
-}
-
-#header {
-    /* 
-     * this is only for a background image! if you want to put images IN the
-     * header, you can add them directly to the <div id="header"></div> element
-     */
-
-    width: 100%;
-    background-color: #434343;
-    font-family: 'VCR_OSD_MONO' !important;
-
-    /*
-     * Personal note:
-     * putting image in header directly means the header height adjusts to
-     * image height. BETTER FOR MOBILE.
-     */
-}
-
-#headerArea {
-    top: 0;
-    z-index: 1;
-}
-
-/* navigation section!! */
-.navbar {
-    min-height: 40px;
-    width: 100%;
-    background-color: #434343;
-    /* navbar color */
-}
-
-.navbar ul {
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    justify-content: space-evenly;
-    flex: wrap;
+    flex-direction: column;
 }
 
-.navbar li {
-    padding: 10px 0 0 10px;
+#center {
+    display: flex;
+    flex-direction: row;
 }
 
-/* navigation links*/
-.navbar li a {
+header > img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 60px;
+    width: 100%;
+    background-color: #434343;
+}
+
+nav img {
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+nav span {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
     color: white;
-    /* navbar text color */
     font-weight: 800;
+    text-decoration: none;
 }
 
-/* navigation link when a link is hovered over */
-.navbar li a:hover {
+nav a:hover {
     color: white;
     text-decoration: underline;
 }
 
-#flex {
-    display: flex;
-    float: left;
-    height: 100%;
-}
-
-/* 
- * this colors BOTH sidebars! if you want to style them separately,
- * create styles for #leftSidebar and #rightSidebar
- */
-aside {
+side-bar {
     background-color: #6d6d6d;
     padding: 20px;
     font-size: smaller;
-    /* makes sidebar text slightly smaller */
+    width: min-content;
+    flex: 1 10 auto;
 }
 
-
-/* this is the main content area, between the sidebars */
 main {
-    background-color: black;
-    flex: 1;
-    padding: 20px;
-    order: 2;
-}
-
-/*
- * what's this "order" stuff about??
- * allow me to explain!
- *
- * if you're using both sidebars, the "order" value tells the CSS the order in
- * which to display them. left sidebar is 1, content is 2, and right sidebar is 3
- */
-
-#leftSidebar {
-    order: 1;
-    height: 100%;
-    width:min-content;
-}
-
-#rightSidebar {
-    order: 3;
+    flex: 10 1 auto;
 }
 
 footer {
@@ -403,109 +506,86 @@ footer {
     text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    color: white;
-    font-family: 'VCR_OSD_MONO';
 
-}
+/* ************************************************************************** */
+/*                                 media query                                */
+/* ************************************************************************** */
 
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 26px;
-}
-
-
-/** CSS for extras ********************************************************** */
-
-#topBar {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: smaller;
-    background-color: #13092D;
-}
-
-
-/** MEDIA QUERY ************************************************************* */
-
-/*
- * so you wanna change the width of your page? by default, the container width
- * is 900px. in order to keep things responsive, take your new height, and then
- * subtrack it by 100. use this new number as the "max-width" value below
- */
- /* Feli note: Make the desktop layout min-width using the max of the mobile layout. That way both are 100% separate and you don't have mobile UI elements stacking onto the desktop layout. */
-
-@media only screen and (min-width: 800px) {
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%
-    }
-
+@media only screen and (min-width: 600px) {
     .dialogue {
-        font-size: 16.5px;
+        font-size: 15px;
     }
-
-    /*
-     * the order of the items is adjusted here for responsiveness!
-     * since the sidebars would be too small on a mobile device.
-     * feel free to play around with the order!
-     */
-
-    main {
-        order: 1;
-    }
-
-    #leftSidebar {
-        order: 2;
-    }
-
-    #mobnav {
-        display: none;
-    }
-
 }
 
-@media only screen and (max-width: 800px) {
-
-    #flex {
-        display: block;
-        float: none;
-    }
-
-    #headerArea {
-        position: static;
-    }
-
+@media only screen and (min-width: 768px) {
     .dialogue {
         font-size: 16px;
     }
+}
 
-    #desknav {
+@media only screen and (min-width: 992px) {
+    #mobnav, #mobSidebar {
         display: none;
     }
+    
+    .dialogue {
+        font-size: 16.5px;
+    }
+}
 
-    /* 
-     * the order of the items is adjusted here for responsiveness, since the
-     * sidebars would be too small on a mobile device.
-     * feel free to play around with the order!
-    */
+@media only screen and (min-width: 1200px) {}
 
-    main {
+@media only screen and (max-width: 991px) {
+    #settings {
+        order: 3;
+    }
+    
+    button[onclick="toggleSettings()"] {
+        order: 2;
+    }
+    
+    button[onclick="topFunction()"] {
         order: 1;
     }
 
-    #leftSidebar {
-        order: 2;
-        width: 100%;
+    help-er {
+        left: auto;
+        right: 20px;
+        top: 20px;
+        bottom: auto;
     }
 
+    #center {
+        flex-direction: column-reverse;
+    }
+
+    side-bar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav span {
+        width: 25%;
+    }
+
+    nav img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dialogue {
+        font-size: 15px;
+    }
+
+    nav span {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav span {
+        width: 50%;
+    }
 }
