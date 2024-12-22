@@ -40,6 +40,7 @@ class Header extends HTMLElement {
                         <li><img src="/Craft.png" alt="" width="32"></li>
                     </ul>
                 </nav>
+                
                 <nav class="navbar vcr" id="mobnav">
                     <ul>
                         <li><a href="/index.html">Home</a></li>
@@ -55,7 +56,7 @@ class Header extends HTMLElement {
                 </nav>
 
                 <div id="flex">
-                    <aside id="leftSidebar">
+                    <aside id="deskSidebar">
                         <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
                         <ul>
                             <li><a href="/about.html">About</a></li>
@@ -90,7 +91,18 @@ class Footer extends HTMLElement {
     }
 
     connectedCallback() {
-        this.innerHTML = `<footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
+        this.innerHTML =
+        `<aside id="mobSidebar">
+            <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
+            <ul>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/feed.xml">RSS Feed</a></li>
+                <li><a href="/portraits">Dialogue portrait names</a></li>
+                <li>Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">github</a>!
+                <li>For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr.</a></li>
+            </ul>
+        </aside>
+        <footer id="footer">The script is free to use even without attribution. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
     }
 }
 

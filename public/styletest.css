@@ -438,7 +438,7 @@ button[onclick="topFunction()"] {
 }
 
 #container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background: black;
     display: inline;
@@ -518,7 +518,7 @@ aside {
     width: 100%;
 }
 
-#leftSidebar {
+#deskSidebar, #mobSidebar {
     order: 2;
     height: 100%;
     width: min-content;
@@ -572,7 +572,7 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
-    #desknav {
+    #desknav, #deskSidebar {
         display: none;
     }
 
@@ -585,7 +585,7 @@ footer {
         position: static;
     }
 
-    #leftSidebar {
+    #mobSidebar {
         order: 2;
         width: 100%;
     }
@@ -612,7 +612,7 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #mobnav {
+    #mobnav, #mobSidebar {
         display: none;
     }
     
