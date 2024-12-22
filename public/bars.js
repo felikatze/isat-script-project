@@ -2,7 +2,7 @@
 //                                  variables                                 //
 ////////////////////////////////////////////////////////////////////////////////
 
-debugMode = true; // change this to true and check console for debug logs!
+debugMode = false; // change this to true and check console for debug logs!
 var animationToggle;
 var wavelength = 0.025;
 var waveAmplitude = 15;
@@ -140,7 +140,7 @@ function changeFontStyle(fontFamily) {
 
 function changeWishStyle() {
     var wishes = document.querySelectorAll(".wish");
-    if (wishes.length != 0) {
+    if (wishes.length > 0) {
         wishes.forEach(function(wish) {
             wish.classList.remove("wish");
             wish.classList.add("wish-alt");
@@ -149,7 +149,7 @@ function changeWishStyle() {
         if (debugMode) {console.log("wish style alt")};
     } else {
         wishes = document.querySelectorAll(".wish-alt");
-        if (wishes.length != 0) {
+        if (wishes.length > 0) {
             wishes.forEach(function(wish) {
                 wish.classList.remove("wish-alt");
                 wish.classList.add("wish");
