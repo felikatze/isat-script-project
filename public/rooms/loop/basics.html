@@ -1,344 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loop Conversation Basics</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Conversation Basics</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
+    <help-er></help-er>
 
-<head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-<main>
+        <div id="center">
+            <side-bar></side-bar>
 
-<h1>Loop Conversation Basics</h1>
-<p><b>Source:</b> Map034 (Village Tree (LOOP))</p>
-<p>Basic flow of conversation with Loop, because you gotta compile that <i>somewhere</i>.</p>
+            <main>
+                <h1>Loop Conversation Basics</h1>
+                <p><b>Source:</b> Map034 (Village Tree (LOOP))</p>
+                <p>Basic flow of conversation with Loop, because you gotta compile that <i>somewhere</i>.</p>
 
-<br>
+                <br>
 
-<p><b>Note:</b> Before any time talking to Loop, a <a href="/rooms/loop/predialogue.html">PreDialogue</a> can occur if conditions are met.</p>
+                <p><b>Note:</b> Before any time talking to Loop, a <a href="/rooms/loop/predialogue.html">PreDialogue</a> can occur if conditions are met.</p>
 
-<br>
+                <br>
 
-<h1>Index</h1>
+                <h1>Index</h1>
 
-<ul>
-    <li><a href="#act2">ACT 2</a></li>
-    <li><a href="#act3">ACT 3 & 4</a></li>
-    <li><a href="#special">Special</a></li>
-</ul>
+                <ul>
+                    <li><a href="#act2">ACT 2</a></li>
+                    <li><a href="#act3">ACT 3 & 4</a></li>
+                    <li><a href="#special">Special</a></li>
+                </ul>
 
-<br>
+                <br>
 
-<h1 id="act2">ACT 2</h1>
+                <h1 id="act2">ACT 2</h1>
 
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(teehee4)</span>
-        </span>
-        Heya, stardust! How can I help you on this wonderful new loop?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(questions1)</span>
-        </span>
-        (Questions, questions...)
-    </p>
-
-    <ul class="dialogue-option">
-        <li><details>
-                <summary>"What should I do next?"</summary>
-                    <div class="dialogue">
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Loop</span>
-                                <span class="dialogue-expression">(hm1)</span>
-                            </span>
-                            What you should do? Well...
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            See <a href="/rooms/loop/whattodoact2.html">What To Do ACT 2</a>
-                        </p>
-                    </div>
-            </details>            
-        </li>
-        <li><details>
-                <summary>"Let's talk about something."</summary>
                 <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Loop</span>
+                            <span class="dialogue-expression">(teehee4)</span>
+                        </span>
+                        Heya, stardust! How can I help you on this wonderful new loop?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(questions1)</span>
+                        </span>
+                        (Questions, questions...)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"What should I do next?"</summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                        </span>
+                                        What you should do? Well...
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/whattodoact2.html">What To Do ACT 2</a>
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"Let's talk about something."</summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Sure! What do you want to talk about?
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/chats.html">Loop Chats</a></p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"I had a question about..."</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/ihadaquestion.html">"I had a question..."</a>
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"Nah, nothing."</summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(teehee5)</span>
+                                        </span>
+                                        See you later, stardust!
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (They wave at you excitedly.)
+                                    </p>
+
+                                    <hr>
+
+                                    <ul>
+                                        <li><b>First two times:</b> (You awkwardly wave back as you go.)</li>
+                                        <li><b>Third to fifth time:</b> (You wave back as you go.)</li>
+                                        <li><b>Subsequent times:</b> (You wave back as you go, smiling.)</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">
+                                        Siffrin walks away from the tree.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="act3">ACT 3 & 4</h1>
+                <p>For the specific variation when talking to Loop for the first time in ACT 3, see <a href="/rooms/dormont/favortree.html#act3">Favor Tree</a>.</p>
+
+                <br>
+
+                <div class="dialogue">
+
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Loop</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Sure! What do you want to talk about?
+                        Hey, stardust. How can I help you on this wonderful new loop?
                     </p>
 
                     <br>
-
-                    <p class="dialogue-note">
-                        See <a href="/rooms/loop/chats.html">Loop Chats</a></p>
-                </div>
-            </details>
-        </li>
-        <li><details>
-                <summary>"I had a question about..."</summary>
-                
-                <div class="dialogue">
-
-                    <p class="dialogue-note">
-                        See <a href="/rooms/loop/ihadaquestion.html">"I had a question..."</a>
-                    </p>
-
-                </div>
-                </details>
-            </li>
-        <li><details>
-                <summary>"Nah, nothing."</summary>
-                <div class="dialogue">
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(teehee5)</span>
-                        </span>
-                        See you later, stardust!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (They wave at you excitedly.)
-                    </p>
-
-                    <hr>
 
                     <ul>
-                        <li><b>First two times:</b> (You awkwardly wave back as you go.)</li>
-                        <li><b>Third to fifth time:</b> (You wave back as you go.)</li>
-                        <li><b>Subsequent times:</b> (You wave back as you go, smiling.)</li>
+                        <li><b>ACT 3: </b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(neutral1)</span>
+                            </span> (...)
+                        </li>
+                        <li><b>ACT 4: </b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(tired2)</span>
+                            </span> (...)
+                        </li>
                     </ul>
-
-                    <hr>
-
-                    <p class="dialogue-note">
-                        Siffrin walks away from the tree.
-                    </p>
-                </div>        
-            </details>
-        </li>
-    </ul>
-</div>
-
-<hr>
-<br>
-
-<h1 id="act3">ACT 3 & 4</h1>
-<p>For the specific variation when talking to Loop for the first time in ACT 3, see <a href="/rooms/dormont/favortree.html#act3">Favor Tree</a>.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Hey, stardust. How can I help you on this wonderful new loop?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 3: </b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(neutral1)</span>
-            </span> (...)
-        </li>
-        <li><b>ACT 4: </b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(tired2)</span>
-            </span> (...)
-        </li>
-    </ul>
-
-    <br>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"We can hang out now."</summary>
-
-                <div class="dialogue">
-                    <p class="dialogue-note">
-                        This option only becomes available in a specific moment during <a href="/acts/act3-4/loopquest.html#hangout">Loopquest</a>. Basically, you can only hang out with Loop after a) talking to the Head Housemaiden at least once in ACT 3, and b) after reading the first book on Time Craft as part of <a href="/acts/act3-4/kingquest.html#candledorm">Kingquest</a>.
-                    </p>
-
-                    <p class="dialogue-note">
-                        This triggers a specific <a href="/rooms/loop/predialogue.html#lq1">PreDialogue</a>, after which you can hang out.
-                    </p>
-
-                    <br>
-
-                    <h3>First time</h3>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(oh1)</span>
-                        </span>
-                        Oh...!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(lol5)</span>
-                        </span>
-                        Our theory hangout! Yes!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(hm1)</span>
-                        </span>
-                        But we can't actually hang out right now. It'd be pretty useless.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        So how about you come back here early tomorrow, after you're done acting things out at the Clocktower?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(surprised1)</span>
-                        </span>
-                        (Wait...) "You want me to sneak out?"
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(lol5)</span>
-                            </span>
-                        And spend a loop with me, yes!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (But...)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You always go to the House, after the Clocktower.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (If you're not here, what will everyone do?  What will everyone think--)
-                    </p>
-
-                    <br>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Does it matter what they think?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(teehee1)</span>
-                        </span>
-                        They'll forget it all in your next loop, after all!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(hide1)</span>
-                        </span>
-                        (...)
-                    </p>
 
                     <br>
 
                     <ul class="dialogue-option">
                         <li>
                             <details>
-                                <summary>"It matters!"</summary>
+                                <summary>"We can hang out now."</summary>
 
                                 <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        This option only becomes available in a specific moment during <a href="/acts/act3-4/loopquest.html#hangout">Loopquest</a>. Basically, you can only hang out with Loop after a) talking to the Head Housemaiden at least once in ACT 3, and b) after reading the first book on Time Craft as part of <a href="/acts/act3-4/kingquest.html#candledorm">Kingquest</a>.
+                                    </p>
+
+                                    <p class="dialogue-note">
+                                        This triggers a specific <a href="/rooms/loop/predialogue.html#lq1">PreDialogue</a>, after which you can hang out.
+                                    </p>
+
+                                    <br>
+
+                                    <h3>First time</h3>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(oh1)</span>
+                                        </span>
+                                        Oh...!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(lol5)</span>
+                                        </span>
+                                        Our theory hangout! Yes!
+                                    </p>
 
                                     <p class="dialogue-line">
                                         <span class="dialogue-head">
                                             <span class="dialogue-name">Loop</span>
                                             <span class="dialogue-expression">(hm1)</span>
                                         </span>
-                                        Hm...
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(hmmm1)</span>
-                                        </span>
-                                        ...So you won't do it?
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(lol4)</span>
-                                        </span>
-                                        You won't come and hang out with little old me?
-                                    </p>
-                                </div>
-                            </details>
-                        </li>
-                        <li>
-                            <details>
-                                <summary>"...I guess it doesn't."</summary>
-
-                                <div class="dialogue">
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(teehee5)</span>
-                                        </span>
-                                        Neat!
+                                        But we can't actually hang out right now. It'd be pretty useless.
                                     </p>
 
                                     <p class="dialogue-line">
@@ -346,216 +236,15 @@
                                             <span class="dialogue-name">Loop</span>
                                             <span class="dialogue-expression">(happy1)</span>
                                         </span>
-                                        Will you come, then?
-                                    </p>
-                                </div>
-                            </details>
-                        </li>
-                    </ul>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(hide1)</span>
-                        </span>
-                    </p>
-
-                    <br>
-
-                    <ul class="dialogue-option">
-                        <li>
-                            <details>
-                                <summary>"I'll come, yeah."</summary>
-
-                                <div class="dialogue">
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(teehee5)</span>
-                                        </span>
-                                        Neat!!!
+                                        So how about you come back here early tomorrow, after you're done acting things out at the Clocktower?
                                     </p>
 
                                     <p class="dialogue-line">
                                         <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(happy1)</span>
+                                            <span class="dialogue-name">Siffrin</span>
+                                            <span class="dialogue-expression">(surprised1)</span>
                                         </span>
-                                        ...I'll see you soon, then?
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-line">
-                                        (You nod.)
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-note">
-                                        This starts the <a href="/acts/act3-4/loophangout.html#main">Loop Hangout</a>.
-                                    </p>
-                                </div>
-                            </details>
-                        </li>
-                        <li>
-                            <details>
-                                <summary>"No, I won't."</summary>
-
-                                <div class="dialogue">
-
-                                    <p class="dialogue-line">
-                                        (You don't want everyone to go to the House without you.)
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(away1)</span>
-                                        </span>
-                                        ...So you won't come, huh...
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(away1)</span>
-                                        </span>
-                                        . . .
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(serious2)</span>
-                                        </span>
-                                        I'd really like you to spend a loop with me, stardust.
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(serious2)</span>
-                                        </span>
-                                        It doesn't matter if it's right now, or in a dozen, a hundred loops...
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(lol3)</span>
-                                        </span>
-                                        You'll have to spend time with me eventually! Just let me know when you want to!!!
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(subdued1)</span>
-                                        </span>
-                                        ...It's important.
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-line">
-                                        (You glare at Loop.)
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        (. . .)
-                                    </p>
-                                </div>
-                            </details>
-                        </li>
-                    </ul>
-                                    
-                    <hr>
-
-                    <h3>Subsequent times</h3>
-                    <p class="dialogue-note">
-                        Only possible if you refused to hang out with Loop the first time.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        ...Will you come and hang out with me now?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Siffrin</span>
-                            <span class="dialogue-expression">(shit1)</span>
-                        </span>
-                        (It'll mean leaving everyone behind, but...)
-                    </p>
-
-                    <ul class="dialogue-option">
-                        <li>
-                            <details>
-                                <summary>"...Alright."</summary>
-
-                                <div class="dialogue">
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(lol5)</span>
-                                        </span>
-                                        Neat!!!
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(happy1)</span>
-                                        </span>
-                                        ...Don't worry, stardust.
-                                    </p>
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(teehee4)</span>
-                                        </span>
-                                        ...I'll see you soon, then?
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-line">
-                                        (You nod.)
-                                    </p>
-
-                                    <br>
-
-                                    <p class="dialogue-note">
-                                        This starts the <a href="/acts/act3-4/loophangout.html#main">Loop Hangout</a>.
-                                    </p>
-                                </div>
-                            </details>
-                        </li>
-                        <li>
-                            <details>
-                                <summary>"No."</summary>
-
-                                <div class="dialogue">
-
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Loop</span>
-                                            <span class="dialogue-expression">(lol3)</span>
-                                        </span>
-                                        Ouuugh, rejected again!!!
+                                        (Wait...) "You want me to sneak out?"
                                     </p>
 
                                     <p class="dialogue-line">
@@ -563,144 +252,456 @@
                                             <span class="dialogue-name">Loop</span>
                                             <span class="dialogue-expression">(lol5)</span>
                                         </span>
-                                        How dare you play with my feelings like this, stardust!!!
+                                        And spend a loop with me, yes!
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (But...)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (You always go to the House, after the Clocktower.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (If you're not here, what will everyone do? What will everyone think--)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Does it matter what they think?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(teehee1)</span>
+                                        </span>
+                                        They'll forget it all in your next loop, after all!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Siffrin</span>
+                                            <span class="dialogue-expression">(hide1)</span>
+                                        </span>
+                                        (...)
+                                    </p>
+
+                                    <br>
+
+                                    <ul class="dialogue-option">
+                                        <li>
+                                            <details>
+                                                <summary>"It matters!"</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(hm1)</span>
+                                                        </span>
+                                                        Hm...
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(hmmm1)</span>
+                                                        </span>
+                                                        ...So you won't do it?
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(lol4)</span>
+                                                        </span>
+                                                        You won't come and hang out with little old me?
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary>"...I guess it doesn't."</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(teehee5)</span>
+                                                        </span>
+                                                        Neat!
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(happy1)</span>
+                                                        </span>
+                                                        Will you come, then?
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                    </ul>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Siffrin</span>
+                                            <span class="dialogue-expression">(hide1)</span>
+                                        </span>
+                                    </p>
+
+                                    <br>
+
+                                    <ul class="dialogue-option">
+                                        <li>
+                                            <details>
+                                                <summary>"I'll come, yeah."</summary>
+
+                                                <div class="dialogue">
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(teehee5)</span>
+                                                        </span>
+                                                        Neat!!!
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(happy1)</span>
+                                                        </span>
+                                                        ...I'll see you soon, then?
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-line">
+                                                        (You nod.)
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-note">
+                                                        This starts the <a href="/acts/act3-4/loophangout.html#main">Loop Hangout</a>.
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary>"No, I won't."</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        (You don't want everyone to go to the House without you.)
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(away1)</span>
+                                                        </span>
+                                                        ...So you won't come, huh...
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(away1)</span>
+                                                        </span>
+                                                        . . .
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(serious2)</span>
+                                                        </span>
+                                                        I'd really like you to spend a loop with me, stardust.
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(serious2)</span>
+                                                        </span>
+                                                        It doesn't matter if it's right now, or in a dozen, a hundred loops...
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(lol3)</span>
+                                                        </span>
+                                                        You'll have to spend time with me eventually! Just let me know when you want to!!!
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(subdued1)</span>
+                                                        </span>
+                                                        ...It's important.
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-line">
+                                                        (You glare at Loop.)
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        (. . .)
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3>Subsequent times</h3>
+                                    <p class="dialogue-note">
+                                        Only possible if you refused to hang out with Loop the first time.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        ...Will you come and hang out with me now?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Siffrin</span>
+                                            <span class="dialogue-expression">(shit1)</span>
+                                        </span>
+                                        (It'll mean leaving everyone behind, but...)
+                                    </p>
+
+                                    <ul class="dialogue-option">
+                                        <li>
+                                            <details>
+                                                <summary>"...Alright."</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(lol5)</span>
+                                                        </span>
+                                                        Neat!!!
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(happy1)</span>
+                                                        </span>
+                                                        ...Don't worry, stardust.
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(teehee4)</span>
+                                                        </span>
+                                                        ...I'll see you soon, then?
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-line">
+                                                        (You nod.)
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-note">
+                                                        This starts the <a href="/acts/act3-4/loophangout.html#main">Loop Hangout</a>.
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary>"No."</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(lol3)</span>
+                                                        </span>
+                                                        Ouuugh, rejected again!!!
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Loop</span>
+                                                            <span class="dialogue-expression">(lol5)</span>
+                                                        </span>
+                                                        How dare you play with my feelings like this, stardust!!!
+                                                    </p>
+                                                </div>
+                                            </details>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"What should I do next?"</summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/whattodoact34.html">What To Do (ACT 3 & 4)</a>.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"Let's talk about something."</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Sure. What do you want to talk about?
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/chats.html">Loop Chats</a>.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"I had a question about..."</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        See <a href="/rooms/loop/ihadaquestion.html">Loop Quest Help</a>.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"Nah, nothing."</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Loop</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        See you later, stardust.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (They gently wave you goodbye.)
+                                    </p>
+
+                                    <hr>
+
+                                    <h4>ACT 3 only:</h4>
+
+                                    <p class="dialogue-line">
+                                        (You give them a nod, and walk away.)
                                     </p>
                                 </div>
                             </details>
                         </li>
                     </ul>
-                    
+
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>"What should I do next?"</summary>
-                <div class="dialogue">
-                    <p class="dialogue-note">
-                        See <a href="/rooms/loop/whattodoact34.html">What To Do (ACT 3 & 4)</a>.
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>"Let's talk about something."</summary>
+
+                <hr>
+                <br>
+
+                <h1 id="special">Special</h1>
+
+                <h2>Loop doesn't want to talk</h2>
+                <p>Occurs the same loop as taking <a href="/random/dagger.html">dagger</a>.</p>
+
+                <br>
 
                 <div class="dialogue">
+
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(happy1)</span>
+                            <span class="dialogue-expression">(ew1)</span>
                         </span>
-                        Sure. What do you want to talk about?
+                        . . .
                     </p>
 
                     <br>
 
                     <p class="dialogue-note">
-                        See <a href="/rooms/loop/chats.html">Loop Chats</a>.
+                        Siffrin walks away from the Favor Tree.
                     </p>
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>"I had a question about..."</summary>
+
+                <hr>
+                <br>
+
+                <h2>Siffrin doesn't want to talk</h2>
+                <p>Occurs the loop immediately after the <a href="/acts/act3-4/loophangout.html">Loop Hangout</a>.</p>
+
+                <br>
 
                 <div class="dialogue">
                     <p class="dialogue-note">
-                        See <a href="/rooms/loop/ihadaquestion.html">Loop Quest Help</a>.
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>"Nah, nothing."</summary>
-
-                <div class="dialogue">
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Loop</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        See you later, stardust.
+                        Siffrin walks away from the tree.
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (They gently wave you goodbye.)
-                    </p>
-
-                    <hr>
-
-                    <h4>ACT 3 only:</h4>
-
-                    <p class="dialogue-line">
-                        (You give them a nod, and walk away.)
+                        (You don't want to talk to Loop right now.)
                     </p>
                 </div>
-            </details>
-        </li>
-    </ul>
+            </main>
+        </div>
 
-</div>
-
-<hr>
-<br>
-
-<h1 id="special">Special</h1>
-
-<h2>Loop doesn't want to talk</h2>
-<p>Occurs the same loop as taking <a href="/random/dagger.html">dagger</a>.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Loop</span>
-            <span class="dialogue-expression">(ew1)</span>
-        </span>
-        . . .
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        Siffrin walks away from the Favor Tree.
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h2>Siffrin doesn't want to talk</h2>
-<p>Occurs the loop immediately after the <a href="/acts/act3-4/loophangout.html">Loop Hangout</a>.</p>
-
-<br>
-
-<div class="dialogue">
-    <p class="dialogue-note">
-        Siffrin walks away from the tree.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You don't want to talk to Loop right now.)
-    </p>
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>
