@@ -4,926 +4,923 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generic Dialogues</title>
-
-    <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
     <script src="/bars.js" defer></script> 
-
 </head>
 
 <body>
 
-<div id="container">
-
-<head-er></head-er>
-
-<main>
-
-<h1>Generic Text</h1>
-<small>Edited by candycoatedrox</small>
-<p>A page for dialogue that stays the same across all rooms.</p>
-<p>I don't want to write it down every time, and it's not even that interesting.</p>
-    
-<p><b>Sources:</b> Common Events 190 (BirdEvent), 197 (FakeDoorDormont) 194 (FlowersInteract), 195 (BunchaFlowersInteract), 219 (HoleInteract), 133 (Locked Door),
-    120 (Save Point), 83 (Tears Code), 195 (TorchInteract), 135 (WeaponFoundAgain), 201 (Act5_PickUpTonics), 200 (Act5_SavePoint), 207 (Act5_NothingElse)</p>
-
-<br>
-
-<h1>Index</h1>
-
-<ul>
-    <li><a href="#bird">Birds</a></li>
-    <li><a href="#chair">Chairs</a></li>
-    <li><a href="#ornament">Change ornaments</a></li>
-    <li><a href="#dormont">Doors in Dormont</a></li>
-    <li><a href="#flowers">Flowers</a></li>
-    <li><a href="#hole">Holes</a></li>
-    <li><a href="#door">Locked openphrase doors</a></li>
-    <li><a href="#locked">Locked regular doors</a></li>
-    <li><a href="#save">Save points</a></li>
-    <li><a href="#tears">Tears</a></li>
-    <li><a href="#torch">Torches</a></li>
-    <li><a href="#equipment">Refinding equipment</a></li>
-    <li><a href="#unlock">Unlocking a door</a></li>
-    <li><a href="#crest">Using a crest on tears</a></li>
-    <li><a href="#act5">ACT 5</a>
-        <ul>
-            <li><a href="#item5">Items</a></li>
-            <li><a href="#tears5">Tears</a></li>
-            <li><a href="#save5">Save points</a></li>
-            <li><a href="#nothing">Nothing else</a></li>
-        </ul>
-    </li>
-</ul>
-
-<hr>
-<br>
-
-<h1 id="bird">Birds</h1>
-<p><b>Source:</b> Common Event 190 (BirdEvent)</p>
-
-<div class="dialogue">
-    <p class="dialogue-note">First time only</p>
-    
-    <p class="dialogue-note indented">
-        This gets skipped if the first interaction with a bird is in ACT 3 or 4.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line indented">
-        (The bird chirps.)
-    </p>
-
-    <p class="dialogue-line indented">
-        (Oh! In Vaugarde, they say birds go "peeoo peeoo"!)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bird</span>
-        </span>
-        Piou piou!
-    </p>
-
-    <hr>
-    
-    <p class="dialogue-note">ACT 1 & 2 only</p>
-        <p class="dialogue-line indented">(Peeoo peeoo!)</p>
-</div>
-
-<hr>
-<br>
-
-<h1 id="chair">Chairs and stools</h1>
-<p>
-    The text is very often (but not always) the same, yet it's not a Common Event, for some reason. 
-    If there's more than one seat, the second line won't play, and some versions only play it in ACTs 2 and 3.
-</p>
-<p>In ACT 5, the first line plays as appropiate, and the second varies by room.</p>
-<!--dunno if i want to add it to the page (is it really generic if it's only used in one room) but here's what i found, available only to those sneaking about backstage
-
-entrance storage room and floor 1 (armory, candle dorm, break room, storage room, kitchen)
-    (But you're fine, so it'd be a waste of time to sit down.)
-
-garden, hhm office
-    (But you're fine!!!)
-
-infirmary
-    (BUT YOU'RE FINE.)
-
-trap room, openphrase123
-    (...)
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Generic Text</h1>
+                <small>Edited by candycoatedrox</small>
+                <p>A page for dialogue that stays the same across all rooms.</p>
+                <p>I don't want to write it down every time, and it's not even that interesting.</p>
+                    
+                <p><b>Sources:</b> Common Events 190 (BirdEvent), 197 (FakeDoorDormont) 194 (FlowersInteract), 195 (BunchaFlowersInteract), 219 (HoleInteract), 133 (Locked Door),
+                    120 (Save Point), 83 (Tears Code), 195 (TorchInteract), 135 (WeaponFoundAgain), 201 (Act5_PickUpTonics), 200 (Act5_SavePoint), 207 (Act5_NothingElse)</p>
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li><a href="#bird">Birds</a></li>
+                    <li><a href="#chair">Chairs</a></li>
+                    <li><a href="#ornament">Change ornaments</a></li>
+                    <li><a href="#dormont">Doors in Dormont</a></li>
+                    <li><a href="#flowers">Flowers</a></li>
+                    <li><a href="#hole">Holes</a></li>
+                    <li><a href="#door">Locked openphrase doors</a></li>
+                    <li><a href="#locked">Locked regular doors</a></li>
+                    <li><a href="#save">Save points</a></li>
+                    <li><a href="#tears">Tears</a></li>
+                    <li><a href="#torch">Torches</a></li>
+                    <li><a href="#equipment">Refinding equipment</a></li>
+                    <li><a href="#unlock">Unlocking a door</a></li>
+                    <li><a href="#crest">Using a crest on tears</a></li>
+                    <li><a href="#act5">ACT 5</a>
+                        <ul>
+                            <li><a href="#item5">Items</a></li>
+                            <li><a href="#tears5">Tears</a></li>
+                            <li><a href="#save5">Save points</a></li>
+                            <li><a href="#nothing">Nothing else</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="bird">Birds</h1>
+                <p><b>Source:</b> Common Event 190 (BirdEvent)</p>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">First time only</p>
+                    
+                    <p class="dialogue-note indented">
+                        This gets skipped if the first interaction with a bird is in ACT 3 or 4.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line indented">
+                        (The bird chirps.)
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        (Oh! In Vaugarde, they say birds go "peeoo peeoo"!)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bird</span>
+                        </span>
+                        Piou piou!
+                    </p>
+
+                    <hr>
+                    
+                    <p class="dialogue-note">ACT 1 & 2 only</p>
+                        <p class="dialogue-line indented">(Peeoo peeoo!)</p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="chair">Chairs and stools</h1>
+                <p>
+                    The text is very often (but not always) the same, yet it's not a Common Event, for some reason. 
+                    If there's more than one seat, the second line won't play, and some versions only play it in ACTs 2 and 3.
+                </p>
+                <p>In ACT 5, the first line plays as appropiate, and the second varies by room.</p>
+                <!--dunno if i want to add it to the page (is it really generic if it's only used in one room) but here's what i found, available only to those sneaking about backstage
+
+                entrance storage room and floor 1 (armory, candle dorm, break room, storage room, kitchen)
+                    (But you're fine, so it'd be a waste of time to sit down.)
+
+                garden, hhm office
+                    (But you're fine!!!)
+
+                infirmary
+                    (BUT YOU'RE FINE.)
 
-observatory
-    (You wish you could sit down.)
-    \shake(No no no you wouldn't you wouldn't wish for anything ever again because you know that somehow somehow somehow Wish Craft brought you here)
+                trap room, openphrase123
+                    (...)
 
-pottery room, writing room have just say (Stool.) alone
--->
+                observatory
+                    (You wish you could sit down.)
+                    \shake(No no no you wouldn't you wouldn't wish for anything ever again because you know that somehow somehow somehow Wish Craft brought you here)
 
-<br>
-    
-<div class="dialogue">
+                pottery room, writing room have just say (Stool.) alone
+                -->
 
-    <p class="dialogue-line">(A [chair/stool].)</p>
-    
-    <p class="dialogue-line">(But there's only one, so it'd be rude to sit down.)</p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="ornament">Change ornaments</h1>
-<p>Despite being the same in every instance, it's not a Common Event.</p>
-    
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-note">ACT 1</p>
-    <!--only in dormont (the stylish house and the frozen wife house), the ones in the rest of the house don't check 
-    but there's no change ornaments in the bit of the house accessible in act 1 anyway-->
-    
-    <p class="dialogue-line indented">
-        (You're not sure what it is, but it has something to do with the Change belief.)
-    </p>
-    
-    <p class="dialogue-line indented">
-        (Mirabelle has a similar brooch design.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">ACT 2 onwards</p>
-    
-    <p class="dialogue-line indented">
-        (A Change ornament.)
-    </p>
-    
-</div>
-
-<hr>
-<br>
-    
-<h1 id="dormont">Doors in Dormont</h1>
-
-<h3>ACT 1 & 2</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (This door must lead to the rest of the house.)
-    </p>
-
-    <p class="dialogue-line">
-        (But you can't go there. You've been told going farther than the first room in other people's houses is very rude.)
-    </p>
-
-    <p class="dialogue-line">
-        (Vaugardian customs are so weird.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>ACT 3 & 4</h3>
-
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (This door leads to the rest of the house.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="flowers">Flowers</h1>
-<p>These only apply to flowers in flowerpots. Flowers in the grass in Dormont cannot be interacted with.</p>
-
-
-<h3>Regular flowers</h3>
-    
-<div class="dialogue">
-
-    <p class="dialogue-note">Regular</p>
-
-    <p class="dialogue-line indented">(Some flowers.)</p>
-    <p class="dialogue-line indented">(They smell like... flowers.)</p>
-
-    <br>
-
-    <p class="dialogue-note">ACT 5</p>
-    <p class="dialogue-line indented">(Flowers.)</p>
-
-    <br>
-
-    <p class="dialogue-note">ACT 6</p>
-    <p class="dialogue-line indented">(Some flowers.)</p>
-    <p class="dialogue-line indented">(They smell flowery!)</p>
-    
-</div>
-
-<br>
-
-<h3>Frozen flowers</h3>
-    
-<div class="dialogue">
-
-    <p class="dialogue-note">Regular</p>
-    <p class="dialogue-line indented">(Some frozen flowers.)</p>
-    <p class="dialogue-line indented">(They smell like... flowers.)</p>
-
-    <br>
-
-    <p class="dialogue-note">ACT 5</p>
-    <p class="dialogue-line indented">(Some frozen flowers.)</p>
-    
-</div>
-
-<br>
-
-<h3>Buncha flowers</h3>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-note">ACT 1 & 2</p>
-
-    <ul>
-        <li>(Flowers.)</li>
-        <li>(A bunch of flowers.)</li>
-        <li>(That sure is a lot of flowers.)</li>
-    </ul>
-    
-    <br>
-
-    <p class="dialogue-note">ACT 3+</p>
-    <p class="dialogue-line indented">(Flowers.)</p>
-    
-</div>
-
-<hr>
-<br>
-
-<h1 id="hole">Holes</h1>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">(A hole in the wall.)</p>
-    <p class="dialogue-line">(The hole doesn't really bring you anywhere.)</p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="door">Locked openphrase doors</h1>
-
-<div class="dialogue">
-
-    <ul>
-        <li><b>First time:</b> (You look at it curiously.)</li>
-        <li><b>Subsequent times:</b> (You look at it.)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Isabeau sees you look.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Have you never seen a lock like this before, Sif?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        It's a special kind of Vaugardian lock! Instead of a key, it needs specific words to open!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(doubt1)</span>
-        </span>
-        Words...?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Yes, you just need to say the words aloud!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        I think they call it a, uh... An openphrase?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol4)</span>
-        </span>
-        An openphrase... Fascinating.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        So what is the phrase for this lock?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        I...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Do not know.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        Ah.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        So it's locked?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward1)</span>
-        </span>
-        Yes.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        Yahoo.
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="locked">Locked regular doors</h1>
-<p>This text varies based on which key Memory of Keys is looking for, but typically follows the same format.</p>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">(The door is locked.)</p>
-    <p class="dialogue-line">(The symbol over the keyhole is shaped like a [key]...)</p>
-    
-    <hr>
-     
-    <p class="dialogue-note">If you have Memory of Keys equipped but don't know where the key is</p>
-    <p class="dialogue-line indented">(Hm...)</p>
-    <p class="dialogue-line indented">(Maybe you should explore the [left/right] side of this floor...?)</p>
-    
-    <br>
-    
-    <p class="dialogue-note">With Memory of Keys and knowledge of the key's location</p>
-    <p class="dialogue-line indented">(Hm...)</p>
-    <p class="dialogue-line indented">(The key for it was on the [left/right] side, in the [room], wasn't it?)</p>
-   
-</div>
-
-<hr>
-<br>
-
-<h1 id="save">Save points</h1>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (You reach towards the light...)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Everyone was healed.)
-    </p>
-    
-    <p class="dialogue-line">
-        (Your [friends/allies/family members]' Craft Skills and Experience has been recorded for this location.)
-    </p>
-    
-    <br>
-    
-    <p class="dialogue-line">
-        (Save your progress?)
-    </p>
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Yes.)</summary>
-            
+                <br>
+                    
                 <div class="dialogue">
 
-                    <p class="dialogue-note">ACT 1 & 2</p>
+                    <p class="dialogue-line">(A [chair/stool].)</p>
+                    
+                    <p class="dialogue-line">(But there's only one, so it'd be rude to sit down.)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="ornament">Change ornaments</h1>
+                <p>Despite being the same in every instance, it's not a Common Event.</p>
+                    
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">ACT 1</p>
+                    <!--only in dormont (the stylish house and the frozen wife house), the ones in the rest of the house don't check 
+                    but there's no change ornaments in the bit of the house accessible in act 1 anyway-->
                     
                     <p class="dialogue-line indented">
-                        (You close your eyes.)
+                        (You're not sure what it is, but it has something to do with the Change belief.)
                     </p>
-                    
-                    <br>
-                    
-                    <p class="dialogue-note">ACT 3 & 4</p>
                     
                     <p class="dialogue-line indented">
-                        (You close your single eye.)
+                        (Mirabelle has a similar brooch design.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">ACT 2 onwards</p>
+                    
+                    <p class="dialogue-line indented">
+                        (A Change ornament.)
                     </p>
                     
-                    <br>
+                </div>
+
+                <hr>
+                <br>
                     
+                <h1 id="dormont">Doors in Dormont</h1>
+
+                <h3>ACT 1 & 2</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (This door must lead to the rest of the house.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But you can't go there. You've been told going farther than the first room in other people's houses is very rude.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Vaugardian customs are so weird.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>ACT 3 & 4</h3>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        (This door leads to the rest of the house.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="flowers">Flowers</h1>
+                <p>These only apply to flowers in flowerpots. Flowers in the grass in Dormont cannot be interacted with.</p>
+
+
+                <h3>Regular flowers</h3>
+                    
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Regular</p>
+
+                    <p class="dialogue-line indented">(Some flowers.)</p>
+                    <p class="dialogue-line indented">(They smell like... flowers.)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">ACT 5</p>
+                    <p class="dialogue-line indented">(Flowers.)</p>
+
+                    <br>
+
                     <p class="dialogue-note">ACT 6</p>
+                    <p class="dialogue-line indented">(Some flowers.)</p>
+                    <p class="dialogue-line indented">(They smell flowery!)</p>
                     
-                    <p class="dialogue-line indented">
-                        (You close your eye.)
+                </div>
+
+                <br>
+
+                <h3>Frozen flowers</h3>
+                    
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Regular</p>
+                    <p class="dialogue-line indented">(Some frozen flowers.)</p>
+                    <p class="dialogue-line indented">(They smell like... flowers.)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">ACT 5</p>
+                    <p class="dialogue-line indented">(Some frozen flowers.)</p>
+                    
+                </div>
+
+                <br>
+
+                <h3>Buncha flowers</h3>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-note">ACT 1 & 2</p>
+
+                    <ul>
+                        <li>(Flowers.)</li>
+                        <li>(A bunch of flowers.)</li>
+                        <li>(That sure is a lot of flowers.)</li>
+                    </ul>
+                    
+                    <br>
+
+                    <p class="dialogue-note">ACT 3+</p>
+                    <p class="dialogue-line indented">(Flowers.)</p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="hole">Holes</h1>
+                    
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(A hole in the wall.)</p>
+                    <p class="dialogue-line">(The hole doesn't really bring you anywhere.)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="door">Locked openphrase doors</h1>
+
+                <div class="dialogue">
+
+                    <ul>
+                        <li><b>First time:</b> (You look at it curiously.)</li>
+                        <li><b>Subsequent times:</b> (You look at it.)</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Isabeau sees you look.)
                     </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Have you never seen a lock like this before, Sif?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        It's a special kind of Vaugardian lock! Instead of a key, it needs specific words to open!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                        </span>
+                        Words...?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Yes, you just need to say the words aloud!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        I think they call it a, uh... An openphrase?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                        </span>
+                        An openphrase... Fascinating.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        So what is the phrase for this lock?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        I...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                        </span>
+                        Do not know.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        Ah.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        So it's locked?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        Yes.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        Yahoo.
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="locked">Locked regular doors</h1>
+                <p>This text varies based on which key Memory of Keys is looking for, but typically follows the same format.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(The door is locked.)</p>
+                    <p class="dialogue-line">(The symbol over the keyhole is shaped like a [key]...)</p>
                     
                     <hr>
                     
-                    <p class="dialogue-note">
-                        The screen fades out, and you are taken to the save screen.
-                    </p>
-
-                </div>
-            </details>
-        </li>
-
-        <li>
-            <details>
-                <summary>(No.)</summary>
-            
-                <div class="dialogue">
-
-                    <p class="dialogue-note">
-                        Dialogue ends here.
-                    </p>
-
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-</div>
-
-<hr>
-<br>
-
-<h1 id="tears">Tears</h1>
-
-<h3>Regular</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The Tear floats gently.)
-    </p>
-
-    <p class="dialogue-line">
-        (Touch it?)
-    </p>
-
-    <hr>
-
-    <h4>ACT 2</h4>
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Yes, looping time!)</summary>
+                    <p class="dialogue-note">If you have Memory of Keys equipped but don't know where the key is</p>
+                    <p class="dialogue-line indented">(Hm...)</p>
+                    <p class="dialogue-line indented">(Maybe you should explore the [left/right] side of this floor...?)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">With Memory of Keys and knowledge of the key's location</p>
+                    <p class="dialogue-line indented">(Hm...)</p>
+                    <p class="dialogue-line indented">(The key for it was on the [left/right] side, in the [room], wasn't it?)</p>
                 
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="save">Save points</h1>
+                    
                 <div class="dialogue">
                     
                     <p class="dialogue-line">
-                        (You reach out to the Tear...)
+                        (You reach towards the light...)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (Everyone was healed.)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (Your [friends/allies/family members]' Craft Skills and Experience has been recorded for this location.)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (Save your progress?)
+                    </p>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Yes.)</summary>
+                            
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">ACT 1 & 2</p>
+                                    
+                                    <p class="dialogue-line indented">
+                                        (You close your eyes.)
+                                    </p>
+                                    
+                                    <br>
+                                    
+                                    <p class="dialogue-note">ACT 3 & 4</p>
+                                    
+                                    <p class="dialogue-line indented">
+                                        (You close your single eye.)
+                                    </p>
+                                    
+                                    <br>
+                                    
+                                    <p class="dialogue-note">ACT 6</p>
+                                    
+                                    <p class="dialogue-line indented">
+                                        (You close your eye.)
+                                    </p>
+                                    
+                                    <hr>
+                                    
+                                    <p class="dialogue-note">
+                                        The screen fades out, and you are taken to the save screen.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                                <summary>(No.)</summary>
+                            
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        Dialogue ends here.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="tears">Tears</h1>
+
+                <h3>Regular</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The Tear floats gently.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Touch it?)
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 2</h4>
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Yes, looping time!)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (You reach out to the Tear...)
+                                    </p>
+                                    
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You <a href="/random/deaths.html#tears">die</a>.
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary>(No, living time.)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (You walk away from the Tear.)
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    
+                    <br>
+
+                    <h4>ACT 3 & 4</h4>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Yes.)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (You reach out to the Tear...)
+                                    </p>
+                                    
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You <a href="/random/deaths.html#tears">die</a>.
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary>(No.)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (You walk away from the Tear.)
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="torch">Torches</h1>
+                    
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(A torch.)</p>
+                    
+                    <p class="dialogue-line">(It burns brightly.)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="unlock">Unlocking a door</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">ACT 2 & 3</p>
+                    <p class="dialogue-line indented">(Key time.)</p>
+                    <br>
+
+                    <p class="dialogue-line">(You insert the key into the keyhole, and open the door.)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="crest">Using a crest on tears</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(The Tear floats gently.)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">ACT 2</p>
+                    <p class="dialogue-line indented">(You have a Star Crest, so...)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">(Use the Star Crest?)</p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>(Free path time!)</span>
+                                    <span>ACT 2</span>
+                                </summary>
+                                
+                                <div class="dialogue">
+                                    <p class="dialogue-line">(You use the Star Crest.)</p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>(Nah.)</span>
+                                    <span>ACT 2</span>
+                                </summary>
+                                
+                                <div class="dialogue">
+                                    <p class="dialogue-line">(You decide to not use the Star Crest right now.)</p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>(Yes.)</span>
+                                    <span>ACT 3 onwards</span>
+                                </summary>
+                                
+                                <div class="dialogue">
+                                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, clears the tears without comment.</p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>(No.)</span>
+                                    <span>ACT 3 onwards</span>
+                                </summary>
+                                
+                                <div class="dialogue">
+                                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, moves away from the tears without comment.</p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="act5">ACT 5</h1>
+
+                <h2 id="item5">Items</h2>
+                <p>Trying to pick up any restorative item in ACT 5.</p>
+
+                <br>
+
+                <h3>First time</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (An item.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You don't think you need to pick up items anymore.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Second time</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (An item.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You leave it alone.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Third time</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Don't need it.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Fourth time onwards</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+                    
+                <h2 id="tears5">Tears</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (You've slept too long already.)
                     </p>
                     
                     <br>
 
                     <p class="dialogue-note">
-                        You <a href="/random/deaths.html#tears">die</a>.
+                        Siffrin walks away from the Tear.
                     </p>
                     
                 </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>(No, living time.)</summary>
-                
-                <div class="dialogue">
                     
-                    <p class="dialogue-line">
-                        (You walk away from the Tear.)
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-    <br>
+                <hr>
+                <br>
 
-    <h4>ACT 3 & 4</h4>
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Yes.)</summary>
-                
+                <h2 id="save5">Save Points</h2>
+                    
                 <div class="dialogue">
                     
                     <p class="dialogue-line">
-                        (You reach out to the Tear...)
+                        (Save your progress?)
+                    </p>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Yes.)</summary>
+                            
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You close your eye tightly.)
+                                    </p>
+                                    
+                                    <br>
+                                    
+                                    <p class="dialogue-note">
+                                        The screen fades out, and you are taken to the save screen.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                                <summary>(No.)</summary>
+                            
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        Dialogue ends here.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="nothing">Nothing else</h2>
+                <p>Interacting with spaces that had equipment, weapons, or souvenirs.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        At random:
                     </p>
                     
                     <br>
 
-                    <p class="dialogue-note">
-                        You <a href="/random/deaths.html#tears">die</a>.
+                    <p class="dialogue-note">Option 1</p>
+
+                    <p class="dialogue-line indented">
+                        (Nothing here.)
                     </p>
-                    
-                </div>
-            </details>
-        </li>
-        
-        <li>
-            <details>
-                <summary>(No.)</summary>
-                
-                <div class="dialogue">
-                    
-                    <p class="dialogue-line">
-                        (You walk away from the Tear.)
-                    </p>
-                    
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-</div>
 
-<hr>
-<br>
-
-<h1 id="torch">Torches</h1>
-    
-<div class="dialogue">
-
-    <p class="dialogue-line">(A torch.)</p>
-    
-    <p class="dialogue-line">(It burns brightly.)</p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="unlock">Unlocking a door</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-note">ACT 2 & 3</p>
-    <p class="dialogue-line indented">(Key time.)</p>
-    <br>
-
-    <p class="dialogue-line">(You insert the key into the keyhole, and open the door.)</p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="crest">Using a crest on tears</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">(The Tear floats gently.)</p>
-
-    <br>
-
-    <p class="dialogue-note">ACT 2</p>
-    <p class="dialogue-line indented">(You have a Star Crest, so...)</p>
-
-    <br>
-
-    <p class="dialogue-line">(Use the Star Crest?)</p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary class="inline-note-box">
-                    <span>(Free path time!)</span>
-                    <span>ACT 2</span>
-                </summary>
-                
-                <div class="dialogue">
-                    <p class="dialogue-line">(You use the Star Crest.)</p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary class="inline-note-box">
-                    <span>(Nah.)</span>
-                    <span>ACT 2</span>
-                </summary>
-                
-                <div class="dialogue">
-                    <p class="dialogue-line">(You decide to not use the Star Crest right now.)</p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary class="inline-note-box">
-                    <span>(Yes.)</span>
-                    <span>ACT 3 onwards</span>
-                </summary>
-                
-                <div class="dialogue">
-                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, clears the tears without comment.</p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary class="inline-note-box">
-                    <span>(No.)</span>
-                    <span>ACT 3 onwards</span>
-                </summary>
-                
-                <div class="dialogue">
-                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, moves away from the tears without comment.</p>
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-</div>
-
-<hr>
-<br>
-
-<h1 id="act5">ACT 5</h1>
-
-<h2 id="item5">Items</h2>
-<p>Trying to pick up any restorative item in ACT 5.</p>
-
-<br>
-
-<h3>First time</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (An item.)
-    </p>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You don't think you need to pick up items anymore.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Second time</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (An item.)
-    </p>
-
-    <p class="dialogue-line">
-        (You leave it alone.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Third time</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Don't need it.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Fourth time onwards</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-</div>
-
-<hr>
-<br>
-    
-<h2 id="tears5">Tears</h2>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (You've slept too long already.)
-    </p>
-    
-    <br>
-
-    <p class="dialogue-note">
-        Siffrin walks away from the Tear.
-    </p>
-    
-</div>
-    
-<hr>
-<br>
-
-<h2 id="save5">Save Points</h2>
-    
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (Save your progress?)
-    </p>
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Yes.)</summary>
-            
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (You close your eye tightly.)
-                    </p>
-                    
                     <br>
-                    
-                    <p class="dialogue-note">
-                        The screen fades out, and you are taken to the save screen.
+
+                    <p class="dialogue-note">Option 2</p>
+
+                    <p class="dialogue-line indented">
+                        (Empty!)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Option 3</p>
+
+                    <p class="dialogue-line indented">
+                        (Nothing to pick up!!!)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Option 4</p>
+
+                    <p class="dialogue-line indented">
+                        (You breathe in, and out.)
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        (It doesn't help.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Option 5</p>
+
+                    <p class="dialogue-line indented">
+                        (You ignore how the world is breaking down around you.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Option 6</p>
+
+                    <p class="dialogue-line indented">
+                        (You smell sugar coming from somewhere.)
                     </p>
 
                 </div>
-            </details>
-        </li>
+            </main>
+        </div>
 
-        <li>
-            <details>
-                <summary>(No.)</summary>
-            
-                <div class="dialogue">
-
-                    <p class="dialogue-note">
-                        Dialogue ends here.
-                    </p>
-
-                </div>
-            </details>
-        </li>
-    </ul>
-    
-</div>
-
-<hr>
-<br>
-
-<h2 id="nothing">Nothing else</h2>
-<p>Interacting with spaces that had equipment, weapons, or souvenirs.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-note">
-        At random:
-    </p>
-    
-    <br>
-
-    <p class="dialogue-note">Option 1</p>
-
-    <p class="dialogue-line indented">
-        (Nothing here.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">Option 2</p>
-
-    <p class="dialogue-line indented">
-        (Empty!)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">Option 3</p>
-
-    <p class="dialogue-line indented">
-        (Nothing to pick up!!!)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">Option 4</p>
-
-    <p class="dialogue-line indented">
-        (You breathe in, and out.)
-    </p>
-
-    <p class="dialogue-line indented">
-        (It doesn't help.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">Option 5</p>
-
-    <p class="dialogue-line indented">
-        (You ignore how the world is breaking down around you.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">Option 6</p>
-
-    <p class="dialogue-line indented">
-        (You smell sugar coming from somewhere.)
-    </p>
-
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>
