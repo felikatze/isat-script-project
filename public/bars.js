@@ -26,9 +26,9 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
             `<header>
-                <img src="/header.png" alt="">
+                <img src="/assets/images/header.png" alt="">
                 <nav>
-                    <img src="/Craft.png" alt="">
+                    <img src="/assets/images/Craft.png" alt="">
                     <span><a href="/index.html">Home</a></span>
                     <span><a href="/overview/acts.html">Story</a></span>
                     <span><a href="/overview/events.html">Events</a></span>
@@ -36,7 +36,7 @@ class Header extends HTMLElement {
                     <span><a href="/overview/random.html">Random</a></span>
                     <span><a href="/overview/sasasap.html">START AGAIN</a></span>
                     <span><a href="/thanks.html">Special Thanks</a></span>
-                    <img src="/Craft.png" alt="">
+                    <img src="/assets/images/Craft.png" alt="">
                 </nav>
             </header>`
     }
@@ -89,7 +89,7 @@ class Helper extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML =
-        `<div id="settings" style="display: none;">
+        `<div id="settings" style="display: none">
             <button onclick="changeFontStyle(null)">Default font</button>
             <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
             <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
