@@ -1,597 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hallways (START AGAIN)</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallways (START AGAIN)</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
+    <help-er></help-er>
 
-<head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-<main>
+        <div id="center">
+            <side-bar></side-bar>
 
-<h1>Hallways (START AGAIN)</h1>
-<p>Stuff inside the various hallways of START AGAIN: a prologue.</p>
-<p>Maybe some get their own pages like the tutorial or smth I dunno this is a WIP.</p>
+            <main>
 
-<br>
+                <h1>Hallways (START AGAIN)</h1>
+                <p>Stuff inside the various hallways of START AGAIN: a prologue.</p>
+                <p>Maybe some get their own pages like the tutorial or smth I dunno this is a WIP.</p>
 
-<ul>
-    <li>
-        For the last hallway before the snack scene, see <a href="/sasasap/candy.html">Candy Scene</a>.
-    </li>
-</ul>
+                <br>
 
-<br>
+                <ul>
+                    <li>
+                        For the last hallway before the snack scene, see <a href="/sasasap/candy.html">Candy Scene</a>.
+                    </li>
+                </ul>
 
-<h1>Index</h1>
+                <br>
 
-<ul>
-    <li>Intro Hallway</li>
-    <li><a href="#tears1">First Tears</a>
-        <ul>
-            <li><a href="#tearsevent">Event</a></li>
-            <li><a href="row1">Row of Tears</a></li>
-        </ul>
-    </li>
-    <li>Tutorial Hallway</li>
-    <li>Second Tears</li>
-    <li>Locked Door</li>
-    <li>Entrance to bathroom</li>
-    <li>Big room (more locked doors)</li>
-    <li>Hallway to Infirmary (Level Dif Event)</li>
-    <li>Mirabelle's Roommate</li>
-</ul>
+                <h1>Index</h1>
 
-<h1 id="tears1">First Tears</h1>
-<p><b>Source:</b> Map027 (Tears Room 1)</p>
+                <ul>
+                    <li>Intro Hallway</li>
+                    <li><a href="#tears1">First Tears</a>
+                        <ul>
+                            <li><a href="#tearsevent">Event</a></li>
+                            <li><a href="row1">Row of Tears</a></li>
+                        </ul>
+                    </li>
+                    <li>Tutorial Hallway</li>
+                    <li>Second Tears</li>
+                    <li>Locked Door</li>
+                    <li>Entrance to bathroom</li>
+                    <li>Big room (more locked doors)</li>
+                    <li>Hallway to Infirmary (Level Dif Event)</li>
+                    <li>Mirabelle's Roommate</li>
+                </ul>
 
-<br>
+                <h1 id="tears1">First Tears</h1>
+                <p><b>Source:</b> Map027 (Tears Room 1)</p>
 
-<h2 id="tearsevent">Event</h2>
-<p>The event does not trigger if you have the Star Crest already. On a first loop, you're forced to see it, as Siffrin refuses to pick up the Star Crest without seeing the Tears first.</p>
+                <br>
 
-<!-- Switches still refer to Tears as 'Spikes'. SawSpikes Variable incriments if the tears event was seen once a new loop starts (under the NEW LOOP common event). How needlessly complicated.-->
+                <h2 id="tearsevent">Event</h2>
+                <p>The event does not trigger if you have the Star Crest already. On a first loop, you're forced to see it, as Siffrin refuses to pick up the Star Crest without seeing the Tears first.</p>
 
-<br>
+                <!-- Switches still refer to Tears as 'Spikes'. SawSpikes Variable incriments if the tears event was seen once a new loop starts (under the NEW LOOP common event). How needlessly complicated.-->
 
-<div class="dialogue">
-
-    <p class="dialogue-note">
-        Siffrin walks ahead of the group. The kid runs up and bumps into their backside. The researcher follows.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Ah...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The housemaiden walks up as well.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You've seen this before.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        Siffrin turns to the right.
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b> (You watch your step.)</li>
-        <li><b>Subsequent times:</b> (You get ready.)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-note">
-        The fighter runs up.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Alright let's gooooooooo--
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The fighter screeches to a halt and jumps. The researcher turns toward him.
-    </p>
-    
-    <br>
-
-    <p class="dialogue-note">
-        (You catch the big guy before he goes too far.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        Oh!
-    </p>
-
-
-</div>
-
-<h3>First time</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(uwah1)</span>
-        </span>
-        Huh?
-    </p>
-    
-    <br>
-
-    <p class="dialogue-note">
-        The fighter looks at Siffrin, while the researcher looks at the Tears.
-    </p>
-
-    <br>
-
-    <!-- Adrienne's typo not mine.-->
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(embarassed4)</span>
-        </span>
-        WAH! Wh-what? What is it???
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        He looks at the Tears.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        Is it the water? Should I not touch the weird floating water???
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        Siffrin looks at the Tears.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(oof1)</span>
-        </span>
-        ...Wait. This is...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(worried3)</span>
-        </span>
-        ........
-    </p>
-
-    <br>
-
-    <img src="/assets/images/Rock1.png" alt="The researcher picks a small rock off the ground.">
-
-    <img src="/assets/images/Rock2.png" alt="She flicks the rock at the wall of Tears. It lands with a bzzt.">
-
-    <img src="/assets/images/Rock3.png" alt="The rock has remains midair, right where it touched the Tears. It's also turned lighter.">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        Oh!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        OH!!!
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The fighter jumps.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(embarassed4)</span>
-        </span>
-        OH!!! THE ROCK FROZE WHEN IT TOUCHED THE WATER!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Oh, indeed.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(angry1)</span>
-        </span>
-        Do NOT approach those. We'd probably get stuck in time just like everything else...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(wondering2)</span>
-        </span>
-        It wouldn't hurt too much though, right?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(readingup1)</span>
-        </span>
-        What, being frozen in time?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Theoretically, it wouldn't, no.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(surprised2)</span>
-        </span>
-        ...Theoretically?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(smile1)</span>
-        </span>
-        Yes, theoretically. Why, would you care to try it out?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(neutral2)</span>
-        </span>
-        I've heard that being frozen makes you go to sleep, and gives you a super good dream!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(smile3)</span>
-        </span>
-        Oh?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Oh???
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(wondering2)</span>
-        </span>
-        Oh... Where did you hear that from?
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The housemaiden, the fighter, and the researcher all turn to the kid one by one as they speak.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(ew2)</span>
-        </span>
-        Ah, um...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(sad2)</span>
-        </span>
-        Um... A nice lady told me that when my sister got frozen...
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The housemaiden and the fighter both sweat.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(ohfuck2)</span>
-        </span>
-        OH!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        OH!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(oof1)</span>
-        </span>
-        Oh...
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        The kid jumps thrice, as though stomping their feet.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(angry1)</span>
-        </span>
-        I-I know it's not true!!! I'm not stupid!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        Just... It would be nice... if that was true.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        So...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        ...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(phew1)</span>
-        </span>
-        So you should touch the weird frozen water and be frozen and let me know how it goes!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(embarassed4)</span>
-        </span>
-        Pass...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You let the conversation go on without you.)
-    </p>
-
-    <p class="dialogue-line">
-        (You know that while being frozen in time doesn't hurt, it doesn't bring you a wonderful dream either.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's just like&emsp; missing a stair step and being stuck in midair, forever.)
-    </p>
-
-    <p class="dialogue-line">
-        (Almost restful, in a way.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Well, there must be a way to make this water disappear somehow... Let's look around a bit more.
-    </p>
-
-</div>
-
-<br>
-
-<h3>Second Time</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Eh, he'll be fine now.)
-    </p>
-
-    <p class="dialogue-line">
-        (One more loop, one more close call.)
-    </p>
-
-    <p class="dialogue-line">
-        (You couldn't catch him in time, once. It was before you started making sure the housemaiden knew how to make someone's time move again.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        There was nothing any of you could do.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You had to leave him behind.)
-    </p>
-
-    <p class="dialogue-line">
-        (His face, frozen in eternal surprise...)
-    </p>
-
-    <p class="dialogue-line">
-        (If you slept still, the sight would haunt your dreams.)
-    </p>
-
-    <p class="dialogue-line">
-        (But you try to only repeat your last few hours, so. Small mercies.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(worried1)</span>
-        </span>
-        --must be a way to make them disappear somehow... Let's look around a bit more.
-    </p>
-
-</div>
-
-<br>
-
-<h3>Third time onwards</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (He's fine, he's fine, he's doing fine.)
-    </p>
-
-    <p class="dialogue-line">
-        (You look at the floating tears for the required amount of time.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(worried1)</span>
-        </span>
-        --must be a way to make them disappear somehow... Let's look around a bit more.
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="row1">Row of Tears</h2>
-
-<h3>Without the Star Crest</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (You're already tired.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Take a nap?)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Yep.</summary>
+                <br>
 
                 <div class="dialogue">
 
+                    <p class="dialogue-note">
+                        Siffrin walks ahead of the group. The kid runs up and bumps into their backside. The researcher follows.
+                    </p>
+
+                    <br>
+
                     <p class="dialogue-line">
-                        (One more step.)
+                        (Ah...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The housemaiden walks up as well.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You've seen this before.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Siffrin turns to the right.
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>First time:</b> (You watch your step.)</li>
+                        <li><b>Subsequent times:</b> (You get ready.)</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The fighter runs up.
                     </p>
 
                     <br>
@@ -599,92 +114,144 @@
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(embarassed1)</span>
+                            <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Sif? What are y--
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (You raise your hand.)
+                        Alright let's gooooooooo--
                     </p>
 
                     <br>
 
                     <p class="dialogue-note">
-                        You are frozen in time and get a game over.
-                    </p>
-
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>No...</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (You'll die soon enough anyway.)
-                    </p>
-
-                </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-<br>
-
-<h3>With the Star Crest</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Use the STAR CREST to clear the way?)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Yes</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (You used the STAR CREST.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You throw the crest into the tears, then watch them all melt away...)
+                        The fighter screeches to a halt and jumps. The researcher turns toward him.
                     </p>
 
                     <br>
 
                     <p class="dialogue-note">
-                        The Tears vanish in a flash of light.
+                        (You catch the big guy before he goes too far.)
                     </p>
 
-                    <hr>
-
-                    <h4>If you skipped the <a href="#tearsevent">event</a> this loop</h4>
+                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(wondering2)</span>
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(awkward2)</span>
                         </span>
-                        Oh, that thing you found...?
+                        Oh!
                     </p>
+
+
+                </div>
+
+                <h3>First time</h3>
+
+                <div class="dialogue">
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(excited1)</span>
+                            <span class="dialogue-expression">(uwah1)</span>
                         </span>
-                        The thing you found made the weird water go away!!!
+                        Huh?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The fighter looks at Siffrin, while the researcher looks at the Tears.
+                    </p>
+
+                    <br>
+
+                    <!-- Adrienne's typo not mine.-->
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed4)</span>
+                        </span>
+                        WAH! Wh-what? What is it???
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        He looks at the Tears.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        Is it the water? Should I not touch the weird floating water???
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Siffrin looks at the Tears.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(oof1)</span>
+                        </span>
+                        ...Wait. This is...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(worried3)</span>
+                        </span>
+                        ........
+                    </p>
+
+                    <br>
+
+                    <img src="/assets/images/Rock1.png" alt="The researcher picks a small rock off the ground.">
+
+                    <img src="/assets/images/Rock2.png" alt="She flicks the rock at the wall of Tears. It lands with a bzzt.">
+
+                    <img src="/assets/images/Rock3.png" alt="The rock has remains midair, right where it touched the Tears. It's also turned lighter.">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        Oh!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        OH!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The fighter jumps.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed4)</span>
+                        </span>
+                        OH!!! THE ROCK FROZE WHEN IT TOUCHED THE WATER!!!
                     </p>
 
                     <p class="dialogue-line">
@@ -692,57 +259,488 @@
                             <span class="dialogue-name">Researcher</span>
                             <span class="dialogue-expression">(wondering1)</span>
                         </span>
-                        Probably a good thing... I don't want to know what would've happened if we touched those.
+                        Oh, indeed.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        Do NOT approach those. We'd probably get stuck in time just like everything else...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(wondering2)</span>
+                        </span>
+                        It wouldn't hurt too much though, right?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(readingup1)</span>
+                        </span>
+                        What, being frozen in time?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        Theoretically, it wouldn't, no.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(surprised2)</span>
+                        </span>
+                        ...Theoretically?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>
+                        Yes, theoretically. Why, would you care to try it out?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(neutral2)</span>
+                        </span>
+                        I've heard that being frozen makes you go to sleep, and gives you a super good dream!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(smile3)</span>
+                        </span>
+                        Oh?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(wondering1)</span>
+                        </span>
+                        Oh???
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(wondering2)</span>
+                        </span>
+                        Oh... Where did you hear that from?
                     </p>
 
                     <br>
 
                     <p class="dialogue-note">
-                        You got one Weird Point.
+                        The housemaiden, the fighter, and the researcher all turn to the kid one by one as they speak.
                     </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(ew2)</span>
+                        </span>
+                        Ah, um...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        Um... A nice lady told me that when my sister got frozen...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The housemaiden and the fighter both sweat.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(ohfuck2)</span>
+                        </span>
+                        OH!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        OH!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(oof1)</span>
+                        </span>
+                        Oh...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        The kid jumps thrice, as though stomping their feet.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        I-I know it's not true!!! I'm not stupid!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        Just... It would be nice... if that was true.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        So...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(phew1)</span>
+                        </span>
+                        So you should touch the weird frozen water and be frozen and let me know how it goes!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(embarassed4)</span>
+                        </span>
+                        Pass...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You let the conversation go on without you.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You know that while being frozen in time doesn't hurt, it doesn't bring you a wonderful dream either.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's just like&emsp; missing a stair step and being stuck in midair, forever.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Almost restful, in a way.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(wondering1)</span>
+                        </span>
+                        Well, there must be a way to make this water disappear somehow... Let's look around a bit more.
+                    </p>
+
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>No</summary>
+
+                <br>
+
+                <h3>Second Time</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Eh, he'll be fine now.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (One more loop, one more close call.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You couldn't catch him in time, once. It was before you started making sure the housemaiden knew how to make someone's time move again.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        There was nothing any of you could do.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You had to leave him behind.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (His face, frozen in eternal surprise...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (If you slept still, the sight would haunt your dreams.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But you try to only repeat your last few hours, so. Small mercies.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(worried1)</span>
+                        </span>
+                        --must be a way to make them disappear somehow... Let's look around a bit more.
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Third time onwards</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (He's fine, he's fine, he's doing fine.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You look at the floating tears for the required amount of time.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(worried1)</span>
+                        </span>
+                        --must be a way to make them disappear somehow... Let's look around a bit more.
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="row1">Row of Tears</h2>
+
+                <h3>Without the Star Crest</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (You're already tired.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Take a nap?)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>Yep.</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (One more step.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(embarassed1)</span>
+                                        </span>
+                                        Sif? What are y--
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You raise your hand.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You are frozen in time and get a game over.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>No...</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You'll die soon enough anyway.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <br>
+
+                <h3>With the Star Crest</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Use the STAR CREST to clear the way?)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>Yes</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You used the STAR CREST.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (You throw the crest into the tears, then watch them all melt away...)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        The Tears vanish in a flash of light.
+                                    </p>
+
+                                    <hr>
+
+                                    <h4>If you skipped the <a href="#tearsevent">event</a> this loop</h4>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(wondering2)</span>
+                                        </span>
+                                        Oh, that thing you found...?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(excited1)</span>
+                                        </span>
+                                        The thing you found made the weird water go away!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(wondering1)</span>
+                                        </span>
+                                        Probably a good thing... I don't want to know what would've happened if we touched those.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You got one Weird Point.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>No</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        Siffrin walks away from the row of Tears.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2>Other</h2>
 
                 <div class="dialogue">
 
                     <p class="dialogue-note">
-                        Siffrin walks away from the row of Tears.
+                        There's a ghost on the path to the right. It doesn't say anything, though.
                     </p>
-                    
+
+                    <p class="dialogue-note">
+                        It only appears from the second loop onwards, when the True End becomes possible.
+                    </p>
                 </div>
-            </details>
-        </li>
-    </ul>
+            </main>
+        </div>
 
-
-</div>
-
-<hr>
-<br>
-
-<h2>Other</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-note">
-        There's a ghost on the path to the right. It doesn't say anything, though.
-    </p>
-
-    <p class="dialogue-note">
-        It only appears from the second loop onwards, when the True End becomes possible.
-    </p>
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>
