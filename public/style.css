@@ -138,7 +138,7 @@ h3 {
 }
 
 .indented {
-    margin-left: 2em;
+    margin-left: 2em !important;
 }
 
 .sr-only {
@@ -157,6 +157,15 @@ img.cg {
     object-position: top;
     aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplified */
     width: 816px; /* i don't know why this doesn't force it to 816px BUT IT WORKS AND I'M MOVING ON -gold */
+}
+
+.inline-img {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: -0.5em;
+    position: relative;
+    top: 2px;
 }
 
 
