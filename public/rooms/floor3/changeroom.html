@@ -1,179 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Change Room</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Room</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
+    <help-er></help-er>
 
-<head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-<main>
+        <div id="center">
+            <side-bar></side-bar>
 
-<h1>Change Room</h1>
-<p><b>Sources:</b> Map104 (Changing Room (Key 3-2)), Map183 (ACT5_Changing Room (Key 3-2))</p>
-<p>All text relating to the room on Floor 3 containing the changing Housemaiden and the Angry Key.</p>
+            <main>
+                <h1>Change Room</h1>
+                <p><b>Sources:</b> Map104 (Changing Room (Key 3-2)), Map183 (ACT5_Changing Room (Key 3-2))</p>
+                <p>All text relating to the room on Floor 3 containing the changing Housemaiden and the Angry Key.</p>
 
-<br>
+                <br>
 
-<h1>Index</h1>
+                <h1>Index</h1>
 
-<ul>
-    <li><a href="#key">Key closet</a></li>
-    <li><a href="#cloak">Clothes closet</a></li>
-    <li><a href="#pictures">Pictures on the wall</a></li>
-    <li><a href="#bookcase">Bookcase</a></li>
-    <li><a href="#table">Book on the table</a></li>
-    <li><a href="#candles">Candles</a>
-        <ul>
-            <li><a href="#candleL">Left candles</a></li>
-            <li><a href="#candleR">Right candles</a></li>
-        </ul>
-    </li>
-    <li><a href="#maiden">Frozen Housemaiden</a></li>
-    <li><a href="#notes">Housemaiden's notes</a></li>
-    <li><a href="#bed">Bed</a></li>
-    <li><a href="#items">Items</a>
-        <ul>
-            <li><a href="#tableitems">Items on the center table</a></li>
-            <li><a href="#leftitems">Items on the bottom left cupboard</a></li>
-        </ul>
-    </li>
-</ul>
+                <ul>
+                    <li><a href="#key">Key closet</a></li>
+                    <li><a href="#cloak">Clothes closet</a></li>
+                    <li><a href="#pictures">Pictures on the wall</a></li>
+                    <li><a href="#bookcase">Bookcase</a></li>
+                    <li><a href="#table">Book on the table</a></li>
+                    <li><a href="#candles">Candles</a>
+                        <ul>
+                            <li><a href="#candleL">Left candles</a></li>
+                            <li><a href="#candleR">Right candles</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#maiden">Frozen Housemaiden</a></li>
+                    <li><a href="#notes">Housemaiden's notes</a></li>
+                    <li><a href="#bed">Bed</a></li>
+                    <li><a href="#items">Items</a>
+                        <ul>
+                            <li><a href="#tableitems">Items on the center table</a></li>
+                            <li><a href="#leftitems">Items on the bottom left cupboard</a></li>
+                        </ul>
+                    </li>
+                </ul>
 
 
-<hr>
+                <hr>
 
-<h1 id="key">Key closet</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A closet.)
-    </p>
-
-    <p class="dialogue-line">
-        (You open it...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You found the ANGRY KEY!)
-    </p>
-
-    <p class="dialogue-line">
-        (You put the Angry Key in your Pocket.)
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (You now know where the Angry Key is located.)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        (The keychain dangling from it is shaped like an angry mask...)
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (That's a different face than the key you've gotten before.)
-    </p>
-
-    <p class="dialogue-line">
-        (Why are the faces different...?)
-    </p>
-
-    <hr>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(questions2)</span>
-            </span>
-            (Does it mean something?)
-        </li>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(questions2)</span>
-            </span>
-            (Hm...)
-        </li>
-        <li><b>ACT 3 & 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (...)
-        </li>
-    </ul>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"What's this about?"</summary>
+                <h1 id="key">Key closet</h1>
 
                 <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A closet.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You open it...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You found the ANGRY KEY!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You put the Angry Key in your Pocket.)
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (You now know where the Angry Key is located.)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        (The keychain dangling from it is shaped like an angry mask...)
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (That's a different face than the key you've gotten before.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Why are the faces different...?)
+                    </p>
+
+                    <hr>
+
+                    <ul>
+                        <li><b>First time:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(questions2)</span>
+                            </span>
+                            (Does it mean something?)
+                        </li>
+                        <li><b>ACT 2:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(questions2)</span>
+                            </span>
+                            (Hm...)
+                        </li>
+                        <li><b>ACT 3 & 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                            (...)
+                        </li>
+                    </ul>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"What's this about?"</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(neutral1)</span>
+                                        </span>
+                                        Oh, every keychain will probably have a different mask!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(awkward1)</span>
+                                        </span>
+                                        Huh... So every mask will have a different emotion? Is this what it's trying to represent?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(and then1)</span>
+                                        </span>
+                                        Oh, I know this one!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(hmf1)</span>
+                                        </span>
+                                        That's the Change God! No matter what emotion it has, if it has a mask, that's the Change God!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(excited1)</span>
+                                        </span>
+                                        The Change God always has a mask, and never has the same expression! Or art style, for that matter.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                        </span>
+                                        It's to show the Change God is ever-changing...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(hahaha2)</span>
+                                        </span>
+                                        But also to show us that emotions are fleeting!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        No matter how wonderful or awful you're feeling, this feeling will fade in time.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(sulk5)</span>
+                                        </span>
+                                        ...Why do good emotions have to fade too?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(sad1)</span>
+                                        </span>
+                                        Why can't we keep being happy forever?
+                                    </p>
+
+                                    <hr>
+
+                                    <h4>ACT 4 only</h4>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(boo1)</span>
+                                        </span>
+                                        That'd be boring!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(really1)</span>
+                                        </span>
+                                        Can you imagine? It'd be, like, hm... Like being forced to eat your favorite food forever.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(serious1)</span>
+                                        </span>
+                                        I'd like that though.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol2)</span>
+                                        </span>
+                                        Are you sure? REALLY imagine it.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(haha1)</span>
+                                        </span>
+                                        Eating only your favorite food, all the time...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(surprised1)</span>
+                                        </span>
+                                        Can I stop eating it when I'm full?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(hahaha2)</span>
+                                        </span>
+                                        Nope. Can't do anything expect eat.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(no!2)</span>
+                                        </span>
+                                        I can't go to the bathroom?!?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy4)</span>
+                                        </span>
+                                        Nope!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(wait1)</span>
+                                        </span>
+                                        . . .
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(wait1)</span>
+                                        </span>
+                                        That would <span class="wave">suuuuuuuuuuuck...</span>
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol1)</span>
+                                        </span>
+                                        Indeed. Just like feeling terrible forever would suck too.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(thinking1)</span>
+                                        </span>
+                                        And some of those feelings might stay for a while, make their home here...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        But knowing they'll eventually go away, isn't it a relief?
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(No time.)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (There's a House to explore.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (There's nothing else in the closet.)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Got the ANGRY KEY.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But you could loop back, if you wanted, couldn't you?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Loop back to before you talked to Mirabelle yesterday.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Make sure everything happens the way it always did.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Make sure you didn't say all those things to them.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Make sure they didn't hate you.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="shake">(But you can't, you can't, you can't go through it all even one more time, your heart feels like it's splitting in two just thinking about it, you can't, you can't, you won't!!!)</span>
+                    </p>
+
+
+
+                </div>
+
+                <br>
+                <hr>
+
+                <h1 id="cloak">Clothes closet</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The closet is filled with many different types of clothes.)
+                    </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(neutral1)</span>
                         </span>
-                        Oh, every keychain will probably have a different mask!
+                        Oh, look at this shirt! It has the same material as your cloak, right Sif?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(awkward1)</span>
+                            <span class="dialogue-expression">(hm1)</span>
                         </span>
-                        Huh... So every mask will have a different emotion? Is this what it's trying to represent?
+                        This also looks incredibly warm. I still don't know how you managed to wear your cloak this whole summer...
                     </p>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(and then1)</span>
-                        </span>
-                        Oh, I know this one!!!
-                    </p>
+                    <br>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(hmf1)</span>
-                        </span>
-                        That's the Change God! No matter what emotion it has, if it has a mask, that's the Change God!
-                    </p>
+                    <ul>
+                        <li><b>First time:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(smiling3)</span>
+                            </span>
+                            (You've had this cloak for a while!)
+                        </li>
+                        <li><b>ACT 2 & 3:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(hide1)</span>
+                            </span>
+                            (You've had this cloak for a while.)
+                        </li>
+                        <li><b>ACT 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                            (...)
+                        </li>
+                        <li class="option">
+                            "I never really get hot with it though?"
+                        </li>
+                    </ul>
+
+                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(excited1)</span>
+                            <span class="dialogue-expression">(anxious3)</span>
                         </span>
-                        The Change God always has a mask, and never has the same expression! Or art style, for that matter.
+                        Really?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        ...Sif, can I look at your cloak for a sec?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You nod.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Taking care to not touch you, Isabeau kneels and takes a hold of your cloak...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        Ah!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Your cloak's been sewn with some kind of temperature regulation spell crafted into the stitching, that's kind of cool.
                     </p>
 
                     <p class="dialogue-line">
@@ -181,7 +519,135 @@
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(brag1)</span>
                         </span>
-                        It's to show the Change God is ever-changing...
+                        No wonder you always look comfortable no matter the weather.
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (HUH?)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        WHAT...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        Isn't that... Really really advanced crafting???
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Aw, it's also been crafted to make the cloak grow with you!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        It must've been incredibly expensive, unless it was handmade? How long have you had this?
+                    </p>
+
+                    <hr>
+
+                    <h3>First time</h3>
+
+                    <p class="dialogue-line">
+                        (You try to remember.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Nothing comes to mind.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You shrug.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Urgh... I'm really jealous... Sorry...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(joke1)</span>
+                        </span>
+                        (Heh!) "Spoken like a true clothing designer, huh?"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(blush2)</span>
+                        </span>
+                        Heheh, well.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        ...Did I tell you about that? Hm...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (OOPS.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        (QUICK SAY SOMETHING) "Just, just because, your clothes are so cool, haha."
                     </p>
 
                     <p class="dialogue-line">
@@ -189,57 +655,259 @@
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(hahaha2)</span>
                         </span>
-                        But also to show us that emotions are fleeting!
+                        Aw, thanks!!!!!
                     </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        ...
+                    </p>
+
+                    <hr>
+
+                    <h3>ACT 2</h3>
+
+                    <p class="dialogue-line">
+                        (You shrug.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Still can't remember.)
+                    </p>
+
+                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(happy1)</span>
+                            <span class="dialogue-expression">(anxious2)</span>
                         </span>
-                        No matter how wonderful or awful you're feeling, this feeling will fade in time.
+                        Urgh... I'm really jealous... Sorry...
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
                         </span>
-                        ...Why do good emotions have to fade too?
+                        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sad1)</span>
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
                         </span>
-                        Why can't we keep being happy forever?
+                        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
                     </p>
 
-                    <hr>
-
-                    <h4>ACT 4 only</h4>
+                    <br>
 
                     <p class="dialogue-line">
-                        (...)
+                        (You stay silent.)
                     </p>
 
                     <hr>
+
+                    <h3>ACT 3</h3>
+
+                    <p class="dialogue-line">
+                        (You shrug.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (No point even trying to remember.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Urgh... I'm really jealous... Sorry...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You stay silent.)
+                    </p>
+
+                    <hr>
+
+                    <h3>First time in ACT 4</h3>
+
+                    <p class="dialogue-line">
+                        (You think.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You think and think and think.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Something has to come to mind, anything!)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (How can you not remember something as simple as this!!!!!!)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="shake">(Something as simple as where you got your blinding cloak you've been carrying for as long as you can remember!!!!!!!!!!)</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (WAH!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You felt wind on your face?!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...Isabeau shook your cloak sharply, making a wave of wind blow on your face.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        Uh, see, and your cloak is so solid, too! It's really cool!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        And look, everyone, come closer, look at this.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Everyone looks at where Isabeau's pointing, away from your face.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You look, too.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        So right here, right, that's super interesting stitching.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        It's backstitching, right, which is a very solid kind of stitching, and it's used in a lot of different places...
+                    </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(boo1)</span>
                         </span>
-                        That'd be boring!!!
+                        But Vaugardian clothing in general is moving away from backstitching, because, well, we think it's boring.
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(really1)</span>
+                            <span class="dialogue-expression">(brag1)</span>
                         </span>
-                        Can you imagine? It'd be, like, hm... Like being forced to eat your favorite food forever.
+                        Like here, my clothing here has something called chainstitching, and also it's in a zigzag shape, because it looks cuter I guess.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        But backstitching is just more durable. Now that I look at it, your hat has the same stitching too... I wonder if they were a set?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Isabeau raises his head, and looks at your face.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        And, um, look at the way the cloak is weaved, too!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        It's wool, and it goes one thread up, one thread down, et cetera...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        But, again, Vaugardian clothing likes to be more interesting visually, so if you look at Mira's cloak--
                     </p>
 
                     <p class="dialogue-line">
@@ -247,31 +915,71 @@
                             <span class="dialogue-name">Bonnie</span>
                             <span class="dialogue-expression">(serious1)</span>
                         </span>
-                        I'd like that though.
+                        Are you saying Frin's cloak is boring?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(omgggg1)</span>
                         </span>
-                        Are you sure? REALLY imagine it.
+                        No, no, I'm not saying it's boring!!!!! I'm just saying it's like...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        It's clothing that's less like Vaugarde, or even Ka Bue's artistic clothing...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        It's less clothing that's to make you look pretty, or make you stand out, and more clothing that's here to keep you comfy and warm.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Function over form, you know?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(haha1)</span>
+                            <span class="dialogue-expression">(anxious1)</span>
                         </span>
-                        Eating only your favorite food, all the time...
+                        Oh, okay...
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(surprised1)</span>
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(doubt1)</span>
                         </span>
-                        Can I stop eating it when I'm full?
+                        Uh huh.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(huh2)</span>
+                        </span>
+                        So, um, what I'm SAYING is...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(sad3)</span>
+                        </span>
+                        Considering the Craft that came into it... The temperature regulation and how it grows with you...
                     </p>
 
                     <p class="dialogue-line">
@@ -279,55 +987,313 @@
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(hahaha2)</span>
                         </span>
-                        Nope. Can't do anything expect eat.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(no!2)</span>
-                        </span>
-                        I can't go to the bathroom?!?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(happy4)</span>
-                        </span>
-                        Nope!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(wait1)</span>
-                        </span>
-                        . . . 
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(wait1)</span>
-                        </span>
-                        That would <span class="wave">suuuuuuuuuuuck...</span>
+                        Whoever gave you this cloak wanted to make sure you're gonna be nice and comfy for a long time, Sif!
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol1)</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
                         </span>
-                        Indeed. Just like feeling terrible forever would suck too.
+                        . . .
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(thinking1)</span>
+                            <span class="dialogue-expression">(sad1)</span>
                         </span>
-                        And some of those feelings might stay for a while, make their home here...
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        . . .
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You try not to cry.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You bite your lip and breathe slowly, in, and out.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You walk away from the closet.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(hide3)</span>
+                        </span>
+                        "Let's look at something else."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(sad4)</span>
+                        </span>
+                        ...Okay.
+                    </p>
+
+                    <hr>
+
+                    <h3>Subsequent times in ACT 4</h3>
+
+                    <p class="dialogue-line">
+                        (You look away from the closet, shrug, and smile.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Urgh... I'm really jealous... Sorry...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The closet is filled with many different types of clothes.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The closet is filled with many different types of clothes.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Oh, look at this shirt! It has the same material as your cloak, right Sif?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                        </span>
+                        This also looks incredibly warm. I still don't know how you managed to wear your cloak this whole summer...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        <span class="shake">(YOU'VE HAD THIS CLOAK FOREVER)</span> "I never really get hot with it though?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        Really?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        ...Sif, can I look at your cloak for a sec?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You nod.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Taking care to not touch you because you're too disgusting to touch, Isabeau kneels and takes a hold of your cloak...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        Ah!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Your cloak's been sewn with some kind of temperature regulation spell crafted into the stitching, that's kind of cool.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        No wonder you always look comfortable no matter the weather.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="shake">(but you feel cold right now)</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        WHAT...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        Isn't that... Really really advanced crafting???
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Aw, it's also been crafted to make the cloak grow with you!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        It must've been incredibly expensive, unless it was handmade? How long have you had this?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You think, and think, <span class="shake">and think,</span> and think for so long that when you open your mouth to answer, you realize that you've been talking to thin air.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Closet.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="pictures">Pictures on the wall</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Pictures of different people.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Some of them are covered in bandages, but they're all smiling.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Pictures of different people.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="bookcase">Bookcase</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The bookcase is filled with books about Body Craft.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh2)</span>
+                        </span>
+                        Interesting. Can you tell me more about this?
                     </p>
 
                     <p class="dialogue-line">
@@ -335,2379 +1301,1410 @@
                             <span class="dialogue-name">Mirabelle</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        But knowing they'll eventually go away, isn't it a relief?
+                        Oh, well--
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Hey, hey, Dile.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        Don't you already know all this stuff?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                        </span>
+                        Hm? What do you mean?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk2)</span>
+                        </span>
+                        Um, you're always asking questions about Vaugarde and change and stuff...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        But don't you already know about it?
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (Huh, you never thought about it...)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        Yeah, I was wondering about this too! You're always asking questions, which is fun...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        ...But I can't believe you'd go to another country and not learn all about it beforehand.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        If only because it'd make you look stupid.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        ...How insightful, you two.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        Wh-what?! Do you already know about the things you ask about???
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        Hm, I do know some of the things I ask you about...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        But I also believe there's a difference between knowledge learned in books, and knowledge learned by talking to people.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>
+                        Knowledge is important, but the meaning behind it, the emotional piece... That's important too.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                        </span>
+                        Books don't tell me anything about how it feels to be surrounded by Vaugardian culture, to be bathed in it.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        But the three of you do. And you clearly love your country, love the Change belief...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>
+                        And it's making me like it too, I suppose.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy2)</span>
+                        </span>
+                        Oh!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Aww, m'dame Odile!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        I don't get it.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        Ha! It's okay. You don't need to understand.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        I just want to know all I can about Vaugardian culture, that's all.
+                    </p>
+
+                    <hr>
+
+                    <h4>If <a href="/acts/act3-4/odilequest.html">Odilequest</a> was completed this loop</h4>
+
+                    <p class="dialogue-line">
+                        (Odile...)
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The bookcase is filled with books about Body Craft.)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Bookcase.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="table">Book on the table</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A book detailing how to craft your body.)
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (...)
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        Wow, this book looks simpler than the one I've studied.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Apparently they've made some big strides in Body Craft recently!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(excited1)</span>
+                        </span>
+                        Before, it took close to a year to make big changes... But now you can Change in a month or so!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        It's interesting. Crafting your body is so... accepted, here in Vaugarde.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        In Ka Bue, using Craft on yourself would be grounds for prison.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(huhwah1)</span>
+                        </span>
+                        PRISON!?!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        But why???
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot3)</span>
+                        </span>
+                        Because if you can craft your body to your liking, where's the limit?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh2)</span>
+                        </span>
+                        Take the King for example. They say he crafted his body to become so massive, he can destroy houses in a single gesture.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        And that's without mentioning his mastery over Time Craft, too.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        ...But, that's...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        I'm not saying Ka Bue is correct. I'm just telling you their point of view.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        Plus...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        It's not like there aren't ways to do Body Craft in Ka Bue, if you know where to look.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        Oh my, m'dame Odile... Were you part of the underground resistance?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                        </span>
+                        I'll never tell.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        ...Resistance-ology...
                     </p>
 
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(No time.)</summary>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <h4>ACT 2</h4>
+
+                    <p class="dialogue-line">
+                        (You've always wondered about crafting your body to something else, but it seems like a lot of work.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You don't mind inhabiting this meat prison for the time being.)
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 3 & 4</h4>
+
+                    <p class="dialogue-line">
+                        (You're thinking about crafting your body.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You seem to have all the time in the world now.)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="candleL">Left candles</h1>
 
                 <div class="dialogue">
 
                     <p class="dialogue-line">
-                        (There's a House to explore.)
+                        (Candles.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Sniff sniff.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Lavender!
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Lavender candles.)
                     </p>
 
                 </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (There's nothing else in the closet.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Got the ANGRY KEY.)
-    </p>
-
-    <p class="dialogue-line">
-        (But you could loop back, if you wanted, couldn't you?)
-    </p>
-
-    <p class="dialogue-line">
-        (Loop back to before you talked to Mirabelle yesterday.)
-    </p>
-
-    <p class="dialogue-line">
-        (Make sure everything happens the way it always did.)
-    </p>
-
-    <p class="dialogue-line">
-        (Make sure you didn't say all those things to them.)
-    </p>
-
-    <p class="dialogue-line">
-        (Make sure they didn't hate you.)
-    </p>
-
-    <p class="dialogue-line">
-        <span class="shake">(But you can't, you can't, you can't go through it all even one more time, your heart feels like it's splitting in two just thinking about it, you can't, you can't, you won't!!!)</span>
-    </p>
-
-
-
-</div>
-
-<br>
-<hr>
-
-<h1 id="cloak">Clothes closet</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The closet is filled with many different types of clothes.)
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Oh, look at this shirt! It has the same material as your cloak, right Sif?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        This also looks incredibly warm. I still don't know how you managed to wear your cloak this whole summer...
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(smiling3)</span>
-            </span>
-            (You've had this cloak for a while!)
-        </li>
-        <li><b>ACT 2 & 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(hide1)</span>
-            </span>
-            (You've had this cloak for a while.)
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (...)
-        </li>
-        <li class="option">
-            "I never really get hot with it though?"
-        </li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious3)</span>
-        </span>
-        Really?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        ...Sif, can I look at your cloak for a sec?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You nod.)
-    </p>
-
-    <p class="dialogue-line">
-        (Taking care to not touch you, Isabeau kneels and takes a hold of your cloak...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Ah!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Your cloak's been sewn with some kind of temperature regulation spell crafted into the stitching, that's kind of cool.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        No wonder you always look comfortable no matter the weather.
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (HUH?)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        WHAT...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        Isn't that... Really really advanced crafting???
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Aw, it's also been crafted to make the cloak grow with you!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        It must've been incredibly expensive, unless it was handmade? How long have you had this?
-    </p>
-
-    <hr>
-
-    <h3>First time</h3>
-
-    <p class="dialogue-line">
-        (You try to remember.)
-    </p>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <p class="dialogue-line">
-        (Nothing comes to mind.)
-    </p>
-
-    <p class="dialogue-line">
-        (You shrug.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Urgh... I'm really jealous... Sorry...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(joke1)</span>
-        </span>
-        (Heh!) "Spoken like a true clothing designer, huh?"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(blush2)</span>
-        </span>
-        Heheh, well.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        ...Did I tell you about that? Hm...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (OOPS.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(awkward1)</span>
-        </span>
-        (QUICK SAY SOMETHING) "Just, just because, your clothes are  so cool, haha."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Aw, thanks!!!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        ...
-    </p>
-
-    <hr>
-
-    <h3>ACT 2</h3>
-
-    <p class="dialogue-line">
-        (You shrug.)
-    </p>
-
-    <p class="dialogue-line">
-        (Still can't remember.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Urgh... I'm really jealous... Sorry...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You stay silent.)
-    </p>
-
-    <hr>
-
-    <h3>ACT 3</h3>
-
-    <p class="dialogue-line">
-        (You shrug.)
-    </p>
-
-    <p class="dialogue-line">
-        (No point even trying to remember.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Urgh... I'm really jealous... Sorry...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You stay silent.)
-    </p>
-
-    <hr>
-
-    <h3>First time in ACT 4</h3>
-
-    <p class="dialogue-line">
-        (You think.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You think and think and think.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Something has to come to mind, anything!)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (How can you not remember something as simple as this!!!!!!)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="shake">(Something as simple as where you got your blinding cloak you've been carrying for as long as you can remember!!!!!!!!!!)</span>
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (WAH!)
-    </p>
-
-    <p class="dialogue-line">
-        (You felt wind on your face?!)
-    </p>
-
-    <p class="dialogue-line">
-        (...Isabeau shook your cloak sharply, making a wave of wind blow on your face.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(disappointed1)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaaa1)</span>
-        </span>
-        Uh, see, and your cloak is so solid, too! It's really cool!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        And look, everyone, come closer, look at this.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Everyone looks at where Isabeau's pointing, away from your face.)
-    </p>
-
-    <p class="dialogue-line">
-        (You look, too.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        So right here, right, that's super interesting stitching.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        It's backstitching, right, which is a very solid kind of stitching, and it's used in a lot of different places...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(boo1)</span>
-        </span>
-        But Vaugardian clothing in general is moving away from backstitching, because, well, we think it's boring.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Like here, my clothing here has something called chainstitching, and also it's in a zigzag shape, because it looks cuter I guess.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        But backstitching is just more durable. Now that I look at it, your hat has the same stitching too... I wonder if they were a set?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Isabeau raises his head, and looks at your face.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(surprised1)</span>
-        </span>
-        And, um, look at the way the cloak is weaved, too!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        It's wool, and it goes one thread up, one thread down, et cetera...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        But, again, Vaugardian clothing likes to be more interesting visually, so if you look at Mira's cloak--
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        Are you saying Frin's cloak is boring?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(omgggg1)</span>
-        </span>
-        No, no, I'm not saying it's boring!!!!! I'm just saying it's like...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        It's clothing that's less like Vaugarde, or even Ka Bue's artistic clothing...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        It's less clothing that's to make you look pretty, or make you stand out, and more clothing that's here to keep you comfy and warm.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Function over form, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Oh, okay...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(doubt1)</span>
-        </span>
-        Uh huh.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(huh2)</span>
-        </span>
-        So, um, what I'm SAYING is...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(sad3)</span>
-        </span>
-        Considering the Craft that came into it... The temperature regulation and how it grows with you...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Whoever gave you this cloak wanted to make sure you're gonna be nice and comfy for a long time, Sif!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        . . .
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You try not to cry.)
-    </p>
-
-    <p class="dialogue-line">
-        (You bite your lip and breathe slowly, in, and out.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You walk away from the closet.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(hide3)</span>
-        </span>
-        "Let's look at something else."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(sad4)</span>
-        </span>
-        ...Okay.
-    </p>
-
-    <hr>
-
-    <h3>Subsequent times in ACT 4</h3>
-
-    <p class="dialogue-line">
-        (You look away from the closet, shrug, and smile.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Urgh... I'm really jealous... Sorry...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Yeah, if you ever sold this, you'd be set for a few months if not a whole year, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        The craftsmanship alone... Crafting stuff into the stitching is really interesting, actually... Hm...
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The closet is filled with many different types of clothes.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The closet is filled with many different types of clothes.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Oh, look at this shirt! It has the same material as your cloak, right Sif?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        This also looks incredibly warm. I still don't know how you managed to wear your cloak this whole summer...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(smiling3)</span>
-        </span>
-        <span class="shake">(YOU'VE HAD THIS CLOAK FOREVER)</span> "I never really get hot with it though?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious3)</span>
-        </span>
-        Really?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        ...Sif, can I look at your cloak for a sec?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You nod.)
-    </p>
-
-    <p class="dialogue-line">
-        (Taking care to not touch you because you're too disgusting to touch, Isabeau kneels and takes a hold of your cloak...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Ah!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Your cloak's been sewn with some kind of temperature regulation spell crafted into the stitching, that's kind of cool.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        No wonder you always look comfortable no matter the weather.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="shake">(but you feel cold right now)</span>
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        WHAT...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        Isn't that... Really really advanced crafting???
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Aw, it's also been crafted to make the cloak grow with you!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        It must've been incredibly expensive, unless it was handmade? How long have you had this?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You think, and think, <span class="shake">and think,</span> and think for so long that when you open your mouth to answer, you realize that you've been talking to thin air.)
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Closet.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="pictures">Pictures on the wall</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Pictures of different people.)
-    </p>
-
-    <p class="dialogue-line">
-        (Some of them are covered in bandages, but they're all smiling.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Pictures of different people.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="bookcase">Bookcase</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The bookcase is filled with books about Body Craft.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh2)</span>
-        </span>
-        Interesting. Can you tell me more about this?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Oh, well--
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Hey, hey, Dile.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        Don't you already know all this stuff?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol3)</span>
-        </span>
-        Hm? What do you mean?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk2)</span>
-        </span>
-        Um, you're always asking questions about Vaugarde and change and stuff...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        But don't you already know about it?
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (Huh, you never thought about it...)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Yeah, I was wondering about this too! You're always asking questions, which is fun...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        ...But I can't believe you'd go to another country and not learn all about it beforehand.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        If only because it'd make you look stupid.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        ...How insightful, you two.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        Wh-what?! Do you already know about the things you ask about???
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        Hm, I do know some of the things I ask you about...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        But I also believe there's a difference between knowledge learned in books, and knowledge learned by talking to people.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(smile1)</span>
-        </span>
-        Knowledge is important, but the meaning behind it, the emotional piece... That's important too.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol4)</span>
-        </span>
-        Books don't tell me anything about how it feels to be surrounded by Vaugardian culture, to be bathed in it.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        But the three of you do. And you clearly love your country, love the Change belief...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(smile1)</span>
-        </span>
-        And it's making me like it too, I suppose.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        Oh!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Aww, m'dame Odile!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        I don't get it.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        Ha! It's okay. You don't need to understand.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        I just want to know all I can about Vaugardian culture, that's all.
-    </p>
-
-    <hr>
-
-    <h4>If <a href="/acts/act3-4/odilequest.html">Odilequest</a> was completed this loop</h4>
-
-    <p class="dialogue-line">
-        (Odile...)
-    </p>
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The bookcase is filled with books about Body Craft.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (Bookcase.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="table">Book on the table</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A book detailing how to craft your body.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        Wow, this book looks simpler than the one I've studied.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Apparently they've made some big strides in Body Craft recently!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(excited1)</span>
-        </span>
-        Before, it took close to a year to make big changes... But now you can Change in a month or so!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        It's interesting. Crafting your body is so... accepted, here in Vaugarde.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        In Ka Bue, using Craft on yourself would be grounds for prison.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(huhwah1)</span>
-        </span>
-        PRISON!?!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!2)</span>
-        </span>
-        But why???
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot3)</span>
-        </span>
-        Because if you can craft your body to your liking, where's the limit?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh2)</span>
-        </span>
-        Take the King for example. They say he crafted his body to become so massive, he can destroy houses in a single gesture.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(sad1)</span>
-        </span>
-        And that's without mentioning his mastery over Time Craft, too.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        ...But, that's...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        I'm not saying Ka Bue is correct. I'm just telling you their point of view.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Plus...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        It's not like there aren't ways to do Body Craft in Ka Bue, if you know where to look.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        Oh my, m'dame Odile... Were you part of the underground resistance?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol4)</span>
-        </span>
-        I'll never tell.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        ...Resistance-ology...
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <h4>ACT 2</h4>
-
-    <p class="dialogue-line">
-        (You've always wondered about crafting your body to something else, but it seems like a lot of work.)
-    </p>
-
-    <p class="dialogue-line">
-        (You don't mind inhabiting this meat prison for the time being.)
-    </p>
-
-    <hr>
-
-    <h4>ACT 3 & 4</h4>
-
-    <p class="dialogue-line">
-        (You're thinking about crafting your body.)
-    </p>
-
-    <p class="dialogue-line">
-        (You seem to have all the time in the world now.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h1 id="candleL">Left candles</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Candles.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Sniff sniff.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Lavender!
-    </p>
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Lavender candles.)
-    </p>
-    
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-<p>Because this room is mirrored in ACT 5, these candles are now on the right.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Candles.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Sniff sniff.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Sugar, just like everything else around here!
-    </p>
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (Sugar candles.)
-    </p>
-</div>
-
-<br>
-<hr>
-
-<h1 id="candleR">Right candles</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Candles.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Sniff sniff.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Pomme de granate!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Pomegranate.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        Pommegranite.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Pah-muh-gra-nuht.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(yeah!3)</span>
-        </span>
-        Pah-muh-gra-nuht!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Yeah!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(excited1)</span>
-        </span>
-        You did it!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Everyone claps proudly.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(smile4)</span>
-        </span>
-        Hehehe...
-    </p>
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Pomegranate candles.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-<p>Because this room is mirrored in ACT 5, these candles are now on the left.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Candles.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Sniff sniff.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Burnt sugar, just like when Frin loops back in time!
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Burnt sugar candles.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="maiden">Frozen Housemaiden</h1>
-
-<div class="dialogue">
-
-    <ul>
-        <li><b>First time:</b> (Someone frozen in time.)</li>
-        <li><b>Subsequent times:</b> (A housemaiden.)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious3)</span>
-        </span>
-        Oh, that's...!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward1b)</span>
-        </span>
-        I... don't know who that is, actually.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        They have a cool necklace, though.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        Let me see...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Oh!!! I know them, that's another Housemaiden!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(excited1)</span>
-        </span>
-        I hadn't seen them in a while... I didn't know they were Changing!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        Come to think of it, I hadn't seen them for a little bit before the King... Maybe they were close to done crafting their body.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        If we can beat the King, you can see them and meet them again!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Yes!
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A housemaiden.)
-    </p>
-
-    <p class="dialogue-line">
-        (They're frozen in time.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (Someone frozen in time.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="notes">Housemaiden's notes</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Paper and a pen.)
-    </p>
-
-    <p class="dialogue-line">
-        (Looks like someone was in the middle of writing down their Change.)
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b> (You and Odile look closer...)</li>
-        <li><b>Subsequent times:</b> (You stay away, but Odile starts to look closer...)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious3)</span>
-        </span>
-        Ah...!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Hey, don't look, it's private!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Just because everything's frozen doesn't mean we should look at everything, you know?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh1)</span>
-        </span>
-        Oh... I wasn't aware, my apologies.
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (He's right...)
-    </p>
-
-    <p class="dialogue-line">
-        (You look away.)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        Nah, it's fine, it's fine, you two didn't know.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        But still, this brings back memories!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        Ah, I would love to craft my body more...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        I would love to be two centimeters taller!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward1b)</span>
-        </span>
-        Why two centimeters? Aren't you tall enough already?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(ew1)</span>
-        </span>
-        I think you're too tall and you should cut it out.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(omgggg1)</span>
-        </span>
-        Cut what out...?!?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        Anyway, Mira, you don't understand.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(disappointed1)</span>
-        </span>
-        With two more centimeters, I'll pass the threshold.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(yeah!1)</span>
-        </span>
-        With two more centimeters, I'll finally be Tall with a capital T!!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Hahaha! I support you and your tall dreams!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        What a simple reason...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Crafting your body, huh...)
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>After dying to the King for the first time:</b> (Come to think of it, Body Craft may be how the King managed to become such a giant, didn't he?)</li>
-        <li><b>After learning the (Ask...) skill, but before the <a href="/acts/act3-4/kingquest.html#sayit">Say It Event</a>:</b> (Maybe you could talk to the King about it...)</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(doubt1)</span>
-        </span>
-        And, you know, instead of crafting your body itself, maybe there are easier ways to gain height.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Oh?! Like what?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(excited1)</span>
-        </span>
-        You could wear high heels!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(sniff1)</span>
-        </span>
-        High heels hurt my feetsies...
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2 & 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(joke1)</span>
-            </span>
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-        </li>
-        <li class="option">"Drink lots of milk?"</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        Milk makes me sick sometimes.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(lmao1)</span>
-        </span>
-        We could tie your hands to a pillar and tug on your feet really hard?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hm5)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        Worth a try. Anyone have rope?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm1)</span>
-        </span>
-        I'm sorry I brought us to this point. Let's stay focused, PLEASE.
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-<p>Also ACT 5 interactions.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Paper and a pen.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="bed">Bed</h1>
-
-<h3>Not remembering the word</h3>
-<p>Occurs guaranteed the first time, and after that at a 1/3 chance.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (An empty, clean bed.)
-    </p>
-
-    <p class="dialogue-line">
-        (There's something on it.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's an animal, but not real. It's made out of fabric and other things. It's usually for kids. Those things have a name. It's a...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(stop!1)</span>
-        </span>
-        IT'S A STUFFED ANIMAL, DUMMY!!!!!!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Oh[!/.])
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!1)</span>
-        </span>
-        GUYS!!! FRIN FORGOT AN EASY WORD AGAIN!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awawa1)</span>
-        </span>
-        SIFFRIN!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaaa1)</span>
-        </span>
-        Sif...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(doubt1)</span>
-        </span>
-        We really have to do something about this, Siffrin.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        Did you really forget a basic word like "stuffed animal"?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b> (Hey, some of the things you don't remember the words for aren't basic!)</li>
-        <li><b>ACT 3:</b> (You were always forgetful, but it's getting worse lately.)</li>
-        <li><b>ACT 4:</b> (...)</li>
-    </ul>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(boo1)</span>
-            </span>
-        </li>
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake3)</span>
-            </span>
-        </li>
-        <li class="option">"I use my brain for other things."
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(isthatso1)</span>
-        </span>
-        Things other than remembering the word "stuffed animal"?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        What do you use the space in your brain for, anyway? Puns?
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>First time:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(nya1)</span>
-            </span>
-            (Oh!)
-        </li>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fufu1)</span>
-            </span>
-            (Heheh.)
-        </li>
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-            (Heh.)
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake3)</span>
-            </span>
-            (Say the line, Siffrin.)
-        </li>
-        <li class="option">"As a matter of fact, yes."</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        Well, that's fine, but--
-    </p>
-
-    <br>
-
-    <ul>
-        <li><b>ACT 2:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(joke2)</span>
-            </span>
-        </li>
-        <li><b>ACT 3:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(joke1)</span>
-            </span>
-        </li>
-        <li><b>ACT 4:</b>
-            <span class="dialogue-head">
-                <span class="dialogue-name">Siffrin</span>
-                <span class="dialogue-expression">(fake1)</span>
-            </span>
-        </li>
-        <li class="option">"My brain is just 'stuffed' with puns."</li>
-    </ul>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(stop!1)</span>
-        </span>
-        CRAB!!!!!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(LMAO1)</span>
-        </span>
-        HAHAHAHAHAHA YES!!!!!!!
-    </p>
-
-</div>
-
-<br>
-
-<h3>Remembering the word</h3>
-<p>Occurs at a 2/3 chance after the first time, as well as on repeated interaction in the same loop.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (An empty, clean bed.)
-    </p>
-
-    <p class="dialogue-line">
-        (There's a stuffed animal laying on it.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(stop!1)</span>
-        </span>
-        IT'S A STUFFED ANIMAL, DUMMY!!!!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(spooky1)</span>
-        </span>
-        FRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIN
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (There's a stuffed animal there.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="items">Items</h1>
-<p>These have generic text in ACT 5.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Some vials.)
-    </p>
-
-    <ul>
-        <li><b>First time:</b> (Let's see...)</li>
-        <li><b>Subsequent times:</b> (You pick them up.)</li>
-    </ul>
-
-    <hr>
-
-    <h4>Center table</h4>
-
-    <p class="dialogue-line">
-        (You got one PEPPER JUICE!)
-    </p>
-
-    <p class="dialogue-line">
-        (You got one THYME JUICE!)
-    </p>
-
-    <p class="dialogue-line">
-        (You got one GINGER JUICE!)
-    </p>
-
-    <p class="dialogue-line">
-        (You give them to Bonnie for safekeeping.)
-    </p>
-
-    <hr>
-    
-    <h4>Bottom left cupboard</h4>
-
-    <p class="dialogue-line">
-        (You got two SALTY BROTHS!)
-    </p>
-
-    <p class="dialogue-line">
-        (You give them to Bonnie for safekeeping.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-    
-    <p class="dialogue-line">
-        (Nothing else here.)
-    </p>
-
-</div>
-
-
-<h1 id="flowers">Flowers</h1>
-<p>These only have generic text regularly.</p>
-
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Flowers.)
-    </p>
-
-    <p class="dialogue-line">
-        (Why does everything around you smell so sweet?)
-    </p>
-
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+                <p>Because this room is mirrored in ACT 5, these candles are now on the right.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Candles.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Sniff sniff.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Sugar, just like everything else around here!
+                    </p>
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Sugar candles.)
+                    </p>
+                </div>
+
+                <br>
+                <hr>
+
+                <h1 id="candleR">Right candles</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Candles.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Sniff sniff.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Pomme de granate!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        Pomegranate.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        Pommegranite.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        Pah-muh-gra-nuht.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(yeah!3)</span>
+                        </span>
+                        Pah-muh-gra-nuht!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        Yeah!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(excited1)</span>
+                        </span>
+                        You did it!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Everyone claps proudly.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(smile4)</span>
+                        </span>
+                        Hehehe...
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Pomegranate candles.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+                <p>Because this room is mirrored in ACT 5, these candles are now on the left.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Candles.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Sniff sniff.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Burnt sugar, just like when Frin loops back in time!
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Burnt sugar candles.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="maiden">Frozen Housemaiden</h1>
+
+                <div class="dialogue">
+
+                    <ul>
+                        <li><b>First time:</b> (Someone frozen in time.)</li>
+                        <li><b>Subsequent times:</b> (A housemaiden.)</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        Oh, that's...!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward1b)</span>
+                        </span>
+                        I... don't know who that is, actually.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        They have a cool necklace, though.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        Let me see...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Oh!!! I know them, that's another Housemaiden!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(excited1)</span>
+                        </span>
+                        I hadn't seen them in a while... I didn't know they were Changing!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        Come to think of it, I hadn't seen them for a little bit before the King... Maybe they were close to done crafting their body.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        If we can beat the King, you can see them and meet them again!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Yes!
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A housemaiden.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (They're frozen in time.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Someone frozen in time.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="notes">Housemaiden's notes</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Paper and a pen.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Looks like someone was in the middle of writing down their Change.)
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>First time:</b> (You and Odile look closer...)</li>
+                        <li><b>Subsequent times:</b> (You stay away, but Odile starts to look closer...)</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        Ah...!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        Hey, don't look, it's private!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Just because everything's frozen doesn't mean we should look at everything, you know?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        Oh... I wasn't aware, my apologies.
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (He's right...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You look away.)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        Nah, it's fine, it's fine, you two didn't know.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        But still, this brings back memories!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        Ah, I would love to craft my body more...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        I would love to be two centimeters taller!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward1b)</span>
+                        </span>
+                        Why two centimeters? Aren't you tall enough already?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                        </span>
+                        I think you're too tall and you should cut it out.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(omgggg1)</span>
+                        </span>
+                        Cut what out...?!?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        Anyway, Mira, you don't understand.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        With two more centimeters, I'll pass the threshold.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        With two more centimeters, I'll finally be Tall with a capital T!!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Hahaha! I support you and your tall dreams!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                        </span>
+                        What a simple reason...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Crafting your body, huh...)
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>After dying to the King for the first time:</b> (Come to think of it, Body Craft may be how the King managed to become such a giant, didn't he?)</li>
+                        <li><b>After learning the (Ask...) skill, but before the <a href="/acts/act3-4/kingquest.html#sayit">Say It Event</a>:</b> (Maybe you could talk to the King about it...)</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                        </span>
+                        And, you know, instead of crafting your body itself, maybe there are easier ways to gain height.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        Oh?! Like what?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(excited1)</span>
+                        </span>
+                        You could wear high heels!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(sniff1)</span>
+                        </span>
+                        High heels hurt my feetsies...
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>ACT 2 & 3:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(joke1)</span>
+                            </span>
+                        </li>
+                        <li><b>ACT 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                        </li>
+                        <li class="option">"Drink lots of milk?"</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        Milk makes me sick sometimes.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(lmao1)</span>
+                        </span>
+                        We could tie your hands to a pillar and tug on your feet really hard?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hm5)</span>
+                        </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        Worth a try. Anyone have rope?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                        </span>
+                        I'm sorry I brought us to this point. Let's stay focused, PLEASE.
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+                <p>Also ACT 5 interactions.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Paper and a pen.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="bed">Bed</h1>
+
+                <h3>Not remembering the word</h3>
+                <p>Occurs guaranteed the first time, and after that at a 1/3 chance.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (An empty, clean bed.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (There's something on it.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's an animal, but not real. It's made out of fabric and other things. It's usually for kids. Those things have a name. It's a...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                        </span>
+                        IT'S A STUFFED ANIMAL, DUMMY!!!!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Oh[!/.])
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        GUYS!!! FRIN FORGOT AN EASY WORD AGAIN!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        SIFFRIN!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        Sif...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                        </span>
+                        We really have to do something about this, Siffrin.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        Did you really forget a basic word like "stuffed animal"?
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>ACT 2:</b> (Hey, some of the things you don't remember the words for aren't basic!)</li>
+                        <li><b>ACT 3:</b> (You were always forgetful, but it's getting worse lately.)</li>
+                        <li><b>ACT 4:</b> (...)</li>
+                    </ul>
+
+                    <br>
+
+                    <ul>
+                        <li><b>ACT 2:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(boo1)</span>
+                            </span>
+                        </li>
+                        <li><b>ACT 3:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                        </li>
+                        <li><b>ACT 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake3)</span>
+                            </span>
+                        </li>
+                        <li class="option">"I use my brain for other things."
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(isthatso1)</span>
+                        </span>
+                        Things other than remembering the word "stuffed animal"?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        What do you use the space in your brain for, anyway? Puns?
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>First time:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(nya1)</span>
+                            </span>
+                            (Oh!)
+                        </li>
+                        <li><b>ACT 2:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fufu1)</span>
+                            </span>
+                            (Heheh.)
+                        </li>
+                        <li><b>ACT 3:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                            (Heh.)
+                        </li>
+                        <li><b>ACT 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake3)</span>
+                            </span>
+                            (Say the line, Siffrin.)
+                        </li>
+                        <li class="option">"As a matter of fact, yes."</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        Well, that's fine, but--
+                    </p>
+
+                    <br>
+
+                    <ul>
+                        <li><b>ACT 2:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(joke2)</span>
+                            </span>
+                        </li>
+                        <li><b>ACT 3:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(joke1)</span>
+                            </span>
+                        </li>
+                        <li><b>ACT 4:</b>
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Siffrin</span>
+                                <span class="dialogue-expression">(fake1)</span>
+                            </span>
+                        </li>
+                        <li class="option">"My brain is just 'stuffed' with puns."</li>
+                    </ul>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                        </span>
+                        CRAB!!!!!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(LMAO1)</span>
+                        </span>
+                        HAHAHAHAHAHA YES!!!!!!!
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Remembering the word</h3>
+                <p>Occurs at a 2/3 chance after the first time, as well as on repeated interaction in the same loop.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (An empty, clean bed.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (There's a stuffed animal laying on it.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                        </span>
+                        IT'S A STUFFED ANIMAL, DUMMY!!!!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(spooky1)</span>
+                        </span>
+                        FRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIN
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (There's a stuffed animal there.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="items">Items</h1>
+                <p>These have generic text in ACT 5.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Some vials.)
+                    </p>
+
+                    <ul>
+                        <li><b>First time:</b> (Let's see...)</li>
+                        <li><b>Subsequent times:</b> (You pick them up.)</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4>Center table</h4>
+
+                    <p class="dialogue-line">
+                        (You got one PEPPER JUICE!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You got one THYME JUICE!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You got one GINGER JUICE!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You give them to Bonnie for safekeeping.)
+                    </p>
+
+                    <hr>
+
+                    <h4>Bottom left cupboard</h4>
+
+                    <p class="dialogue-line">
+                        (You got two SALTY BROTHS!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You give them to Bonnie for safekeeping.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Nothing else here.)
+                    </p>
+
+                </div>
+
+
+                <h1 id="flowers">Flowers</h1>
+                <p>These only have generic text regularly.</p>
+
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Flowers.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Why does everything around you smell so sweet?)
+                    </p>
+
+                </div>
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>

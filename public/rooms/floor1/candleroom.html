@@ -1,811 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Candle Dorm</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candle Dorm</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
-
-<head-er></head-er>
-
-<main>
-
-<h1>Candle Room</h1>
-<p><b>Source:</b> Map079 (CandleDorm (Timecraft)), Map136 (ACT5_CandleDorm (Timecraft))</p>
-<p>The room with candles on Floor 1, left side.</p>
-
-<br>
-
-<h1>Index</h1>
-
-<ul>
-    <li><a href="#closet">Closets</a>
-        <ul>
-            <li><a href="#glasses">Opaque Glasses</a></li>
-            <li><a href="#supplies">Candle-making supplies</a></li>
-        </ul>
-    </li>
-    <li><a href="#candles">Candles</a></li>
-    <li><a href="#craft">Craftonomy book</a></li>
-    <li><a href="#items">Items</a></li>
-    <li><a href="#beds">Beds</a>
-        <ul>
-            <li><a href="#left">Left bed</a></li>
-            <li><a href="#right">Right bed</a></li>
-        </ul>
-    </li>
-    <li><a href="#instructions">Candle-making instructions</a></li>
-    <li><a href="#books">Pile of books</a></li>
-    <li><a href="#chair">Chair</a></li>
-</ul>
-
-<br>
-
-<h1 id="closet">Closets</h1>
-
-<h2 id="glasses">Opaque Glasses</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">(You open the closet...)</p>
-
-    <hr>
-
-    <p class="dialogue-note">If you don't have the Opaque Glasses</p>
-
-    <div class="indented">
-
-        <p class="dialogue-line">
-            (There's a pair of glasses inside a transparent case.)
-        </p>
-    
-        <p class="dialogue-line">
-            (Unlike the case, the glasses are completely opaque...)
-        </p>
-    
-        <br>
-    
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Odile</span>
-                <span class="dialogue-expression">(hm1)</span>
-            </span>
-            Glasses you can't even see out of... Absolutely useless.
-        </p>
-    
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Bonnie</span>
-                <span class="dialogue-expression">(happy2)</span>
-            </span>
-            Are you gonna take them?
-        </p>
-    
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Odile</span>
-                <span class="dialogue-expression">(reading2)</span>
-            </span>
-            Hm...
-        </p>
-    
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Odile</span>
-                <span class="dialogue-expression">(reading2)</span>
-            </span>
-            . . .
-        </p>
-    
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Odile</span>
-                <span class="dialogue-expression">(lol2)</span>
-            </span>
-            Yes. I'll take them.
-        </p>
-    
-        <br>
-    
-        <p class="dialogue-line">
-            (You got the OPAQUE GLASSES!)
-        </p>
-    
-        <p class="dialogue-line">
-            (You give the Opaque Glasses to Odile to equip later.)
-        </p>
-    
-        <br>
-    
-        <p class="dialogue-note">First time finding most Floor 1 armor or weapons</p>
-    
-        <p class="dialogue-line indented">
-            [You found an Armor!]
-        </p>
-    
-        <p class="dialogue-line indented">
-            [Weapons and Armors can be equipped by going through the menu, and then to "Equip".]
-        </p>
-    
-        <p class="dialogue-line indented">
-            [This specific armor is for that Researcher of yours. Don't forget to equip it!]
-        </p>
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Candle Room</h1>
+                <p><b>Source:</b> Map079 (CandleDorm (Timecraft)), Map136 (ACT5_CandleDorm (Timecraft))</p>
+                <p>The room with candles on Floor 1, left side.</p>
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li><a href="#closet">Closets</a>
+                        <ul>
+                            <li><a href="#glasses">Opaque Glasses</a></li>
+                            <li><a href="#supplies">Candle-making supplies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#candles">Candles</a></li>
+                    <li><a href="#craft">Craftonomy book</a></li>
+                    <li><a href="#items">Items</a></li>
+                    <li><a href="#beds">Beds</a>
+                        <ul>
+                            <li><a href="#left">Left bed</a></li>
+                            <li><a href="#right">Right bed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#instructions">Candle-making instructions</a></li>
+                    <li><a href="#books">Pile of books</a></li>
+                    <li><a href="#chair">Chair</a></li>
+                </ul>
+
+                <br>
 
-    </div>
+                <h1 id="closet">Closets</h1>
+
+                <h2 id="glasses">Opaque Glasses</h2>
 
-    <br>
+                <div class="dialogue">
 
-    <p class="dialogue-note">If you do; first time</p>
+                    <p class="dialogue-line">(You open the closet...)</p>
 
-    <div class="indented">
+                    <hr>
 
-        <p class="dialogue-line">
-            (There's a pair of
-        </p>
-    
-        <br>
-    
-        <p class="dialogue-note">
-            The world skips. Text for <a href="/random/equipment.html#refound">refinding equipment</a> plays.
-        </p>
-    
-        <br>
-    
-        <p class="dialogue-line">
-            (There's no glasses in there, but there are some supplies...)
-        </p>
+                    <p class="dialogue-note">If you don't have the Opaque Glasses</p>
 
-        <br>
+                    <div class="indented">
 
-        <p class="dialogue-line">
-            (You got a SALTY BROTH!)
-        </p>
-    
-        <p class="dialogue-line">
-            (You give them<!--sic--> to Bonnie for safekeeping.)
-        </p>
+                        <p class="dialogue-line">
+                            (There's a pair of glasses inside a transparent case.)
+                        </p>
 
-    </div>
+                        <p class="dialogue-line">
+                            (Unlike the case, the glasses are completely opaque...)
+                        </p>
 
-    <br>
+                        <br>
 
-    <p class="dialogue-note">If you do; subsequent times</p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(hm1)</span>
+                            </span>
+                            Glasses you can't even see out of... Absolutely useless.
+                        </p>
 
-    <p class="dialogue-note indented">
-        The world skips. Text for <a href="/random/equipment.html#refound">refinding equipment</a> plays.
-    </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Bonnie</span>
+                                <span class="dialogue-expression">(happy2)</span>
+                            </span>
+                            Are you gonna take them?
+                        </p>
 
-    <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(reading2)</span>
+                            </span>
+                            Hm...
+                        </p>
 
-    <p class="dialogue-line indented">
-        (You take the item.)
-    </p>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(reading2)</span>
+                            </span>
+                            . . .
+                        </p>
 
-    <br>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Odile</span>
+                                <span class="dialogue-expression">(lol2)</span>
+                            </span>
+                            Yes. I'll take them.
+                        </p>
 
-    <p class="dialogue-line indented">
-        (You got a SALTY BROTH!)
-    </p>
+                        <br>
 
-    <p class="dialogue-line indented">
-        (You give them<!--sic--> to Bonnie for safekeeping.)
-    </p>
+                        <p class="dialogue-line">
+                            (You got the OPAQUE GLASSES!)
+                        </p>
 
-</div>
+                        <p class="dialogue-line">
+                            (You give the Opaque Glasses to Odile to equip later.)
+                        </p>
 
-<br>
+                        <br>
 
-<h3>Repeated interaction</h3>
+                        <p class="dialogue-note">First time finding most Floor 1 armor or weapons</p>
 
-<div class="dialogue">
+                        <p class="dialogue-line indented">
+                            [You found an Armor!]
+                        </p>
 
-    <p class="dialogue-line">
-        (There's nothing else in there.)
-    </p>
+                        <p class="dialogue-line indented">
+                            [Weapons and Armors can be equipped by going through the menu, and then to "Equip".]
+                        </p>
 
-</div>
+                        <p class="dialogue-line indented">
+                            [This specific armor is for that Researcher of yours. Don't forget to equip it!]
+                        </p>
 
-<hr>
-<br>
+                    </div>
 
-<h3>ACT 5</h3>
+                    <br>
 
-<div class="dialogue">
+                    <p class="dialogue-note">If you do; first time</p>
 
-    <p class="dialogue-line">
-        (You look inside the closet, waiting for the Universe to right itself.)
-    </p>
+                    <div class="indented">
 
-    <br>
+                        <p class="dialogue-line">
+                            (There's a pair of
+                        </p>
 
-    <p class="dialogue-note">
-        The world skips.
-    </p>
-
-    <br>
+                        <br>
 
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="supplies">Candle-making supplies</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (You open the closet...)
-    </p>
-
-    <p class="dialogue-line">
-        (It's filled with wax and candle-making supplies.)
-    </p>
-
-    <ul>
-        <li><b>ACT 2:</b> (Smells nice.)</li>
-        <li><b>ACT 3:</b> (Smells like wax.)</li>
-        <li><b>ACT 4:</b> (You don't smell anything.)</li>
-    </ul>
+                        <p class="dialogue-note">
+                            The world skips. Text for <a href="/random/equipment.html#refound">refinding equipment</a> plays.
+                        </p>
 
-</div>
+                        <br>
 
-<hr>
-<br>
+                        <p class="dialogue-line">
+                            (There's no glasses in there, but there are some supplies...)
+                        </p>
 
-<h3>ACT 5</h3>
+                        <br>
 
-<div class="dialogue">
+                        <p class="dialogue-line">
+                            (You got a SALTY BROTH!)
+                        </p>
 
-    <p class="dialogue-line">
-        (The closet full of wax and candle-making supplies.)
-    </p>
+                        <p class="dialogue-line">
+                            (You give them<!--sic--> to Bonnie for safekeeping.)
+                        </p>
 
-    <p class="dialogue-line">
-        (Something smells sweet.)
-    </p>
+                    </div>
 
-</div>
+                    <br>
 
-<hr>
-<br>
+                    <p class="dialogue-note">If you do; subsequent times</p>
 
-<h1 id="candles">Candles</h1>
+                    <p class="dialogue-note indented">
+                        The world skips. Text for <a href="/random/equipment.html#refound">refinding equipment</a> plays.
+                    </p>
 
-<div class="dialogue">
+                    <br>
 
-    <p class="dialogue-line">
-        (Some sort of candle-making station.)
-    </p>
+                    <p class="dialogue-line indented">
+                        (You take the item.)
+                    </p>
 
-    <br>
+                    <br>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(fufufu1)</span>
-        </span>
-        Sniff sniff...
-    </p>
+                    <p class="dialogue-line indented">
+                        (You got a SALTY BROTH!)
+                    </p>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        I have no idea what this smells like.
-    </p>
+                    <p class="dialogue-line indented">
+                        (You give them<!--sic--> to Bonnie for safekeeping.)
+                    </p>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Sniff sniff.
-    </p>
+                </div>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        Apples and cinnamon.
-    </p>
+                <br>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(oh1)</span>
-        </span>
-        Pie smell?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        Pie smell.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Pie smell...
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <h4>Up to ACT 3</h4>
-
-    <p class="dialogue-line">
-        (Pie smell.)
-    </p>
-
-    <hr>
-
-    <h4>ACT 4</h4>
-
-    <p class="dialogue-line">
-        (Candles.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The candle-making station.)
-    </p>
-
-    <p class="dialogue-line">
-        (It doesn't smell like a pie, but it does smell sweet.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="craft">Craftonomy book</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A craftonomy book.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Oooh, is this a craftology book?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(question1)</span>
-        </span>
-        It's a craftONOMY book, not a craftOLOGY book.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol1)</span>
-        </span>
-        This one is about the study of Craft, not your fortune.
-    </p>
-
-    <hr>
-
-    <p class="dialogue-note">After asking the King <a href="/acts/act3-4/kingquest.html#how">how he freezes people in time</a></p>
-
-    <p class="dialogue-note">
-        If you're before Kingquest, the conversation proceeds the same as though you'd chosen "(Stay silent.)"
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (A book about the study of Craft?)
-    </p>
-
-    <p class="dialogue-line">
-        (Could it have any information about Time Craft, maybe...?)
-    </p>
-
-    <p class="dialogue-note">First time</p>
-    <p class="dialogue-line indented">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(questions1)</span>
-        </span>
-        (...)
-    </p>
-    
-    <p class="dialogue-note">Subsequent times</p>
-    <p class="dialogue-line indented">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        (You know this already.)
-    </p>
-    
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Does that craftonomy book have anything on Time Craft?"</summary>
+                <h3>Repeated interaction</h3>
 
                 <div class="dialogue">
 
                     <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(neutral1)</span>
-                        </span>
-                        Time Craft? What for?
+                        (There's nothing else in there.)
                     </p>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(boo1)</span>
-                        </span>
-                        Hm...  It is related to our situation, isn't it?  With the King?
-                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
 
                     <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(hm1)</span>
-                        </span>
-                        We don't have ti--
+                        (You look inside the closet, waiting for the Universe to right itself.)
                     </p>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(oh!1)</span>
-                        </span>
-                        What's Time Craft? I dunno what that is.
-                    </p>
+                    <br>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        ...Should we have a crash course on Time Craft, then?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(urgh1)</span>
-                        </span>
-                        Urgh, fine.
+                    <p class="dialogue-note">
+                        The world skips.
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (Odile flips through the book.)
+                        (...)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="supplies">Candle-making supplies</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (You open the closet...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's filled with wax and candle-making supplies.)
+                    </p>
+
+                    <ul>
+                        <li><b>ACT 2:</b> (Smells nice.)</li>
+                        <li><b>ACT 3:</b> (Smells like wax.)</li>
+                        <li><b>ACT 4:</b> (You don't smell anything.)</li>
+                    </ul>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The closet full of wax and candle-making supplies.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Something smells sweet.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="candles">Candles</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Some sort of candle-making station.)
                     </p>
 
                     <br>
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odiled</span>
-                            <span class="dialogue-expression">(reading2)</span>
-                        </span>
-                        ...It does have a section on Time Craft.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(gimme1)</span>
-                        </span>
-                        Alright. So, Time Craft is, as the name implies, the power to wield and craft time itself.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(huh2)</span>
-                        </span>
-                        It's a type of craft that's been hypothesized to exist for decades, but its existence has never been proven.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(awkward2)</span>
-                        </span>
-                        Until now, right?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk5)</span>
-                        </span>
-                        Stopping time... That's what the King does, right?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(serious1)</span>
-                        </span>
-                        So the King is using Time Craft?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading1)</span>
-                        </span>
-                        The King most likely is, yes. Which would make it the first time in history someone managed to harvest that power.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol3)</span>
-                        </span>
-                        Outside of stories told in familytales, that is.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        I've heard scholars outside of Vaugarde are really excited right now! Time Craft, confirmed to be real!
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(sulk2)</span>
-                        </span>
-                        ...So they're happy because he froze people in time?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(awawa1)</span>
-                        </span>
-                        W-well, it's more complicated than that!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading1)</span>
-                        </span>
-                        Morals aside, it does change everything we knew about Time Craft.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(gimme1)</span>
-                        </span>
-                        Think about how Time Craft could be used. The King is only stopping people's time... But it could be used for many other things.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading2)</span>
-                        </span>
-                        It could be used to hasten or slow people's time, too. Maybe make people's bodies younger or older. Maybe make buds grow into trees in an instant.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(huh1)</span>
-                        </span>
-                        Worst case scenario, it could be used to change history itself! Crafting time to go back in time, and change history!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(no!2)</span>
-                        </span>
-                        Woah!
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-note">First time</p>
-                    <p class="dialogue-line indented">(Woah.)</p>
-                    <br>
-                    <p class="dialogue-note">Subsequent times</p>
-                    <p class="dialogue-line indented">(...)</p>
-                    <p class="dialogue-line indented">("Worst case scenario".)</p>
-
-                    <hr>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading2)</span>
-                        </span>
-                        The possibilities are endless... And terrifying.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        Definitely not the kind of power you want in someone's hands!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(hm1)</span>
-                        </span>
-                        And definitely not someone like the King.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(awkward2)</span>
-                        </span>
-                        And, correct me if I'm wrong... But crafting time wouldn't be like crafting clay to a specific shape, or crafting a sword.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious2)</span>
-                        </span>
-                        Those are easy enough to do and won't tire you out, but crafting time? Something as basic and essential as time?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious3)</span>
-                        </span>
-                        Wouldn't it ask for immense amounts of power?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol4)</span>
-                        </span>
-                        Exactly. Crafting clay barely asks for any power from the user... But crafting time...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(reading1)</span>
-                        </span>
-                        It was theorized that crafting time, even to pause time for a single second... Would probably kill the user immediately.
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-note">First time</p>
-                    <p class="dialogue-line indented">(HUH?!?)</p>
-                    <p class="dialogue-note">Subsequent times</p>
-                    <p class="dialogue-line indented">(...)</p>
-
-                    <hr>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(no!2)</span>
-                        </span>
-                        KILL THEM DEAD?!?
-                    </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(fufufu1)</span>
                         </span>
-                        Kill them dead.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious2)</span>
-                        </span>
-                        And yet, the King is still alive...
+                        Sniff sniff...
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(disappointed1)</span>
+                            <span class="dialogue-expression">(neutral1)</span>
                         </span>
-                        So it raises the question...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(sad1)</span>
-                        </span>
-                        What gave him enough power to use Time Craft without dying? And how did he learn how to use it?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
-                        </span>
-                        Good questions, Isabeau. You have pretty smart insights sometimes.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha1)</span>
-                        </span>
-                        I sure do!
+                        I have no idea what this smells like.
                     </p>
 
                     <p class="dialogue-line">
@@ -813,7 +314,7 @@
                             <span class="dialogue-name">Bonnie</span>
                             <span class="dialogue-expression">(sulk5)</span>
                         </span>
-                        Hm...
+                        Sniff sniff.
                     </p>
 
                     <p class="dialogue-line">
@@ -821,157 +322,23 @@
                             <span class="dialogue-name">Bonnie</span>
                             <span class="dialogue-expression">(serious1)</span>
                         </span>
-                        Time Craft is what the King uses and it's dangerous. Got it.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(serious4)</span>
-                        </span>
-                        I suppose talking about this was useful. I'm surprised you're curious about this, though... Siffrin.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (You shrug.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(dotdotdot1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-note">First time</p>
-
-                    <div class="indented">
-
-                        <p class="dialogue-line">
-                            (...)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Time Craft, a type of Craft that allows the user to control time...)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Isn't that what you and the King have been using?)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (But neither of you should be able to use it... Using it would ask for immense amounts of power.)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (So then... What gave you this power?)
-                        </p>
-    
-                        <br>
-    
-                        <p class="dialogue-line">
-                            (...Maybe you should ask the King about this.)
-                        </p>
-    
-                        <br>
-    
-                        <p class="dialogue-note">If you haven't talked to the Head Housemaiden in ACT 3</p>
-    
-                        <div class="indented">
-                            <p class="dialogue-line">
-                                (And... You still need to go talk to the Head Housemaiden.)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (She seemed aware that you were looping in time... Maybe she knows why you're able to use Time Craft?)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (You need to talk to her.)
-                            </p>
-                        </div>
-    
-                        <br>
-    
-                        <p class="dialogue-note">If you have talked to her</p>
-    
-                        <div class="indented">
-                            <p class="dialogue-line">
-                                (But what if it isn't enough? What if he doesn't want to tell you anything about Time Craft?)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (You've talked to the King, and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (Who else could you talk to about the loops? To theorize?)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (. . .)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (Oh, wait.)
-                            </p>
-        
-                            <p class="dialogue-line">
-                                (There is ONE person.)
-                            </p>
-                        </div>
-
-                    </div>
-                    
-                    <br>
-
-                    <p class="dialogue-note">Subsequent times</p>
-                    <p class="dialogue-line indented">(...)</p>
-
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Stay silent.)</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">
-                        This is also the normal course of conversation before Kingquest.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(lol1)</span>
-                        </span>
-                        Heheheh.
+                        Apples and cinnamon.
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(sniff1)</span>
+                            <span class="dialogue-expression">(oh1)</span>
                         </span>
-                        Aww... I wanted to know my horoscope today...
+                        Pie smell?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(hm1)</span>
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy2)</span>
                         </span>
-                        This place has been frozen for a few months now... I don't think it'd be up to date...
+                        Pie smell.
                     </p>
 
                     <p class="dialogue-line">
@@ -979,464 +346,1094 @@
                             <span class="dialogue-name">Mirabelle</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Hehehe, you really like that sort of stuff, don't you Isabeau?
+                        Pie smell...
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <h4>Up to ACT 3</h4>
+
+                    <p class="dialogue-line">
+                        (Pie smell.)
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 4</h4>
+
+                    <p class="dialogue-line">
+                        (Candles.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The candle-making station.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It doesn't smell like a pie, but it does smell sweet.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="craft">Craftonomy book</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A craftonomy book.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        Oooh, is this a craftology book?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha1)</span>
+                            <span class="dialogue-expression">(wonder2)</span>
                         </span>
-                        Yes I do!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(fufufu1)</span>
-                        </span>
-                        It's absolutely useless and has no basis in reality, but I like it when some letters tells me I'm gonna have a good day.
+                        Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol4)</span>
+                            <span class="dialogue-expression">(question1)</span>
                         </span>
-                        You're Protector Craft, aren't you, Isabeau... People who use it are patient, honest, loyal...
+                        It's a craftONOMY book, not a craftOLOGY book.
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol3)</span>
+                            <span class="dialogue-expression">(lol1)</span>
                         </span>
-                        ...and very gullible.
+                        This one is about the study of Craft, not your fortune.
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">After asking the King <a href="/acts/act3-4/kingquest.html#how">how he freezes people in time</a></p>
+
+                    <p class="dialogue-note">
+                        If you're before Kingquest, the conversation proceeds the same as though you'd chosen "(Stay silent.)"
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (A book about the study of Craft?)
                     </p>
 
                     <p class="dialogue-line">
+                        (Could it have any information about Time Craft, maybe...?)
+                    </p>
+
+                    <p class="dialogue-note">First time</p>
+                    <p class="dialogue-line indented">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(questions1)</span>
                         </span>
-                        That sure is me!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(lmao1)</span>
-                        </span>
-                        Haha, you're very gullible!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious1)</span>
-                        </span>
-                        Bonnie, you're laughing, but... Aren't you... also using Protector Craft?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(no!1)</span>
-                        </span>
-                        NO????
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
-                        </span>
-                        Yes, I do seem to remember this being the case, kiddo.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(stop!1)</span>
-                        </span>
-                        NO!!!!!!! IT'S NOT THE SAME!!!!! I'M NOT GULLIBLE!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(fufufu1)</span>
-                        </span>
-                        Heheheheheh...
-                    </p>
-
-                    <p class="dialogue-line">
                         (...)
                     </p>
 
-                    <hr>
-
-                    <p class="dialogue-note">First time and ACT 2</p>
-
+                    <p class="dialogue-note">Subsequent times</p>
                     <p class="dialogue-line indented">
-                        (You like being able to be near them and not have to contribute to the conversation.)
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        (You know this already.)
                     </p>
 
-                    <p class="dialogue-line indented">
-                        (Being silent and surrounded by people you like is nice!)
-                    </p>
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"Does that craftonomy book have anything on Time Craft?"</summary>
 
-                    <br>
+                                <div class="dialogue">
 
-                    <p class="dialogue-note">ACT 3</p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(neutral1)</span>
+                                        </span>
+                                        Time Craft? What for?
+                                    </p>
 
-                    <p class="dialogue-line indented">
-                        (It's like watching a play you've seen a dozen times.)
-                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(boo1)</span>
+                                        </span>
+                                        Hm... It is related to our situation, isn't it? With the King?
+                                    </p>
 
-                    <p class="dialogue-line indented">
-                        (It's comforting.)
-                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                        </span>
+                                        We don't have ti--
+                                    </p>
 
-                    <br>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(oh!1)</span>
+                                        </span>
+                                        What's Time Craft? I dunno what that is.
+                                    </p>
 
-                    <p class="dialogue-note">ACT 4</p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                        </span>
+                                        ...Should we have a crash course on Time Craft, then?
+                                    </p>
 
-                    <div class="indented">
-                        <p class="dialogue-line">
-                            (Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Sometimes you wonder if you really exist.)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (If THEY really exist.)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Real people wouldn't say the exact same thing over and over and over, wouldn't they...?)
-                        </p>
-                    </div>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(urgh1)</span>
+                                        </span>
+                                        Urgh, fine.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (Odile flips through the book.)
+                                    </p>
+
+                                    <br>
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odiled</span>
+                                            <span class="dialogue-expression">(reading2)</span>
+                                        </span>
+                                        ...It does have a section on Time Craft.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(gimme1)</span>
+                                        </span>
+                                        Alright. So, Time Craft is, as the name implies, the power to wield and craft time itself.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(huh2)</span>
+                                        </span>
+                                        It's a type of craft that's been hypothesized to exist for decades, but its existence has never been proven.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(awkward2)</span>
+                                        </span>
+                                        Until now, right?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(sulk5)</span>
+                                        </span>
+                                        Stopping time... That's what the King does, right?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(serious1)</span>
+                                        </span>
+                                        So the King is using Time Craft?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(reading1)</span>
+                                        </span>
+                                        The King most likely is, yes. Which would make it the first time in history someone managed to harvest that power.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol3)</span>
+                                        </span>
+                                        Outside of stories told in familytales, that is.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                        </span>
+                                        I've heard scholars outside of Vaugarde are really excited right now! Time Craft, confirmed to be real!
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(sulk2)</span>
+                                        </span>
+                                        ...So they're happy because he froze people in time?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(awawa1)</span>
+                                        </span>
+                                        W-well, it's more complicated than that!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(reading1)</span>
+                                        </span>
+                                        Morals aside, it does change everything we knew about Time Craft.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(gimme1)</span>
+                                        </span>
+                                        Think about how Time Craft could be used. The King is only stopping people's time... But it could be used for many other things.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(reading2)</span>
+                                        </span>
+                                        It could be used to hasten or slow people's time, too. Maybe make people's bodies younger or older. Maybe make buds grow into trees in an instant.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(huh1)</span>
+                                        </span>
+                                        Worst case scenario, it could be used to change history itself! Crafting time to go back in time, and change history!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(no!2)</span>
+                                        </span>
+                                        Woah!
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">First time</p>
+                                    <p class="dialogue-line indented">(Woah.)</p>
+                                    <br>
+                                    <p class="dialogue-note">Subsequent times</p>
+                                    <p class="dialogue-line indented">(...)</p>
+                                    <p class="dialogue-line indented">("Worst case scenario".)</p>
+
+                                    <hr>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(reading2)</span>
+                                        </span>
+                                        The possibilities are endless... And terrifying.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                        </span>
+                                        Definitely not the kind of power you want in someone's hands!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                        </span>
+                                        And definitely not someone like the King.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(awkward2)</span>
+                                        </span>
+                                        And, correct me if I'm wrong... But crafting time wouldn't be like crafting clay to a specific shape, or crafting a sword.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(anxious2)</span>
+                                        </span>
+                                        Those are easy enough to do and won't tire you out, but crafting time? Something as basic and essential as time?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(anxious3)</span>
+                                        </span>
+                                        Wouldn't it ask for immense amounts of power?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol4)</span>
+                                        </span>
+                                        Exactly. Crafting clay barely asks for any power from the user... But crafting time...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(reading1)</span>
+                                        </span>
+                                        It was theorized that crafting time, even to pause time for a single second... Would probably kill the user immediately.
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">First time</p>
+                                    <p class="dialogue-line indented">(HUH?!?)</p>
+                                    <p class="dialogue-note">Subsequent times</p>
+                                    <p class="dialogue-line indented">(...)</p>
+
+                                    <hr>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(no!2)</span>
+                                        </span>
+                                        KILL THEM DEAD?!?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(fufufu1)</span>
+                                        </span>
+                                        Kill them dead.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(anxious2)</span>
+                                        </span>
+                                        And yet, the King is still alive...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(disappointed1)</span>
+                                        </span>
+                                        So it raises the question...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(sad1)</span>
+                                        </span>
+                                        What gave him enough power to use Time Craft without dying? And how did he learn how to use it?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol2)</span>
+                                        </span>
+                                        Good questions, Isabeau. You have pretty smart insights sometimes.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(hahaha1)</span>
+                                        </span>
+                                        I sure do!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(sulk5)</span>
+                                        </span>
+                                        Hm...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(serious1)</span>
+                                        </span>
+                                        Time Craft is what the King uses and it's dangerous. Got it.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(serious4)</span>
+                                        </span>
+                                        I suppose talking about this was useful. I'm surprised you're curious about this, though... Siffrin.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You shrug.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(dotdotdot1)</span>
+                                        </span>
+                                        ...
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">First time</p>
+
+                                    <div class="indented">
+
+                                        <p class="dialogue-line">
+                                            (...)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Time Craft, a type of Craft that allows the user to control time...)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Isn't that what you and the King have been using?)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (But neither of you should be able to use it... Using it would ask for immense amounts of power.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (So then... What gave you this power?)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (...Maybe you should ask the King about this.)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">If you haven't talked to the Head Housemaiden in ACT 3</p>
+
+                                        <div class="indented">
+                                            <p class="dialogue-line">
+                                                (And... You still need to go talk to the Head Housemaiden.)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (She seemed aware that you were looping in time... Maybe she knows why you're able to use Time Craft?)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (You need to talk to her.)
+                                            </p>
+                                        </div>
+
+                                        <br>
+
+                                        <p class="dialogue-note">If you have talked to her</p>
+
+                                        <div class="indented">
+                                            <p class="dialogue-line">
+                                                (But what if it isn't enough? What if he doesn't want to tell you anything about Time Craft?)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (You've talked to the King, and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (Who else could you talk to about the loops? To theorize?)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (. . .)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (Oh, wait.)
+                                            </p>
+
+                                            <p class="dialogue-line">
+                                                (There is ONE person.)
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Subsequent times</p>
+                                    <p class="dialogue-line indented">(...)</p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Stay silent.)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        This is also the normal course of conversation before Kingquest.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(lol1)</span>
+                                        </span>
+                                        Heheheh.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(sniff1)</span>
+                                        </span>
+                                        Aww... I wanted to know my horoscope today...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                        </span>
+                                        This place has been frozen for a few months now... I don't think it'd be up to date...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Hehehe, you really like that sort of stuff, don't you Isabeau?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(hahaha1)</span>
+                                        </span>
+                                        Yes I do!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(fufufu1)</span>
+                                        </span>
+                                        It's absolutely useless and has no basis in reality, but I like it when some letters tells me I'm gonna have a good day.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol4)</span>
+                                        </span>
+                                        You're Protector Craft, aren't you, Isabeau... People who use it are patient, honest, loyal...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol3)</span>
+                                        </span>
+                                        ...and very gullible.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                        </span>
+                                        That sure is me!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(lmao1)</span>
+                                        </span>
+                                        Haha, you're very gullible!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(anxious1)</span>
+                                        </span>
+                                        Bonnie, you're laughing, but... Aren't you... also using Protector Craft?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(no!1)</span>
+                                        </span>
+                                        NO????
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Odile</span>
+                                            <span class="dialogue-expression">(lol2)</span>
+                                        </span>
+                                        Yes, I do seem to remember this being the case, kiddo.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Bonnie</span>
+                                            <span class="dialogue-expression">(stop!1)</span>
+                                        </span>
+                                        NO!!!!!!! IT'S NOT THE SAME!!!!! I'M NOT GULLIBLE!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(fufufu1)</span>
+                                        </span>
+                                        Heheheheheh...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">First time and ACT 2</p>
+
+                                    <p class="dialogue-line indented">
+                                        (You like being able to be near them and not have to contribute to the conversation.)
+                                    </p>
+
+                                    <p class="dialogue-line indented">
+                                        (Being silent and surrounded by people you like is nice!)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">ACT 3</p>
+
+                                    <p class="dialogue-line indented">
+                                        (It's like watching a play you've seen a dozen times.)
+                                    </p>
+
+                                    <p class="dialogue-line indented">
+                                        (It's comforting.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">ACT 4</p>
+
+                                    <div class="indented">
+                                        <p class="dialogue-line">
+                                            (Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Sometimes you wonder if you really exist.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (If THEY really exist.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Real people wouldn't say the exact same thing over and over and over, wouldn't they...?)
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
 
                 </div>
-            </details>
-        </li>
-    </ul>
 
-</div>
+                <br>
 
-<br>
+                <h3>Repeated interaction</h3>
 
-<h3>Repeated interaction</h3>
+                <div class="dialogue">
 
-<div class="dialogue">
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>If you asked about Time Craft</summary>
 
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>If you asked about Time Craft</summary>
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You can come back and read this again later if you need to.)
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>If you stayed silent</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">ACT 2 & 3 </p>
+
+                                    <div class="indented">
+                                        <p class="dialogue-line">
+                                            (You're Piercing Craft!)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Determined! Brave! Honest!)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Or so people say.)
+                                        </p>
+                                    </div>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">ACT 4</p>
+
+                                    <p class="dialogue-line indented">
+                                        (You&nbsp;&nbsp; are Piercing Craft.)
+                                    </p>
+
+                                    <p class="dialogue-line indented">
+                                        (Callous. Aimless. Manipulative.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line indented">
+                                        (Or so people say.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
 
                 <div class="dialogue">
 
                     <p class="dialogue-line">
-                        (You can come back and read this again later if you need to.)
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>If you stayed silent</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">ACT 2 & 3 </p>
-
-                    <div class="indented">
-                        <p class="dialogue-line">
-                            (You're Piercing Craft!)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Determined! Brave! Honest!)
-                        </p>
-    
-                        <p class="dialogue-line">
-                            (Or so people say.)
-                        </p>
-                    </div>
-
-                    <hr>
-
-                    <p class="dialogue-note">ACT 4</p>
-
-                    <p class="dialogue-line indented">
-                        (You&nbsp;&nbsp; are Piercing Craft.)
-                    </p>
-
-                    <p class="dialogue-line indented">
-                        (Callous. Aimless. Manipulative.)
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                        </span>
+                        Aww... I wanted to know my horoscope today...
                     </p>
 
                     <br>
 
-                    <p class="dialogue-line indented">
-                        (Or so people say.)
+                    <p class="dialogue-line">
+                        (You
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You don't think about anything.)
                     </p>
 
                 </div>
-            </details>
-        </li>
-    </ul>
 
-</div>
+                <br>
 
-<hr>
-<br>
+                <h4>Repeated interaction</h4>
 
-<h3>ACT 5</h3>
+                <div class="dialogue">
 
-<div class="dialogue">
+                    <p class="dialogue-line">
+                        (The craftonomy book.)
+                    </p>
 
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-        </span>
-        Aww... I wanted to know my horoscope today...
-    </p>
+                </div>
 
-    <br>
 
-    <p class="dialogue-line">
-        (You
-    </p>
+                <hr>
+                <br>
 
-    <br>
+                <h1 id="items">Items</h1>
 
-    <p class="dialogue-line">
-        (You don't think about anything.)
-    </p>
+                <div class="dialogue">
 
-</div>
+                    <p class="dialogue-line">
+                        (Some vials.)
+                    </p>
 
-<br>
+                    <br>
 
-<h4>Repeated interaction</h4>
+                    <ul>
+                        <li><b>First time:</b>(Let's see...)</li>
+                        <li><b>Subsequent times:</b> (You pick them up.)</li>
+                    </ul>
 
-<div class="dialogue">
+                    <br>
 
-    <p class="dialogue-line">
-        (The craftonomy book.)
-    </p>
+                    <p class="dialogue-line">
+                        (You got two SOUR TONICS!)
+                    </p>
 
-</div>
+                    <p class="dialogue-line">
+                        (You give them to Bonnie for safekeeping.)
+                    </p>
 
+                </div>
 
-<hr>
-<br>
+                <br>
 
-<h1 id="items">Items</h1>
+                <h3>Repeated interaction</h3>
 
-<div class="dialogue">
+                <div class="dialogue">
 
-    <p class="dialogue-line">
-        (Some vials.)
-    </p>
+                    <p class="dialogue-line">
+                        (Nothing else here.)
+                    </p>
+                </div>
 
-    <br>
+                <hr>
+                <br>
 
-    <ul>
-        <li><b>First time:</b>(Let's see...)</li>
-        <li><b>Subsequent times:</b> (You pick them up.)</li>
-    </ul>
+                <h1 id="beds">Beds</h1>
 
-    <br>
+                <h2 id="left">Left bed</h2>
 
-    <p class="dialogue-line">
-        (You got two SOUR TONICS!)
-    </p>
+                <div class="dialogue">
 
-    <p class="dialogue-line">
-        (You give them to Bonnie for safekeeping.)
-    </p>
+                    <p class="dialogue-line">
+                        (A tidy bed.)
+                    </p>
 
-</div>
+                    <p class="dialogue-line">
+                        (There's bits of wax stuck to the covers.)
+                    </p>
 
-<br>
+                </div>
 
-<h3>Repeated interaction</h3>
+                <br>
 
-<div class="dialogue">
+                <h3>ACT 5</h3>
 
-    <p class="dialogue-line">
-        (Nothing else here.)
-    </p>
-</div>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (The usual bed.)
+                    </p>
+                </div>
 
-<hr>
-<br>
+                <hr>
+                <br>
 
-<h1 id="beds">Beds</h1>
+                <h2 id="right">Right bed</h2>
 
-<h2 id="left">Left bed</h2>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (A tidy bed.)
+                    </p>
+                </div>
 
-<div class="dialogue">
+                <br>
 
-    <p class="dialogue-line">
-        (A tidy bed.)
-    </p>
+                <h3>ACT 5</h3>
 
-    <p class="dialogue-line">
-        (There's bits of wax stuck to the covers.)
-    </p>
+                <div class="dialogue">
 
-</div>
+                    <p class="dialogue-line">
+                        (The same bed as always.)
+                    </p>
 
-<br>
+                </div>
 
-<h3>ACT 5</h3>
+                <hr>
+                <br>
 
-<div class="dialogue">
-    <p class="dialogue-line">
-        (The usual bed.)
-    </p>
-</div>
+                <h1 id="instructions">Candle-making instructions</h1>
 
-<hr>
-<br>
+                <div class="dialogue">
 
-<h2 id="right">Right bed</h2>
+                    <p class="dialogue-line">
+                        (Instructions on how to craft candles.)
+                    </p>
 
-<div class="dialogue">
-    <p class="dialogue-line">
-        (A tidy bed.)
-    </p>
-</div>
+                    <hr>
 
-<br>
+                    <h4>ACT 2 only</h4>
 
-<h3>ACT 5</h3>
+                    <p class="dialogue-line">
+                        (Unlike normal candles, it seems Crafted candles last longer, and can change smells as time goes by...)
+                    </p>
 
-<div class="dialogue">
+                </div>
 
-    <p class="dialogue-line">
-        (The same bed as always.)
-    </p>
+                <hr>
+                <br>
 
-</div>
+                <h3>ACT 5</h3>
 
-<hr>
-<br>
+                <div class="dialogue">
 
-<h1 id="instructions">Candle-making instructions</h1>
+                    <p class="dialogue-line">
+                        (Instructions on how to craft candles.)
+                    </p>
 
-<div class="dialogue">
+                    <p class="dialogue-line">
+                        (They're engraved in your brain, now.)
+                    </p>
 
-    <p class="dialogue-line">
-        (Instructions on how to craft candles.)
-    </p>
+                </div>
 
-    <hr>
+                <hr>
+                <br>
 
-    <h4>ACT 2 only</h4>
+                <h1 id="books">Pile of books</h1>
 
-    <p class="dialogue-line">
-        (Unlike normal candles, it seems Crafted candles last longer, and can change smells as time goes by...)
-    </p>
+                <div class="dialogue">
 
-</div>
+                    <p class="dialogue-line">
+                        (Some books on the House of Change.)
+                    </p>
 
-<hr>
-<br>
+                    <p class="dialogue-line">
+                        (...and an book from the series "The Cursing of Château Castle", issue #51.)
+                    </p>
 
-<h3>ACT 5</h3>
+                    <hr>
 
-<div class="dialogue">
+                    <p class="dialogue-note">After talking to <a href="/events/castlequest.html">the Castle-loving One</a></p>
 
-    <p class="dialogue-line">
-        (Instructions on how to craft candles.)
-    </p>
+                    <p class="dialogue-line indented">
+                        (...Issue 51? You should remember this number.)
+                    </p>
 
-    <p class="dialogue-line">
-        (They're engraved in your brain, now.)
-    </p>
+                </div>
 
-</div>
+                <hr>
+                <br>
 
-<hr>
-<br>
+                <h3>ACT 5</h3>
 
-<h1 id="books">Pile of books</h1>
+                <div class="dialogue">
 
-<div class="dialogue">
+                    <p class="dialogue-line">
+                        (Some books.)
+                    </p>
 
-    <p class="dialogue-line">
-        (Some books on the House of Change.)
-    </p>
+                </div>
 
-    <p class="dialogue-line">
-        (...and an book from the series "The Cursing of Château Castle", issue #51.)
-    </p>
+                <hr>
+                <br>
 
-    <hr>
+                <h1 id="chair">Chair</h1>
 
-    <p class="dialogue-note">After talking to <a href="/events/castlequest.html">the Castle-loving One</a></p>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (A chair.)
+                    </p>
+                </div>
 
-    <p class="dialogue-line indented">
-        (...Issue 51? You should remember this number.)
-    </p>
+                <hr>
+                <br>
 
-</div>
+                <h3>ACT 5</h3>
 
-<hr>
-<br>
+                <div class="dialogue">
 
-<h3>ACT 5</h3>
+                    <p class="dialogue-line">
+                        (A chair.)
+                    </p>
 
-<div class="dialogue">
+                    <p class="dialogue-line">
+                        (But you're fine, so it'd be a waste of time to sit down.)
+                    </p>
 
-    <p class="dialogue-line">
-        (Some books.)
-    </p>
+                </div>
+            </main>
+        </div>
 
-</div>
-
-<hr>
-<br>
-
-<h1 id="chair">Chair</h1>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (A chair.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A chair.)
-    </p>
-
-    <p class="dialogue-line">
-        (But you're fine, so it'd be a waste of time to sit down.)
-    </p>
-
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>

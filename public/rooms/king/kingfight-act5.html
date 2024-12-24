@@ -1,1356 +1,1357 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>King Fight (ACT 5)</title>
-        <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-        <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-        <script src="/bars.js" defer></script> 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Fight (ACT 5)</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
+</head>
 
-    <body>
+<body>
 
-        <div id="container">
+    <help-er></help-er>
 
-            <head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-                <main>
+        <div id="center">
+            <side-bar></side-bar>
 
-                    <h1>King Fight (ACT 5)</h1>
-                        <small>page by goldstargloww</small>
-                        <p>The non-standard King fight, as seen in your final loop.</p>
-                        <p>
-                            <b>Source:</b> Map 205 (King Room) + Common Events 245, 246, 247, 248, and 249.
-                        </p>
+            <main>
+                <h1>King Fight (ACT 5)</h1>
+                <small>page by goldstargloww</small>
+                <p>The non-standard King fight, as seen in your final loop.</p>
+                <p>
+                    <b>Source:</b> Map 205 (King Room) + Common Events 245, 246, 247, 248, and 249.
+                </p>
 
-                    <br>
+                <br>
 
-                    <h1>Index</h1>
-                    
+                <h1>Index</h1>
+
+                <ul>
+                    <li>Alone
                         <ul>
-                            <li>Alone
-                                <ul>
-                                    <li><a href="#start">Opening</a></li>
-                                    <li><a href="#turn1">Fight Start</a></li>
-                                    <li><a href="#turn2">75% HP</a></li>
-                                    <li><a href="#turn3">45% HP</a></li>
-                                    <li><a href="#turn4">20% HP</a></li>
-                                    <li><a href="#end">Fight End</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#friends">With Friends</a></li>
+                            <li><a href="#start">Opening</a></li>
+                            <li><a href="#turn1">Fight Start</a></li>
+                            <li><a href="#turn2">75% HP</a></li>
+                            <li><a href="#turn3">45% HP</a></li>
+                            <li><a href="#turn4">20% HP</a></li>
+                            <li><a href="#end">Fight End</a></li>
                         </ul>
-                    
-                    <hr>
-                    
-                    <h1>Alone</h1>
-                    <p>Everything up to Mal du Pays.</p>
-                    
+                    </li>
+                    <li><a href="#friends">With Friends</a></li>
+                </ul>
+
+                <hr>
+
+                <h1>Alone</h1>
+                <p>Everything up to Mal du Pays.</p>
+
+                <br>
+
+                <h2 id="start">Opening</h2>
+
+                <p>
+                    As opposed to the shortening pause before the scene's start in all other acts, this time, there's a 300 frame (5 second) pause, which is the longest out of all the pauses.
+                </p>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Oh, ooooooh......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Hello, bright one.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I am surprised to see you alone, facing me......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I was expecting at least that that Housemaiden would come.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">The Savior of Vaugarde.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">And yet, you, bright one, are the only one before me......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">And......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Your clothes......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Aren't they......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Bright one......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Are you sure you want to do this......?</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I can tell, young one......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I can tell we hail from the same country.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I don't want to fight you.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I just want eternity.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Don't you get it?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Don't you understand?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What my wish is?!?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">DO YOU NOT AGREE?!?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">WE COULD GET IT ALL BACK, BRIGHT ONE!</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">WE COULD......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Ah......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">But perhaps the time for talking is long past.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">So, bright one...</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......Are you ready?</span>
+                    </p>
+                    <br>
+                    <ul class="dialogue-option">
+                        <li class="invis-arrow">
+                            <details>
+                                <summary>
+                                    (Yes.)
+                                </summary>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>
+                                    (No.)
+                                </summary>
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        The screen glitches. You are forced to make the decision again.<br>
+                                        <small>(Choosing no leads nowhere. You have to say yes.)</small>
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Hahahahahaha......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        Let us fight, then.
+                    </p>
+                </div>
+
+                <br>
+
+                <h2 id="turn1">Fight Start</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I...... do try to be merciful.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">But......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Against someone like you.....</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        I'd better not hold back, shouldn't I?
+                    </p>
+                </div>
+
+                <br>
+
+                <h2 id="turn2">75% HP</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Oooh, ooooooh......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">You're stronger than I thought, bright one.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">But what about this?</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line small">
+                        (You see a vision of the future...)
+                    </p>
+                    <p class="dialogue-note">
+                        The King does his special attack.
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (You withstood the attack.)
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Bright one......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">This isn't the first time you've withstood this attack.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What do you see, when I attack you like this?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What vision do you see &nbsp;that it hurts you this badly?</span>
+                    </p>
+                </div>
+
+                <br>
+
+                <h2 id="turn3">45% HP</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Bright one......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I am curious about something.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">The country, the knowledge we both share......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Why you're the only one facing me, without even flinching......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">This cloying, overpowering scent of sugar......</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Yes. I can tell.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">You've trapped this country in time even more surely than I have.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Even if I manage to beat you now......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">My victory will always be temporary, will it not?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Perhaps my wish has come true already, and I don't even know it.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Oooh, ooooooh......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Why didn't I think of it......?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">With this power, there's no one to stop you, is there.....</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">But I do not mind.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">As long as this country exists forever.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">As long as WE exist forever!</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">There is proof!</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Proof that our country was real!!!!!!</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Doesn't a part of you agree with me?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Doesn't a part of you want to restart this battle, again, and again, and again?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Because......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">If you defeat me......</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What else is there?</span>
+                    </p>
+                </div>
+
+                <br>
+
+                <h2 id="turn4">20% HP</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">My wish......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">You can guess what it was, can't you?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Or maybe......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">You have even heard it from my own mouth......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">But what about you, bright one?</span>
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Why are you here?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What trapped you in this eternal place?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What does the star beating in your chest hunger for?</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What was your wish?!?</span>
+                    </p>
+
                     <br>
 
-                    <h2 id="start">Opening</h2>
-
-                        <p>
-                            As opposed to the shortening pause before the scene's start in all other acts, this time, there's a 300 frame (5 second) pause, which is the longest out of all the pauses.
-                        </p>
-
-                        <div class="dialogue">
-                            <p class="dialogue-line">
-                                (...)
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Oh, ooooooh......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Hello, bright one.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I am surprised to see you alone, facing me......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I was expecting at least that that Housemaiden would come.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">The Savior of Vaugarde.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">And yet, you, bright one, are the only one before me......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">And......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Your clothes......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Aren't they......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Bright one......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Are you sure you want to do this......?</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I can tell, young one......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I can tell we hail from the same country.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I don't want to fight you.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I just want eternity.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Don't you get it?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Don't you understand?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What my wish is?!?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">DO YOU NOT AGREE?!?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">WE COULD GET IT ALL BACK, BRIGHT ONE!</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">WE COULD......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Ah......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">But perhaps the time for talking is long past.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">So, bright one...</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......Are you ready?</span>
-                            </p>
-                            <br>
-                            <ul class="dialogue-option">
-                                <li class="invis-arrow">
-                                    <details>
-                                        <summary>
-                                            (Yes.)
-                                        </summary>
-                                    </details>
-                                </li>
-                                <li>
-                                    <details>
-                                        <summary>
-                                            (No.)
-                                        </summary>
-                                        <div class="dialogue">
-                                            <p class="dialogue-note">
-                                                The screen glitches. You are forced to make the decision again.<br>
-                                                <small>(Choosing no leads nowhere. You have to say yes.)</small>
-                                            </p>
-                                        </div>
-                                    </details>
-                                </li>
-                            </ul>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Hahahahahaha......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                Let us fight, then.
-                            </p>
-                        </div>
+                    <p class="dialogue-note">
+                        The screen glitches, flashing red.
+                    </p>
 
                     <br>
 
-                    <h2 id="turn1">Fight Start</h2>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake big">WHAT DID YOU WISH FOR?!?!?!</span>
+                    </p>
+                    <br>
+                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Ah......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I suppose it does not matter.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......I will win this battle soon, after all, for a time.</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">And......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Maybe......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">When everything is perfectly frozen......</span>
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head invis">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I will finally remember it all......</span>
+                    </p>
+                </div>
 
-                        <div class="dialogue">
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I...... do try to be merciful.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">But......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Against someone like you.....</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                I'd better not hold back, shouldn't I?
-                            </p>
-                        </div>
+                <br>
+
+                <h2 id="end">Fight End</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line small">
+                        (THE KING looks at you.)
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (The King slowed you down...)
+                    </p>
+                    <p class="dialogue-note">
+                        The music is pitched down to 90%, and is 70% as loud. The screen gets 20% darker.
+                    </p>
+                    <p class="dialogue-line">
+                        (You have trouble moving.)
+                    </p>
+                </div>
+                <br>
+                <div class="dialogue">
+                    <p class="dialogue-line small">
+                        (THE KING looks at you.)
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (The King slowed you down...)
+                    </p>
+                    <p class="dialogue-note">
+                        The music is pitched down to 70%, and is 50% as loud. The screen gets 47% darker.
+                    </p>
+                    <p class="dialogue-line">
+                        (Your vision gets faint.)
+                    </p>
+                </div>
+                <br>
+                <div class="dialogue">
+                    <p class="dialogue-line small">
+                        (THE KING looks at you.)
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (The King slowed you down...)
+                    </p>
+                    <p class="dialogue-note">
+                        The music is pitched down to 50%, and is 40% as loud. The screen gets 67% darker.
+                    </p>
+                    <p class="dialogue-line">
+                        (You don't want to fight anymore.)
+                    </p>
+                </div>
+                <br>
+                <div class="dialogue">
+                    <p class="dialogue-line small">
+                        (THE KING looks at you.)
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (the King &nbsp;slowed you down)
+                    </p>
+                    <p class="dialogue-note">
+                        The music fades out. The screen goes black.
+                    </p>
+                    <p class="dialogue-line">
+                        (you &nbsp;don't &nbsp; want &nbsp;&nbsp;to &nbsp;&nbsp; fight &nbsp;&nbsp;a&nbsp;n&nbsp;y&nbsp;m&nbsp;o&nbsp;r&nbsp;e&nbsp;)
+                    </p>
+                </div>
+
+                <br>
+
+                <p>See <a href="/acts/act5/maldupays.html">Mal du Pays.</a></p>
+
+                <hr>
+                <br>
+
+                <h1 id="friends">With Friends</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">The screen flashes white, and the sound of Mirabelle unfreezing someone can be heard.</p>
 
                     <br>
 
-                    <h2 id="turn2">75% HP</h2>
+                    <p class="dialogue-line">
+                        <span class="shake">(AH)</span>
+                    </p>
 
-                        <div class="dialogue">
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Oooh, ooooooh......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">You're stronger than I thought, bright one.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">But what about this?</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line small">
-                                (You see a vision of the future...)
-                            </p>
-                            <p class="dialogue-note">
-                                The King does his special attack.
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                (You withstood the attack.)
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Bright one......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">This isn't the first time you've withstood this attack.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What do you see, when I attack you like this?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What vision do you see &nbsp;that it hurts you this badly?</span>
-                            </p>
-                        </div>
+                    <br>
+                    <br>
+
+                    <p class="dialogue-note">
+                        The screen slowly fades in to reveal Siffrin's family standing between him and the King. Their battle portraits are ecstatic, determined.
+                    </p>
 
                     <br>
 
-                    <h2 id="turn3">45% HP</h2>
+                    <p class="dialogue-line">(you're not slowed down anymore)</p>
 
-                        <div class="dialogue">
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Bright one......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I am curious about something.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">The country, the knowledge we both share......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Why you're the only one facing me, without even flinching......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">This cloying, overpowering scent of sugar......</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Yes. I can tell.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">You've trapped this country in time even more surely than I have.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Even if I manage to beat you now......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">My victory will always be temporary, will it not?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Perhaps my wish has come true already, and I don't even know it.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Oooh, ooooooh......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Why didn't I think of it......?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">With this power, there's no one to stop you, is there.....</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">But I do not mind.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">As long as this country exists forever.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">As long as WE exist forever!</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">There is proof!</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Proof that our country was real!!!!!!</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Doesn't a part of you agree with me?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Doesn't a part of you want to restart this battle, again, and again, and again?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Because......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">If you defeat me......</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What else is there?</span>
-                            </p>
-                        </div>
-                    
-                    <br>
+                    <p class="dialogue-line">(you can move again)</p>
 
-                    <h2 id="turn4">20% HP</h2>
-
-                        <div class="dialogue">
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">My wish......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">You can guess what it was, can't you?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Or maybe......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">You have even heard it from my own mouth......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">But what about you, bright one?</span>
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Why are you here?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What trapped you in this eternal place?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What does the star beating in your chest hunger for?</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">What was your wish?!?</span>
-                            </p>
-                            
-                            <br>
-                            
-                            <p class="dialogue-note">
-                                The screen glitches, flashing red.
-                            </p>
-                            
-                            <br>
-                            
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake big">WHAT DID YOU WISH FOR?!?!?!</span>
-                            </p>
-                            <br>
-                            <br>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Ah......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I suppose it does not matter.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">......I will win this battle soon, after all, for a time.</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">And......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">Maybe......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">When everything is perfectly frozen......</span>
-                            </p>
-                            <p class="dialogue-line">
-                                <span class="dialogue-head invis">
-                                    <span class="dialogue-name">King</span>
-                                </span>
-                                <span class="shake">I will finally remember it all......</span>
-                            </p>
-                        </div>
+                    <p class="dialogue-line">(the king&ensp;&ensp;and)</p>
 
                     <br>
-                    
-                    <h2 id="end">Fight End</h2>
 
-                        <div class="dialogue">
-                            <p class="dialogue-line small">
-                                (THE KING looks at you.)
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                (The King slowed you down...)
-                            </p>
-                            <p class="dialogue-note">
-                                The music is pitched down to 90%, and is 70% as loud. The screen gets 20% darker.
-                            </p>
-                            <p class="dialogue-line">
-                                (You have trouble moving.)
-                            </p>
-                        </div>
-                        <br>
-                        <div class="dialogue">
-                            <p class="dialogue-line small">
-                                (THE KING looks at you.)
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                (The King slowed you down...)
-                            </p>
-                            <p class="dialogue-note">
-                                The music is pitched down to 70%, and is 50% as loud. The screen gets 47% darker.
-                            </p>
-                            <p class="dialogue-line">
-                                (Your vision gets faint.)
-                            </p>
-                        </div>
-                        <br>
-                        <div class="dialogue">
-                            <p class="dialogue-line small">
-                                (THE KING looks at you.)
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                (The King slowed you down...)
-                            </p>
-                            <p class="dialogue-note">
-                                The music is pitched down to 50%, and is 40% as loud. The screen gets 67% darker.
-                            </p>
-                            <p class="dialogue-line">
-                                (You don't want to fight anymore.)
-                            </p>
-                        </div>
-                        <br>
-                        <div class="dialogue">
-                            <p class="dialogue-line small">
-                                (THE KING looks at you.)
-                            </p>
-                            <br>
-                            <p class="dialogue-line">
-                                (the King &nbsp;slowed you down)
-                            </p>
-                            <p class="dialogue-note">
-                                The music fades out. The screen goes black.
-                            </p>
-                            <p class="dialogue-line">
-                                (you &nbsp;don't &nbsp; want &nbsp;&nbsp;to &nbsp;&nbsp; fight &nbsp;&nbsp;a&nbsp;n&nbsp;y&nbsp;m&nbsp;o&nbsp;r&nbsp;e&nbsp;)
-                            </p>
-                        </div>
-                    
+                    <p class="dialogue-line">(everyone?)</p>
+
                     <br>
-                    
-                    <p>See <a href="/acts/act5/maldupays.html">Mal du Pays.</a></p>
-                    
-                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(stressed1)</span>
+                        </span>
+                        Okay! I woke Siffrin up!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        Alright!!! Nice job, Mira!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        Frin, are you okay?!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        Eyes on the enemy, Boniface! Siffrin will be alright!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        You don't need to fight anymore, Siffrin! We got you!!!
+                    </p>
+
                     <br>
-                    
-                    <h1 id="friends">With Friends</h1>
-                    
-                    <div class="dialogue">
-                        
-                        <p class="dialogue-note">The screen flashes white, and the sound of Mirabelle unfreezing someone can be heard.</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="shake">(AH)</span>
-                        </p>
-                        
-                        <br>
-                        <br>
-                        
-                        <p class="dialogue-note">
-                            The screen slowly fades in to reveal Siffrin's family standing between him and the King. Their battle portraits are ecstatic, determined.
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(you're not slowed down anymore)</p>
-                        
-                        <p class="dialogue-line">(you can move again)</p>
-                        
-                        <p class="dialogue-line">(the king&ensp;&ensp;and)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(everyone?)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(stressed1)</span>
-                            </span>
-                            Okay! I woke Siffrin up!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Isabeau</span>
-                                <span class="dialogue-expression">(yeah!1)</span>
-                            </span>
-                            Alright!!! Nice job, Mira!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(no!1)</span>
-                            </span>
-                            Frin, are you okay?!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(fight1)</span>
-                            </span>
-                            Eyes on the enemy, Boniface! Siffrin will be alright!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(fight1)</span>
-                            </span>
-                            You don't need to fight anymore, Siffrin! We got you!!!
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(what)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                            </span>
-                            "How&ensp;&ensp;are you&ensp;&ensp;&ensp;here?"
-                        </p>
-                        
-                        <br>
-                        <br>
-                        
-                        <p class="dialogue-line">(they came)</p>
-                        
-                        <p class="dialogue-line">(for&ensp;&ensp;&ensp;you?)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Isabeau</span>
-                                <span class="dialogue-expression">(really1)</span>
-                            </span>
-                            Um, we walked, duh?
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(hmf1)</span>
-                            </span>
-                            We talked, after-- After yesterday, and we couldn't find you anywhere, and we decided to come after you!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(fight1)</span>
-                            </span>
-                            We had trouble figuring out where you went, so we asked people in Dormont, and then--
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(and then1)</span>
-                            </span>
-                            A weird shiny person helped us!!! And--
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(angy1)</span>
-                            </span>
-                            <span class="shake">Aaaaaargh, it doesn't crabbing matter!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(angry2)</span>
-                            </span>
-                            I'm still mad at you, Siffrin!!! So mad!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(angry3)</span>
-                            </span>
-                            I still can't believe you said all those horrible things to us yesterday!!! And that you went to fight the King without us!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(fight3)</span>
-                            </span>
-                            But we'll talk about it later!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                                <span class="dialogue-expression">(fight1)</span>
-                            </span>
-                            And in the meantime I'm going to channel my anger to kick that stupid King's butt who froze our country in time!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(no!1)</span>
-                            </span>
-                            What Belle said!!! Get ready, King!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(fight1)</span>
-                            </span>
-                            We'll explain the rest later, Siffrin. Right now, we have a King to defeat!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Ooooooh......<br><br>
-                                So you had companions after all, bright one......
-                            </span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">How lucky.</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Quite a shame they couldn't be here to help you earlier.</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            They must not care about you very much, do they?
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(they must not)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Isabeau</span>
-                                <span class="dialogue-expression">(disappointed2)</span>
-                            </span>
-                            Dude, just shut up.
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Isabeau</span>
-                                <span class="dialogue-expression">(disappointed1)</span>
-                            </span>
-                            We may be upset, but we wouldn't leave Sif behind.
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(lol2)</span>
-                            </span>
-                            Not in a million years.
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(that's a lie)</p>
-                        
-                        <p class="dialogue-line">(she said it)</p>
-                        
-                        <p class="dialogue-line">(she said they should leave you behind)</p>
-                        
-                        <p class="dialogue-line">(but...&ensp;&ensp;&ensp;but if they're here, then. . .)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(lol1)</span>
-                            </span>
-                            Heh.
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(lol3)</span>
-                            </span>
-                            If Siffrin was stupid enough to come and fight you on their own, the only thing we can do is follow and fight right alongside them.
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(angry1)</span>
-                            </span>
-                            I'll fight, I'll fight, I'll fight!!! This time, Frin, it's my turn to protect you!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Bonnie</span>
-                                <span class="dialogue-expression">(no!1)</span>
-                            </span>
-                            So shut the CRAB up, King!!! I'm gonna kick your crabbing BUTT!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Ha......<br>
-                                Haha......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="big">HAHAHAHAHAHAHAHAHAHAHAHA!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            YOU REALLY THINK YOU CAN DEFEAT ME, AFTER EVERYTHING?
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            I HAVE THE POWER OF THE UNIVERSE AT MY DISPOSAL!!!!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            Your bright companion may have been able to hurt me, because his Craft also draws from It...
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            But pathetic, wishless humans like you......
-                        </p>
-                        
-                        <br>
-                        
-                        <img src="https://instarsandtime.wiki.gg/images/e/ec/ISAT_Enemy_King_Special.png" alt="Image ID: The King's cut-in attack illustration. He pulls his hands away from his face, lightless Craft sparking around him. End ID." class="cg" style="aspect-ratio: 17 / 10;">
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake big">CANNOT HOPE TO DEFEAT ME!!!!!!</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(the king)</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Isabeau</span>
-                                <span class="dialogue-expression">(huhwah1)</span>
-                            </span>
-                            WUH OH!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Odile</span>
-                                <span class="dialogue-expression">(no!1)</span>
-                            </span>
-                            EVERYONE, GET READY!!!
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">(strikes)</p>
-                        
-                        <br>
-                        
-                        <img src="https://instarsandtime.wiki.gg/images/7/7c/ISAT_Special_Mirabelle_ACT5.png" alt="Image ID: A special version of Mirabelle's cut-in attack. She's intensely focused, furious, with gritted teeth and Change spirals in her eyes. She flings her hands out before her, with what looks like a translucent, glowing diamond made of Craft floating above them. End ID." class="cg" style="aspect-ratio: 34 / 23;">
-                        
-                        <p class="dialogue-note">A bell sound can be heard.</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            <span class="shake big">I WON'T LET YOU!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            You really think I'll let you defeat us like this?
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            After you froze my beloved House in time, my country, <span class="shake">my HOME?!?</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            We won't let you!!! We want to live!!! We want to be able to change, to grow!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            We don't want your eternity, King!!!!!!
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            But if you want eternity so bad, then--!!!
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-note">A sound like a slash rings out. The screen starts to fade to white.</p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Mirabelle</span>
-                            </span>
-                            <span class="shake big">TAKE THIS!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Ah--!</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-note">A whooshing sound, and then the screen fades to pure white.</p>
-                                                
-                        <br>
-                        <br>
-                        
-                        <p class="dialogue-line">(a sound&ensp;&ensp;&ensp;like a sword getting deflected)</p>
-                        
-                        <p class="dialogue-line">(like hitting a metal ball&ensp;&ensp;&ensp;with a bat)</p>
-                        
-                        <p class="dialogue-line">(like&ensp;&ensp;&ensp;breaking&ensp;&ensp;&ensp;a mirror)</p>
-                        
-                        <br>
-                        
-                        <img src="https://instarsandtime.wiki.gg/images/5/52/ISAT_Event_ACT5_King_Victory_1.png" alt="Image ID: The King is bombarded by darkless Craft attacks. End ID." class="cg">
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">What. . . . . . ?</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Your shield......<br><br>
-                                My attack......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Has been......<br><br>
-                                Reflected back......<br><br>
-                                To me......?</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">I'm being......<br><br><br>
-                                Frozen?</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">No......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">No......<br>
-                                No......</span><br>
-                                <span class="shake big">No!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">I don't want eternity!<br>
-                                Not yet!<br>
-                                Not now!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Not when......<br>
-                                I still cannot......<br>
-                                Remember...... Its name......</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Please...... Please...... Not now, please......!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake big wish">P L E A S E . . . . . . ! ! !</span>
-                        </p>
-                        
-                        <br>
-                        
-                        <img src="https://instarsandtime.wiki.gg/images/c/c5/ISAT_Event_ACT5_King_Victory_2.png" alt="Image ID: The King pulls his hands away from his face as he is slowly frozen in time, surrounded by sparkles. For the first time, his face is obscured by neither his hair nor his hands, and tears roll down his cheek as he stares upwards in disbelief. End ID." class="cg">
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">............&ensp;&ensp;&ensp;Ah!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Why now, of all times......<br>
-                                I see it......<br><br>
-                                I can see it!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">The mountains, covered in trees and warm rocks!!!<br>
-                                The sea, clear, dangerous, yet giving!!!<br>
-                                The lightless sand, dark like the night sky!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">I see it now, I see it!!!!!!</span>
-                        </p>
-                        
-                        <p class="dialogue-line">
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">King</span>
-                            </span>
-                            <span class="shake">Aaaaaah......<br><br>
-                                I remember it, n o&ensp;&ensp;&ensp;w......<br><br>
-                                I r e&ensp;&ensp;m e m b&ensp;&ensp;e r&ensp;&ensp;&ensp;i t&ensp;&ensp;&ensp;&ensp;a l&ensp;&ensp;&ensp;&ensp;l&ensp;&ensp;.&ensp;&ensp;.&ensp;&ensp;&ensp;.&ensp;&ensp;.&ensp;&ensp;&ensp;.&ensp;&ensp;.</span>
-                        </p>
-                        
-                        <img src="https://instarsandtime.wiki.gg/images/2/2a/ISAT_Event_ACT5_King_Victory_3.png" alt="Image ID: The King is fully frozen in time, tears frozen in place. End ID." class="cg">
-                        
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <!-- intentional br's -->
-                        
-                    </div>
-                    
+
+                    <p class="dialogue-line">(what)</p>
+
                     <br>
-                    
-                    <p>See <a href="/acts/act5/endrooms5.html">End Rooms (ACT 5)</a>.</p>
 
-                </main>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                        </span>
+                        "How&ensp;&ensp;are you&ensp;&ensp;&ensp;here?"
+                    </p>
 
-            <foot-er></foot-er>
+                    <br>
+                    <br>
 
+                    <p class="dialogue-line">(they came)</p>
+
+                    <p class="dialogue-line">(for&ensp;&ensp;&ensp;you?)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        Um, we walked, duh?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(hmf1)</span>
+                        </span>
+                        We talked, after-- After yesterday, and we couldn't find you anywhere, and we decided to come after you!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        We had trouble figuring out where you went, so we asked people in Dormont, and then--
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        A weird shiny person helped us!!! And--
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(angy1)</span>
+                        </span>
+                        <span class="shake">Aaaaaargh, it doesn't crabbing matter!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        I'm still mad at you, Siffrin!!! So mad!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(angry3)</span>
+                        </span>
+                        I still can't believe you said all those horrible things to us yesterday!!! And that you went to fight the King without us!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(fight3)</span>
+                        </span>
+                        But we'll talk about it later!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        And in the meantime I'm going to channel my anger to kick that stupid King's butt who froze our country in time!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        What Belle said!!! Get ready, King!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        We'll explain the rest later, Siffrin. Right now, we have a King to defeat!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Ooooooh......<br><br>
+                            So you had companions after all, bright one......
+                        </span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">How lucky.</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Quite a shame they couldn't be here to help you earlier.</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        They must not care about you very much, do they?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">(they must not)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(disappointed2)</span>
+                        </span>
+                        Dude, just shut up.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        We may be upset, but we wouldn't leave Sif behind.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        Not in a million years.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">(that's a lie)</p>
+
+                    <p class="dialogue-line">(she said it)</p>
+
+                    <p class="dialogue-line">(she said they should leave you behind)</p>
+
+                    <p class="dialogue-line">(but...&ensp;&ensp;&ensp;but if they're here, then. . .)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        Heh.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                        </span>
+                        If Siffrin was stupid enough to come and fight you on their own, the only thing we can do is follow and fight right alongside them.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        I'll fight, I'll fight, I'll fight!!! This time, Frin, it's my turn to protect you!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        So shut the CRAB up, King!!! I'm gonna kick your crabbing BUTT!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Ha......<br>
+                            Haha......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="big">HAHAHAHAHAHAHAHAHAHAHAHA!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        YOU REALLY THINK YOU CAN DEFEAT ME, AFTER EVERYTHING?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        I HAVE THE POWER OF THE UNIVERSE AT MY DISPOSAL!!!!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        Your bright companion may have been able to hurt me, because his Craft also draws from It...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        But pathetic, wishless humans like you......
+                    </p>
+
+                    <br>
+
+                    <img src="https://instarsandtime.wiki.gg/images/e/ec/ISAT_Enemy_King_Special.png" alt="Image ID: The King's cut-in attack illustration. He pulls his hands away from his face, lightless Craft sparking around him. End ID." class="cg" style="aspect-ratio: 17 / 10;">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake big">CANNOT HOPE TO DEFEAT ME!!!!!!</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">(the king)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(huhwah1)</span>
+                        </span>
+                        WUH OH!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        EVERYONE, GET READY!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">(strikes)</p>
+
+                    <br>
+
+                    <img src="https://instarsandtime.wiki.gg/images/7/7c/ISAT_Special_Mirabelle_ACT5.png" alt="Image ID: A special version of Mirabelle's cut-in attack. She's intensely focused, furious, with gritted teeth and Change spirals in her eyes. She flings her hands out before her, with what looks like a translucent, glowing diamond made of Craft floating above them. End ID." class="cg" style="aspect-ratio: 34 / 23;">
+
+                    <p class="dialogue-note">A bell sound can be heard.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        <span class="shake big">I WON'T LET YOU!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        You really think I'll let you defeat us like this?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        After you froze my beloved House in time, my country, <span class="shake">my HOME?!?</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        We won't let you!!! We want to live!!! We want to be able to change, to grow!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        We don't want your eternity, King!!!!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        But if you want eternity so bad, then--!!!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">A sound like a slash rings out. The screen starts to fade to white.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                        </span>
+                        <span class="shake big">TAKE THIS!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Ah--!</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">A whooshing sound, and then the screen fades to pure white.</p>
+
+                    <br>
+                    <br>
+
+                    <p class="dialogue-line">(a sound&ensp;&ensp;&ensp;like a sword getting deflected)</p>
+
+                    <p class="dialogue-line">(like hitting a metal ball&ensp;&ensp;&ensp;with a bat)</p>
+
+                    <p class="dialogue-line">(like&ensp;&ensp;&ensp;breaking&ensp;&ensp;&ensp;a mirror)</p>
+
+                    <br>
+
+                    <img src="https://instarsandtime.wiki.gg/images/5/52/ISAT_Event_ACT5_King_Victory_1.png" alt="Image ID: The King is bombarded by darkless Craft attacks. End ID." class="cg">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">What. . . . . . ?</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Your shield......<br><br>
+                            My attack......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Has been......<br><br>
+                            Reflected back......<br><br>
+                            To me......?</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I'm being......<br><br><br>
+                            Frozen?</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">No......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">No......<br>
+                            No......</span><br>
+                        <span class="shake big">No!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I don't want eternity!<br>
+                            Not yet!<br>
+                            Not now!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Not when......<br>
+                            I still cannot......<br>
+                            Remember...... Its name......</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Please...... Please...... Not now, please......!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake big wish">P L E A S E . . . . . . ! ! !</span>
+                    </p>
+
+                    <br>
+
+                    <img src="https://instarsandtime.wiki.gg/images/c/c5/ISAT_Event_ACT5_King_Victory_2.png" alt="Image ID: The King pulls his hands away from his face as he is slowly frozen in time, surrounded by sparkles. For the first time, his face is obscured by neither his hair nor his hands, and tears roll down his cheek as he stares upwards in disbelief. End ID." class="cg">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">............&ensp;&ensp;&ensp;Ah!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Why now, of all times......<br>
+                            I see it......<br><br>
+                            I can see it!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">The mountains, covered in trees and warm rocks!!!<br>
+                            The sea, clear, dangerous, yet giving!!!<br>
+                            The lightless sand, dark like the night sky!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">I see it now, I see it!!!!!!</span>
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">King</span>
+                        </span>
+                        <span class="shake">Aaaaaah......<br><br>
+                            I remember it, n o&ensp;&ensp;&ensp;w......<br><br>
+                            I r e&ensp;&ensp;m e m b&ensp;&ensp;e r&ensp;&ensp;&ensp;i t&ensp;&ensp;&ensp;&ensp;a l&ensp;&ensp;&ensp;&ensp;l&ensp;&ensp;.&ensp;&ensp;.&ensp;&ensp;&ensp;.&ensp;&ensp;.&ensp;&ensp;&ensp;.&ensp;&ensp;.</span>
+                    </p>
+
+                    <img src="https://instarsandtime.wiki.gg/images/2/2a/ISAT_Event_ACT5_King_Victory_3.png" alt="Image ID: The King is fully frozen in time, tears frozen in place. End ID." class="cg">
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <!-- intentional br's -->
+
+                </div>
+
+                <br>
+
+                <p>See <a href="/acts/act5/endrooms5.html">End Rooms (ACT 5)</a>.</p>
+            </main>
         </div>
 
-    </body>
+        <foot-er></foot-er>
+    </div>
 
+</body>
 </html>

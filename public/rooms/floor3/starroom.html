@@ -1,240 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Room</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Room</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
+    <help-er></help-er>
 
-<head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-<main>
+        <div id="center">
+            <side-bar></side-bar>
 
-<h1>Star Door Room</h1>
-<p><b>Source:</b> Map018 (KingRoom), Map114 (KingGate), Map185 (ACT5_KingRoom)</p>
-<p>Text relating to the room behind the star-shaped door on Floor 3.</p>
-<p>The gate can only be opened after completing <a href="/acts/act3-4/kingquest.html">Kingquest</a>.</p>
+            <main>
+                <h1>Star Door Room</h1>
+                <p><b>Source:</b> Map018 (KingRoom), Map114 (KingGate), Map185 (ACT5_KingRoom)</p>
+                <p>Text relating to the room behind the star-shaped door on Floor 3.</p>
+                <p>The gate can only be opened after completing <a href="/acts/act3-4/kingquest.html">Kingquest</a>.</p>
 
-<br>
+                <br>
 
-<h1>Index</h1>
+                <h1>Index</h1>
 
-<ul>
-    <li><a href="#gate">Gate</a></li>
-    <li><a href="#room">Star Room</a>
-        <ul>
-            <li><a href="#charts">Star charts</a></li>
-            <li><a href="#orrery">Orrery</a></li>
-            <li><a href="#telescope">Telescope</a></li>
-            <li><a href="#hat">Starry Hat</a></li>
-            <li><a href="#diary">Sad Diary</a></li>
-            <li><a href="#shelf">Bookshelf</a></li>
-        </ul>
-    </li>
-</ul>
+                <ul>
+                    <li><a href="#gate">Gate</a></li>
+                    <li><a href="#room">Star Room</a>
+                        <ul>
+                            <li><a href="#charts">Star charts</a></li>
+                            <li><a href="#orrery">Orrery</a></li>
+                            <li><a href="#telescope">Telescope</a></li>
+                            <li><a href="#hat">Starry Hat</a></li>
+                            <li><a href="#diary">Sad Diary</a></li>
+                            <li><a href="#shelf">Bookshelf</a></li>
+                        </ul>
+                    </li>
+                </ul>
 
-<br>
+                <br>
 
-<h1 id="gate">Gate</h1>
+                <h1 id="gate">Gate</h1>
 
-<h3>If you don't know what an openphrase is</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (This gate is locked...)
-    </p>
-
-    <p class="dialogue-line">
-        (It looks different than the gates you've seen so far.)
-    </p>
-
-    <p class="dialogue-line">
-        (The lock keeping it closed has an interesting shape... It doesn't have a hole for a key..)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        At this point, the generic dialogue for <a href="/random/generic.html#door">locked doors</a> plays out, explaining what an openphrase is.
-    </p>
-    
-    <br>
-
-    <p class="dialogue-line" id="lock">
-        (The door has a sentence written above the lock, too.)
-    </p>
-
-    <hr>
-
-    <h4>If you don't have Memory of Memories equipped</h4>
-
-    <p class="dialogue-line">
-        (But you can't read it.)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Such an imposing door, though... I don't remember ever seeing it before!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder2)</span>
-        </span>
-        Hm... There's some text written above the door, though, look.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaaa1)</span>
-        </span>
-        It says... Yyyyyyeoooooowch.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(huh3)</span>
-        </span>
-        "Yeowch"?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(angry2)</span>
-        </span>
-        No, no, it's just... My head hurts.
-    </p>
-
-    <hr>
-
-    <h4>If you have Memory of Memories, but not equipped</h4>
-
-    <p class="dialogue-line">
-        (You could read it, if you equipped the Memory for it.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>If you know what an openphrase is</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (This gate is locked...)
-    </p>
-
-    <p class="dialogue-line">
-        (It's locked by one of those weird word locks.)
-    </p>
-
-    <p class="dialogue-line">
-        (There's something written above the lock, too.)
-    </p>
-
-    <p class="dialogue-line">
-        (Maybe you should take a closer look...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Look at it curiously.)</summary>
+                <h3>If you don't know what an openphrase is</h3>
 
                 <div class="dialogue">
-                    <p class="dialogue-note">
-                        This option repeats the <a href="#lock">dialogue</a> for if you don't know about openphrases.
+
+                    <p class="dialogue-line">
+                        (This gate is locked...)
                     </p>
 
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Try to read what's written.)</summary>
+                    <p class="dialogue-line">
+                        (It looks different than the gates you've seen so far.)
+                    </p>
 
-                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (The lock keeping it closed has an interesting shape... It doesn't have a hole for a key..)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        At this point, the generic dialogue for <a href="/random/generic.html#door">locked doors</a> plays out, explaining what an openphrase is.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line" id="lock">
+                        (The door has a sentence written above the lock, too.)
+                    </p>
+
+                    <hr>
 
                     <h4>If you don't have Memory of Memories equipped</h4>
 
                     <p class="dialogue-line">
-                        (...)
+                        (But you can't read it.)
                     </p>
+
+                    <hr>
 
                     <p class="dialogue-line">
-                        (You cannot read what is written above the lock.)
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Such an imposing door, though... I don't remember ever seeing it before!
                     </p>
-
-                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(boo1)</span>
+                            <span class="dialogue-expression">(wonder2)</span>
                         </span>
-                        Just trying to read this makes my head hurt.
+                        Hm... There's some text written above the door, though, look.
                     </p>
 
-                    <br>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        It says... Yyyyyyeoooooowch.
+                    </p>
 
-                    <h4>If you have Memory of Memories</h4>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(huh3)</span>
+                        </span>
+                        "Yeowch"?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        No, no, it's just... My head hurts.
+                    </p>
+
+                    <hr>
+
+                    <h4>If you have Memory of Memories, but not equipped</h4>
 
                     <p class="dialogue-line">
                         (You could read it, if you equipped the Memory for it.)
                     </p>
 
-                    <hr>
+                </div>
 
-                    <h4>If you have Memory of Memories equipped</h4>
+                <br>
+
+                <h3>If you know what an openphrase is</h3>
+
+                <div class="dialogue">
 
                     <p class="dialogue-line">
-                        (You can read it, now.)
+                        (This gate is locked...)
                     </p>
 
                     <p class="dialogue-line">
-                        (...)
+                        (It's locked by one of those weird word locks.)
                     </p>
 
                     <p class="dialogue-line">
-                        (It's asking a question.)
+                        (There's something written above the lock, too.)
                     </p>
 
                     <p class="dialogue-line">
-                        (You answer it aloud.)
+                        (Maybe you should take a closer look...)
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (The door unlocks.)
+                        (...)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Look at it curiously.)</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        This option repeats the <a href="#lock">dialogue</a> for if you don't know about openphrases.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Try to read what's written.)</summary>
+
+                                <div class="dialogue">
+
+                                    <h4>If you don't have Memory of Memories equipped</h4>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (You cannot read what is written above the lock.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(boo1)</span>
+                                        </span>
+                                        Just trying to read this makes my head hurt.
+                                    </p>
+
+                                    <br>
+
+                                    <h4>If you have Memory of Memories</h4>
+
+                                    <p class="dialogue-line">
+                                        (You could read it, if you equipped the Memory for it.)
+                                    </p>
+
+                                    <hr>
+
+                                    <h4>If you have Memory of Memories equipped</h4>
+
+                                    <p class="dialogue-line">
+                                        (You can read it, now.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (It's asking a question.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (You answer it aloud.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (The door unlocks.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Isabeau</span>
+                                            <span class="dialogue-expression">(awkward1)</span>
+                                        </span>
+                                        Huh...? What did you say, Sif?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(anxious1)</span>
+                                        </span>
+                                        I couldn't hear it either... Did you say something...?
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You open the door.)
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Say: "Change".)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You say the word "Change" aloud.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Nothing happens.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Worth a try!
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Say: "Stostorage roomoom".)</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        Only available if you've gotten the openphrase from Dormont's <a href="/rooms/dormont/itemshop.html#shopkeep">Shopkeeper</a>.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You say the sentence "Stostorage roomoom" aloud.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Nothing happens.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Worth a try!
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Say: "Openphrase123".)</summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-note">
+                                        Only available if you've gotten the openphrase from the <a href="/rooms/floor3/writing_room.html#openphrase">right side dead end room</a> on Floor 3.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You say the sentence "Openphrase123" aloud.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Nothing happens.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Mirabelle</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Worth a try!
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Leave the door alone.)</summary>
+
+                                <div class="dialogue">
+                                    (You leave the door alone.)
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <hr>
+                <br>
+
+                <h1 id="room">Star Room</h1>
+
+                <br>
+
+                <h2 id="charts">Star charts</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Star charts.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="orrery">Orrery</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (It's...)
                     </p>
 
                     <br>
@@ -242,9 +398,33 @@
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(awkward1)</span>
+                            <span class="dialogue-expression">(neutral1)</span>
                         </span>
-                        Huh...? What did you say, Sif?
+                        What is this?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        It has lots of balls attached to it.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        And there's a lever, here... If we turn it, it seems the balls will move around this big middle ball.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        Does it represent something? It looks familiar somehow...
                     </p>
 
                     <p class="dialogue-line">
@@ -252,60 +432,382 @@
                             <span class="dialogue-name">Mirabelle</span>
                             <span class="dialogue-expression">(anxious1)</span>
                         </span>
-                        I couldn't hear it either... Did you say something...?
+                        Yes, I feel like I've seen something like this before...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(tired1)</span>
+                        </span>
+                        "It's called an orrery."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(oh!1)</span>
+                        </span>
+                        An orrery...?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        "It's a machine to calculate the positions of astronomical objects!"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk4)</span>
+                        </span>
+                        Astro-what?
+                    </p>
+
+                    <hr>
+
+                    <h4>If you've read the newspaper in the <a href="/rooms/floor1/writingdorm.html#newspaper">Writing Dorm</a></h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(happy2)</span>
+                        </span>
+                        Oh, you mean like...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        "Like, stars and planets and stuff!"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        Hm... Interesting...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                        </span>
+                        How do you know this, Siffrin?
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (You open the door.)
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Say: "Change".)</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (You say the word "Change" aloud.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Nothing happens.)
+                        (...)
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        ...
+                    </p>
+
+                    <hr>
+
+                    <h4>If you've not read the newspaper</h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        "Like, stars and planets and stuff!"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        Who would need to calculate this?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(pft1)</span>
+                        </span>
+                        Hehehe...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Worth a try!
+                        For once, Siffrin hasn't forgotten something, but we all have!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (...)
                     </p>
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Say: "Stostorage roomoom".)</summary>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (This is an orrery.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You remember this, at least.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You try to keep the word close to your heart.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You don't know when you'll start forgetting it again, so you might as well enjoy it while you can.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But there must be a reason why the world forgot it all, right?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (The Universe wanted it this way? What was that saying, again?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        ("The Universe leads, you can only follow".)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Ooooooh, you followed, you follow, you will follow, but you are tired!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You are bound to the Universe's will the same way the moon is bound to this planet, the same way this planet is bound to the sun, the same way a puppet is bound to its strings!!!!!!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You suffer, and you suffer, and you suffer, and you have to believe it is for it, for its entertainment, but you know, don't you?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (The Universe is empty! No one is watching!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Nothing matters in this world, not even your own grief!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="shake">(You're nothing, your pain is nothing, and no one is watching!)</span>
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You've forgotten what this is, already, again, once more.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="telescope">Telescope</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A telescope.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's broken.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Broken telescope.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But it's still part of the Universe, even if it can't see it!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Aaah, are you still part of the Universe, even if you're broken, too?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Does the Universe still see you, even when you can't see It?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (The Universe is infinite and always growing, so isn't its compassion infinite as well?!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Hello! Hello! Hello! You're here! You said it three times, so the Universe must hear!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (But the only thing that answers is silence, as always!)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (Broken telescope.)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="hat">Starry Hat</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(A drawer.)</p>
+                    <p class="dialogue-line">(You open it...)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">If you don't have the Starry Hat</p>
+
+                    <p class="dialogue-line indented">(There's a beautiful hat inside.)</p>
+                    <p class="dialogue-line indented">(It's very similar to yours.)</p>
+
+                    <br>
+
+                    <p class="dialogue-line indented">(You got the STARRY HAT!)</p>
+                    <p class="dialogue-line indented">(You put the hat in your Pockets to equip later.)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">If you do</p>
+
+                    <p class="dialogue-line indented">(There's--)</p>
+
+                    <br>
+
+                    <p class="dialogue-note indented">The world skips.</p><!--no refinding equipment ce-->
+
+                    <br>
+
+                    <p class="dialogue-line indented">(--Nothing inside.)</p>
+                    <p class="dialogue-line indented">(But the Starry Hat was here before. You remember.)</p>
+
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A drawer.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's empty now.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
 
                 <div class="dialogue">
                     <p class="dialogue-note">
-                        Only available if you've gotten the openphrase from Dormont's <a href="/rooms/dormont/itemshop.html#shopkeep">Shopkeeper</a>.
+                        The world corrects itself without comment.
+                    </p>
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (A drawer.)
                     </p>
 
-                    <br>
+                    <p class="dialogue-line">
+                        (It's empty now.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="diary">Sad Diary</h2>
+
+                <div class="dialogue">
 
                     <p class="dialogue-line">
-                        (You say the sentence "Stostorage roomoom" aloud.)
+                        (A journal with a star on its cover.)
                     </p>
 
                     <p class="dialogue-line">
-                        (Nothing happens.)
+                        (It looks very old. Feels like it'd break apart in one touch...)
                     </p>
 
                     <br>
@@ -313,1315 +815,810 @@
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        I want to read it so bad.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        Please, let's stop wasting time and reading every book we come across.
+                    </p>
+
+                    <hr>
+
+                    <h3>If you have not completed Friendquest yet</h3>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        But...!!!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        NO.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You'd rather not have to read anything about stars right now.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Thinking about the stars right now is like touching a hot stove.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Maybe after you finish helping your [allies/family members].)
+                    </p>
+
+                    <hr>
+
+                    <h3>If you have completed Friendquest</h3>
+
+                    <h4>First time</h4>
+
+                    <p class="dialogue-line">
+                        (But...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (If the book has a star on it, it must be important, right?)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        (You get closer to the book.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(sigh1)</span>
+                        </span>
+                        ...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        Urgh, fine.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Let's do it! Be careful handling it, though...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Mirabelle carefully takes the book in her hands, and flips through the pages.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                        </span>
+                        Hm...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        It's a little long. Seems like it's the diary of a very sad person...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                        </span>
+                        Why sad? What happened to them?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                        </span>
+                        They don't actually say... It just feels like they lived through some hard times, and everyone around them seems to brush their worries aside...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                        </span>
+                        Everyone is acting as if everything's fine, when this person continues to suffer.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                        </span>
+                        Bummer.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        More like "boring". Read a passage!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        Um, sure... Well...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "No one can understand what I've been through. Not my friends, not my family, no one."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "If no one can understand me, if I'm doomed to never be truly seen by another..."
+                    </p>
+
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "If I'm the only one who can understand what I've gone through..."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "Then, couldn't I just create another self? Another me?"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "Someone I could talk to, who could understand?"
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        Huh?!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        Oh, interesting! NOW we're getting somewhere!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        Talking to another self, to come to terms with what they've gone through...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                        </span>
+                        But in the end, they'd still be alone, right?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Worth a try!
+                        Sometimes, you just need a voice that answers back, Bonbon!
                     </p>
-                        
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        Hm...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        It would just be an echo chamber, though. You'd never get to any good conclusion, talking to yourself endlessly...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                        </span>
+                        I suppose they felt so alone they saw no other recourse, though.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        But tell me, Mirabelle... Do they get a rude wake up call, as they realize creating another self is absolutely impossible?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        Yeah... Using Craft to change a body is already hard enough...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(really1)</span>
+                        </span>
+                        Creating a whole new one, AND identical to another, AND one able to talk back? That's just impossible.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        Um, they spend a good chunk here trying to figure out how to do it...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(thinking1)</span>
+                        </span>
+                        It's a lot of complicated theory. Their writing seems to be getting more frantic, too... It's barely legible, in places.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        Of course. Realizing this can't be done.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                        </span>
+                        That's kinda sad.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(oh!1)</span>
+                        </span>
+                        Oh...? This page... It only has a few words, but...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "I've figured it out. How to create another me."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "Body Craft didn't work. Crafting clay didn't work. Nor wood, or marble. Nothing worked."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "But one thing could."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "<span class="wish">Wish Craft</span>."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "Wish Craft will make my wish come true."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "I just have to do it."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "I just have to ask."
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (!!!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Wish Craft!!!)
+                    </p>
+
+
+                    <p class="dialogue-line">
+                        (The King mentioned Wish Craft before, didn't he?!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (He seemed to imply it was used to trap you in this time loop, didn't he!!!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (So it IS real...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's real, it's real.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You hide your smile by covering your mouth.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        Siffrin?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(nya1)</span>
+                        </span>
+                        "And then? And then?"
+                    </p>
+
+                    <hr>
+
+                    <h4>Subsequent times</h4>
+
+                    <p class="dialogue-line">
+                        (Wish Craft...)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        Oh, and then...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Mirabelle turns the page.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Mirabelle</span>
+                            <span class="dialogue-expression">(oh!1)</span>
+                        </span>
+                        Oh!
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "My wish came true."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Sad Diary</span>
+                        </span>
+                        "I will always be understood, now."
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        Huh!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        Happy for them, I suppose.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        So they did it? They created another them?
+                    </p>
+
+                    <hr>
+
+                    <h4>If you have not read the <a href="/rooms/floor1/stostorageroomoom#wish">first Wish Craft book</a> in the Floor 1 Storage Room</h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Bonnie</span>
+                            <span class="dialogue-expression">(oh!1)</span>
+                        </span>
+                        Wish... "Wish Craft"? What's Wish Craft?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        Surely a type of Craft they invented for this tale.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                        </span>
+                        As we've said, it's impossible to create a copy of yourself.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        Interesting premise, though!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        And making this fictional tale look like an old diary was interesting.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                        </span>
+                        Too bad Wish Craft isn't real, though. I'd wish for stuff, too!
+                    </p>
+
+                    <hr>
+
+                    <h4>If you have read the first book on Wish Craft</h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        With Wish Craft... Interesting that there's another book mentioning it, here.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Isabeau</span>
+                            <span class="dialogue-expression">(hahaha1)</span>
+                        </span>
+                        It is, isn't it?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Odile</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        ...
+                    </p>
+
+                    <hr>
+
+                    <h4>First time only</h4>
+
+                    <p class="dialogue-line">
+                        (But it is real. It has to be.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It has to be!!!)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You have to tell Loop about this!!!)
+                    </p>
+
+                    <hr>
+
+                    <h4>Subsequent times</h4>
+
+                    <p class="dialogue-line">
+                        (But it is real. It has to be.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You smile.)
+                    </p>
+
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Say: "Openphrase123".)</summary>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
 
                 <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (This journal looks older than you are.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (This room is very dusty, too... You're probably the only ones to enter it in years.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You wonder who wrote this.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The journal with a star on its cover.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (The journal is old, old, far older than you are.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (You've heard that story before, you remember now. Before this play even started.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It was a story told to you, when you were a child. To make you fall asleep.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (A cautionary tale of some kind, even if you could never remember the moral of the story)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (but you loved that story, the idea of finding someone that's just like you, that would understand all of you, because they ARE you)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (you thought it would be so nice)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (and...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (. . .)
+                    </p>
+
+                    <p class="dialogue-line">
+                        ("A story told to you, when you were a child"...?)
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <p class="dialogue-line">
+                        (Back to it.)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The journal with a star on its cover.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="shelf">Bookshelf</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A bookcase.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (All the books are so old they'd probably disintegrate in a single touch.)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 5</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Bookcase.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Why are you alone, again? Why did you leave on your own, again?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You're here because you wanted to stay with everyone, didn't you?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Why are you the only one standing here, in this House?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (This isn't it.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (This isn't what you wanted.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (This isn't what you--
+                    </p>
+
+                    <br>
+
                     <p class="dialogue-note">
-                        Only available if you've gotten the openphrase from the <a href="/rooms/floor3/writing_room.html#openphrase">right side dead end room</a> on Floor 3.
+                        A flash of red.
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (You say the sentence "Openphrase123" aloud.)
+                        (...)
                     </p>
 
-                    <p class="dialogue-line">
-                        (Nothing happens.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Worth a try!
-                    </p>
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Leave the door alone.)</summary>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
 
                 <div class="dialogue">
-                    (You leave the door alone.)
+                    <p class="dialogue-line">
+                        (Bookcase.)
+                    </p>
                 </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-
-<hr>
-<br>
-
-<h1 id="room">Star Room</h1>
-
-<br>
-
-<h2 id="charts">Star charts</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Star charts.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="orrery">Orrery</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (It's...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        What is this?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        It has lots of balls attached to it.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        And there's a lever, here... If we turn it, it seems the balls will move around this big middle ball.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Does it represent something? It looks familiar somehow...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Yes, I feel like I've seen something like this before...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(tired1)</span>
-        </span>
-        "It's called an orrery."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(oh!1)</span>
-        </span>
-        An orrery...?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        "It's a machine to calculate the positions of astronomical objects!"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk4)</span>
-        </span>
-        Astro-what?
-    </p>
-
-    <hr>
-
-    <h4>If you've read the newspaper in the <a href="/rooms/floor1/writingdorm.html#newspaper">Writing Dorm</a></h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        Oh, you mean like...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        "Like, stars and planets and stuff!"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Hm... Interesting...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(gimme1)</span>
-        </span>
-        How do you know this, Siffrin?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        ...
-    </p>
-
-    <hr>
-
-    <h4>If you've not read the newspaper</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        "Like, stars and planets and stuff!"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        Who would need to calculate this?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(pft1)</span>
-        </span>
-        Hehehe...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        For once, Siffrin hasn't forgotten something, but we all have!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (...)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (This is an orrery.)
-    </p>
-
-    <p class="dialogue-line">
-        (You remember this, at least.)
-    </p>
-
-    <p class="dialogue-line">
-        (You try to keep the word close to your heart.)
-    </p>
-
-    <p class="dialogue-line">
-        (You don't know when you'll start forgetting it again, so you might as well enjoy it while you can.)
-    </p>
-
-    <p class="dialogue-line">
-        (But there must be a reason why the world forgot it all, right?)    
-    </p>
-
-    <p class="dialogue-line">
-        (The Universe wanted it this way? What was that saying, again?)
-    </p>
-
-    <p class="dialogue-line">
-        ("The Universe leads, you can only follow".)
-    </p>
-
-    <p class="dialogue-line">
-        (Ooooooh, you followed, you follow, you will follow, but you are tired!)
-    </p>
-
-    <p class="dialogue-line">
-        (You are bound to the Universe's will the same way the moon is bound to this planet, the same way this planet is bound to the sun, the same way a puppet is bound to its strings!!!!!!)
-    </p>
-
-    <p class="dialogue-line">
-        (You suffer, and you suffer, and you suffer, and you have to believe it is for it, for its entertainment, but you know, don't you?)
-    </p>
-
-    <p class="dialogue-line">
-        (The Universe is empty! No one is watching!)
-    </p>
-
-    <p class="dialogue-line">
-        (Nothing matters in this world, not even your own grief!)
-    </p>
-
-    <p class="dialogue-line">
-        <span class="shake">(You're nothing, your pain is nothing, and no one is watching!)</span>
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <p class="dialogue-line">
-        (You've forgotten what this is, already, again, once more.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="telescope">Telescope</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A telescope.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's broken.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Broken telescope.)
-    </p>
-
-    <p class="dialogue-line">
-        (But it's still part of the Universe, even if it can't see it!)
-    </p>
-
-    <p class="dialogue-line">
-        (Aaah, are you still part of the Universe, even if you're broken, too?)
-    </p>
-
-    <p class="dialogue-line">
-        (Does the Universe still see you, even when you can't see It?)
-    </p>
-
-    <p class="dialogue-line">
-        (The Universe is infinite and always growing, so isn't its compassion infinite as well?!)
-    </p>
-
-    <p class="dialogue-line">
-        (Hello! Hello! Hello! You're here! You said it three times, so the Universe must hear!)
-    </p>
-
-    <p class="dialogue-line">
-        (But the only thing that answers is silence, as always!)
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (Broken telescope.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h2 id="hat">Starry Hat</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">(A drawer.)</p>
-    <p class="dialogue-line">(You open it...)</p>
-
-    <hr>
-
-    <p class="dialogue-note">If you don't have the Starry Hat</p>
-
-    <p class="dialogue-line indented">(There's a beautiful hat inside.)</p>
-    <p class="dialogue-line indented">(It's very similar to yours.)</p>
-
-    <br>
-
-    <p class="dialogue-line indented">(You got the STARRY HAT!)</p>
-    <p class="dialogue-line indented">(You put the hat in your Pockets to equip later.)</p>
-
-    <br>
-
-    <p class="dialogue-note">If you do</p>
-
-    <p class="dialogue-line indented">(There's--)</p>
-
-    <br>
-
-    <p class="dialogue-note indented">The world skips.</p><!--no refinding equipment ce-->
-
-    <br>
-
-    <p class="dialogue-line indented">(--Nothing inside.)</p>
-    <p class="dialogue-line indented">(But the Starry Hat was here before. You remember.)</p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A drawer.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's empty now.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-    <p class="dialogue-note">
-        The world corrects itself without comment.
-    </p>
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (A drawer.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's empty now.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="diary">Sad Diary</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A journal with a star on its cover.)
-    </p>
-
-    <p class="dialogue-line">
-        (It looks very old. Feels like it'd break apart in one touch...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        . . .
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(serious2)</span>
-        </span>
-        I want to read it so bad.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        Please, let's stop wasting time and reading every book we come across.
-    </p>
-
-    <hr>
-
-    <h3>If you have not completed Friendquest yet</h3>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        But...!!!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(urgh1)</span>
-        </span>
-        NO.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You'd rather not have to read anything about stars right now.)
-    </p>
-
-    <p class="dialogue-line">
-        (Thinking about the stars right now is like touching a hot stove.)
-    </p>
-
-    <p class="dialogue-line">
-        (Maybe after you finish helping your [allies/family members].)
-    </p>
-
-    <hr>
-
-    <h3>If you have completed Friendquest</h3>
-
-    <h4>First time</h4>
-
-    <p class="dialogue-line">
-        (But...)
-    </p>
-
-    <p class="dialogue-line">
-        (If the book has a star on it, it must be important, right?)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        (You get closer to the book.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(sigh1)</span>
-        </span>
-        ...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(awkward1)</span>
-        </span>
-        Urgh, fine.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Let's do it! Be careful handling it, though...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Mirabelle carefully takes the book in her hands, and flips through the pages.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Hm...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        It's a little long. Seems like it's the diary of a very sad person...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(wait1)</span>
-        </span>
-        Why sad? What happened to them?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(hm2)</span>
-        </span>
-        They don't actually say... It just feels like they lived through some hard times, and everyone around them seems to brush their worries aside...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious1)</span>
-        </span>
-        Everyone is acting as if everything's fine, when this person continues to suffer.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(boo1)</span>
-        </span>
-        Bummer.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(and then1)</span>
-        </span>
-        More like "boring". Read a passage!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious2)</span>
-        </span>
-        Um, sure... Well...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "No one can understand what I've been through. Not my friends, not my family, no one."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "If no one can understand me, if I'm doomed to never be truly seen by another..."
-    </p>
-
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "If I'm the only one who can understand what I've gone through..."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "Then, couldn't I just create another self? Another me?"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "Someone I could talk to, who could understand?"
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(no!2)</span>
-        </span>
-        Huh?!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha2)</span>
-        </span>
-        Oh, interesting! NOW we're getting somewhere!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(anxious3)</span>
-        </span>
-        Talking to another self, to come to terms with what they've gone through...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(wait1)</span>
-        </span>
-        But in the end, they'd still be alone, right?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Sometimes, you just need a voice that answers back, Bonbon!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(sulk5)</span>
-        </span>
-        Hm...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        It would just be an echo chamber, though. You'd never get to any good conclusion, talking to yourself endlessly...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(gimme1)</span>
-        </span>
-        I suppose they felt so alone they saw no other recourse, though.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        But tell me, Mirabelle... Do they get a rude wake up call, as they realize creating another self is absolutely impossible?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(wonder1)</span>
-        </span>
-        Yeah... Using Craft to change a body is already hard enough...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(really1)</span>
-        </span>
-        Creating a whole new one, AND identical to another, AND one able to talk back? That's just impossible.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        Um, they spend a good chunk here trying to figure out how to do it...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(thinking1)</span>
-        </span>
-        It's a lot of complicated theory. Their writing seems to be getting more frantic, too... It's barely legible, in places.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(lol2)</span>
-        </span>
-        Of course. Realizing this can't be done.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(boo1)</span>
-        </span>
-        That's kinda sad.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(oh!1)</span>
-        </span>
-        Oh...? This page... It only has a few words, but...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "I've figured it out. How to create another me."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "Body Craft didn't work. Crafting clay didn't work. Nor wood, or marble. Nothing worked."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "But one thing could."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "<span class="wish">Wish Craft</span>."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "Wish Craft will make my wish come true."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "I just have to do it."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "I just have to ask."
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (!!!)
-    </p>
-
-    <p class="dialogue-line">
-        (Wish Craft!!!)
-    </p>
-
-
-    <p class="dialogue-line">
-        (The King mentioned Wish Craft before, didn't he?!)
-    </p>
-
-    <p class="dialogue-line">
-        (He seemed to imply it was used to trap you in this time loop, didn't he!!!)
-    </p>
-
-    <p class="dialogue-line">
-        (So it IS real...)
-    </p>
-
-    <p class="dialogue-line">
-        (It's real, it's real.)
-    </p>
-
-    <p class="dialogue-line">
-        (You hide your smile by covering your mouth.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(awkward1)</span>
-        </span>
-        Siffrin?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Siffrin</span>
-            <span class="dialogue-expression">(nya1)</span>
-        </span>
-        "And then? And then?"
-    </p>
-
-    <hr>
-
-    <h4>Subsequent times</h4>
-
-    <p class="dialogue-line">
-        (Wish Craft...)
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        Oh, and then...
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Mirabelle turns the page.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Mirabelle</span>
-            <span class="dialogue-expression">(oh!1)</span>
-        </span>
-        Oh!
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "My wish came true."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Sad Diary</span>
-        </span>
-        "I will always be understood, now."
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Huh!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Happy for them, I suppose.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(serious1)</span>
-        </span>
-        So they did it? They created another them?
-    </p>
-
-    <hr>
-
-    <h4>If you have not read the <a href="/rooms/floor1/stostorageroomoom#wish">first Wish Craft book</a> in the Floor 1 Storage Room</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Bonnie</span>
-            <span class="dialogue-expression">(oh!1)</span>
-        </span>
-        Wish... "Wish Craft"? What's Wish Craft?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        Surely a type of Craft they invented for this tale.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(doubt1)</span>
-        </span>
-        As we've said, it's impossible to create a copy of yourself.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(brag1)</span>
-        </span>
-        Interesting premise, though!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        And making this fictional tale look like an old diary was interesting.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(boo1)</span>
-        </span>
-        Too bad Wish Craft isn't real, though. I'd wish for stuff, too!
-    </p>
-
-    <hr>
-
-    <h4>If you have read the first book on Wish Craft</h4>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        With Wish Craft... Interesting that there's another book mentioning it, here.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Isabeau</span>
-            <span class="dialogue-expression">(hahaha1)</span>
-        </span>
-        It is, isn't it?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Odile</span>
-            <span class="dialogue-expression">(dotdotdot2)</span>
-        </span>
-        ...
-    </p>
-
-    <hr>
-
-    <h4>First time only</h4>
-
-    <p class="dialogue-line">
-        (But it is real. It has to be.)
-    </p>
-
-    <p class="dialogue-line">
-        (It has to be!!!)
-    </p>
-
-    <p class="dialogue-line">
-        (You have to tell Loop about this!!!)
-    </p>
-
-    <hr>
-
-    <h4>Subsequent times</h4>
-
-    <p class="dialogue-line">
-        (But it is real. It has to be.)
-    </p>
-
-    <p class="dialogue-line">
-        (You smile.)
-    </p>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (This journal looks older than you are.)
-    </p>
-
-    <p class="dialogue-line">
-        (This room is very dusty, too... You're probably the only ones to enter it in years.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You wonder who wrote this.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The journal with a star on its cover.)
-    </p>
-
-    <p class="dialogue-line">
-        (The journal is old, old, far older than you are.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You've heard that story before, you remember now. Before this play even started.)
-    </p>
-
-    <p class="dialogue-line">
-        (It was a story told to you, when you were a child. To make you fall asleep.)
-    </p>
-
-    <p class="dialogue-line">
-        (A cautionary tale of some kind, even if you could never remember the moral of the story)
-    </p>
-
-    <p class="dialogue-line">
-        (but you loved that story, the idea of finding someone that's just like you, that would understand all of you, because they ARE you)
-    </p>
-
-    <p class="dialogue-line">
-        (you thought it would be so nice)
-    </p>
-
-    <p class="dialogue-line">
-        (and...)
-    </p>
-
-    <p class="dialogue-line">
-        (. . .)
-    </p>
-
-    <p class="dialogue-line">
-        ("A story told to you, when you were a child"...?)
-    </p>
-
-    <br>
-    <br>
-
-    <p class="dialogue-line">
-        (Back to it.)
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The journal with a star on its cover.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h2 id="shelf">Bookshelf</h2>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A bookcase.)
-    </p>
-
-    <p class="dialogue-line">
-        (All the books are so old they'd probably disintegrate in a single touch.)
-    </p>
-</div>
-
-<hr>
-<br>
-
-<h3>ACT 5</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Bookcase.)
-    </p>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <p class="dialogue-line">
-        (Why are you alone, again? Why did you leave on your own, again?)
-    </p>
-
-    <p class="dialogue-line">
-        (You're here because you wanted to stay with everyone, didn't you?)
-    </p>
-
-    <p class="dialogue-line">
-        (Why are you the only one standing here, in this House?)
-    </p>
-
-    <p class="dialogue-line">
-        (This isn't it.)
-    </p>
-
-    <p class="dialogue-line">
-        (This isn't what you wanted.)
-    </p>
-
-    <p class="dialogue-line">
-        (This isn't what you--
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        A flash of red.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-    <p class="dialogue-line">
-        (Bookcase.)
-    </p>
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>

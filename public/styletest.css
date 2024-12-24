@@ -4,17 +4,17 @@
 
 @font-face {
     font-family: 'VCR_OSD_MONO';
-    src: url(/VCR_OSD_MONO.ttf);
+    src: url("/assets/fonts/VCR_OSD_MONO.ttf");
 }
 
 @font-face {
     font-family: 'CascadiaCode';
-    src: url(/CascadiaCode.ttf);
+    src: url("/assets/fonts/CascadiaCode.ttf");
 }
 
 @font-face {
     font-family: 'OpenDyslexic3';
-    src: url(/OpenDyslexic3-Regular.ttf);
+    src: url("/assets/fonts/OpenDyslexic3-Regular.ttf");
 }
 
 :root {
@@ -395,7 +395,7 @@ details .dialogue {
 /*                                   layout                                   */
 /* ************************************************************************** */
 
-#helper {
+help-er {
     display: block;
     position: fixed;
     left: 20px;
@@ -407,7 +407,7 @@ details .dialogue {
     flex-direction: column;
 }
 
-#helper button {
+help-er button {
     margin: 2px;
     padding: 7px 0;
     width: 100%;
@@ -421,7 +421,7 @@ details .dialogue {
     text-decoration: none;
 }
 
-#helper button:hover {
+help-er button:hover {
     background-color: #6d6d6d;
 }
 
@@ -440,93 +440,62 @@ button[onclick="topFunction()"] {
 #container {
     max-width: 1200px;
     margin: 0 auto;
-    background: black;
-    display: inline;
-}
-
-#header {
-    /* 
-     * this is only for a background image! if you want to put images IN the
-     * header, you can add them directly to the <div id="header"></div> element
-     */
-    width: 100%;
-    background-color: #434343;
-    font-family: 'VCR_OSD_MONO' !important;
-    /*
-     * Personal note:
-     * putting image in header directly means the header height adjusts to
-     * image height. BETTER FOR MOBILE.
-     */
-}
-
-#headerArea {
-    top: 0;
-    z-index: 1;
-}
-
-/* navigation section!! */
-.navbar {
-    min-height: 40px;
-    width: 100%;
-    background-color: #434343;
-    /* navbar color */
-}
-
-.navbar ul {
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    justify-content: space-evenly;
-    flex: wrap;
+    flex-direction: column;
 }
 
-.navbar li {
-    padding: 10px 0 0 10px;
+#center {
+    display: flex;
+    flex-direction: row;
 }
 
-/* navigation links*/
-.navbar li a {
+header > img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 60px;
+    width: 100%;
+    background-color: #434343;
+}
+
+nav img {
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+nav span {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
     color: white;
-    /* navbar text color */
     font-weight: 800;
+    text-decoration: none;
 }
 
-/* navigation link when a link is hovered over */
-.navbar li a:hover {
+nav a:hover {
     color: white;
     text-decoration: underline;
 }
 
-#desknav img {
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-#flex {
-    display: flex;
-    float: left;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
-aside {
-    /* both sidebars */
+side-bar {
     background-color: #6d6d6d;
     padding: 20px;
     font-size: smaller;
-    width: 100%;
-}
-
-#deskSidebar, #mobSidebar {
-    order: 2;
-    height: 100%;
     width: min-content;
+    flex: 1 10 auto;
 }
 
-#rightSidebar {
-    /* unused */
-    order: 3;
+main {
+    flex: 10 1 auto;
 }
 
 footer {
@@ -537,66 +506,36 @@ footer {
     text-align: center;
 }
 
-#topBar {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: smaller;
-    background-color: #13092D;
-}
-
 
 /* ************************************************************************** */
 /*                                 media query                                */
 /* ************************************************************************** */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .dialogue {
-        font-size: 15px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .dialogue {
         font-size: 15px;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .dialogue {
         font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 991px) {
-    #desknav, #deskSidebar {
+@media only screen and (min-width: 992px) {
+    #mobnav, #mobSidebar {
         display: none;
     }
-
-    #flex {
-        display: block;
-        float: none;
+    
+    .dialogue {
+        font-size: 16.5px;
     }
+}
 
-    #headerArea {
-        position: static;
-    }
+@media only screen and (min-width: 1200px) {}
 
-    #mobSidebar {
-        order: 2;
-        width: 100%;
-    }
-
-    #helper {
-        right: 20px;
-        left: auto;
-        top: 20px;
-        bottom: auto;
-    }
-
+@media only screen and (max-width: 991px) {
     #settings {
         order: 3;
     }
@@ -608,20 +547,45 @@ footer {
     button[onclick="topFunction()"] {
         order: 1;
     }
+
+    help-er {
+        left: auto;
+        right: 20px;
+        top: 20px;
+        bottom: auto;
+    }
+
+    #center {
+        flex-direction: column-reverse;
+    }
+
+    side-bar {
+        width: 100%;
+    }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    #mobnav, #mobSidebar {
+@media only screen and (max-width: 768px) {
+    nav span {
+        width: 25%;
+    }
+
+    nav img {
         display: none;
     }
-    
+}
+
+@media only screen and (max-width: 600px) {
     .dialogue {
-        font-size: 16.5px;
+        font-size: 15px;
+    }
+
+    nav span {
+        width: 30%;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-} 
+@media only screen and (max-width: 450px) {
+    nav span {
+        width: 50%;
+    }
+}
