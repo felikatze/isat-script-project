@@ -96,7 +96,7 @@ button {
     font-weight: bold;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: 'VCR_OSD_MONO';
 
@@ -104,14 +104,27 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 30px;
+    margin: 25px 0;
 }
 
 h3 {
     font-size: 26px;
+    margin: 26px 0;
 }
 
 h4 {
     font-size: 22px;
+    margin: 22px 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+h6 {
+    font-size: 14px;
+    margin: 14px 0;
 }
 
 
