@@ -1,117 +1,1003 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Writing Room (START AGAIN)</title>
-
-  <link href="/styletest.css" rel="stylesheet" type="text/css" media="all">
-
-  <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-
-  <script src="/bars.js" defer></script> 
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Room (START AGAIN)</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js" defer></script>
 </head>
 
 <body>
 
-<div id="container">
+    <help-er></help-er>
 
-<head-er></head-er>
+    <div id="container">
+        <head-er></head-er>
 
-<main>
+        <div id="center">
+            <side-bar></side-bar>
 
-<h1>Writing Room (START AGAIN)</h1>
-<p><b>Source:</b> Map039 (Writing Room)</p>
-<p>All text for the Writing Room in START AGAIN. That one room with the poems and a Star Crest in it.</p>
+            <main>
+                <h1>Writing Room (START AGAIN)</h1>
+                <p><b>Source:</b> Map039 (Writing Room)</p>
+                <p>All text for the Writing Room in START AGAIN. That one room with the poems and a Star Crest in it.</p>
 
-<!-- "embarassed" in the expression names for Isa continues to be Adrienne's typo, not mine. -->
+                <!-- "embarassed" in the expression names for Isa continues to be Adrienne's typo, not mine. -->
 
-<br>
+                <br>
 
-<h1>Index</h1>
+                <h1>Index</h1>
 
-<ul>
-    <li><a href="#enter">Entering the room</a></li>
-    <li><a href="#craft">Craftonomy book</a></li>
-    <li><a href="#crest">Drawer</a> (Star Crest)</li>
-    <li><a href="#flyers">Flyers</a></li>
-    <li><a href="#horror">Horror books</a></li>
-    <li><a href="#poem">Unfinished poem</a></li>
-    <li><a href="#paper">Stack of papers</a></li>
-</ul>
+                <ul>
+                    <li><a href="#enter">Entering the room</a></li>
+                    <li><a href="#craft">Craftonomy book</a></li>
+                    <li><a href="#crest">Drawer</a> (Star Crest)</li>
+                    <li><a href="#flyers">Flyers</a></li>
+                    <li><a href="#horror">Horror books</a></li>
+                    <li><a href="#poem">Unfinished poem</a></li>
+                    <li><a href="#paper">Stack of papers</a></li>
+                </ul>
 
-<br>
+                <br>
 
-<h1 id="enter">Entering the room</h1>
-<p>Only plays the first time entering this room.</p>
+                <h1 id="enter">Entering the room</h1>
+                <p>Only plays the first time entering this room.</p>
 
-<br>
+                <br>
 
-<div class="dialogue">
+                <div class="dialogue">
 
-    <p class="dialogue-line">
-        (...)
-    </p>
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
 
-    <p class="dialogue-line">
-        (You don't remember where the Star Crest is either.)
-    </p>
+                    <p class="dialogue-line">
+                        (You don't remember where the Star Crest is either.)
+                    </p>
 
-    <p class="dialogue-line">
-        (You don't always make it this far...)
-    </p>
+                    <p class="dialogue-line">
+                        (You don't always make it this far...)
+                    </p>
 
-    <p class="dialogue-line">
-        (You should look everywhere.)
-    </p>
+                    <p class="dialogue-line">
+                        (You should look everywhere.)
+                    </p>
 
-</div>
+                </div>
 
-<hr>
-<br>
+                <hr>
+                <br>
 
-<h1 id="craft">Craftonomy book</h1>
-<p>If you did not get an ending yet, the conversation proceeds without any choice, as though you'd selected "Yes".</p>
+                <h1 id="craft">Craftonomy book</h1>
+                <p>If you did not get an ending yet, the conversation proceeds without any choice, as though you'd selected "Yes".</p>
 
-<br>
+                <br>
 
-<div class="dialogue">
+                <div class="dialogue">
 
-    <p class="dialogue-note">
-        This line is also the repeated interaction text.
-    </p>
-    <br>
+                    <p class="dialogue-note">
+                        This line is also the repeated interaction text.
+                    </p>
+                    <br>
 
-    <p class="dialogue-line">
-        (A craftonomy book.)
-    </p>
+                    <p class="dialogue-line">
+                        (A craftonomy book.)
+                    </p>
 
-    <hr>
+                    <hr>
 
-    <p class="dialogue-line">
-        (A conversation is about to start.)
-    </p>
+                    <p class="dialogue-line">
+                        (A conversation is about to start.)
+                    </p>
 
-    <br>
+                    <br>
 
-    <p class="dialogue-line">
-        (Listen?)
-    </p>
+                    <p class="dialogue-line">
+                        (Listen?)
+                    </p>
 
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Yes</summary>
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>Yes</summary>
 
-                <div class="dialogue" id="craftyes">
+                                <div class="dialogue" id="craftyes">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Oooh, is this a craftology book?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(wondering2)</span>
+                                        </span>
+                                        Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(oof1)</span>
+                                        </span>
+                                        It's a craftONOMY book, not a craftOLOGY book.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(oof1)</span>
+                                        </span>
+                                        This one is about the study of Craft, not your fortune.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(phew1)</span>
+                                        </span>
+                                        heheheh
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(sad4)</span>
+                                        </span>
+                                        Aww... I wanted to know my horoscope today...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(oof1)</span>
+                                        </span>
+                                        This place has been frozen for a few months now... I don't think it'd be up to date...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Hehehe, you really like that sort of stuff, don't you?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Yes!!! It's really fun!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(reading1)</span>
+                                        </span>
+                                        The Protector Craft... People who use it are patient, honest, loyal...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        ...and very gullible.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy2)</span>
+                                        </span>
+                                        That sure is me!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(phew1)</span>
+                                        </span>
+                                        heheheheheh
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        Haha, you're laughing, but... Aren't you... also using Protector Craft?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(ew1)</span>
+                                        </span>
+                                        NO????
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Yes, I do seem to remember this being the case, kiddo.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(angry1)</span>
+                                        </span>
+                                        NO!!!!!!! IT'S NOT THE SAME!!!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Heheheheheh!!!
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>No</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (You&nbsp;&nbsp;&nbsp; are Piercing Craft.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Determined. Brave. Honest.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Callous. Aimless. Manipulative.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <h1 id="crest">Drawer (Star Crest)</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A drawer.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (It's filled to the brim with random papers and writing utensils.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Look closer?)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(Look closer)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        First time
+                                    </p>
+
+                                    <br>
+
+                                    <div class="indented">
+
+                                        <p class="dialogue-line">
+                                            (You rummage around, hoping to find the last crest.)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Smack.
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (The point of a pen pierces through your glove&nbsp;&nbsp; and pricks your finger.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (Without even removing your hands from the drawer, you know that you're bleeding.)
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            (You take a deep breath in, and out.)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Text ends here.
+                                        </p>
+                                    </div>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">
+                                        Subsequent times
+                                    </p>
+
+                                    <br>
+
+                                    <div class="indented">
+
+                                        <p class="dialogue-line">
+                                            (You rummage around again.)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Smack.
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Smack.
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Smack.
+                                        </p>
+
+                                        <br>
+                                        <br>
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (You remove your hand from the drawer.)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">Kid</span>
+                                                <span class="dialogue-expression">(surprised1)</span>
+                                            </span>
+                                            ...?
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (You look <a href="#under">under</a> the drawer...)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            You get a Weird Point for this.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Look under the drawer)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        Only if you did not check the drawer itself beforehand
+                                    </p>
+
+                                    <p class="dialogue-line indented">
+                                        (You look under the drawer...)
+                                    </p>
+
+                                    <p class="dialogue-line indented">
+                                        (Oh.)
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-line">
+                                        (As always, the Star Crest is stuck on the underside of the drawer.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (Get the Star Crest?)
+                                    </p>
+
+                                    <ul class="dialogue-option">
+                                        <li>
+                                            <details>
+                                                <summary>Yes</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        (You got the STAR CREST.)
+                                                    </p>
+
+                                                    <hr>
+
+                                                    <p class="dialogue-note">
+                                                        Regular
+                                                    </p>
+
+                                                    <br>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Kid</span>
+                                                            <span class="dialogue-expression">(ew2)</span>
+                                                        </span>
+                                                        What a WEIRD SPOT for a crest...
+                                                    </p>
+
+                                                    <p class="dialogue-line">
+                                                        <span class="dialogue-head">
+                                                            <span class="dialogue-name">Researcher</span>
+                                                            <span class="dialogue-expression">(wondering1)</span>
+                                                        </span>
+                                                        Have they almost all been in drawers... Someone needs to change things up.
+                                                    </p>
+
+                                                    <hr>
+
+                                                    <p class="dialogue-note">
+                                                        If you've found all keys on the first try so far, and looking under the drawer is your first object interaction in this room
+                                                    </p>
+
+                                                    <br>
+
+                                                    <div class="indented">
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                <span class="dialogue-expression">(THEFUCK1)</span>
+                                                            </span>
+                                                            HUH?!?
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Kid</span>
+                                                                <span class="dialogue-expression">(angry1)</span>
+                                                            </span>
+                                                            OKAY WHAT THE CRAB
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Fighter</span>
+                                                                <span class="dialogue-expression">(thinking1)</span>
+                                                            </span>
+                                                            Hm... Sif, my dear friend...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Fighter</span>
+                                                                <span class="dialogue-expression">(ohfuck1)</span>
+                                                            </span>
+                                                            Did you find just the thing we need, on your FIRST TRY, AGAIN??!??
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(reading1)</span>
+                                                            </span>
+                                                            Once is luck, twice is a coincidence, three times is a pattern...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(angry1)</span>
+                                                            </span>
+                                                            Tell me, Siffrin... What does five times make?
+                                                        </p>
+
+                                                        <br>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name sasasap">Siffrin</span>
+                                                                <span class="dialogue-expression">(fake2)</span>
+                                                            </span>
+                                                            (Oops.)
+                                                        </p>
+
+                                                        <ul class="dialogue-option">
+                                                            <li>
+                                                                <details>
+                                                                    <summary>"...The House is helping?"</summary>
+
+                                                                    <div class="dialogue">
+
+                                                                        <p class="dialogue-line">
+                                                                            <span class="dialogue-head">
+                                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                                <span class="dialogue-expression">(determined2)</span>
+                                                                            </span>
+                                                                            No, it's not!!!
+                                                                        </p>
+
+                                                                        <p class="dialogue-line">
+                                                                            <span class="dialogue-head">
+                                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                                <span class="dialogue-expression">(angry2)</span>
+                                                                            </span>
+                                                                            No, no, this isn't how the House of Change works!!!
+                                                                        </p>
+
+                                                                        <p class="dialogue-line">
+                                                                            <span class="dialogue-head">
+                                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                                <span class="dialogue-expression">(determined2)</span>
+                                                                            </span>
+                                                                            It's not and has never been about luck!!! You bring about Change by acting!!!
+                                                                        </p>
+
+                                                                        <p class="dialogue-line">
+                                                                            <span class="dialogue-head">
+                                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                                <span class="dialogue-expression">(awkward2)</span>
+                                                                            </span>
+                                                                            And right now, you are acting WEIRD!
+                                                                        </p>
+                                                                    </div>
+                                                                </details>
+                                                            </li>
+                                                            <li>
+                                                                <details>
+                                                                    <summary>(Stay silent and smile)</summary>
+
+                                                                    <div class="dialogue">
+
+                                                                        <p class="dialogue-line">
+                                                                            <span class="dialogue-head">
+                                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                                <span class="dialogue-expression">(worried2)</span>
+                                                                            </span>
+                                                                            ...
+                                                                        </p>
+
+                                                                        <br>
+
+                                                                        <p class="dialogue-line">
+                                                                            (This didn't work...)
+                                                                        </p>
+                                                                    </div>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+
+                                                        <br>
+
+                                                        <p class="dialogue-line">
+                                                            (You've messed up this time.)
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            (You smile&nbsp;&nbsp;&nbsp;&nbsp; and wait for the storm to pass.)
+                                                        </p>
+
+                                                        <br>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(angry2)</span>
+                                                            </span>
+                                                            ...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(angry2)</span>
+                                                            </span>
+                                                            ......
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                <span class="dialogue-expression">(distressed2)</span>
+                                                            </span>
+                                                            ... Siffrin...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(angry1)</span>
+                                                            </span>
+                                                            No. We don't have time for this.
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Researcher</span>
+                                                                <span class="dialogue-expression">(worried3)</span>
+                                                            </span>
+                                                            Let's keep going.
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Fighter</span>
+                                                                <span class="dialogue-expression">(sad4)</span>
+                                                            </span>
+                                                            ...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Kid</span>
+                                                                <span class="dialogue-expression">(angry2)</span>
+                                                            </span>
+                                                            ...
+                                                        </p>
+
+                                                        <p class="dialogue-line">
+                                                            <span class="dialogue-head">
+                                                                <span class="dialogue-name">Housemaiden</span>
+                                                                <span class="dialogue-expression">(worried1)</span>
+                                                            </span>
+                                                            ...
+                                                        </p>
+
+                                                        <br>
+
+                                                        <p class="dialogue-note">
+                                                            You get Five entire Weird Points for this!
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary>No</summary>
+
+                                                <div class="dialogue">
+
+                                                    <p class="dialogue-line">
+                                                        (You leave the drawer alone for now.)
+                                                    </p>
+
+                                                </div>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+                <p>Only after retrieving the Star Crest.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Just a drawer.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="flyers">Flyers</h1>
+
+                <h3>Before any ending</h3>
+                <p>Repeated interaction for all loops until obtaining an ending.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Some flyers advertising a festival.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (According to the date on the flyer, the festival is taking place... ...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You can't tell how close or far that date is.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Maybe it'll come back to you next time...)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>After any ending</h3>
+                <p>Also known as "after dying to the King once".</p>
+
+                <br>
+
+                <h4>First time</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Some flyers advertising a festival.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (According to the date on the flyer, the festival is taking place... ...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You're&nbsp;&nbsp;&nbsp;&nbsp; still not sure about today's date, so you can't tell.)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name sasasap">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        (...)
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"When's this taking place?"</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        What? When does the festival take place?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Hehe, I mean...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        ...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(worried1)</span>
+                                        </span>
+                                        ...It's... today...? If the King didn't take over the House, it was supposed to take place today...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(wondering1)</span>
+                                        </span>
+                                        We talked about it together earlier this morning...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        You guys hadn't been to Dormont's yet, so I was talking about how it's a shame I can't show it to everyone.
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(distressed1)</span>
+                                        </span>
+                                        You... don't remember...?
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You get two Weird Points for this.
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(Don't ask.)</summary>
+
+                                <div class="dialogue">
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You look away from the flyer.)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <br>
+
+                <h4>Subsequent times</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A flyer for a festival that was supposed to take place today.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Whatever "today" means for you at this point.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (How long have you been repeating the same few days, the same few hours, the same few minutes?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (What does the date matter for when you've forgotten what the passage of seasons actually is like?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (Why would today's date matter?)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(worried2)</span>
+                        </span>
+                        Siffrin...?
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(wondering1)</span>
+                        </span>
+                        Are you okay...? You've been looking at that flyer for a while...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(determined1)</span>
+                        </span>
+                        Is something wrong...?
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        You get two Weird Points for this.
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h4>Repeated interaction</h4>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (A flyer for a festival that was supposed to take place today.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="horror">Horror books</h1>
+                <p>If you did not get an ending yet, the conversation proceeds without any choice, as though you'd selected "(Listen again)".</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (You find an anthology of horror stories.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (On the cover, a handsome young man looks into the night fearfully but longingly.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You don't think the crest is in there...)
+                    </p>
+
+                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Fighter</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        Oooh, is this a craftology book?
+                        Oooh, looks like the kinda books you like, yeah?
                     </p>
 
                     <p class="dialogue-line">
@@ -119,195 +1005,375 @@
                             <span class="dialogue-name">Fighter</span>
                             <span class="dialogue-expression">(wondering2)</span>
                         </span>
-                        Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--
+                        Horror books... This one looks massive! What's this one ca--
                     </p>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(oof1)</span>
-                        </span>
-                        It's a craftONOMY book, not a craftOLOGY book.
-                    </p>
+                    <br>
 
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(oof1)</span>
-                        </span>
-                        This one is about the study of Craft, not your fortune.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(phew1)</span>
-                        </span>
-                        heheheh
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(sad4)</span>
-                        </span>
-                        Aww... I wanted to know my horoscope today...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(oof1)</span>
-                        </span>
-                        This place has been frozen for a few months now... I don't think it'd be up to date...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Hehehe, you really like that sort of stuff, don't you?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Yes!!! It's really fun!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(reading1)</span>
-                        </span>
-                        The Protector Craft... People who use it are patient, honest, loyal...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        ...and very gullible.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy2)</span>
-                        </span>
-    	                That sure is me!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(phew1)</span>
-                        </span>
-                        heheheheheh
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        Haha, you're laughing, but... Aren't you... also using Protector Craft?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(ew1)</span>
-                        </span>
-                        NO????
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Yes, I do seem to remember this being the case, kiddo.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(angry1)</span>
-                        </span>
-                        NO!!!!!!! IT'S NOT THE SAME!!!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Heheheheheh!!!
+                    <p class="dialogue-note">
+                        Mirabelle jumps with an exclamation bubble over her head.
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        <span class="shake">THAT'S THE "HANDSOME YOUNG MEN FALLING INTO BEAUTIFUL HEARTBREAKING MADNESS" HORROR ANTHOLOGY!!!</span>
+                    </p>
+
+                    <br>
+
+                    <hr>
+
+                    <p class="dialogue-note">
+                        Choice only appears after obtaining an ending. Otherwise, text skips to <a href="#talk">here</a>.
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line indented">
+                        (You breathe out silently.)
+                    </p>
+
+                    <p class="dialogue-line indented">
                         (...)
                     </p>
 
-                    <p class="dialogue-line">
-                        (Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)
-                    </p>
+                    <ul class="dialogue-option indented">
+                        <li>
+                            <details>
+                                <summary>(Listen again)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note" id="talk">
+                                        If you've not obtained an ending, text proceeds here.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward2)</span>
+                                        </span>
+                                        DID... DID SOMEONE IN THE HOUSE HAVE IT ALL THIS TIME?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(surprised1)</span>
+                                        </span>
+                                        Did someone keep it from you???
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(oof1)</span>
+                                        </span>
+                                        What is it, anyway?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(determined1)</span>
+                                        </span>
+                                        It’s a full anthology all about pure-hearted boys being subjected to awful monsters and horror situations!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(determined1)</span>
+                                        </span>
+                                        Seeing them screaming in fright... I cannot help but root for them, and at the same time be happy I am not in their situation!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(angry2)</span>
+                                        </span>
+                                        There is something lovingly touching about those tales, something wonderfully hopeful!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile2)</span>
+                                        </span>
+                                        I cannot help but read them and pray for their survival!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(uwah1)</span>
+                                        </span>
+                                        So... So do they usually survive? Or do the monsters catch them?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward2)</span>
+                                        </span>
+                                        Well...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(wondering1)</span>
+                                        </span>
+                                        ...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        ...Fifty-fifty?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(pout1)</span>
+                                        </span>
+                                        Hm...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward2)</span>
+                                        </span>
+                                        B-but also...! The catharsis that fills my whole being when they get caught... There is something very wonderful about that, too!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(smug1)</span>
+                                        </span>
+                                        The schadenfreude?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile2)</span>
+                                        </span>
+                                        <span class="shake">THE SCHADENFREUDE!!!!!!!!!</span>
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(determined1)</span>
+                                        </span>
+                                        It's just, its very good!!! Very moving!!!! Makes me feel like I went on a run!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        And also sometimes the heroes end up marrying the monsters, too...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(excited1)</span>
+                                        </span>
+                                        What???
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Hm, I don't get it!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(smug1)</span>
+                                        </span>
+                                        I kind of do, actually... Any books you'd recommend?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Absolutely!!! I'll lend you some of my favorites once we...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(worried3)</span>
+                                        </span>
+                                        Well... Once we finally escape a horror tale of our own, I suppose...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Haha... I'm looking forward to it.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>(...)</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        (Your fault for looking at the book.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (You don't want to think about handsome young men getting tortured by malevolent forces they can't see.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (Not that you're a man, but it's hitting a little too close to home for you right now.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        ((Are you still young?))
+                                    </p>
+
+                                    <!-- sic on them double parentheses btw ~Feli -->
+
+                                    <p class="dialogue-line">
+                                        (Anyway, not that you're getting tortured.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (And there is no unseen malevolent force.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (There is just you, and the Universe.)
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        (. .&nbsp;&nbsp;.)
+                                    </p>
+
+                                    <br>
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        After an extended pause, the screen shakes.
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (The book just got closed shut.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(embarassed4)</span>
+                                        </span>
+                                        That really is a massive book...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        Look, just closing the book made Sif jump from fright!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Kid</span>
+                                            <span class="dialogue-expression">(uwah1)</span>
+                                        </span>
+                                        That was a really high jump...
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (You breathe out, and smile.)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        Sorry, sorry!!! Um, we can keep going...
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You get a Weird Point for this.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
 
                 </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>No</summary>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
 
                 <div class="dialogue">
-                    
+
                     <p class="dialogue-line">
-                        (You&nbsp;&nbsp;&nbsp; are Piercing Craft.)
+                        (The horror anthology isn't on the shelves anymore.)
                     </p>
 
                     <p class="dialogue-line">
-                        (Determined. Brave. Honest.)
+                        (As always, she took it with her.)
                     </p>
 
                     <p class="dialogue-line">
-                        (Callous. Aimless. Manipulative.)
+                        (No crest in sight.)
                     </p>
 
                 </div>
-            </details>
-        </li>
-    </ul>
 
-</div>
+                <hr>
+                <br>
 
-<h1 id="crest">Drawer (Star Crest)</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A drawer.)
-    </p>
-
-    <p class="dialogue-line">
-        (It's filled to the brim with random papers and writing utensils.)
-    </p>
-
-    <p class="dialogue-line">
-        (Look closer?)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>(Look closer)</summary>
+                <h1 id="poem">Unfinished poem</h1>
 
                 <div class="dialogue">
 
@@ -320,756 +1386,170 @@
                     <div class="indented">
 
                         <p class="dialogue-line">
-                            (You rummage around, hoping to find the last crest.)
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            Smack.
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-line">
-                            (The point of a pen pierces through your glove&nbsp;&nbsp; and pricks your finger.)
+                            (Moving things around on the desk, you look for the key...)
                         </p>
 
                         <p class="dialogue-line">
-                            (Without even removing your hands from the drawer, you know that you're bleeding.)
-                        </p>
-
-                        <p class="dialogue-line">
-                            (You take a deep breath in, and out.)
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            Text ends here.
-                        </p>
-                    </div>
-
-                    <hr>
-
-                    <p class="dialogue-note">
-                        Subsequent times
-                    </p>
-                    
-                    <br>
-
-                    <div class="indented">
-
-                        <p class="dialogue-line">
-                            (You rummage around again.)
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            Smack.
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            Smack.
-                        </p>
-
-                        <br>
-
-                        <p class="dialogue-note">
-                            Smack.
-                        </p>
-
-                        <br>
-                        <br>
-                        <br>
-
-                        <p class="dialogue-line">
-                            (You remove your hand from the drawer.)
+                            (No key in sight.)
                         </p>
 
                         <br>
 
                         <p class="dialogue-line">
                             <span class="dialogue-head">
-                                <span class="dialogue-name">Kid</span>
-                                <span class="dialogue-expression">(surprised1)</span>
+                                <span class="dialogue-name">Fighter</span>
+                                <span class="dialogue-expression">(wondering1)</span>
                             </span>
-                            ...?
+                            Hey, what's this though? A poem?
                         </p>
 
                         <br>
 
                         <p class="dialogue-line">
-                            (You look <a href="#under">under</a> the drawer...)
+                            (There's an unfinished poem on the desk.)
+                        </p>
+
+                        <p class="dialogue-line">
+                            (Everyone looks at it over the big guy's shoulder...)
                         </p>
 
                         <br>
 
                         <p class="dialogue-note">
-                            You get a Weird Point for this.
+                            Text continues <a href="#search">here</a>.
                         </p>
-
                     </div>
 
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Look under the drawer)</summary>
-
-                <div class="dialogue">
+                    <br>
 
                     <p class="dialogue-note">
-                        Only if you did not check the drawer itself beforehand
-                    </p>
-
-                    <p class="dialogue-line indented">
-                        (You look under the drawer...)
-                    </p>
-
-                    <p class="dialogue-line indented">
-                        (Oh.)
-                    </p>
-
-                    <hr>
-
-                    <p class="dialogue-line">
-                        (As always, the Star Crest is stuck on the underside of the drawer.)
+                        Subsequent times
                     </p>
 
                     <br>
 
-                    <p class="dialogue-line">
-                        (Get the Star Crest?)
-                    </p>
+                    <div class="indented">
 
-                    <ul class="dialogue-option">
-                        <li>
-                            <details>
-                                <summary>Yes</summary>
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">Fighter</span>
+                                <span class="dialogue-expression">(wondering1)</span>
+                            </span>
+                            Hey, what's this though? A poem?
+                        </p>
 
-                                <div class="dialogue">
+                        <br>
 
-                                    <p class="dialogue-line">
-                                        (You got the STAR CREST.)
-                                    </p>
+                        <p class="dialogue-line">
+                            (You know the crest isn't there.)
+                        </p>
 
-                                    <hr>
+                        <br>
 
-                                    <p class="dialogue-note">
-                                        Regular
-                                    </p>
-                                    
-                                    <br>
+                        <p class="dialogue-line">
+                            (Look anyway?)
+                        </p>
 
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Kid</span>
-                                            <span class="dialogue-expression">(ew2)</span>
-                                        </span>
-                                        What a WEIRD SPOT for a crest...
-                                    </p>
+                        <ul class="dialogue-option">
+                            <li>
+                                <details>
+                                    <summary>Yes</summary>
 
-                                    <p class="dialogue-line">
-                                        <span class="dialogue-head">
-                                            <span class="dialogue-name">Researcher</span>
-                                            <span class="dialogue-expression">(wondering1)</span>
-                                        </span>
-                                        Have they almost all been in drawers... Someone needs to change things up.
-                                    </p>
-
-                                    <hr>
-
-                                    <p class="dialogue-note">
-                                        If you've found all keys on the first try so far, and looking under the drawer is your first object interaction in this room
-                                    </p>
-
-                                    <br>
-
-                                    <div class="indented">
+                                    <div class="dialogue">
 
                                         <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Housemaiden</span>
-                                                <span class="dialogue-expression">(THEFUCK1)</span>
-                                            </span>
-                                            HUH?!?
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Kid</span>
-                                                <span class="dialogue-expression">(angry1)</span>
-                                            </span>
-                                            OKAY WHAT THE CRAB 
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Fighter</span>
-                                                <span class="dialogue-expression">(thinking1)</span>
-                                            </span>
-                                            Hm... Sif, my dear friend...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Fighter</span>
-                                                <span class="dialogue-expression">(ohfuck1)</span>
-                                            </span>
-                                            Did you find just the thing we need, on your FIRST TRY, AGAIN??!??
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(reading1)</span>
-                                            </span>
-                                            Once is luck, twice is a coincidence, three times is a pattern...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(angry1)</span>
-                                            </span>
-                                            Tell me, Siffrin... What does five times make?
-                                        </p>
-
-                                        <br>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name sasasap">Siffrin</span>
-                                                <span class="dialogue-expression">(fake2)</span>
-                                            </span>
-                                            (Oops.)
-                                        </p>
-
-                                        <ul class="dialogue-option">
-                                            <li>
-                                                <details>
-                                                    <summary>"...The House is helping?"</summary>
-
-                                                    <div class="dialogue">
-
-                                                        <p class="dialogue-line">
-                                                            <span class="dialogue-head">
-                                                                <span class="dialogue-name">Housemaiden</span>
-                                                                <span class="dialogue-expression">(determined2)</span>
-                                                            </span>
-                                                            No, it's not!!!
-                                                        </p>
-
-                                                        <p class="dialogue-line">
-                                                            <span class="dialogue-head">
-                                                                <span class="dialogue-name">Housemaiden</span>
-                                                                <span class="dialogue-expression">(angry2)</span>
-                                                            </span>
-                                                            No, no, this isn't how the House of Change works!!!
-                                                        </p>
-
-                                                        <p class="dialogue-line">
-                                                            <span class="dialogue-head">
-                                                                <span class="dialogue-name">Housemaiden</span>
-                                                                <span class="dialogue-expression">(determined2)</span>
-                                                            </span>
-                                                            It's not and has never been about luck!!! You bring about Change by acting!!!
-                                                        </p>
-
-                                                        <p class="dialogue-line">
-                                                            <span class="dialogue-head">
-                                                                <span class="dialogue-name">Housemaiden</span>
-                                                                <span class="dialogue-expression">(awkward2)</span>
-                                                            </span>
-                                                            And right now, you are acting WEIRD!
-                                                        </p>
-                                                    </div>
-                                                </details>
-                                            </li>
-                                            <li>
-                                                <details>
-                                                    <summary>(Stay silent and smile)</summary>
-
-                                                    <div class="dialogue">
-
-                                                        <p class="dialogue-line">
-                                                            <span class="dialogue-head">
-                                                                <span class="dialogue-name">Housemaiden</span>
-                                                                <span class="dialogue-expression">(worried2)</span>
-                                                            </span>
-                                                            ...
-                                                        </p>
-
-                                                        <br>
-
-                                                        <p class="dialogue-line">
-                                                            (This didn't work...)
-                                                        </p>
-                                                    </div>
-                                                </details>
-                                            </li>
-                                        </ul>
-
-                                        <br>
-
-                                        <p class="dialogue-line">
-                                            (You've messed up this time.)
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            (You smile&nbsp;&nbsp;&nbsp;&nbsp; and wait for the storm to pass.)
-                                        </p>
-
-                                        <br>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(angry2)</span>
-                                            </span>
-                                            ...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(angry2)</span>
-                                            </span>
-                                            ......
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Housemaiden</span>
-                                                <span class="dialogue-expression">(distressed2)</span>
-                                            </span>
-                                            ... Siffrin...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(angry1)</span>
-                                            </span>
-                                            No. We don't have time for this.
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Researcher</span>
-                                                <span class="dialogue-expression">(worried3)</span>
-                                            </span>
-                                            Let's keep going.
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Fighter</span>
-                                                <span class="dialogue-expression">(sad4)</span>
-                                            </span>
-                                            ...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Kid</span>
-                                                <span class="dialogue-expression">(angry2)</span>
-                                            </span>
-                                            ...
-                                        </p>
-
-                                        <p class="dialogue-line">
-                                            <span class="dialogue-head">
-                                                <span class="dialogue-name">Housemaiden</span>
-                                                <span class="dialogue-expression">(worried1)</span>
-                                            </span>
-                                            ...
+                                            (Everyone looks at the poem over the big guy's shoulder...)
                                         </p>
 
                                         <br>
 
                                         <p class="dialogue-note">
-                                            You get Five entire Weird Points for this!
+                                            Text continues <a href="#search">here</a>.
+                                        </p>
+                                    </div>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>No</summary>
+
+                                    <div class="dialogue">
+
+                                        <p class="dialogue-line">
+                                            (You think about fruity-sounding names.)
                                         </p>
 
+                                        <br>
+
+                                        <p class="dialogue-note">
+                                            Conversation ends here.
+                                        </p>
                                     </div>
+                                </details>
+                            </li>
+                        </ul>
 
-                                </div>
-                            </details>
-                        </li>
-                        <li>
-                            <details>
-                                <summary>No</summary>
+                    </div>
 
-                                <div class="dialogue">
-
-                                    <p class="dialogue-line">
-                                        (You leave the drawer alone for now.)
-                                    </p>
-
-                                </div>
-                            </details>
-                        </li>
-                    </ul>
-                </div>
-            </details>
-        </li>
-    </ul>
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-<p>Only after retrieving the Star Crest.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Just a drawer.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="flyers">Flyers</h1>
-
-<h3>Before any ending</h3>
-<p>Repeated interaction for all loops until obtaining an ending.</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Some flyers advertising a festival.)
-    </p>
-
-    <p class="dialogue-line">
-        (According to the date on the flyer, the festival is taking place... ...)
-    </p>
-
-    <p class="dialogue-line">
-        (You can't tell how close or far that date is.)
-    </p>
-
-    <p class="dialogue-line">
-        (Maybe it'll come back to you next time...)
-    </p>
-
-</div>
-
-<br>
-
-<h3>After any ending</h3>
-<p>Also known as "after dying to the King once".</p>
-
-<br>
-
-<h4>First time</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Some flyers advertising a festival.)
-    </p>
-
-    <p class="dialogue-line">
-        (According to the date on the flyer, the festival is taking place... ...)
-    </p>
-
-    <p class="dialogue-line">
-        (You're&nbsp;&nbsp;&nbsp;&nbsp; still not sure about today's date, so you can't tell.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name sasasap">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        (...)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"When's this taking place?"</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        What? When does the festival take place?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Hehe, I mean...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(worried1)</span>
-                        </span>
-                        ...It's... today...? If the King didn't take over the House, it was supposed to take place today...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(wondering1)</span>
-                        </span>
-                        We talked about it together earlier this morning...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        You guys hadn't been to Dormont's yet, so I was talking about how it's a shame I can't show it to everyone.
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(distressed1)</span>
-                        </span>
-                        You... don't remember...?
-                    </p>
-
-                    <br>
-
+                    <hr>
                     <p class="dialogue-note">
-                        You get two Weird Points for this.
+                        Spaces are used to represent pauses in the delivery of the poem.
                     </p>
 
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(Don't ask.)</summary>
+                    <br>
 
-                <div class="dialogue">
+                    <p class="dialogue-note" id="search">
+                        The sound of someone turning the page.
+                    </p>
 
                     <br>
 
                     <p class="dialogue-line">
-                        (You look away from the flyer.)
+                        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are nice."
                     </p>
 
-                </div>
-            </details>
-        </li>
-    </ul>
+                    <p class="dialogue-line">
+                        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are soft."
+                    </p>
 
+                    <p class="dialogue-line">
+                        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are frail."
+                    </p>
 
-</div>
+                    <p class="dialogue-line">
+                        "When you look at me&nbsp;&nbsp;&nbsp;&nbsp; I feel&nbsp;&nbsp;&nbsp;&nbsp; like one."
+                    </p>
 
-<br>
+                    <p class="dialogue-line">
+                        "Your fingernails&nbsp;&nbsp;&nbsp;&nbsp; digs&nbsp;&nbsp;&nbsp;&nbsp; into&nbsp;&nbsp;&nbsp;&nbsp; my cheek."
+                    </p>
 
-<h4>Subsequent times</h4>
+                    <p class="dialogue-line">
+                        "Peel an orange open..."
+                    </p>
 
-<div class="dialogue">
+                    <br>
 
-    <p class="dialogue-line">
-        (A flyer for a festival that was supposed to take place today.)
-    </p>
-
-    <p class="dialogue-line">
-        (Whatever "today" means for you at this point.)
-    </p>
-
-    <p class="dialogue-line">
-        (How long have you been repeating the same few days, the same few hours, the same few minutes?)
-    </p>
-
-    <p class="dialogue-line">
-        (What does the date matter for when you've forgotten what the passage of seasons actually is like?)
-    </p>
-
-    <p class="dialogue-line">
-        (Why would today's date matter?)
-    </p>
-
-    <p class="dialogue-line">
-        (...)
-    </p>
-
-    <br>
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(worried2)</span>
-        </span>
-        Siffrin...?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Are you okay...? You've been looking at that flyer for a while...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(determined1)</span>
-        </span>
-        Is something wrong...?
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        You get two Weird Points for this.
-    </p>
-
-</div>
-
-<br>
-
-<h4>Repeated interaction</h4>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (A flyer for a festival that was supposed to take place today.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="horror">Horror books</h1>
-<p>If you did not get an ending yet, the conversation proceeds without any choice, as though you'd selected "(Listen again)".</p>
-
-<br>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (You find an anthology of horror stories.)
-    </p>
-
-    <p class="dialogue-line">
-        (On the cover, a handsome young man looks into the night fearfully but longingly.)
-    </p>
-
-    <p class="dialogue-line">
-        (You don't think the crest is in there...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Oooh, looks like the kinda books you like, yeah?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(wondering2)</span>
-        </span>
-        Horror books... This one looks massive! What's this one ca--
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        Mirabelle jumps with an exclamation bubble over her head.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(awkward2)</span>
-        </span>
-        <span class="shake">THAT'S THE "HANDSOME YOUNG MEN FALLING INTO BEAUTIFUL HEARTBREAKING MADNESS" HORROR ANTHOLOGY!!!</span>
-    </p>
-
-    <br>
-
-    <hr>
-
-    <p class="dialogue-note">
-        Choice only appears after obtaining an ending. Otherwise, text skips to <a href="#talk">here</a>.
-    </p>
-
-    <hr>
-
-    <p class="dialogue-line indented">
-        (You breathe out silently.)
-    </p>
-
-    <p class="dialogue-line indented">
-        (...)
-    </p>
-
-    <ul class="dialogue-option indented">
-        <li>
-            <details>
-                <summary>(Listen again)</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note" id="talk">
-                        If you've not obtained an ending, text proceeds here.
+                    <p class="dialogue-line">
+                        (The poem ends here...)
                     </p>
 
                     <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward2)</span>
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(thinking1)</span>
                         </span>
-                        DID... DID SOMEONE IN THE HOUSE HAVE IT ALL THIS TIME?
+                        Is this.........
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(surprised1)</span>
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy2)</span>
                         </span>
-                        Did someone keep it from you???
+                        <span class="big">A CLUE?</span>
                     </p>
 
                     <p class="dialogue-line">
@@ -1077,7 +1557,47 @@
                             <span class="dialogue-name">Researcher</span>
                             <span class="dialogue-expression">(oof1)</span>
                         </span>
-                        What is it, anyway?
+                        No, it's just someone's unfinished poem.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Let's finish it for them!
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                        </span>
+                        We don't really have time right now--
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(thinking1)</span>
+                        </span>
+                        "Peel an orange open.."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        ..."Orange juice comes out!!!"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        Bad.
                     </p>
 
                     <p class="dialogue-line">
@@ -1085,63 +1605,7 @@
                             <span class="dialogue-name">Housemaiden</span>
                             <span class="dialogue-expression">(determined1)</span>
                         </span>
-                        It’s a full anthology all about pure-hearted boys being subjected to awful monsters and horror situations!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(determined1)</span>
-                        </span>
-                        Seeing them screaming in fright... I cannot help but root for them, and at the same time be happy I am not in their situation!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(angry2)</span>
-                        </span>
-                        There is something lovingly touching about those tales, something wonderfully hopeful!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile2)</span>
-                        </span>
-                        I cannot help but read them and pray for their survival!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(uwah1)</span>
-                        </span>
-                        So... So do they usually survive? Or do the monsters catch them?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward2)</span>
-                        </span>
-                        Well...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(wondering1)</span>
-                        </span>
-                        ...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        ...Fifty-fifty?
+                        Um, um!!! "Peel an orange open..."
                     </p>
 
                     <p class="dialogue-line">
@@ -1149,31 +1613,31 @@
                             <span class="dialogue-name">Kid</span>
                             <span class="dialogue-expression">(pout1)</span>
                         </span>
-                        Hm...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward2)</span>
-                        </span>
-                        B-but also...! The catharsis that fills my whole being when they get caught... There is something very wonderful about that, too!!!
+                        The person who wrote this is the orange, right?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(smug1)</span>
+                            <span class="dialogue-expression">(reading1)</span>
                         </span>
-                        The schadenfreude?
+                        One could assume so, yes.
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile2)</span>
+                            <span class="dialogue-name">Kid</span>
+                            <span class="dialogue-expression">(neutral1)</span>
                         </span>
-                        <span class="shake">THE SCHADENFREUDE!!!!!!!!!</span>
+                        Okay, so... "I die."
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(thinking1)</span>
+                        </span>
+                        Hm, hm, very literal, very nice...
                     </p>
 
                     <p class="dialogue-line">
@@ -1181,537 +1645,7 @@
                             <span class="dialogue-name">Housemaiden</span>
                             <span class="dialogue-expression">(determined1)</span>
                         </span>
-                        It's just, its very good!!! Very moving!!!! Makes me feel like I went on a run!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        And also sometimes the heroes end up marrying the monsters, too...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(excited1)</span>
-                        </span>
-                        What???
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Hm, I don't get it!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(smug1)</span>
-                        </span>
-                        I kind of do, actually... Any books you'd recommend?
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Absolutely!!! I'll lend you some of my favorites once we...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(worried3)</span>
-                        </span>
-                        Well... Once we finally escape a horror tale of our own, I suppose...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Haha... I'm looking forward to it.
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>(...)</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (Your fault for looking at the book.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (You don't want to think about handsome young men getting tortured by malevolent forces they can't see.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (Not that you're a man, but it's hitting a little too close to home for you right now.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        ((Are you still young?))
-                    </p>
-
-                    <!-- sic on them double parentheses btw ~Feli -->
-
-                    <p class="dialogue-line">
-                        (Anyway, not that you're getting tortured.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (And there is no unseen malevolent force.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (There is just you, and the Universe.)
-                    </p>
-
-                    <p class="dialogue-line">
-                        (. .&nbsp;&nbsp;.)
-                    </p>
-
-                    <br>
-                    <br>
-
-                    <p class="dialogue-note">
-                        After an extended pause, the screen shakes.
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (The book just got closed shut.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(embarassed4)</span>
-                        </span>
-                        That really is a massive book...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        Look, just closing the book made Sif jump from fright!!!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Kid</span>
-                            <span class="dialogue-expression">(uwah1)</span>
-                        </span>
-                        That was a really high jump...
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        (You breathe out, and smile.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        Sorry, sorry!!! Um, we can keep going...
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        You get a Weird Point for this.
-                    </p>
-                </div>
-            </details>
-        </li>
-    </ul>
-
-</div>
-
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The horror anthology isn't on the shelves anymore.)
-    </p>
-
-    <p class="dialogue-line">
-        (As always, she took it with her.)
-    </p>
-
-    <p class="dialogue-line">
-        (No crest in sight.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="poem">Unfinished poem</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-note">
-        First time
-    </p>
-
-    <br>
-
-    <div class="indented">
-
-        <p class="dialogue-line">
-            (Moving things around on the desk, you look for the key...)
-        </p>
-
-        <p class="dialogue-line">
-            (No key in sight.)
-        </p>
-
-        <br>
-
-        <p class="dialogue-line">
-            <span class="dialogue-head">
-                <span class="dialogue-name">Fighter</span>
-                <span class="dialogue-expression">(wondering1)</span>
-            </span>
-            Hey, what's this though? A poem?
-        </p>
-
-        <br>
-
-        <p class="dialogue-line">
-            (There's an unfinished poem on the desk.)
-        </p>
-
-        <p class="dialogue-line">
-            (Everyone looks at it over the big guy's shoulder...)
-        </p>
-
-        <br>
-
-        <p class="dialogue-note">
-            Text continues <a href="#search">here</a>.
-        </p>
-    </div>
-
-    <br>
-
-    <p class="dialogue-note">
-        Subsequent times
-    </p>
-
-    <br>
-
-    <div class="indented">
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Hey, what's this though? A poem?
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (You know the crest isn't there.)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (Look anyway?)
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>Yes</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (Everyone looks at the poem over the big guy's shoulder...)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        Text continues <a href="#search">here</a>.
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>No</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        (You think about fruity-sounding names.)
-                    </p>
-
-                    <br>
-
-                    <p class="dialogue-note">
-                        Conversation ends here.
-                    </p>
-                </div>
-            </details>
-        </li>
-    </ul>
-
-    </div>
-
-    <hr>
-    <p class="dialogue-note">
-        Spaces are used to represent pauses in the delivery of the poem.
-    </p>
-
-    <br>
-
-    <p class="dialogue-note" id="search">
-        The sound of someone turning the page.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are nice."
-    </p>
-
-    <p class="dialogue-line">
-        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are soft."
-    </p>
-
-    <p class="dialogue-line">
-        "Oranges&nbsp;&nbsp;&nbsp;&nbsp; are frail."
-    </p>
-
-    <p class="dialogue-line">
-        "When you look at me&nbsp;&nbsp;&nbsp;&nbsp; I feel&nbsp;&nbsp;&nbsp;&nbsp; like one."
-    </p>
-
-    <p class="dialogue-line">
-        "Your fingernails&nbsp;&nbsp;&nbsp;&nbsp; digs&nbsp;&nbsp;&nbsp;&nbsp; into&nbsp;&nbsp;&nbsp;&nbsp; my cheek."
-    </p>
-
-    <p class="dialogue-line">
-        "Peel an orange open..."
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        (The poem ends here...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(thinking1)</span>
-        </span>
-        Is this.........
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy2)</span>
-        </span>
-        <span class="big">A CLUE?</span>
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(oof1)</span>
-        </span>
-        No, it's just someone's unfinished poem.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Let's finish it for them!
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(ew1)</span>
-        </span>
-        We don't really have time right now--
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(thinking1)</span>
-        </span>
-        "Peel an orange open.."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        ..."Orange juice comes out!!!"
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        Bad.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(determined1)</span>
-        </span>
-        Um, um!!! "Peel an orange open..."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(pout1)</span>
-        </span>
-        The person who wrote this is the orange, right?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        One could assume so, yes.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Kid</span>
-            <span class="dialogue-expression">(neutral1)</span>
-        </span>
-        Okay, so... "I die."
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(thinking1)</span>
-        </span>
-        Hm, hm, very literal, very nice...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Housemaiden</span>
-            <span class="dialogue-expression">(determined1)</span>
-        </span>
-        Blood oranges...? Something with that... Something bloody but poetic...
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(oof1)</span>
-        </span>
-        I haven't heard a single good idea yet.
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(wondering1)</span>
-        </span>
-        Teach, do you have something then?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Researcher</span>
-            <span class="dialogue-expression">(reading1)</span>
-        </span>
-        No.
-    </p>
-
-    <br>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name">Fighter</span>
-            <span class="dialogue-expression">(happy1)</span>
-        </span>
-        Okay!!!!!!!!! Sif?
-    </p>
-
-    <p class="dialogue-line">
-        <span class="dialogue-head">
-            <span class="dialogue-name sasasap">Siffrin</span>
-            <span class="dialogue-expression">(fake1)</span>
-        </span>
-        ("Peel an orange open...")
-    </p>
-
-    <ul class="dialogue-option">
-        <li>
-            <details>
-                <summary>"Is it nice and sweet?"</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(thinking1)</span>
-                        </span>
-                        Ah, a question ending...
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(happy1)</span>
-                        </span>
-                        In poetry, they call that a cliffhanger!
+                        Blood oranges...? Something with that... Something bloody but poetic...
                     </p>
 
                     <p class="dialogue-line">
@@ -1719,122 +1653,185 @@
                             <span class="dialogue-name">Researcher</span>
                             <span class="dialogue-expression">(oof1)</span>
                         </span>
-                        No they don't!!!
-                    </p>
-                </div>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>"Blood on your hands!"</summary>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(wondering2)</span>
-                        </span>
-                        ......hm
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(smile1)</span>
-                        </span>
-                        Bloody AND poetic!!! I like it!
-                    </p>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Housemaiden</span>
-                            <span class="dialogue-expression">(awkward3)</span>
-                        </span>
-                        I just... didn't think this would be the type of writing you navigated towards, though?
+                        I haven't heard a single good idea yet.
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Fighter</span>
-                            <span class="dialogue-expression">(embarassed1)</span>
+                            <span class="dialogue-expression">(wondering1)</span>
                         </span>
-                        Yeah, that's...
+                        Teach, do you have something then?
                     </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        No.
+                    </p>
+
+                    <br>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
                             <span class="dialogue-name">Fighter</span>
                             <span class="dialogue-expression">(happy1)</span>
                         </span>
-                        ...That's the power of writing for you!!!
+                        Okay!!!!!!!!! Sif?
                     </p>
 
                     <p class="dialogue-line">
                         <span class="dialogue-head">
-                            <span class="dialogue-name">Researcher</span>
-                            <span class="dialogue-expression">(readingup1)</span>
+                            <span class="dialogue-name sasasap">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
                         </span>
-                        ...
+                        ("Peel an orange open...")
+                    </p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"Is it nice and sweet?"</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(thinking1)</span>
+                                        </span>
+                                        Ah, a question ending...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        In poetry, they call that a cliffhanger!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(oof1)</span>
+                                        </span>
+                                        No they don't!!!
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"Blood on your hands!"</summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(wondering2)</span>
+                                        </span>
+                                        ......hm
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(smile1)</span>
+                                        </span>
+                                        Bloody AND poetic!!! I like it!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Housemaiden</span>
+                                            <span class="dialogue-expression">(awkward3)</span>
+                                        </span>
+                                        I just... didn't think this would be the type of writing you navigated towards, though?
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(embarassed1)</span>
+                                        </span>
+                                        Yeah, that's...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                        </span>
+                                        ...That's the power of writing for you!!!
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Researcher</span>
+                                            <span class="dialogue-expression">(readingup1)</span>
+                                        </span>
+                                        ...
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">
+                                        You get a Weird Point for this.
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <h3>Repeated interaction</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (The poem lays here, unfinished.)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="paper">Stack of papers</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (Some papers.)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (You pick one at random...)
                     </p>
 
                     <br>
 
                     <p class="dialogue-note">
-                        You get a Weird Point for this.
+                        At random
                     </p>
+
+                    <ul class="dialogue-line">
+                        <li>(It's a poem about lovers on a bridge.)</li>
+                        <li>(It's a poem about someone going to a grave.)</li>
+                        <li>(It's a poem about a fox and a crow.)</li>
+                    </ul>
                 </div>
-            </details>
-        </li>
-    </ul>
-</div>
+            </main>
+        </div>
 
-<br>
-
-<h3>Repeated interaction</h3>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (The poem lays here, unfinished.)
-    </p>
-
-</div>
-
-<hr>
-<br>
-
-<h1 id="paper">Stack of papers</h1>
-
-<div class="dialogue">
-
-    <p class="dialogue-line">
-        (Some papers.)
-    </p>
-
-    <p class="dialogue-line">
-        (You pick one at random...)
-    </p>
-
-    <br>
-
-    <p class="dialogue-note">
-        At random
-    </p>
-
-    <ul class="dialogue-line">
-        <li>(It's a poem about lovers on a bridge.)</li>
-        <li>(It's a poem about someone going to a grave.)</li>
-        <li>(It's a poem about a fox and a crow.)</li>
-    </ul>
-</div>
-
-</main>
-
-<foot-er></foot-er>
-
-</div>
+        <foot-er></foot-er>
+    </div>
 
 </body>
-
 </html>
