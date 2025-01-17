@@ -86,8 +86,15 @@ async function getHTMLForPage(localURI){
      return _dialogueLines.flat();
  }
  
+// TODO - Fix filtering to include dialogue like the following (From kingquest.html)
+//  Huh, but <span class="wave">whyyyyyyyyyy</span>? It's just gonna give me a heada--
+
  function parseDialogueFromHTML(text, localURI){
+     // Remove image tags for better performance
     text = text.replace(/<img[^>]*>/g, '');
+    text = text.replace("<span class=\"wave\">", '');
+
+    // Create an HTML document with the test and parse it
      var el = document.createElement('html');
      el.innerHTML = text;
      var dialogueLines = el.getElementsByClassName("dialogue-line");
