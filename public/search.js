@@ -71,7 +71,52 @@ async function getHTMLForPage(localURI){
      });
  }
  
- 
+ // Filters out duplicates out of a list of objects
+ function uniq_fast(a) {
+    var seen = {};
+    var out = [];
+    var len = a.length;
+    var j = 0;
+    for(var i = 0; i < len; i++) {
+         var item = a[i];
+         if(seen[item] !== 1) {
+               seen[item] = 1;
+               out[j++] = item;
+         }
+    }
+    return out;
+}
+
+function parseDialogueFromHTML(text, localURI){
+   // Remove image tags for better performance
+   text = text.replace(/<img[^>]*>/g, '');
+
+   // Remove the <span class="wave"></span> tags, as they're often present in dialogue lines and cause problems with the parsing
+
+   while(text.indexOf("<span class=\"wave\">") != -1)
+   {
+       var waveIndex = text.indexOf("<span class=\"wave\">");
+       var closingTagIndex = text.indexOf("</span>", waveIndex);
+       text = text.slice(0, waveIndex) + text.slice(waveIndex + 19, closingTagIndex) + text.slice(closingTagIndex + 7);
+   }
+
+   // Create an HTML document with the test and parse it
+    var el = document.createElement('html');
+    el.innerHTML = text;
+    var dialogueLines = el.getElementsByClassName("dialogue-line");
+    var listOfTextAndLocations = []
+    for (const element of dialogueLines) {
+        if(element.lastChild.nodeValue != null)
+            {
+                var tempText = element.lastChild.nodeValue;
+                tempText = tempText.replaceAll("\n", '')
+                tempText = tempText.trim();
+                if(tempText.trim().length > 0)
+                    listOfTextAndLocations.push([localURI, tempText]);
+            }
+        }     
+    return listOfTextAndLocations
+}
  
  async function getAllDialogueLines(){
     let _dialogueLines = [];
@@ -82,39 +127,14 @@ async function getHTMLForPage(localURI){
          let myText = await getHTMLForPage(currentURI);  
         _dialogueLines.push(parseDialogueFromHTML(myText, currentURI));
      }
-     
-     return _dialogueLines.flat();
+     _dialogueLines = _dialogueLines.flat();
+     _dialogueLines = uniq_fast(_dialogueLines);
+     return _dialogueLines;
  }
+
  
-// TODO - Fix filtering to include dialogue like the following (From kingquest.html)
-//  Huh, but <span class="wave">whyyyyyyyyyy</span>? It's just gonna give me a heada--
-
- function parseDialogueFromHTML(text, localURI){
-     // Remove image tags for better performance
-    text = text.replace(/<img[^>]*>/g, '');
-    text = text.replace("<span class=\"wave\">", '');
-
-    // Create an HTML document with the test and parse it
-     var el = document.createElement('html');
-     el.innerHTML = text;
-     var dialogueLines = el.getElementsByClassName("dialogue-line");
-     var listOfTextAndLocations = []
-     for (const element of dialogueLines) {
-         if(element.lastChild.nodeValue != null)
-         {
-         var tempText = element.lastChild.nodeValue;
-         tempText = tempText.replaceAll("\n", '')
-         tempText = tempText.trim();
-         if(tempText.length > 0)
-         
-         listOfTextAndLocations.push([localURI, tempText]);
-         }
-     }  
-     return listOfTextAndLocations
- }
  // -----------------------------------------------------------------------
-
- // 
+ 
 
 var searchbox = document.getElementById("searchbox");
 var unorderedList = document.getElementById("searchUL");
@@ -122,48 +142,42 @@ let allLines = []
 let searchterm = "";
 
 searchbox.onkeyup = function() {
-  let filteredLines = getFilteredLines(allLines)
+  let filteredLines = filterLines(allLines)
   modifyResultsList(filteredLines)
-
 }
 
 searchbox.onclick = async function() {
     if(allLines.length == 0)
-        {
-           allLines = await getAllDialogueLines();
-        }
+        allLines = await getAllDialogueLines();
 }
 
-document.addEventListener('click', (e) => {
-    console.log("Test")
-    console.log(e.currentTarget.activeElement)
-    if(!(e.currentTarget.activeElement.id == "searchbox"))
-        clearList();
-})
-
-
-function modifyResultsList(lines) {
-    if(filteredLines.length == 0 || searchterm.length <= 3)
-        clearList();
-    
-        if(filteredLines.length < 10)
-            setList(filteredLines)
-        
-        else if(searchterm.length > 3)
-            setList(filteredLines.slice(0, 10))
-}
-
-function getFilteredLines(lines){
-    console.log(lines)
+function filterLines(lines){
     searchterm = searchbox.value;
+    lines = lines.filter(x => x[0].length > 3)
     filteredLines = lines.filter(x => x[1].includes(searchterm));
-    console.log(filteredLines)
     return filteredLines
 }
 
-function setList(setListLines){
+// FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
-    clearList();
+document.addEventListener('click', (e) => {
+    if(!(e.currentTarget.activeElement.id == "searchbox"))
+        clearSearchResults();
+})
+
+function modifyResultsList(lines) {
+    if(filteredLines.length == 0 || searchterm.length <= 3)
+        clearSearchResults();
+    
+        if(filteredLines.length < 10)
+            setSearchResults(filteredLines)
+        
+        else if(searchterm.length > 3)
+            setSearchResults(filteredLines.slice(0, 10))
+}
+
+function setSearchResults(setListLines){
+    clearSearchResults();
     for(let i = 0; i < setListLines.length; i++)
     {
         let uri = setListLines[i][0]
@@ -172,17 +186,19 @@ function setList(setListLines){
         const resultItem = document.createElement('li')
         const linkItem = document.createElement('a')
         const textnode = document.createTextNode(text)
+        
         linkItem.appendChild(textnode)
         resultItem.appendChild(linkItem)
         resultItem.classList.add("dialogue")
         resultItem.classList.add("search-result")
+        linkItem.classList.add("search-result-link")
         
         linkItem.setAttribute("href", uri)
         unorderedList.appendChild(resultItem)
     }
 }
 
-function clearList(){
+function clearSearchResults(){
     while (unorderedList.firstChild){
         unorderedList.removeChild(unorderedList.firstChild)
     }
