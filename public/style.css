@@ -1,7 +1,8 @@
 :root {
     --custom-color: #f0f0f0;
     --searchbar-length: 200px;
-    --searchbar-margin: 100px;
+    --searchbar-margin: 0px;
+    --loader-margin: 70px;
   }
 /* ************************************************************************** */
 /*                                    base                                    */
@@ -192,22 +193,45 @@ img.cg {
 #searchbox {
     width: var(--searchbar-length);
     float:right;
-    margin-right: var(--searchbar-margin);
+    font-family: 'VCR_OSD_MONO';
+    color: white;
+    background-color: black;
+}
+
+#searchbox:focus {
+    outline: none;
+    width: var(--searchbar-length);
+    float:right;
+    font-family: 'VCR_OSD_MONO';
+    color: white;
+    background-color: black;
+}
+
+
+.hidden {
+    display: none;
 }
 
 #searchUL {
     width: var(--searchbar-length);
     margin: 0;
-    margin-right: var(--searchbar-margin);
-    position: relative;
+    margin-top: 20px;
     float: right;
     clear: right;
     padding-left: 0;
     z-index: 0;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 100;
+    scrollbar-width: thin;
+    border-color: #555;
+}
 
+#searchUL:focus {
+    outline: none;
+    border-color: #555;
 }
 
 .search-result {
@@ -225,6 +249,37 @@ img.cg {
 .search-result:hover {
     background-color: lightgrey;
 }
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    align-content: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: var(--loader-margin);
+    position: absolute;
+    float: right;
+    clear: right;
+    padding-left: 0;
+    z-index: 0;
+    width: 30px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,white 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
 
 .tooltip {
     visibility: hidden;
@@ -527,6 +582,7 @@ nav span {
     margin: auto;
     text-align: center;
 }
+
 
 nav a {
     color: white;

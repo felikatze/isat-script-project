@@ -8,7 +8,8 @@ class Searcher extends HTMLElement {
         this.innerHTML =
             `
                 <input type="text" id="searchbox" placeholder="Search dialogues...">
-                <ul id="searchUL">
+                <div id="loader" class="loader hidden"></div>
+                <ul id="searchUL" class="hidden">
                 </ul>
             `
     }
@@ -62,7 +63,7 @@ const allPageURIs = [
     "/random/souvenirs1.html",
     "/random/souvenirs2.html"
 ]
-// HTML RETRIEVER AND PARSER
+//  HTML RETRIEVER AND PARSER 
 async function getHTMLForPage(localURI){
     return fetch(localURI)
      .then((response) => response.text())
@@ -100,7 +101,28 @@ function parseDialogueFromHTML(text, localURI){
        text = text.slice(0, waveIndex) + text.slice(waveIndex + 19, closingTagIndex) + text.slice(closingTagIndex + 7);
    }
 
-   // Create an HTML document with the test and parse it
+   while(text.indexOf("<span class=\"shake\">") != -1)
+    {
+        var waveIndex = text.indexOf("<span class=\"shake\">");
+        var closingTagIndex = text.indexOf("</span>", waveIndex);
+        text = text.slice(0, waveIndex) + text.slice(waveIndex + 20, closingTagIndex) + text.slice(closingTagIndex + 7);
+    }
+
+    while(text.indexOf("<span class=\"shake big\">") != -1)
+        {
+            var waveIndex = text.indexOf("<span class=\"shake big\">");
+            var closingTagIndex = text.indexOf("</span>", waveIndex);
+            text = text.slice(0, waveIndex) + text.slice(waveIndex + 24, closingTagIndex) + text.slice(closingTagIndex + 7);
+        }
+
+    while(text.indexOf("<span class=\"wish\">") != -1)
+        {
+            var waveIndex = text.indexOf("<span class=\"wish\">");
+            var closingTagIndex = text.indexOf("</span>", waveIndex);
+            text = text.slice(0, waveIndex) + text.slice(waveIndex + 19, closingTagIndex) + text.slice(closingTagIndex + 7);
+        }
+
+   // Create an HTML document with the text and parse it
     var el = document.createElement('html');
     el.innerHTML = text;
     var dialogueLines = el.getElementsByClassName("dialogue-line");
@@ -132,38 +154,54 @@ function parseDialogueFromHTML(text, localURI){
      return _dialogueLines;
  }
 
- 
+ function filterLines(lines){
+    searchterm = searchbox.value;
+    lines = lines.filter(x => x[0].length > 3)
+    filteredLines = lines.filter(x => x[1].includes(searchterm));
+    return filteredLines
+}
  // -----------------------------------------------------------------------
  
 
 var searchbox = document.getElementById("searchbox");
-var unorderedList = document.getElementById("searchUL");
+var resultsList = document.getElementById("searchUL");
+var loader = document.getElementById("loader");
 let allLines = []
 let searchterm = "";
 
 searchbox.onkeyup = function() {
   let filteredLines = filterLines(allLines)
   modifyResultsList(filteredLines)
+  console.log(resultsList.classList);
+  console.log(filteredLines.length)
+  console.log(filteredLines.length === 0)
+  if(filteredLines.length == 0 && !resultsList.classList.contains("hidden"))
+    toggleElementVisibility(resultsList);
 }
 
 searchbox.onclick = async function() {
+    toggleElementVisibility(loader);
     if(allLines.length == 0)
         allLines = await getAllDialogueLines();
+    toggleElementVisibility(resultsList);
+    toggleElementVisibility(loader);
 }
 
-function filterLines(lines){
-    searchterm = searchbox.value;
-    lines = lines.filter(x => x[0].length > 3)
-    filteredLines = lines.filter(x => x[1].includes(searchterm));
-    return filteredLines
-}
+
 
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
 document.addEventListener('click', (e) => {
-    if(!(e.currentTarget.activeElement.id == "searchbox"))
-        clearSearchResults();
+    if((e.currentTarget.activeElement.id !== "searchbox") && !resultsList.classList.contains("hidden"))
+        toggleElementVisibility(resultsList);
 })
+
+function toggleElementVisibility(el) {
+    if(!el.classList.contains("hidden"))
+        el.classList.add("hidden");
+    else
+        el.classList.remove("hidden");
+}
 
 function modifyResultsList(lines) {
     if(filteredLines.length == 0 || searchterm.length <= 3)
@@ -194,12 +232,17 @@ function setSearchResults(setListLines){
         linkItem.classList.add("search-result-link")
         
         linkItem.setAttribute("href", uri)
-        unorderedList.appendChild(resultItem)
+        resultsList.appendChild(resultItem)
     }
+    if(resultsList.classList.contains("hidden"))
+        toggleElementVisibility(resultsList);
 }
 
 function clearSearchResults(){
-    while (unorderedList.firstChild){
-        unorderedList.removeChild(unorderedList.firstChild)
+    while (resultsList.firstChild){
+        resultsList.removeChild(resultsList.firstChild)
+
+    if(!resultsList.classList.contains("hidden"))
+        toggleElementVisibility(resultsList);
     }
 }
