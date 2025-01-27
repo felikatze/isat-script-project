@@ -1,4 +1,5 @@
-const IS_PROD = true;
+const IS_PROD = false;
+
 class Searcher extends HTMLElement {
     constructor() {
         super();
@@ -17,61 +18,17 @@ class Searcher extends HTMLElement {
 customElements.define("search-er", Searcher);
 
 const allPageURIs = [
-    "/acts/act2/intro2.html",
-    "/acts/act2/ending2.html",
-    "/acts/act3-4/bonniequest.html",
-    "/acts/act3-4/intro3.html",
-    "/acts/act3-4/isaquest.html",
-    "/acts/act3-4/kingquest.html",
-    "/acts/act3-4/loophangout.html",
-    "/acts/act3-4/loopquest.html",
-    "/acts/act3-4/miraquest.html",
-    "/acts/act3-4/odilequest.html",
-    "/acts/act5/act5.html",
-    "/acts/act5/endrooms5.html",
-    "/acts/act5/friendquestsACT5.html",
-    "/acts/act5/maldupays.html",
-    "/acts/act5/VSFriends.html",
-    "/acts/act6/act6npcs.html",
-    "/acts/act6/bonnieend6.html",
-    "/acts/act6/isaend6.html",
-    "/acts/act6/miraend6.html",
-    "/acts/act6/odileend6.html",
-    "/events/bombquest.html",
-    "/events/bondingearrings.html",
-    "/events/bonnieside.html",
-    "/events/castlequest.html",
-    "/events/colortheory.html",
-    "/events/confession.html",
-    "/events/ghost.html",
-    "/events/mirafan.html",
-    "/events/odilesus.html",
-    "/events/phone.html",
-    "/events/touchtherapy.html",
-    "/events/tutorial.html",
-    "/random/barrels.html",
-    "/random/brightflower.html",
-    "/random/change_god_statues.html",
-    "/random/dagger.html",
-    "/random/deaths.html",
-    "/random/enemies.html",
-    "/random/equipment.html",
-    "/random/generic.html",
-    "/random/levels.html",
-    "/random/memories.html",
-    "/random/silvercoin.html",
-    "/random/souvenirs1.html",
-    "/random/souvenirs2.html"
+    ""
 ]
-//  HTML RETRIEVER AND PARSER 
-async function getHTMLForPage(localURI){
-    return fetch(localURI)
+ async function getAllDialogueLines(){
+    return fetch("/dialogue-lines.json")
      .then((response) => response.text())
      .then((text) => {
-       return text;
+        console.log(text)
+       return JSON.parse(text);
      });
  }
- 
+ /*
  // Filters out duplicates out of a list of objects
  function uniq_fast(a) {
     var seen = {};
@@ -87,77 +44,12 @@ async function getHTMLForPage(localURI){
     }
     return out;
 }
-
-function parseDialogueFromHTML(text, localURI){
-   // Remove image tags for better performance
-   text = text.replace(/<img[^>]*>/g, '');
-
-   // Remove the <span class="wave"></span> tags, as they're often present in dialogue lines and cause problems with the parsing
-
-   while(text.indexOf("<span class=\"wave\">") != -1)
-   {
-       var waveIndex = text.indexOf("<span class=\"wave\">");
-       var closingTagIndex = text.indexOf("</span>", waveIndex);
-       text = text.slice(0, waveIndex) + text.slice(waveIndex + 19, closingTagIndex) + text.slice(closingTagIndex + 7);
-   }
-
-   while(text.indexOf("<span class=\"shake\">") != -1)
-    {
-        var waveIndex = text.indexOf("<span class=\"shake\">");
-        var closingTagIndex = text.indexOf("</span>", waveIndex);
-        text = text.slice(0, waveIndex) + text.slice(waveIndex + 20, closingTagIndex) + text.slice(closingTagIndex + 7);
-    }
-
-    while(text.indexOf("<span class=\"shake big\">") != -1)
-        {
-            var waveIndex = text.indexOf("<span class=\"shake big\">");
-            var closingTagIndex = text.indexOf("</span>", waveIndex);
-            text = text.slice(0, waveIndex) + text.slice(waveIndex + 24, closingTagIndex) + text.slice(closingTagIndex + 7);
-        }
-
-    while(text.indexOf("<span class=\"wish\">") != -1)
-        {
-            var waveIndex = text.indexOf("<span class=\"wish\">");
-            var closingTagIndex = text.indexOf("</span>", waveIndex);
-            text = text.slice(0, waveIndex) + text.slice(waveIndex + 19, closingTagIndex) + text.slice(closingTagIndex + 7);
-        }
-
-   // Create an HTML document with the text and parse it
-    var el = document.createElement('html');
-    el.innerHTML = text;
-    var dialogueLines = el.getElementsByClassName("dialogue-line");
-    var listOfTextAndLocations = []
-    for (const element of dialogueLines) {
-        if(element.lastChild.nodeValue != null)
-            {
-                var tempText = element.lastChild.nodeValue;
-                tempText = tempText.replaceAll("\n", '')
-                tempText = tempText.trim();
-                if(tempText.trim().length > 0)
-                    listOfTextAndLocations.push([localURI, tempText]);
-            }
-        }     
-    return listOfTextAndLocations
-}
- 
- async function getAllDialogueLines(){
-    let _dialogueLines = [];
-     for(let i = 0; i < allPageURIs.length; i++){
-         let currentURI = allPageURIs[i];
-         if(!IS_PROD)
-             currentURI = "/public" + currentURI;
-         let myText = await getHTMLForPage(currentURI);  
-        _dialogueLines.push(parseDialogueFromHTML(myText, currentURI));
-     }
-     _dialogueLines = _dialogueLines.flat();
-     _dialogueLines = uniq_fast(_dialogueLines);
-     return _dialogueLines;
- }
-
+*/
  function filterLines(lines){
+    console.log(lines)
     searchterm = searchbox.value;
-    lines = lines.filter(x => x[0].length > 3)
-    filteredLines = lines.filter(x => x[1].includes(searchterm));
+    //lines = lines.filter(x => x[0].length > 3)
+    filteredLines = lines.filter(x => x[1].toLowerCase().includes(searchterm.toLowerCase()));
     return filteredLines
 }
  // -----------------------------------------------------------------------
@@ -183,10 +75,10 @@ searchbox.onclick = async function() {
     toggleElementVisibility(loader);
     if(allLines.length == 0)
         allLines = await getAllDialogueLines();
+    console.log(allLines)
     toggleElementVisibility(resultsList);
     toggleElementVisibility(loader);
 }
-
 
 
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
@@ -207,11 +99,13 @@ function modifyResultsList(lines) {
     if(filteredLines.length == 0 || searchterm.length <= 3)
         clearSearchResults();
     
-        if(filteredLines.length < 10)
+        if(filteredLines.length < 100)
             setSearchResults(filteredLines)
         
         else if(searchterm.length > 3)
-            setSearchResults(filteredLines.slice(0, 10))
+            setSearchResults(filteredLines.slice(0, 100))
+
+        console.log(filteredLines);
 }
 
 function setSearchResults(setListLines){
@@ -224,13 +118,15 @@ function setSearchResults(setListLines){
         const resultItem = document.createElement('li')
         const linkItem = document.createElement('a')
         const textnode = document.createTextNode(text)
-        
         linkItem.appendChild(textnode)
         resultItem.appendChild(linkItem)
         resultItem.classList.add("dialogue")
         resultItem.classList.add("search-result")
         linkItem.classList.add("search-result-link")
-        
+       // linkItem.setAttribute("onclick","addTextHighlightCookie(\"" + text + "\")");
+        let uriEncodedText = encodeURIComponent(text);
+        uri = uri + "#:~:text=" + uriEncodedText;
+
         linkItem.setAttribute("href", uri)
         resultsList.appendChild(resultItem)
     }
