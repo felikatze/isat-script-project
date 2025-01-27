@@ -1,8 +1,6 @@
 :root {
     --custom-color: #f0f0f0;
-    --searchbar-length: 200px;
-    --searchbar-margin: 0px;
-    --loader-margin: 70px;
+    --searchbar-length: 100%;
   }
 /* ************************************************************************** */
 /*                                    base                                    */
@@ -189,41 +187,40 @@ img.cg {
     border-image: url("/assets/images/border.png") 14 round;
 }
 
+search-er {
+    padding: 16px;
+    background-color: #434343;
+    width: 100%;
+    display: block;
+}
 
 #searchbox {
     width: var(--searchbar-length);
-    float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
     background-color: black;
+    border: gray 2px solid;
 }
 
 #searchbox:focus {
     outline: none;
     width: var(--searchbar-length);
-    float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
     background-color: black;
+    border: lightgray 2px solid;
 }
-
 
 .hidden {
     display: none;
 }
 
 #searchUL {
-    width: var(--searchbar-length);
     margin: 0;
-    margin-top: 20px;
-    float: right;
-    clear: right;
-    padding-left: 0;
-    z-index: 0;
-    height: 200px;
-    overflow: hidden;
+    padding: 0;
+    max-height: 200px;
+    overflow-x: hidden;
     overflow-y: auto;
-    position: absolute;
     z-index: 100;
     scrollbar-width: thin;
     border-color: #555;
@@ -235,19 +232,30 @@ img.cg {
 }
 
 .search-result {
-    float:right;
     font-size: 12.5px;
-    background-color:  #424949;
-    margin: 0;
-    
+    background-color:  black;
+    margin: 2px 0;
+    display: block;
+    font-family: 'VCR_OSD_MONO';
+    padding: 0.5em;
+    border: 3px solid transparent;
+    border-image: url("/assets/images/border-choice.png") 3 stretch;
+}
+
+.search-result::marker {
+    content: '';
+    display: none;
 }
 
 .search-result-link {
     display: inline-block;
-    
+    text-decoration: none;
+    font-weight: normal !important;
+    width: 100%;
 }
+
 .search-result:hover {
-    background-color: lightgrey;
+    background-color: #333;
 }
 
 
@@ -256,9 +264,6 @@ img.cg {
 .loader {
     align-content: center;
     margin: 0;
-    margin-top: 25px;
-    margin-left: 80px;
-    margin-right: var(--loader-margin);
     position: absolute;
     float: right;
     clear: right;
@@ -268,18 +273,18 @@ img.cg {
     aspect-ratio: 2;
     --_g: no-repeat radial-gradient(circle closest-side,white 90%,#0000);
     background: 
-      var(--_g) 0%   50%,
-      var(--_g) 50%  50%,
-      var(--_g) 100% 50%;
+        var(--_g) 0%   50%,
+        var(--_g) 50%  50%,
+        var(--_g) 100% 50%;
     background-size: calc(100%/3) 50%;
     animation: l3 1s infinite linear;
-  }
-  @keyframes l3 {
-      20%{background-position:0%   0%, 50%  50%,100%  50%}
-      40%{background-position:0% 100%, 50%   0%,100%  50%}
-      60%{background-position:0%  50%, 50% 100%,100%   0%}
-      80%{background-position:0%  50%, 50%  50%,100% 100%}
-  }
+}
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%, 100%  50%}
+    40%{background-position:0% 100%, 50%   0%, 100%  50%}
+    60%{background-position:0%  50%, 50% 100%, 100%   0%}
+    80%{background-position:0%  50%, 50%  50%, 100% 100%}
+}
 
 .tooltip {
     visibility: hidden;
