@@ -1,8 +1,7 @@
 :root {
     --custom-color: #f0f0f0;
-    --searchbar-length: 200px;
+    --searchbar-length: 250px;
     --searchbar-margin: 0px;
-    --loader-margin: 70px;
   }
 /* ************************************************************************** */
 /*                                    base                                    */
@@ -218,7 +217,7 @@ img.cg {
     margin-top: 20px;
     float: right;
     clear: right;
-    padding-left: 0;
+    padding: 0;
     z-index: 0;
     height: 200px;
     overflow: hidden;
@@ -227,6 +226,7 @@ img.cg {
     z-index: 100;
     scrollbar-width: thin;
     border-color: #555;
+
 }
 
 #searchUL:focus {
@@ -235,13 +235,23 @@ img.cg {
 }
 
 .search-result {
+    font-family: 'VCR_OSD_MONO';
+    font-size: 16.5px;
+    border: 10px solid transparent;
+    border-image: url("/assets/images/border.png") 14 round;
+    padding: 0;
     float:right;
-    font-size: 12.5px;
     background-color:  #424949;
     margin: 0;
+    width: inherit;
     
 }
 
+.search-result-source {
+    font-size: small;
+    float:inline-end;
+    bottom: 0;
+}
 .search-result-link {
     display: inline-block;
     
@@ -249,37 +259,6 @@ img.cg {
 .search-result:hover {
     background-color: lightgrey;
 }
-
-
-
-/* HTML: <div class="loader"></div> */
-.loader {
-    align-content: center;
-    margin: 0;
-    margin-top: 25px;
-    margin-left: 80px;
-    margin-right: var(--loader-margin);
-    position: absolute;
-    float: right;
-    clear: right;
-    padding-left: 0;
-    z-index: 0;
-    width: 30px;
-    aspect-ratio: 2;
-    --_g: no-repeat radial-gradient(circle closest-side,white 90%,#0000);
-    background: 
-      var(--_g) 0%   50%,
-      var(--_g) 50%  50%,
-      var(--_g) 100% 50%;
-    background-size: calc(100%/3) 50%;
-    animation: l3 1s infinite linear;
-  }
-  @keyframes l3 {
-      20%{background-position:0%   0%, 50%  50%,100%  50%}
-      40%{background-position:0% 100%, 50%   0%,100%  50%}
-      60%{background-position:0%  50%, 50% 100%,100%   0%}
-      80%{background-position:0%  50%, 50%  50%,100% 100%}
-  }
 
 .tooltip {
     visibility: hidden;
@@ -336,7 +315,7 @@ ul.dialogue-option {
 summary::-webkit-details-marker,
 summary::marker {
     list-style: none;
-    display: none;
+    display: true;
     content: '';
 }
 

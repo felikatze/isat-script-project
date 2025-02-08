@@ -1,5 +1,61 @@
 const IS_PROD = false;
 
+var currentPath = window.location.pathname.replaceAll("/", "\\")
+window.addEventListener("load", (event)=> {
+var match = window.location.hash.match(/^#!s(-?\d*)!(.*)$/);
+console.log(window.location.hash)
+console.log(match)
+if (match && match[2])
+{
+
+var detailTags = document.getElementsByTagName("details");
+
+var searchText = decodeURI(match[2].replaceAll("%20", " "));
+//var searchText = match[2].replaceAll("%C2%A0", " ");
+console.log("SEARCHTEXT: " + decodeURI(searchText))
+var found;
+for (var i = 0; i < detailTags.length; i++) {
+  for(var j = 0; j < detailTags[i].childNodes.length; j++){
+    console.log(detailTags[i].childNodes[j].textContent)
+    if (detailTags[i].childNodes[j].textContent.includes(searchText)) {
+        console.log("FOUND IT")
+        found = detailTags[i];
+        break;
+  }
+ 
+  }
+}
+if(found)
+    console.log("Found!")
+if(found)
+    found.setAttribute('open', '')
+
+
+  var count = match[1] || 1;
+  var backwards = false;
+  if (count < 0)
+  {
+    backwards = true;
+    count = Math.abs(count);
+  }
+  
+  for (var i = 0; i < count; i++)
+  {
+    console.log(decodeURI(match[2]))
+    window.find(decodeURI(match[2]), false, backwards, false, false, true, false);
+  }
+}
+})
+
+function RefreshPage(queryString) {
+    var newUrl = window.location.origin + window.location.pathname + "?key=" + queryString;
+    window.location.href = newUrl;
+    return false;
+}
+
+
+// ----------------------------------------------------------------
+
 class Searcher extends HTMLElement {
     constructor() {
         super();
@@ -9,7 +65,6 @@ class Searcher extends HTMLElement {
         this.innerHTML =
             `
                 <input type="text" id="searchbox" placeholder="Search dialogues...">
-                <div id="loader" class="loader hidden"></div>
                 <ul id="searchUL" class="hidden">
                 </ul>
             `
@@ -24,31 +79,13 @@ const allPageURIs = [
     return fetch("/dialogue-lines.json")
      .then((response) => response.text())
      .then((text) => {
-        console.log(text)
        return JSON.parse(text);
      });
  }
- /*
- // Filters out duplicates out of a list of objects
- function uniq_fast(a) {
-    var seen = {};
-    var out = [];
-    var len = a.length;
-    var j = 0;
-    for(var i = 0; i < len; i++) {
-         var item = a[i];
-         if(seen[item] !== 1) {
-               seen[item] = 1;
-               out[j++] = item;
-         }
-    }
-    return out;
-}
-*/
+
  function filterLines(lines){
     console.log(lines)
     searchterm = searchbox.value;
-    //lines = lines.filter(x => x[0].length > 3)
     filteredLines = lines.filter(x => x[1].toLowerCase().includes(searchterm.toLowerCase()));
     return filteredLines
 }
@@ -57,27 +94,20 @@ const allPageURIs = [
 
 var searchbox = document.getElementById("searchbox");
 var resultsList = document.getElementById("searchUL");
-var loader = document.getElementById("loader");
 let allLines = []
 let searchterm = "";
 
 searchbox.onkeyup = function() {
   let filteredLines = filterLines(allLines)
   modifyResultsList(filteredLines)
-  console.log(resultsList.classList);
-  console.log(filteredLines.length)
-  console.log(filteredLines.length === 0)
   if(filteredLines.length == 0 && !resultsList.classList.contains("hidden"))
     toggleElementVisibility(resultsList);
 }
 
 searchbox.onclick = async function() {
-    toggleElementVisibility(loader);
     if(allLines.length == 0)
         allLines = await getAllDialogueLines();
-    console.log(allLines)
     toggleElementVisibility(resultsList);
-    toggleElementVisibility(loader);
 }
 
 
@@ -104,8 +134,6 @@ function modifyResultsList(lines) {
         
         else if(searchterm.length > 3)
             setSearchResults(filteredLines.slice(0, 100))
-
-        console.log(filteredLines);
 }
 
 function setSearchResults(setListLines){
@@ -114,20 +142,33 @@ function setSearchResults(setListLines){
     {
         let uri = setListLines[i][0]
         let text = setListLines[i][1]
+        let source = setListLines[i][2]
+        let nth_instance = setListLines[i][3]
  // creating a li element for each result item
         const resultItem = document.createElement('li')
         const linkItem = document.createElement('a')
         const textnode = document.createTextNode(text)
+        const lineBreakItem = document.createElement('br')
+        const sourceItem = document.createElement('p')
+        const sourceTextNode = document.createTextNode("(In: " + source + ")")
+        sourceItem.appendChild(sourceTextNode)
+        sourceItem.classList.add('search-result-source')
+
         linkItem.appendChild(textnode)
+        linkItem.appendChild(lineBreakItem)
+        linkItem.appendChild(sourceItem)
         resultItem.appendChild(linkItem)
         resultItem.classList.add("dialogue")
         resultItem.classList.add("search-result")
         linkItem.classList.add("search-result-link")
-       // linkItem.setAttribute("onclick","addTextHighlightCookie(\"" + text + "\")");
-        let uriEncodedText = encodeURIComponent(text);
-        uri = uri + "#:~:text=" + uriEncodedText;
+        newUri = uri + "#!s" + nth_instance + "!" + text;
+        if(currentPath == uri)
+            linkItem.addEventListener("click", function(ev) {
+                RefreshPage("#!s" + nth_instance + "!" + text)
+            });
+        
+        linkItem.setAttribute("href", newUri)
 
-        linkItem.setAttribute("href", uri)
         resultsList.appendChild(resultItem)
     }
     if(resultsList.classList.contains("hidden"))
