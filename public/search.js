@@ -64,10 +64,9 @@ class Searcher extends HTMLElement {
 }
 customElements.define("search-er", Searcher);
 
-const allPageURIs = [
-    ""
-]
- async function getAllDialogueLines(){
+const allPageURIs = [""]
+
+async function getAllDialogueLines() {
     return fetch("/dialogue-lines.json")
      .then((response) => response.text())
      .then((text) => {
@@ -80,7 +79,7 @@ const allPageURIs = [
     filteredLines = lines.filter(x => x[1].toLowerCase().includes(searchterm.toLowerCase()));
     return filteredLines
 }
- // -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
  
 
 var searchbox = document.getElementById("searchbox");
@@ -105,23 +104,26 @@ searchbox.onclick = async function() {
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
 document.addEventListener('click', (e) => {
-    if((e.currentTarget.activeElement.id !== "searchbox") && !resultsList.classList.contains("hidden"))
+    if ((e.currentTarget.activeElement.id !== "searchbox") && !resultsList.classList.contains("hidden")) {
         toggleElementVisibility(resultsList);
+    }
 })
 
 function toggleElementVisibility(el) {
-    if(!el.classList.contains("hidden"))
+    if (!el.classList.contains("hidden")) {
         el.classList.add("hidden");
-    else
+    }
+    else {
         el.classList.remove("hidden");
+    }
 }
 
 function modifyResultsList(lines) {
-    if(filteredLines.length == 0 || searchterm.length <= 3)
+    if (lines.length == 0 || searchterm.length <= 3)
         clearSearchResults();
     
-        if(filteredLines.length < 100)
-            setSearchResults(filteredLines)
+        if (lines.length < 100)
+            setSearchResults(lines)
         
         else if(searchterm.length > 3)
             setSearchResults(filteredLines.slice(0, 100))
@@ -162,15 +164,17 @@ function setSearchResults(setListLines){
 
         resultsList.appendChild(resultItem)
     }
-    if(resultsList.classList.contains("hidden"))
+    if (resultsList.classList.contains("hidden")) {
         toggleElementVisibility(resultsList);
+    }
 }
 
-function clearSearchResults(){
-    while (resultsList.firstChild){
+function clearSearchResults() {
+    while (resultsList.firstChild) {
         resultsList.removeChild(resultsList.firstChild)
+    }
 
-    if(!resultsList.classList.contains("hidden"))
+    if (!resultsList.classList.contains("hidden")) {
         toggleElementVisibility(resultsList);
     }
 }

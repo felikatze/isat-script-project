@@ -188,31 +188,36 @@ img.cg {
     border-image: url("/assets/images/border.png") 14 round;
 }
 
+search-er {
+    padding: 16px;
+    padding-top: 0;
+    background-color: #434343;
+    width: 100%;
+    display: block;
+}
 
 #searchbox {
     width: var(--searchbar-length);
-    float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
     background-color: black;
+    border: gray 2px solid;
 }
 
 #searchbox:focus {
     outline: none;
     width: var(--searchbar-length);
-    float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
     background-color: black;
+    border: lightgray 2px solid;
 }
-
 
 .hidden {
     display: none;
 }
 
 #searchUL {
-    width: var(--searchbar-length);
     margin: 0;
     margin-top: 20px;
     float: right;
@@ -222,7 +227,6 @@ img.cg {
     height: 200px;
     overflow: hidden;
     overflow-y: auto;
-    position: absolute;
     z-index: 100;
     scrollbar-width: thin;
     border-color: #555;
@@ -254,8 +258,11 @@ img.cg {
 }
 .search-result-link {
     display: inline-block;
-    
+    text-decoration: none;
+    font-weight: normal !important;
+    width: 100%;
 }
+
 .search-result:hover {
     background-color: lightgrey;
 }
