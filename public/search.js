@@ -3,8 +3,6 @@ const IS_PROD = false;
 var currentPath = window.location.pathname.replaceAll("/", "\\")
 window.addEventListener("load", (event)=> {
 var match = window.location.hash.match(/^#!s(-?\d*)!(.*)$/);
-console.log(window.location.hash)
-console.log(match)
 if (match && match[2])
 {
 
@@ -12,21 +10,16 @@ var detailTags = document.getElementsByTagName("details");
 
 var searchText = decodeURI(match[2].replaceAll("%20", " "));
 //var searchText = match[2].replaceAll("%C2%A0", " ");
-console.log("SEARCHTEXT: " + decodeURI(searchText))
 var found;
 for (var i = 0; i < detailTags.length; i++) {
   for(var j = 0; j < detailTags[i].childNodes.length; j++){
-    console.log(detailTags[i].childNodes[j].textContent)
     if (detailTags[i].childNodes[j].textContent.includes(searchText)) {
-        console.log("FOUND IT")
         found = detailTags[i];
         break;
   }
  
   }
 }
-if(found)
-    console.log("Found!")
 if(found)
     found.setAttribute('open', '')
 
@@ -41,7 +34,6 @@ if(found)
   
   for (var i = 0; i < count; i++)
   {
-    console.log(decodeURI(match[2]))
     window.find(decodeURI(match[2]), false, backwards, false, false, true, false);
   }
 }
@@ -84,7 +76,6 @@ const allPageURIs = [
  }
 
  function filterLines(lines){
-    console.log(lines)
     searchterm = searchbox.value;
     filteredLines = lines.filter(x => x[1].toLowerCase().includes(searchterm.toLowerCase()));
     return filteredLines
