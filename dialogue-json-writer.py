@@ -14,9 +14,7 @@ for uri in allPublicSubdirectoryPageURIs:
     parsed_html = bs4.BeautifulSoup(file.read(), features="html.parser")
     pageTitle = parsed_html.find('title').text
     print(pageTitle)
-
-    for dh in parsed_html.body.findAll('span', attrs={'class', 'dialogue-head'}):
-        dh.decompose()
+    dialogue_heads = parsed_html.body.findAll('span', attrs={'class', 'dialogue-head'})
 
     dialogue_lines = parsed_html.body.findAll(True, attrs={'class', 'dialogue-line', 'dialogue-option-only'})
     dialogue_lines_linebreak_parsed = []
@@ -29,22 +27,32 @@ for uri in allPublicSubdirectoryPageURIs:
         br.replaceWith("\n")
 
     for line in dialogue_lines:
-        if(not "\n" in line):
-            
-            dialogue_lines_linebreak_parsed.append(line.text.strip())
+        lineParser = bs4.BeautifulSoup(str(line), features="html.parser")
+
+        possibleExpression = lineParser.find(True, attrs=('class', 'dialogue-expression'))
+        expression = "" if possibleExpression is None else possibleExpression.text
+
+        possibleSpeaker = lineParser.find(True, attrs=('class', 'dialogue-name'))
+        speaker = "" if possibleSpeaker is None else possibleSpeaker.text
+
+        for dh in lineParser.findAll('span', attrs={'class', 'dialogue-head', 'dialogue-name'}):
+            dh.decompose()
+        line = lineParser.text
+        if(len(line.strip()) == 0):
             continue
-        splitLines = str(line.text.strip()).split("\n")
+        if(not "\n" in line):
+            dialogue_lines_linebreak_parsed.append([line.strip(), expression, speaker])
+            continue
+        splitLines = str(line.strip()).split("\n")
         for sl in splitLines:
-            dialogue_lines_linebreak_parsed.append(sl)
+            dialogue_lines_linebreak_parsed.append([sl, expression, speaker])
 
     past_lines = []
     for line in dialogue_lines_linebreak_parsed:
         element_number = 1
         element_number = sum(line in s for s in past_lines) + 1
         past_lines.append(line)
-        parsed_dialogue_lines.append([uri.removeprefix("public"), line, pageTitle, element_number])
-    print(dialogue_lines_linebreak_parsed)
-
+        parsed_dialogue_lines.append([uri.removeprefix("public"), line[0], pageTitle, element_number, line[1], line[2]])
 
         
 
