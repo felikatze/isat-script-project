@@ -384,7 +384,7 @@ function tooltipImages() {
     for(let i = 0; i < dialogueHeads.length; i++)
     {
         let head = dialogueHeads[i]
-        if (head.querySelector(".dialogue-expression") && !head.querySelector(".expression-exception")) {
+        if (head.querySelector(".dialogue-expression")) {
             var nameElement = head.querySelector(".dialogue-name");
             var expressionElement = head.querySelector(".dialogue-expression");
             var nameReference;
@@ -404,18 +404,12 @@ function tooltipImages() {
                 }
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
-            else if (head.querySelector(".expression-exception-loop")) {
-                nameReference = "Loop";
-                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
-            }
-            else if (head.querySelector(".expression-exception-siffrin")) {
-                nameReference = "Siffrin";
-                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
-            }
-            else if (head.querySelector(".expression-exception-cg")) {
-                nameReference = head.querySelector(".expression-exception-cg").value;
-                expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`;
-                // need to change hhm's prefix also
+            else if (head.querySelector(".expression-exception")) {
+                nameReference = head.querySelector(".expression-exception").value;
+                if (nameReference.charAt(0) == "E") {
+                    expressionElement.innerHTML = `(H_${expression})`;
+                } else if (expression.charAt(0) == "T") {expressionElement.innerHTML = `(${expression})`;
+                } else {expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`};
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
             else {
