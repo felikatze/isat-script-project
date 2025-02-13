@@ -380,6 +380,7 @@ function tooltipImages() {
             var nameElement = head.querySelector(".dialogue-name");
             var expressionElement = head.querySelector(".dialogue-expression");
             var nameReference;
+            var expression = expressionElement.innerHTML.replace(/\((.+)\)/i, "$1");
 
             if (head.querySelector(".sasasap")) {
                 if (nameElement.innerHTML == "Siffrin") {
@@ -403,11 +404,35 @@ function tooltipImages() {
                 nameReference = "Siffrin";
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
+            else if (head.querySelector(".expression-exception-cg")) {
+                if (head.querySelector(".ee-bon")) {
+                    nameReference = "Bonnie";
+                    expressionElement.innerHTML = `(B_${expression})`;
+                } else if (head.querySelector(".ee-isa")) {
+                    nameReference = "Isabeau";
+                    expressionElement.innerHTML = `(I_${expression})`;
+                } else if (head.querySelector(".ee-mira")) {
+                    nameReference = "Mirabelle";
+                    expressionElement.innerHTML = `(M_${expression})`;
+                } else if (head.querySelector(".ee-odile")) {
+                    nameReference = "Odile";
+                    expressionElement.innerHTML = `(O_${expression})`;
+                } else if (head.querySelector(".ee-sif")) {
+                    nameReference = "Siffrin";
+                    expressionElement.innerHTML = `(S_${expression})`;
+                } else if (head.querySelector(".ee-loop")) {
+                    nameReference = "Loop";
+                    expressionElement.innerHTML = `(L_${expression})`;
+                } else if (head.querySelector(".ee-hhm")) {
+                    nameReference = "Euphrasie";
+                    expressionElement.innerHTML = `(H_${expression})`;
+                } 
+                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+            }
             else {
                 nameReference = nameElement.innerHTML;
             }
 
-            var expression = expressionElement.innerHTML.replace(/\((.+)\)/i, "$1");
             expressionElement.appendChild(document.createElement("span"));
             var tooltip = expressionElement.firstElementChild;
             tooltip.classList.add("tooltip");
