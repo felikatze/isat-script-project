@@ -413,8 +413,9 @@ function tooltipImages() {
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
             else if (head.querySelector(".expression-exception-cg")) {
-                    nameReference = head.querySelector(".expression-exception-cg").value;
-                    expressionElement.innerHTML = `(B_${expression})`;
+                nameReference = head.querySelector(".expression-exception-cg").value;
+                expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`;
+                // need to change hhm's prefix also
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
             else {
