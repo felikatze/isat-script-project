@@ -405,28 +405,9 @@ function tooltipImages() {
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
             else if (head.querySelector(".expression-exception-cg")) {
-                if (head.querySelector(".ee-bon")) {
-                    nameReference = "Bonnie";
-                    expressionElement.innerHTML = `(B_${expression})`;
-                } else if (head.querySelector(".ee-isa")) {
-                    nameReference = "Isabeau";
-                    expressionElement.innerHTML = `(I_${expression})`;
-                } else if (head.querySelector(".ee-mira")) {
-                    nameReference = "Mirabelle";
-                    expressionElement.innerHTML = `(M_${expression})`;
-                } else if (head.querySelector(".ee-odile")) {
-                    nameReference = "Odile";
-                    expressionElement.innerHTML = `(O_${expression})`;
-                } else if (head.querySelector(".ee-sif")) {
-                    nameReference = "Siffrin";
-                    expressionElement.innerHTML = `(S_${expression})`;
-                } else if (head.querySelector(".ee-loop")) {
-                    nameReference = "Loop";
-                    expressionElement.innerHTML = `(L_${expression})`;
-                } else if (head.querySelector(".ee-hhm")) {
-                    nameReference = "Euphrasie";
-                    expressionElement.innerHTML = `(H_${expression})`;
-                } 
+                nameReference = head.querySelector(".expression-exception-cg").value;
+                expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`;
+                // need to change hhm's prefix also
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
             }
             else {
