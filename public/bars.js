@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                  variables                                 //
 ////////////////////////////////////////////////////////////////////////////////
-var debugMode = true; // change this to true and check console for debug logs!
+var debugMode = false; // change this to true and check console for debug logs!
 var animationToggle;
 var wavelength = 0.025;
 var waveAmplitude = 15;
@@ -301,7 +301,6 @@ function applySettings() {
 window.onload = async function() {
     updateButtonsPosition();
     applySettings();
-    if (debugMode) {console.log("bars.js loaded")};
 };
 
 function topFunction() {

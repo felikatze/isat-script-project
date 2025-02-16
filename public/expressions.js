@@ -2,7 +2,6 @@ import {expressionsUrlDictionary} from "/expressionsUrlDict.js"
 
 window.onload = async function() {
     tooltipImages();
-    if (debugMode) {console.log("expressions.js loaded")};
 };
 
 ////////////////////////////////////////////////////////////////////////////////
