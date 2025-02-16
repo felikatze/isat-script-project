@@ -53,18 +53,15 @@ def write_lines_json():
         
 
 
-def name_this_later():
+def clean_game_lines():
     with open("Translations.json", encoding="utf-8") as file:
         game_translations_file: dict = json.load(file)
-        
-    with open("lines.json", encoding="utf-8") as file:
-        site_lines_file: dict = json.load(file)
 
-    pattern = re.compile(r"\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|wait|dot|rb|choice(var|space)|wish(on|off))\]|!\\|!|\.|\||\^|>|<|(reset)?shake|wave|{|}|v\[\d+?\]|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\]))")
-    
+    pattern = re.compile(r"(\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|wait|rb|choice(var|space)|wish(on|off))\]|!\\|!|\.|\||\^|>|<|(reset)?shake|wave|{|}|v\[\d+?\]|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\])|bustClear\[\d+?,\d+?\]))|m\[wait\]", flags=re.IGNORECASE)
+    dot_pattern = re.compile(r"\\m\[dot\]")
+    newline_pattern = re.compile(r"<br>\n|<br>|\n|\r")
     
     game_lines = []
-    i = 0
     
     for original_english_line in game_translations_file["msg"]:
         original_japanese_line = game_translations_file["msg"][original_english_line]["Japanese"]
@@ -72,6 +69,36 @@ def name_this_later():
         new_english_line = re.sub(pattern, '', original_english_line)
         new_japanese_line = re.sub(pattern, '', original_japanese_line)
         
-        line = {"en": new_english_line, "jp": new_japanese_line}
-        game_lines.append(line)
+        new_english_line = re.sub(dot_pattern, '...', new_english_line)
+        new_japanese_line = re.sub(dot_pattern, '...', new_japanese_line)
+        
+        new_english_line = re.sub(newline_pattern, ' ', new_english_line)
+        new_japanese_line = re.sub(newline_pattern, '', new_japanese_line)
+        
+        
+        if new_english_line or new_japanese_line: # if at least one of them isn't empty
+            line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
+            game_lines.append(line)
     
+    with open("game_lines.json", "wb") as file:
+        file.write(json.dumps(game_lines, indent=4, ensure_ascii=False).encode("utf8"))
+
+def clean_site_lines():
+    with open("raw_site_lines.json", encoding="utf-8") as file:
+        site_lines_file: dict = json.load(file)
+        
+    ignored_pages = re.compile(r"(about|index|not_found|portraits|test|(overview|sasasap)\/\w*)\.html")
+    newline_pattern = re.compile(r"(\n )?<br\/>(\n )?|\n ?")
+    tag_pattern = re.compile(r"<.+?>")
+        
+    for page in site_lines_file:
+        if not re.match(ignored_pages, page):
+            for line in site_lines_file[page]:
+                try:
+                    line["dialogue_clean"] = re.sub(newline_pattern, '', line["dialogue"])
+                    line["dialogue_clean"] = re.sub(tag_pattern, '', line["dialogue_clean"])
+                except KeyError:
+                    continue
+                    
+    with open("site_lines.json", "wb") as file:
+        file.write(json.dumps(site_lines_file, indent=4, ensure_ascii=False).encode("utf8"))
