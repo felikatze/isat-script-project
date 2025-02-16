@@ -22,7 +22,7 @@ def generate_filecontent(filelist: list[str] = generate_filelist()) -> dict[str,
         
 def write_to_file(data):
     with open("text.txt", "w", encoding="utf-8") as f:
-        f.write(str(data))
+        f.write(data)
 
 filecontent = generate_filecontent()
 print('doing things')
@@ -49,4 +49,6 @@ for file in filecontent:
         lines.append(line)
     pages[file] = lines
 
-write_to_file(pages)
+print("writing")
+with open("lines.json", "w", encoding="utf-8") as outfile:
+    json.dump(pages, outfile, indent=4)
