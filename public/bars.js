@@ -2,7 +2,7 @@ import {expressionsUrlDictionary} from "/expressionsUrlDict.js"
 ////////////////////////////////////////////////////////////////////////////////
 //                                  variables                                 //
 ////////////////////////////////////////////////////////////////////////////////
-var debugMode = false; // change this to true and check console for debug logs!
+var debugMode = true; // change this to true and check console for debug logs!
 var animationToggle;
 var wavelength = 0.025;
 var waveAmplitude = 15;
@@ -402,7 +402,7 @@ function tooltipImages() {
                 } else if (nameElement.innerHTML == "Odile") {
                     nameReference = "Researcher";
                 }
-                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+                if (debugMode) {console.info(`exception found: name is ${nameElement.innerHTML}, but head ${i} should be referencing ${nameReference}`)};
             }
             else if (head.querySelector(".expression-exception")) {
                 nameReference = head.querySelector(".expression-exception").value;
@@ -410,7 +410,7 @@ function tooltipImages() {
                     expressionElement.innerHTML = `(H_${expression})`;
                 } else if (expression.charAt(0) == "T") {expressionElement.innerHTML = `(${expression})`;
                 } else {expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`};
-                if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
+                if (debugMode) {console.info(`exception found: name is ${nameElement.innerHTML}, but head ${i} should be referencing ${nameReference}`)};
             }
             else {
                 nameReference = nameElement.innerHTML;
@@ -421,11 +421,19 @@ function tooltipImages() {
             tooltip.classList.add("tooltip");
 
             if (nameReference && expression) {
-                let dialogueImage = document.createElement("img");
-                dialogueImage.src = expressionsUrlDictionary[nameReference][expression];
-                tooltip.appendChild(dialogueImage);
-            } else {
-                tooltip.innerHTML = "image not found";
+                try {
+                    let dialogueImage = document.createElement("img");
+                    if (expressionsUrlDictionary[nameReference][expression] == null) {
+                        throw ReferenceError(`${expression} is undefined for ${nameReference}`)
+                    }
+                    dialogueImage.src = expressionsUrlDictionary[nameReference][expression];
+                    tooltip.appendChild(dialogueImage);
+                    if (debugMode) {console.log(`head ${i} is ${nameReference}, ${expression}`)};
+                }
+                catch (error) {
+                    tooltip.innerHTML = "image not found";
+                    if (debugMode) {console.error(`error at head ${i}: couldn't find ${nameReference} ${expression} because`, error)};
+                }
             }
         }
     }
