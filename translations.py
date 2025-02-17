@@ -13,7 +13,9 @@ def generate_filelist() -> list[str]:
                 filelist.append(os.path.join(root, file))
     return filelist
 
-def generate_filecontent(filelist: list[str] = generate_filelist()) -> dict[str, bs4.element.ResultSet[bs4.Tag]]:
+def generate_filecontent(filelist: list[str] = None) -> dict[str, bs4.element.ResultSet[bs4.Tag]]:
+    if not filelist:
+        filelist = generate_filelist()
     print("generating filecontent")
     filecontent = {}
     for file in filelist:
@@ -159,4 +161,24 @@ def associate_lines():
     with open("line_associations.json", "wb") as file:
         file.write(json.dumps(total_matches, indent=4, ensure_ascii=False).encode("utf8"))
         
-associate_lines()
+def grab_specific_page_line_associations(page_path: str):
+    with open("line_associations.json", encoding="utf-8") as file:
+        all_lines: dict[str, dict] = json.load(file)
+        
+    page_lines = all_lines[page_path]
+    
+    with open("line_associations/" + page_path.removesuffix(".html").replace("/", "_") + ".json", "wb+") as file:
+        file.write(json.dumps(page_lines, indent=4, ensure_ascii=False).encode("utf8"))
+        
+def generate_page_line_associations():
+    
+    filelist = []
+    for file in generate_filelist():
+        file = file.removeprefix("public\\").replace("\\", "/")
+        if not re.match(ignored_pages, file):
+            filelist.append(file)
+    
+    for file in filelist:
+        grab_specific_page_line_associations(file)
+        
+generate_page_line_associations()
