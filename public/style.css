@@ -168,7 +168,12 @@ img.cg {
     top: 2px;
 }
 
-
+/* alt text styled like notes */
+img::before {
+    display: block;
+    margin: 0.5em;
+    color: #ffffff7f;
+}
 
 /* ************************************************************************** */
 /*                                  dialogue                                  */
