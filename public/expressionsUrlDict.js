@@ -1,1310 +1,436 @@
 export const expressionsUrlDictionary = { 
-    "Bonnie" : {
-     "and then1":
-      "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Bonnie_Pumped.png",
-        
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/e/ea/ISAT_Portrait_Bonnie_Angry_1.png",
-        
-     "angry2":
-        "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Bonnie_Angry_2.png",
-        
-     "crying1":
-        "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Bonnie_Crying_1.png",
-        
-     "crying2":
-        "https://instarsandtime.wiki.gg/images/8/86/ISAT_Portrait_Bonnie_Crying_2.png",
-        
-     "crying3":
-        "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Crying_3.png",
-        
-     "crying4":
-        "https://instarsandtime.wiki.gg/images/b/bd/ISAT_Portrait_Bonnie_Crying_4.png",
-        
-     "crying5":
-        "https://instarsandtime.wiki.gg/images/0/06/ISAT_Portrait_Bonnie_Crying_5.png",
-        
-     "crying6":
-        "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Bonnie_Crying_6.png",
-        
-     "ew1":
-        "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Bonnie_Disgusted.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Neutral.png",
-        
-     "happy1":
-        "https://instarsandtime.wiki.gg/images/4/4a/ISAT_Portrait_Bonnie_Happy_1.png",
-        
-     "happy2":
-        "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Bonnie_Happy_2.png",
-        
-     "hmf1":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Bonnie_Hmf_1.png",
-        
-     "hmf2":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Bonnie_Hmf_2.png",
-        
-     "hmf3":
-        "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Bonnie_Hmf_3.png",
-        
-     "lmao1":
-        "https://instarsandtime.wiki.gg/images/8/82/ISAT_Portrait_Bonnie_Ridiculing.png",
-        
-     "lol1":
-        "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Bonnie_Laughing_1.png",
-        
-     "lol2":
-        "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Bonnie_Laughing_2.png",
-        
-     "mock1":
-        "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Bonnie_Mocking.png",
-        
-     "no!1":
-        "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Bonnie_Yelling_1.png",
-        
-     "no!2":
-        "https://instarsandtime.wiki.gg/images/0/08/ISAT_Portrait_Bonnie_Yelling_2.png",
-        
-     "oh!1":
-        "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Bonnie_Pointing.png",
-        
-     "proud1":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Proud.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Bonnie_Sad_1.png",
-        
-     "sad2":
-        "https://instarsandtime.wiki.gg/images/f/f0/ISAT_Portrait_Bonnie_Sad_2.png",
-        
-     "serious1":
-        "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Bonnie_Serious.png",
-        
-     "shy1":
-        "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Bonnie_Shy_1.png",
-        
-     "shy2":
-        "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Bonnie_Shy_2.png",
-        
-     "smile1":
-        "https://instarsandtime.wiki.gg/images/a/ac/ISAT_Portrait_Bonnie_Smile_1.png",
-        
-     "smile2":
-        "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Bonnie_Smile_2.png",
-        
-     "smile3":
-        "https://instarsandtime.wiki.gg/images/3/32/ISAT_Portrait_Bonnie_Smile_3.png",
-        
-     "smile4":
-        "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Bonnie_Smile_4.png",
-        
-     "spooky1":
-        "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Bonnie_Spooky.png",
-        
-     "stop!1":
-        "https://instarsandtime.wiki.gg/images/7/7a/ISAT_Portrait_Bonnie_Protesting_1.png",
-        
-     "stop!2":
-        "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Bonnie_Protesting_2.png",
-        
-     "sulk1":
-        "https://instarsandtime.wiki.gg/images/d/df/ISAT_Portrait_Bonnie_Sulking_1.png",
-        
-     "sulk2":
-        "https://instarsandtime.wiki.gg/images/3/3e/ISAT_Portrait_Bonnie_Sulking_2.png",
-        
-     "sulk3":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Bonnie_Sulking_3.png",
-        
-     "sulk4":
-        "https://instarsandtime.wiki.gg/images/b/b3/ISAT_Portrait_Bonnie_Sulking_4.png",
-        
-     "sulk5":
-        "https://instarsandtime.wiki.gg/images/1/14/ISAT_Portrait_Bonnie_Sulking_5.png",
-        
-     "surprised1":
-        "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Bonnie_Surprised.png",
-        
-     "UWAH1":
-        "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Bonnie_Flustered.png",
-        
-     "victory1":
-        "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Victorious.png",
-        
-     "wait1":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Bonnie_Confused.png",
-        
-     "whichone1":
-        "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Bonnie_Troubled.png",
-        
-     "wow1":
-        "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Bonnie_Awed.png",
-        
-     "yeah!1":
-        "https://instarsandtime.wiki.gg/images/3/3b/ISAT_Portrait_Bonnie_Excited_1.png",
-        
-     "yeah!2":
-        "https://instarsandtime.wiki.gg/images/b/b6/ISAT_Portrait_Bonnie_Excited_2.png",
-        
-     "yeah!3":
-        "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Bonnie_Excited_3.png",
-        
-     "zomg":
-        "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Bonnie_Flabbergasted.png"    
+"Bonnie" : {
+    "and then1":"/assets/expressions/B_and then_1.png",
+    "angry1":"/assets/expressions/B_angry_1.png",
+    "angry2":"/assets/expressions/B_angry_2.png",
+    "crying1":"/assets/expressions/B_crying_1.png",
+    "crying2":"/assets/expressions/B_crying_2.png",
+    "crying3":"/assets/expressions/B_crying_3.png",
+    "crying4":"/assets/expressions/B_crying_4.png",
+    "crying5":"/assets/expressions/B_crying_5.png",
+    "crying6":"/assets/expressions/B_crying_6.png",
+    "ew1":"/assets/expressions/B_ew_1.png",
+    "happy1":"/assets/expressions/B_happy_1.png",
+    "happy2":"/assets/expressions/B_happy_2.png",
+    "hmf1":"/assets/expressions/B_hmf_1.png",
+    "hmf2":"/assets/expressions/B_hmf_2.png",
+    "hmf3":"/assets/expressions/B_hmf_3.png",
+    "lmao1":"/assets/expressions/B_lmao_1.png",
+    "lol1":"/assets/expressions/B_lol_1.png",
+    "lol2":"/assets/expressions/B_lol_2.png",
+    "mock1":"/assets/expressions/B_mock_1.png",
+    "no!1":"/assets/expressions/B_no!_1.png",
+    "no!2":"/assets/expressions/B_no!_2.png",
+    "oh!1":"/assets/expressions/B_oh!_1.png",
+    "proud1":"/assets/expressions/B_proud_1.png",
+    "sad1":"/assets/expressions/B_sad_1.png",
+    "sad2":"/assets/expressions/B_sad_2.png",
+    "serious1":"/assets/expressions/B_serious_1.png",
+    "shy1":"/assets/expressions/B_shy_1.png",
+    "shy2":"/assets/expressions/B_shy_2.png",
+    "smile1":"/assets/expressions/B_smile_1.png",
+    "smile2":"/assets/expressions/B_smile_2.png",
+    "smile3":"/assets/expressions/B_smile_3.png",
+    "smile4":"/assets/expressions/B_smile_4.png",
+    "spooky1":"/assets/expressions/B_spooky_1.png",
+    "stop!1":"/assets/expressions/B_stop!_1.png",
+    "stop!2":"/assets/expressions/B_stop!_2.png",
+    "sulk1":"/assets/expressions/B_sulk_1.png",
+    "sulk2":"/assets/expressions/B_sulk_2.png",
+    "sulk3":"/assets/expressions/B_sulk_3.png",
+    "sulk4":"/assets/expressions/B_sulk_4.png",
+    "sulk5":"/assets/expressions/B_sulk_5.png",
+    "surprised1":"/assets/expressions/B_surprised_1.png",
+    "UWAH1":"/assets/expressions/B_UWAH_1.png",
+    "victory1":"/assets/expressions/B_victory_1.png",
+    "wait1":"/assets/expressions/B_wait_1.png",
+    "whichone1":"/assets/expressions/B_whichone_1.png",
+    "wow1":"/assets/expressions/B_wow_1.png",
+    "yeah!1":"/assets/expressions/B_yeah!_1.png",
+    "yeah!2":"/assets/expressions/B_yeah!_2.png",
+    "yeah!3":"/assets/expressions/B_yeah!_3.png",
+    "zomg":"/assets/expressions/B_zomg.png"
 },
 
 "Euphrasie" : {
-     "CRAB1":
-        "https://instarsandtime.wiki.gg/images/3/3c/ISAT_Portrait_Head_Housemaiden_Shocked.png",
-        
-     "ending1":
-        "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Head_Housemaiden_Crying_1.png",
-        
-     "ending2":
-        "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Head_Housemaiden_Crying_2.png",
-        
-     "ending3":
-        "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Head_Housemaiden_Crying_3.png",
-        
-     "ending4":
-        "https://instarsandtime.wiki.gg/images/d/d1/ISAT_Portrait_Head_Housemaiden_Crying_4.png",
-        
-     "ending5":
-        "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Head_Housemaiden_Crying_5.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Head_Housemaiden_Smiling_1.png",
-        
-     "mirabelle1":
-        "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Head_Housemaiden_Affectionate.png",
-        
-     "oh1":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Head_Housemaiden_Taken_Aback.png",
-        
-     "smiling1":
-        "https://instarsandtime.wiki.gg/images/b/b1/ISAT_Portrait_Head_Housemaiden_Smiling_1.png",
-        
-     "smiling2":
-        "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Head_Housemaiden_Smiling_2.png",
-        
-     "smiling3":
-        "https://instarsandtime.wiki.gg/images/5/5e/ISAT_Portrait_Head_Housemaiden_Smiling_3.png",
-        
-     "smiling4":
-        "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Head_Housemaiden_Smiling_4.png",
-        
-     "sorry1":
-        "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Head_Housemaiden_Apologizing_1.png",
-        
-     "sorry2":
-        "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Head_Housemaiden_Apologizing_2.png",
-        
-     "sorry3":
-        "https://instarsandtime.wiki.gg/images/5/5c/ISAT_Portrait_Head_Housemaiden_Apologizing_3.png",
-        
-     "thankyou1":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Head_Housemaiden_Grateful_1.png",
-        
-     "thankyou2":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Head_Housemaiden_Grateful_2.png" 
+    "CRAB1":"/assets/expressions/E_CRAB_1.png",
+    "ending1":"/assets/expressions/E_ending_1.png",
+    "ending2":"/assets/expressions/E_ending_2.png",
+    "ending3":"/assets/expressions/E_ending_3.png",
+    "ending5":"/assets/expressions/E_ending_5.png",
+    "mirabelle1":"/assets/expressions/E_mirabelle_1.png",
+    "oh1":"/assets/expressions/E_oh_1.png",
+    "smiling1":"/assets/expressions/E_smiling_1.png",
+    "smiling2":"/assets/expressions/E_smiling_2.png",
+    "smiling3":"/assets/expressions/E_smiling_3.png",
+    "smiling4":"/assets/expressions/E_smiling_4.png",
+    "sorry1":"/assets/expressions/E_sorry_1.png",
+    "sorry2":"/assets/expressions/E_sorry_2.png",
+    "sorry3":"/assets/expressions/E_sorry_3.png",
+    "thankyou1":"/assets/expressions/E_thankyou_1.png",
+    "thankyou2":"/assets/expressions/E_thankyou_2.png"
 },
 
-
-
- "Isabeau" : {
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/0/01/ISAT_Portrait_Isabeau_Angry_1.png",
-        
-     "angry2":
-        "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Isabeau_Angry_2.png",
-        
-     "angry3":
-        "https://instarsandtime.wiki.gg/images/6/6e/ISAT_Portrait_Isabeau_Angry_3.png",
-        
-     "awkward1":
-        "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Isabeau_Awkward.png",
-        
-     "blank1":
-        "https://instarsandtime.wiki.gg/images/2/22/ISAT_Portrait_Isabeau_Blank.png",
-        
-     "blush1":
-        "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Isabeau_Blush_1.png",
-        
-     "blush2":
-        "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Isabeau_Blush_2.png",
-        
-     "blush3":
-        "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Isabeau_Blush_3.png",
-        
-     "boo1":
-        "https://instarsandtime.wiki.gg/images/2/2f/ISAT_Portrait_Isabeau_Boo.png",
-        
-     "brag1":
-        "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Isabeau_Brag.png",
-        
-     "disappointed1":
-        "https://instarsandtime.wiki.gg/images/f/f7/ISAT_Portrait_Isabeau_Disappointed_1.png",
-        
-     "disappointed2":
-        "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Isabeau_Disappointed_2.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/5/59/ISAT_Portrait_Isabeau_Smile.png",
-        
-     "fight1":
-        "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Isabeau_Fight_1.png",
-        
-     "fight2":
-        "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Fight_2.png",
-        
-     "fufufu1":
-        "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Fufufu.png",
-        
-     "glare1":
-        "https://instarsandtime.wiki.gg/images/9/9b/ISAT_Portrait_Isabeau_Glare.png",
-        
-     "hahaaa1":
-        "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Isabeau_Awkward_Laugh.png",
-        
-     "hahaha1":
-        "https://instarsandtime.wiki.gg/images/8/81/ISAT_Portrait_Isabeau_Laugh_1.png",
-        
-     "hahaha2":
-        "https://instarsandtime.wiki.gg/images/3/3f/ISAT_Portrait_Isabeau_Laugh_2.png",
-        
-     "happy1":
-        "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Isabeau_Fond_2.png",
-        
-     "hey1":
-        "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Isabeau_Startled_2.png",
-        
-     "hm1":
-        "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Isabeau_Hm_1.png",
-        
-     "hm2":
-        "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Hm_2.png",
-        
-     "hm3":
-        "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Hm_3.png",
-        
-     "hm4":
-        "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Isabeau_Hm_4.png",
-        
-     "hm5":
-        "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Isabeau_Hm_5.png",
-        
-     "huh1":
-        "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Isabeau_Startled_1.png",
-        
-     "huh2":
-        "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Isabeau_Startled_2.png",
-        
-     "huh3":
-        "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Isabeau_Startled_3.png",
-        
-     "huhwah1":
-        "https://instarsandtime.wiki.gg/images/8/8a/ISAT_Portrait_Isabeau_Alarmed.png",
-        
-     "jhgsaghjsaghjas1":
-        "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Isabeau_Keysmash.png",
-        
-     "LMAO1":
-        "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Isabeau_Guffaw.png",
-        
-     "neutral1":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Isabeau_Neutral_1.png",
-        
-     "neutral2":
-        "https://instarsandtime.wiki.gg/images/4/46/ISAT_Portrait_Isabeau_Neutral_2.png",
-        
-     "NO!1":
-        "https://instarsandtime.wiki.gg/images/e/ec/ISAT_Portrait_Isabeau_Weeping.png",
-        
-     "oh1":
-        "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Isabeau_Oh.png",
-        
-     "omgggg1":
-        "https://instarsandtime.wiki.gg/images/e/ea/ISAT_Portrait_Isabeau_Flustered.png",
-        
-     "practice1":
-        "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Isabeau_Fond_1.png",
-        
-     "really1":
-        "https://instarsandtime.wiki.gg/images/9/90/ISAT_Portrait_Isabeau_Really_1.png",
-        
-     "really2":
-        "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Isabeau_Really_2.png",
-        
-     "really3":
-        "https://instarsandtime.wiki.gg/images/c/c7/ISAT_Portrait_Isabeau_Really_3.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Isabeau_Sad_1.png",
-        
-     "sad2":
-        "https://instarsandtime.wiki.gg/images/7/7d/ISAT_Portrait_Isabeau_Sad_2.png",
-        
-     "sad3":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Isabeau_Sad_3.png",
-        
-     "sad4":
-        "https://instarsandtime.wiki.gg/images/4/4e/ISAT_Portrait_Isabeau_Sad_4.png",
-        
-     "sad5":
-        "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Isabeau_Sad_5.png",
-        
-     "scared1":
-        "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Isabeau_Scared.png",
-        
-     "shock1":
-        "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Isabeau_Shocked_1.png",
-        
-     "shock2":
-        "https://instarsandtime.wiki.gg/images/a/a3/ISAT_Portrait_Isabeau_Shocked_2.png",
-        
-     "shock3":
-        "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Isabeau_Shocked_3.png",
-        
-     "shy1":
-        "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Isabeau_Shy_1.png",
-        
-     "shy2":
-        "https://instarsandtime.wiki.gg/images/2/27/ISAT_Portrait_Isabeau_Shy_2.png",
-        
-     "sif!1":
-        "https://instarsandtime.wiki.gg/images/7/7e/ISAT_Portrait_Isabeau_Affectionate.png",
-        
-     "sniff1":
-        "https://instarsandtime.wiki.gg/images/e/e6/ISAT_Portrait_Isabeau_Sniff.png",
-        
-     "spooky1":
-        "https://instarsandtime.wiki.gg/images/5/5a/ISAT_Portrait_Isabeau_Spooky.png",
-        
-     "surprised1":
-        "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Isabeau_Startled_1.png",
-        
-     "um1":
-        "https://instarsandtime.wiki.gg/images/6/61/ISAT_Portrait_Isabeau_Um.png",
-        
-     "up1":
-        "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Isabeau_Looking_Up.png",
-        
-     "uwah!1":
-        "https://instarsandtime.wiki.gg/images/d/dd/ISAT_Portrait_Isabeau_Uwah.png",
-        
-     "weh1":
-        "https://instarsandtime.wiki.gg/images/b/be/ISAT_Portrait_Isabeau_Weh.png",
-        
-     "wonder1":
-        "https://instarsandtime.wiki.gg/images/9/97/ISAT_Portrait_Isabeau_Wonder_1.png",
-        
-     "wonder2":
-        "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Isabeau_Wonder_2.png",
-        
-     "worried1":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Isabeau_Worried_1.png",
-        
-     "worried2":
-        "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Isabeau_Worried_2.png",
-        
-     "yeah!1":
-        "https://instarsandtime.wiki.gg/images/b/bc/ISAT_Portrait_Isabeau_Yeah.png"
+"Isabeau" : {
+    "angry1":"/assets/expressions/I_angry_1.png",
+    "angry2":"/assets/expressions/I_angry_2.png",
+    "angry3":"/assets/expressions/I_angry_3.png",
+    "awkward1":"/assets/expressions/I_awkward_1.png",
+    "blank1":"/assets/expressions/I_blank_1.png",
+    "blush1":"/assets/expressions/I_blush_1.png",
+    "blush2":"/assets/expressions/I_blush_2.png",
+    "blush3":"/assets/expressions/I_blush_3.png",
+    "boo1":"/assets/expressions/I_boo_1.png",
+    "brag1":"/assets/expressions/I_brag_1.png",
+    "disappointed1":"/assets/expressions/I_disappointed_1.png",
+    "disappointed2":"/assets/expressions/I_disappointed_2.png",
+    "fight1":"/assets/expressions/I_fight_1.png",
+    "fight2":"/assets/expressions/I_fight_2.png",
+    "fufufu1":"/assets/expressions/I_fufufu_1.png",
+    "glare1":"/assets/expressions/I_glare_1.png",
+    "hahaaa1":"/assets/expressions/I_hahaaa_1.png",
+    "hahaha1":"/assets/expressions/I_hahaha_1.png",
+    "hahaha2":"/assets/expressions/I_hahaha_2.png",
+    "happy1":"/assets/expressions/I_happy_1.png",
+    "hey1":"/assets/expressions/I_hey_1.png",
+    "hm1":"/assets/expressions/I_hm_1.png",
+    "hm2":"/assets/expressions/I_hm_2.png",
+    "hm3":"/assets/expressions/I_hm_3.png",
+    "hm4":"/assets/expressions/I_hm_4.png",
+    "hm5":"/assets/expressions/I_hm_5.png",
+    "huh1":"/assets/expressions/I_huh_1.png",
+    "huh2":"/assets/expressions/I_huh_2.png",
+    "huhwah1":"/assets/expressions/I_huhwah_1.png",
+    "jhgsaghjsaghjas1":"/assets/expressions/I_jhgsaghjsaghjas_1.png",
+    "LMAO1":"/assets/expressions/I_LMAO_1.png",
+    "neutral1":"/assets/expressions/I_neutral_1.png",
+    "neutral2":"/assets/expressions/I_neutral_2.png",
+    "NO!1":"/assets/expressions/I_NO!_1.png",
+    "oh1":"/assets/expressions/I_oh_1.png",
+    "omgggg1":"/assets/expressions/I_omgggg_1.png",
+    "practice1":"/assets/expressions/I_practice_1.png",
+    "really1":"/assets/expressions/I_really_1.png",
+    "really2":"/assets/expressions/I_really_2.png",
+    "really3":"/assets/expressions/I_really_3.png",
+    "sad1":"/assets/expressions/I_sad_1.png",
+    "sad2":"/assets/expressions/I_sad_2.png",
+    "sad3":"/assets/expressions/I_sad_3.png",
+    "sad4":"/assets/expressions/I_sad_4.png",
+    "sad5":"/assets/expressions/I_sad_5.png",
+    "scared1":"/assets/expressions/I_scared_1.png",
+    "shock1":"/assets/expressions/I_shock_1.png",
+    "shock2":"/assets/expressions/I_shock_2.png",
+    "shock3":"/assets/expressions/I_shock_3.png",
+    "shy1":"/assets/expressions/I_shy_1.png",
+    "shy2":"/assets/expressions/I_shy_2.png",
+    "sif!1":"/assets/expressions/I_sif!_1.png",
+    "sniff1":"/assets/expressions/I_sniff_1.png",
+    "spooky1":"/assets/expressions/I_spooky_1.png",
+    "surprised1":"/assets/expressions/I_surprised_1.png",
+    "um1":"/assets/expressions/I_um_1.png",
+    "up1":"/assets/expressions/I_up_1.png",
+    "uwah!1":"/assets/expressions/I_uwah!_1.png",
+    "weh1":"/assets/expressions/I_weh_1.png",
+    "wonder1":"/assets/expressions/I_wonder_1.png",
+    "wonder2":"/assets/expressions/I_wonder_2.png",
+    "worried1":"/assets/expressions/I_worried_1.png",
+    "worried2":"/assets/expressions/I_worried_2.png",
+    "yeah!1":"/assets/expressions/I_yeah!_1.png"
 },
 
+"King":
+    {"King":"/assets/expressions/k---.png"},
 
-
- "King":
-"https://instarsandtime.wiki.gg/images/a/a5/ISAT_Portrait_King.png",
-
-
- "Loop":{
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/b/b3/ISAT_Portrait_Loop_Angry.png",
-        
-     "away1":
-        "https://instarsandtime.wiki.gg/images/7/76/ISAT_Portrait_Loop_Looking_Away.png",
-        
-     "ew1":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Urgh.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png",
-        
-     "fake1":
-        "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Loop_Fake_1.png",
-        
-     "fake2":
-        "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Loop_Fake_2.png",
-        
-     "guilty1":
-        "https://instarsandtime.wiki.gg/images/2/23/ISAT_Portrait_Loop_Guilty_1.png",
-        
-     "guilty2":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Loop_Guilty_2.png",
-        
-     "happy1":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Loop_Happy_1.png",
-        
-     "happy2":
-        "https://instarsandtime.wiki.gg/images/9/9c/ISAT_Portrait_Loop_Happy_2.png",
-        
-     "happy3":
-        "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Loop_Happy_3.png",
-        
-     "hm1":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Considering.png",
-        
-     "hmmm1":
-        "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Loop_Thinking.png",
-        
-     "lol1":
-        "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Loop_LOL_1.png",
-        
-     "lol2":
-        "https://instarsandtime.wiki.gg/images/6/6f/ISAT_Portrait_Loop_LOL_2.png",
-        
-     "lol3":
-        "https://instarsandtime.wiki.gg/images/a/a6/ISAT_Portrait_Loop_LOL_3.png",
-        
-     "lol4":
-        "https://instarsandtime.wiki.gg/images/1/1a/ISAT_Portrait_Loop_LOL_4.png",
-        
-     "lol5":
-        "https://instarsandtime.wiki.gg/images/d/d9/ISAT_Portrait_Loop_LOL_5.png",
-        
-     "lol6":
-        "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Loop_LOL_6.png",
-        
-     "oh my1":
-        "https://instarsandtime.wiki.gg/images/d/df/ISAT_Portrait_Loop_Fake_Shocked.png",
-        
-     "oh1":
-        "https://instarsandtime.wiki.gg/images/3/38/ISAT_Portrait_Loop_Oh.png",
-        
-     "possessed1":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Loop_Possessed.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/3/3f/ISAT_Portrait_Loop_Sad_1.png",
-        
-     "sad2":
-        "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Loop_Sad_2.png",
-        
-     "serious1":
-        "https://instarsandtime.wiki.gg/images/2/26/ISAT_Portrait_Loop_Serious_1.png",
-        
-     "serious2":
-        "https://instarsandtime.wiki.gg/images/e/e0/ISAT_Portrait_Loop_Serious_2.png",
-        
-     "shock1":
-        "https://instarsandtime.wiki.gg/images/5/5f/ISAT_Portrait_Loop_Shock_1.png",
-        
-     "shock2":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Loop_Shock_2.png",
-        
-     "subdued1":
-        "https://instarsandtime.wiki.gg/images/7/78/ISAT_Portrait_Loop_Subdued.png",
-        
-     "teehee1":
-        "https://instarsandtime.wiki.gg/images/4/43/ISAT_Portrait_Loop_Teehee_1.png",
-        
-     "teehee2":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Loop_Teehee_2.png",
-        
-     "teehee3":
-        "https://instarsandtime.wiki.gg/images/2/21/ISAT_Portrait_Loop_Teehee_3.png",
-        
-     "teehee4":
-        "https://instarsandtime.wiki.gg/images/3/35/ISAT_Portrait_Loop_Teehee_4.png",
-        
-     "teehee5":
-        "https://instarsandtime.wiki.gg/images/3/33/ISAT_Portrait_Loop_Teehee_5.png",
-        
-     "urgh1":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Loop_Urgh.png",
-        
-     "well1":
-        "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Loop_Well_1.png",
-        
-     "well2":
-        "https://instarsandtime.wiki.gg/images/9/91/ISAT_Portrait_Loop_Well_2.png",
-        
-     "well3":
-        "https://instarsandtime.wiki.gg/images/7/78/ISAT_Portrait_Loop_Well_3.png",
-        
-     "well4":
-        "https://instarsandtime.wiki.gg/images/b/b2/ISAT_Portrait_Loop_Well_4.png"
-        
+"Loop":{
+    "angry1":"/assets/expressions/L_angry_1.png",
+    "away1":"/assets/expressions/L_away_1.png",
+    "ew1":"/assets/expressions/L_ew_1.png",
+    "expressionnumber":"/assets/expressions/L_expressionnumber.png",
+    "fake1":"/assets/expressions/L_fake_1.png",
+    "fake2":"/assets/expressions/L_fake_2.png",
+    "guilty1":"/assets/expressions/L_guilty_1.png",
+    "guilty2":"/assets/expressions/L_guilty_2.png",
+    "happy1":"/assets/expressions/L_happy_1.png",
+    "happy2":"/assets/expressions/L_happy_2.png",
+    "happy3":"/assets/expressions/L_happy_3.png",
+    "hm1":"/assets/expressions/L_hm_1.png",
+    "hmmm1":"/assets/expressions/L_hmmm_1.png",
+    "lol1":"/assets/expressions/L_lol_1.png",
+    "lol2":"/assets/expressions/L_lol_2.png",
+    "lol3":"/assets/expressions/L_lol_3.png",
+    "lol4":"/assets/expressions/L_lol_4.png",
+    "lol5":"/assets/expressions/L_lol_5.png",
+    "lol6":"/assets/expressions/L_lol_6.png",
+    "oh my1":"/assets/expressions/L_oh my_1.png",
+    "oh1":"/assets/expressions/L_oh_1.png",
+    "possessed1":"/assets/expressions/L_possessed_1.png",
+    "sad1":"/assets/expressions/L_sad_1.png",
+    "sad2":"/assets/expressions/L_sad_2.png",
+    "serious1":"/assets/expressions/L_serious_1.png",
+    "serious2":"/assets/expressions/L_serious_2.png",
+    "shock2":"/assets/expressions/L_shock_2.png",
+    "subdued1":"/assets/expressions/L_subdued_1.png",
+    "teehee1":"/assets/expressions/L_teehee_1.png",
+    "teehee2":"/assets/expressions/L_teehee_2.png",
+    "teehee3":"/assets/expressions/L_teehee_3.png",
+    "teehee4":"/assets/expressions/L_teehee_4.png",
+    "teehee5":"/assets/expressions/L_teehee_5.png",
+    "urgh1":"/assets/expressions/L_urgh_1.png",
+    "well2":"/assets/expressions/L_well_2.png",
+    "well3":"/assets/expressions/L_well_3.png",
+    "well4":"/assets/expressions/L_well_4.png"
 },
 
-
-
- "Mirabelle": {
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Mirabelle_Angry_1.png",
-        
-     "angry2":
-        "https://instarsandtime.wiki.gg/images/5/56/ISAT_Portrait_Mirabelle_Angry_2.png",
-        
-     "angry3":
-        "https://instarsandtime.wiki.gg/images/b/b0/ISAT_Portrait_Mirabelle_Angry_3.png",
-        
-     "angry4":
-        "https://instarsandtime.wiki.gg/images/a/af/ISAT_Portrait_Mirabelle_Angry_4.png",
-        
-     "angry5":
-        "https://instarsandtime.wiki.gg/images/d/d8/ISAT_Portrait_Mirabelle_Angry_5.png",
-        
-     "angy1":
-        "https://instarsandtime.wiki.gg/images/e/ed/ISAT_Portrait_Mirabelle_Irritated.png",
-        
-     "anxious1":
-        "https://instarsandtime.wiki.gg/images/7/72/ISAT_Portrait_Mirabelle_Anxious_1.png",
-        
-     "anxious2":
-        "https://instarsandtime.wiki.gg/images/a/ad/ISAT_Portrait_Mirabelle_Anxious_2.png",
-        
-     "anxious3":
-        "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Mirabelle_Anxious_3.png",
-        
-     "awawa1":
-        "https://instarsandtime.wiki.gg/images/a/ad/ISAT_Portrait_Mirabelle_Panicking.png",
-        
-     "awkward1":
-        "https://instarsandtime.wiki.gg/images/0/06/ISAT_Portrait_Mirabelle_Awkward_1a.png",
-        
-     "awkward1b":
-        "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Mirabelle_Awkward_1b.png",
-        
-     "awkward2":
-        "https://instarsandtime.wiki.gg/images/a/af/ISAT_Portrait_Mirabelle_Awkward_2.png",
-        
-     "excited1":
-        "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Mirabelle_Excited.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/1/1b/ISAT_Portrait_Mirabelle_Awkward_1b.png",
-        
-     "fight1":
-        "https://instarsandtime.wiki.gg/images/f/f5/ISAT_Portrait_Mirabelle_Fight_1.png",
-        
-     "fight2":
-        "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Mirabelle_Fight_2.png",
-        
-     "fight3":
-        "https://instarsandtime.wiki.gg/images/9/94/ISAT_Portrait_Mirabelle_Fight_3.png",
-        
-     "fight4":
-        "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Mirabelle_Fight_4.png",
-        
-     "fight5":
-        "https://instarsandtime.wiki.gg/images/a/a1/ISAT_Portrait_Mirabelle_Fight_5.png",
-        
-     "gentle1":
-        "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Mirabelle_Gentle_1.png",
-        
-     "gentle2":
-        "https://instarsandtime.wiki.gg/images/e/eb/ISAT_Portrait_Mirabelle_Gentle_2.png",
-        
-     "haha1":
-        "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Mirabelle_Laughing.png",
-        
-     "happy1":
-        "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Mirabelle_Happy_1.png",
-        
-     "happy2":
-        "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Mirabelle_Happy_2.png",
-        
-     "happy3":
-        "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Mirabelle_Happy_3.png",
-        
-     "happy4":
-        "https://instarsandtime.wiki.gg/images/5/54/ISAT_Portrait_Mirabelle_Happy_4.png",
-        
-     "hm1":
-        "https://instarsandtime.wiki.gg/images/0/04/ISAT_Portrait_Mirabelle_Contemplative_1.png",
-        
-     "hm2":
-        "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Mirabelle_Contemplative_2.png",
-        
-     "hm3":
-        "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Mirabelle_Contemplative_3.png",
-        
-     "hmf1":
-        "https://instarsandtime.wiki.gg/images/6/64/ISAT_Portrait_Mirabelle_Hmf.png",
-        
-     "neutral1":
-        "https://instarsandtime.wiki.gg/images/f/f9/ISAT_Portrait_Mirabelle_Neutral.png",
-        
-     "no!1":
-        "https://instarsandtime.wiki.gg/images/1/1d/ISAT_Portrait_Mirabelle_Horrified_1.png",
-        
-     "no!2":
-        "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Mirabelle_Horrified_2.png",
-        
-     "oh!1":
-        "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Mirabelle_Surprised.png",
-        
-     "pft1":
-        "https://instarsandtime.wiki.gg/images/7/79/ISAT_Portrait_Mirabelle_Chuckling.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/6/6c/ISAT_Portrait_Mirabelle_Sad_1.png",
-        
-     "sad2":
-        "https://instarsandtime.wiki.gg/images/7/7d/ISAT_Portrait_Mirabelle_Sad_2.png",
-        
-     "sad3":
-        "https://instarsandtime.wiki.gg/images/2/22/ISAT_Portrait_Mirabelle_Sad_3.png",
-        
-     "sad4":
-        "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Sad_4.png",
-        
-     "serious1":
-        "https://instarsandtime.wiki.gg/images/5/51/ISAT_Portrait_Mirabelle_Serious_1.png",
-        
-     "serious2":
-        "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Mirabelle_Serious_2.png",
-        
-     "serious3":
-        "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Mirabelle_Serious_3.png",
-        
-     "serious4":
-        "https://instarsandtime.wiki.gg/images/0/0a/ISAT_Portrait_Mirabelle_Serious_4.png",
-        
-     "serious5":
-        "https://instarsandtime.wiki.gg/images/e/e5/ISAT_Portrait_Mirabelle_Serious_5.png",
-        
-     "spooky1":
-        "https://instarsandtime.wiki.gg/images/d/de/ISAT_Portrait_Mirabelle_Spooky.png",
-        
-     "stressed1":
-        "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Mirabelle_Stressed_1.png",
-        
-     "stressed2":
-        "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Mirabelle_Stressed_2.png",
-        
-     "stressed3":
-        "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Thinking.png",
-        
-     "thinking1":
-        "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Mirabelle_Thinking.png",
-        
-     "uwah!1":
-        "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Mirabelle_Uwah.png",
-        
-     "wonder1":
-        "https://instarsandtime.wiki.gg/images/9/9c/ISAT_Portrait_Mirabelle_Wondering.png",
-        
-     "worried1":
-        "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Mirabelle_Worried.png",
-        
-     "yell1":
-        "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Mirabelle_Yelling.png"
-        
+"Mirabelle": {
+    "angry1":"/assets/expressions/M_angry_1.png",
+    "angry2":"/assets/expressions/M_angry_2.png",
+    "angry3":"/assets/expressions/M_angry_3.png",
+    "angry4":"/assets/expressions/M_angry_4.png",
+    "angry5":"/assets/expressions/M_angry_5.png",
+    "angy1":"/assets/expressions/M_angy_1.png",
+    "anxious1":"/assets/expressions/M_anxious_1.png",
+    "anxious2":"/assets/expressions/M_anxious_2.png",
+    "anxious3":"/assets/expressions/M_anxious_3.png",
+    "awawa1":"/assets/expressions/M_awawa_1.png",
+    "awkward1":"/assets/expressions/M_awkward_1.png",
+    "awkward1b":"/assets/expressions/M_awkward_1b.png",
+    "awkward2":"/assets/expressions/M_awkward_2.png",
+    "excited1":"/assets/expressions/M_excited_1.png",
+    "expressionnumber":"/assets/expressions/M_expressionnumber.png",
+    "fight1":"/assets/expressions/M_fight_1.png",
+    "fight2":"/assets/expressions/M_fight_2.png",
+    "fight3":"/assets/expressions/M_fight_3.png",
+    "fight4":"/assets/expressions/M_fight_4.png",
+    "gentle1":"/assets/expressions/M_gentle_1.png",
+    "gentle2":"/assets/expressions/M_gentle_2.png",
+    "haha1":"/assets/expressions/M_haha_1.png",
+    "happy1":"/assets/expressions/M_happy_1.png",
+    "happy2":"/assets/expressions/M_happy_2.png",
+    "happy3":"/assets/expressions/M_happy_3.png",
+    "happy4":"/assets/expressions/M_happy_4.png",
+    "hm1":"/assets/expressions/M_hm_1.png",
+    "hm2":"/assets/expressions/M_hm_2.png",
+    "hm3":"/assets/expressions/M_hm_3.png",
+    "hmf1":"/assets/expressions/M_hmf_1.png",
+    "neutral1":"/assets/expressions/M_neutral_1.png",
+    "no!1":"/assets/expressions/M_no!_1.png",
+    "no!2":"/assets/expressions/M_no!_2.png",
+    "oh!1":"/assets/expressions/M_oh!_1.png",
+    "pft1":"/assets/expressions/M_pft_1.png",
+    "sad1":"/assets/expressions/M_sad_1.png",
+    "sad2":"/assets/expressions/M_sad_2.png",
+    "sad3":"/assets/expressions/M_sad_3.png",
+    "sad4":"/assets/expressions/M_sad_4.png",
+    "serious1":"/assets/expressions/M_serious_1.png",
+    "serious2":"/assets/expressions/M_serious_2.png",
+    "serious3":"/assets/expressions/M_serious_3.png",
+    "serious4":"/assets/expressions/M_serious_4.png",
+    "serious5":"/assets/expressions/M_serious_5.png",
+    "spooky1":"/assets/expressions/M_spooky_1.png",
+    "stressed1":"/assets/expressions/M_stressed_1.png",
+    "stressed2":"/assets/expressions/M_stressed_2.png",
+    "stressed3":"/assets/expressions/M_stressed_3.png",
+    "thinking1":"/assets/expressions/M_thinking_1.png",
+    "uwah!1":"/assets/expressions/M_uwah!_1.png",
+    "wonder1":"/assets/expressions/M_wonder_1.png",
+    "worried1":"/assets/expressions/M_worried_1.png",
+    "yell1":"/assets/expressions/M_yell_1.png"
 },
 
+"Odile" : {
+    "angry1":"/assets/expressions/O_angry_1.png",
+    "angry2":"/assets/expressions/O_angry_2.png",
+    "angry3":"/assets/expressions/O_angry_3.png",
+    "angryBUTSUPER1":"/assets/expressions/O_angryBUTSUPER_1.png",
+    "angryBUTSUPER2":"/assets/expressions/O_angryBUTSUPER_2.png",
+    "awkward1":"/assets/expressions/O_awkward_1.png",
+    "dotdotdot1":"/assets/expressions/O_dotdotdot_1.png",
+    "dotdotdot2":"/assets/expressions/O_dotdotdot_2.png",
+    "dotdotdot3":"/assets/expressions/O_dotdotdot_3.png",
+    "doubt1":"/assets/expressions/O_doubt_1.png",
+    "expressionnumber":"/assets/expressions/O_expressionnumber.png",
+    "fight1":"/assets/expressions/O_fight_1.png",
+    "gentle1":"/assets/expressions/O_gentle_1.png",
+    "gimme1":"/assets/expressions/O_gimme_1.png",
+    "guilty1":"/assets/expressions/O_guilty_1.png",
+    "guilty2":"/assets/expressions/O_guilty_2.png",
+    "hm1":"/assets/expressions/O_hm_1.png",
+    "hm2":"/assets/expressions/O_hm_2.png",
+    "huh1":"/assets/expressions/O_huh_1.png",
+    "huh2":"/assets/expressions/O_huh_2.png",
+    "huh3":"/assets/expressions/O_huh_3.png",
+    "isthatso1":"/assets/expressions/O_isthatso_1.png",
+    "laugh1":"/assets/expressions/O_laugh_1.png",
+    "lol1":"/assets/expressions/O_lol_1.png",
+    "lol2":"/assets/expressions/O_lol_2.png",
+    "lol3":"/assets/expressions/O_lol_3.png",
+    "lol4":"/assets/expressions/O_lol_4.png",
+    "melan1":"/assets/expressions/O_melan_1.png",
+    "melan2":"/assets/expressions/O_melan_2.png",
+    "melan3":"/assets/expressions/O_melan_3.png",
+    "melan4":"/assets/expressions/O_melan_4.png",
+    "melan5":"/assets/expressions/O_melan_5.png",
+    "melan6":"/assets/expressions/O_melan_6.png",
+    "no!1":"/assets/expressions/O_no!_1.png",
+    "question1":"/assets/expressions/O_question_1.png",
+    "question2":"/assets/expressions/O_question_2.png",
+    "reading1":"/assets/expressions/O_reading_1.png",
+    "reading2":"/assets/expressions/O_reading_2.png",
+    "sad1":"/assets/expressions/O_sad_1.png",
+    "serious1":"/assets/expressions/O_serious_1.png",
+    "serious2":"/assets/expressions/O_serious_2.png",
+    "serious3":"/assets/expressions/O_serious_3.png",
+    "serious4":"/assets/expressions/O_serious_4.png",
+    "sigh1":"/assets/expressions/O_sigh_1.png",
+    "smile1":"/assets/expressions/O_smile_1.png",
+    "spooky1":"/assets/expressions/O_spooky_1.png",
+    "up1":"/assets/expressions/O_up_1.png",
+    "urgh1":"/assets/expressions/O_urgh_1.png",
+    "uwah!1":"/assets/expressions/O_uwah!_1.png",
+    "wellactually1":"/assets/expressions/O_wellactually_1.png",
+    "what1":"/assets/expressions/O_what_1.png",
+    "what2":"/assets/expressions/O_what_2.png",
+    "wonder1":"/assets/expressions/O_wonder_1.png",
+    "wonder2":"/assets/expressions/O_wonder_2.png",
+    "wonder3":"/assets/expressions/O_wonder_3.png",
+    "worried1":"/assets/expressions/O_worried_1.png",
+    "worried2":"/assets/expressions/O_worried_2.png",
+    "wry1":"/assets/expressions/O_wry_1.png",
+    "yeah1":"/assets/expressions/O_yeah_1.png"
+},
 
+"Siffrin" : {
+    "angry1":"/assets/expressions/S_angry_1.png",
+    "angry2":"/assets/expressions/S_angry_2.png",
+    "angry3":"/assets/expressions/S_angry_3.png",
+    "angry4":"/assets/expressions/S_angry_4.png",
+    "awkward1":"/assets/expressions/S_awkward_1.png",
+    "blep1":"/assets/expressions/S_blep_1.png",
+    "boo1":"/assets/expressions/S_boo_1.png",
+    "expressionnumber":"/assets/expressions/S_expressionnumber.png",
+    "fake1":"/assets/expressions/S_fake_1.png",
+    "fake2":"/assets/expressions/S_fake_2.png",
+    "fake3":"/assets/expressions/S_fake_3.png",
+    "fake4":"/assets/expressions/S_fake_4.png",
+    "fake5":"/assets/expressions/S_fake_5.png",
+    "fight2":"/assets/expressions/S_fight_2.png",
+    "fight3":"/assets/expressions/S_fight_3.png",
+    "fufu1":"/assets/expressions/S_fufu_1.png",
+    "happy1":"/assets/expressions/S_happy_1.png",
+    "hide1":"/assets/expressions/S_hide_1.png",
+    "hide2":"/assets/expressions/S_hide_2.png",
+    "hide3":"/assets/expressions/S_hide_3.png",
+    "hide4":"/assets/expressions/S_hide_4.png",
+    "hide5":"/assets/expressions/S_hide_5.png",
+    "hide6":"/assets/expressions/S_hide_6.png",
+    "joke1":"/assets/expressions/S_joke_1.png",
+    "joke2":"/assets/expressions/S_joke_2.png",
+    "lmao1":"/assets/expressions/S_lmao_1.png",
+    "lol1":"/assets/expressions/S_lol_1.png",
+    "neutral1":"/assets/expressions/S_neutral_1.png",
+    "neutral3":"/assets/expressions/S_neutral_3.png",
+    "n-nya1":"/assets/expressions/S_n-nya_1.png",
+    "n-nya2":"/assets/expressions/S_n-nya_2.png",
+    "no!!!1":"/assets/expressions/S_no!!!_1.png",
+    "no!!!2":"/assets/expressions/S_no!!!_2.png",
+    "no1":"/assets/expressions/S_no_1.png",
+    "nya1":"/assets/expressions/S_nya_1.png",
+    "okay1":"/assets/expressions/S_okay_1.png",
+    "okay2":"/assets/expressions/S_okay_2.png",
+    "omg1":"/assets/expressions/S_omg_1.png",
+    "omg2":"/assets/expressions/S_omg_2.png",
+    "questions1":"/assets/expressions/S_questions_1.png",
+    "questions2":"/assets/expressions/S_questions_2.png",
+    "sad1":"/assets/expressions/S_sad_1.png",
+    "sad2":"/assets/expressions/S_sad_2.png",
+    "sadsmile1":"/assets/expressions/S_sadsmile_1.png",
+    "sadsmile2":"/assets/expressions/S_sadsmile_2.png",
+    "sadsmile3":"/assets/expressions/S_sadsmile_3.png",
+    "sadsmile4":"/assets/expressions/S_sadsmile_4.png",
+    "sadsmile5":"/assets/expressions/S_sadsmile_5.png",
+    "scary1":"/assets/expressions/S_scary_1.png",
+    "scary2":"/assets/expressions/S_scary_2.png",
+    "scary3":"/assets/expressions/S_scary_3.png",
+    "serious1":"/assets/expressions/S_serious_1.png",
+    "shit1":"/assets/expressions/S_shit_1.png",
+    "siiiiigh1":"/assets/expressions/S_siiiiigh_1.png",
+    "smiling1":"/assets/expressions/S_smiling_1.png",
+    "smiling2":"/assets/expressions/S_smiling_2.png",
+    "smiling3":"/assets/expressions/S_smiling_3.png",
+    "stuffed1":"/assets/expressions/S_stuffed_1.png",
+    "surprised1":"/assets/expressions/S_surprised_1.png",
+    "surprised2":"/assets/expressions/S_surprised_2.png",
+    "surprised3":"/assets/expressions/S_surprised_3.png",
+    "terrified1":"/assets/expressions/S_terrified_1.png",
+    "tired1":"/assets/expressions/S_tired_1.png",
+    "tired2":"/assets/expressions/S_tired_2.png",
+    "um1":"/assets/expressions/S_um_1.png",
+    "um2":"/assets/expressions/S_um_2.png",
+    "unhinged1":"/assets/expressions/S_unhinged_1.png",
+    "unhinged2":"/assets/expressions/S_unhinged_2.png",
+    "unhinged4":"/assets/expressions/S_unhinged_4.png",
+    "upset1":"/assets/expressions/S_upset_1.png",
+    "what1":"/assets/expressions/S_what_1.png",
+    "what2":"/assets/expressions/S_what_2.png",
+    "what3":"/assets/expressions/S_what_3.png",
+    "yelling1":"/assets/expressions/S_yelling_1.png",
+    "yelling2":"/assets/expressions/S_yelling_2.png",
+    "yelling2b":"/assets/expressions/S_yelling_2b.png",
+    "yelling3":"/assets/expressions/S_yelling_3.png",
+    "yelling4":"/assets/expressions/S_yelling_4.png",
 
- "Odile" : {
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Odile_Angry_1.png",
-        
-     "angry2":
-        "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Odile_Angry_2.png",
-        
-     "angry3":
-        "https://instarsandtime.wiki.gg/images/8/84/ISAT_Portrait_Odile_Angry_3.png",
-        
-     "angryBUTSUPER1":
-        "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Odile_Furious_1.png",
-        
-     "angryBUTSUPER2":
-        "https://instarsandtime.wiki.gg/images/f/f6/ISAT_Portrait_Odile_Furious_2.png",
-        
-     "awkward1":
-        "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Odile_Awkward.png",
-        
-     "dotdotdot1":
-        "https://instarsandtime.wiki.gg/images/4/44/ISAT_Portrait_Odile_Dotdotdot_1.png",
-        
-     "dotdotdot2":
-        "https://instarsandtime.wiki.gg/images/3/34/ISAT_Portrait_Odile_Dotdotdot_2.png",
-        
-     "dotdotdot3":
-        "https://instarsandtime.wiki.gg/images/0/0c/ISAT_Portrait_Odile_Dotdotdot_3.png",
-        
-     "doubt1":
-        "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Odile_Doubt.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Odile_Reading_1.png",
-        
-     "fight1":
-        "https://instarsandtime.wiki.gg/images/b/bf/ISAT_Portrait_Odile_Fight.png",
-        
-     "gentle1":
-        "https://instarsandtime.wiki.gg/images/7/75/ISAT_Portrait_Odile_Gentle.png",
-        
-     "gimme1":
-        "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Gimme.png",
-        
-     "guilty1":
-        "https://instarsandtime.wiki.gg/images/c/cd/ISAT_Portrait_Odile_Guilty_1.png",
-        
-     "guilty2":
-        "https://instarsandtime.wiki.gg/images/c/ce/ISAT_Portrait_Odile_Guilty_2.png",
-        
-     "hm1":
-        "https://instarsandtime.wiki.gg/images/f/fa/ISAT_Portrait_Odile_Hm_1.png",
-        
-     "hm2":
-        "https://instarsandtime.wiki.gg/images/9/9d/ISAT_Portrait_Odile_Hm_2.png",
-        
-     "huh1":
-        "https://instarsandtime.wiki.gg/images/a/a2/ISAT_Portrait_Odile_Huh_1.png",
-        
-     "huh2":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Odile_Huh_2.png",
-        
-     "huh3":
-        "https://instarsandtime.wiki.gg/images/d/d2/ISAT_Portrait_Odile_Huh_3.png",
-        
-     "isthatso1":
-        "https://instarsandtime.wiki.gg/images/a/a1/ISAT_Portrait_Odile_Amused.png",
-        
-     "laugh1":
-        "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Laugh.png",
-        
-     "lol1":
-        "https://instarsandtime.wiki.gg/images/1/19/ISAT_Portrait_Odile_LOL_1.png",
-        
-     "lol2":
-        "https://instarsandtime.wiki.gg/images/3/37/ISAT_Portrait_Odile_LOL_2.png",
-        
-     "lol3":
-        "https://instarsandtime.wiki.gg/images/4/4f/ISAT_Portrait_Odile_LOL_3.png",
-        
-     "lol4":
-        "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Odile_LOL_4.png",
-        
-     "melan1":
-        "https://instarsandtime.wiki.gg/images/6/60/ISAT_Portrait_Odile_Melancholy_1.png",
-        
-     "melan2":
-        "https://instarsandtime.wiki.gg/images/1/1c/ISAT_Portrait_Odile_Melancholy_2.png",
-        
-     "melan3":
-        "https://instarsandtime.wiki.gg/images/7/71/ISAT_Portrait_Odile_Melancholy_3.png",
-        
-     "melan4":
-        "https://instarsandtime.wiki.gg/images/7/70/ISAT_Portrait_Odile_Melancholy_4.png",
-        
-     "melan5":
-        "https://instarsandtime.wiki.gg/images/d/d3/ISAT_Portrait_Odile_Melancholy_5.png",
-        
-     "melan6":
-        "https://instarsandtime.wiki.gg/images/3/3b/ISAT_Portrait_Odile_Melancholy_6.png",
-        
-     "no!1":
-        "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Odile_No.png",
-        
-     "question1":
-        "https://instarsandtime.wiki.gg/images/3/32/ISAT_Portrait_Odile_Question_1.png",
-        
-     "question2":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Odile_Question_2.png",
-        
-     "reading1":
-        "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Odile_Reading_1.png",
-        
-     "reading2":
-        "https://instarsandtime.wiki.gg/images/4/48/ISAT_Portrait_Odile_Reading_2.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Odile_Sad.png",
-        
-     "serious1":
-        "https://instarsandtime.wiki.gg/images/5/5a/ISAT_Portrait_Odile_Serious_1.png",
-        
-     "serious2":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Odile_Serious_2.png",
-        
-     "serious3":
-        "https://instarsandtime.wiki.gg/images/3/30/ISAT_Portrait_Odile_Serious_3.png",
-        
-     "serious4":
-        "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Odile_Serious_4.png",
-        
-     "sigh1":
-        "https://instarsandtime.wiki.gg/images/5/59/ISAT_Portrait_Odile_Sigh_1.png",
-        
-     "smile1":
-        "https://instarsandtime.wiki.gg/images/c/cf/ISAT_Portrait_Odile_Smile.png",
-        
-     "spooky1":
-        "https://instarsandtime.wiki.gg/images/6/64/ISAT_Portrait_Odile_Spooky.png",
-        
-     "up1":
-        "https://instarsandtime.wiki.gg/images/f/fe/ISAT_Portrait_Odile_Looking_Up.png",
-        
-     "urgh1":
-        "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Odile_Urgh.png",
-        
-     "uwah!1":
-        "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Odile_Shocked.png",
-        
-     "wellactually1":
-        "https://instarsandtime.wiki.gg/images/5/5e/ISAT_Portrait_Odile_Well_Actually.png",
-        
-     "what1":
-        "https://instarsandtime.wiki.gg/images/b/b9/ISAT_Portrait_Odile_What_1.png",
-        
-     "what2":
-        "https://instarsandtime.wiki.gg/images/d/d9/ISAT_Portrait_Odile_What_2.png",
-        
-     "wonder1":
-        "https://instarsandtime.wiki.gg/images/b/b6/ISAT_Portrait_Odile_Wonder_1.png",
-        
-     "wonder2":
-        "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Odile_Wonder_2.png",
-        
-     "wonder3":
-        "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Odile_Wonder_3.png",
-        
-     "worried1":
-        "https://instarsandtime.wiki.gg/images/a/ae/ISAT_Portrait_Odile_Worried_1.png",
-        
-     "worried2":
-        "https://instarsandtime.wiki.gg/images/6/68/ISAT_Portrait_Odile_Worried_2.png",
-        
-     "wry1":
-        "https://instarsandtime.wiki.gg/images/6/66/ISAT_Portrait_Odile_Wry.png",
-        
-     "yeah1":
-        "https://instarsandtime.wiki.gg/images/5/5d/ISAT_Portrait_Odile_Yeah.png"      
- },
+    "TS_angry1":"/assets/expressions/TS_angry_1.png",
+    "TS_angry2":"/assets/expressions/TS_angry_2.png",
+    "TS_away1":"/assets/expressions/TS_away_1.png",
+    "TS_away2":"/assets/expressions/TS_away_2.png",
+    "TS_busted1":"/assets/expressions/TS_busted_1.png",
+    "TS_busted2":"/assets/expressions/TS_busted_2.png",
+    "TS_despair1":"/assets/expressions/TS_despair_1.png",
+    "TS_despair2":"/assets/expressions/TS_despair_2.png",
+    "TS_dismissive1":"/assets/expressions/TS_dismissive_1.png",
+    "TS_dismissive2":"/assets/expressions/TS_dismissive_2.png",
+    "TS_fake1":"/assets/expressions/TS_fake_1.png",
+    "TS_fake1b":"/assets/expressions/TS_fake_1b.png",
+    "TS_fake2":"/assets/expressions/TS_fake_2.png",
+    "TS_fake2b":"/assets/expressions/TS_fake_2b.png",
+    "TS_normal1":"/assets/expressions/TS_normal_1.png",
+    "TS_normal2":"/assets/expressions/TS_normal_2.png",
+    "TS_shocked1":"/assets/expressions/TS_shocked_1.png",
+    "TS_shocked2":"/assets/expressions/TS_shocked_2.png",
+    "TS_unhinged1":"/assets/expressions/TS_unhinged_1.png",
+    "TS_unhinged2":"/assets/expressions/TS_unhinged_2.png",
+    "TS_yahoo2":"/assets/expressions/TS_yahoo_2.png",
 
-
-
- "Siffrin" : {
-     "angry1":
-        "https://instarsandtime.wiki.gg/images/f/fc/ISAT_Portrait_Siffrin_Angry_1.png",
-        
-     "angry2":
-        "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Siffrin_Angry_2.png",
-        
-     "angry3":
-        "https://instarsandtime.wiki.gg/images/e/e6/ISAT_Portrait_Siffrin_Angry_3.png",
-        
-     "angry4":
-        "https://instarsandtime.wiki.gg/images/8/8c/ISAT_Portrait_Siffrin_Angry_4.png",
-        
-     "awkward1":
-        "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Siffrin_Awkward.png",
-        
-     "blep1":
-        "https://instarsandtime.wiki.gg/images/7/7a/ISAT_Portrait_Siffrin_Blep.png",
-        
-     "boo1":
-        "https://instarsandtime.wiki.gg/images/a/ab/ISAT_Portrait_Siffrin_Boo.png",
-        
-     "expressionnumber":
-        "https://instarsandtime.wiki.gg/images/e/eb/ISAT_Portrait_Siffrin_Smiling_4.png",
-        
-     "fake1":
-        "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Siffrin_Fake_1.png",
-        
-     "fake2":
-        "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Siffrin_Fake_2.png",
-        
-     "fake3":
-        "https://instarsandtime.wiki.gg/images/e/e7/ISAT_Portrait_Siffrin_Fake_3.png",
-        
-     "fake4":
-        "https://instarsandtime.wiki.gg/images/d/d4/ISAT_Portrait_Siffrin_Fake_4.png",
-        
-     "fake5":
-        "https://instarsandtime.wiki.gg/images/5/53/ISAT_Portrait_Siffrin_Fake_5.png",
-        
-     "fight1":
-        "https://instarsandtime.wiki.gg/images/4/4d/ISAT_Portrait_Siffrin_Fight_1.png",
-        
-     "fight2":
-        "https://instarsandtime.wiki.gg/images/6/60/ISAT_Portrait_Siffrin_Fight_2.png",
-        
-     "fight3":
-        "https://instarsandtime.wiki.gg/images/1/1f/ISAT_Portrait_Siffrin_Fight_3.png",
-        
-     "fight4":
-        "https://instarsandtime.wiki.gg/images/d/d5/ISAT_Portrait_Siffrin_Fight_4.png",
-        
-     "fight5":
-        "https://instarsandtime.wiki.gg/images/e/e9/ISAT_Portrait_Siffrin_Fight_5.png",
-        
-     "fufu1":
-        "https://instarsandtime.wiki.gg/images/4/4d/ISAT_Portrait_Siffrin_Fufu.png",
-        
-     "happy1":
-        "https://instarsandtime.wiki.gg/images/c/cf/ISAT_Portrait_Siffrin_Happy.png",
-        
-     "hide1":
-        "https://instarsandtime.wiki.gg/images/8/86/ISAT_Portrait_Siffrin_Hide_1.png",
-        
-     "hide2":
-        "https://instarsandtime.wiki.gg/images/b/b8/ISAT_Portrait_Siffrin_Hide_2.png",
-        
-     "hide3":
-        "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Siffrin_Hide_3.png",
-        
-     "hide4":
-        "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Hide_4.png",
-        
-     "hide5":
-        "https://instarsandtime.wiki.gg/images/2/25/ISAT_Portrait_Siffrin_Hide_5.png",
-        
-     "hide6":
-        "https://instarsandtime.wiki.gg/images/f/fd/ISAT_Portrait_Siffrin_Hide_6.png",
-        
-     "joke1":
-        "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Siffrin_Joke_1.png",
-        
-     "joke2":
-        "https://instarsandtime.wiki.gg/images/b/bb/ISAT_Portrait_Siffrin_Joke_2.png",
-        
-     "lmao1":
-        "https://instarsandtime.wiki.gg/images/7/77/ISAT_Portrait_Siffrin_LMAO.png",
-        
-     "lol1":
-        "https://instarsandtime.wiki.gg/images/f/f8/ISAT_Portrait_Siffrin_LOL.png",
-        
-     "lost1":
-        "https://instarsandtime.wiki.gg/images/4/4b/ISAT_Portrait_Siffrin_Lost.png",
-        
-     "neutral1":
-        "https://instarsandtime.wiki.gg/images/0/09/ISAT_Portrait_Siffrin_Neutral_1.png",
-        
-     "neutral2":
-        "https://instarsandtime.wiki.gg/images/0/02/ISAT_Portrait_Siffrin_Neutral_2.png",
-        
-     "neutral3":
-        "https://instarsandtime.wiki.gg/images/7/74/ISAT_Portrait_Siffrin_Neutral_3.png",
-        
-     "n-nya1":
-        "https://instarsandtime.wiki.gg/images/9/98/ISAT_Portrait_Siffrin_Startled_1.png",
-        
-     "n-nya2":
-        "https://instarsandtime.wiki.gg/images/a/a3/ISAT_Portrait_Siffrin_Startled_2.png",
-        
-     "no!!!1":
-        "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Siffrin_Horrified_1.png",
-        
-     "no!!!2":
-        "https://instarsandtime.wiki.gg/images/8/88/ISAT_Portrait_Siffrin_Horrified_2.png",
-        
-     "no1":
-        "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Siffrin_Emotional.png",
-        
-     "nya1":
-        "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Grin.png",
-        
-     "okay1":
-        "https://instarsandtime.wiki.gg/images/c/c6/ISAT_Portrait_Siffrin_Disbelieving_1.png",
-        
-     "okay2":
-        "https://instarsandtime.wiki.gg/images/e/e0/ISAT_Portrait_Siffrin_Disbelieving_2.png",
-        
-     "omg1":
-        "https://instarsandtime.wiki.gg/images/e/e4/ISAT_Portrait_Siffrin_Ecstatic_1.png",
-        
-     "omg2":
-        "https://instarsandtime.wiki.gg/images/2/20/ISAT_Portrait_Siffrin_Ecstatic_2.png",
-        
-     "questions1":
-        "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Questioning_1.png",
-        
-     "questions2":
-        "https://instarsandtime.wiki.gg/images/e/e4/ISAT_Portrait_Siffrin_Questioning_2.png",
-        
-     "sad1":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Siffrin_Sad_1.png",
-        
-     "sad2":
-        "https://instarsandtime.wiki.gg/images/c/c8/ISAT_Portrait_Siffrin_Sad_2.png",
-        
-     "sadsmile1":
-        "https://instarsandtime.wiki.gg/images/0/0d/ISAT_Portrait_Siffrin_Sad_Smile_1.png",
-        
-     "sadsmile2":
-        "https://instarsandtime.wiki.gg/images/8/8d/ISAT_Portrait_Siffrin_Sad_Smile_2.png",
-        
-     "sadsmile3":
-        "https://instarsandtime.wiki.gg/images/c/ce/ISAT_Portrait_Siffrin_Sad_Smile_3.png",
-        
-     "sadsmile4":
-        "https://instarsandtime.wiki.gg/images/1/15/ISAT_Portrait_Siffrin_Sad_Smile_4.png",
-        
-     "sadsmile5":
-        "https://instarsandtime.wiki.gg/images/f/f5/ISAT_Portrait_Siffrin_Sad_Smile_5.png",
-        
-     "scary1":
-        "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Scary_1.png",
-        
-     "scary2":
-        "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Scary_2.png",
-        
-     "scary3":
-        "https://instarsandtime.wiki.gg/images/d/d0/ISAT_Portrait_Siffrin_Scary_3.png",
-        
-     "serious1":
-        "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Serious.png",
-        
-     "shit1":
-        "https://instarsandtime.wiki.gg/images/5/5b/ISAT_Portrait_Siffrin_Troubled.png",
-        
-     "siiiiigh1":
-        "https://instarsandtime.wiki.gg/images/5/52/ISAT_Portrait_Siffrin_Sigh.png",
-        
-     "smiling1":
-        "https://instarsandtime.wiki.gg/images/8/80/ISAT_Portrait_Siffrin_Smiling_1.png",
-        
-     "smiling2":
-        "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Smiling_2.png",
-        
-     "smiling3":
-        "https://instarsandtime.wiki.gg/images/6/66/ISAT_Portrait_Siffrin_Smiling_3.png",
-        
-     "stuffed1":
-        "https://instarsandtime.wiki.gg/images/6/6a/ISAT_Portrait_Siffrin_Stuffed.png",
-        
-     "surprised1":
-        "https://instarsandtime.wiki.gg/images/6/69/ISAT_Portrait_Siffrin_Surprised_1.png",
-        
-     "surprised2":
-        "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Siffrin_Surprised_2.png",
-        
-     "surprised3":
-        "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Siffrin_Surprised_3.png",
-        
-     "terrified1":
-        "https://instarsandtime.wiki.gg/images/5/50/ISAT_Portrait_Siffrin_Terrified.png",
-        
-     "tired1":
-        "https://instarsandtime.wiki.gg/images/0/0f/ISAT_Portrait_Siffrin_Tired_1.png",
-        
-     "tired2":
-        "https://instarsandtime.wiki.gg/images/2/2c/ISAT_Portrait_Siffrin_Tired_2.png",
-        
-     "um1":
-        "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Um_1.png",
-        
-     "um2":
-        "https://instarsandtime.wiki.gg/images/9/9a/ISAT_Portrait_Siffrin_Um_2.png",
-        
-     "unhinged1":
-        "https://instarsandtime.wiki.gg/images/c/c0/ISAT_Portrait_Siffrin_Unhinged_1.png",
-        
-     "unhinged2":
-        "https://instarsandtime.wiki.gg/images/b/b9/ISAT_Portrait_Siffrin_Unhinged_2.png",
-        
-     "unhinged3":
-        "https://instarsandtime.wiki.gg/images/8/8e/ISAT_Portrait_Siffrin_Unhinged_3.png",
-        
-     "unhinged4":
-        "https://instarsandtime.wiki.gg/images/b/b5/ISAT_Portrait_Siffrin_Unhinged_4.png",
-        
-     "upset1":
-        "https://instarsandtime.wiki.gg/images/7/7c/ISAT_Portrait_Siffrin_Upset.png",
-        
-     "what1":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Siffrin_What_1.png",
-        
-     "what2":
-        "https://instarsandtime.wiki.gg/images/9/92/ISAT_Portrait_Siffrin_What_2.png",
-        
-     "what3":
-        "https://instarsandtime.wiki.gg/images/f/f1/ISAT_Portrait_Siffrin_What_3.png",
-        
-     "yelling1":
-        "https://instarsandtime.wiki.gg/images/0/07/ISAT_Portrait_Siffrin_Yelling_1.png",
-        
-     "yelling2":
-        "https://instarsandtime.wiki.gg/images/4/46/ISAT_Portrait_Siffrin_Yelling_2.png",
-        
-     "yelling2b":
-        "https://instarsandtime.wiki.gg/images/7/75/ISAT_Portrait_Siffrin_Yelling_2b.png",
-        
-     "yelling3":
-        "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Yelling_3.png",
-        
-     "yelling4":
-        "https://instarsandtime.wiki.gg/images/8/8f/ISAT_Portrait_Siffrin_Yelling_4.png",
-        
-     "TS_angry1":
-        "https://instarsandtime.wiki.gg/images/2/2b/ISAT_Portrait_Siffrin_Angry_1_ACT5.png",
-        
-     "TS_angry2":
-        "https://instarsandtime.wiki.gg/images/9/9e/ISAT_Portrait_Siffrin_Angry_2_ACT5.png",
-        
-     "TS_away1":
-        "https://instarsandtime.wiki.gg/images/7/76/ISAT_Portrait_Siffrin_Looking_Away_1.png",
-        
-     "TS_away2":
-        "https://instarsandtime.wiki.gg/images/c/c8/ISAT_Portrait_Siffrin_Looking_Away_2.png",
-        
-     "TS_busted1":
-        "https://instarsandtime.wiki.gg/images/8/87/ISAT_Portrait_Siffrin_Busted_1.png",
-        
-     "TS_busted2":
-        "https://instarsandtime.wiki.gg/images/5/55/ISAT_Portrait_Siffrin_Busted_2.png",
-        
-     "TS_despair1":
-        "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Despair_1.png",
-        
-     "TS_despair2":
-        "https://instarsandtime.wiki.gg/images/f/ff/ISAT_Portrait_Siffrin_Despair_2.png",
-        
-     "TS_dismissive1":
-        "https://instarsandtime.wiki.gg/images/6/65/ISAT_Portrait_Siffrin_Dismissive_1.png",
-        
-     "TS_dismissive2":
-        "https://instarsandtime.wiki.gg/images/c/c5/ISAT_Portrait_Siffrin_Dismissive_2.png",
-        
-     "TS_dotdotdot1":
-        "https://instarsandtime.wiki.gg/images/4/4e/ISAT_Portrait_Siffrin_Dotdotdot.png",
-        
-     "TS_fake1":
-        "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Siffrin_Fake_1_ACT5.png",
-        
-     "TS_fake1b":
-        "https://instarsandtime.wiki.gg/images/5/56/ISAT_Portrait_Siffrin_Fake_1b_ACT5.png",
-        
-     "TS_fake2":
-        "https://instarsandtime.wiki.gg/images/d/d5/ISAT_Portrait_Siffrin_Fake_2_ACT5.png",
-        
-     "TS_fake2b":
-        "https://instarsandtime.wiki.gg/images/6/6b/ISAT_Portrait_Siffrin_Fake_2b_ACT5.png",
-        
-     "TS_fake2c":
-        "https://instarsandtime.wiki.gg/images/c/ca/ISAT_Portrait_Siffrin_Fake_2c_ACT5.png",
-        
-     "TS_normal1":
-        "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Normal_1.png",
-        
-     "TS_normal2":
-        "https://instarsandtime.wiki.gg/images/8/84/ISAT_Portrait_Siffrin_Normal_2.png",
-        
-     "TS_normal3":
-        "https://instarsandtime.wiki.gg/images/9/96/ISAT_Portrait_Siffrin_Normal_3.png",
-        
-     "TS_shocked1":
-        "https://instarsandtime.wiki.gg/images/4/45/ISAT_Portrait_Siffrin_Shocked_1.png",
-        
-     "TS_shocked2":
-        "https://instarsandtime.wiki.gg/images/f/f4/ISAT_Portrait_Siffrin_Shocked_2.png",
-        
-     "TS_spooky1":
-        "https://instarsandtime.wiki.gg/images/e/e3/ISAT_Portrait_Siffrin_Spooky.png",
-        
-     "TS_unhinged1":
-        "https://instarsandtime.wiki.gg/images/2/24/ISAT_Portrait_Siffrin_Unhinged_1_ACT5.png",
-        
-     "TS_unhinged2":
-        "https://instarsandtime.wiki.gg/images/8/89/ISAT_Portrait_Siffrin_Unhinged_2_ACT5.png",
-        
-     "TS_yahoo2":
-        "https://instarsandtime.wiki.gg/images/c/cc/ISAT_Portrait_Siffrin_Despair_3.png",
-        
-     "US_awawa1":
-        "https://instarsandtime.wiki.gg/images/8/8e/ISAT_Portrait_Siffrin_Flustered_1.png",
-        
-     "US_awawa2":
-        "https://instarsandtime.wiki.gg/images/6/6d/ISAT_Portrait_Siffrin_Flustered_2.png",
-        
-     "US_expressionnumber":
-        "https://instarsandtime.wiki.gg/images/a/a8/ISAT_Portrait_Siffrin_Blep_ACT6.png",
-        
-     "US_fufufu1":
-        "https://instarsandtime.wiki.gg/images/d/da/ISAT_Portrait_Siffrin_Fufu_ACT6.png",
-        
-     "US_guilty1":
-        "https://instarsandtime.wiki.gg/images/8/81/ISAT_Portrait_Siffrin_Guilty_1.png",
-        
-     "US_guilty2":
-        "https://instarsandtime.wiki.gg/images/9/92/ISAT_Portrait_Siffrin_Guilty_2.png",
-        
-     "US_happy1":
-        "https://instarsandtime.wiki.gg/images/0/00/ISAT_Portrait_Siffrin_Happy_1_ACT6.png",
-        
-     "US_happy2":
-        "https://instarsandtime.wiki.gg/images/e/ee/ISAT_Portrait_Siffrin_Happy_2_ACT6.png",
-        
-     "US_happyy1":
-        "https://instarsandtime.wiki.gg/images/4/4c/ISAT_Portrait_Siffrin_Joyful.png",
-        
-     "US_hnnn1":
-        "https://instarsandtime.wiki.gg/images/6/61/ISAT_Portrait_Siffrin_Embarrassed.png",
-        
-     "US_joke1":
-        "https://instarsandtime.wiki.gg/images/2/2e/ISAT_Portrait_Siffrin_Joke_ACT6.png",
-        
-     "US_maybeweshould1":
-        "https://instarsandtime.wiki.gg/images/c/c1/ISAT_Portrait_Siffrin_Maybe_We_Should.png",
-        
-     "US_neutral1":
-        "https://instarsandtime.wiki.gg/images/7/74/ISAT_Portrait_Siffrin_Neutral_ACT6.png",
-        
-     "US_no!1":
-        "https://instarsandtime.wiki.gg/images/d/d1/ISAT_Portrait_Siffrin_Horrified_1_ACT6.png",
-        
-     "US_no!2":
-        "https://instarsandtime.wiki.gg/images/c/c4/ISAT_Portrait_Siffrin_Horrified_2_ACT6.png",
-        
-     "US_ohshit1":
-        "https://instarsandtime.wiki.gg/images/0/0b/ISAT_Portrait_Siffrin_Yikes.png",
-        
-     "US_question1":
-        "https://instarsandtime.wiki.gg/images/3/39/ISAT_Portrait_Siffrin_Questioning_ACT6.png",
-        
-     "US_sad1":
-        "https://instarsandtime.wiki.gg/images/7/70/ISAT_Portrait_Siffrin_Sad_1_ACT6.png",
-        
-     "US_sad2":
-        "https://instarsandtime.wiki.gg/images/e/ef/ISAT_Portrait_Siffrin_Sad_2_ACT6.png",
-        
-     "US_sad3":
-        "https://instarsandtime.wiki.gg/images/4/47/ISAT_Portrait_Siffrin_Sad_3_ACT6.png",
-        
-     "US_sad4":
-        "https://instarsandtime.wiki.gg/images/0/04/ISAT_Portrait_Siffrin_Sad_4_ACT6.png",
-        
-     "US_sadsmile1":
-        "https://instarsandtime.wiki.gg/images/a/a9/ISAT_Portrait_Siffrin_Sad_Smile_ACT6.png",
-        
-     "US_serious1":
-        "https://instarsandtime.wiki.gg/images/0/00/ISAT_Portrait_Siffrin_Serious_1_ACT6.png",
-        
-     "US_serious2":
-        "https://instarsandtime.wiki.gg/images/7/71/ISAT_Portrait_Siffrin_Serious_2_ACT6.png",
-        
-     "US_shy1":
-        "https://instarsandtime.wiki.gg/images/e/e1/ISAT_Portrait_Siffrin_Shy.png",
-        
-     "US_surprised1":
-        "https://instarsandtime.wiki.gg/images/f/f3/ISAT_Portrait_Siffrin_Surprised_ACT6.png",
-        
-     "US_upset1":
-        "https://instarsandtime.wiki.gg/images/f/fb/ISAT_Portrait_Siffrin_Upset_ACT6.png",
-        
-     "US_yahoo1":
-        "https://instarsandtime.wiki.gg/images/4/42/ISAT_Portrait_Siffrin_Yahoo_1_ACT6.png",
-        
-     "US_yahoo2":
-        "https://instarsandtime.wiki.gg/images/d/db/ISAT_Portrait_Siffrin_Yahoo_2_ACT6.png",
-        
-     "US_yahoo3":
-        "https://instarsandtime.wiki.gg/images/1/17/ISAT_Portrait_Siffrin_Yahoo_3_ACT6.png"
+    "US_awawa1":"/assets/expressions/US_awawa_1.png",
+    "US_awawa2":"/assets/expressions/US_awawa_2.png",
+    "US_expressionnumber":"/assets/expressions/US_expressionnumber.png",
+    "US_fufufu1":"/assets/expressions/US_fufufu_1.png",
+    "US_guilty1":"/assets/expressions/US_guilty_1.png",
+    "US_guilty2":"/assets/expressions/US_guilty_2.png",
+    "US_happy1":"/assets/expressions/US_happy_1.png",
+    "US_happy2":"/assets/expressions/US_happy_2.png",
+    "US_happyy1":"/assets/expressions/US_happyy_1.png",
+    "US_hnnn1":"/assets/expressions/US_hnnn_1.png",
+    "US_joke1":"/assets/expressions/US_joke_1.png",
+    "US_maybeweshould1":"/assets/expressions/US_maybeweshould_1.png",
+    "US_neutral1":"/assets/expressions/US_neutral_1.png",
+    "US_no!1":"/assets/expressions/US_no!_1.png",
+    "US_no!2":"/assets/expressions/US_no!_2.png",
+    "US_ohshit1":"/assets/expressions/US_ohshit_1.png",
+    "US_question1":"/assets/expressions/US_question_1.png",
+    "US_sad1":"/assets/expressions/US_sad_1.png",
+    "US_sad2":"/assets/expressions/US_sad_2.png",
+    "US_sad3":"/assets/expressions/US_sad_3.png",
+    "US_sad4":"/assets/expressions/US_sad_4.png",
+    "US_sadsmile1":"/assets/expressions/US_sadsmile_1.png",
+    "US_serious1":"/assets/expressions/US_serious_1.png",
+    "US_serious2":"/assets/expressions/US_serious_2.png",
+    "US_shy1":"/assets/expressions/US_shy_1.png",
+    "US_surprised1":"/assets/expressions/US_surprised_1.png",
+    "US_upset1":"/assets/expressions/US_upset_1.png",
+    "US_yahoo1":"/assets/expressions/US_yahoo_1.png",
+    "US_yahoo2":"/assets/expressions/US_yahoo_2.png",
+    "US_yahoo3":"/assets/expressions/US_yahoo_3.png"
 },
 
 
