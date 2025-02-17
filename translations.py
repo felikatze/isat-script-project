@@ -1,5 +1,6 @@
 import bs4, json, os, re
 
+ignored_pages = re.compile(r"(about|index|not_found|portraits|test|thanks|(overview|sasasap)\/\w*)\.html")
 
 def generate_filelist() -> list[str]:
     print("generating filelist")
@@ -16,7 +17,7 @@ def generate_filecontent(filelist: list[str] = generate_filelist()) -> dict[str,
     for file in filelist:
         with open(file, encoding="utf-8") as f:
             soup = bs4.BeautifulSoup(f.read(), "html5lib")
-            filecontent[file] = soup.select(".dialogue-line")
+            filecontent[file] = soup.select(".dialogue-line") # get all the dialogue lines in the file
     return filecontent
         
 def write_lines_json():
@@ -50,8 +51,6 @@ def write_lines_json():
 
     with open("lines.json", "w", encoding="utf-8") as outfile:
         json.dump(pages, outfile, indent=4)
-        
-
 
 def clean_game_lines():
     with open("Translations.json", encoding="utf-8") as file:
@@ -87,7 +86,6 @@ def clean_site_lines():
     with open("raw_site_lines.json", encoding="utf-8") as file:
         site_lines_file: dict = json.load(file)
         
-    ignored_pages = re.compile(r"(about|index|not_found|portraits|test|(overview|sasasap)\/\w*)\.html")
     newline_pattern = re.compile(r"(\n )?<br\/>(\n )?|\n ?")
     tag_pattern = re.compile(r"<.+?>")
         
@@ -102,3 +100,63 @@ def clean_site_lines():
                     
     with open("site_lines.json", "wb") as file:
         file.write(json.dumps(site_lines_file, indent=4, ensure_ascii=False).encode("utf8"))
+        
+def associate_lines():
+    with open("game_lines.json", encoding="utf-8") as file:
+        game_lines: list[dict[str, str]] = json.load(file)
+    
+    with open("site_lines.json", encoding="utf-8") as file:
+        site_lines: dict[str, list[dict[str, str]]] = json.load(file)
+        
+    total_matches = {}
+    for page in site_lines:
+        if not re.match(ignored_pages, page):
+            print(f"page {page}")
+            matches = {}
+            no_matches = {}
+            for test_site_line in site_lines[page]: # for every site line (dict)
+                try:
+                    print(f"  checking {test_site_line['dialogue_clean']}")
+                    
+                    this_matches = []
+                    for test_game_line in game_lines: # for every game line (dict)
+                        if test_site_line["dialogue_clean"] == test_game_line["en"]: # if the cleaned up site and game lines are the same
+                            
+                            this_matches.append({
+                                "clean": test_site_line["dialogue_clean"],
+                                "site": {
+                                    "raw": test_site_line["dialogue"],
+                                    "page": page,
+                                    "index": site_lines[page].index(test_site_line)
+                                },
+                                "game": {
+                                    "en_raw": test_game_line["og_en"],
+                                    "jp": test_game_line["jp"],
+                                    "jp_raw": test_game_line["og_jp"],
+                                    "index": game_lines.index(test_game_line)
+                                }
+                            })
+                    if this_matches:
+                        matches[test_site_line["dialogue_clean"]] = this_matches
+                        print(f"    matches found")
+                    else:
+                        print(f"    no matches found")
+                        no_matches[test_site_line["dialogue_clean"]] = {
+                            "clean": test_site_line["dialogue_clean"],
+                            "raw": test_site_line["dialogue"],
+                            "page": page,
+                            "index": site_lines[page].index(test_site_line)
+                            }
+                except KeyError:
+                    continue
+            
+            total_matches[page] = {}
+            total_matches[page]["matches"] = matches
+            total_matches[page]["no_matches"] = no_matches
+            
+            break
+    
+    with open("line_associations.json", "wb") as file:
+        file.write(json.dumps(total_matches, indent=4, ensure_ascii=False).encode("utf8"))
+        
+associate_lines()
