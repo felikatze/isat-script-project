@@ -16,7 +16,7 @@ async function getExpressionUrlDictonary() {
      }
 
 let data = []
-export function tooltipImages() {
+function tooltipImages() {
     var dialogueHeads = document.querySelectorAll(".dialogue-head");
     for(let i = 0; i < dialogueHeads.length; i++)
     {
@@ -45,7 +45,7 @@ export function tooltipImages() {
                 nameReference = head.querySelector(".expression-exception").value;
                 if (nameReference.charAt(0) == "E") {
                     expressionElement.innerHTML = `(H_${expression})`;
-                } else if (expression.charAt(0) == "T") {expressionElement.innerHTML = `(${expression})`;
+                } else if (expression.charAt(0) == "T" || nameReference.charAt(0) == "K") {expressionElement.innerHTML = `(${expression})`;
                 } else {expressionElement.innerHTML = `(${nameReference.charAt(0)}_${expression})`};
                 if (debugMode) {console.info(`exception found: name is ${nameElement.innerHTML}, but head ${i} should be referencing ${nameReference}`)};
             }
