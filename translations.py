@@ -1,5 +1,6 @@
 import bs4, json, os, re
 
+# pages on the site to ignore and not search through
 ignored_pages = re.compile(r"(about|index|not_found|portraits|test|thanks|(overview|sasasap)\/\w*)\.html")
 
 def generate_filelist() -> list[str]:
@@ -25,7 +26,6 @@ def write_lines_json():
     print('doing things')
     pages = {}
     for file in filecontent:
-        print(f"doing {file}")
         content = filecontent[file]
         lines = []
         for stuff in content:
@@ -47,16 +47,14 @@ def write_lines_json():
         filepath = file.removeprefix("public\\").replace("\\", "/")
         pages[filepath] = lines
 
-    print("writing")
-
-    with open("lines.json", "w", encoding="utf-8") as outfile:
+    with open("raw_site_lines.json", "w", encoding="utf-8") as outfile:
         json.dump(pages, outfile, indent=4)
 
 def clean_game_lines():
     with open("Translations.json", encoding="utf-8") as file:
         game_translations_file: dict = json.load(file)
 
-    pattern = re.compile(r"(\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|wait|rb|choice(var|space)|wish(on|off))\]|!\\|!|\.|\||\^|>|<|(reset)?shake|wave|{|}|v\[\d+?\]|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\])|bustClear\[\d+?,\d+?\]))|m\[wait\]", flags=re.IGNORECASE)
+    main_pattern = re.compile(r"(\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|wait|rb|choice(var|space)|wish(on|off))\]|!\\|!|\.|\||\^|>|<|(reset)?shake|wave|{|}|v\[\d+?\]|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\])|bustClear\[\d+?,\d+?\]))|m\[wait\]", flags=re.IGNORECASE)
     dot_pattern = re.compile(r"\\m\[dot\]")
     newline_pattern = re.compile(r"<br>\n|<br>|\n|\r")
     
@@ -65,8 +63,8 @@ def clean_game_lines():
     for original_english_line in game_translations_file["msg"]:
         original_japanese_line = game_translations_file["msg"][original_english_line]["Japanese"]
         
-        new_english_line = re.sub(pattern, '', original_english_line)
-        new_japanese_line = re.sub(pattern, '', original_japanese_line)
+        new_english_line = re.sub(main_pattern, '', original_english_line)
+        new_japanese_line = re.sub(main_pattern, '', original_japanese_line)
         
         new_english_line = re.sub(dot_pattern, '...', new_english_line)
         new_japanese_line = re.sub(dot_pattern, '...', new_japanese_line)
@@ -75,7 +73,7 @@ def clean_game_lines():
         new_japanese_line = re.sub(newline_pattern, '', new_japanese_line)
         
         
-        if new_english_line or new_japanese_line: # if at least one of them isn't empty
+        if new_english_line or new_japanese_line: # if at least one of them isn't an empty stirng
             line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
             game_lines.append(line)
     
@@ -153,8 +151,6 @@ def associate_lines():
             total_matches[page] = {}
             total_matches[page]["matches"] = matches
             total_matches[page]["no_matches"] = no_matches
-            
-            break
     
     with open("line_associations.json", "wb") as file:
         file.write(json.dumps(total_matches, indent=4, ensure_ascii=False).encode("utf8"))
