@@ -1,7 +1,8 @@
 import bs4, json, os, re
+from alive_progress import alive_bar
 
 # pages on the site to ignore and not search through
-ignored_pages = re.compile(r"(about|index|not_found|portraits|test|thanks|(overview|sasasap)\/\w*)\.html")
+ignored_pages = re.compile(r"(about|index|not_found|portraits|test|thanks|(overview|sasasap)\/[\w-]*)\.html")
 
 def generate_filelist() -> list[str]:
     print("generating filelist")
@@ -112,45 +113,48 @@ def associate_lines():
             print(f"page {page}")
             matches = {}
             no_matches = {}
-            for test_site_line in site_lines[page]: # for every site line (dict)
-                try:
-                    print(f"  checking {test_site_line['dialogue_clean']}")
-                    
-                    this_matches = []
-                    for test_game_line in game_lines: # for every game line (dict)
-                        if test_site_line["dialogue_clean"] == test_game_line["en"]: # if the cleaned up site and game lines are the same
-                            
-                            this_matches.append({
+            with alive_bar(len(site_lines[page])) as bar:
+                for test_site_line in site_lines[page]: # for every site line (dict)
+                    try:
+                        # print(f"  checking {test_site_line['dialogue_clean']}")
+                        
+                        this_matches = []
+                        for test_game_line in game_lines: # for every game line (dict)
+                            if test_site_line["dialogue_clean"] == test_game_line["en"]: # if the cleaned up site and game lines are the same
+                                
+                                this_matches.append({
+                                    "clean": test_site_line["dialogue_clean"],
+                                    "site": {
+                                        "raw": test_site_line["dialogue"],
+                                        "page": page,
+                                        "index": site_lines[page].index(test_site_line)
+                                    },
+                                    "game": {
+                                        "en_raw": test_game_line["og_en"],
+                                        "jp": test_game_line["jp"],
+                                        "jp_raw": test_game_line["og_jp"],
+                                        "index": game_lines.index(test_game_line)
+                                    }
+                                })
+                        if this_matches:
+                            matches[test_site_line["dialogue_clean"]] = this_matches
+                            # print(f"    matches found")
+                        else:
+                            # print(f"    no matches found")
+                            no_matches[test_site_line["dialogue_clean"]] = {
                                 "clean": test_site_line["dialogue_clean"],
-                                "site": {
-                                    "raw": test_site_line["dialogue"],
-                                    "page": page,
-                                    "index": site_lines[page].index(test_site_line)
-                                },
-                                "game": {
-                                    "en_raw": test_game_line["og_en"],
-                                    "jp": test_game_line["jp"],
-                                    "jp_raw": test_game_line["og_jp"],
-                                    "index": game_lines.index(test_game_line)
+                                "raw": test_site_line["dialogue"],
+                                "page": page,
+                                "index": site_lines[page].index(test_site_line)
                                 }
-                            })
-                    if this_matches:
-                        matches[test_site_line["dialogue_clean"]] = this_matches
-                        print(f"    matches found")
-                    else:
-                        print(f"    no matches found")
-                        no_matches[test_site_line["dialogue_clean"]] = {
-                            "clean": test_site_line["dialogue_clean"],
-                            "raw": test_site_line["dialogue"],
-                            "page": page,
-                            "index": site_lines[page].index(test_site_line)
-                            }
-                except KeyError:
-                    continue
-            
-            total_matches[page] = {}
-            total_matches[page]["matches"] = matches
-            total_matches[page]["no_matches"] = no_matches
+                        bar()
+                    except KeyError:
+                        bar()
+                        continue
+                
+                total_matches[page] = {}
+                total_matches[page]["matches"] = matches
+                total_matches[page]["no_matches"] = no_matches
     
     with open("line_associations.json", "wb") as file:
         file.write(json.dumps(total_matches, indent=4, ensure_ascii=False).encode("utf8"))
