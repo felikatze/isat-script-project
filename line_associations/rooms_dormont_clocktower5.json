@@ -1,2994 +1,1810 @@
-{
-    "matches": {
-        "(The Clocktower.)": [
-            {
-                "clean": "(The Clocktower.)",
-                "site": {
-                    "raw": "(The Clocktower.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The Clocktower.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(時計台だ。)",
-                    "jp_raw": "\\m[clear](時計台だ。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12261
-                }
-            }
+[
+    {
+        "en_raw": "(The Clocktower.)",
+        "en_clean": "(The Clocktower.)",
+        "jp_raw": "\\m[clear](時計台だ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(時計台だ。)"
+    },
+    {
+        "en_raw": "(You arrived later than usual.)",
+        "en_clean": "(You arrived later than usual.)",
+        "jp_raw": "(いつもより、着くのが遅くなった。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(いつもより、着くのが遅くなった。)"
+    },
+    {
+        "en_raw": "(Is everyone eating still?)",
+        "en_clean": "(Is everyone eating still?)",
+        "jp_raw": "(みんな、まだ食事中なのか？)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(みんな、まだ食事中なのか？)"
+    },
+    {
+        "en_raw": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
+        "en_clean": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
+        "jp_raw": "(食事に加わって、\\!今回は普通にしておかないと。\\!そうすれば、明日は一緒に館に行ける。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)"
+    },
+    {
+        "en_raw": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
+        "en_clean": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
+        "jp_raw": "(みんなの強さが十分じゃなくても、構わない。\\!自分でやればいい。\\!自分で王を倒すんだ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)"
+    },
+    {
+        "en_raw": "(You just want them here.)",
+        "en_clean": "(You just want them here.)",
+        "jp_raw": "(みんなは、そばにいてくれるだけでいい。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(みんなは、そばにいてくれるだけでいい。)"
+    },
+    {
+        "en_raw": "(You enter silently.)",
+        "en_clean": "(You enter silently.)",
+        "jp_raw": "(僕は無言で中に入る。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(僕は無言で中に入る。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
         ],
-        "(You arrived later than usual.)": [
-            {
-                "clean": "(You arrived later than usual.)",
-                "site": {
-                    "raw": "(You arrived later than usual.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 1
-                },
-                "game": {
-                    "en_raw": "(You arrived later than usual.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(いつもより、着くのが遅くなった。)",
-                    "jp_raw": "(いつもより、着くのが遅くなった。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12262
-                }
-            }
-        ],
-        "(Is everyone eating still?)": [
-            {
-                "clean": "(Is everyone eating still?)",
-                "site": {
-                    "raw": "(Is everyone eating still?)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 2
-                },
-                "game": {
-                    "en_raw": "(Is everyone eating still?)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(みんな、まだ食事中なのか？)",
-                    "jp_raw": "(みんな、まだ食事中なのか？)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12263
-                }
-            }
-        ],
-        "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)": [
-            {
-                "clean": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
-                "site": {
-                    "raw": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "(You need to join them,\\!\\ and act normally this time,\\!\\ so you can all go to the House together tomorrow.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)",
-                    "jp_raw": "(食事に加わって、\\!今回は普通にしておかないと。\\!そうすれば、明日は一緒に館に行ける。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12264
-                }
-            }
-        ],
-        "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)": [
-            {
-                "clean": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
-                "site": {
-                    "raw": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "(You don't care if they're not strong enough.\\!\\ You can make it on your own,\\!\\ defeat the King on your own.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)",
-                    "jp_raw": "(みんなの強さが十分じゃなくても、構わない。\\!自分でやればいい。\\!自分で王を倒すんだ。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12265
-                }
-            }
-        ],
-        "(You just want them here.)": [
-            {
-                "clean": "(You just want them here.)",
-                "site": {
-                    "raw": "(You just want them here.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 5
-                },
-                "game": {
-                    "en_raw": "(You just want them here.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(みんなは、そばにいてくれるだけでいい。)",
-                    "jp_raw": "(みんなは、そばにいてくれるだけでいい。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 12266
-                }
-            }
-        ],
-        "(You enter silently.)": [
-            {
-                "clean": "(You enter silently.)",
-                "site": {
-                    "raw": "(You enter silently.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "(You enter silently.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(僕は無言で中に入る。)",
-                    "jp_raw": "(僕は無言で中に入る。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2138
-                }
-            }
-        ],
-        "(...)": [
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)",
-                    "jp": "(...)",
-                    "jp_raw": "(...)",
-                    "index": 21
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)",
-                    "index": 164
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\^",
-                    "index": 178
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\",
-                    "index": 205
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)",
-                    "index": 245
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)",
-                    "index": 264
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)",
-                    "index": 391
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)",
-                    "index": 532
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "index": 560
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "index": 1027
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\",
-                    "index": 1966
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2139
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 2186
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](...)\\!\\",
-                    "index": 2310
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)",
-                    "index": 2334
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "index": 2508
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\",
-                    "index": 2941
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)",
-                    "index": 3128
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "index": 3751
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 3809
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "index": 3934
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "index": 4505
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "index": 4578
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "index": 4925
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "index": 5021
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "index": 6778
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "index": 7497
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "index": 7563
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "index": 7874
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "index": 8427
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "index": 8475
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "index": 8773
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "index": 9379
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 10078
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vsc](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vsc](...)\\!\\",
-                    "index": 10129
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\m[dot])\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[dot])\\!\\",
-                    "index": 10550
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "index": 10935
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "index": 11969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[rb](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\m[rb](...)",
-                    "index": 12007
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "index": 12044
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "index": 12183
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "index": 12241
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "index": 12285
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "index": 13281
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]",
-                    "index": 13579
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14087
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14623
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "index": 14870
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "index": 14969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](...)",
-                    "index": 15047
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "index": 15058
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 15161
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "index": 16033
-                }
-            }
-        ],
-        "(You don't hear cutlery or anything.)": [
-            {
-                "clean": "(You don't hear cutlery or anything.)",
-                "site": {
-                    "raw": "(You don't hear cutlery or anything.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(You don't hear cutlery or anything.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(食器の音も何も聞こえない。)",
-                    "jp_raw": "(食器の音も何も聞こえない。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2140
-                }
-            }
-        ],
-        "(Your stomach hurts.)": [
-            {
-                "clean": "(Your stomach hurts.)",
-                "site": {
-                    "raw": "(Your stomach hurts.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(Your stomach hurts.)",
-                    "jp": "(胃が痛い。)",
-                    "jp_raw": "(胃が痛い。)",
-                    "index": 79
-                }
-            },
-            {
-                "clean": "(Your stomach hurts.)",
-                "site": {
-                    "raw": "(Your stomach hurts.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(Your stomach hurts.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(胃がキリキリ痛む。)",
-                    "jp_raw": "(胃がキリキリ痛む。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2141
-                }
-            },
-            {
-                "clean": "(Your stomach hurts.)",
-                "site": {
-                    "raw": "(Your stomach hurts.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "\\m[wait](Your stomach hurts.)",
-                    "jp": "(胃が痛い。)",
-                    "jp_raw": "\\m[wait](胃が痛い。)",
-                    "index": 4927
-                }
-            },
-            {
-                "clean": "(Your stomach hurts.)",
-                "site": {
-                    "raw": "(Your stomach hurts.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Your stomach hurts.)",
-                    "jp": "(胃が痛い。)",
-                    "jp_raw": "\\m[clear](胃が痛い。)",
-                    "index": 10558
-                }
-            }
-        ],
-        "(They must've eaten without you.)": [
-            {
-                "clean": "(They must've eaten without you.)",
-                "site": {
-                    "raw": "(They must've eaten without you.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "(They must've eaten without you.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(みんな僕抜きで食事を終えたんだ。)",
-                    "jp_raw": "(みんな僕抜きで食事を終えたんだ。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2142
-                }
-            }
-        ],
-        "(Maybe they're already sleeping.)": [
-            {
-                "clean": "(Maybe they're already sleeping.)",
-                "site": {
-                    "raw": "(Maybe they're already sleeping.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 11
-                },
-                "game": {
-                    "en_raw": "(Maybe they're already sleeping.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(もう眠っているかもしれない。)",
-                    "jp_raw": "(もう眠っているかもしれない。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2143
-                }
-            }
-        ],
-        "(But no-- You can hear them talk.)": [
-            {
-                "clean": "(But no-- You can hear them talk.)",
-                "site": {
-                    "raw": "(But no-- You can hear them talk.)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 12
-                },
-                "game": {
-                    "en_raw": "(But no--\\!\\ You can hear them talk.)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(いや、そうじゃない――みんなの会話が聞こえる。)",
-                    "jp_raw": "(いや、そうじゃない――\\!みんなの会話が聞こえる。)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2144
-                }
-            }
-        ],
-        "(You get closer...)": [
-            {
-                "clean": "(You get closer...)",
-                "site": {
-                    "raw": "(You get closer...)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 13
-                },
-                "game": {
-                    "en_raw": "(You get closer...)",
-                    "jp": "(近づいてみる...)",
-                    "jp_raw": "(近づいてみる...)",
-                    "index": 2145
-                }
-            }
-        ],
-        "...": [
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "...",
-                    "jp": "...",
-                    "jp_raw": "...",
-                    "index": 447
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..",
-                    "index": 584
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...",
-                    "index": 644
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...",
-                    "index": 669
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...",
-                    "index": 670
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...",
-                    "index": 671
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..",
-                    "index": 699
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..",
-                    "index": 700
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..",
-                    "index": 701
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "index": 784
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 844
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 921
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "index": 1017
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.",
-                    "index": 1035
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..",
-                    "index": 1148
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "index": 1459
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "index": 1461
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]...",
-                    "index": 2011
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]...",
-                    "index": 2146
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...",
-                    "index": 2149
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]...",
-                    "index": 2156
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "index": 2157
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "index": 2175
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "index": 2582
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 2600
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "index": 2631
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "index": 2719
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2922
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>...",
-                    "index": 3001
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "index": 3172
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "index": 3197
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "index": 3414
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "index": 3423
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]\\^",
-                    "index": 3524
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 3722
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 3846
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "index": 3848
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...",
-                    "index": 3940
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "index": 3953
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "index": 3964
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\..\\..\\..",
-                    "index": 4587
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\..\\..\\..",
-                    "index": 5061
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\shake...",
-                    "index": 5296
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 5586
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 5647
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "index": 5942
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "index": 6020
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..",
-                    "index": 6341
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 6388
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "index": 7218
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "index": 7421
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...",
-                    "index": 8336
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 8343
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..",
-                    "index": 8359
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "index": 8398
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 8419
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 8446
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\m[rb]",
-                    "index": 8463
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...",
-                    "index": 8465
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "index": 8469
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9427
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "index": 9898
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 11568
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 11589
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "index": 11619
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "index": 11655
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "index": 11656
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "index": 11891
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 11893
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..",
-                    "index": 12071
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "index": 12104
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 12216
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12240
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "index": 12244
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...",
-                    "index": 12248
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "index": 12255
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12312
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "index": 12321
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "index": 12441
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 12453
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[rb]",
-                    "index": 12786
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\shake...",
-                    "index": 13519
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "index": 13843
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]\\..\\..\\..",
-                    "index": 14245
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 14959
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "index": 14962
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "...\\m[rb]",
-                    "index": 15458
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[wait]",
-                    "index": 16042
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]",
-                    "index": 16049
-                }
-            }
-        ],
-        "And...": [
-            {
-                "clean": "And...",
-                "site": {
-                    "raw": "And...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[vm]And...",
-                    "jp": "それで...",
-                    "jp_raw": "\\m[vm]それで...",
-                    "index": 1899
-                }
-            },
-            {
-                "clean": "And...",
-                "site": {
-                    "raw": "And...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]And...",
-                    "jp": "それで...",
-                    "jp_raw": "\\m[vmnp]それで...",
-                    "index": 2147
-                }
-            },
-            {
-                "clean": "And...",
-                "site": {
-                    "raw": "And...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "And...",
-                    "jp": "それに...",
-                    "jp_raw": "それに...",
-                    "index": 3282
-                }
-            },
-            {
-                "clean": "And...",
-                "site": {
-                    "raw": "And...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "And\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "そして...",
-                    "jp_raw": "そして\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 8212
-                }
-            }
-        ],
-        "And then I left. I couldn't... Be there anymore.": [
-            {
-                "clean": "And then I left. I couldn't... Be there anymore.",
-                "site": {
-                    "raw": "And then I left. I couldn't... Be there anymore.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 16
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]And then I left.\\!\\ I couldn't...\\!\\ Be there anymore.",
-                    "jp": "その場を離れたの。だって、もう... それ以上いられなかったから。",
-                    "jp_raw": "\\m[vmnp]その場を離れたの。\\!だって、もう...\\!\\ それ以上いられなかったから。",
-                    "index": 2148
-                }
-            }
-        ],
-        "Why would Sif act like this suddenly? That's not like them at all...": [
-            {
-                "clean": "Why would Sif act like this suddenly? That's not like them at all...",
-                "site": {
-                    "raw": "Why would Sif act like this suddenly? That's not like them at all...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 18
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]Why would Sif act like this suddenly?\\!\\ That's not like them at all...",
-                    "jp": "どうしてシフは急にあんな態度をとるようになったんだ？ ちっともシフらしくない...",
-                    "jp_raw": "\\m[vinp]どうしてシフは急にあんな態度をとるようになったんだ？\\!\\ ちっともシフらしくない...",
-                    "index": 2150
-                }
-            }
-        ],
-        "Clearly, something happened.": [
-            {
-                "clean": "Clearly, something happened.",
-                "site": {
-                    "raw": "Clearly, something happened.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 19
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Clearly, something happened.",
-                    "jp": "何かがあったのは間違いない。",
-                    "jp_raw": "\\m[vonp]何かがあったのは間違いない。",
-                    "index": 2151
-                }
-            }
-        ],
-        "B-But what?": [
-            {
-                "clean": "B-But what?",
-                "site": {
-                    "raw": "B-But what?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]B-But what?",
-                    "jp": "で、でも何が？",
-                    "jp_raw": "\\m[vbnp]で、でも何が？",
-                    "index": 2152
-                }
-            }
-        ],
-        "I don't understand... Why he'd do stuff like that.": [
-            {
-                "clean": "I don't understand... Why he'd do stuff like that.",
-                "site": {
-                    "raw": "I don't understand... Why he'd do stuff like that.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 21
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]I don't understand...\\!\\ Why he'd do stuff like that.",
-                    "jp": "サッパリ分かんない... なんでそんなことすんだ？",
-                    "jp_raw": "\\m[vbnp]サッパリ分かんない...\\!\\ なんでそんなことすんだ？",
-                    "index": 2153
-                }
-            }
-        ],
-        "I don't understand at all!": [
-            {
-                "clean": "I don't understand at all!",
-                "site": {
-                    "raw": "<span class=\"shake\">\n I don't understand at all!\n</span>",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 22
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\shakeI don't understand at all!",
-                    "jp": "ぜんっぜん分かんないよ！",
-                    "jp_raw": "\\m[vbnp]\\shakeぜんっぜん分かんないよ！",
-                    "index": 2154
-                }
-            }
-        ],
-        "Bonnie...": [
-            {
-                "clean": "Bonnie...",
-                "site": {
-                    "raw": "Bonnie...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]Bonnie...",
-                    "jp": "ボニー...",
-                    "jp_raw": "\\m[vmnp]ボニー...",
-                    "index": 2155
-                }
-            },
-            {
-                "clean": "Bonnie...",
-                "site": {
-                    "raw": "Bonnie...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Bonnie...",
-                    "jp": "ボニー...",
-                    "jp_raw": "\\m[vm]ボニー...",
-                    "index": 4662
-                }
-            }
-        ],
-        "Everyone.": [
-            {
-                "clean": "Everyone.",
-                "site": {
-                    "raw": "Everyone.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 26
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\m[wait]Everyone.",
-                    "jp": "みんな。",
-                    "jp_raw": "\\m[vonp]\\m[wait]みんな。",
-                    "index": 2158
-                }
-            }
-        ],
-        "What to do?": [
-            {
-                "clean": "What to do?",
-                "site": {
-                    "raw": "What to do?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 28
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]What to do?",
-                    "jp": "どうするかって？",
-                    "jp_raw": "\\m[vinp]どうするかって？",
-                    "index": 2160
-                }
-            }
-        ],
-        "About tomorrow...?": [
-            {
-                "clean": "About tomorrow...?",
-                "site": {
-                    "raw": "About tomorrow...?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 29
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]About tomorrow...?",
-                    "jp": "明日のこと...？",
-                    "jp_raw": "\\m[vmnp]明日のこと...？",
-                    "index": 2161
-                }
-            }
-        ],
-        "Yes.": [
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Yes.",
-                    "jp": "そうだ。",
-                    "jp_raw": "\\m[vonp]そうだ。",
-                    "index": 2162
-                }
-            },
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Yes.",
-                    "jp": "そのとおり。",
-                    "jp_raw": "\\m[vo]そのとおり。",
-                    "index": 9985
-                }
-            },
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "Yes.",
-                    "jp": "そうだよ。",
-                    "jp_raw": "そうだよ。",
-                    "index": 12153
-                }
-            },
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Yes.",
-                    "jp": "そうだね。",
-                    "jp_raw": "\\m[vm]そうだね。",
-                    "index": 14636
-                }
-            },
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vl]Yes.",
-                    "jp": "そうだね。",
-                    "jp_raw": "\\m[vl]そうだね。",
-                    "index": 15475
-                }
-            },
-            {
-                "clean": "Yes.",
-                "site": {
-                    "raw": "Yes.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[wait]Yes.",
-                    "jp": "いいよ。",
-                    "jp_raw": "\\m[wait]いいよ。",
-                    "index": 16746
-                }
-            }
-        ],
-        "What do you mean?": [
-            {
-                "clean": "What do you mean?",
-                "site": {
-                    "raw": "What do you mean?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 31
-                },
-                "game": {
-                    "en_raw": "\\m[vl]What do you mean?\\m[rb]",
-                    "jp": "どういうこと？",
-                    "jp_raw": "\\m[vl]どういうこと？\\m[rb]",
-                    "index": 14761
-                }
-            }
-        ],
-        "Are you saying... Leave without Siffrin?": [
-            {
-                "clean": "Are you saying... Leave without Siffrin?",
-                "site": {
-                    "raw": "Are you saying... Leave without Siffrin?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 32
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]Are you saying...\\!\\ Leave without Siffrin?",
-                    "jp": "つまり... シフラン抜きで出発するかってこと？",
-                    "jp_raw": "\\m[vmnp]つまり...\\!\\ シフラン抜きで出発するかってこと？",
-                    "index": 2164
-                }
-            }
-        ],
-        "What?!": [
-            {
-                "clean": "What?!",
-                "site": {
-                    "raw": "What?!",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 33
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]What?!",
-                    "jp": "ええっ？！",
-                    "jp_raw": "\\m[vinp]ええっ？！",
-                    "index": 2165
-                }
-            }
-        ],
-        "I-I understand how you feel, but...": [
-            {
-                "clean": "I-I understand how you feel, but...",
-                "site": {
-                    "raw": "I-I understand how you feel, but...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 34
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]I-I understand how you feel, but...",
-                    "jp": "き、気持ちは分かるけどさ...",
-                    "jp_raw": "\\m[vinp]き、気持ちは分かるけどさ...",
-                    "index": 2166
-                }
-            }
-        ],
-        "Plus, he's our friend! We can't leave them behind!!!": [
-            {
-                "clean": "Plus, he's our friend! We can't leave them behind!!!",
-                "site": {
-                    "raw": "Plus, he's our friend! We can't leave them behind!!!",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]Plus, he's our friend!\\!\\ We can't leave them behind!!!",
-                    "jp": "それに、シフは仲間だろ！ 仲間を置いてくなんてできないよ！",
-                    "jp_raw": "\\m[vinp]それに、シフは仲間だろ！\\!\\ 仲間を置いてくなんてできないよ！",
-                    "index": 2168
-                }
-            }
-        ],
-        "Yeah! H-He was mean, but, but Frin was always with us, so--": [
-            {
-                "clean": "Yeah! H-He was mean, but, but Frin was always with us, so--",
-                "site": {
-                    "raw": "Yeah! H-He was mean, but, but Frin was always with us, so--",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 37
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]Yeah!\\!\\ H-He was mean, but, but Frin was always with us, so--",
-                    "jp": "そうだそうだ！ き、今日はイジワルだったけど、フランはいつも一緒だった。だから――",
-                    "jp_raw": "\\m[vbnp]そうだそうだ！\\!\\ き、今日はイジワルだったけど、フランはいつも一緒だった。\\!だから――",
-                    "index": 2169
-                }
-            }
-        ],
-        "Maybe they won't even come back tonight...": [
-            {
-                "clean": "Maybe they won't even come back tonight...",
-                "site": {
-                    "raw": "Maybe they won't even come back tonight...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 39
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]Maybe they won't even come back tonight...",
-                    "jp": "もしかしたら今晩だって帰ってこないかもだし...",
-                    "jp_raw": "\\m[vmnp]もしかしたら今晩だって帰ってこないかもだし...",
-                    "index": 2171
-                }
-            }
-        ],
-        "No, Frin will be there!!! I know it!!!": [
-            {
-                "clean": "No, Frin will be there!!! I know it!!!",
-                "site": {
-                    "raw": "No, Frin will be there!!! I know it!!!",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]No, Frin will be there!!!\\!\\ I know it!!!",
-                    "jp": "フランはぜったいに来る！ ぜったいだ！",
-                    "jp_raw": "\\m[vbnp]フランはぜったいに来る！\\!\\ ぜったいだ！",
-                    "index": 2172
-                }
-            }
-        ],
-        "And either way, we should wait for them, everyone... We can't...": [
-            {
-                "clean": "And either way, we should wait for them, everyone... We can't...",
-                "site": {
-                    "raw": "And either way, we should wait for them, everyone... We can't...",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 41
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]And either way, we should wait for them, everyone...\\!\\ We can't...",
-                    "jp": "いずれにしても、シフランを待つべきだよ... だって急に...",
-                    "jp_raw": "\\m[vinp]いずれにしても、シフランを待つべきだよ...\\!\\ だって急に...",
-                    "index": 2173
-                }
-            }
-        ],
-        "Please, listen to me.": [
-            {
-                "clean": "Please, listen to me.",
-                "site": {
-                    "raw": "Please, listen to me.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 42
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Please, listen to me.",
-                    "jp": "私の話を聞いてほしい。",
-                    "jp_raw": "\\m[vonp]私の話を聞いてほしい。",
-                    "index": 2174
-                }
-            }
-        ],
-        "I... I just... I just don't know if we can trust Siffrin anymore.": [
-            {
-                "clean": "I... I just... I just don't know if we can trust Siffrin anymore.",
-                "site": {
-                    "raw": "I... I just... I just don't know if we can trust Siffrin anymore.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 44
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]I...\\!\\ I just...\\!\\m[wait] I just don't know if we can trust Siffrin anymore.",
-                    "jp": "私は... ただ... この先もシフランを信頼できるか、分からなくなってしまったんだ。",
-                    "jp_raw": "\\m[vonp]私は...\\!\\ ただ...\\!\\m[wait] この先もシフランを信頼できるか、分からなくなってしまったんだ。",
-                    "index": 2176
-                }
-            }
-        ],
-        "Not at such an important moment.": [
-            {
-                "clean": "Not at such an important moment.",
-                "site": {
-                    "raw": "Not at such an important moment.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 45
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Not at such an important moment.",
-                    "jp": "今ほど重要なタイミングはないんだぞ。",
-                    "jp_raw": "\\m[vonp]今ほど重要なタイミングはないんだぞ。",
-                    "index": 2177
-                }
-            }
-        ],
-        "But--": [
-            {
-                "clean": "But--",
-                "site": {
-                    "raw": "But--",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]But--",
-                    "jp": "でもさぁ――",
-                    "jp_raw": "\\m[vinp]でもさぁ――",
-                    "index": 2178
-                }
-            },
-            {
-                "clean": "But--",
-                "site": {
-                    "raw": "But--",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "\\m[vo]But--",
-                    "jp": "だが――",
-                    "jp_raw": "\\m[vo]だが――",
-                    "index": 14617
-                }
-            }
-        ],
-        "We'll be fighting the King tomorrow, Isabeau!!!": [
-            {
-                "clean": "We'll be fighting the King tomorrow, Isabeau!!!",
-                "site": {
-                    "raw": "We'll be fighting the King tomorrow, Isabeau!!!",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 47
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]We'll be fighting the King tomorrow, Isabeau!!!",
-                    "jp": "イザボー、私たちは明日、王と戦うんだ！",
-                    "jp_raw": "\\m[vonp]イザボー、私たちは明日、王と戦うんだ！",
-                    "index": 2179
-                }
-            }
-        ],
-        "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.": [
-            {
-                "clean": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
-                "site": {
-                    "raw": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 48
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]It's not just a simple Sadness.\\!\\ It's the KING.\\!\\ The being who has trapped Vaugarde in time.",
-                    "jp": "ただの哀し身じゃない。王だぞ。ヴォーガルドの時間を止めたとんでもない相手だ。",
-                    "jp_raw": "\\m[vonp]ただの哀し身じゃない。\\!王だぞ。\\!ヴォーガルドの時間を止めたとんでもない相手だ。",
-                    "index": 2180
-                }
-            }
-        ],
-        "And we need to be a team.": [
-            {
-                "clean": "And we need to be a team.",
-                "site": {
-                    "raw": "And we need to be a team.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 49
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]And we need to be a team.",
-                    "jp": "一丸にならないと勝ち目はない。",
-                    "jp_raw": "\\m[vonp]一丸にならないと勝ち目はない。",
-                    "index": 2181
-                }
-            }
-        ],
-        "We need to be united, we need to trust one another.": [
-            {
-                "clean": "We need to be united, we need to trust one another.",
-                "site": {
-                    "raw": "We need to be united, we need to trust one another.",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]We need to be united, we need to trust one another.",
-                    "jp": "団結して、お互いを信頼しなければ。",
-                    "jp_raw": "\\m[vonp]団結して、お互いを信頼しなければ。",
-                    "index": 2182
-                }
-            }
-        ],
-        "Could you do it, everyone?": [
-            {
-                "clean": "Could you do it, everyone?",
-                "site": {
-                    "raw": "Could you do it, everyone?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Could you do it, everyone?\\!\\m[wait]\\^",
-                    "jp": "それが可能だと思うか？",
-                    "jp_raw": "\\m[vonp]それが可能だと思うか？\\!\\m[wait]\\^",
-                    "index": 2184
-                }
-            }
-        ],
-        "Could you entrust your life and future to someone like Siffrin right now?": [
-            {
-                "clean": "Could you entrust your life and future to someone like Siffrin right now?",
-                "site": {
-                    "raw": "Could you entrust your life and future to someone like Siffrin right now?",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 53
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]Could you entrust your life and future to someone like Siffrin right now?\\!\\m[wait]\\^",
-                    "jp": "今のシフランのような人物に命を預け、未来を託すことができるか？",
-                    "jp_raw": "\\m[vonp]今のシフランのような人物に命を預け、未来を託すことができるか？\\!\\m[wait]\\^",
-                    "index": 2185
-                }
-            }
-        ],
-        "(You)": [
-            {
-                "clean": "(You)",
-                "site": {
-                    "raw": "(You)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You)\\!\\m[wait]\\^",
-                    "jp": "(自分で)",
-                    "jp_raw": "\\m[clear](自分で)\\!\\m[wait]\\^",
-                    "index": 2187
-                }
-            },
-            {
-                "clean": "(You)",
-                "site": {
-                    "raw": "(You)",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You)",
-                    "jp": "(僕は)",
-                    "jp_raw": "\\m[clear](僕は)",
-                    "index": 8474
-                }
-            }
-        ],
-        "(You decide to": [
-            {
-                "clean": "(You decide to",
-                "site": {
-                    "raw": "(You decide to",
-                    "page": "rooms/dormont/clocktower5.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You\\!\\ decide\\!\\ to\\|\\^",
-                    "jp": "(自分で決断しないと",
-                    "jp_raw": "\\m[clear](自分で\\!決断\\!しないと\\|\\^",
-                    "index": 2188
-                }
-            }
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
         ]
     },
-    "no_matches": {
-        "Siffrin might come back any second now...  So we need to decide what to do.": {
-            "clean": "Siffrin might come back any second now...  So we need to decide what to do.",
-            "raw": "Siffrin might come back any second now...  So we need to decide what to do.",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 27
-        },
-        "But we shouldn't leave Sif behind! H-He's the one who leads us...! We wouldn't be able to avoid traps without them!": {
-            "clean": "But we shouldn't leave Sif behind! H-He's the one who leads us...! We wouldn't be able to avoid traps without them!",
-            "raw": "But we shouldn't leave Sif behind! H-He's the one who leads us...! We wouldn't be able to avoid traps without them!",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 35
-        },
-        "I agree, but...  B-But would he even agree to come with us, still?": {
-            "clean": "I agree, but...  B-But would he even agree to come with us, still?",
-            "raw": "I agree, but...  B-But would he even agree to come with us, still?",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 38
-        },
-        ". . .": {
-            "clean": ". . .",
-            "raw": ". . .",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 43
-        },
-        "...  After what just happened to all of us today...": {
-            "clean": "...  After what just happened to all of us today...",
-            "raw": "...  After what just happened to all of us today...",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 51
-        },
-        "(. . .)": {
-            "clean": "(. . .)",
-            "raw": "(. . .)",
-            "page": "rooms/dormont/clocktower5.html",
-            "index": 57
-        }
+    {
+        "en_raw": "(You don't hear cutlery or anything.)",
+        "en_clean": "(You don't hear cutlery or anything.)",
+        "jp_raw": "(食器の音も何も聞こえない。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(食器の音も何も聞こえない。)"
+    },
+    {
+        "en_raw": "(Your stomach hurts.)",
+        "en_clean": "(Your stomach hurts.)",
+        "jp_raw": [
+            "(胃が痛い。)",
+            "(胃がキリキリ痛む。)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[wait](胃が痛い。)",
+            "\\m[clear](胃が痛い。)"
+        ],
+        "jp_clean": [
+            "(胃が痛い。)",
+            "(胃がキリキリ痛む。)",
+            "(胃が痛い。)",
+            "(胃が痛い。)"
+        ]
+    },
+    {
+        "en_raw": "(They must've eaten without you.)",
+        "en_clean": "(They must've eaten without you.)",
+        "jp_raw": "(みんな僕抜きで食事を終えたんだ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(みんな僕抜きで食事を終えたんだ。)"
+    },
+    {
+        "en_raw": "(Maybe they're already sleeping.)",
+        "en_clean": "(Maybe they're already sleeping.)",
+        "jp_raw": "(もう眠っているかもしれない。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(もう眠っているかもしれない。)"
+    },
+    {
+        "en_raw": "(But no-- You can hear them talk.)",
+        "en_clean": "(But no-- You can hear them talk.)",
+        "jp_raw": "(いや、そうじゃない――\\!みんなの会話が聞こえる。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_clean": "(いや、そうじゃない――みんなの会話が聞こえる。)"
+    },
+    {
+        "en_raw": "(You get closer...)",
+        "en_clean": "(You get closer...)",
+        "jp_raw": "(近づいてみる...)",
+        "jp_clean": "(近づいてみる...)"
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "And...",
+        "en_clean": "And...",
+        "jp_raw": [
+            "\\m[vm]それで...",
+            "\\m[vmnp]それで...",
+            "それに...",
+            "そして\\..\\..\\..\\!\\m[wait]\\^"
+        ],
+        "jp_clean": [
+            "それで...",
+            "それで...",
+            "それに...",
+            "そして..."
+        ]
+    },
+    {
+        "en_raw": "And then I left. I couldn't... Be there anymore.",
+        "en_clean": "And then I left. I couldn't... Be there anymore.",
+        "jp_raw": "\\m[vmnp]その場を離れたの。\\!だって、もう...\\!\\ それ以上いられなかったから。",
+        "jp_clean": "その場を離れたの。だって、もう... それ以上いられなかったから。"
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "Why would Sif act like this suddenly? That's not like them at all...",
+        "en_clean": "Why would Sif act like this suddenly? That's not like them at all...",
+        "jp_raw": "\\m[vinp]どうしてシフは急にあんな態度をとるようになったんだ？\\!\\ ちっともシフらしくない...",
+        "jp_clean": "どうしてシフは急にあんな態度をとるようになったんだ？ ちっともシフらしくない..."
+    },
+    {
+        "en_raw": "Clearly, something happened.",
+        "en_clean": "Clearly, something happened.",
+        "jp_raw": "\\m[vonp]何かがあったのは間違いない。",
+        "jp_clean": "何かがあったのは間違いない。"
+    },
+    {
+        "en_raw": "B-But what?",
+        "en_clean": "B-But what?",
+        "jp_raw": "\\m[vbnp]で、でも何が？",
+        "jp_clean": "で、でも何が？"
+    },
+    {
+        "en_raw": "I don't understand... Why he'd do stuff like that.",
+        "en_clean": "I don't understand... Why he'd do stuff like that.",
+        "jp_raw": "\\m[vbnp]サッパリ分かんない...\\!\\ なんでそんなことすんだ？",
+        "jp_clean": "サッパリ分かんない... なんでそんなことすんだ？"
+    },
+    {
+        "en_raw": "<span class=\"shake\">\n I don't understand at all!\n</span>",
+        "en_clean": "I don't understand at all!",
+        "jp_raw": "\\m[vbnp]\\shakeぜんっぜん分かんないよ！",
+        "jp_clean": "ぜんっぜん分かんないよ！"
+    },
+    {
+        "en_raw": "Bonnie...",
+        "en_clean": "Bonnie...",
+        "jp_raw": [
+            "\\m[vmnp]ボニー...",
+            "\\m[vm]ボニー..."
+        ],
+        "jp_clean": [
+            "ボニー...",
+            "ボニー..."
+        ]
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "Everyone.",
+        "en_clean": "Everyone.",
+        "jp_raw": "\\m[vonp]\\m[wait]みんな。",
+        "jp_clean": "みんな。"
+    },
+    {
+        "en_raw": "Siffrin might come back any second now...  So we need to decide what to do.",
+        "en_clean": "Siffrin might come back any second now...  So we need to decide what to do.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "What to do?",
+        "en_clean": "What to do?",
+        "jp_raw": "\\m[vinp]どうするかって？",
+        "jp_clean": "どうするかって？"
+    },
+    {
+        "en_raw": "About tomorrow...?",
+        "en_clean": "About tomorrow...?",
+        "jp_raw": "\\m[vmnp]明日のこと...？",
+        "jp_clean": "明日のこと...？"
+    },
+    {
+        "en_raw": "Yes.",
+        "en_clean": "Yes.",
+        "jp_raw": [
+            "\\m[vonp]そうだ。",
+            "\\m[vo]そのとおり。",
+            "そうだよ。",
+            "\\m[vm]そうだね。",
+            "\\m[vl]そうだね。",
+            "\\m[wait]いいよ。"
+        ],
+        "jp_clean": [
+            "そうだ。",
+            "そのとおり。",
+            "そうだよ。",
+            "そうだね。",
+            "そうだね。",
+            "いいよ。"
+        ]
+    },
+    {
+        "en_raw": "What do you mean?",
+        "en_clean": "What do you mean?",
+        "jp_raw": "\\m[vl]どういうこと？\\m[rb]",
+        "jp_clean": "どういうこと？"
+    },
+    {
+        "en_raw": "Are you saying... Leave without Siffrin?",
+        "en_clean": "Are you saying... Leave without Siffrin?",
+        "jp_raw": "\\m[vmnp]つまり...\\!\\ シフラン抜きで出発するかってこと？",
+        "jp_clean": "つまり... シフラン抜きで出発するかってこと？"
+    },
+    {
+        "en_raw": "What?!",
+        "en_clean": "What?!",
+        "jp_raw": "\\m[vinp]ええっ？！",
+        "jp_clean": "ええっ？！"
+    },
+    {
+        "en_raw": "I-I understand how you feel, but...",
+        "en_clean": "I-I understand how you feel, but...",
+        "jp_raw": "\\m[vinp]き、気持ちは分かるけどさ...",
+        "jp_clean": "き、気持ちは分かるけどさ..."
+    },
+    {
+        "en_raw": "But we shouldn't leave Sif behind! H-He's the one who leads us...! We wouldn't be able to avoid traps without them!",
+        "en_clean": "But we shouldn't leave Sif behind! H-He's the one who leads us...! We wouldn't be able to avoid traps without them!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Plus, he's our friend! We can't leave them behind!!!",
+        "en_clean": "Plus, he's our friend! We can't leave them behind!!!",
+        "jp_raw": "\\m[vinp]それに、シフは仲間だろ！\\!\\ 仲間を置いてくなんてできないよ！",
+        "jp_clean": "それに、シフは仲間だろ！ 仲間を置いてくなんてできないよ！"
+    },
+    {
+        "en_raw": "Yeah! H-He was mean, but, but Frin was always with us, so--",
+        "en_clean": "Yeah! H-He was mean, but, but Frin was always with us, so--",
+        "jp_raw": "\\m[vbnp]そうだそうだ！\\!\\ き、今日はイジワルだったけど、フランはいつも一緒だった。\\!だから――",
+        "jp_clean": "そうだそうだ！ き、今日はイジワルだったけど、フランはいつも一緒だった。だから――"
+    },
+    {
+        "en_raw": "I agree, but...  B-But would he even agree to come with us, still?",
+        "en_clean": "I agree, but...  B-But would he even agree to come with us, still?",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Maybe they won't even come back tonight...",
+        "en_clean": "Maybe they won't even come back tonight...",
+        "jp_raw": "\\m[vmnp]もしかしたら今晩だって帰ってこないかもだし...",
+        "jp_clean": "もしかしたら今晩だって帰ってこないかもだし..."
+    },
+    {
+        "en_raw": "No, Frin will be there!!! I know it!!!",
+        "en_clean": "No, Frin will be there!!! I know it!!!",
+        "jp_raw": "\\m[vbnp]フランはぜったいに来る！\\!\\ ぜったいだ！",
+        "jp_clean": "フランはぜったいに来る！ ぜったいだ！"
+    },
+    {
+        "en_raw": "And either way, we should wait for them, everyone... We can't...",
+        "en_clean": "And either way, we should wait for them, everyone... We can't...",
+        "jp_raw": "\\m[vinp]いずれにしても、シフランを待つべきだよ...\\!\\ だって急に...",
+        "jp_clean": "いずれにしても、シフランを待つべきだよ... だって急に..."
+    },
+    {
+        "en_raw": "Please, listen to me.",
+        "en_clean": "Please, listen to me.",
+        "jp_raw": "\\m[vonp]私の話を聞いてほしい。",
+        "jp_clean": "私の話を聞いてほしい。"
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "I... I just... I just don't know if we can trust Siffrin anymore.",
+        "en_clean": "I... I just... I just don't know if we can trust Siffrin anymore.",
+        "jp_raw": "\\m[vonp]私は...\\!\\ ただ...\\!\\m[wait] この先もシフランを信頼できるか、分からなくなってしまったんだ。",
+        "jp_clean": "私は... ただ... この先もシフランを信頼できるか、分からなくなってしまったんだ。"
+    },
+    {
+        "en_raw": "Not at such an important moment.",
+        "en_clean": "Not at such an important moment.",
+        "jp_raw": "\\m[vonp]今ほど重要なタイミングはないんだぞ。",
+        "jp_clean": "今ほど重要なタイミングはないんだぞ。"
+    },
+    {
+        "en_raw": "But--",
+        "en_clean": "But--",
+        "jp_raw": [
+            "\\m[vinp]でもさぁ――",
+            "\\m[vo]だが――"
+        ],
+        "jp_clean": [
+            "でもさぁ――",
+            "だが――"
+        ]
+    },
+    {
+        "en_raw": "We'll be fighting the King tomorrow, Isabeau!!!",
+        "en_clean": "We'll be fighting the King tomorrow, Isabeau!!!",
+        "jp_raw": "\\m[vonp]イザボー、私たちは明日、王と戦うんだ！",
+        "jp_clean": "イザボー、私たちは明日、王と戦うんだ！"
+    },
+    {
+        "en_raw": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
+        "en_clean": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
+        "jp_raw": "\\m[vonp]ただの哀し身じゃない。\\!王だぞ。\\!ヴォーガルドの時間を止めたとんでもない相手だ。",
+        "jp_clean": "ただの哀し身じゃない。王だぞ。ヴォーガルドの時間を止めたとんでもない相手だ。"
+    },
+    {
+        "en_raw": "And we need to be a team.",
+        "en_clean": "And we need to be a team.",
+        "jp_raw": "\\m[vonp]一丸にならないと勝ち目はない。",
+        "jp_clean": "一丸にならないと勝ち目はない。"
+    },
+    {
+        "en_raw": "We need to be united, we need to trust one another.",
+        "en_clean": "We need to be united, we need to trust one another.",
+        "jp_raw": "\\m[vonp]団結して、お互いを信頼しなければ。",
+        "jp_clean": "団結して、お互いを信頼しなければ。"
+    },
+    {
+        "en_raw": "...  After what just happened to all of us today...",
+        "en_clean": "...  After what just happened to all of us today...",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Could you do it, everyone?",
+        "en_clean": "Could you do it, everyone?",
+        "jp_raw": "\\m[vonp]それが可能だと思うか？\\!\\m[wait]\\^",
+        "jp_clean": "それが可能だと思うか？"
+    },
+    {
+        "en_raw": "Could you entrust your life and future to someone like Siffrin right now?",
+        "en_clean": "Could you entrust your life and future to someone like Siffrin right now?",
+        "jp_raw": "\\m[vonp]今のシフランのような人物に命を預け、未来を託すことができるか？\\!\\m[wait]\\^",
+        "jp_clean": "今のシフランのような人物に命を預け、未来を託すことができるか？"
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "(. . .)",
+        "en_clean": "(. . .)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You)",
+        "en_clean": "(You)",
+        "jp_raw": [
+            "\\m[clear](自分で)\\!\\m[wait]\\^",
+            "\\m[clear](僕は)"
+        ],
+        "jp_clean": [
+            "(自分で)",
+            "(僕は)"
+        ]
+    },
+    {
+        "en_raw": "(You decide to",
+        "en_clean": "(You decide to",
+        "jp_raw": "\\m[clear](自分で\\!決断\\!しないと\\|\\^",
+        "jp_clean": "(自分で決断しないと"
     }
-}
+]

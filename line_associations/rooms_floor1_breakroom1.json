@@ -1,1728 +1,1196 @@
-{
-    "matches": {
-        "(The cupboard is full of various board games.)": [
-            {
-                "clean": "(The cupboard is full of various board games.)",
-                "site": {
-                    "raw": "(The cupboard is full of various board games.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The cupboard is full of various board games.)",
-                    "jp": "(カップボードにはさまざまなボードゲームが詰め込まれている。)",
-                    "jp_raw": "\\m[clear](カップボードにはさまざまなボードゲームが詰め込まれている。)",
-                    "index": 1246
-                }
-            }
+[
+    {
+        "en_raw": "(The cupboard is full of various board games.)",
+        "en_clean": "(The cupboard is full of various board games.)",
+        "jp_raw": "\\m[clear](カップボードにはさまざまなボードゲームが詰め込まれている。)",
+        "jp_clean": "(カップボードにはさまざまなボードゲームが詰め込まれている。)"
+    },
+    {
+        "en_raw": "(A Craft game for kids, a fishing game, checkers...)",
+        "en_clean": "(A Craft game for kids, a fishing game, checkers...)",
+        "jp_raw": "(子ども向けのクラフトゲーム、釣りのゲーム、チェッカー...)",
+        "jp_clean": "(子ども向けのクラフトゲーム、釣りのゲーム、チェッカー...)"
+    },
+    {
+        "en_raw": "Checkers!!!",
+        "en_clean": "Checkers!!!",
+        "jp_raw": "\\m[vi]チェッカーだ！！！",
+        "jp_clean": "チェッカーだ！！！"
+    },
+    {
+        "en_raw": "We should play Team Checkers again! Sif and I will kick your butts!!!",
+        "en_clean": "We should play Team Checkers again! Sif and I will kick your butts!!!",
+        "jp_raw": "またチーム戦をやろうぜ！\\!\\ シフと俺のチームで圧倒してやる！！！",
+        "jp_clean": "またチーム戦をやろうぜ！ シフと俺のチームで圧倒してやる！！！"
+    },
+    {
+        "en_raw": "Hm... I think I'll pass...",
+        "en_clean": "Hm... I think I'll pass...",
+        "jp_raw": "\\m[vm]え...\\!\\ わたしは遠慮しておくね...",
+        "jp_clean": "え... わたしは遠慮しておくね..."
+    },
+    {
+        "en_raw": "The last time we played, Siffrin cheated the whole time and you didn't even notice.",
+        "en_clean": "The last time we played, Siffrin cheated the whole time and you didn't even notice.",
+        "jp_raw": "\\m[vo]前回遊んだ時、\\!シフランはずっとズルしてただろ。\\!なのに、イザボーは気づいていなかった。",
+        "jp_clean": "前回遊んだ時、シフランはずっとズルしてただろ。なのに、イザボーは気づいていなかった。"
+    },
+    {
+        "en_raw": "My obliviousness makes me a wonderful teammate!",
+        "en_clean": "My obliviousness makes me a wonderful teammate!",
+        "jp_raw": "\\m[vi]チームメイトにするなら、大雑把な俺みたいなのがいいだろ！",
+        "jp_clean": "チームメイトにするなら、大雑把な俺みたいなのがいいだろ！"
+    },
+    {
+        "en_raw": "(You snicker just thinking about it.)",
+        "en_clean": "(You snicker just thinking about it.)",
+        "jp_raw": "\\m[clear](あの時のことは、思い出すだけで笑える。)",
+        "jp_clean": "(あの時のことは、思い出すだけで笑える。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
         ],
-        "(A Craft game for kids, a fishing game, checkers...)": [
-            {
-                "clean": "(A Craft game for kids, a fishing game, checkers...)",
-                "site": {
-                    "raw": "(A Craft game for kids, a fishing game, checkers...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 1
-                },
-                "game": {
-                    "en_raw": "(A Craft game for kids, a fishing game, checkers...)",
-                    "jp": "(子ども向けのクラフトゲーム、釣りのゲーム、チェッカー...)",
-                    "jp_raw": "(子ども向けのクラフトゲーム、釣りのゲーム、チェッカー...)",
-                    "index": 1247
-                }
-            }
-        ],
-        "Checkers!!!": [
-            {
-                "clean": "Checkers!!!",
-                "site": {
-                    "raw": "Checkers!!!",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 2
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Checkers!!!",
-                    "jp": "チェッカーだ！！！",
-                    "jp_raw": "\\m[vi]チェッカーだ！！！",
-                    "index": 1248
-                }
-            }
-        ],
-        "We should play Team Checkers again! Sif and I will kick your butts!!!": [
-            {
-                "clean": "We should play Team Checkers again! Sif and I will kick your butts!!!",
-                "site": {
-                    "raw": "We should play Team Checkers again! Sif and I will kick your butts!!!",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "We should play Team Checkers again!\\!\\ Sif and I will kick your butts!!!",
-                    "jp": "またチーム戦をやろうぜ！ シフと俺のチームで圧倒してやる！！！",
-                    "jp_raw": "またチーム戦をやろうぜ！\\!\\ シフと俺のチームで圧倒してやる！！！",
-                    "index": 1249
-                }
-            }
-        ],
-        "Hm... I think I'll pass...": [
-            {
-                "clean": "Hm... I think I'll pass...",
-                "site": {
-                    "raw": "Hm... I think I'll pass...",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Hm...\\!\\ I think I'll pass...",
-                    "jp": "え... わたしは遠慮しておくね...",
-                    "jp_raw": "\\m[vm]え...\\!\\ わたしは遠慮しておくね...",
-                    "index": 1250
-                }
-            }
-        ],
-        "The last time we played, Siffrin cheated the whole time and you didn't even notice.": [
-            {
-                "clean": "The last time we played, Siffrin cheated the whole time and you didn't even notice.",
-                "site": {
-                    "raw": "The last time we played, Siffrin cheated the whole time and you didn't even notice.",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 5
-                },
-                "game": {
-                    "en_raw": "\\m[vo]The last time we played,\\!\\ Siffrin cheated the whole time and you didn't even notice.",
-                    "jp": "前回遊んだ時、シフランはずっとズルしてただろ。なのに、イザボーは気づいていなかった。",
-                    "jp_raw": "\\m[vo]前回遊んだ時、\\!シフランはずっとズルしてただろ。\\!なのに、イザボーは気づいていなかった。",
-                    "index": 1251
-                }
-            }
-        ],
-        "My obliviousness makes me a wonderful teammate!": [
-            {
-                "clean": "My obliviousness makes me a wonderful teammate!",
-                "site": {
-                    "raw": "My obliviousness makes me a wonderful teammate!",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[vi]My obliviousness makes me a wonderful teammate!",
-                    "jp": "チームメイトにするなら、大雑把な俺みたいなのがいいだろ！",
-                    "jp_raw": "\\m[vi]チームメイトにするなら、大雑把な俺みたいなのがいいだろ！",
-                    "index": 1252
-                }
-            }
-        ],
-        "(You snicker just thinking about it.)": [
-            {
-                "clean": "(You snicker just thinking about it.)",
-                "site": {
-                    "raw": "(You snicker just thinking about it.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You snicker just thinking about it.)",
-                    "jp": "(あの時のことは、思い出すだけで笑える。)",
-                    "jp_raw": "\\m[clear](あの時のことは、思い出すだけで笑える。)",
-                    "index": 1253
-                }
-            }
-        ],
-        "(...)": [
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)",
-                    "jp": "(...)",
-                    "jp_raw": "(...)",
-                    "index": 21
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)",
-                    "index": 164
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\^",
-                    "index": 178
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\",
-                    "index": 205
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)",
-                    "index": 245
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)",
-                    "index": 264
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)",
-                    "index": 391
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)",
-                    "index": 532
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "index": 560
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "index": 1027
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\",
-                    "index": 1966
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2139
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 2186
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](...)\\!\\",
-                    "index": 2310
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)",
-                    "index": 2334
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "index": 2508
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\",
-                    "index": 2941
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)",
-                    "index": 3128
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "index": 3751
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 3809
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "index": 3934
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "index": 4505
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "index": 4578
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "index": 4925
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "index": 5021
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "index": 6778
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "index": 7497
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "index": 7563
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "index": 7874
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "index": 8427
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "index": 8475
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "index": 8773
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "index": 9379
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 10078
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vsc](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vsc](...)\\!\\",
-                    "index": 10129
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\m[dot])\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[dot])\\!\\",
-                    "index": 10550
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "index": 10935
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "index": 11969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[rb](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\m[rb](...)",
-                    "index": 12007
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "index": 12044
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "index": 12183
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "index": 12241
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "index": 12285
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "index": 13281
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]",
-                    "index": 13579
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14087
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14623
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "index": 14870
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "index": 14969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](...)",
-                    "index": 15047
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "index": 15058
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 15161
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "index": 16033
-                }
-            }
-        ],
-        "(When exactly did this happen, you wonder.)": [
-            {
-                "clean": "(When exactly did this happen, you wonder.)",
-                "site": {
-                    "raw": "(When exactly did this happen, you wonder.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(When exactly did this happen, you wonder.)",
-                    "jp": "(あれはいつのことだっただろうか。)",
-                    "jp_raw": "(あれはいつのことだっただろうか。)",
-                    "index": 1254
-                }
-            }
-        ],
-        "(You don't even remember that happening.)": [
-            {
-                "clean": "(You don't even remember that happening.)",
-                "site": {
-                    "raw": "(You don't even remember that happening.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You don't even remember that happening.)",
-                    "jp": "(そんなことがあったのか。もう覚えてもいない。)",
-                    "jp_raw": "\\m[clear](そんなことがあったのか。\\!もう覚えてもいない。)",
-                    "index": 1255
-                }
-            }
-        ],
-        "(The cupboard with checkers.)": [
-            {
-                "clean": "(The cupboard with checkers.)",
-                "site": {
-                    "raw": "(The cupboard with checkers.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 11
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The cupboard with checkers.)",
-                    "jp": "(カップボードにチェッカーがのっている。)",
-                    "jp_raw": "\\m[clear](カップボードにチェッカーがのっている。)",
-                    "index": 61
-                }
-            }
-        ],
-        "(Some cutlery and kitchen utensils.)": [
-            {
-                "clean": "(Some cutlery and kitchen utensils.)",
-                "site": {
-                    "raw": "(Some cutlery and kitchen utensils.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 13
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some cutlery and kitchen utensils.)",
-                    "jp": "(カトラリーとキッチン用品だ。)",
-                    "jp_raw": "\\m[clear](カトラリーとキッチン用品だ。)",
-                    "index": 59
-                }
-            }
-        ],
-        "Is it... cutlery?": [
-            {
-                "clean": "Is it... cutlery?",
-                "site": {
-                    "raw": "Is it... cutlery?",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Is it...\\!\\ cutlery?",
-                    "jp": "もしかして... カトラリー？",
-                    "jp_raw": "\\m[vi]もしかして...\\!\\ カトラリー？",
-                    "index": 1229
-                }
-            }
-        ],
-        "Yeah, dummy. Why do you have to ask?": [
-            {
-                "clean": "Yeah, dummy. Why do you have to ask?",
-                "site": {
-                    "raw": "Yeah, dummy. Why do you have to ask?",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Yeah, dummy.\\!\\ Why do you have to ask?",
-                    "jp": "当たり前だろ、間抜け。聞くまでもないだろ？",
-                    "jp_raw": "\\m[vb]当たり前だろ、間抜け。\\!聞くまでもないだろ？",
-                    "index": 1230
-                }
-            }
-        ],
-        "No, no, I'm asking m'dame Odile!": [
-            {
-                "clean": "No, no, I'm asking m'dame Odile!",
-                "site": {
-                    "raw": "No, no, I'm asking m'dame Odile!",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 16
-                },
-                "game": {
-                    "en_raw": "\\m[vi]No, no, I'm asking m'dame Odile!",
-                    "jp": "違う違う、オディールに聞いたんだ！",
-                    "jp_raw": "\\m[vi]違う違う、オディールに聞いたんだ！",
-                    "index": 1231
-                }
-            }
-        ],
-        "Is it cutlery you're studying? Cutleryology? This is it, right? Did I get it?": [
-            {
-                "clean": "Is it cutlery you're studying? Cutleryology? This is it, right? Did I get it?",
-                "site": {
-                    "raw": "Is it cutlery you're studying? Cutleryology? This is it, right? Did I get it?",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 17
-                },
-                "game": {
-                    "en_raw": "Is it cutlery you're studying?\\!\\ Cutleryology?\\!\\ This is it, right?\\!\\ Did I get it?",
-                    "jp": "オディールの研究分野はカトラリーなんじゃないか？ カトラリー学？ そうだろ？ 正解だろ？",
-                    "jp_raw": "オディールの研究分野はカトラリーなんじゃないか？\\!\\ カトラリー学？\\!\\ そうだろ？\\!\\ 正解だろ？",
-                    "index": 1232
-                }
-            }
-        ],
-        "Wrong again, mister.": [
-            {
-                "clean": "Wrong again, mister.",
-                "site": {
-                    "raw": "Wrong again, mister.",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 18
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Wrong again, mister.",
-                    "jp": "今回も不正解だ。",
-                    "jp_raw": "\\m[vo]今回も不正解だ。",
-                    "index": 1233
-                }
-            }
-        ],
-        "Some people, I'm sure!": [
-            {
-                "clean": "Some people, I'm sure!",
-                "site": {
-                    "raw": "Some people, I'm sure!",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Some people, I'm sure!",
-                    "jp": "そういう人もいると思うぜ！",
-                    "jp_raw": "\\m[vi]そういう人もいると思うぜ！",
-                    "index": 1235
-                }
-            }
-        ],
-        "Not me.": [
-            {
-                "clean": "Not me.",
-                "site": {
-                    "raw": "Not me.",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 21
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Not me.",
-                    "jp": "だが、私は違う。",
-                    "jp_raw": "\\m[vo]だが、私は違う。",
-                    "index": 1236
-                }
-            }
-        ],
-        "Hmmmmm...": [
-            {
-                "clean": "Hmmmmm...",
-                "site": {
-                    "raw": "Hmmmmm...",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 22
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Hmmmmm...",
-                    "jp": "むむむ...",
-                    "jp_raw": "\\m[vi]むむむ...",
-                    "index": 1237
-                }
-            }
-        ],
-        "Sure you will.": [
-            {
-                "clean": "Sure you will.",
-                "site": {
-                    "raw": "Sure you will.",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Sure you will.",
-                    "jp": "期待しているよ。",
-                    "jp_raw": "\\m[vo]期待しているよ。",
-                    "index": 1239
-                }
-            }
-        ],
-        "(You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)": [
-            {
-                "clean": "(You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)",
-                "site": {
-                    "raw": "(You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)",
-                    "jp": "(僕も気になっているけど、イザボーも僕もオディールの研究分野をまだ当てられていない。)",
-                    "jp_raw": "\\m[clear](僕も気になっているけど、イザボーも僕もオディールの研究分野をまだ当てられていない。)",
-                    "index": 1243
-                }
-            }
-        ],
-        "(Will you find out one day?)": [
-            {
-                "clean": "(Will you find out one day?)",
-                "site": {
-                    "raw": "(Will you find out one day?)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 25
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Will you find out one day?)",
-                    "jp": "(いつか分かるかな？)",
-                    "jp_raw": "\\m[clear](いつか分かるかな？)",
-                    "index": 1244
-                }
-            }
-        ],
-        "(Odile gives you a Secret Look.)": [
-            {
-                "clean": "(Odile gives you a Secret Look.)",
-                "site": {
-                    "raw": "(Odile gives you a Secret Look.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 26
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Odile gives you a Secret Look.)",
-                    "jp": "(オディールがそっと僕に目くばせする。)",
-                    "jp_raw": "\\m[clear](オディールがそっと僕に目くばせする。)",
-                    "index": 1240
-                }
-            }
-        ],
-        "(You give a Secret Look back.)": [
-            {
-                "clean": "(You give a Secret Look back.)",
-                "site": {
-                    "raw": "(You give a Secret Look back.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 27
-                },
-                "game": {
-                    "en_raw": "(You give a Secret Look back.)",
-                    "jp": "(僕も目くばせを返す。)",
-                    "jp_raw": "(僕も目くばせを返す。)",
-                    "index": 1241
-                }
-            }
-        ],
-        "(You give a Secret Look to Odile, but she just looks confused.)": [
-            {
-                "clean": "(You give a Secret Look to Odile, but she just looks confused.)",
-                "site": {
-                    "raw": "(You give a Secret Look to Odile, but she just looks confused.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 28
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You give a Secret Look to Odile,\\!\\ but she just looks confused.)",
-                    "jp": "(僕はオディールに目くばせする。けれどオディールは、訳が分からないといった顔だ。)",
-                    "jp_raw": "\\m[clear](僕はオディールに目くばせする。\\!けれどオディールは、訳が分からないといった顔だ。)",
-                    "index": 1242
-                }
-            }
-        ],
-        "(Now you know.)": [
-            {
-                "clean": "(Now you know.)",
-                "site": {
-                    "raw": "(Now you know.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 31
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Now you know.)",
-                    "jp": "(僕はもう知っている。)",
-                    "jp_raw": "\\m[clear](僕はもう知っている。)",
-                    "index": 1245
-                }
-            }
-        ],
-        "(You did find out what she was studying. At least that's something.)": [
-            {
-                "clean": "(You did find out what she was studying. At least that's something.)",
-                "site": {
-                    "raw": "(You did find out what she was studying. At least that's something.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 34
-                },
-                "game": {
-                    "en_raw": "(You did find out what she was studying.\\!\\ At least that's something.)",
-                    "jp": "(彼女の研究分野が分かった。少なくとも、それは確かだ。)",
-                    "jp_raw": "(彼女の研究分野が分かった。\\!少なくとも、それは確かだ。)",
-                    "index": 60
-                }
-            }
-        ],
-        "(Some books.)": [
-            {
-                "clean": "(Some books.)",
-                "site": {
-                    "raw": "(Some books.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 35
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some books.)",
-                    "jp": "(本がいくつかある。)",
-                    "jp_raw": "\\m[clear](本がいくつかある。)",
-                    "index": 113
-                }
-            }
-        ],
-        "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)": [
-            {
-                "clean": "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)",
-                "site": {
-                    "raw": "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)",
-                    "jp": "(1冊の本の表紙に目を奪われた。表紙を飾るムゥデュの粘土像には、落ちくぼんだ大きな目と叫び声をあげる口がついている。)",
-                    "jp_raw": "(1冊の本の表紙に目を奪われた。\\!表紙を飾るムゥデュの粘土像には、落ちくぼんだ大きな目と叫び声をあげる口がついている。)",
-                    "index": 1222
-                }
-            }
-        ],
-        "(Spooky.)": [
-            {
-                "clean": "(Spooky.)",
-                "site": {
-                    "raw": "(Spooky.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 37
-                },
-                "game": {
-                    "en_raw": "(Spooky.)",
-                    "jp": "(不気味だ。)",
-                    "jp_raw": "(不気味だ。)",
-                    "index": 1228
-                }
-            }
-        ],
-        "(Wait, isn't this the book Bonnie was looking at, on the third floor?)": [
-            {
-                "clean": "(Wait, isn't this the book Bonnie was looking at, on the third floor?)",
-                "site": {
-                    "raw": "(Wait, isn't this the book Bonnie was looking at, on the third floor?)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 39
-                },
-                "game": {
-                    "en_raw": "(Wait, isn't this the book Bonnie was looking at, on the third floor?)",
-                    "jp": "(待てよ。これはボニーが3階で見ていた本じゃないか？)",
-                    "jp_raw": "(待てよ。これはボニーが3階で見ていた本じゃないか？)",
-                    "index": 1223
-                }
-            }
-        ],
-        "(They were very defensive about it...)": [
-            {
-                "clean": "(They were very defensive about it...)",
-                "site": {
-                    "raw": "(They were very defensive about it...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "(They were very defensive about it...)",
-                    "jp": "(ボニーは隠したがっていたよな...)",
-                    "jp_raw": "(ボニーは隠したがっていたよな...)",
-                    "index": 1224
-                }
-            }
-        ],
-        "(You look at the back...)": [
-            {
-                "clean": "(You look at the back...)",
-                "site": {
-                    "raw": "(You look at the back...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 41
-                },
-                "game": {
-                    "en_raw": "(You look at the back...)",
-                    "jp": "(裏表紙を見てみた...)",
-                    "jp_raw": "(裏表紙を見てみた...)",
-                    "index": 1225
-                }
-            }
-        ],
-        "(\"Life To Ashes: Death Rituals From Around the World.\")": [
-            {
-                "clean": "(\"Life To Ashes: Death Rituals From Around the World.\")",
-                "site": {
-                    "raw": "(\"Life To Ashes: Death Rituals From Around the World.\")",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 42
-                },
-                "game": {
-                    "en_raw": "(\"Life To Ashes: Death Rituals From Around the World.\")",
-                    "jp": "(「生は灰に：死にまつわる世界の儀式」)",
-                    "jp_raw": "(「生は灰に：死にまつわる世界の儀式」)",
-                    "index": 54
-                }
-            }
-        ],
-        "(Why would Bonnie look at this...?)": [
-            {
-                "clean": "(Why would Bonnie look at this...?)",
-                "site": {
-                    "raw": "(Why would Bonnie look at this...?)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 44
-                },
-                "game": {
-                    "en_raw": "(Why would Bonnie look at this...?)",
-                    "jp": "(どうしてボニーはこれを見ていたんだ...？)",
-                    "jp_raw": "(どうしてボニーはこれを見ていたんだ...？)",
-                    "index": 1226
-                }
-            }
-        ],
-        "(Why would Bonnie...)": [
-            {
-                "clean": "(Why would Bonnie...)",
-                "site": {
-                    "raw": "(Why would Bonnie...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "(Why would Bonnie...)",
-                    "jp": "(どうしてボニーが...)",
-                    "jp_raw": "(どうしてボニーが...)",
-                    "index": 1227
-                }
-            }
-        ],
-        "(You pick up a book.)": [
-            {
-                "clean": "(You pick up a book.)",
-                "site": {
-                    "raw": "(You pick up a book.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You pick up a book.)",
-                    "jp": "(本を拾い上げる。)",
-                    "jp_raw": "\\m[clear](本を拾い上げる。)",
-                    "index": 53
-                }
-            }
-        ],
-        "(You look at the publishing date...)": [
-            {
-                "clean": "(You look at the publishing date...)",
-                "site": {
-                    "raw": "(You look at the publishing date...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "(You look at the publishing date...)",
-                    "jp": "(出版日は...)",
-                    "jp_raw": "(出版日は...)",
-                    "index": 55
-                }
-            }
-        ],
-        "(Two years ago.)": [
-            {
-                "clean": "(Two years ago.)",
-                "site": {
-                    "raw": "(Two years ago.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 53
-                },
-                "game": {
-                    "en_raw": "(Two years ago.)",
-                    "jp": "(2年前だ。)",
-                    "jp_raw": "(2年前だ。)",
-                    "index": 56
-                }
-            }
-        ],
-        "(You laugh.)": [
-            {
-                "clean": "(You laugh.)",
-                "site": {
-                    "raw": "(You laugh.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "(You laugh.)",
-                    "jp": "(僕は笑う。)",
-                    "jp_raw": "(僕は笑う。)",
-                    "index": 57
-                }
-            },
-            {
-                "clean": "(You laugh.)",
-                "site": {
-                    "raw": "(You laugh.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You laugh.)",
-                    "jp": "(僕は声を出して笑った。)",
-                    "jp_raw": "\\m[clear](僕は声を出して笑った。)",
-                    "index": 3195
-                }
-            },
-            {
-                "clean": "(You laugh.)",
-                "site": {
-                    "raw": "(You laugh.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[vs](You laugh.)\\!\\",
-                    "jp": "(僕は笑う。)",
-                    "jp_raw": "\\m[vs](僕は笑う。)\\!\\",
-                    "index": 3589
-                }
-            },
-            {
-                "clean": "(You laugh.)",
-                "site": {
-                    "raw": "(You laugh.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You laugh.)\\!\\m[wait]\\^",
-                    "jp": "(僕は声を上げて笑った。)",
-                    "jp_raw": "\\m[clear](僕は声を上げて笑った。)\\!\\m[wait]\\^",
-                    "index": 12424
-                }
-            },
-            {
-                "clean": "(You laugh.)",
-                "site": {
-                    "raw": "(You laugh.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You laugh.)\\!\\",
-                    "jp": "(僕は声を出して笑った。)\\！\\",
-                    "jp_raw": "\\m[clear](僕は声を出して笑った。)\\！\\",
-                    "index": 12450
-                }
-            }
-        ],
-        "(It's after, it's after, it was published after!!! Stupid!!!)": [
-            {
-                "clean": "(It's after, it's after, it was published after!!! Stupid!!!)",
-                "site": {
-                    "raw": "<span class=\"shake\">\n (It's after, it's after, it was published after!!! Stupid!!!)\n</span>",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 55
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(It's after, it's after, it was published after!!!\\!\\ Stupid!!!)",
-                    "jp": "(後だ、後だ、後から出版されたんだ！！！ バカバカしい！！！)",
-                    "jp_raw": "\\m[clear]\\shake(後だ、後だ、後から出版されたんだ！！！\\!\\ バカバカしい！！！)",
-                    "index": 58
-                }
-            }
-        ],
-        "(Some vials.)": [
-            {
-                "clean": "(Some vials.)",
-                "site": {
-                    "raw": "(Some vials.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some vials.)",
-                    "jp": "(瓶がいくつかある。)",
-                    "jp_raw": "\\m[clear](瓶がいくつかある。)",
-                    "index": 606
-                }
-            }
-        ],
-        "(Let's see...)": [
-            {
-                "clean": "(Let's see...)",
-                "site": {
-                    "raw": "(Let's see...)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 57
-                },
-                "game": {
-                    "en_raw": "(Let's see...)",
-                    "jp": "(どれどれ...)",
-                    "jp_raw": "(どれどれ...)",
-                    "index": 607
-                }
-            }
-        ],
-        "(You pick them up.)": [
-            {
-                "clean": "(You pick them up.)",
-                "site": {
-                    "raw": "(You pick them up.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "(You pick them up.)",
-                    "jp": "(瓶を拾ってみよう。)",
-                    "jp_raw": "(瓶を拾ってみよう。)",
-                    "index": 608
-                }
-            }
-        ],
-        "(You got two SALTY BROTHS!)": [
-            {
-                "clean": "(You got two SALTY BROTHS!)",
-                "site": {
-                    "raw": "(You got two SALTY BROTHS!)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got two SALTY BROTHS!)",
-                    "jp": "(「しょっぱスープ」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「しょっぱスープ」を手に入れた！)",
-                    "index": 1216
-                }
-            },
-            {
-                "clean": "(You got two SALTY BROTHS!)",
-                "site": {
-                    "raw": "(You got two SALTY BROTHS!)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "(You got two SALTY BROTHS!)",
-                    "jp": "(「しょっぱスープ」を2つ手に入れた！)",
-                    "jp_raw": "(「しょっぱスープ」を2つ手に入れた！)",
-                    "index": 1621
-                }
-            }
-        ],
-        "(You give them to Bonnie for safekeeping.)": [
-            {
-                "clean": "(You give them to Bonnie for safekeeping.)",
-                "site": {
-                    "raw": "(You give them to Bonnie for safekeeping.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 60
-                },
-                "game": {
-                    "en_raw": "(You give them to Bonnie for safekeeping.)",
-                    "jp": "(ボニーに渡して保管しておいてもらおう。)",
-                    "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
-                    "index": 1217
-                }
-            }
-        ],
-        "[Hello hello stardust!]": [
-            {
-                "clean": "[Hello hello stardust!]",
-                "site": {
-                    "raw": "[Hello hello stardust!]",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 61
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][Hello hello stardust!]",
-                    "jp": "[やあやあ、こんにちは、星くず君！]",
-                    "jp_raw": "\\m[vtuto][やあやあ、こんにちは、星くず君！]",
-                    "index": 1218
-                }
-            }
-        ],
-        "[Got your hand on some Salty Broths, didn't you?]": [
-            {
-                "clean": "[Got your hand on some Salty Broths, didn't you?]",
-                "site": {
-                    "raw": "[Got your hand on some Salty Broths, didn't you?]",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 62
-                },
-                "game": {
-                    "en_raw": "[Got your hand on some Salty Broths, didn't you?]",
-                    "jp": "[しょっぱスープを手に入れたみたいだね？]",
-                    "jp_raw": "[しょっぱスープを手に入れたみたいだね？]",
-                    "index": 1219
-                }
-            }
-        ],
-        "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful! Use them wisely!]": [
-            {
-                "clean": "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful! Use them wisely!]",
-                "site": {
-                    "raw": "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful! Use them wisely!]",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 63
-                },
-                "game": {
-                    "en_raw": "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful!\\!\\ Use them wisely!]",
-                    "jp": "[戦闘中に飲むと、クラフトスキルのクールダウンを6ターン短縮できるよ。便利でしょ！ 賢く使ってね！]",
-                    "jp_raw": "[戦闘中に飲むと、クラフトスキルのクールダウンを6ターン短縮できるよ。便利でしょ！\\!\\ 賢く使ってね！]",
-                    "index": 1220
-                }
-            }
-        ],
-        "[Bye stardust! Have fun! Don't get crushed by rocks!]": [
-            {
-                "clean": "[Bye stardust! Have fun! Don't get crushed by rocks!]",
-                "site": {
-                    "raw": "[Bye stardust! Have fun! Don't get crushed by rocks!]",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 64
-                },
-                "game": {
-                    "en_raw": "[Bye stardust!\\!\\ Have fun!\\!\\ Don't get crushed by rocks!]\\m[rb]",
-                    "jp": "[じゃあね、星くず君！ 楽しんで！ 岩にぺちゃんこにされないようにね！]",
-                    "jp_raw": "[じゃあね、星くず君！\\!\\ 楽しんで！\\!\\ 岩にぺちゃんこにされないようにね！]\\m[rb]",
-                    "index": 1221
-                }
-            }
-        ],
-        "(You got one CRAFTED WATER!)": [
-            {
-                "clean": "(You got one CRAFTED WATER!)",
-                "site": {
-                    "raw": "(You got one CRAFTED WATER!)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 65
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got one CRAFTED WATER!)",
-                    "jp": "(「クラフト水」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「クラフト水」を手に入れた！)",
-                    "index": 609
-                }
-            }
-        ],
-        "(You give it to Bonnie for safekeeping.)": [
-            {
-                "clean": "(You give it to Bonnie for safekeeping.)",
-                "site": {
-                    "raw": "(You give it to Bonnie for safekeeping.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 66
-                },
-                "game": {
-                    "en_raw": "(You give it to Bonnie for safekeeping.)",
-                    "jp": "(ボニーに渡して保管しておいてもらおう。)",
-                    "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
-                    "index": 610
-                }
-            }
-        ],
-        "(Nothing else here.)": [
-            {
-                "clean": "(Nothing else here.)",
-                "site": {
-                    "raw": "(Nothing else here.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 67
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Nothing else here.)",
-                    "jp": "(他に目ぼしいものはない。)",
-                    "jp_raw": "\\m[clear](他に目ぼしいものはない。)",
-                    "index": 68
-                }
-            }
-        ],
-        "(A chair.)": [
-            {
-                "clean": "(A chair.)",
-                "site": {
-                    "raw": "(A chair.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 68
-                },
-                "game": {
-                    "en_raw": "\\m[clear](A chair.)",
-                    "jp": "(イスだ。)",
-                    "jp_raw": "\\m[clear](イスだ。)",
-                    "index": 16
-                }
-            }
-        ],
-        "(But you're fine, so it'd be a waste of time to sit down.)": [
-            {
-                "clean": "(But you're fine, so it'd be a waste of time to sit down.)",
-                "site": {
-                    "raw": "(But you're fine, so it'd be a waste of time to sit down.)",
-                    "page": "rooms/floor1/breakroom1.html",
-                    "index": 69
-                },
-                "game": {
-                    "en_raw": "(But you're fine, so it'd be a waste of time to sit down.)",
-                    "jp": "(座る必要はない。時間を無駄にするだけだ。)",
-                    "jp_raw": "(座る必要はない。\\!時間を無駄にするだけだ。)",
-                    "index": 25
-                }
-            }
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
         ]
     },
-    "no_matches": {
-        "I swear, your guesses are getting more and more eccentric.Who makes their research all about cutlery, of all things?": {
-            "clean": "I swear, your guesses are getting more and more eccentric.Who makes their research all about cutlery, of all things?",
-            "raw": "I swear, your guesses are getting more and more eccentric.\n<br/>\nWho makes their research all about cutlery, of all things?",
-            "page": "rooms/floor1/breakroom1.html",
-            "index": 19
-        },
-        "(. . .)": {
-            "clean": "(. . .)",
-            "raw": "(. . .)",
-            "page": "rooms/floor1/breakroom1.html",
-            "index": 43
-        }
+    {
+        "en_raw": "(When exactly did this happen, you wonder.)",
+        "en_clean": "(When exactly did this happen, you wonder.)",
+        "jp_raw": "(あれはいつのことだっただろうか。)",
+        "jp_clean": "(あれはいつのことだっただろうか。)"
+    },
+    {
+        "en_raw": "(You don't even remember that happening.)",
+        "en_clean": "(You don't even remember that happening.)",
+        "jp_raw": "\\m[clear](そんなことがあったのか。\\!もう覚えてもいない。)",
+        "jp_clean": "(そんなことがあったのか。もう覚えてもいない。)"
+    },
+    {
+        "en_raw": "(The cupboard with checkers.)",
+        "en_clean": "(The cupboard with checkers.)",
+        "jp_raw": "\\m[clear](カップボードにチェッカーがのっている。)",
+        "jp_clean": "(カップボードにチェッカーがのっている。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(Some cutlery and kitchen utensils.)",
+        "en_clean": "(Some cutlery and kitchen utensils.)",
+        "jp_raw": "\\m[clear](カトラリーとキッチン用品だ。)",
+        "jp_clean": "(カトラリーとキッチン用品だ。)"
+    },
+    {
+        "en_raw": "Is it... cutlery?",
+        "en_clean": "Is it... cutlery?",
+        "jp_raw": "\\m[vi]もしかして...\\!\\ カトラリー？",
+        "jp_clean": "もしかして... カトラリー？"
+    },
+    {
+        "en_raw": "Yeah, dummy. Why do you have to ask?",
+        "en_clean": "Yeah, dummy. Why do you have to ask?",
+        "jp_raw": "\\m[vb]当たり前だろ、間抜け。\\!聞くまでもないだろ？",
+        "jp_clean": "当たり前だろ、間抜け。聞くまでもないだろ？"
+    },
+    {
+        "en_raw": "No, no, I'm asking m'dame Odile!",
+        "en_clean": "No, no, I'm asking m'dame Odile!",
+        "jp_raw": "\\m[vi]違う違う、オディールに聞いたんだ！",
+        "jp_clean": "違う違う、オディールに聞いたんだ！"
+    },
+    {
+        "en_raw": "Is it cutlery you're studying? Cutleryology? This is it, right? Did I get it?",
+        "en_clean": "Is it cutlery you're studying? Cutleryology? This is it, right? Did I get it?",
+        "jp_raw": "オディールの研究分野はカトラリーなんじゃないか？\\!\\ カトラリー学？\\!\\ そうだろ？\\!\\ 正解だろ？",
+        "jp_clean": "オディールの研究分野はカトラリーなんじゃないか？ カトラリー学？ そうだろ？ 正解だろ？"
+    },
+    {
+        "en_raw": "Wrong again, mister.",
+        "en_clean": "Wrong again, mister.",
+        "jp_raw": "\\m[vo]今回も不正解だ。",
+        "jp_clean": "今回も不正解だ。"
+    },
+    {
+        "en_raw": "I swear, your guesses are getting more and more eccentric.\n<br/>\nWho makes their research all about cutlery, of all things?",
+        "en_clean": "I swear, your guesses are getting more and more eccentric.Who makes their research all about cutlery, of all things?",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Some people, I'm sure!",
+        "en_clean": "Some people, I'm sure!",
+        "jp_raw": "\\m[vi]そういう人もいると思うぜ！",
+        "jp_clean": "そういう人もいると思うぜ！"
+    },
+    {
+        "en_raw": "Not me.",
+        "en_clean": "Not me.",
+        "jp_raw": "\\m[vo]だが、私は違う。",
+        "jp_clean": "だが、私は違う。"
+    },
+    {
+        "en_raw": "Hmmmmm...",
+        "en_clean": "Hmmmmm...",
+        "jp_raw": "\\m[vi]むむむ...",
+        "jp_clean": "むむむ..."
+    },
+    {
+        "en_raw": "Sure you will.",
+        "en_clean": "Sure you will.",
+        "jp_raw": "\\m[vo]期待しているよ。",
+        "jp_clean": "期待しているよ。"
+    },
+    {
+        "en_raw": "(You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)",
+        "en_clean": "(You're also curious, but neither Isabeau or you managed to find out what she's studying yet.)",
+        "jp_raw": "\\m[clear](僕も気になっているけど、イザボーも僕もオディールの研究分野をまだ当てられていない。)",
+        "jp_clean": "(僕も気になっているけど、イザボーも僕もオディールの研究分野をまだ当てられていない。)"
+    },
+    {
+        "en_raw": "(Will you find out one day?)",
+        "en_clean": "(Will you find out one day?)",
+        "jp_raw": "\\m[clear](いつか分かるかな？)",
+        "jp_clean": "(いつか分かるかな？)"
+    },
+    {
+        "en_raw": "(Odile gives you a Secret Look.)",
+        "en_clean": "(Odile gives you a Secret Look.)",
+        "jp_raw": "\\m[clear](オディールがそっと僕に目くばせする。)",
+        "jp_clean": "(オディールがそっと僕に目くばせする。)"
+    },
+    {
+        "en_raw": "(You give a Secret Look back.)",
+        "en_clean": "(You give a Secret Look back.)",
+        "jp_raw": "(僕も目くばせを返す。)",
+        "jp_clean": "(僕も目くばせを返す。)"
+    },
+    {
+        "en_raw": "(You give a Secret Look to Odile, but she just looks confused.)",
+        "en_clean": "(You give a Secret Look to Odile, but she just looks confused.)",
+        "jp_raw": "\\m[clear](僕はオディールに目くばせする。\\!けれどオディールは、訳が分からないといった顔だ。)",
+        "jp_clean": "(僕はオディールに目くばせする。けれどオディールは、訳が分からないといった顔だ。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(Some cutlery and kitchen utensils.)",
+        "en_clean": "(Some cutlery and kitchen utensils.)",
+        "jp_raw": "\\m[clear](カトラリーとキッチン用品だ。)",
+        "jp_clean": "(カトラリーとキッチン用品だ。)"
+    },
+    {
+        "en_raw": "(Now you know.)",
+        "en_clean": "(Now you know.)",
+        "jp_raw": "\\m[clear](僕はもう知っている。)",
+        "jp_clean": "(僕はもう知っている。)"
+    },
+    {
+        "en_raw": "(Some cutlery and kitchen utensils.)",
+        "en_clean": "(Some cutlery and kitchen utensils.)",
+        "jp_raw": "\\m[clear](カトラリーとキッチン用品だ。)",
+        "jp_clean": "(カトラリーとキッチン用品だ。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(You did find out what she was studying. At least that's something.)",
+        "en_clean": "(You did find out what she was studying. At least that's something.)",
+        "jp_raw": "(彼女の研究分野が分かった。\\!少なくとも、それは確かだ。)",
+        "jp_clean": "(彼女の研究分野が分かった。少なくとも、それは確かだ。)"
+    },
+    {
+        "en_raw": "(Some books.)",
+        "en_clean": "(Some books.)",
+        "jp_raw": "\\m[clear](本がいくつかある。)",
+        "jp_clean": "(本がいくつかある。)"
+    },
+    {
+        "en_raw": "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)",
+        "en_clean": "(One of them has a very striking cover of a Mwudu clay figurine with large, sunken eyes and a screaming mouth.)",
+        "jp_raw": "(1冊の本の表紙に目を奪われた。\\!表紙を飾るムゥデュの粘土像には、落ちくぼんだ大きな目と叫び声をあげる口がついている。)",
+        "jp_clean": "(1冊の本の表紙に目を奪われた。表紙を飾るムゥデュの粘土像には、落ちくぼんだ大きな目と叫び声をあげる口がついている。)"
+    },
+    {
+        "en_raw": "(Spooky.)",
+        "en_clean": "(Spooky.)",
+        "jp_raw": "(不気味だ。)",
+        "jp_clean": "(不気味だ。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(Wait, isn't this the book Bonnie was looking at, on the third floor?)",
+        "en_clean": "(Wait, isn't this the book Bonnie was looking at, on the third floor?)",
+        "jp_raw": "(待てよ。これはボニーが3階で見ていた本じゃないか？)",
+        "jp_clean": "(待てよ。これはボニーが3階で見ていた本じゃないか？)"
+    },
+    {
+        "en_raw": "(They were very defensive about it...)",
+        "en_clean": "(They were very defensive about it...)",
+        "jp_raw": "(ボニーは隠したがっていたよな...)",
+        "jp_clean": "(ボニーは隠したがっていたよな...)"
+    },
+    {
+        "en_raw": "(You look at the back...)",
+        "en_clean": "(You look at the back...)",
+        "jp_raw": "(裏表紙を見てみた...)",
+        "jp_clean": "(裏表紙を見てみた...)"
+    },
+    {
+        "en_raw": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "en_clean": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "jp_raw": "(「生は灰に：死にまつわる世界の儀式」)",
+        "jp_clean": "(「生は灰に：死にまつわる世界の儀式」)"
+    },
+    {
+        "en_raw": "(. . .)",
+        "en_clean": "(. . .)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Why would Bonnie look at this...?)",
+        "en_clean": "(Why would Bonnie look at this...?)",
+        "jp_raw": "(どうしてボニーはこれを見ていたんだ...？)",
+        "jp_clean": "(どうしてボニーはこれを見ていたんだ...？)"
+    },
+    {
+        "en_raw": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "en_clean": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "jp_raw": "(「生は灰に：死にまつわる世界の儀式」)",
+        "jp_clean": "(「生は灰に：死にまつわる世界の儀式」)"
+    },
+    {
+        "en_raw": "(Why would Bonnie...)",
+        "en_clean": "(Why would Bonnie...)",
+        "jp_raw": "(どうしてボニーが...)",
+        "jp_clean": "(どうしてボニーが...)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(Some books.)",
+        "en_clean": "(Some books.)",
+        "jp_raw": "\\m[clear](本がいくつかある。)",
+        "jp_clean": "(本がいくつかある。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(You pick up a book.)",
+        "en_clean": "(You pick up a book.)",
+        "jp_raw": "\\m[clear](本を拾い上げる。)",
+        "jp_clean": "(本を拾い上げる。)"
+    },
+    {
+        "en_raw": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "en_clean": "(\"Life To Ashes: Death Rituals From Around the World.\")",
+        "jp_raw": "(「生は灰に：死にまつわる世界の儀式」)",
+        "jp_clean": "(「生は灰に：死にまつわる世界の儀式」)"
+    },
+    {
+        "en_raw": "(You look at the publishing date...)",
+        "en_clean": "(You look at the publishing date...)",
+        "jp_raw": "(出版日は...)",
+        "jp_clean": "(出版日は...)"
+    },
+    {
+        "en_raw": "(Two years ago.)",
+        "en_clean": "(Two years ago.)",
+        "jp_raw": "(2年前だ。)",
+        "jp_clean": "(2年前だ。)"
+    },
+    {
+        "en_raw": "(You laugh.)",
+        "en_clean": "(You laugh.)",
+        "jp_raw": [
+            "(僕は笑う。)",
+            "\\m[clear](僕は声を出して笑った。)",
+            "\\m[vs](僕は笑う。)\\!\\",
+            "\\m[clear](僕は声を上げて笑った。)\\!\\m[wait]\\^",
+            "\\m[clear](僕は声を出して笑った。)\\！\\"
+        ],
+        "jp_clean": [
+            "(僕は笑う。)",
+            "(僕は声を出して笑った。)",
+            "(僕は笑う。)",
+            "(僕は声を上げて笑った。)",
+            "(僕は声を出して笑った。)\\！\\"
+        ]
+    },
+    {
+        "en_raw": "<span class=\"shake\">\n (It's after, it's after, it was published after!!! Stupid!!!)\n</span>",
+        "en_clean": "(It's after, it's after, it was published after!!! Stupid!!!)",
+        "jp_raw": "\\m[clear]\\shake(後だ、後だ、後から出版されたんだ！！！\\!\\ バカバカしい！！！)",
+        "jp_clean": "(後だ、後だ、後から出版されたんだ！！！ バカバカしい！！！)"
+    },
+    {
+        "en_raw": "(Some vials.)",
+        "en_clean": "(Some vials.)",
+        "jp_raw": "\\m[clear](瓶がいくつかある。)",
+        "jp_clean": "(瓶がいくつかある。)"
+    },
+    {
+        "en_raw": "(Let's see...)",
+        "en_clean": "(Let's see...)",
+        "jp_raw": "(どれどれ...)",
+        "jp_clean": "(どれどれ...)"
+    },
+    {
+        "en_raw": "(You pick them up.)",
+        "en_clean": "(You pick them up.)",
+        "jp_raw": "(瓶を拾ってみよう。)",
+        "jp_clean": "(瓶を拾ってみよう。)"
+    },
+    {
+        "en_raw": "(You got two SALTY BROTHS!)",
+        "en_clean": "(You got two SALTY BROTHS!)",
+        "jp_raw": [
+            "\\m[clear](「しょっぱスープ」を手に入れた！)",
+            "(「しょっぱスープ」を2つ手に入れた！)"
+        ],
+        "jp_clean": [
+            "(「しょっぱスープ」を手に入れた！)",
+            "(「しょっぱスープ」を2つ手に入れた！)"
+        ]
+    },
+    {
+        "en_raw": "(You give them to Bonnie for safekeeping.)",
+        "en_clean": "(You give them to Bonnie for safekeeping.)",
+        "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
+        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)"
+    },
+    {
+        "en_raw": "[Hello hello stardust!]",
+        "en_clean": "[Hello hello stardust!]",
+        "jp_raw": "\\m[vtuto][やあやあ、こんにちは、星くず君！]",
+        "jp_clean": "[やあやあ、こんにちは、星くず君！]"
+    },
+    {
+        "en_raw": "[Got your hand on some Salty Broths, didn't you?]",
+        "en_clean": "[Got your hand on some Salty Broths, didn't you?]",
+        "jp_raw": "[しょっぱスープを手に入れたみたいだね？]",
+        "jp_clean": "[しょっぱスープを手に入れたみたいだね？]"
+    },
+    {
+        "en_raw": "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful! Use them wisely!]",
+        "en_clean": "[Drinking one in battle will lower all of someone's Craft cooldowns by 6, so they're very useful! Use them wisely!]",
+        "jp_raw": "[戦闘中に飲むと、クラフトスキルのクールダウンを6ターン短縮できるよ。便利でしょ！\\!\\ 賢く使ってね！]",
+        "jp_clean": "[戦闘中に飲むと、クラフトスキルのクールダウンを6ターン短縮できるよ。便利でしょ！ 賢く使ってね！]"
+    },
+    {
+        "en_raw": "[Bye stardust! Have fun! Don't get crushed by rocks!]",
+        "en_clean": "[Bye stardust! Have fun! Don't get crushed by rocks!]",
+        "jp_raw": "[じゃあね、星くず君！\\!\\ 楽しんで！\\!\\ 岩にぺちゃんこにされないようにね！]\\m[rb]",
+        "jp_clean": "[じゃあね、星くず君！ 楽しんで！ 岩にぺちゃんこにされないようにね！]"
+    },
+    {
+        "en_raw": "(You got one CRAFTED WATER!)",
+        "en_clean": "(You got one CRAFTED WATER!)",
+        "jp_raw": "\\m[clear](「クラフト水」を手に入れた！)",
+        "jp_clean": "(「クラフト水」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You give it to Bonnie for safekeeping.)",
+        "en_clean": "(You give it to Bonnie for safekeeping.)",
+        "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
+        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)"
+    },
+    {
+        "en_raw": "(Nothing else here.)",
+        "en_clean": "(Nothing else here.)",
+        "jp_raw": "\\m[clear](他に目ぼしいものはない。)",
+        "jp_clean": "(他に目ぼしいものはない。)"
+    },
+    {
+        "en_raw": "(A chair.)",
+        "en_clean": "(A chair.)",
+        "jp_raw": "\\m[clear](イスだ。)",
+        "jp_clean": "(イスだ。)"
+    },
+    {
+        "en_raw": "(But you're fine, so it'd be a waste of time to sit down.)",
+        "en_clean": "(But you're fine, so it'd be a waste of time to sit down.)",
+        "jp_raw": "(座る必要はない。\\!時間を無駄にするだけだ。)",
+        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)"
     }
-}
+]

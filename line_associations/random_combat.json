@@ -1,2038 +1,1094 @@
-{
-    "matches": {
-        "(A Sadness killed you earlier... But you feel a tiny bit stronger.)": [
-            {
-                "clean": "(A Sadness killed you earlier... But you feel a tiny bit stronger.)",
-                "site": {
-                    "raw": "(A Sadness killed you earlier... But you feel a tiny bit stronger.)",
-                    "page": "random/combat.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\m[clear](A Sadness killed you earlier...\\!\\ But you feel a tiny bit stronger.)",
-                    "jp": "(さっきは哀し身にやられたけど... 少し強くなった気がする。)",
-                    "jp_raw": "\\m[clear](さっきは哀し身にやられたけど...\\!\\ 少し強くなった気がする。)",
-                    "index": 13293
-                }
-            }
+[
+    {
+        "en_raw": "(Everyone feels more powerful!)",
+        "en_clean": "(Everyone feels more powerful!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Everyone feels stronger!)",
+        "en_clean": "(Everyone feels stronger!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Everyone feels faster!)",
+        "en_clean": "(Everyone feels faster!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Everyone is protected!)",
+        "en_clean": "(Everyone is protected!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(A Sadness killed you earlier... But you feel a tiny bit stronger.)",
+        "en_clean": "(A Sadness killed you earlier... But you feel a tiny bit stronger.)",
+        "jp_raw": "\\m[clear](さっきは哀し身にやられたけど...\\!\\ 少し強くなった気がする。)",
+        "jp_clean": "(さっきは哀し身にやられたけど... 少し強くなった気がする。)"
+    },
+    {
+        "en_raw": "(You gained a little bit of EXP[!/.])",
+        "en_clean": "(You gained a little bit of EXP[!/.])",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You didn't manage to beat the King earlier, but you feel a little stronger.)",
+        "en_clean": "(You didn't manage to beat the King earlier, but you feel a little stronger.)",
+        "jp_raw": "\\m[clear](さっきは王を倒せなかったけど、\\!少し強くなった気がする。)",
+        "jp_clean": "(さっきは王を倒せなかったけど、少し強くなった気がする。)"
+    },
+    {
+        "en_raw": "(You gained some EXP[!/.])",
+        "en_clean": "(You gained some EXP[!/.])",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You managed to beat the King earlier...)",
+        "en_clean": "(You managed to beat the King earlier...)",
+        "jp_raw": "\\m[clear](さっきは王を倒すことができた...)",
+        "jp_clean": "(さっきは王を倒すことができた...)"
+    },
+    {
+        "en_raw": "(You feel stronger.)",
+        "en_clean": "(You feel stronger.)",
+        "jp_raw": "(強くなった気がする。)",
+        "jp_clean": "(強くなった気がする。)"
+    },
+    {
+        "en_raw": "(You gained a lot of EXP.)",
+        "en_clean": "(You gained a lot of EXP.)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Siffrin...!!!",
+        "en_clean": "Siffrin...!!!",
+        "jp_raw": "\\m[vm]シフラン...！！！",
+        "jp_clean": "シフラン...！！！"
+    },
+    {
+        "en_raw": "Isabeau, this is NOT the time!!!",
+        "en_clean": "Isabeau, this is NOT the time!!!",
+        "jp_raw": "\\m[vm]イザボー、しっかりして！！！",
+        "jp_clean": "イザボー、しっかりして！！！"
+    },
+    {
+        "en_raw": "Odile, wake up...!!!",
+        "en_clean": "Odile, wake up...!!!",
+        "jp_raw": "\\m[vm]オディール、目を覚まして！！！",
+        "jp_clean": "オディール、目を覚まして！！！"
+    },
+    {
+        "en_raw": "(Mirabelle brings her hands to the sky!)",
+        "en_clean": "(Mirabelle brings her hands to the sky!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "I WANNA HELP TOO!!!",
+        "en_clean": "I WANNA HELP TOO!!!",
+        "jp_raw": "\\m[vb]オイラも手伝う！！！",
+        "jp_clean": "オイラも手伝う！！！"
+    },
+    {
+        "en_raw": "(Bonnie runs in with snacks!)",
+        "en_clean": "(Bonnie runs in with snacks!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie puffs their cheeks!)",
+        "en_clean": "(Bonnie puffs their cheeks!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie yells encouragement everyone's way!)",
+        "en_clean": "(Bonnie yells encouragement everyone's way!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie runs in a circle!)",
+        "en_clean": "(Bonnie runs in a circle!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie whacks the enemy!)",
+        "en_clean": "(Bonnie whacks the enemy!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie whacks the enemy really hard!)",
+        "en_clean": "(Bonnie whacks the enemy really hard!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Bonnie missed...)",
+        "en_clean": "(Bonnie missed...)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "AW!!! We almost got it!!!",
+        "en_clean": "AW!!! We almost got it!!!",
+        "jp_raw": "\\m[vb]うわ！！\\!\\ あとちょっとだ！！！",
+        "jp_clean": "うわ！！ あとちょっとだ！！！"
+    },
+    {
+        "en_raw": "It's very weak... A slightly stronger blow would've done it!",
+        "en_clean": "It's very weak... A slightly stronger blow would've done it!",
+        "jp_raw": "\\m[vm]とても弱くなってる...\\!\\ もう少し強い攻撃だったら、倒せてたはず！",
+        "jp_clean": "とても弱くなってる... もう少し強い攻撃だったら、倒せてたはず！"
+    },
+    {
+        "en_raw": "Well, if it's weak...",
+        "en_clean": "Well, if it's weak...",
+        "jp_raw": "\\m[vi]そんなに弱くなったなら...",
+        "jp_clean": "そんなに弱くなったなら..."
+    },
+    {
+        "en_raw": "Wanna deal the final blow, Bonnie?",
+        "en_clean": "Wanna deal the final blow, Bonnie?",
+        "jp_raw": "とどめの一撃を入れてみるか、ボニー？",
+        "jp_clean": "とどめの一撃を入れてみるか、ボニー？"
+    },
+    {
+        "en_raw": "CAN I?!??",
+        "en_clean": "CAN I?!??",
+        "jp_raw": "\\m[vb]いいのか？！？？",
+        "jp_clean": "いいのか？！？？"
+    },
+    {
+        "en_raw": "It IS pretty weak, so...",
+        "en_clean": "It IS pretty weak, so...",
+        "jp_raw": "\\m[vo]かなり弱体化しているから...",
+        "jp_clean": "かなり弱体化しているから..."
+    },
+    {
+        "en_raw": "Sure. Knock yourself out.",
+        "en_clean": "Sure. Knock yourself out.",
+        "jp_raw": "いいだろう。\\!\\ 自分でやってみなさい。",
+        "jp_clean": "いいだろう。 自分でやってみなさい。"
+    },
+    {
+        "en_raw": "O-OKAY!!!! HERE I GO!!!!!",
+        "en_clean": "O-OKAY!!!! HERE I GO!!!!!",
+        "jp_raw": "\\m[vb]お、おう！！！\\!\\ いくぜぇっ！！！",
+        "jp_clean": "お、おう！！！ いくぜぇっ！！！"
+    },
+    {
+        "en_raw": "(Bonnie deals the final blow!!!)",
+        "en_clean": "(Bonnie deals the final blow!!!)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "<span class=\"big\">\n YEAAAAAAAAAAAAAAAAAAAH!!!!!!!\n</span>",
+        "en_clean": "YEAAAAAAAAAAAAAAAAAAAH!!!!!!!",
+        "jp_raw": "\\m[vb]\\{やああああああぁぁぁっっっ！！！！！！",
+        "jp_clean": "やああああああぁぁぁっっっ！！！！！！"
+    },
+    {
+        "en_raw": "(You clap.)",
+        "en_clean": "(You clap.)",
+        "jp_raw": "\\m[clear](ボニーに拍手を送った。)",
+        "jp_clean": "(ボニーに拍手を送った。)"
+    },
+    {
+        "en_raw": "Great job, Bonbon!",
+        "en_clean": "Great job, Bonbon!",
+        "jp_raw": "\\m[vi]やったな、ボンボン！",
+        "jp_clean": "やったな、ボンボン！"
+    },
+    {
+        "en_raw": "You did good.",
+        "en_clean": "You did good.",
+        "jp_raw": "\\m[vo]よくやった。",
+        "jp_clean": "よくやった。"
+    },
+    {
+        "en_raw": "What would we have done without you!",
+        "en_clean": "What would we have done without you!",
+        "jp_raw": "\\m[vm]あなたなしじゃできなかったよ！",
+        "jp_clean": "あなたなしじゃできなかったよ！"
+    },
+    {
+        "en_raw": "HMF!!!!!!!!!!!",
+        "en_clean": "HMF!!!!!!!!!!!",
+        "jp_raw": "\\m[vb]ふふん！！！！！！",
+        "jp_clean": "ふふん！！！！！！"
+    },
+    {
+        "en_raw": "[If an enemy is close to death, your little kiddo might deal the final blow!]",
+        "en_clean": "[If an enemy is close to death, your little kiddo might deal the final blow!]",
+        "jp_raw": "\\m[clear]\\m[vtuto][敵が倒れる寸前になると、ちびっ子君がとどめの一撃を入れるぞ！]",
+        "jp_clean": "[敵が倒れる寸前になると、ちびっ子君がとどめの一撃を入れるぞ！]"
+    },
+    {
+        "en_raw": "[Look at them. So proud. Like a little bird who flew for the first time.]",
+        "en_clean": "[Look at them. So proud. Like a little bird who flew for the first time.]",
+        "jp_raw": "[見なよ。\\!\\ 誇らしげだ。\\!\\ 初めて飛んだ鳥みたいだね。]\\m[rb]",
+        "jp_clean": "[見なよ。 誇らしげだ。 初めて飛んだ鳥みたいだね。]"
+    },
+    {
+        "en_raw": "(You breathe in, and out.)",
+        "en_clean": "(You breathe in, and out.)",
+        "jp_raw": "\\m[clear](息を吸って、そして吐く。)",
+        "jp_clean": "(息を吸って、そして吐く。)"
+    },
+    {
+        "en_raw": "([number] EXP received[!/.])",
+        "en_clean": "([number] EXP received[!/.])",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You breathe in, and out.)",
+        "en_clean": "(You breathe in, and out.)",
+        "jp_raw": "\\m[clear](息を吸って、そして吐く。)",
+        "jp_clean": "(息を吸って、そして吐く。)"
+    },
+    {
+        "en_raw": "([number] EXP received. EXP doubled for everyone else.)",
+        "en_clean": "([number] EXP received. EXP doubled for everyone else.)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Pew! Bam! Kapow! Easy-peasy!",
+        "en_clean": "Pew! Bam! Kapow! Easy-peasy!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Not gonna be done anytime soon.",
+        "en_clean": "Not gonna be done anytime soon.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Too many to count.",
+        "en_clean": "Too many to count.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You remember the battles you have fought.)",
+        "en_clean": "(You remember the battles you have fought.)",
+        "jp_raw": "\\m[clear](これまでの戦闘は覚えている。)",
+        "jp_clean": "(これまでの戦闘は覚えている。)"
+    },
+    {
+        "en_raw": "(Battles sure are easy, aren't they?)",
+        "en_clean": "(Battles sure are easy, aren't they?)",
+        "jp_raw": "(戦闘なんてチョロいもんだ。)",
+        "jp_clean": "(戦闘なんてチョロいもんだ。)"
+    },
+    {
+        "en_raw": "(Battles aren't so important that you need to remember them all.)",
+        "en_clean": "(Battles aren't so important that you need to remember them all.)",
+        "jp_raw": "\\m[clear](戦闘はそれほど重要じゃない。\\!すべてを覚えておく必要はない。)",
+        "jp_clean": "(戦闘はそれほど重要じゃない。すべてを覚えておく必要はない。)"
+    },
+    {
+        "en_raw": "(You currently have [number] memories you can use.)",
+        "en_clean": "(You currently have [number] memories you can use.)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "<span class=\"shake\">\n (Enough!!!)\n</span>",
+        "en_clean": "(Enough!!!)",
+        "jp_raw": "\\m[clear]\\shake(もう十分だ！！！)",
+        "jp_clean": "(もう十分だ！！！)"
+    },
+    {
+        "en_raw": "(No.)",
+        "en_clean": "(No.)",
+        "jp_raw": [
+            "\\m[clear](やめよう。)",
+            "\\m[vs](いらない。)\\!\\",
+            "(違う。)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(違う。)\\m[wait]\\m[wait]\\^",
+            "(キリッ。)"
         ],
-        "(You didn't manage to beat the King earlier, but you feel a little stronger.)": [
-            {
-                "clean": "(You didn't manage to beat the King earlier, but you feel a little stronger.)",
-                "site": {
-                    "raw": "(You didn't manage to beat the King earlier, but you feel a little stronger.)",
-                    "page": "random/combat.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You didn't manage to beat the King earlier,\\!\\ but you feel a little stronger.)",
-                    "jp": "(さっきは王を倒せなかったけど、少し強くなった気がする。)",
-                    "jp_raw": "\\m[clear](さっきは王を倒せなかったけど、\\!少し強くなった気がする。)",
-                    "index": 13295
-                }
-            }
-        ],
-        "(You managed to beat the King earlier...)": [
-            {
-                "clean": "(You managed to beat the King earlier...)",
-                "site": {
-                    "raw": "(You managed to beat the King earlier...)",
-                    "page": "random/combat.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You managed to beat the King earlier...)",
-                    "jp": "(さっきは王を倒すことができた...)",
-                    "jp_raw": "\\m[clear](さっきは王を倒すことができた...)",
-                    "index": 13297
-                }
-            }
-        ],
-        "(You feel stronger.)": [
-            {
-                "clean": "(You feel stronger.)",
-                "site": {
-                    "raw": "(You feel stronger.)",
-                    "page": "random/combat.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(You feel stronger.)",
-                    "jp": "(強くなった気がする。)",
-                    "jp_raw": "(強くなった気がする。)",
-                    "index": 13298
-                }
-            }
-        ],
-        "Siffrin...!!!": [
-            {
-                "clean": "Siffrin...!!!",
-                "site": {
-                    "raw": "Siffrin...!!!",
-                    "page": "random/combat.html",
-                    "index": 11
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Siffrin...!!!",
-                    "jp": "シフラン...！！！",
-                    "jp_raw": "\\m[vm]シフラン...！！！",
-                    "index": 17087
-                }
-            }
-        ],
-        "Isabeau, this is NOT the time!!!": [
-            {
-                "clean": "Isabeau, this is NOT the time!!!",
-                "site": {
-                    "raw": "Isabeau, this is NOT the time!!!",
-                    "page": "random/combat.html",
-                    "index": 12
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Isabeau, this is NOT the time!!!",
-                    "jp": "イザボー、しっかりして！！！",
-                    "jp_raw": "\\m[vm]イザボー、しっかりして！！！",
-                    "index": 17102
-                }
-            }
-        ],
-        "Odile, wake up...!!!": [
-            {
-                "clean": "Odile, wake up...!!!",
-                "site": {
-                    "raw": "Odile, wake up...!!!",
-                    "page": "random/combat.html",
-                    "index": 13
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Odile, wake up...!!!",
-                    "jp": "オディール、目を覚まして！！！",
-                    "jp_raw": "\\m[vm]オディール、目を覚まして！！！",
-                    "index": 17103
-                }
-            }
-        ],
-        "I WANNA HELP TOO!!!": [
-            {
-                "clean": "I WANNA HELP TOO!!!",
-                "site": {
-                    "raw": "I WANNA HELP TOO!!!",
-                    "page": "random/combat.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[vb]I WANNA HELP TOO!!!",
-                    "jp": "オイラも手伝う！！！",
-                    "jp_raw": "\\m[vb]オイラも手伝う！！！",
-                    "index": 12849
-                }
-            }
-        ],
-        "AW!!! We almost got it!!!": [
-            {
-                "clean": "AW!!! We almost got it!!!",
-                "site": {
-                    "raw": "AW!!! We almost got it!!!",
-                    "page": "random/combat.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\m[vb]AW!!!\\!\\ We almost got it!!!",
-                    "jp": "うわ！！ あとちょっとだ！！！",
-                    "jp_raw": "\\m[vb]うわ！！\\!\\ あとちょっとだ！！！",
-                    "index": 17104
-                }
-            }
-        ],
-        "It's very weak... A slightly stronger blow would've done it!": [
-            {
-                "clean": "It's very weak... A slightly stronger blow would've done it!",
-                "site": {
-                    "raw": "It's very weak... A slightly stronger blow would've done it!",
-                    "page": "random/combat.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vm]It's very weak...\\!\\ A slightly stronger blow would've done it!",
-                    "jp": "とても弱くなってる... もう少し強い攻撃だったら、倒せてたはず！",
-                    "jp_raw": "\\m[vm]とても弱くなってる...\\!\\ もう少し強い攻撃だったら、倒せてたはず！",
-                    "index": 17105
-                }
-            }
-        ],
-        "Well, if it's weak...": [
-            {
-                "clean": "Well, if it's weak...",
-                "site": {
-                    "raw": "Well, if it's weak...",
-                    "page": "random/combat.html",
-                    "index": 25
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Well, if it's weak...",
-                    "jp": "そんなに弱くなったなら...",
-                    "jp_raw": "\\m[vi]そんなに弱くなったなら...",
-                    "index": 17106
-                }
-            }
-        ],
-        "Wanna deal the final blow, Bonnie?": [
-            {
-                "clean": "Wanna deal the final blow, Bonnie?",
-                "site": {
-                    "raw": "Wanna deal the final blow, Bonnie?",
-                    "page": "random/combat.html",
-                    "index": 26
-                },
-                "game": {
-                    "en_raw": "Wanna deal the final blow, Bonnie?",
-                    "jp": "とどめの一撃を入れてみるか、ボニー？",
-                    "jp_raw": "とどめの一撃を入れてみるか、ボニー？",
-                    "index": 17107
-                }
-            }
-        ],
-        "CAN I?!??": [
-            {
-                "clean": "CAN I?!??",
-                "site": {
-                    "raw": "CAN I?!??",
-                    "page": "random/combat.html",
-                    "index": 27
-                },
-                "game": {
-                    "en_raw": "\\m[vb]CAN I?!??",
-                    "jp": "いいのか？！？？",
-                    "jp_raw": "\\m[vb]いいのか？！？？",
-                    "index": 17108
-                }
-            }
-        ],
-        "It IS pretty weak, so...": [
-            {
-                "clean": "It IS pretty weak, so...",
-                "site": {
-                    "raw": "It IS pretty weak, so...",
-                    "page": "random/combat.html",
-                    "index": 28
-                },
-                "game": {
-                    "en_raw": "\\m[vo]It IS pretty weak, so...",
-                    "jp": "かなり弱体化しているから...",
-                    "jp_raw": "\\m[vo]かなり弱体化しているから...",
-                    "index": 17109
-                }
-            }
-        ],
-        "Sure. Knock yourself out.": [
-            {
-                "clean": "Sure. Knock yourself out.",
-                "site": {
-                    "raw": "Sure. Knock yourself out.",
-                    "page": "random/combat.html",
-                    "index": 29
-                },
-                "game": {
-                    "en_raw": "Sure.\\!\\ Knock yourself out.",
-                    "jp": "いいだろう。 自分でやってみなさい。",
-                    "jp_raw": "いいだろう。\\!\\ 自分でやってみなさい。",
-                    "index": 17110
-                }
-            }
-        ],
-        "O-OKAY!!!! HERE I GO!!!!!": [
-            {
-                "clean": "O-OKAY!!!! HERE I GO!!!!!",
-                "site": {
-                    "raw": "O-OKAY!!!! HERE I GO!!!!!",
-                    "page": "random/combat.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vb]O-OKAY!!!!\\!\\ HERE I GO!!!!!",
-                    "jp": "お、おう！！！ いくぜぇっ！！！",
-                    "jp_raw": "\\m[vb]お、おう！！！\\!\\ いくぜぇっ！！！",
-                    "index": 17111
-                }
-            }
-        ],
-        "YEAAAAAAAAAAAAAAAAAAAH!!!!!!!": [
-            {
-                "clean": "YEAAAAAAAAAAAAAAAAAAAH!!!!!!!",
-                "site": {
-                    "raw": "<span class=\"big\">\n YEAAAAAAAAAAAAAAAAAAAH!!!!!!!\n</span>",
-                    "page": "random/combat.html",
-                    "index": 32
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\{YEAAAAAAAAAAAAAAAAAAAH!!!!!!!",
-                    "jp": "やああああああぁぁぁっっっ！！！！！！",
-                    "jp_raw": "\\m[vb]\\{やああああああぁぁぁっっっ！！！！！！",
-                    "index": 17112
-                }
-            }
-        ],
-        "(You clap.)": [
-            {
-                "clean": "(You clap.)",
-                "site": {
-                    "raw": "(You clap.)",
-                    "page": "random/combat.html",
-                    "index": 33
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You clap.)",
-                    "jp": "(ボニーに拍手を送った。)",
-                    "jp_raw": "\\m[clear](ボニーに拍手を送った。)",
-                    "index": 16759
-                }
-            }
-        ],
-        "Great job, Bonbon!": [
-            {
-                "clean": "Great job, Bonbon!",
-                "site": {
-                    "raw": "Great job, Bonbon!",
-                    "page": "random/combat.html",
-                    "index": 34
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Great job, Bonbon!",
-                    "jp": "やったな、ボンボン！",
-                    "jp_raw": "\\m[vi]やったな、ボンボン！",
-                    "index": 17113
-                }
-            }
-        ],
-        "You did good.": [
-            {
-                "clean": "You did good.",
-                "site": {
-                    "raw": "You did good.",
-                    "page": "random/combat.html",
-                    "index": 35
-                },
-                "game": {
-                    "en_raw": "\\m[vo]You did good.",
-                    "jp": "よくやった。",
-                    "jp_raw": "\\m[vo]よくやった。",
-                    "index": 17114
-                }
-            }
-        ],
-        "What would we have done without you!": [
-            {
-                "clean": "What would we have done without you!",
-                "site": {
-                    "raw": "What would we have done without you!",
-                    "page": "random/combat.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "\\m[vm]What would we have done without you!",
-                    "jp": "あなたなしじゃできなかったよ！",
-                    "jp_raw": "\\m[vm]あなたなしじゃできなかったよ！",
-                    "index": 17115
-                }
-            }
-        ],
-        "HMF!!!!!!!!!!!": [
-            {
-                "clean": "HMF!!!!!!!!!!!",
-                "site": {
-                    "raw": "HMF!!!!!!!!!!!",
-                    "page": "random/combat.html",
-                    "index": 37
-                },
-                "game": {
-                    "en_raw": "\\m[vb]HMF!!!!!!!!!!!",
-                    "jp": "ふふん！！！！！！",
-                    "jp_raw": "\\m[vb]ふふん！！！！！！",
-                    "index": 17116
-                }
-            }
-        ],
-        "[If an enemy is close to death, your little kiddo might deal the final blow!]": [
-            {
-                "clean": "[If an enemy is close to death, your little kiddo might deal the final blow!]",
-                "site": {
-                    "raw": "[If an enemy is close to death, your little kiddo might deal the final blow!]",
-                    "page": "random/combat.html",
-                    "index": 38
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[vtuto][If an enemy is close to death, your little kiddo might deal the final blow!]",
-                    "jp": "[敵が倒れる寸前になると、ちびっ子君がとどめの一撃を入れるぞ！]",
-                    "jp_raw": "\\m[clear]\\m[vtuto][敵が倒れる寸前になると、ちびっ子君がとどめの一撃を入れるぞ！]",
-                    "index": 17117
-                }
-            }
-        ],
-        "[Look at them. So proud. Like a little bird who flew for the first time.]": [
-            {
-                "clean": "[Look at them. So proud. Like a little bird who flew for the first time.]",
-                "site": {
-                    "raw": "[Look at them. So proud. Like a little bird who flew for the first time.]",
-                    "page": "random/combat.html",
-                    "index": 39
-                },
-                "game": {
-                    "en_raw": "[Look at them.\\!\\ So proud.\\!\\ Like a little bird who flew for the first time.]\\m[rb]",
-                    "jp": "[見なよ。 誇らしげだ。 初めて飛んだ鳥みたいだね。]",
-                    "jp_raw": "[見なよ。\\!\\ 誇らしげだ。\\!\\ 初めて飛んだ鳥みたいだね。]\\m[rb]",
-                    "index": 17118
-                }
-            }
-        ],
-        "(You breathe in, and out.)": [
-            {
-                "clean": "(You breathe in, and out.)",
-                "site": {
-                    "raw": "(You breathe in, and out.)",
-                    "page": "random/combat.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You breathe in, and out.)",
-                    "jp": "(息を吸って、そして吐く。)",
-                    "jp_raw": "\\m[clear](息を吸って、そして吐く。)",
-                    "index": 11164
-                }
-            }
-        ],
-        "(You remember the battles you have fought.)": [
-            {
-                "clean": "(You remember the battles you have fought.)",
-                "site": {
-                    "raw": "(You remember the battles you have fought.)",
-                    "page": "random/combat.html",
-                    "index": 47
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You remember the battles you have fought.)",
-                    "jp": "(これまでの戦闘は覚えている。)",
-                    "jp_raw": "\\m[clear](これまでの戦闘は覚えている。)",
-                    "index": 13352
-                }
-            }
-        ],
-        "(Battles sure are easy, aren't they?)": [
-            {
-                "clean": "(Battles sure are easy, aren't they?)",
-                "site": {
-                    "raw": "(Battles sure are easy, aren't they?)",
-                    "page": "random/combat.html",
-                    "index": 48
-                },
-                "game": {
-                    "en_raw": "(Battles sure are easy, aren't they?)",
-                    "jp": "(戦闘なんてチョロいもんだ。)",
-                    "jp_raw": "(戦闘なんてチョロいもんだ。)",
-                    "index": 13353
-                }
-            }
-        ],
-        "(Battles aren't so important that you need to remember them all.)": [
-            {
-                "clean": "(Battles aren't so important that you need to remember them all.)",
-                "site": {
-                    "raw": "(Battles aren't so important that you need to remember them all.)",
-                    "page": "random/combat.html",
-                    "index": 49
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Battles aren't so important that you need to remember them all.)",
-                    "jp": "(戦闘はそれほど重要じゃない。すべてを覚えておく必要はない。)",
-                    "jp_raw": "\\m[clear](戦闘はそれほど重要じゃない。\\!すべてを覚えておく必要はない。)",
-                    "index": 13354
-                }
-            }
-        ],
-        "(Enough!!!)": [
-            {
-                "clean": "(Enough!!!)",
-                "site": {
-                    "raw": "<span class=\"shake\">\n (Enough!!!)\n</span>",
-                    "page": "random/combat.html",
-                    "index": 51
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(Enough!!!)",
-                    "jp": "(もう十分だ！！！)",
-                    "jp_raw": "\\m[clear]\\shake(もう十分だ！！！)",
-                    "index": 13351
-                }
-            }
-        ],
-        "(No.)": [
-            {
-                "clean": "(No.)",
-                "site": {
-                    "raw": "(No.)",
-                    "page": "random/combat.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[clear](No.)",
-                    "jp": "(やめよう。)",
-                    "jp_raw": "\\m[clear](やめよう。)",
-                    "index": 317
-                }
-            },
-            {
-                "clean": "(No.)",
-                "site": {
-                    "raw": "(No.)",
-                    "page": "random/combat.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[vs](No.)\\!\\",
-                    "jp": "(いらない。)",
-                    "jp_raw": "\\m[vs](いらない。)\\!\\",
-                    "index": 7610
-                }
-            },
-            {
-                "clean": "(No.)",
-                "site": {
-                    "raw": "(No.)",
-                    "page": "random/combat.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "(No.)\\!\\m[wait]\\^",
-                    "jp": "(違う。)",
-                    "jp_raw": "(違う。)\\!\\m[wait]\\^",
-                    "index": 8749
-                }
-            },
-            {
-                "clean": "(No.)",
-                "site": {
-                    "raw": "(No.)",
-                    "page": "random/combat.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(No.)\\m[wait]\\m[wait]\\^",
-                    "jp": "(違う。)",
-                    "jp_raw": "\\m[clear]\\shake(違う。)\\m[wait]\\m[wait]\\^",
-                    "index": 12242
-                }
-            },
-            {
-                "clean": "(No.)",
-                "site": {
-                    "raw": "(No.)",
-                    "page": "random/combat.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "(No.)",
-                    "jp": "(キリッ。)",
-                    "jp_raw": "(キリッ。)",
-                    "index": 16743
-                }
-            }
-        ],
-        "(Get back on the stage.)": [
-            {
-                "clean": "(Get back on the stage.)",
-                "site": {
-                    "raw": "(Get back on the stage.)",
-                    "page": "random/combat.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Get back on the stage.)",
-                    "jp": "(舞台に戻ろう。)",
-                    "jp_raw": "\\m[clear](舞台に戻ろう。)",
-                    "index": 17119
-                }
-            }
-        ],
-        "(...)": [
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)",
-                    "jp": "(...)",
-                    "jp_raw": "(...)",
-                    "index": 21
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)",
-                    "index": 164
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\^",
-                    "index": 178
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\",
-                    "index": 205
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)",
-                    "index": 245
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)",
-                    "index": 264
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)",
-                    "index": 391
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)",
-                    "index": 532
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "index": 560
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "index": 1027
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\",
-                    "index": 1966
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2139
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 2186
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](...)\\!\\",
-                    "index": 2310
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)",
-                    "index": 2334
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "index": 2508
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\",
-                    "index": 2941
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)",
-                    "index": 3128
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "index": 3751
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 3809
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "index": 3934
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "index": 4505
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "index": 4578
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "index": 4925
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "index": 5021
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "index": 6778
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "index": 7497
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "index": 7563
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "index": 7874
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "index": 8427
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "index": 8475
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "index": 8773
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "index": 9379
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 10078
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vsc](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vsc](...)\\!\\",
-                    "index": 10129
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\m[dot])\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[dot])\\!\\",
-                    "index": 10550
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "index": 10935
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "index": 11969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[rb](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\m[rb](...)",
-                    "index": 12007
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "index": 12044
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "index": 12183
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "index": 12241
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "index": 12285
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "index": 13281
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]",
-                    "index": 13579
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14087
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14623
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "index": 14870
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "index": 14969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](...)",
-                    "index": 15047
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "index": 15058
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 15161
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "random/combat.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "index": 16033
-                }
-            }
-        ],
-        "(You wait for help that won't come.)": [
-            {
-                "clean": "(You wait for help that won't come.)",
-                "site": {
-                    "raw": "(You wait for help that won't come.)",
-                    "page": "random/combat.html",
-                    "index": 57
-                },
-                "game": {
-                    "en_raw": "(You wait for help that won't come.)",
-                    "jp": "(来るはずのない助けを待っている。)",
-                    "jp_raw": "(来るはずのない助けを待っている。)",
-                    "index": 12848
-                }
-            }
+        "jp_clean": [
+            "(やめよう。)",
+            "(いらない。)",
+            "(違う。)",
+            "(違う。)",
+            "(キリッ。)"
         ]
     },
-    "no_matches": {
-        "(Everyone feels more powerful!)": {
-            "clean": "(Everyone feels more powerful!)",
-            "raw": "(Everyone feels more powerful!)",
-            "page": "random/combat.html",
-            "index": 0
-        },
-        "(Everyone feels stronger!)": {
-            "clean": "(Everyone feels stronger!)",
-            "raw": "(Everyone feels stronger!)",
-            "page": "random/combat.html",
-            "index": 1
-        },
-        "(Everyone feels faster!)": {
-            "clean": "(Everyone feels faster!)",
-            "raw": "(Everyone feels faster!)",
-            "page": "random/combat.html",
-            "index": 2
-        },
-        "(Everyone is protected!)": {
-            "clean": "(Everyone is protected!)",
-            "raw": "(Everyone is protected!)",
-            "page": "random/combat.html",
-            "index": 3
-        },
-        "(You gained a little bit of EXP[!/.])": {
-            "clean": "(You gained a little bit of EXP[!/.])",
-            "raw": "(You gained a little bit of EXP[!/.])",
-            "page": "random/combat.html",
-            "index": 5
-        },
-        "(You gained some EXP[!/.])": {
-            "clean": "(You gained some EXP[!/.])",
-            "raw": "(You gained some EXP[!/.])",
-            "page": "random/combat.html",
-            "index": 7
-        },
-        "(You gained a lot of EXP.)": {
-            "clean": "(You gained a lot of EXP.)",
-            "raw": "(You gained a lot of EXP.)",
-            "page": "random/combat.html",
-            "index": 10
-        },
-        "(Mirabelle brings her hands to the sky!)": {
-            "clean": "(Mirabelle brings her hands to the sky!)",
-            "raw": "(Mirabelle brings her hands to the sky!)",
-            "page": "random/combat.html",
-            "index": 14
-        },
-        "(Bonnie runs in with snacks!)": {
-            "clean": "(Bonnie runs in with snacks!)",
-            "raw": "(Bonnie runs in with snacks!)",
-            "page": "random/combat.html",
-            "index": 16
-        },
-        "(Bonnie puffs their cheeks!)": {
-            "clean": "(Bonnie puffs their cheeks!)",
-            "raw": "(Bonnie puffs their cheeks!)",
-            "page": "random/combat.html",
-            "index": 17
-        },
-        "(Bonnie yells encouragement everyone's way!)": {
-            "clean": "(Bonnie yells encouragement everyone's way!)",
-            "raw": "(Bonnie yells encouragement everyone's way!)",
-            "page": "random/combat.html",
-            "index": 18
-        },
-        "(Bonnie runs in a circle!)": {
-            "clean": "(Bonnie runs in a circle!)",
-            "raw": "(Bonnie runs in a circle!)",
-            "page": "random/combat.html",
-            "index": 19
-        },
-        "(Bonnie whacks the enemy!)": {
-            "clean": "(Bonnie whacks the enemy!)",
-            "raw": "(Bonnie whacks the enemy!)",
-            "page": "random/combat.html",
-            "index": 20
-        },
-        "(Bonnie whacks the enemy really hard!)": {
-            "clean": "(Bonnie whacks the enemy really hard!)",
-            "raw": "(Bonnie whacks the enemy really hard!)",
-            "page": "random/combat.html",
-            "index": 21
-        },
-        "(Bonnie missed...)": {
-            "clean": "(Bonnie missed...)",
-            "raw": "(Bonnie missed...)",
-            "page": "random/combat.html",
-            "index": 22
-        },
-        "(Bonnie deals the final blow!!!)": {
-            "clean": "(Bonnie deals the final blow!!!)",
-            "raw": "(Bonnie deals the final blow!!!)",
-            "page": "random/combat.html",
-            "index": 31
-        },
-        "([number] EXP received[!/.])": {
-            "clean": "([number] EXP received[!/.])",
-            "raw": "([number] EXP received[!/.])",
-            "page": "random/combat.html",
-            "index": 41
-        },
-        "([number] EXP received. EXP doubled for everyone else.)": {
-            "clean": "([number] EXP received. EXP doubled for everyone else.)",
-            "raw": "([number] EXP received. EXP doubled for everyone else.)",
-            "page": "random/combat.html",
-            "index": 43
-        },
-        "Pew! Bam! Kapow! Easy-peasy!": {
-            "clean": "Pew! Bam! Kapow! Easy-peasy!",
-            "raw": "Pew! Bam! Kapow! Easy-peasy!",
-            "page": "random/combat.html",
-            "index": 44
-        },
-        "Not gonna be done anytime soon.": {
-            "clean": "Not gonna be done anytime soon.",
-            "raw": "Not gonna be done anytime soon.",
-            "page": "random/combat.html",
-            "index": 45
-        },
-        "Too many to count.": {
-            "clean": "Too many to count.",
-            "raw": "Too many to count.",
-            "page": "random/combat.html",
-            "index": 46
-        },
-        "(You currently have [number] memories you can use.)": {
-            "clean": "(You currently have [number] memories you can use.)",
-            "raw": "(You currently have [number] memories you can use.)",
-            "page": "random/combat.html",
-            "index": 50
-        },
-        "(You looped back.)": {
-            "clean": "(You looped back.)",
-            "raw": "(You looped back.)",
-            "page": "random/combat.html",
-            "index": 53
-        },
-        "DealsSCISSORS damage to one enemy.Might lower enemy'sDEFENSE. 1 turn.": {
-            "clean": "DealsSCISSORS damage to one enemy.Might lower enemy'sDEFENSE. 1 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy.\n<br/>\nMight lower enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 58
-        },
-        "You say a cool one liner[!/.]": {
-            "clean": "You say a cool one liner[!/.]",
-            "raw": "You say a cool one liner[!/.]",
-            "page": "random/combat.html",
-            "index": 59
-        },
-        "DealsSCISSORS damage to all enemies.Might lower enemies'ATTACK. 3 turn.": {
-            "clean": "DealsSCISSORS damage to all enemies.Might lower enemies'ATTACK. 3 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies.\n<br/>\nMight lower enemies'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i50.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 60
-        },
-        "You say a funny catchphrase[!/.]": {
-            "clean": "You say a funny catchphrase[!/.]",
-            "raw": "You say a funny catchphrase[!/.]",
-            "page": "random/combat.html",
-            "index": 61
-        },
-        "Makes all [friends/allies/family members]FASTER for a few turns. 3 turn.": {
-            "clean": "Makes all [friends/allies/family members]FASTER for a few turns. 3 turn.",
-            "raw": "Makes all [friends/allies/family members]\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nFASTER for a few turns. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 62
-        },
-        "You snap your fingers[!/.]": {
-            "clean": "You snap your fingers[!/.]",
-            "raw": "You snap your fingers[!/.]",
-            "page": "random/combat.html",
-            "index": 63
-        },
-        "Give your turn to [a friend/an ally/a family member],BOOSTING theirATK andCRIT CHANCE. 1 turn.": {
-            "clean": "Give your turn to [a friend/an ally/a family member],BOOSTING theirATK andCRIT CHANCE. 1 turn.",
-            "raw": "Give your turn to [a friend/an ally/a family member],\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i67.svg\"/>\nBOOSTING their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATK and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i36.svg\"/>\nCRIT CHANCE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 116
-        },
-        "You give away your turn[!/.]": {
-            "clean": "You give away your turn[!/.]",
-            "raw": "You give away your turn[!/.]",
-            "page": "random/combat.html",
-            "index": 65
-        },
-        "Deals threeSCISSORS hits to one enemy.High chance of doing a Critical hit. 2 turn.": {
-            "clean": "Deals threeSCISSORS hits to one enemy.High chance of doing a Critical hit. 2 turn.",
-            "raw": "Deals three\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS hits to one enemy.\n<br/>\nHigh chance of doing a Critical hit. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 66
-        },
-        "You wink and attack[!/.]": {
-            "clean": "You wink and attack[!/.]",
-            "raw": "You wink and attack[!/.]",
-            "page": "random/combat.html",
-            "index": 67
-        },
-        "Heal 30% of [a friend/an ally/a family member]'s HP and boosts theirATTACK. 2 turn.": {
-            "clean": "Heal 30% of [a friend/an ally/a family member]'s HP and boosts theirATTACK. 2 turn.",
-            "raw": "Heal 30% of [a friend/an ally/a family member]'s HP and boosts their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 68
-        },
-        "You close your eyes...": {
-            "clean": "You close your eyes...",
-            "raw": "You close your eyes...",
-            "page": "random/combat.html",
-            "index": 69
-        },
-        "Deals weakROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.": {
-            "clean": "Deals weakROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
-            "raw": "Deals weak\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 70
-        },
-        "You wave goodbye[!/.]": {
-            "clean": "You wave goodbye[!/.]",
-            "raw": "You wave goodbye[!/.]",
-            "page": "random/combat.html",
-            "index": 71
-        },
-        "For three turns, [a friend/an ally/a family member]REGENERATES 10% of HP every turn. 5 turn.": {
-            "clean": "For three turns, [a friend/an ally/a family member]REGENERATES 10% of HP every turn. 5 turn.",
-            "raw": "For three turns, [a friend/an ally/a family member]\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i67.svg\"/>\nREGENERATES 10% of HP every turn. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 72
-        },
-        "You give a toast[!/.]": {
-            "clean": "You give a toast[!/.]",
-            "raw": "You give a toast[!/.]",
-            "page": "random/combat.html",
-            "index": 73
-        },
-        "Deals weakPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.": {
-            "clean": "Deals weakPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
-            "raw": "Deals weak\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 74
-        },
-        "You wink[!/.]": {
-            "clean": "You wink[!/.]",
-            "raw": "You wink[!/.]",
-            "page": "random/combat.html",
-            "index": 75
-        },
-        "Deals bigPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.": {
-            "clean": "Deals bigPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
-            "raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 76
-        },
-        "You slice[!/.]": {
-            "clean": "You slice[!/.]",
-            "raw": "You slice[!/.]",
-            "page": "random/combat.html",
-            "index": 77
-        },
-        "Deals bigROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.": {
-            "clean": "Deals bigROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
-            "raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 78
-        },
-        "You hit it[!/.]": {
-            "clean": "You hit it[!/.]",
-            "raw": "You hit it[!/.]",
-            "page": "random/combat.html",
-            "index": 79
-        },
-        "Deals massiveSCISSORS damage to all enemies. Doesn't give a JACKPOT POINT. 3 turn.": {
-            "clean": "Deals massiveSCISSORS damage to all enemies. Doesn't give a JACKPOT POINT. 3 turn.",
-            "raw": "Deals massive\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies. Doesn't give a JACKPOT POINT. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 80
-        },
-        "You strike.": {
-            "clean": "You strike.",
-            "raw": "You strike.",
-            "page": "random/combat.html",
-            "index": 81
-        },
-        "You have so many questions.Doesn't use a turn.": {
-            "clean": "You have so many questions.Doesn't use a turn.",
-            "raw": "You have so many questions.\n<br/>\nDoesn't use a turn.",
-            "page": "random/combat.html",
-            "index": 82
-        },
-        "Call Loop for advice.": {
-            "clean": "Call Loop for advice.",
-            "raw": "Call Loop for advice.",
-            "page": "random/combat.html",
-            "index": 83
-        },
-        "Deals bigROCK damage to one enemy. No.": {
-            "clean": "Deals bigROCK damage to one enemy. No.",
-            "raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 84
-        },
-        "Deals bigPAPER damage to one enemy. No.": {
-            "clean": "Deals bigPAPER damage to one enemy. No.",
-            "raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 86
-        },
-        "Deals massiveSCISSORS damage to all enemies. No.": {
-            "clean": "Deals massiveSCISSORS damage to all enemies. No.",
-            "raw": "Deals massive\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 88
-        },
-        "Boosts actors'ATTACK,DEFENSE andATTACK SPEED. 4 turn.": {
-            "clean": "Boosts actors'ATTACK,DEFENSE andATTACK SPEED. 4 turn.",
-            "raw": "Boosts actors'\n<!--technically it calls v284, so if you cheated yourself the skill outside of act 5, it'd say [friends/allies/family members] as appropiate-->\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK,\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 90
-        },
-        "You breathe in, and out.": {
-            "clean": "You breathe in, and out.",
-            "raw": "You breathe in, and out.",
-            "page": "random/combat.html",
-            "index": 91
-        },
-        "Heal self. 3 turn.": {
-            "clean": "Heal self. 3 turn.",
-            "raw": "Heal self. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 92
-        },
-        "You wish for more time.": {
-            "clean": "You wish for more time.",
-            "raw": "You wish for more time.",
-            "page": "random/combat.html",
-            "index": 93
-        },
-        "DealsSCISSORS damage to one enemy. 2 turn.": {
-            "clean": "DealsSCISSORS damage to one enemy. 2 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 94
-        },
-        "Mirabelle twirls!": {
-            "clean": "Mirabelle twirls!",
-            "raw": "Mirabelle twirls!",
-            "page": "random/combat.html",
-            "index": 95
-        },
-        "DealsPAPER damage to all enemies. 3 turn.": {
-            "clean": "DealsPAPER damage to all enemies. 3 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to all enemies. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 96
-        },
-        "Mirabelle crafts her spell!": {
-            "clean": "Mirabelle crafts her spell!",
-            "raw": "Mirabelle crafts her spell!",
-            "page": "random/combat.html",
-            "index": 97
-        },
-        "Heals one [friend/ally/family member] for 80% of their HP. 2 turn.": {
-            "clean": "Heals one [friend/ally/family member] for 80% of their HP. 2 turn.",
-            "raw": "Heals one [friend/ally/family member] for 80% of their HP. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 98
-        },
-        "Mirabelle brings her palms forward!": {
-            "clean": "Mirabelle brings her palms forward!",
-            "raw": "Mirabelle brings her palms forward!",
-            "page": "random/combat.html",
-            "index": 99
-        },
-        "Boost all [friends/allies/family members]'ATTACK. 3 turn.": {
-            "clean": "Boost all [friends/allies/family members]'ATTACK. 3 turn.",
-            "raw": "Boost all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 100
-        },
-        "Mirabelle strikes a pose!": {
-            "clean": "Mirabelle strikes a pose!",
-            "raw": "Mirabelle strikes a pose!",
-            "page": "random/combat.html",
-            "index": 101
-        },
-        "CuresFROZEN for one [friend/ally/family member]. 3 turn.": {
-            "clean": "CuresFROZEN for one [friend/ally/family member]. 3 turn.",
-            "raw": "Cures\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i8.svg\"/>\nFROZEN for one [friend/ally/family member]. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 102
-        },
-        "Mirabelle claps her hands three times firmly!": {
-            "clean": "Mirabelle claps her hands three times firmly!",
-            "raw": "Mirabelle claps her hands three times firmly!",
-            "page": "random/combat.html",
-            "index": 103
-        },
-        "Revives aK.O. [friend/ally/family member]. 3 turn.": {
-            "clean": "Revives aK.O. [friend/ally/family member]. 3 turn.",
-            "raw": "Revives a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i1.svg\"/>\nK.O. [friend/ally/family member]. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 104
-        },
-        "Mirabelle claps her hands once firmly!": {
-            "clean": "Mirabelle claps her hands once firmly!",
-            "raw": "Mirabelle claps her hands once firmly!",
-            "page": "random/combat.html",
-            "index": 105
-        },
-        "Heals all [friends/allies/family members] for 80% of their HP. 4 turn.": {
-            "clean": "Heals all [friends/allies/family members] for 80% of their HP. 4 turn.",
-            "raw": "Heals all [friends/allies/family members] for 80% of their HP. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 106
-        },
-        "Mirabelle brings her palms to the sky!": {
-            "clean": "Mirabelle brings her palms to the sky!",
-            "raw": "Mirabelle brings her palms to the sky!",
-            "page": "random/combat.html",
-            "index": 107
-        },
-        "Creates aSHIELD that protects [allies/family members] fromTIMESTOP andSLOW, boostsDEF. 5 turn.": {
-            "clean": "Creates aSHIELD that protects [allies/family members] fromTIMESTOP andSLOW, boostsDEF. 5 turn.",
-            "raw": "Creates a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i3.svg\"/>\nSHIELD that protects [allies/family members] from\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i8.svg\"/>\nTIMESTOP and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i11.svg\"/>\nSLOW, boosts\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEF. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 108
-        },
-        "Creates aSHIELD that makes all [allies/family members] invulnerable to attacks for one turn. 5 turn.": {
-            "clean": "Creates aSHIELD that makes all [allies/family members] invulnerable to attacks for one turn. 5 turn.",
-            "raw": "Creates a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i3.svg\"/>\nSHIELD that makes all [allies/family members] invulnerable to attacks for one turn. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 110
-        },
-        "DealsROCK damage to one enemy. 1 turn.": {
-            "clean": "DealsROCK damage to one enemy. 1 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 112
-        },
-        "Isabeau yells \"SMASH!!!\"!": {
-            "clean": "Isabeau yells \"SMASH!!!\"!",
-            "raw": "Isabeau yells \"SMASH!!!\"!",
-            "page": "random/combat.html",
-            "index": 113
-        },
-        "DealsROCK damage to all enemies. 2 turn.": {
-            "clean": "DealsROCK damage to all enemies. 2 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to all enemies. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 114
-        },
-        "Isabeau yells \"KABOOM!!!\"!": {
-            "clean": "Isabeau yells \"KABOOM!!!\"!",
-            "raw": "Isabeau yells \"KABOOM!!!\"!",
-            "page": "random/combat.html",
-            "index": 115
-        },
-        "Isabeau gives away his turn!": {
-            "clean": "Isabeau gives away his turn!",
-            "raw": "Isabeau gives away his turn!",
-            "page": "random/combat.html",
-            "index": 117
-        },
-        "Boosts all [friends/allies/family members]'DEFENSE. 3 turn.": {
-            "clean": "Boosts all [friends/allies/family members]'DEFENSE. 3 turn.",
-            "raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 118
-        },
-        "Isabeau yells encouragments to everyone!": {
-            "clean": "Isabeau yells encouragments to everyone!",
-            "raw": "Isabeau yells encouragments to everyone!",
-            "page": "random/combat.html",
-            "index": 119
-        },
-        "Lowers one enemy'sATTACK. 3 turn.": {
-            "clean": "Lowers one enemy'sATTACK. 3 turn.",
-            "raw": "Lowers one enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i50.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 120
-        },
-        "Isabeau looks cute and fragile!": {
-            "clean": "Isabeau looks cute and fragile!",
-            "raw": "Isabeau looks cute and fragile!",
-            "page": "random/combat.html",
-            "index": 121
-        },
-        "Lowers one enemy'sDEFENSE. 3 turn.": {
-            "clean": "Lowers one enemy'sDEFENSE. 3 turn.",
-            "raw": "Lowers one enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 122
-        },
-        "Isabeau looks big and strong!": {
-            "clean": "Isabeau looks big and strong!",
-            "raw": "Isabeau looks big and strong!",
-            "page": "random/combat.html",
-            "index": 123
-        },
-        "Lowers all of [a friend/an ally/a family member]'s Craft SkillCOOLDOWNS by 4. Has a 4 turn.": {
-            "clean": "Lowers all of [a friend/an ally/a family member]'s Craft SkillCOOLDOWNS by 4. Has a 4 turn.",
-            "raw": "Lowers all of [a friend/an ally/a family member]'s Craft Skill\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\nCOOLDOWNS by 4. Has a 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 124
-        },
-        "Isabeau bumps his fists together!": {
-            "clean": "Isabeau bumps his fists together!",
-            "raw": "Isabeau bumps his fists together!",
-            "page": "random/combat.html",
-            "index": 125
-        },
-        "Boosts all [allies/family members]'ATTACK,DEFENSE andATTACK SPEED. 5 turn.": {
-            "clean": "Boosts all [allies/family members]'ATTACK,DEFENSE andATTACK SPEED. 5 turn.",
-            "raw": "Boosts all [allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK,\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 126
-        },
-        "Isabeau tells everyone they're really cool!!!": {
-            "clean": "Isabeau tells everyone they're really cool!!!",
-            "raw": "Isabeau tells everyone they're really cool!!!",
-            "page": "random/combat.html",
-            "index": 127
-        },
-        "Isabeau encourages everyone!": {
-            "clean": "Isabeau encourages everyone!",
-            "raw": "Isabeau encourages everyone!",
-            "page": "random/combat.html",
-            "index": 128
-        },
-        "Analyzes an enemy. This skill doesn't use a turn.": {
-            "clean": "Analyzes an enemy. This skill doesn't use a turn.",
-            "raw": "Analyzes an enemy. This skill doesn't use a turn.",
-            "page": "random/combat.html",
-            "index": 129
-        },
-        "Odile analyzes the enemy!": {
-            "clean": "Odile analyzes the enemy!",
-            "raw": "Odile analyzes the enemy!",
-            "page": "random/combat.html",
-            "index": 130
-        },
-        "Odile casts Scissors III!": {
-            "clean": "Odile casts Scissors III!",
-            "raw": "Odile casts Scissors III!",
-            "page": "random/combat.html",
-            "index": 132
-        },
-        "DealsROCK damage to one enemy. 2 turn.": {
-            "clean": "DealsROCK damage to one enemy. 2 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 133
-        },
-        "Odile casts Rock III!": {
-            "clean": "Odile casts Rock III!",
-            "raw": "Odile casts Rock III!",
-            "page": "random/combat.html",
-            "index": 134
-        },
-        "DealsPAPER damage to one enemy. 2 turn.": {
-            "clean": "DealsPAPER damage to one enemy. 2 turn.",
-            "raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 135
-        },
-        "Odile casts Paper III!": {
-            "clean": "Odile casts Paper III!",
-            "raw": "Odile casts Paper III!",
-            "page": "random/combat.html",
-            "index": 136
-        },
-        "Makes enemies tired andSLOWER for a few turns. 3 turn.": {
-            "clean": "Makes enemies tired andSLOWER for a few turns. 3 turn.",
-            "raw": "Makes enemies tired and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i11.svg\"/>\nSLOWER for a few turns. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 137
-        },
-        "Odile casts Slow IV!": {
-            "clean": "Odile casts Slow IV!",
-            "raw": "Odile casts Slow IV!",
-            "page": "random/combat.html",
-            "index": 138
-        },
-        "Deals bigPAPER damage to one enemy. 4 turn.": {
-            "clean": "Deals bigPAPER damage to one enemy. 4 turn.",
-            "raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 139
-        },
-        "Odile casts Paper α V!": {
-            "clean": "Odile casts Paper α V!",
-            "raw": "Odile casts Paper α V!",
-            "page": "random/combat.html",
-            "index": 140
-        },
-        "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.": {
-            "clean": "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.",
-            "raw": "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.",
-            "page": "random/combat.html",
-            "index": 141
-        },
-        "Odile casts [Rock/Paper/Scissors] Buff!": {
-            "clean": "Odile casts [Rock/Paper/Scissors] Buff!",
-            "raw": "Odile casts [Rock/Paper/Scissors] Buff!",
-            "page": "random/combat.html",
-            "index": 142
-        },
-        "Make an enemy weaker to a CRAFT type's attacks for a few turns.": {
-            "clean": "Make an enemy weaker to a CRAFT type's attacks for a few turns.",
-            "raw": "Make an enemy weaker to a CRAFT type's attacks for a few turns.",
-            "page": "random/combat.html",
-            "index": 143
-        },
-        "Odile casts [Rock/Paper/Scissors] Break!": {
-            "clean": "Odile casts [Rock/Paper/Scissors] Break!",
-            "raw": "Odile casts [Rock/Paper/Scissors] Break!",
-            "page": "random/combat.html",
-            "index": 144
-        },
-        "Make an enemy weaker to all CRAFT types for a few turns. 5 turn.": {
-            "clean": "Make an enemy weaker to all CRAFT types for a few turns. 5 turn.",
-            "raw": "Make an enemy weaker to all CRAFT types for a few turns. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 145
-        },
-        "Make an enemy weaker to all CRAFT types for a few turns. 7 turn.": {
-            "clean": "Make an enemy weaker to all CRAFT types for a few turns. 7 turn.",
-            "raw": "Make an enemy weaker to all CRAFT types for a few turns. 7 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
-            "page": "random/combat.html",
-            "index": 146
-        },
-        "Odile casts Craft Break α!": {
-            "clean": "Odile casts Craft Break α!",
-            "raw": "Odile casts Craft Break α!",
-            "page": "random/combat.html",
-            "index": 147
-        },
-        "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.": {
-            "clean": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
-            "raw": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
-            "page": "random/combat.html",
-            "index": 148
-        },
-        "Bonnie whacks the enemy!": {
-            "clean": "Bonnie whacks the enemy!",
-            "raw": "Bonnie whacks the enemy!",
-            "page": "random/combat.html",
-            "index": 149
-        },
-        "Boosts all [friends/allies/family members]'ATTACK.": {
-            "clean": "Boosts all [friends/allies/family members]'ATTACK.",
-            "raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK.",
-            "page": "random/combat.html",
-            "index": 150
-        },
-        "Bonnie puffs their cheeks!": {
-            "clean": "Bonnie puffs their cheeks!",
-            "raw": "Bonnie puffs their cheeks!",
-            "page": "random/combat.html",
-            "index": 151
-        },
-        "Boosts all [friends/allies/family members]'DEFENSE.": {
-            "clean": "Boosts all [friends/allies/family members]'DEFENSE.",
-            "raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE.",
-            "page": "random/combat.html",
-            "index": 152
-        },
-        "Bonnie yells encouragement everyone's way!": {
-            "clean": "Bonnie yells encouragement everyone's way!",
-            "raw": "Bonnie yells encouragement everyone's way!",
-            "page": "random/combat.html",
-            "index": 153
-        },
-        "Boosts all [friends/allies/family members]'ATTACK SPEED.": {
-            "clean": "Boosts all [friends/allies/family members]'ATTACK SPEED.",
-            "raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED.",
-            "page": "random/combat.html",
-            "index": 154
-        },
-        "Bonnie runs in a circle!": {
-            "clean": "Bonnie runs in a circle!",
-            "raw": "Bonnie runs in a circle!",
-            "page": "random/combat.html",
-            "index": 155
-        },
-        "Heals all [friends/allies/family members] for 20% of their HP.": {
-            "clean": "Heals all [friends/allies/family members] for 20% of their HP.",
-            "raw": "Heals all [friends/allies/family members] for 20% of their HP.",
-            "page": "random/combat.html",
-            "index": 156
-        },
-        "Bonnie runs in with snacks!": {
-            "clean": "Bonnie runs in with snacks!",
-            "raw": "Bonnie runs in with snacks!",
-            "page": "random/combat.html",
-            "index": 157
-        },
-        "Bonnie tries to attack, but misses.Hey, it happens.": {
-            "clean": "Bonnie tries to attack, but misses.Hey, it happens.",
-            "raw": "Bonnie tries to attack, but misses.\n<br/>\nHey, it happens.",
-            "page": "random/combat.html",
-            "index": 158
-        },
-        "Bonnie missed...": {
-            "clean": "Bonnie missed...",
-            "raw": "Bonnie missed...",
-            "page": "random/combat.html",
-            "index": 159
-        },
-        "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.": {
-            "clean": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
-            "raw": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
-            "page": "random/combat.html",
-            "index": 160
-        },
-        "Bonnie whacks the enemy really hard!": {
-            "clean": "Bonnie whacks the enemy really hard!",
-            "raw": "Bonnie whacks the enemy really hard!",
-            "page": "random/combat.html",
-            "index": 161
-        }
+    {
+        "en_raw": "(You looped back.)",
+        "en_clean": "(You looped back.)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Get back on the stage.)",
+        "en_clean": "(Get back on the stage.)",
+        "jp_raw": "\\m[clear](舞台に戻ろう。)",
+        "jp_clean": "(舞台に戻ろう。)"
+    },
+    {
+        "en_raw": "(You looped back.)",
+        "en_clean": "(You looped back.)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(You wait for help that won't come.)",
+        "en_clean": "(You wait for help that won't come.)",
+        "jp_raw": "(来るはずのない助けを待っている。)",
+        "jp_clean": "(来るはずのない助けを待っている。)"
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy.\n<br/>\nMight lower enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsSCISSORS damage to one enemy.Might lower enemy'sDEFENSE. 1 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You say a cool one liner[!/.]",
+        "en_clean": "You say a cool one liner[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies.\n<br/>\nMight lower enemies'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i50.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsSCISSORS damage to all enemies.Might lower enemies'ATTACK. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You say a funny catchphrase[!/.]",
+        "en_clean": "You say a funny catchphrase[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Makes all [friends/allies/family members]\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nFASTER for a few turns. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Makes all [friends/allies/family members]FASTER for a few turns. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You snap your fingers[!/.]",
+        "en_clean": "You snap your fingers[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Give your turn to [a friend/an ally/a family member],\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nBOOSTING their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATK and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i36.svg\"/>\nCRIT CHANCE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Give your turn to [a friend/an ally/a family member],BOOSTING theirATK andCRIT CHANCE. 1 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You give away your turn[!/.]",
+        "en_clean": "You give away your turn[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals three\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS hits to one enemy.\n<br/>\nHigh chance of doing a Critical hit. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals threeSCISSORS hits to one enemy.High chance of doing a Critical hit. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You wink and attack[!/.]",
+        "en_clean": "You wink and attack[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Heal 30% of [a friend/an ally/a family member]'s HP and boosts their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Heal 30% of [a friend/an ally/a family member]'s HP and boosts theirATTACK. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You close your eyes...",
+        "en_clean": "You close your eyes...",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals weak\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals weakROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You wave goodbye[!/.]",
+        "en_clean": "You wave goodbye[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "For three turns, [a friend/an ally/a family member]\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i67.svg\"/>\nREGENERATES 10% of HP every turn. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "For three turns, [a friend/an ally/a family member]REGENERATES 10% of HP every turn. 5 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You give a toast[!/.]",
+        "en_clean": "You give a toast[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals weak\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals weakPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You wink[!/.]",
+        "en_clean": "You wink[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals bigPAPER damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You slice[!/.]",
+        "en_clean": "You slice[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals bigROCK damage to one enemy. Gives two JACKPOT points instead of one. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You hit it[!/.]",
+        "en_clean": "You hit it[!/.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals massive\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies. Doesn't give a JACKPOT POINT. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals massiveSCISSORS damage to all enemies. Doesn't give a JACKPOT POINT. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You strike.",
+        "en_clean": "You strike.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You have so many questions.\n<br/>\nDoesn't use a turn.",
+        "en_clean": "You have so many questions.Doesn't use a turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Call Loop for advice.",
+        "en_clean": "Call Loop for advice.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals bigROCK damage to one enemy. No.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You strike.",
+        "en_clean": "You strike.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals bigPAPER damage to one enemy. No.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You strike.",
+        "en_clean": "You strike.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals massive\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to all enemies. No\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals massiveSCISSORS damage to all enemies. No.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You strike.",
+        "en_clean": "You strike.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts actors'\n<!--technically it calls v284, so if you cheated yourself the skill outside of act 5, it'd say [friends/allies/family members] as appropiate-->\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK,\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Boosts actors'ATTACK,DEFENSE andATTACK SPEED. 4 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You breathe in, and out.",
+        "en_clean": "You breathe in, and out.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Heal self. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Heal self. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "You wish for more time.",
+        "en_clean": "You wish for more time.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsSCISSORS damage to one enemy. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle twirls!",
+        "en_clean": "Mirabelle twirls!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to all enemies. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsPAPER damage to all enemies. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle crafts her spell!",
+        "en_clean": "Mirabelle crafts her spell!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Heals one [friend/ally/family member] for 80% of their HP. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Heals one [friend/ally/family member] for 80% of their HP. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle brings her palms forward!",
+        "en_clean": "Mirabelle brings her palms forward!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boost all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Boost all [friends/allies/family members]'ATTACK. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle strikes a pose!",
+        "en_clean": "Mirabelle strikes a pose!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Cures\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i8.svg\"/>\nFROZEN for one [friend/ally/family member]. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "CuresFROZEN for one [friend/ally/family member]. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle claps her hands three times firmly!",
+        "en_clean": "Mirabelle claps her hands three times firmly!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Revives a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i1.svg\"/>\nK.O. [friend/ally/family member]. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Revives aK.O. [friend/ally/family member]. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle claps her hands once firmly!",
+        "en_clean": "Mirabelle claps her hands once firmly!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Heals all [friends/allies/family members] for 80% of their HP. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Heals all [friends/allies/family members] for 80% of their HP. 4 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle brings her palms to the sky!",
+        "en_clean": "Mirabelle brings her palms to the sky!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Creates a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i3.svg\"/>\nSHIELD that protects [allies/family members] from\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i8.svg\"/>\nTIMESTOP and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i11.svg\"/>\nSLOW, boosts\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEF. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Creates aSHIELD that protects [allies/family members] fromTIMESTOP andSLOW, boostsDEF. 5 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle claps her hands once firmly!",
+        "en_clean": "Mirabelle claps her hands once firmly!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Creates a\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i3.svg\"/>\nSHIELD that makes all [allies/family members] invulnerable to attacks for one turn. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Creates aSHIELD that makes all [allies/family members] invulnerable to attacks for one turn. 5 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Mirabelle claps her hands once firmly!",
+        "en_clean": "Mirabelle claps her hands once firmly!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsROCK damage to one enemy. 1 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau yells \"SMASH!!!\"!",
+        "en_clean": "Isabeau yells \"SMASH!!!\"!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to all enemies. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsROCK damage to all enemies. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau yells \"KABOOM!!!\"!",
+        "en_clean": "Isabeau yells \"KABOOM!!!\"!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Give your turn to [a friend/an ally/a family member],\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i67.svg\"/>\nBOOSTING their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATK and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i36.svg\"/>\nCRIT CHANCE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Give your turn to [a friend/an ally/a family member],BOOSTING theirATK andCRIT CHANCE. 1 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau gives away his turn!",
+        "en_clean": "Isabeau gives away his turn!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Boosts all [friends/allies/family members]'DEFENSE. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau yells encouragments to everyone!",
+        "en_clean": "Isabeau yells encouragments to everyone!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Lowers one enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i50.svg\"/>\nATTACK. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Lowers one enemy'sATTACK. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau looks cute and fragile!",
+        "en_clean": "Isabeau looks cute and fragile!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Lowers one enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Lowers one enemy'sDEFENSE. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau looks big and strong!",
+        "en_clean": "Isabeau looks big and strong!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Lowers all of [a friend/an ally/a family member]'s Craft Skill\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\nCOOLDOWNS by 4. Has a 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Lowers all of [a friend/an ally/a family member]'s Craft SkillCOOLDOWNS by 4. Has a 4 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau bumps his fists together!",
+        "en_clean": "Isabeau bumps his fists together!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts all [allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK,\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Boosts all [allies/family members]'ATTACK,DEFENSE andATTACK SPEED. 5 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau tells everyone they're really cool!!!",
+        "en_clean": "Isabeau tells everyone they're really cool!!!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Isabeau encourages everyone!",
+        "en_clean": "Isabeau encourages everyone!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Analyzes an enemy. This skill doesn't use a turn.",
+        "en_clean": "Analyzes an enemy. This skill doesn't use a turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile analyzes the enemy!",
+        "en_clean": "Odile analyzes the enemy!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsSCISSORS damage to one enemy. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Scissors III!",
+        "en_clean": "Odile casts Scissors III!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsROCK damage to one enemy. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Rock III!",
+        "en_clean": "Odile casts Rock III!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "DealsPAPER damage to one enemy. 2 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Paper III!",
+        "en_clean": "Odile casts Paper III!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Makes enemies tired and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i11.svg\"/>\nSLOWER for a few turns. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Makes enemies tired andSLOWER for a few turns. 3 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Slow IV!",
+        "en_clean": "Odile casts Slow IV!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Deals bigPAPER damage to one enemy. 4 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Paper α V!",
+        "en_clean": "Odile casts Paper α V!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.",
+        "en_clean": "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts [Rock/Paper/Scissors] Buff!",
+        "en_clean": "Odile casts [Rock/Paper/Scissors] Buff!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Make an enemy weaker to a CRAFT type's attacks for a few turns.",
+        "en_clean": "Make an enemy weaker to a CRAFT type's attacks for a few turns.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts [Rock/Paper/Scissors] Break!",
+        "en_clean": "Odile casts [Rock/Paper/Scissors] Break!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Make an enemy weaker to all CRAFT types for a few turns. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Make an enemy weaker to all CRAFT types for a few turns. 5 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Make an enemy weaker to all CRAFT types for a few turns. 7 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
+        "en_clean": "Make an enemy weaker to all CRAFT types for a few turns. 7 turn.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Odile casts Craft Break α!",
+        "en_clean": "Odile casts Craft Break α!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
+        "en_clean": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie whacks the enemy!",
+        "en_clean": "Bonnie whacks the enemy!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATTACK.",
+        "en_clean": "Boosts all [friends/allies/family members]'ATTACK.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie puffs their cheeks!",
+        "en_clean": "Bonnie puffs their cheeks!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i35.svg\"/>\nDEFENSE.",
+        "en_clean": "Boosts all [friends/allies/family members]'DEFENSE.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie yells encouragement everyone's way!",
+        "en_clean": "Bonnie yells encouragement everyone's way!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Boosts all [friends/allies/family members]'\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nATTACK SPEED.",
+        "en_clean": "Boosts all [friends/allies/family members]'ATTACK SPEED.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie runs in a circle!",
+        "en_clean": "Bonnie runs in a circle!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Heals all [friends/allies/family members] for 20% of their HP.",
+        "en_clean": "Heals all [friends/allies/family members] for 20% of their HP.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie runs in with snacks!",
+        "en_clean": "Bonnie runs in with snacks!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie tries to attack, but misses.\n<br/>\nHey, it happens.",
+        "en_clean": "Bonnie tries to attack, but misses.Hey, it happens.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie missed...",
+        "en_clean": "Bonnie missed...",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
+        "en_clean": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Bonnie whacks the enemy really hard!",
+        "en_clean": "Bonnie whacks the enemy really hard!",
+        "jp_raw": null,
+        "jp_clean": null
     }
-}
+]

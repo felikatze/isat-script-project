@@ -1,4170 +1,1250 @@
-{
-    "matches": {
-        "What is a plantain peel doing here...?": [
-            {
-                "clean": "What is a plantain peel doing here...?",
-                "site": {
-                    "raw": "What is a plantain peel doing here...?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[vo]What is a plantain peel doing here...?",
-                    "jp": "なぜこんな場所にプランテンの皮が...？",
-                    "jp_raw": "\\m[vo]なぜこんな場所にプランテンの皮が...？",
-                    "index": 2976
-                }
-            }
-        ],
-        "(You approach the Change God's statue.)": [
-            {
-                "clean": "(You approach the Change God's statue.)",
-                "site": {
-                    "raw": "(You approach the Change God's statue.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 1
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You approach the Change God's statue.)",
-                    "jp": "(ウツロイの神像に近づく。)",
-                    "jp_raw": "\\m[clear](ウツロイの神像に近づく。)",
-                    "index": 3081
-                }
-            }
-        ],
-        "The Change God's statue...": [
-            {
-                "clean": "The Change God's statue...",
-                "site": {
-                    "raw": "The Change God's statue...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 2
-                },
-                "game": {
-                    "en_raw": "\\m[vo]The Change God's statue...",
-                    "jp": "ウツロイの神像...",
-                    "jp_raw": "\\m[vo]ウツロイの神像...",
-                    "index": 3131
-                }
-            }
-        ],
-        "Quite a peculiar figure, don't you think?": [
-            {
-                "clean": "Quite a peculiar figure, don't you think?",
-                "site": {
-                    "raw": "Quite a peculiar figure, don't you think?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "Quite a peculiar figure, don't you think?",
-                    "jp": "風変わりな姿だと思わないか？",
-                    "jp_raw": "風変わりな姿だと思わないか？",
-                    "index": 3132
-                }
-            }
-        ],
-        "(You shrug.)": [
-            {
-                "clean": "(You shrug.)",
-                "site": {
-                    "raw": "(You shrug.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You shrug.)",
-                    "jp": "(僕は肩をすくめる。)",
-                    "jp_raw": "\\m[clear](僕は肩をすくめる。)",
-                    "index": 1389
-                }
-            },
-            {
-                "clean": "(You shrug.)",
-                "site": {
-                    "raw": "(You shrug.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "(You shrug.)",
-                    "jp": "(僕は肩をすくめた。)",
-                    "jp_raw": "(僕は肩をすくめた。)",
-                    "index": 1663
-                }
-            }
-        ],
-        "All done with... Whatever you were just doing?": [
-            {
-                "clean": "All done with... Whatever you were just doing?",
-                "site": {
-                    "raw": "All done with... Whatever you were just doing?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 5
-                },
-                "game": {
-                    "en_raw": "\\m[vo]All done with...\\!\\ Whatever you were just doing?",
-                    "jp": "用事は...すべて片付いたのか？",
-                    "jp_raw": "\\m[vo]用事は...\\!すべて片付いたのか？",
-                    "index": 3133
-                }
-            }
-        ],
-        "(You nod.)": [
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You nod.)",
-                    "jp": "(うなずいてみせる。)",
-                    "jp_raw": "\\m[clear](うなずいてみせる。)",
-                    "index": 132
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "(You nod.)",
-                    "jp": "(僕はうなずく。)",
-                    "jp_raw": "(僕はうなずく。)",
-                    "index": 841
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[wait](You nod.)",
-                    "jp": "(僕はうなずいた。)",
-                    "jp_raw": "\\m[wait](僕はうなずいた。)",
-                    "index": 3299
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[vs](You nod.)\\!\\",
-                    "jp": "(僕はうなずいた。)",
-                    "jp_raw": "\\m[vs](僕はうなずいた。)\\!\\",
-                    "index": 3707
-                }
-            }
-        ],
-        "(Some croissants.)": [
-            {
-                "clean": "(Some croissants.)",
-                "site": {
-                    "raw": "(Some croissants.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some croissants.)",
-                    "jp": "(クロワッサンがある。)",
-                    "jp_raw": "\\m[clear](クロワッサンがある。)",
-                    "index": 5908
-                }
-            }
-        ],
-        "(You refuse to even look at them.)": [
-            {
-                "clean": "(You refuse to even look at them.)",
-                "site": {
-                    "raw": "(You refuse to even look at them.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(You refuse to even look at them.)",
-                    "jp": "(視界に入れたくもない。)",
-                    "jp_raw": "(視界に入れたくもない。)",
-                    "index": 5909
-                }
-            }
-        ],
-        "(You grip the silver coin tightly.)": [
-            {
-                "clean": "(You grip the silver coin tightly.)",
-                "site": {
-                    "raw": "(You grip the silver coin tightly.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(You grip the silver coin tightly.)",
-                    "jp": "(銀貨を握りしめる。)",
-                    "jp_raw": "(銀貨を握りしめる。)",
-                    "index": 5855
-                }
-            }
-        ],
-        "Croissants, huh... You really started hating them for no reason a few weeks ago, didn't you?": [
-            {
-                "clean": "Croissants, huh... You really started hating them for no reason a few weeks ago, didn't you?",
-                "site": {
-                    "raw": "Croissants, huh... You really started hating them for no reason a few weeks ago, didn't you?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Croissants, huh...\\!\\ You really started hating them for no reason a few weeks ago, didn't you?",
-                    "jp": "クロワッサン、か... 2週間ほど前から、急に嫌いになったよな？",
-                    "jp_raw": "\\m[vo]クロワッサン、か...\\!\\ 2週間ほど前から、急に嫌いになったよな？",
-                    "index": 5910
-                }
-            }
-        ],
-        "(You don't respond.)": [
-            {
-                "clean": "(You don't respond.)",
-                "site": {
-                    "raw": "(You don't respond.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 11
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You don't respond.)",
-                    "jp": "(返事はしなかった。)",
-                    "jp_raw": "\\m[clear](返事はしなかった。)",
-                    "index": 5911
-                }
-            }
-        ],
-        "(The woman is daydreaming, singing softly under her breath.)": [
-            {
-                "clean": "(The woman is daydreaming, singing softly under her breath.)",
-                "site": {
-                    "raw": "(The woman is daydreaming, singing softly under her breath.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 12
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The woman is daydreaming, singing softly under her breath.)",
-                    "jp": "(おねえさんは空想にふけりながら、小声で歌っている。)",
-                    "jp_raw": "\\m[clear](おねえさんは空想にふけりながら、小声で歌っている。)",
-                    "index": 2303
-                }
-            }
-        ],
-        "Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.": [
-            {
-                "clean": "Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.",
-                "site": {
-                    "raw": "Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 13
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.",
-                    "jp": "シフラン、ドーモントの住民全員に話しかける気か？",
-                    "jp_raw": "\\m[vo]シフラン、ドーモントの住民全員に話しかける気か？",
-                    "index": 2372
-                }
-            }
-        ],
-        "I am fishing.": [
-            {
-                "clean": "I am fishing.",
-                "site": {
-                    "raw": "I am fishing.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>I am fishing.",
-                    "jp": "いま釣りをしてるの。",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>いま釣りをしてるの。",
-                    "index": 2933
-                }
-            }
-        ],
-        "I see that. Caught anything recently?": [
-            {
-                "clean": "I see that. Caught anything recently?",
-                "site": {
-                    "raw": "I see that. Caught anything recently?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[vo]I see that.\\!\\ Caught anything recently?",
-                    "jp": "見れば分かる。最近何か釣れた？",
-                    "jp_raw": "\\m[vo]見れば分かる。\\!最近何か釣れた？",
-                    "index": 2934
-                }
-            }
-        ],
-        "Heheheee...": [
-            {
-                "clean": "Heheheee...",
-                "site": {
-                    "raw": "Heheheee...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 16
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>Heheheee...",
-                    "jp": "ヘヘヘヘヘ...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>ヘヘヘヘヘ...",
-                    "index": 2892
-                }
-            }
-        ],
-        "Maybe I have, maybe I haven't.": [
-            {
-                "clean": "Maybe I have, maybe I haven't.",
-                "site": {
-                    "raw": "Maybe I have, maybe I haven't.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 17
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Maybe I have, maybe I haven't.",
-                    "jp": "釣れたかもしれないし、釣れてないかもしれない。",
-                    "jp_raw": "\\n<\\v[46]>釣れたかもしれないし、釣れてないかもしれない。",
-                    "index": 2935
-                }
-            }
-        ],
-        "Thanks, that was very helpful.": [
-            {
-                "clean": "Thanks, that was very helpful.",
-                "site": {
-                    "raw": "Thanks, that was very helpful.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 18
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Thanks, that was very helpful.",
-                    "jp": "役に立つ情報をどうも。",
-                    "jp_raw": "\\m[vo]役に立つ情報をどうも。",
-                    "index": 2936
-                }
-            }
-        ],
-        "Oh, Siffrin, madame Odile! On a secret quest again?": [
-            {
-                "clean": "Oh, Siffrin, madame Odile! On a secret quest again?",
-                "site": {
-                    "raw": "Oh, Siffrin, madame Odile! On a secret quest again?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 19
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Oh, Siffrin, madame Odile!\\!\\ On a secret quest again?",
-                    "jp": "シフラン、マダム・オディール！ また秘密の任務なの？",
-                    "jp_raw": "\\m[vm]シフラン、マダム・オディール！\\!\\ また秘密の任務なの？",
-                    "index": 2586
-                }
-            }
-        ],
-        "\"Again\", huh.": [
-            {
-                "clean": "\"Again\", huh.",
-                "site": {
-                    "raw": "\"Again\", huh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\"Again\", huh.",
-                    "jp": "「また」とは？",
-                    "jp_raw": "\\m[vo]「また」とは？",
-                    "index": 2587
-                }
-            }
-        ],
-        "Oh, sorry! I feel like... I've seen you two go on secret quests very often?": [
-            {
-                "clean": "Oh, sorry! I feel like... I've seen you two go on secret quests very often?",
-                "site": {
-                    "raw": "Oh, sorry! I feel like... I've seen you two go on secret quests very often?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 21
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Oh, sorry!\\!\\ I feel like...\\!\\ I've seen you two go on secret quests very often?",
-                    "jp": "あっ、ごめんなさい！ ただちょっと... 二人でこっそり動いてるのをよく見かけるから...",
-                    "jp_raw": "\\m[vm]あっ、ごめんなさい！\\!\\ ただちょっと...\\!\\ 二人でこっそり動いてるのをよく見かけるから...",
-                    "index": 2588
-                }
-            }
-        ],
-        "Like... Literally every time we've stayed in a town or village?": [
-            {
-                "clean": "Like... Literally every time we've stayed in a town or village?",
-                "site": {
-                    "raw": "Like... Literally every time we've stayed in a town or village?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 22
-                },
-                "game": {
-                    "en_raw": "Like...\\!\\ Literally every time we've stayed in a town or village?",
-                    "jp": "しかも... 町とか村とかに泊まるときは必ず出かけてるでしょう？",
-                    "jp_raw": "しかも...\\!\\ 町とか村とかに泊まるときは必ず出かけてるでしょう？",
-                    "index": 2589
-                }
-            }
-        ],
-        "Isabeau and I always wondered where you were going!": [
-            {
-                "clean": "Isabeau and I always wondered where you were going!",
-                "site": {
-                    "raw": "Isabeau and I always wondered where you were going!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "Isabeau and I always wondered where you were going!",
-                    "jp": "イザボーもわたしも、どこに行くんだろうって思ってたの！",
-                    "jp_raw": "イザボーもわたしも、どこに行くんだろうって思ってたの！",
-                    "index": 2590
-                }
-            }
-        ],
-        "(Ah, that's right...)": [
-            {
-                "clean": "(Ah, that's right...)",
-                "site": {
-                    "raw": "(Ah, that's right...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Ah, that's right...)",
-                    "jp": "(ああ、確かに...)",
-                    "jp_raw": "\\m[clear](ああ、確かに...)",
-                    "index": 2591
-                }
-            }
-        ],
-        "(You and Odile often used to visit antique shops, every time you went to a new place.)": [
-            {
-                "clean": "(You and Odile often used to visit antique shops, every time you went to a new place.)",
-                "site": {
-                    "raw": "(You and Odile often used to visit antique shops, every time you went to a new place.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 25
-                },
-                "game": {
-                    "en_raw": "(You and Odile often used to visit antique shops, every time you went to a new place.)",
-                    "jp": "(新しい土地に着くたびに、オディールと骨董商に行ってたもんな。)",
-                    "jp_raw": "(新しい土地に着くたびに、オディールと骨董商に行ってたもんな。)",
-                    "index": 2592
-                }
-            }
-        ],
-        "(Neither of you ever asked what the other was looking for.)": [
-            {
-                "clean": "(Neither of you ever asked what the other was looking for.)",
-                "site": {
-                    "raw": "(Neither of you ever asked what the other was looking for.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 26
-                },
-                "game": {
-                    "en_raw": "(Neither of you ever asked what the other was looking for.)",
-                    "jp": "(お互いに何を探してるのか訊ねることもないのに。)",
-                    "jp_raw": "(お互いに何を探してるのか訊ねることもないのに。)",
-                    "index": 2593
-                }
-            }
-        ],
-        "(...Come to think of it, she was probably looking for a familytale...)": [
-            {
-                "clean": "(...Come to think of it, she was probably looking for a familytale...)",
-                "site": {
-                    "raw": "(...Come to think of it, she was probably looking for a familytale...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 27
-                },
-                "game": {
-                    "en_raw": "(...\\!Come to think of it, she was probably looking for a familytale...)",
-                    "jp": "(...恐らくだけど、オディールは一族の物語を探してるんだと思う...)",
-                    "jp_raw": "(...\\!恐らくだけど、オディールは一族の物語を探してるんだと思う...)",
-                    "index": 2594
-                }
-            }
-        ],
-        "(...Did you used to go on secret quests together?)": [
-            {
-                "clean": "(...Did you used to go on secret quests together?)",
-                "site": {
-                    "raw": "(...Did you used to go on secret quests together?)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 28
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...\\!\\m[wait]Did you used to go on secret quests together?)",
-                    "jp": "(...秘密の任務になんて出かけてたっけ？)",
-                    "jp_raw": "\\m[clear](...\\!\\m[wait]秘密の任務になんて出かけてたっけ？)",
-                    "index": 2595
-                }
-            }
-        ],
-        "(You can't remember.)": [
-            {
-                "clean": "(You can't remember.)",
-                "site": {
-                    "raw": "(You can't remember.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 29
-                },
-                "game": {
-                    "en_raw": "\\m[wait](You can't remember.)",
-                    "jp": "(思い出せないな。)",
-                    "jp_raw": "\\m[wait](思い出せないな。)",
-                    "index": 2596
-                }
-            }
-        ],
-        "Are you two betting on it? On what our \"secret quests\" are about?": [
-            {
-                "clean": "Are you two betting on it? On what our \"secret quests\" are about?",
-                "site": {
-                    "raw": "Are you two betting on it? On what our \"secret quests\" are about?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Are you two betting on it?\\!\\ On what our \"secret quests\" are about?",
-                    "jp": "二人で賭けでもしているのか？ 私たちの「秘密の任務」とやらについて？",
-                    "jp_raw": "\\m[vo]二人で賭けでもしているのか？\\!\\ 私たちの「秘密の任務」とやらについて？",
-                    "index": 2597
-                }
-            }
-        ],
-        "Oh, I would never bet on anything. It goes against my moral code, madame.": [
-            {
-                "clean": "Oh, I would never bet on anything. It goes against my moral code, madame.",
-                "site": {
-                    "raw": "Oh, I would never bet on anything. It goes against my moral code, madame.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 31
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Oh, I would never bet on anything.\\!\\ It goes against my moral code, madame.",
-                    "jp": "いや、わたしは賭けなんてしないわ。わたしの道徳心に反するから。",
-                    "jp_raw": "\\m[vm]いや、わたしは賭けなんてしないわ。\\!わたしの道徳心に反するから。",
-                    "index": 2598
-                }
-            }
-        ],
-        "But Isabeau will read a horror book of my choice if my guess is right, hehe!": [
-            {
-                "clean": "But Isabeau will read a horror book of my choice if my guess is right, hehe!",
-                "site": {
-                    "raw": "But Isabeau will read a horror book of my choice if my guess is right, hehe!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 32
-                },
-                "game": {
-                    "en_raw": "But Isabeau will read a horror book of my choice if my guess is right, hehe!",
-                    "jp": "でもわたしが正解したら、イザボーにはわたしが選ぶホラー小説を読んでもらうことになっているの。ヘヘヘ！",
-                    "jp_raw": "でもわたしが正解したら、イザボーにはわたしが選ぶホラー小説を読んでもらうことになっているの。\\!ヘヘヘ！",
-                    "index": 2599
-                }
-            }
-        ],
-        "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.": [
-            {
-                "clean": "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.",
-                "site": {
-                    "raw": "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 35
-                },
-                "game": {
-                    "en_raw": "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.",
-                    "jp": "あああ、でもわたしたちが勝負しているのを知っちゃったから、もう秘密の任務が何かは教えてくれないよね。",
-                    "jp_raw": "あああ、でもわたしたちが勝負しているのを知っちゃったから、もう秘密の任務が何かは教えてくれないよね。",
-                    "index": 2601
-                }
-            }
-        ],
-        "We'll see you later, Mirabelle.": [
-            {
-                "clean": "We'll see you later, Mirabelle.",
-                "site": {
-                    "raw": "We'll see you later, Mirabelle.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "\\m[vo]We'll see you later, Mirabelle.",
-                    "jp": "ではミラベル、また後で。",
-                    "jp_raw": "\\m[vo]ではミラベル、また後で。",
-                    "index": 2602
-                }
-            }
-        ],
-        "NO!!! NO, COME BACK!!!!!!!!!": [
-            {
-                "clean": "NO!!! NO, COME BACK!!!!!!!!!",
-                "site": {
-                    "raw": "NO!!! NO, COME BACK!!!!!!!!!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 37
-                },
-                "game": {
-                    "en_raw": "\\m[vm]NO!!!\\!\\ NO, COME BACK!!!!!!!!!",
-                    "jp": "あー！ 戻ってきて！！！",
-                    "jp_raw": "\\m[vm]あー！\\!\\ 戻ってきて！！！",
-                    "index": 2603
-                }
-            }
-        ],
-        "Oh, Mirabelle... You almost had it...": [
-            {
-                "clean": "Oh, Mirabelle... You almost had it...",
-                "site": {
-                    "raw": "Oh, Mirabelle... You almost had it...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 38
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Oh, Mirabelle...\\!\\ You almost had it...",
-                    "jp": "あーあ... あと少しだったのに...",
-                    "jp_raw": "\\m[vm]あーあ...\\!\\ あと少しだったのに...",
-                    "index": 2604
-                }
-            }
-        ],
-        "(Odile is out of breath.)": [
-            {
-                "clean": "(Odile is out of breath.)",
-                "site": {
-                    "raw": "(Odile is out of breath.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 39
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Odile is out of breath.)",
-                    "jp": "(オディールは息切れしている。)",
-                    "jp_raw": "\\m[clear](オディールは息切れしている。)",
-                    "index": 3011
-                }
-            }
-        ],
-        "Urgh... Ha...": [
-            {
-                "clean": "Urgh... Ha...",
-                "site": {
-                    "raw": "Urgh... Ha...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Urgh...\\!\\ Ha...",
-                    "jp": "ううう... はぁ...",
-                    "jp_raw": "\\m[vo]ううう...\\!\\ はぁ...",
-                    "index": 3012
-                }
-            }
-        ],
-        "Sounds like someone needs to do some more exercise!": [
-            {
-                "clean": "Sounds like someone needs to do some more exercise!",
-                "site": {
-                    "raw": "Sounds like someone needs to do some more exercise!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 41
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Sounds like someone needs to do some more exercise!",
-                    "jp": "誰かさんは運動不足みたいだな！",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>誰かさんは運動不足みたいだな！",
-                    "index": 3013
-                }
-            }
-        ],
-        "Curse you and your legs.": [
-            {
-                "clean": "Curse you and your legs.",
-                "site": {
-                    "raw": "Curse you and your legs.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 42
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Curse you and your legs.",
-                    "jp": "あなたの脚が呪われますように...",
-                    "jp_raw": "\\m[vo]あなたの脚が呪われますように...",
-                    "index": 3014
-                }
-            }
-        ],
-        "Spoken like someone who prioritized her brain over her body for decades and decades!": [
-            {
-                "clean": "Spoken like someone who prioritized her brain over her body for decades and decades!",
-                "site": {
-                    "raw": "Spoken like someone who prioritized her brain over her body for decades and decades!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 43
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Spoken like someone who prioritized her brain over her body for decades and decades!",
-                    "jp": "何十年もずっと肉体より頭脳ばかり鍛えてきた人らしいセリフだな！",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>何十年もずっと肉体より頭脳ばかり鍛えてきた人らしいセリフだな！",
-                    "index": 3015
-                }
-            }
-        ],
-        "(No answer for that one, huh?)": [
-            {
-                "clean": "(No answer for that one, huh?)",
-                "site": {
-                    "raw": "(No answer for that one, huh?)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 45
-                },
-                "game": {
-                    "en_raw": "\\m[clear](No answer for that one, huh?)",
-                    "jp": "(そこは言い返さないんだ？)",
-                    "jp_raw": "\\m[clear](そこは言い返さないんだ？)",
-                    "index": 3016
-                }
-            }
-        ],
-        "Hell-": [
-            {
-                "clean": "Hell-",
-                "site": {
-                    "raw": "Hell-",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Hell-",
-                    "jp": "こん――",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>こん――",
-                    "index": 2638
-                }
-            }
-        ],
-        "Hello, no time to talk, have a good day.": [
-            {
-                "clean": "Hello, no time to talk, have a good day.",
-                "site": {
-                    "raw": "Hello, no time to talk, have a good day.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 47
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Hello, no time to talk, have a good day.",
-                    "jp": "こんにちは。時間がないので失礼。よい一日を。",
-                    "jp_raw": "\\m[vo]こんにちは。\\!時間がないので失礼。\\!よい一日を。",
-                    "index": 2639
-                }
-            }
-        ],
-        "Um, bye then?": [
-            {
-                "clean": "Um, bye then?",
-                "site": {
-                    "raw": "Um, bye then?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 48
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Um, bye then?",
-                    "jp": "あ、じゃあまた...？",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>あ、じゃあまた...？",
-                    "index": 2640
-                }
-            }
-        ],
-        "Hey!!! Wanna play Rock Paper Scissors?!?": [
-            {
-                "clean": "Hey!!! Wanna play Rock Paper Scissors?!?",
-                "site": {
-                    "raw": "Hey!!! Wanna play Rock Paper Scissors?!?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 49
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]Hey!!!\\!\\ Wanna play Rock Paper Scissors?!?",
-                    "jp": "ねえ！ じゃんけん勝負しない？",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]ねえ！\\!\\ じゃんけん勝負しない？",
-                    "index": 2706
-                }
-            }
-        ],
-        "No.": [
-            {
-                "clean": "No.",
-                "site": {
-                    "raw": "No.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vo]No.",
-                    "jp": "しない。",
-                    "jp_raw": "\\m[vo]しない。",
-                    "index": 2707
-                }
-            },
-            {
-                "clean": "No.",
-                "site": {
-                    "raw": "No.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vb]No.",
-                    "jp": "ううん。",
-                    "jp_raw": "\\m[vb]ううん。",
-                    "index": 11340
-                }
-            },
-            {
-                "clean": "No.",
-                "site": {
-                    "raw": "No.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\m[wait]No.",
-                    "jp": "いいや。",
-                    "jp_raw": "\\m[vlnp]\\m[wait]いいや。",
-                    "index": 12253
-                }
-            },
-            {
-                "clean": "No.",
-                "site": {
-                    "raw": "No.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vo]No.\\!\\m[wait]\\^",
-                    "jp": "ない。",
-                    "jp_raw": "\\m[vo]ない。\\!\\m[wait]\\^",
-                    "index": 12561
-                }
-            },
-            {
-                "clean": "No.",
-                "site": {
-                    "raw": "No.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "No.\\m[rb]",
-                    "jp": "違いまーす。",
-                    "jp_raw": "違いまーす。\\m[rb]",
-                    "index": 15287
-                }
-            }
-        ],
-        "Urgh...!!! Another lost soul, who won't play against me...": [
-            {
-                "clean": "Urgh...!!! Another lost soul, who won't play against me...",
-                "site": {
-                    "raw": "Urgh...!!! Another lost soul, who won't play against me...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 51
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]Urgh...!!!\\!\\ Another lost soul, who won't play against me...",
-                    "jp": "んぐぐ... あたしとの勝負を避けるなんて、あわれな亡者だね...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]んぐぐ...\\!\\ あたしとの勝負を避けるなんて、あわれな亡者だね...",
-                    "index": 2708
-                }
-            }
-        ],
-        "Oh, hey Dile.": [
-            {
-                "clean": "Oh, hey Dile.",
-                "site": {
-                    "raw": "Oh, hey Dile.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Oh, hey Dile.",
-                    "jp": "あれっ、ディールだ。",
-                    "jp_raw": "\\m[vb]あれっ、ディールだ。",
-                    "index": 11462
-                }
-            }
-        ],
-        "Boniface.": [
-            {
-                "clean": "Boniface.",
-                "site": {
-                    "raw": "Boniface.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 53
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Boniface.",
-                    "jp": "ボニファスじゃないか。",
-                    "jp_raw": "\\m[vo]ボニファスじゃないか。",
-                    "index": 11463
-                }
-            }
-        ],
-        "Did you find some good stuff for tonight?": [
-            {
-                "clean": "Did you find some good stuff for tonight?",
-                "site": {
-                    "raw": "Did you find some good stuff for tonight?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Did you find some good stuff for tonight?",
-                    "jp": "今夜使えそうなもの、見つけた？",
-                    "jp_raw": "\\m[vb]今夜使えそうなもの、見つけた？",
-                    "index": 11464
-                }
-            }
-        ],
-        "Not much. I did find some flour, though. I know we were running low.": [
-            {
-                "clean": "Not much. I did find some flour, though. I know we were running low.",
-                "site": {
-                    "raw": "Not much. I did find some flour, though. I know we were running low.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 55
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Not much.\\!\\ I did find some flour, though.\\!\\ I know we were running low.",
-                    "jp": "あまり。小麦粉はあったよ。もう少なくなってたからね。",
-                    "jp_raw": "\\m[vo]あまり。\\!小麦粉はあったよ。\\!もう少なくなってたからね。",
-                    "index": 11465
-                }
-            }
-        ],
-        "Yesssssss.": [
-            {
-                "clean": "Yesssssss.",
-                "site": {
-                    "raw": "Yesssssss.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Yesssssss.",
-                    "jp": "よっしゃぁ。",
-                    "jp_raw": "\\m[vb]よっしゃぁ。",
-                    "index": 11466
-                }
-            }
-        ],
-        "Why are you with Frin? Was the flour too heavy? I could've helped!": [
-            {
-                "clean": "Why are you with Frin? Was the flour too heavy? I could've helped!",
-                "site": {
-                    "raw": "Why are you with Frin? Was the flour too heavy? I could've helped!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 57
-                },
-                "game": {
-                    "en_raw": "Why are you with Frin?\\!\\ Was the flour too heavy?\\!\\ I could've helped!",
-                    "jp": "どうしてフランと一緒なんだ？ 小麦粉が重すぎるから？ オイラが手伝ってやったのに！",
-                    "jp_raw": "どうしてフランと一緒なんだ？\\!\\ 小麦粉が重すぎるから？\\!\\ オイラが手伝ってやったのに！",
-                    "index": 11467
-                }
-            }
-        ],
-        "Siffrin and I have things to do.": [
-            {
-                "clean": "Siffrin and I have things to do.",
-                "site": {
-                    "raw": "Siffrin and I have things to do.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Siffrin and I have things to do.",
-                    "jp": "シフランと一緒にすることがあるんだ。",
-                    "jp_raw": "\\m[vo]シフランと一緒にすることがあるんだ。",
-                    "index": 11468
-                }
-            }
-        ],
-        "Oh. Can I help? I wanna help.": [
-            {
-                "clean": "Oh. Can I help? I wanna help.",
-                "site": {
-                    "raw": "Oh. Can I help? I wanna help.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Oh.\\!\\ Can I help?\\!\\ I wanna help.",
-                    "jp": "へえ。オイラも手伝える？ 手伝わせて。",
-                    "jp_raw": "\\m[vb]へえ。\\!オイラも手伝える？\\!\\ 手伝わせて。",
-                    "index": 11469
-                }
-            }
-        ],
-        "We're looking for a book.": [
-            {
-                "clean": "We're looking for a book.",
-                "site": {
-                    "raw": "We're looking for a book.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 60
-                },
-                "game": {
-                    "en_raw": "\\m[vo]We're looking for a book.",
-                    "jp": "本を探してるんだよ。",
-                    "jp_raw": "\\m[vo]本を探してるんだよ。",
-                    "index": 11470
-                }
-            }
-        ],
-        "With words in it. No pictures.": [
-            {
-                "clean": "With words in it. No pictures.",
-                "site": {
-                    "raw": "With words in it. No pictures.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 61
-                },
-                "game": {
-                    "en_raw": "With words in it.\\!\\ No pictures.",
-                    "jp": "文字の本だ。絵じゃなくてね。",
-                    "jp_raw": "文字の本だ。\\!絵じゃなくてね。",
-                    "index": 11471
-                }
-            }
-        ],
-        "I am so sorry I cannot help, Dile. I wish you the best in all future endive-vors.": [
-            {
-                "clean": "I am so sorry I cannot help, Dile. I wish you the best in all future endive-vors.",
-                "site": {
-                    "raw": "I am so sorry I cannot help, Dile. I wish you the best in all future endive-vors.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 62
-                },
-                "game": {
-                    "en_raw": "\\m[vb]I am so sorry I cannot help, Dile.\\!\\ I wish you the best in all future endive-vors.",
-                    "jp": "それじゃ、オイラは役に立たないな。うまくいくといいな。",
-                    "jp_raw": "\\m[vb]それじゃ、オイラは役に立たないな。\\!うまくいくといいな。",
-                    "index": 11472
-                }
-            }
-        ],
-        "I will stay here and also do my important things.": [
-            {
-                "clean": "I will stay here and also do my important things.",
-                "site": {
-                    "raw": "I will stay here and also do my important things.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 63
-                },
-                "game": {
-                    "en_raw": "I will stay here and also do my important things.",
-                    "jp": "オイラはここで、自分の用事に集中するよ。",
-                    "jp_raw": "オイラはここで、自分の用事に集中するよ。",
-                    "index": 11473
-                }
-            }
-        ],
-        "Like look at this field.": [
-            {
-                "clean": "Like look at this field.",
-                "site": {
-                    "raw": "Like look at this field.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 64
-                },
-                "game": {
-                    "en_raw": "Like look at this field.",
-                    "jp": "畑を見るとかさ。",
-                    "jp_raw": "畑を見るとかさ。",
-                    "index": 11474
-                }
-            }
-        ],
-        "Thank you for your support, Boniface.": [
-            {
-                "clean": "Thank you for your support, Boniface.",
-                "site": {
-                    "raw": "Thank you for your support, Boniface.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 65
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Thank you for your support, Boniface.",
-                    "jp": "気持ちだけもらっておくよ、ボニファス。",
-                    "jp_raw": "\\m[vo]気持ちだけもらっておくよ、ボニファス。",
-                    "index": 11475
-                }
-            }
-        ],
-        "I will never help you find a book. I have more important things to do.": [
-            {
-                "clean": "I will never help you find a book. I have more important things to do.",
-                "site": {
-                    "raw": "I will never help you find a book. I have more important things to do.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 66
-                },
-                "game": {
-                    "en_raw": "\\m[vb]I will never help you find a book.\\!\\ I have more important things to do.",
-                    "jp": "本探しなら手伝えないや。もっと大切な用事があるから。",
-                    "jp_raw": "\\m[vb]本探しなら手伝えないや。\\!もっと大切な用事があるから。",
-                    "index": 11476
-                }
-            }
-        ],
-        "Like watching this carrot grow.": [
-            {
-                "clean": "Like watching this carrot grow.",
-                "site": {
-                    "raw": "Like watching this carrot grow.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 67
-                },
-                "game": {
-                    "en_raw": "Like watching this carrot grow.",
-                    "jp": "ニンジンの成長を見守るとかさ。",
-                    "jp_raw": "ニンジンの成長を見守るとかさ。",
-                    "index": 11477
-                }
-            }
-        ],
-        "(The kid looks up at you.)": [
-            {
-                "clean": "(The kid looks up at you.)",
-                "site": {
-                    "raw": "(The kid looks up at you.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 68
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The kid looks up at you.)",
-                    "jp": "(子どもがこちらを見上げている。)",
-                    "jp_raw": "\\m[clear](子どもがこちらを見上げている。)",
-                    "index": 11560
-                }
-            }
-        ],
-        "No time, Siffrin. Wave goodbye, now.": [
-            {
-                "clean": "No time, Siffrin. Wave goodbye, now.",
-                "site": {
-                    "raw": "No time, Siffrin. Wave goodbye, now.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 69
-                },
-                "game": {
-                    "en_raw": "\\m[vo]No time, Siffrin.\\!\\ Wave goodbye, now.",
-                    "jp": "そんな暇はないよ、シフラン。手を振ってさよならだ。",
-                    "jp_raw": "\\m[vo]そんな暇はないよ、シフラン。\\!手を振ってさよならだ。",
-                    "index": 11561
-                }
-            }
-        ],
-        "(You wave goodbye.)": [
-            {
-                "clean": "(You wave goodbye.)",
-                "site": {
-                    "raw": "(You wave goodbye.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 70
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You wave goodbye.)",
-                    "jp": "(手を振って別れる。)",
-                    "jp_raw": "\\m[clear](手を振って別れる。)",
-                    "index": 2809
-                }
-            },
-            {
-                "clean": "(You wave goodbye.)",
-                "site": {
-                    "raw": "(You wave goodbye.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 70
-                },
-                "game": {
-                    "en_raw": "(You wave goodbye.)",
-                    "jp": "(僕はバイバイと手を振る。)",
-                    "jp_raw": "(僕はバイバイと手を振る。)",
-                    "index": 9027
-                }
-            }
-        ],
-        "(The kid waves back, happily.)": [
-            {
-                "clean": "(The kid waves back, happily.)",
-                "site": {
-                    "raw": "(The kid waves back, happily.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 71
-                },
-                "game": {
-                    "en_raw": "(The kid waves back, happily.)",
-                    "jp": "(子どももうれしそうに手を振り返してくれた。)",
-                    "jp_raw": "(子どももうれしそうに手を振り返してくれた。)",
-                    "index": 11562
-                }
-            }
-        ],
-        ".............................": [
-            {
-                "clean": ".............................",
-                "site": {
-                    "raw": ".............................",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 72
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>.............................",
-                    "jp": "....................................",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>....................................",
-                    "index": 11297
-                }
-            }
-        ],
-        "(The kid dances, and doesn't care about you and your old cohort.)": [
-            {
-                "clean": "(The kid dances, and doesn't care about you and your old cohort.)",
-                "site": {
-                    "raw": "(The kid dances, and doesn't care about you and your old cohort.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 73
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The kid dances, and doesn't care about you and your old cohort.)",
-                    "jp": "(子どもがダンスしている。僕と年上の仲間には興味がなさそうだ。)",
-                    "jp_raw": "\\m[clear](子どもがダンスしている。\\!僕と年上の仲間には興味がなさそうだ。)",
-                    "index": 11498
-                }
-            }
-        ],
-        "Hey. Hey, old one.": [
-            {
-                "clean": "Hey. Hey, old one.",
-                "site": {
-                    "raw": "Hey. Hey, old one.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 74
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Hey.\\!\\ Hey, old one.",
-                    "jp": "ねえ。ねえってば、おばちゃん。",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>ねえ。\\!ねえってば、おばちゃん。",
-                    "index": 11283
-                }
-            }
-        ],
-        "Hey, baby one.": [
-            {
-                "clean": "Hey, baby one.",
-                "site": {
-                    "raw": "Hey, baby one.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 75
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Hey, baby one.",
-                    "jp": "なんだ、あかちゃん。",
-                    "jp_raw": "\\m[vo]なんだ、あかちゃん。",
-                    "index": 11284
-                }
-            }
-        ],
-        "Nice one, old lady.": [
-            {
-                "clean": "Nice one, old lady.",
-                "site": {
-                    "raw": "Nice one, old lady.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 76
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Nice one, old lady.",
-                    "jp": "やるね、おばさま。",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>やるね、おばさま。",
-                    "index": 11285
-                }
-            }
-        ],
-        "How does it feel to be old?": [
-            {
-                "clean": "How does it feel to be old?",
-                "site": {
-                    "raw": "How does it feel to be old?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 77
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>How does it feel to be old?",
-                    "jp": "年を取るって、どんな気分？",
-                    "jp_raw": "\\n<\\v[46]>年を取るって、どんな気分？",
-                    "index": 11286
-                }
-            }
-        ],
-        "It feels nice, I suppose.": [
-            {
-                "clean": "It feels nice, I suppose.",
-                "site": {
-                    "raw": "It feels nice, I suppose.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 78
-                },
-                "game": {
-                    "en_raw": "\\m[vo]It feels nice, I suppose.",
-                    "jp": "いい気分だと思うよ。",
-                    "jp_raw": "\\m[vo]いい気分だと思うよ。",
-                    "index": 11287
-                }
-            }
-        ],
-        "Huh.": [
-            {
-                "clean": "Huh.",
-                "site": {
-                    "raw": "Huh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 79
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Huh.",
-                    "jp": "へぇ。",
-                    "jp_raw": "\\m[vb]へぇ。",
-                    "index": 860
-                }
-            },
-            {
-                "clean": "Huh.",
-                "site": {
-                    "raw": "Huh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 79
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Huh.",
-                    "jp": "はぁ。",
-                    "jp_raw": "\\m[vo]はぁ。",
-                    "index": 4734
-                }
-            },
-            {
-                "clean": "Huh.",
-                "site": {
-                    "raw": "Huh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 79
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]Huh.",
-                    "jp": "はぁ。",
-                    "jp_raw": "\\m[vinp]はぁ。",
-                    "index": 6335
-                }
-            },
-            {
-                "clean": "Huh.",
-                "site": {
-                    "raw": "Huh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 79
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Huh.",
-                    "jp": "へえ。",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>へえ。",
-                    "index": 11288
-                }
-            }
-        ],
-        "...Really?": [
-            {
-                "clean": "...Really?",
-                "site": {
-                    "raw": "...Really?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 80
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...\\m[wait]Really?",
-                    "jp": "...本当に？",
-                    "jp_raw": "\\n<\\v[46]>...\\m[wait]本当に？",
-                    "index": 11289
-                }
-            }
-        ],
-        "Really. I wouldn't go back to being your age, that's for sure.": [
-            {
-                "clean": "Really. I wouldn't go back to being your age, that's for sure.",
-                "site": {
-                    "raw": "Really. I wouldn't go back to being your age, that's for sure.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 81
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Really.\\!\\ I wouldn't go back to being your age, that's for sure.",
-                    "jp": "本当だ。きみのような年齢の頃には絶対に戻りたくない。",
-                    "jp_raw": "\\m[vo]本当だ。\\!きみのような年齢の頃には絶対に戻りたくない。",
-                    "index": 11290
-                }
-            }
-        ],
-        "Huh!": [
-            {
-                "clean": "Huh!",
-                "site": {
-                    "raw": "Huh!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 82
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Huh!",
-                    "jp": "へえ！",
-                    "jp_raw": "\\m[vi]へえ！",
-                    "index": 7003
-                }
-            },
-            {
-                "clean": "Huh!",
-                "site": {
-                    "raw": "Huh!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 82
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Huh!",
-                    "jp": "おお！",
-                    "jp_raw": "\\m[vb]おお！",
-                    "index": 8256
-                }
-            },
-            {
-                "clean": "Huh!",
-                "site": {
-                    "raw": "Huh!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 82
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Huh!",
-                    "jp": "ふうん！",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>ふうん！",
-                    "index": 11291
-                }
-            }
-        ],
-        "...Crab, I wanna be old, now.": [
-            {
-                "clean": "...Crab, I wanna be old, now.",
-                "site": {
-                    "raw": "...Crab, I wanna be old, now.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 83
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...\\!Crab, I wanna be old, now.",
-                    "jp": "...カニったれ、わたしも年を取りたいなあ。",
-                    "jp_raw": "\\n<\\v[46]>...\\!カニったれ、わたしも年を取りたいなあ。",
-                    "index": 11292
-                }
-            }
-        ],
-        "I wanna be old so bad......": [
-            {
-                "clean": "I wanna be old so bad......",
-                "site": {
-                    "raw": "I wanna be old so bad......",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 84
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>I wanna be old so bad......",
-                    "jp": "とっても年を取りたい...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>とっても年を取りたい...",
-                    "index": 11293
-                }
-            }
-        ],
-        "Let's play again soon. That was fun.": [
-            {
-                "clean": "Let's play again soon. That was fun.",
-                "site": {
-                    "raw": "Let's play again soon. That was fun.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 85
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Let's play again soon.\\!\\ That was fun.",
-                    "jp": "また遊ぼうね。楽しかったよ。",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>また遊ぼうね。\\!楽しかったよ。",
-                    "index": 11294
-                }
-            }
-        ],
-        "...": [
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "...",
-                    "jp": "...",
-                    "jp_raw": "...",
-                    "index": 447
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..",
-                    "index": 584
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...",
-                    "index": 644
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...",
-                    "index": 669
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...",
-                    "index": 670
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...",
-                    "index": 671
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..",
-                    "index": 699
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..",
-                    "index": 700
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..",
-                    "index": 701
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "index": 784
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 844
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 921
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "index": 1017
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.",
-                    "index": 1035
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..",
-                    "index": 1148
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "index": 1459
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "index": 1461
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]...",
-                    "index": 2011
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]...",
-                    "index": 2146
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...",
-                    "index": 2149
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]...",
-                    "index": 2156
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "index": 2157
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "index": 2175
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "index": 2582
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 2600
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "index": 2631
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "index": 2719
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2922
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>...",
-                    "index": 3001
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "index": 3172
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "index": 3197
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "index": 3414
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "index": 3423
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]\\^",
-                    "index": 3524
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 3722
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 3846
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "index": 3848
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...",
-                    "index": 3940
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "index": 3953
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "index": 3964
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\..\\..\\..",
-                    "index": 4587
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\..\\..\\..",
-                    "index": 5061
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\shake...",
-                    "index": 5296
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 5586
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 5647
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "index": 5942
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "index": 6020
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..",
-                    "index": 6341
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 6388
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "index": 7218
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "index": 7421
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...",
-                    "index": 8336
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 8343
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..",
-                    "index": 8359
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "index": 8398
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 8419
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 8446
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\m[rb]",
-                    "index": 8463
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...",
-                    "index": 8465
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "index": 8469
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9427
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "index": 9898
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 11568
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 11589
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "index": 11619
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "index": 11655
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "index": 11656
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "index": 11891
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 11893
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..",
-                    "index": 12071
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "index": 12104
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 12216
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12240
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "index": 12244
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...",
-                    "index": 12248
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "index": 12255
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12312
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "index": 12321
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "index": 12441
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 12453
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[rb]",
-                    "index": 12786
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\shake...",
-                    "index": 13519
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "index": 13843
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]\\..\\..\\..",
-                    "index": 14245
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 14959
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "index": 14962
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "...\\m[rb]",
-                    "index": 15458
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[wait]",
-                    "index": 16042
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 86
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]",
-                    "index": 16049
-                }
-            }
-        ],
-        "(The little girl making a frog embroidery seems too shy to make eye contact with you, especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)": [
-            {
-                "clean": "(The little girl making a frog embroidery seems too shy to make eye contact with you, especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)",
-                "site": {
-                    "raw": "(The little girl making a frog embroidery seems too shy to make eye contact with you, especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 87
-                },
-                "game": {
-                    "en_raw": "\\m[clear](The little girl making a frog embroidery seems too shy to make eye contact with you,\\!\\ especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)",
-                    "jp": "(女の子がカエルを刺しゅうしている。シャイなのか、目を合わせてくれない。それに今は年上の女性を連れているから、「大の大人」の仲間だと思われているんだろう。)",
-                    "jp_raw": "\\m[clear](女の子がカエルを刺しゅうしている。\\!シャイなのか、目を合わせてくれない。\\!それに今は年上の女性を連れているから、「大の大人」の仲間だと思われているんだろう。)",
-                    "index": 11313
-                }
-            }
-        ],
-        "Bye bye! Good luck with the book!": [
-            {
-                "clean": "Bye bye! Good luck with the book!",
-                "site": {
-                    "raw": "Bye bye! Good luck with the book!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 88
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>Bye bye!\\!\\ Good luck with the book!",
-                    "jp": "バイバイ！ 本が見つかるといいね！",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>バイバイ！\\!\\ 本が見つかるといいね！",
-                    "index": 11314
-                }
-            }
-        ],
-        "(Some recipes.)": [
-            {
-                "clean": "(Some recipes.)",
-                "site": {
-                    "raw": "(Some recipes.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 89
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some recipes.)",
-                    "jp": "(レシピがいくつかある。)",
-                    "jp_raw": "\\m[clear](レシピがいくつかある。)",
-                    "index": 6080
-                }
-            }
-        ],
-        "Hm... Think we should look at those for Boniface?": [
-            {
-                "clean": "Hm... Think we should look at those for Boniface?",
-                "site": {
-                    "raw": "Hm... Think we should look at those for Boniface?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 90
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Hm...\\!\\ Think we should look at those for Boniface?",
-                    "jp": "ふむ... ボニファスのために読んでおくか？",
-                    "jp_raw": "\\m[vo]ふむ...\\!\\ ボニファスのために読んでおくか？",
-                    "index": 6081
-                }
-            }
-        ],
-        "Ah, hello? Is anyone there?": [
-            {
-                "clean": "Ah, hello? Is anyone there?",
-                "site": {
-                    "raw": "Ah, hello? Is anyone there?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 91
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Ah, hello?\\!\\ Is anyone there?",
-                    "jp": "ええと、誰か？ 誰かいるのかい？",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>ええと、誰か？\\!\\ 誰かいるのかい？",
-                    "index": 11254
-                }
-            }
-        ],
-        "We are, but we don't actually have time to talk. Sorry to bother you.": [
-            {
-                "clean": "We are, but we don't actually have time to talk. Sorry to bother you.",
-                "site": {
-                    "raw": "We are, but we don't actually have time to talk. Sorry to bother you.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 92
-                },
-                "game": {
-                    "en_raw": "\\m[vo]We are, but we don't actually have time to talk.\\!\\ Sorry to bother you.",
-                    "jp": "いるよ。でも、話している時間はないんだ。邪魔をしてすまないな。",
-                    "jp_raw": "\\m[vo]いるよ。\\!でも、話している時間はないんだ。\\!邪魔をしてすまないな。",
-                    "index": 11255
-                }
-            }
-        ],
-        "Haha, it's no problem! Have a good day!": [
-            {
-                "clean": "Haha, it's no problem! Have a good day!",
-                "site": {
-                    "raw": "Haha, it's no problem! Have a good day!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 93
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Haha, it's no problem!\\!\\ Have a good day!",
-                    "jp": "ハハ、構わないよ！ よい一日を！",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>ハハ、構わないよ！\\!\\ よい一日を！",
-                    "index": 11256
-                }
-            }
-        ],
-        "Meeeeeeeeeeh.": [
-            {
-                "clean": "Meeeeeeeeeeh.",
-                "site": {
-                    "raw": "Meeeeeeeeeeh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 95
-                },
-                "game": {
-                    "en_raw": "\\m[vman]Meeeeeeeeeeh.",
-                    "jp": "メエエエエエ。",
-                    "jp_raw": "\\m[vman]メエエエエエ。",
-                    "index": 11499
-                }
-            },
-            {
-                "clean": "Meeeeeeeeeeh.",
-                "site": {
-                    "raw": "Meeeeeeeeeeh.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 95
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Meeeeeeeeeeh.",
-                    "jp": "メエエエエエ。",
-                    "jp_raw": "\\m[vo]メエエエエエ。",
-                    "index": 11501
-                }
-            }
-        ],
-        "(?!??!)": [
-            {
-                "clean": "(?!??!)",
-                "site": {
-                    "raw": "(?!??!)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 96
-                },
-                "game": {
-                    "en_raw": "\\m[clear](?!??!)",
-                    "jp": "(？！？？！)",
-                    "jp_raw": "\\m[clear](？！？？！)",
-                    "index": 11502
-                }
-            }
-        ],
-        "That's the way to the Clocktower.": [
-            {
-                "clean": "That's the way to the Clocktower.",
-                "site": {
-                    "raw": "That's the way to the Clocktower.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 97
-                },
-                "game": {
-                    "en_raw": "\\m[vo]That's the way to the Clocktower.",
-                    "jp": "この先は時計台だ。",
-                    "jp_raw": "\\m[vo]この先は時計台だ。",
-                    "index": 11515
-                }
-            }
-        ],
-        "(...)": [
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)",
-                    "jp": "(...)",
-                    "jp_raw": "(...)",
-                    "index": 21
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)",
-                    "index": 164
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\^",
-                    "index": 178
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\",
-                    "index": 205
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)",
-                    "index": 245
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)",
-                    "index": 264
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)",
-                    "index": 391
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)",
-                    "index": 532
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "index": 560
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "index": 1027
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\",
-                    "index": 1966
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2139
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 2186
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](...)\\!\\",
-                    "index": 2310
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)",
-                    "index": 2334
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "index": 2508
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\",
-                    "index": 2941
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)",
-                    "index": 3128
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "index": 3751
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 3809
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "index": 3934
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "index": 4505
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "index": 4578
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "index": 4925
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "index": 5021
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "index": 6778
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "index": 7497
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "index": 7563
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "index": 7874
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "index": 8427
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "index": 8475
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "index": 8773
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "index": 9379
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 10078
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vsc](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vsc](...)\\!\\",
-                    "index": 10129
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\m[dot])\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[dot])\\!\\",
-                    "index": 10550
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "index": 10935
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "index": 11969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[rb](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\m[rb](...)",
-                    "index": 12007
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "index": 12044
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "index": 12183
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "index": 12241
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "index": 12285
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "index": 13281
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]",
-                    "index": 13579
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14087
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14623
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "index": 14870
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "index": 14969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](...)",
-                    "index": 15047
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "index": 15058
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 15161
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 99
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "index": 16033
-                }
-            }
-        ],
-        "(Not right now.)": [
-            {
-                "clean": "(Not right now.)",
-                "site": {
-                    "raw": "(Not right now.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 100
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Not right now.)",
-                    "jp": "(今はだめだ。)",
-                    "jp_raw": "\\m[clear](今はだめだ。)",
-                    "index": 2956
-                }
-            },
-            {
-                "clean": "(Not right now.)",
-                "site": {
-                    "raw": "(Not right now.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 100
-                },
-                "game": {
-                    "en_raw": "(Not right now.)",
-                    "jp": "(今は無理だ。)",
-                    "jp_raw": "(今は無理だ。)",
-                    "index": 4596
-                }
-            }
-        ],
-        "Ohoho! You guys look thick as thieves as usual. Are you on a secret quest again?": [
-            {
-                "clean": "Ohoho! You guys look thick as thieves as usual. Are you on a secret quest again?",
-                "site": {
-                    "raw": "Ohoho! You guys look thick as thieves as usual. Are you on a secret quest again?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 101
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Ohoho!\\!\\ You guys look thick as thieves as usual.\\!\\ Are you on a secret quest again?",
-                    "jp": "ははっ！ きみたち、いつものことだけど、まるで泥棒みたいだ。また秘密のクエスト？",
-                    "jp_raw": "\\m[vi]ははっ！\\!\\ きみたち、いつものことだけど、まるで泥棒みたいだ。\\!また秘密のクエスト？",
-                    "index": 11696
-                }
-            }
-        ],
-        "Indeed we are.": [
-            {
-                "clean": "Indeed we are.",
-                "site": {
-                    "raw": "Indeed we are.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 102
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Indeed we are.",
-                    "jp": "そのとおりだ。",
-                    "jp_raw": "\\m[vo]そのとおりだ。",
-                    "index": 11697
-                }
-            }
-        ],
-        "Good for you. Nothing like a secret quest to make life worth living.": [
-            {
-                "clean": "Good for you. Nothing like a secret quest to make life worth living.",
-                "site": {
-                    "raw": "Good for you. Nothing like a secret quest to make life worth living.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 103
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Good for you.\\!\\ Nothing like a secret quest to make life worth living.",
-                    "jp": "いいじゃないか。秘密のクエストは生きる活力になるからね。",
-                    "jp_raw": "\\m[vi]いいじゃないか。\\!秘密のクエストは生きる活力になるからね。",
-                    "index": 11698
-                }
-            }
-        ],
-        "Ah, I'm so jealous... I'd love to go on a secret quest, too...": [
-            {
-                "clean": "Ah, I'm so jealous... I'd love to go on a secret quest, too...",
-                "site": {
-                    "raw": "Ah, I'm so jealous... I'd love to go on a secret quest, too...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 104
-                },
-                "game": {
-                    "en_raw": "Ah, I'm so jealous...\\!\\ I'd love to go on a secret quest, too...",
-                    "jp": "うらやましいなあ... 俺も秘密のクエストに行きたいよ...",
-                    "jp_raw": "うらやましいなあ...\\!\\ 俺も秘密のクエストに行きたいよ...",
-                    "index": 11699
-                }
-            }
-        ],
-        "Let's go on a secret quest before we part ways, yeah?": [
-            {
-                "clean": "Let's go on a secret quest before we part ways, yeah?",
-                "site": {
-                    "raw": "Let's go on a secret quest before we part ways, yeah?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 105
-                },
-                "game": {
-                    "en_raw": "Let's go on a secret quest before we part ways, yeah?",
-                    "jp": "離れ離れになる前に、みんなでやってみないか？",
-                    "jp_raw": "離れ離れになる前に、みんなでやってみないか？",
-                    "index": 11700
-                }
-            }
-        ],
-        "Oh, I'd love to. A secret quest with you could be fun, Isabeau.": [
-            {
-                "clean": "Oh, I'd love to. A secret quest with you could be fun, Isabeau.",
-                "site": {
-                    "raw": "Oh, I'd love to. A secret quest with you could be fun, Isabeau.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 106
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Oh, I'd love to.\\!\\ A secret quest with you could be fun, Isabeau.",
-                    "jp": "いい考えだ。イザボーと一緒なら、楽しくなりそうだな。",
-                    "jp_raw": "\\m[vo]いい考えだ。\\!イザボーと一緒なら、楽しくなりそうだな。",
-                    "index": 11701
-                }
-            }
-        ],
-        "Huh?": [
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Huh?",
-                    "jp": "へ？",
-                    "jp_raw": "\\m[vb]へ？",
-                    "index": 1580
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Huh?",
-                    "jp": "え？",
-                    "jp_raw": "\\m[vi]え？",
-                    "index": 3815
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Huh?",
-                    "jp": "ん？",
-                    "jp_raw": "\\m[vm]ん？",
-                    "index": 4895
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "Huh?",
-                    "jp": "えっ？",
-                    "jp_raw": "えっ？",
-                    "index": 8947
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\>Huh?\\<\\^",
-                    "jp": "えっ？",
-                    "jp_raw": "\\>えっ？\\<\\^",
-                    "index": 9042
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Huh?\\!\\m[wait]\\^",
-                    "jp": "えっ？",
-                    "jp_raw": "\\m[vi]えっ？\\!\\m[wait]\\^",
-                    "index": 11702
-                }
-            },
-            {
-                "clean": "Huh?",
-                "site": {
-                    "raw": "Huh?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 107
-                },
-                "game": {
-                    "en_raw": "\\m[vl]Huh?",
-                    "jp": "えっ？",
-                    "jp_raw": "\\m[vl]えっ？",
-                    "index": 15405
-                }
-            }
-        ],
-        "OH, WITH YOU, M'DAME ODILE!!!": [
-            {
-                "clean": "OH, WITH YOU, M'DAME ODILE!!!",
-                "site": {
-                    "raw": "OH, WITH YOU, M'DAME ODILE!!!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 108
-                },
-                "game": {
-                    "en_raw": "OH, WITH YOU, M'DAME ODILE!!!",
-                    "jp": "ああ、そうそう！ オディールと一緒にね！！！",
-                    "jp_raw": "ああ、そうそう！ オディールと一緒にね！！！",
-                    "index": 11703
-                }
-            }
-        ],
-        "Yes!!! That's exactly what I meant!!! I definitely meant going on a secret quest with you, because you are also standing right here. Yes.": [
-            {
-                "clean": "Yes!!! That's exactly what I meant!!! I definitely meant going on a secret quest with you, because you are also standing right here. Yes.",
-                "site": {
-                    "raw": "Yes!!! That's exactly what I meant!!! I definitely meant going on a secret quest with you, because you are also standing right here. Yes.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 109
-                },
-                "game": {
-                    "en_raw": "Yes!!!\\!\\ That's exactly what I meant!!!\\!\\ I definitely meant going on a secret quest with you, because you are also standing right here.\\!\\ Yes.",
-                    "jp": "そう！！！ そう言いたかったんだ！！！ 秘密のクエストに誘ったのはオディールだよ。だって、ここにいるんだから。うん。",
-                    "jp_raw": "そう！！！\\!\\ そう言いたかったんだ！！！\\!\\ 秘密のクエストに誘ったのはオディールだよ。\\!だって、ここにいるんだから。\\!うん。",
-                    "index": 11704
-                }
-            }
-        ],
-        "Please don't look at me.": [
-            {
-                "clean": "Please don't look at me.",
-                "site": {
-                    "raw": "Please don't look at me.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 112
-                },
-                "game": {
-                    "en_raw": "Please don't look at me.",
-                    "jp": "こっちを見ないでくれ。",
-                    "jp_raw": "こっちを見ないでくれ。",
-                    "index": 11705
-                }
-            }
-        ],
-        "Uh HUH.": [
-            {
-                "clean": "Uh HUH.",
-                "site": {
-                    "raw": "Uh HUH.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 113
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Uh HUH.",
-                    "jp": "ふうん。",
-                    "jp_raw": "\\m[vo]ふうん。",
-                    "index": 11706
-                }
-            }
-        ],
-        "Have fun, you two!": [
-            {
-                "clean": "Have fun, you two!",
-                "site": {
-                    "raw": "Have fun, you two!",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 114
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Have fun, you two!",
-                    "jp": "2人とも、楽しんできて！",
-                    "jp_raw": "\\m[vi]2人とも、楽しんできて！",
-                    "index": 11707
-                }
-            }
-        ],
-        "Hello--": [
-            {
-                "clean": "Hello--",
-                "site": {
-                    "raw": "Hello--",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 115
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>Hello--",
-                    "jp": "どうも――",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>どうも――",
-                    "index": 11687
-                }
-            }
-        ],
-        "Hello, nice to talk to you, goodbye.": [
-            {
-                "clean": "Hello, nice to talk to you, goodbye.",
-                "site": {
-                    "raw": "Hello, nice to talk to you, goodbye.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 116
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Hello, nice to talk to you, goodbye.",
-                    "jp": "どうも、お話しできてよかった。ごきげんよう。",
-                    "jp_raw": "\\m[vo]どうも、お話しできてよかった。\\!ごきげんよう。",
-                    "index": 11688
-                }
-            }
-        ],
-        "Oh... Goodbye.": [
-            {
-                "clean": "Oh... Goodbye.",
-                "site": {
-                    "raw": "Oh... Goodbye.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 117
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>Oh...\\!\\ Goodbye.",
-                    "jp": "おやまあ... ごきげんよう。",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>おやまあ...\\!\\ ごきげんよう。",
-                    "index": 11689
-                }
-            }
-        ],
-        "The Favor Tree, huh...": [
-            {
-                "clean": "The Favor Tree, huh...",
-                "site": {
-                    "raw": "The Favor Tree, huh...",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 118
-                },
-                "game": {
-                    "en_raw": "\\m[vo]The Favor Tree, huh...",
-                    "jp": "願いの木、か...",
-                    "jp_raw": "\\m[vo]願いの木、か...",
-                    "index": 12267
-                }
-            }
-        ],
-        "Quite an interesting tradition, isn't it?": [
-            {
-                "clean": "Quite an interesting tradition, isn't it?",
-                "site": {
-                    "raw": "Quite an interesting tradition, isn't it?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 119
-                },
-                "game": {
-                    "en_raw": "Quite an interesting tradition, isn't it?",
-                    "jp": "興味深い習わしだと思わないか？",
-                    "jp_raw": "興味深い習わしだと思わないか？",
-                    "index": 12268
-                }
-            }
-        ],
-        "Piou piou.": [
-            {
-                "clean": "Piou piou.",
-                "site": {
-                    "raw": "Piou piou.",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 121
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Piou piou.",
-                    "jp": "ピヨピヨ。",
-                    "jp_raw": "\\m[vo]ピヨピヨ。",
-                    "index": 16072
-                }
-            }
-        ],
-        "There's no need to go here right now, is there?": [
-            {
-                "clean": "There's no need to go here right now, is there?",
-                "site": {
-                    "raw": "There's no need to go here right now, is there?",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 123
-                },
-                "game": {
-                    "en_raw": "\\m[vo]There's no need to go here right now, is there?",
-                    "jp": "今そこに行く必要はないだろう？",
-                    "jp_raw": "\\m[vo]今そこに行く必要はないだろう？",
-                    "index": 11524
-                }
-            }
-        ],
-        "(Apparently not.)": [
-            {
-                "clean": "(Apparently not.)",
-                "site": {
-                    "raw": "(Apparently not.)",
-                    "page": "rooms/dormont/dormdile.html",
-                    "index": 124
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Apparently not.)",
-                    "jp": "(確かにそうだ。)",
-                    "jp_raw": "\\m[clear](確かにそうだ。)",
-                    "index": 11525
-                }
-            }
+[
+    {
+        "en_raw": "What is a plantain peel doing here...?",
+        "en_clean": "What is a plantain peel doing here...?",
+        "jp_raw": "\\m[vo]なぜこんな場所にプランテンの皮が...？",
+        "jp_clean": "なぜこんな場所にプランテンの皮が...？"
+    },
+    {
+        "en_raw": "(You approach the Change God's statue.)",
+        "en_clean": "(You approach the Change God's statue.)",
+        "jp_raw": "\\m[clear](ウツロイの神像に近づく。)",
+        "jp_clean": "(ウツロイの神像に近づく。)"
+    },
+    {
+        "en_raw": "The Change God's statue...",
+        "en_clean": "The Change God's statue...",
+        "jp_raw": "\\m[vo]ウツロイの神像...",
+        "jp_clean": "ウツロイの神像..."
+    },
+    {
+        "en_raw": "Quite a peculiar figure, don't you think?",
+        "en_clean": "Quite a peculiar figure, don't you think?",
+        "jp_raw": "風変わりな姿だと思わないか？",
+        "jp_clean": "風変わりな姿だと思わないか？"
+    },
+    {
+        "en_raw": "(You shrug.)",
+        "en_clean": "(You shrug.)",
+        "jp_raw": [
+            "\\m[clear](僕は肩をすくめる。)",
+            "(僕は肩をすくめた。)"
+        ],
+        "jp_clean": [
+            "(僕は肩をすくめる。)",
+            "(僕は肩をすくめた。)"
         ]
     },
-    "no_matches": {
-        ". . .": {
-            "clean": ". . .",
-            "raw": ". . .",
-            "page": "rooms/dormont/dormdile.html",
-            "index": 111
-        },
-        ". . .": {
-            "clean": ". . .",
-            "raw": ". . .",
-            "page": "rooms/dormont/dormdile.html",
-            "index": 98
-        }
+    {
+        "en_raw": "All done with... Whatever you were just doing?",
+        "en_clean": "All done with... Whatever you were just doing?",
+        "jp_raw": "\\m[vo]用事は...\\!すべて片付いたのか？",
+        "jp_clean": "用事は...すべて片付いたのか？"
+    },
+    {
+        "en_raw": "(You nod.)",
+        "en_clean": "(You nod.)",
+        "jp_raw": [
+            "\\m[clear](うなずいてみせる。)",
+            "(僕はうなずく。)",
+            "\\m[wait](僕はうなずいた。)",
+            "\\m[vs](僕はうなずいた。)\\!\\"
+        ],
+        "jp_clean": [
+            "(うなずいてみせる。)",
+            "(僕はうなずく。)",
+            "(僕はうなずいた。)",
+            "(僕はうなずいた。)"
+        ]
+    },
+    {
+        "en_raw": "(Some croissants.)",
+        "en_clean": "(Some croissants.)",
+        "jp_raw": "\\m[clear](クロワッサンがある。)",
+        "jp_clean": "(クロワッサンがある。)"
+    },
+    {
+        "en_raw": "(You refuse to even look at them.)",
+        "en_clean": "(You refuse to even look at them.)",
+        "jp_raw": "(視界に入れたくもない。)",
+        "jp_clean": "(視界に入れたくもない。)"
+    },
+    {
+        "en_raw": "(You grip the silver coin tightly.)",
+        "en_clean": "(You grip the silver coin tightly.)",
+        "jp_raw": "(銀貨を握りしめる。)",
+        "jp_clean": "(銀貨を握りしめる。)"
+    },
+    {
+        "en_raw": "Croissants, huh... You really started hating them for no reason a few weeks ago, didn't you?",
+        "en_clean": "Croissants, huh... You really started hating them for no reason a few weeks ago, didn't you?",
+        "jp_raw": "\\m[vo]クロワッサン、か...\\!\\ 2週間ほど前から、急に嫌いになったよな？",
+        "jp_clean": "クロワッサン、か... 2週間ほど前から、急に嫌いになったよな？"
+    },
+    {
+        "en_raw": "(You don't respond.)",
+        "en_clean": "(You don't respond.)",
+        "jp_raw": "\\m[clear](返事はしなかった。)",
+        "jp_clean": "(返事はしなかった。)"
+    },
+    {
+        "en_raw": "(The woman is daydreaming, singing softly under her breath.)",
+        "en_clean": "(The woman is daydreaming, singing softly under her breath.)",
+        "jp_raw": "\\m[clear](おねえさんは空想にふけりながら、小声で歌っている。)",
+        "jp_clean": "(おねえさんは空想にふけりながら、小声で歌っている。)"
+    },
+    {
+        "en_raw": "Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.",
+        "en_clean": "Please don't make us talk to everyone in Dormont, Siffrin, PLEASE.",
+        "jp_raw": "\\m[vo]シフラン、ドーモントの住民全員に話しかける気か？",
+        "jp_clean": "シフラン、ドーモントの住民全員に話しかける気か？"
+    },
+    {
+        "en_raw": "I am fishing.",
+        "en_clean": "I am fishing.",
+        "jp_raw": "\\m[vwoman]\\n<\\v[46]>いま釣りをしてるの。",
+        "jp_clean": "いま釣りをしてるの。"
+    },
+    {
+        "en_raw": "I see that. Caught anything recently?",
+        "en_clean": "I see that. Caught anything recently?",
+        "jp_raw": "\\m[vo]見れば分かる。\\!最近何か釣れた？",
+        "jp_clean": "見れば分かる。最近何か釣れた？"
+    },
+    {
+        "en_raw": "Heheheee...",
+        "en_clean": "Heheheee...",
+        "jp_raw": "\\m[vwoman]\\n<\\v[46]>ヘヘヘヘヘ...",
+        "jp_clean": "ヘヘヘヘヘ..."
+    },
+    {
+        "en_raw": "Maybe I have, maybe I haven't.",
+        "en_clean": "Maybe I have, maybe I haven't.",
+        "jp_raw": "\\n<\\v[46]>釣れたかもしれないし、釣れてないかもしれない。",
+        "jp_clean": "釣れたかもしれないし、釣れてないかもしれない。"
+    },
+    {
+        "en_raw": "Thanks, that was very helpful.",
+        "en_clean": "Thanks, that was very helpful.",
+        "jp_raw": "\\m[vo]役に立つ情報をどうも。",
+        "jp_clean": "役に立つ情報をどうも。"
+    },
+    {
+        "en_raw": "Oh, Siffrin, madame Odile! On a secret quest again?",
+        "en_clean": "Oh, Siffrin, madame Odile! On a secret quest again?",
+        "jp_raw": "\\m[vm]シフラン、マダム・オディール！\\!\\ また秘密の任務なの？",
+        "jp_clean": "シフラン、マダム・オディール！ また秘密の任務なの？"
+    },
+    {
+        "en_raw": "\"Again\", huh.",
+        "en_clean": "\"Again\", huh.",
+        "jp_raw": "\\m[vo]「また」とは？",
+        "jp_clean": "「また」とは？"
+    },
+    {
+        "en_raw": "Oh, sorry! I feel like... I've seen you two go on secret quests very often?",
+        "en_clean": "Oh, sorry! I feel like... I've seen you two go on secret quests very often?",
+        "jp_raw": "\\m[vm]あっ、ごめんなさい！\\!\\ ただちょっと...\\!\\ 二人でこっそり動いてるのをよく見かけるから...",
+        "jp_clean": "あっ、ごめんなさい！ ただちょっと... 二人でこっそり動いてるのをよく見かけるから..."
+    },
+    {
+        "en_raw": "Like... Literally every time we've stayed in a town or village?",
+        "en_clean": "Like... Literally every time we've stayed in a town or village?",
+        "jp_raw": "しかも...\\!\\ 町とか村とかに泊まるときは必ず出かけてるでしょう？",
+        "jp_clean": "しかも... 町とか村とかに泊まるときは必ず出かけてるでしょう？"
+    },
+    {
+        "en_raw": "Isabeau and I always wondered where you were going!",
+        "en_clean": "Isabeau and I always wondered where you were going!",
+        "jp_raw": "イザボーもわたしも、どこに行くんだろうって思ってたの！",
+        "jp_clean": "イザボーもわたしも、どこに行くんだろうって思ってたの！"
+    },
+    {
+        "en_raw": "(Ah, that's right...)",
+        "en_clean": "(Ah, that's right...)",
+        "jp_raw": "\\m[clear](ああ、確かに...)",
+        "jp_clean": "(ああ、確かに...)"
+    },
+    {
+        "en_raw": "(You and Odile often used to visit antique shops, every time you went to a new place.)",
+        "en_clean": "(You and Odile often used to visit antique shops, every time you went to a new place.)",
+        "jp_raw": "(新しい土地に着くたびに、オディールと骨董商に行ってたもんな。)",
+        "jp_clean": "(新しい土地に着くたびに、オディールと骨董商に行ってたもんな。)"
+    },
+    {
+        "en_raw": "(Neither of you ever asked what the other was looking for.)",
+        "en_clean": "(Neither of you ever asked what the other was looking for.)",
+        "jp_raw": "(お互いに何を探してるのか訊ねることもないのに。)",
+        "jp_clean": "(お互いに何を探してるのか訊ねることもないのに。)"
+    },
+    {
+        "en_raw": "(...Come to think of it, she was probably looking for a familytale...)",
+        "en_clean": "(...Come to think of it, she was probably looking for a familytale...)",
+        "jp_raw": "(...\\!恐らくだけど、オディールは一族の物語を探してるんだと思う...)",
+        "jp_clean": "(...恐らくだけど、オディールは一族の物語を探してるんだと思う...)"
+    },
+    {
+        "en_raw": "(...Did you used to go on secret quests together?)",
+        "en_clean": "(...Did you used to go on secret quests together?)",
+        "jp_raw": "\\m[clear](...\\!\\m[wait]秘密の任務になんて出かけてたっけ？)",
+        "jp_clean": "(...秘密の任務になんて出かけてたっけ？)"
+    },
+    {
+        "en_raw": "(You can't remember.)",
+        "en_clean": "(You can't remember.)",
+        "jp_raw": "\\m[wait](思い出せないな。)",
+        "jp_clean": "(思い出せないな。)"
+    },
+    {
+        "en_raw": "Are you two betting on it? On what our \"secret quests\" are about?",
+        "en_clean": "Are you two betting on it? On what our \"secret quests\" are about?",
+        "jp_raw": "\\m[vo]二人で賭けでもしているのか？\\!\\ 私たちの「秘密の任務」とやらについて？",
+        "jp_clean": "二人で賭けでもしているのか？ 私たちの「秘密の任務」とやらについて？"
+    },
+    {
+        "en_raw": "Oh, I would never bet on anything. It goes against my moral code, madame.",
+        "en_clean": "Oh, I would never bet on anything. It goes against my moral code, madame.",
+        "jp_raw": "\\m[vm]いや、わたしは賭けなんてしないわ。\\!わたしの道徳心に反するから。",
+        "jp_clean": "いや、わたしは賭けなんてしないわ。わたしの道徳心に反するから。"
+    },
+    {
+        "en_raw": "But Isabeau will read a horror book of my choice if my guess is right, hehe!",
+        "en_clean": "But Isabeau will read a horror book of my choice if my guess is right, hehe!",
+        "jp_raw": "でもわたしが正解したら、イザボーにはわたしが選ぶホラー小説を読んでもらうことになっているの。\\!ヘヘヘ！",
+        "jp_clean": "でもわたしが正解したら、イザボーにはわたしが選ぶホラー小説を読んでもらうことになっているの。ヘヘヘ！"
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.",
+        "en_clean": "Oh no, you're not going to tell me what your secret quests were about now that I've said we're betting on it.",
+        "jp_raw": "あああ、でもわたしたちが勝負しているのを知っちゃったから、もう秘密の任務が何かは教えてくれないよね。",
+        "jp_clean": "あああ、でもわたしたちが勝負しているのを知っちゃったから、もう秘密の任務が何かは教えてくれないよね。"
+    },
+    {
+        "en_raw": "We'll see you later, Mirabelle.",
+        "en_clean": "We'll see you later, Mirabelle.",
+        "jp_raw": "\\m[vo]ではミラベル、また後で。",
+        "jp_clean": "ではミラベル、また後で。"
+    },
+    {
+        "en_raw": "NO!!! NO, COME BACK!!!!!!!!!",
+        "en_clean": "NO!!! NO, COME BACK!!!!!!!!!",
+        "jp_raw": "\\m[vm]あー！\\!\\ 戻ってきて！！！",
+        "jp_clean": "あー！ 戻ってきて！！！"
+    },
+    {
+        "en_raw": "Oh, Mirabelle... You almost had it...",
+        "en_clean": "Oh, Mirabelle... You almost had it...",
+        "jp_raw": "\\m[vm]あーあ...\\!\\ あと少しだったのに...",
+        "jp_clean": "あーあ... あと少しだったのに..."
+    },
+    {
+        "en_raw": "(Odile is out of breath.)",
+        "en_clean": "(Odile is out of breath.)",
+        "jp_raw": "\\m[clear](オディールは息切れしている。)",
+        "jp_clean": "(オディールは息切れしている。)"
+    },
+    {
+        "en_raw": "Urgh... Ha...",
+        "en_clean": "Urgh... Ha...",
+        "jp_raw": "\\m[vo]ううう...\\!\\ はぁ...",
+        "jp_clean": "ううう... はぁ..."
+    },
+    {
+        "en_raw": "Sounds like someone needs to do some more exercise!",
+        "en_clean": "Sounds like someone needs to do some more exercise!",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>誰かさんは運動不足みたいだな！",
+        "jp_clean": "誰かさんは運動不足みたいだな！"
+    },
+    {
+        "en_raw": "Curse you and your legs.",
+        "en_clean": "Curse you and your legs.",
+        "jp_raw": "\\m[vo]あなたの脚が呪われますように...",
+        "jp_clean": "あなたの脚が呪われますように..."
+    },
+    {
+        "en_raw": "Spoken like someone who prioritized her brain over her body for decades and decades!",
+        "en_clean": "Spoken like someone who prioritized her brain over her body for decades and decades!",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>何十年もずっと肉体より頭脳ばかり鍛えてきた人らしいセリフだな！",
+        "jp_clean": "何十年もずっと肉体より頭脳ばかり鍛えてきた人らしいセリフだな！"
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(No answer for that one, huh?)",
+        "en_clean": "(No answer for that one, huh?)",
+        "jp_raw": "\\m[clear](そこは言い返さないんだ？)",
+        "jp_clean": "(そこは言い返さないんだ？)"
+    },
+    {
+        "en_raw": "Hell-",
+        "en_clean": "Hell-",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>こん――",
+        "jp_clean": "こん――"
+    },
+    {
+        "en_raw": "Hello, no time to talk, have a good day.",
+        "en_clean": "Hello, no time to talk, have a good day.",
+        "jp_raw": "\\m[vo]こんにちは。\\!時間がないので失礼。\\!よい一日を。",
+        "jp_clean": "こんにちは。時間がないので失礼。よい一日を。"
+    },
+    {
+        "en_raw": "Um, bye then?",
+        "en_clean": "Um, bye then?",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>あ、じゃあまた...？",
+        "jp_clean": "あ、じゃあまた...？"
+    },
+    {
+        "en_raw": "Hey!!! Wanna play Rock Paper Scissors?!?",
+        "en_clean": "Hey!!! Wanna play Rock Paper Scissors?!?",
+        "jp_raw": "\\n<\\v[46]>\\m[vkid]ねえ！\\!\\ じゃんけん勝負しない？",
+        "jp_clean": "ねえ！ じゃんけん勝負しない？"
+    },
+    {
+        "en_raw": "No.",
+        "en_clean": "No.",
+        "jp_raw": [
+            "\\m[vo]しない。",
+            "\\m[vb]ううん。",
+            "\\m[vlnp]\\m[wait]いいや。",
+            "\\m[vo]ない。\\!\\m[wait]\\^",
+            "違いまーす。\\m[rb]"
+        ],
+        "jp_clean": [
+            "しない。",
+            "ううん。",
+            "いいや。",
+            "ない。",
+            "違いまーす。"
+        ]
+    },
+    {
+        "en_raw": "Urgh...!!! Another lost soul, who won't play against me...",
+        "en_clean": "Urgh...!!! Another lost soul, who won't play against me...",
+        "jp_raw": "\\n<\\v[46]>\\m[vkid]んぐぐ...\\!\\ あたしとの勝負を避けるなんて、あわれな亡者だね...",
+        "jp_clean": "んぐぐ... あたしとの勝負を避けるなんて、あわれな亡者だね..."
+    },
+    {
+        "en_raw": "Oh, hey Dile.",
+        "en_clean": "Oh, hey Dile.",
+        "jp_raw": "\\m[vb]あれっ、ディールだ。",
+        "jp_clean": "あれっ、ディールだ。"
+    },
+    {
+        "en_raw": "Boniface.",
+        "en_clean": "Boniface.",
+        "jp_raw": "\\m[vo]ボニファスじゃないか。",
+        "jp_clean": "ボニファスじゃないか。"
+    },
+    {
+        "en_raw": "Did you find some good stuff for tonight?",
+        "en_clean": "Did you find some good stuff for tonight?",
+        "jp_raw": "\\m[vb]今夜使えそうなもの、見つけた？",
+        "jp_clean": "今夜使えそうなもの、見つけた？"
+    },
+    {
+        "en_raw": "Not much. I did find some flour, though. I know we were running low.",
+        "en_clean": "Not much. I did find some flour, though. I know we were running low.",
+        "jp_raw": "\\m[vo]あまり。\\!小麦粉はあったよ。\\!もう少なくなってたからね。",
+        "jp_clean": "あまり。小麦粉はあったよ。もう少なくなってたからね。"
+    },
+    {
+        "en_raw": "Yesssssss.",
+        "en_clean": "Yesssssss.",
+        "jp_raw": "\\m[vb]よっしゃぁ。",
+        "jp_clean": "よっしゃぁ。"
+    },
+    {
+        "en_raw": "Why are you with Frin? Was the flour too heavy? I could've helped!",
+        "en_clean": "Why are you with Frin? Was the flour too heavy? I could've helped!",
+        "jp_raw": "どうしてフランと一緒なんだ？\\!\\ 小麦粉が重すぎるから？\\!\\ オイラが手伝ってやったのに！",
+        "jp_clean": "どうしてフランと一緒なんだ？ 小麦粉が重すぎるから？ オイラが手伝ってやったのに！"
+    },
+    {
+        "en_raw": "Siffrin and I have things to do.",
+        "en_clean": "Siffrin and I have things to do.",
+        "jp_raw": "\\m[vo]シフランと一緒にすることがあるんだ。",
+        "jp_clean": "シフランと一緒にすることがあるんだ。"
+    },
+    {
+        "en_raw": "Oh. Can I help? I wanna help.",
+        "en_clean": "Oh. Can I help? I wanna help.",
+        "jp_raw": "\\m[vb]へえ。\\!オイラも手伝える？\\!\\ 手伝わせて。",
+        "jp_clean": "へえ。オイラも手伝える？ 手伝わせて。"
+    },
+    {
+        "en_raw": "We're looking for a book.",
+        "en_clean": "We're looking for a book.",
+        "jp_raw": "\\m[vo]本を探してるんだよ。",
+        "jp_clean": "本を探してるんだよ。"
+    },
+    {
+        "en_raw": "With words in it. No pictures.",
+        "en_clean": "With words in it. No pictures.",
+        "jp_raw": "文字の本だ。\\!絵じゃなくてね。",
+        "jp_clean": "文字の本だ。絵じゃなくてね。"
+    },
+    {
+        "en_raw": "I am so sorry I cannot help, Dile. I wish you the best in all future endive-vors.",
+        "en_clean": "I am so sorry I cannot help, Dile. I wish you the best in all future endive-vors.",
+        "jp_raw": "\\m[vb]それじゃ、オイラは役に立たないな。\\!うまくいくといいな。",
+        "jp_clean": "それじゃ、オイラは役に立たないな。うまくいくといいな。"
+    },
+    {
+        "en_raw": "I will stay here and also do my important things.",
+        "en_clean": "I will stay here and also do my important things.",
+        "jp_raw": "オイラはここで、自分の用事に集中するよ。",
+        "jp_clean": "オイラはここで、自分の用事に集中するよ。"
+    },
+    {
+        "en_raw": "Like look at this field.",
+        "en_clean": "Like look at this field.",
+        "jp_raw": "畑を見るとかさ。",
+        "jp_clean": "畑を見るとかさ。"
+    },
+    {
+        "en_raw": "Thank you for your support, Boniface.",
+        "en_clean": "Thank you for your support, Boniface.",
+        "jp_raw": "\\m[vo]気持ちだけもらっておくよ、ボニファス。",
+        "jp_clean": "気持ちだけもらっておくよ、ボニファス。"
+    },
+    {
+        "en_raw": "I will never help you find a book. I have more important things to do.",
+        "en_clean": "I will never help you find a book. I have more important things to do.",
+        "jp_raw": "\\m[vb]本探しなら手伝えないや。\\!もっと大切な用事があるから。",
+        "jp_clean": "本探しなら手伝えないや。もっと大切な用事があるから。"
+    },
+    {
+        "en_raw": "Like watching this carrot grow.",
+        "en_clean": "Like watching this carrot grow.",
+        "jp_raw": "ニンジンの成長を見守るとかさ。",
+        "jp_clean": "ニンジンの成長を見守るとかさ。"
+    },
+    {
+        "en_raw": "(The kid looks up at you.)",
+        "en_clean": "(The kid looks up at you.)",
+        "jp_raw": "\\m[clear](子どもがこちらを見上げている。)",
+        "jp_clean": "(子どもがこちらを見上げている。)"
+    },
+    {
+        "en_raw": "No time, Siffrin. Wave goodbye, now.",
+        "en_clean": "No time, Siffrin. Wave goodbye, now.",
+        "jp_raw": "\\m[vo]そんな暇はないよ、シフラン。\\!手を振ってさよならだ。",
+        "jp_clean": "そんな暇はないよ、シフラン。手を振ってさよならだ。"
+    },
+    {
+        "en_raw": "(You wave goodbye.)",
+        "en_clean": "(You wave goodbye.)",
+        "jp_raw": [
+            "\\m[clear](手を振って別れる。)",
+            "(僕はバイバイと手を振る。)"
+        ],
+        "jp_clean": [
+            "(手を振って別れる。)",
+            "(僕はバイバイと手を振る。)"
+        ]
+    },
+    {
+        "en_raw": "(The kid waves back, happily.)",
+        "en_clean": "(The kid waves back, happily.)",
+        "jp_raw": "(子どももうれしそうに手を振り返してくれた。)",
+        "jp_clean": "(子どももうれしそうに手を振り返してくれた。)"
+    },
+    {
+        "en_raw": ".............................",
+        "en_clean": ".............................",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>....................................",
+        "jp_clean": "...................................."
+    },
+    {
+        "en_raw": "(The kid dances, and doesn't care about you and your old cohort.)",
+        "en_clean": "(The kid dances, and doesn't care about you and your old cohort.)",
+        "jp_raw": "\\m[clear](子どもがダンスしている。\\!僕と年上の仲間には興味がなさそうだ。)",
+        "jp_clean": "(子どもがダンスしている。僕と年上の仲間には興味がなさそうだ。)"
+    },
+    {
+        "en_raw": "Hey. Hey, old one.",
+        "en_clean": "Hey. Hey, old one.",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>ねえ。\\!ねえってば、おばちゃん。",
+        "jp_clean": "ねえ。ねえってば、おばちゃん。"
+    },
+    {
+        "en_raw": "Hey, baby one.",
+        "en_clean": "Hey, baby one.",
+        "jp_raw": "\\m[vo]なんだ、あかちゃん。",
+        "jp_clean": "なんだ、あかちゃん。"
+    },
+    {
+        "en_raw": "Nice one, old lady.",
+        "en_clean": "Nice one, old lady.",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>やるね、おばさま。",
+        "jp_clean": "やるね、おばさま。"
+    },
+    {
+        "en_raw": "How does it feel to be old?",
+        "en_clean": "How does it feel to be old?",
+        "jp_raw": "\\n<\\v[46]>年を取るって、どんな気分？",
+        "jp_clean": "年を取るって、どんな気分？"
+    },
+    {
+        "en_raw": "It feels nice, I suppose.",
+        "en_clean": "It feels nice, I suppose.",
+        "jp_raw": "\\m[vo]いい気分だと思うよ。",
+        "jp_clean": "いい気分だと思うよ。"
+    },
+    {
+        "en_raw": "Huh.",
+        "en_clean": "Huh.",
+        "jp_raw": [
+            "\\m[vb]へぇ。",
+            "\\m[vo]はぁ。",
+            "\\m[vinp]はぁ。",
+            "\\m[vkid]\\n<\\v[46]>へえ。"
+        ],
+        "jp_clean": [
+            "へぇ。",
+            "はぁ。",
+            "はぁ。",
+            "へえ。"
+        ]
+    },
+    {
+        "en_raw": "...Really?",
+        "en_clean": "...Really?",
+        "jp_raw": "\\n<\\v[46]>...\\m[wait]本当に？",
+        "jp_clean": "...本当に？"
+    },
+    {
+        "en_raw": "Really. I wouldn't go back to being your age, that's for sure.",
+        "en_clean": "Really. I wouldn't go back to being your age, that's for sure.",
+        "jp_raw": "\\m[vo]本当だ。\\!きみのような年齢の頃には絶対に戻りたくない。",
+        "jp_clean": "本当だ。きみのような年齢の頃には絶対に戻りたくない。"
+    },
+    {
+        "en_raw": "Huh!",
+        "en_clean": "Huh!",
+        "jp_raw": [
+            "\\m[vi]へえ！",
+            "\\m[vb]おお！",
+            "\\m[vkid]\\n<\\v[46]>ふうん！"
+        ],
+        "jp_clean": [
+            "へえ！",
+            "おお！",
+            "ふうん！"
+        ]
+    },
+    {
+        "en_raw": "...Crab, I wanna be old, now.",
+        "en_clean": "...Crab, I wanna be old, now.",
+        "jp_raw": "\\n<\\v[46]>...\\!カニったれ、わたしも年を取りたいなあ。",
+        "jp_clean": "...カニったれ、わたしも年を取りたいなあ。"
+    },
+    {
+        "en_raw": "I wanna be old so bad......",
+        "en_clean": "I wanna be old so bad......",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>とっても年を取りたい...",
+        "jp_clean": "とっても年を取りたい..."
+    },
+    {
+        "en_raw": "Let's play again soon. That was fun.",
+        "en_clean": "Let's play again soon. That was fun.",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>また遊ぼうね。\\!楽しかったよ。",
+        "jp_clean": "また遊ぼうね。楽しかったよ。"
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "(The little girl making a frog embroidery seems too shy to make eye contact with you, especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)",
+        "en_clean": "(The little girl making a frog embroidery seems too shy to make eye contact with you, especially now that you have an older woman with you, which puts you firmly in the \"Big Adults\" category.)",
+        "jp_raw": "\\m[clear](女の子がカエルを刺しゅうしている。\\!シャイなのか、目を合わせてくれない。\\!それに今は年上の女性を連れているから、「大の大人」の仲間だと思われているんだろう。)",
+        "jp_clean": "(女の子がカエルを刺しゅうしている。シャイなのか、目を合わせてくれない。それに今は年上の女性を連れているから、「大の大人」の仲間だと思われているんだろう。)"
+    },
+    {
+        "en_raw": "Bye bye! Good luck with the book!",
+        "en_clean": "Bye bye! Good luck with the book!",
+        "jp_raw": "\\m[vkid]\\n<\\v[46]>バイバイ！\\!\\ 本が見つかるといいね！",
+        "jp_clean": "バイバイ！ 本が見つかるといいね！"
+    },
+    {
+        "en_raw": "(Some recipes.)",
+        "en_clean": "(Some recipes.)",
+        "jp_raw": "\\m[clear](レシピがいくつかある。)",
+        "jp_clean": "(レシピがいくつかある。)"
+    },
+    {
+        "en_raw": "Hm... Think we should look at those for Boniface?",
+        "en_clean": "Hm... Think we should look at those for Boniface?",
+        "jp_raw": "\\m[vo]ふむ...\\!\\ ボニファスのために読んでおくか？",
+        "jp_clean": "ふむ... ボニファスのために読んでおくか？"
+    },
+    {
+        "en_raw": "Ah, hello? Is anyone there?",
+        "en_clean": "Ah, hello? Is anyone there?",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>ええと、誰か？\\!\\ 誰かいるのかい？",
+        "jp_clean": "ええと、誰か？ 誰かいるのかい？"
+    },
+    {
+        "en_raw": "We are, but we don't actually have time to talk. Sorry to bother you.",
+        "en_clean": "We are, but we don't actually have time to talk. Sorry to bother you.",
+        "jp_raw": "\\m[vo]いるよ。\\!でも、話している時間はないんだ。\\!邪魔をしてすまないな。",
+        "jp_clean": "いるよ。でも、話している時間はないんだ。邪魔をしてすまないな。"
+    },
+    {
+        "en_raw": "Haha, it's no problem! Have a good day!",
+        "en_clean": "Haha, it's no problem! Have a good day!",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>ハハ、構わないよ！\\!\\ よい一日を！",
+        "jp_clean": "ハハ、構わないよ！ よい一日を！"
+    },
+    {
+        "en_raw": "Meeeeeeeeeeh.",
+        "en_clean": "Meeeeeeeeeeh.",
+        "jp_raw": [
+            "\\m[vman]メエエエエエ。",
+            "\\m[vo]メエエエエエ。"
+        ],
+        "jp_clean": [
+            "メエエエエエ。",
+            "メエエエエエ。"
+        ]
+    },
+    {
+        "en_raw": "Meeeeeeeeeeh.",
+        "en_clean": "Meeeeeeeeeeh.",
+        "jp_raw": [
+            "\\m[vman]メエエエエエ。",
+            "\\m[vo]メエエエエエ。"
+        ],
+        "jp_clean": [
+            "メエエエエエ。",
+            "メエエエエエ。"
+        ]
+    },
+    {
+        "en_raw": "(?!??!)",
+        "en_clean": "(?!??!)",
+        "jp_raw": "\\m[clear](？！？？！)",
+        "jp_clean": "(？！？？！)"
+    },
+    {
+        "en_raw": "That's the way to the Clocktower.",
+        "en_clean": "That's the way to the Clocktower.",
+        "jp_raw": "\\m[vo]この先は時計台だ。",
+        "jp_clean": "この先は時計台だ。"
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(Not right now.)",
+        "en_clean": "(Not right now.)",
+        "jp_raw": [
+            "\\m[clear](今はだめだ。)",
+            "(今は無理だ。)"
+        ],
+        "jp_clean": [
+            "(今はだめだ。)",
+            "(今は無理だ。)"
+        ]
+    },
+    {
+        "en_raw": "Ohoho! You guys look thick as thieves as usual. Are you on a secret quest again?",
+        "en_clean": "Ohoho! You guys look thick as thieves as usual. Are you on a secret quest again?",
+        "jp_raw": "\\m[vi]ははっ！\\!\\ きみたち、いつものことだけど、まるで泥棒みたいだ。\\!また秘密のクエスト？",
+        "jp_clean": "ははっ！ きみたち、いつものことだけど、まるで泥棒みたいだ。また秘密のクエスト？"
+    },
+    {
+        "en_raw": "Indeed we are.",
+        "en_clean": "Indeed we are.",
+        "jp_raw": "\\m[vo]そのとおりだ。",
+        "jp_clean": "そのとおりだ。"
+    },
+    {
+        "en_raw": "Good for you. Nothing like a secret quest to make life worth living.",
+        "en_clean": "Good for you. Nothing like a secret quest to make life worth living.",
+        "jp_raw": "\\m[vi]いいじゃないか。\\!秘密のクエストは生きる活力になるからね。",
+        "jp_clean": "いいじゃないか。秘密のクエストは生きる活力になるからね。"
+    },
+    {
+        "en_raw": "Ah, I'm so jealous... I'd love to go on a secret quest, too...",
+        "en_clean": "Ah, I'm so jealous... I'd love to go on a secret quest, too...",
+        "jp_raw": "うらやましいなあ...\\!\\ 俺も秘密のクエストに行きたいよ...",
+        "jp_clean": "うらやましいなあ... 俺も秘密のクエストに行きたいよ..."
+    },
+    {
+        "en_raw": "Let's go on a secret quest before we part ways, yeah?",
+        "en_clean": "Let's go on a secret quest before we part ways, yeah?",
+        "jp_raw": "離れ離れになる前に、みんなでやってみないか？",
+        "jp_clean": "離れ離れになる前に、みんなでやってみないか？"
+    },
+    {
+        "en_raw": "Oh, I'd love to. A secret quest with you could be fun, Isabeau.",
+        "en_clean": "Oh, I'd love to. A secret quest with you could be fun, Isabeau.",
+        "jp_raw": "\\m[vo]いい考えだ。\\!イザボーと一緒なら、楽しくなりそうだな。",
+        "jp_clean": "いい考えだ。イザボーと一緒なら、楽しくなりそうだな。"
+    },
+    {
+        "en_raw": "Huh?",
+        "en_clean": "Huh?",
+        "jp_raw": [
+            "\\m[vb]へ？",
+            "\\m[vi]え？",
+            "\\m[vm]ん？",
+            "えっ？",
+            "\\>えっ？\\<\\^",
+            "\\m[vi]えっ？\\!\\m[wait]\\^",
+            "\\m[vl]えっ？"
+        ],
+        "jp_clean": [
+            "へ？",
+            "え？",
+            "ん？",
+            "えっ？",
+            "えっ？",
+            "えっ？",
+            "えっ？"
+        ]
+    },
+    {
+        "en_raw": "OH, WITH YOU, M'DAME ODILE!!!",
+        "en_clean": "OH, WITH YOU, M'DAME ODILE!!!",
+        "jp_raw": "ああ、そうそう！ オディールと一緒にね！！！",
+        "jp_clean": "ああ、そうそう！ オディールと一緒にね！！！"
+    },
+    {
+        "en_raw": "Yes!!! That's exactly what I meant!!! I definitely meant going on a secret quest with you, because you are also standing right here. Yes.",
+        "en_clean": "Yes!!! That's exactly what I meant!!! I definitely meant going on a secret quest with you, because you are also standing right here. Yes.",
+        "jp_raw": "そう！！！\\!\\ そう言いたかったんだ！！！\\!\\ 秘密のクエストに誘ったのはオディールだよ。\\!だって、ここにいるんだから。\\!うん。",
+        "jp_clean": "そう！！！ そう言いたかったんだ！！！ 秘密のクエストに誘ったのはオディールだよ。だって、ここにいるんだから。うん。"
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Please don't look at me.",
+        "en_clean": "Please don't look at me.",
+        "jp_raw": "こっちを見ないでくれ。",
+        "jp_clean": "こっちを見ないでくれ。"
+    },
+    {
+        "en_raw": "Uh HUH.",
+        "en_clean": "Uh HUH.",
+        "jp_raw": "\\m[vo]ふうん。",
+        "jp_clean": "ふうん。"
+    },
+    {
+        "en_raw": "Have fun, you two!",
+        "en_clean": "Have fun, you two!",
+        "jp_raw": "\\m[vi]2人とも、楽しんできて！",
+        "jp_clean": "2人とも、楽しんできて！"
+    },
+    {
+        "en_raw": "Hello--",
+        "en_clean": "Hello--",
+        "jp_raw": "\\m[vwoman]\\n<\\v[46]>どうも――",
+        "jp_clean": "どうも――"
+    },
+    {
+        "en_raw": "Hello, nice to talk to you, goodbye.",
+        "en_clean": "Hello, nice to talk to you, goodbye.",
+        "jp_raw": "\\m[vo]どうも、お話しできてよかった。\\!ごきげんよう。",
+        "jp_clean": "どうも、お話しできてよかった。ごきげんよう。"
+    },
+    {
+        "en_raw": "Oh... Goodbye.",
+        "en_clean": "Oh... Goodbye.",
+        "jp_raw": "\\m[vwoman]\\n<\\v[46]>おやまあ...\\!\\ ごきげんよう。",
+        "jp_clean": "おやまあ... ごきげんよう。"
+    },
+    {
+        "en_raw": "The Favor Tree, huh...",
+        "en_clean": "The Favor Tree, huh...",
+        "jp_raw": "\\m[vo]願いの木、か...",
+        "jp_clean": "願いの木、か..."
+    },
+    {
+        "en_raw": "Quite an interesting tradition, isn't it?",
+        "en_clean": "Quite an interesting tradition, isn't it?",
+        "jp_raw": "興味深い習わしだと思わないか？",
+        "jp_clean": "興味深い習わしだと思わないか？"
+    },
+    {
+        "en_raw": "(You shrug.)",
+        "en_clean": "(You shrug.)",
+        "jp_raw": [
+            "\\m[clear](僕は肩をすくめる。)",
+            "(僕は肩をすくめた。)"
+        ],
+        "jp_clean": [
+            "(僕は肩をすくめる。)",
+            "(僕は肩をすくめた。)"
+        ]
+    },
+    {
+        "en_raw": "Piou piou.",
+        "en_clean": "Piou piou.",
+        "jp_raw": "\\m[vo]ピヨピヨ。",
+        "jp_clean": "ピヨピヨ。"
+    },
+    {
+        "en_raw": "(?!??!)",
+        "en_clean": "(?!??!)",
+        "jp_raw": "\\m[clear](？！？？！)",
+        "jp_clean": "(？！？？！)"
+    },
+    {
+        "en_raw": "There's no need to go here right now, is there?",
+        "en_clean": "There's no need to go here right now, is there?",
+        "jp_raw": "\\m[vo]今そこに行く必要はないだろう？",
+        "jp_clean": "今そこに行く必要はないだろう？"
+    },
+    {
+        "en_raw": "(Apparently not.)",
+        "en_clean": "(Apparently not.)",
+        "jp_raw": "\\m[clear](確かにそうだ。)",
+        "jp_clean": "(確かにそうだ。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
     }
-}
+]

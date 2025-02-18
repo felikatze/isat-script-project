@@ -1,8 +1,14 @@
 import bs4, json, os, re
-from alive_progress import alive_bar
+from alive_progress import alive_bar # pip install alive-progress
 
 # pages on the site to ignore and not search through
 ignored_pages = re.compile(r"(about|index|not_found|portraits|test|thanks|(overview|sasasap)\/[\w-]*)\.html")
+
+def write_json_to_file(path: str, data):
+    with open(path, "wb") as file:
+        file.write(json.dumps(data, indent=4, ensure_ascii=False).encode("utf8"))
+
+
 
 def generate_filelist() -> list[str]:
     print("generating filelist")
@@ -80,8 +86,7 @@ def clean_game_lines():
             line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
             game_lines.append(line)
     
-    with open("game_lines.json", "wb") as file:
-        file.write(json.dumps(game_lines, indent=4, ensure_ascii=False).encode("utf8"))
+    write_json_to_file("game_lines.json", game_lines)
 
 def clean_site_lines():
     with open("raw_site_lines.json", encoding="utf-8") as file:
@@ -97,10 +102,10 @@ def clean_site_lines():
                     line["dialogue_clean"] = re.sub(newline_pattern, '', line["dialogue"])
                     line["dialogue_clean"] = re.sub(tag_pattern, '', line["dialogue_clean"])
                 except KeyError:
-                    continue
+                    line["dialogue"] = ""
+                    line["dialogue_clean"] = ""
                     
-    with open("site_lines.json", "wb") as file:
-        file.write(json.dumps(site_lines_file, indent=4, ensure_ascii=False).encode("utf8"))
+    write_json_to_file("site_lines.json", site_lines_file)
         
 def associate_lines():
     with open("game_lines.json", encoding="utf-8") as file:
@@ -158,27 +163,60 @@ def associate_lines():
                 total_matches[page]["matches"] = matches
                 total_matches[page]["no_matches"] = no_matches
     
-    with open("line_associations.json", "wb") as file:
-        file.write(json.dumps(total_matches, indent=4, ensure_ascii=False).encode("utf8"))
+    write_json_to_file("line_associations.json", total_matches)
         
-def grab_specific_page_line_associations(page_path: str):
-    with open("line_associations.json", encoding="utf-8") as file:
-        all_lines: dict[str, dict] = json.load(file)
-        
-    page_lines = all_lines[page_path]
+def associate_lines_for_page(page_path: str):
+    with open("game_lines.json", encoding="utf-8") as file:
+        game_lines: list[dict[str, str]] = json.load(file)
     
-    with open("line_associations/" + page_path.removesuffix(".html").replace("/", "_") + ".json", "wb+") as file:
-        file.write(json.dumps(page_lines, indent=4, ensure_ascii=False).encode("utf8"))
+    with open("site_lines.json", encoding="utf-8") as file:
+        site_lines: dict[str, list[dict[str, str]]] = json.load(file)
         
+    lines = site_lines[page_path]
+    
+    """
+    thing = [
+        {
+            "en_raw": "original site line",
+            "en_clean": "cleaned up site line",
+            "jp_raw": "original japanese game line" OR ["list of all original japanese game line matches"],
+            "jp_clean": "cleaned up japanese game line" OR ["list of all cleaned up japanese game line matches"]
+        }
+    ]
+    """
+        
+    data = [{"en_raw": line["dialogue"], "en_clean": line["dialogue_clean"]} for line in lines]
+    
+    for line in data:
+        en_clean = line["en_clean"]
+        matches = []
+        if en_clean:
+            for test_game_line in game_lines:
+                if en_clean == test_game_line["en"]:
+                    matches.append((test_game_line["og_jp"], test_game_line["jp"]))
+        if matches:
+            if len(matches) == 1:
+                line["jp_raw"] = matches[0][0]
+                line["jp_clean"] = matches[0][1]
+            else:
+                line["jp_raw"] = [match[0] for match in matches]
+                line["jp_clean"] = [match[1] for match in matches]
+        else:
+            line["jp_raw"] = None
+            line["jp_clean"] = None
+            
+    write_json_to_file("line_associations/" + page_path.removesuffix(".html").replace("/", "_") + ".json", data)
+    
 def generate_page_line_associations():
-    
     filelist = []
     for file in generate_filelist():
         file = file.removeprefix("public\\").replace("\\", "/")
         if not re.match(ignored_pages, file):
             filelist.append(file)
     
-    for file in filelist:
-        grab_specific_page_line_associations(file)
-        
+    with alive_bar(len(filelist)) as bar:
+        for file in filelist:
+            associate_lines_for_page(file)
+            bar()
+            
 generate_page_line_associations()

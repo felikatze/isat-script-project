@@ -1,181 +1,68 @@
-{
-    "matches": {
-        "(A letter is laying on the barrel.)": [
-            {
-                "clean": "(A letter is laying on the barrel.)",
-                "site": {
-                    "raw": "(A letter is laying on the barrel.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[clear](A letter is laying on the barrel.)",
-                    "jp": "(タルの上に手紙が置かれている。)",
-                    "jp_raw": "\\m[clear](タルの上に手紙が置かれている。)",
-                    "index": 6218
-                }
-            }
-        ],
-        "(There seems to be something inside...)": [
-            {
-                "clean": "(There seems to be something inside...)",
-                "site": {
-                    "raw": "(There seems to be something inside...)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 1
-                },
-                "game": {
-                    "en_raw": "(There seems to be something inside...)",
-                    "jp": "(中に何か入っているみたいだ...)",
-                    "jp_raw": "(中に何か入っているみたいだ...)",
-                    "index": 6219
-                }
-            }
-        ],
-        "(...You can only describe the item inside the letter as... A long thingy-thing.)": [
-            {
-                "clean": "(...You can only describe the item inside the letter as... A long thingy-thing.)",
-                "site": {
-                    "raw": "(...You can only describe the item inside the letter as... A long thingy-thing.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 2
-                },
-                "game": {
-                    "en_raw": "(...\\!You can only describe the item inside the letter as...\\!\\ A long thingy-thing.)",
-                    "jp": "(...手紙の中に入っているのは... 長いナニカとしか言いようがない。)",
-                    "jp_raw": "(...\\!手紙の中に入っているのは...\\!\\ 長いナニカとしか言いようがない。)",
-                    "index": 6221
-                }
-            }
-        ],
-        "(The long thingy-thing is inside.)": [
-            {
-                "clean": "(The long thingy-thing is inside.)",
-                "site": {
-                    "raw": "(The long thingy-thing is inside.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "(The long thingy-thing is inside.)",
-                    "jp": "(中に長いナニカが入っている。)",
-                    "jp_raw": "(中に長いナニカが入っている。)",
-                    "index": 6222
-                }
-            }
-        ],
-        "(You got the LONG THINGY-THING!)": [
-            {
-                "clean": "(You got the LONG THINGY-THING!)",
-                "site": {
-                    "raw": "(You got the LONG THINGY-THING!)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the LONG THINGY-THING!)",
-                    "jp": "(「長いナニカ」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「長いナニカ」を手に入れた！)",
-                    "index": 6223
-                }
-            }
-        ],
-        "(You put the thingy-thing in your pocket along with your Souvenirs.)": [
-            {
-                "clean": "(You put the thingy-thing in your pocket along with your Souvenirs.)",
-                "site": {
-                    "raw": "(You put the thingy-thing in your pocket along with your Souvenirs.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 5
-                },
-                "game": {
-                    "en_raw": "(You put the thingy-thing in your pocket along with your Souvenirs.)",
-                    "jp": "(ポケットの「思い出の品」に入れておこう。)",
-                    "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-                    "index": 6224
-                }
-            }
-        ],
-        "(Maybe it'll be useful later...?)": [
-            {
-                "clean": "(Maybe it'll be useful later...?)",
-                "site": {
-                    "raw": "(Maybe it'll be useful later...?)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "(Maybe it'll be useful later...?)",
-                    "jp": "(そのうち使えるときがくるかも？)",
-                    "jp_raw": "(そのうち使えるときがくるかも？)",
-                    "index": 6225
-                }
-            }
-        ],
-        "(Don't you need this to make a bomb...?)": [
-            {
-                "clean": "(Don't you need this to make a bomb...?)",
-                "site": {
-                    "raw": "(Don't you need this to make a bomb...?)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "(Don't you need this to make a bomb...?)",
-                    "jp": "(これがないと爆弾を作れないんだよな？)",
-                    "jp_raw": "(これがないと爆弾を作れないんだよな？)",
-                    "index": 6226
-                }
-            }
-        ],
-        "(It's a barrel.)": [
-            {
-                "clean": "(It's a barrel.)",
-                "site": {
-                    "raw": "(It's a barrel.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](It's a barrel.)",
-                    "jp": "(タルだな。)",
-                    "jp_raw": "\\m[clear](タルだな。)",
-                    "index": 4123
-                }
-            }
-        ],
-        "(Spices and other ingredients.)": [
-            {
-                "clean": "(Spices and other ingredients.)",
-                "site": {
-                    "raw": "(Spices and other ingredients.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Spices and other ingredients.)",
-                    "jp": "(スパイスやその他の食材がある。)",
-                    "jp_raw": "\\m[clear](スパイスやその他の食材がある。)",
-                    "index": 6228
-                }
-            }
-        ],
-        "(Some old architecture plans.)": [
-            {
-                "clean": "(Some old architecture plans.)",
-                "site": {
-                    "raw": "(Some old architecture plans.)",
-                    "page": "rooms/dormont/thingyhouse.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some old architecture plans.)",
-                    "jp": "(古い建築設計図だ。)",
-                    "jp_raw": "\\m[clear](古い建築設計図だ。)",
-                    "index": 6227
-                }
-            }
-        ]
+[
+    {
+        "en_raw": "(A letter is laying on the barrel.)",
+        "en_clean": "(A letter is laying on the barrel.)",
+        "jp_raw": "\\m[clear](タルの上に手紙が置かれている。)",
+        "jp_clean": "(タルの上に手紙が置かれている。)"
     },
-    "no_matches": {}
-}
+    {
+        "en_raw": "(There seems to be something inside...)",
+        "en_clean": "(There seems to be something inside...)",
+        "jp_raw": "(中に何か入っているみたいだ...)",
+        "jp_clean": "(中に何か入っているみたいだ...)"
+    },
+    {
+        "en_raw": "(...You can only describe the item inside the letter as... A long thingy-thing.)",
+        "en_clean": "(...You can only describe the item inside the letter as... A long thingy-thing.)",
+        "jp_raw": "(...\\!手紙の中に入っているのは...\\!\\ 長いナニカとしか言いようがない。)",
+        "jp_clean": "(...手紙の中に入っているのは... 長いナニカとしか言いようがない。)"
+    },
+    {
+        "en_raw": "(The long thingy-thing is inside.)",
+        "en_clean": "(The long thingy-thing is inside.)",
+        "jp_raw": "(中に長いナニカが入っている。)",
+        "jp_clean": "(中に長いナニカが入っている。)"
+    },
+    {
+        "en_raw": "(You got the LONG THINGY-THING!)",
+        "en_clean": "(You got the LONG THINGY-THING!)",
+        "jp_raw": "\\m[clear](「長いナニカ」を手に入れた！)",
+        "jp_clean": "(「長いナニカ」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You put the thingy-thing in your pocket along with your Souvenirs.)",
+        "en_clean": "(You put the thingy-thing in your pocket along with your Souvenirs.)",
+        "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+    },
+    {
+        "en_raw": "(Maybe it'll be useful later...?)",
+        "en_clean": "(Maybe it'll be useful later...?)",
+        "jp_raw": "(そのうち使えるときがくるかも？)",
+        "jp_clean": "(そのうち使えるときがくるかも？)"
+    },
+    {
+        "en_raw": "(Don't you need this to make a bomb...?)",
+        "en_clean": "(Don't you need this to make a bomb...?)",
+        "jp_raw": "(これがないと爆弾を作れないんだよな？)",
+        "jp_clean": "(これがないと爆弾を作れないんだよな？)"
+    },
+    {
+        "en_raw": "(It's a barrel.)",
+        "en_clean": "(It's a barrel.)",
+        "jp_raw": "\\m[clear](タルだな。)",
+        "jp_clean": "(タルだな。)"
+    },
+    {
+        "en_raw": "(Spices and other ingredients.)",
+        "en_clean": "(Spices and other ingredients.)",
+        "jp_raw": "\\m[clear](スパイスやその他の食材がある。)",
+        "jp_clean": "(スパイスやその他の食材がある。)"
+    },
+    {
+        "en_raw": "(Some old architecture plans.)",
+        "en_clean": "(Some old architecture plans.)",
+        "jp_raw": "\\m[clear](古い建築設計図だ。)",
+        "jp_clean": "(古い建築設計図だ。)"
+    }
+]

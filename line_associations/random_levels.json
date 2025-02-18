@@ -1,704 +1,368 @@
-{
-    "matches": {
-        "(Mirabelle just learned a new skill...)": [
-            {
-                "clean": "(Mirabelle just learned a new skill...)",
-                "site": {
-                    "raw": "(Mirabelle just learned a new skill...)",
-                    "page": "random/levels.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Mirabelle just learned a new skill...)",
-                    "jp": "(ミラベルが新しいスキルを習得した...)",
-                    "jp_raw": "\\m[clear](ミラベルが新しいスキルを習得した...)",
-                    "index": 13917
-                }
-            }
-        ],
-        "(You got the MEMORY OF LOVELY MOVING CURE!)": [
-            {
-                "clean": "(You got the MEMORY OF LOVELY MOVING CURE!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF LOVELY MOVING CURE!)",
-                    "page": "random/levels.html",
-                    "index": 2
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF LOVELY MOVING CURE!)",
-                    "jp": "(「ラブリームービングキュアの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「ラブリームービングキュアの記憶」を手に入れた！)",
-                    "index": 13919
-                }
-            }
-        ],
-        "(You'll always remember this.)": [
-            {
-                "clean": "(You'll always remember this.)",
-                "site": {
-                    "raw": "(You'll always remember this.)",
-                    "page": "random/levels.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "(You'll always remember this.)",
-                    "jp": "(これはいつでも思い出せる記憶だ。)",
-                    "jp_raw": "(これはいつでも思い出せる記憶だ。)",
-                    "index": 973
-                }
-            }
-        ],
-        "[When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]": [
-            {
-                "clean": "[When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]",
-                "site": {
-                    "raw": "[When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]",
-                    "page": "random/levels.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]\\m[rb]",
-                    "jp": "[「ラブリームービングキュアの記憶」を装備すると、侍祭君のレベルが47に達していなくても、ラブリームービングキュアを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「ラブリームービングキュアの記憶」を装備すると、侍祭君のレベルが47に達していなくても、ラブリームービングキュアを使用できる。]\\m[rb]",
-                    "index": 13920
-                }
-            }
-        ],
-        "(You got the MEMORY OF SHINING LIFE!)": [
-            {
-                "clean": "(You got the MEMORY OF SHINING LIFE!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF SHINING LIFE!)",
-                    "page": "random/levels.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF SHINING LIFE!)",
-                    "jp": "(「シャイニングライフの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「シャイニングライフの記憶」を手に入れた！)",
-                    "index": 13922
-                }
-            }
-        ],
-        "[When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]": [
-            {
-                "clean": "[When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]",
-                "site": {
-                    "raw": "[When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]",
-                    "page": "random/levels.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]\\m[rb]",
-                    "jp": "[「シャイニングライフの記憶」を装備すると、侍祭君のレベルが50に達していなくても、シャイニングライフを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「シャイニングライフの記憶」を装備すると、侍祭君のレベルが50に達していなくても、シャイニングライフを使用できる。]\\m[rb]",
-                    "index": 13923
-                }
-            }
-        ],
-        "(You got the MEMORY OF MEGA SPARKLE HEAL!)": [
-            {
-                "clean": "(You got the MEMORY OF MEGA SPARKLE HEAL!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF MEGA SPARKLE HEAL!)",
-                    "page": "random/levels.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF MEGA SPARKLE HEAL!)",
-                    "jp": "(「メガスパークルヒールの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「メガスパークルヒールの記憶」を手に入れた！)",
-                    "index": 13925
-                }
-            }
-        ],
-        "[When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]": [
-            {
-                "clean": "[When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]",
-                "site": {
-                    "raw": "[When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]",
-                    "page": "random/levels.html",
-                    "index": 12
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]",
-                    "jp": "[「メガスパークルヒールの記憶」を装備すると、侍祭君のレベルが52に達していなくても、メガスパークルヒールを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「メガスパークルヒールの記憶」を装備すると、侍祭君のレベルが52に達していなくても、メガスパークルヒールを使用できる。]\\m[rb]",
-                    "index": 13926
-                }
-            }
-        ],
-        "[This is also the last skill your Housemaiden will be able to learn by leveling up. Don't push her too hard, stardust!]": [
-            {
-                "clean": "[This is also the last skill your Housemaiden will be able to learn by leveling up. Don't push her too hard, stardust!]",
-                "site": {
-                    "raw": "[This is also the last skill your Housemaiden will be able to learn by leveling up. Don't push her too hard, stardust!]",
-                    "page": "random/levels.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][This is also the last skill your Housemaiden will be able to learn by leveling up.\\!\\ Don't push her too hard, stardust!]\\m[rb]",
-                    "jp": "[これは、レベルアップで侍祭君が習得できる最後のスキルでもある。侍祭君にあまり無理させないようにね、星くず君！]",
-                    "jp_raw": "\\m[vtuto][これは、レベルアップで侍祭君が習得できる最後のスキルでもある。\\!侍祭君にあまり無理させないようにね、星くず君！]\\m[rb]",
-                    "index": 13928
-                }
-            }
-        ],
-        "(Isabeau just learned a new skill...)": [
-            {
-                "clean": "(Isabeau just learned a new skill...)",
-                "site": {
-                    "raw": "(Isabeau just learned a new skill...)",
-                    "page": "random/levels.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Isabeau just learned a new skill...)",
-                    "jp": "(イザボーが新しいスキルを習得した...)",
-                    "jp_raw": "\\m[clear](イザボーが新しいスキルを習得した...)",
-                    "index": 13929
-                }
-            }
-        ],
-        "Fufufu... I have gotten stronger.": [
-            {
-                "clean": "Fufufu... I have gotten stronger.",
-                "site": {
-                    "raw": "Fufufu... I have gotten stronger.",
-                    "page": "random/levels.html",
-                    "index": 16
-                },
-                "game": {
-                    "en_raw": "\\m[vi]Fufufu...\\!\\ I have gotten stronger.",
-                    "jp": "ふっふっふ... もっと強くなったぜ。",
-                    "jp_raw": "\\m[vi]ふっふっふ...\\!\\ もっと強くなったぜ。",
-                    "index": 13930
-                }
-            }
-        ],
-        "(You got the MEMORY OF SO WEAK!!!!)": [
-            {
-                "clean": "(You got the MEMORY OF SO WEAK!!!!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF SO WEAK!!!!)",
-                    "page": "random/levels.html",
-                    "index": 17
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF SO WEAK!!!!)",
-                    "jp": "(「貧弱ゥ！の記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「貧弱ゥ！の記憶」を手に入れた！)",
-                    "index": 13931
-                }
-            }
-        ],
-        "[When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]": [
-            {
-                "clean": "[When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]",
-                "site": {
-                    "raw": "[When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]",
-                    "page": "random/levels.html",
-                    "index": 19
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]\\m[rb]",
-                    "jp": "[「貧弱ゥ！の記憶」を装備すると、戦士君のレベルが46に達していなくても、貧弱ゥ！を使用できる。]",
-                    "jp_raw": "\\m[vtuto][「貧弱ゥ！の記憶」を装備すると、戦士君のレベルが46に達していなくても、貧弱ゥ！を使用できる。]\\m[rb]",
-                    "index": 13932
-                }
-            }
-        ],
-        "[SO WEAK!!! is a skill that lowers one enemy's ATTACK!]": [
-            {
-                "clean": "[SO WEAK!!! is a skill that lowers one enemy's ATTACK!]",
-                "site": {
-                    "raw": "[SO WEAK!!! is a skill that lowers one enemy's ATTACK!]",
-                    "page": "random/levels.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][SO WEAK!!! is a skill that lowers one enemy's \\i[50]ATTACK!]\\m[rb]",
-                    "jp": "[貧弱ゥ！は敵1体の攻撃力を低下させるスキルだ！]",
-                    "jp_raw": "\\m[vtuto][貧弱ゥ！は敵1体の\\i[50]攻撃力を低下させるスキルだ！]\\m[rb]",
-                    "index": 13933
-                }
-            }
-        ],
-        "(You got the MEMORY OF BREAK, BREAK!!!)": [
-            {
-                "clean": "(You got the MEMORY OF BREAK, BREAK!!!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF BREAK, BREAK!!!)",
-                    "page": "random/levels.html",
-                    "index": 21
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF BREAK, BREAK!!!)",
-                    "jp": "(「ガードブレイク！の記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「ガードブレイク！の記憶」を手に入れた！)",
-                    "index": 13934
-                }
-            }
-        ],
-        "[When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]": [
-            {
-                "clean": "[When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]",
-                "site": {
-                    "raw": "[When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]",
-                    "page": "random/levels.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]\\m[rb]",
-                    "jp": "[「ガードブレイク！の記憶」を装備すると、戦士君のレベルが49に達していなくても、ガードブレイク！を使用できる。]",
-                    "jp_raw": "\\m[vtuto][「ガードブレイク！の記憶」を装備すると、戦士君のレベルが49に達していなくても、ガードブレイク！を使用できる。]\\m[rb]",
-                    "index": 13935
-                }
-            }
-        ],
-        "[BREAK, BREAK!!! is a skill that lowers one enemy's DEFENSE!]": [
-            {
-                "clean": "[BREAK, BREAK!!! is a skill that lowers one enemy's DEFENSE!]",
-                "site": {
-                    "raw": "[BREAK, BREAK!!! is a skill that lowers one enemy's DEFENSE!]",
-                    "page": "random/levels.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][BREAK, BREAK!!! is a skill that lowers one enemy's \\i[51]DEFENSE!]\\m[rb]",
-                    "jp": "[ガードブレイク！は敵1体の防御力を低下させるスキルだ！]",
-                    "jp_raw": "\\m[vtuto][ガードブレイク！は敵1体の\\i[51]防御力を低下させるスキルだ！]\\m[rb]",
-                    "index": 13936
-                }
-            }
-        ],
-        "(You got the MEMORY OF NOT OVER YET!!!!)": [
-            {
-                "clean": "(You got the MEMORY OF NOT OVER YET!!!!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF NOT OVER YET!!!!)",
-                    "page": "random/levels.html",
-                    "index": 25
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF NOT OVER YET!!!!)",
-                    "jp": "(「まだまだァ！の記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「まだまだァ！の記憶」を手に入れた！)",
-                    "index": 13937
-                }
-            }
-        ],
-        "[When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]": [
-            {
-                "clean": "[When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]",
-                "site": {
-                    "raw": "[When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]",
-                    "page": "random/levels.html",
-                    "index": 27
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]\\m[rb]",
-                    "jp": "[「まだまだァ！の記憶」を装備すると、戦士君のレベルが54に達していなくても、まだまだァ！を使用できる。]",
-                    "jp_raw": "\\m[vtuto][「まだまだァ！の記憶」を装備すると、戦士君のレベルが54に達していなくても、まだまだァ！を使用できる。]\\m[rb]",
-                    "index": 13938
-                }
-            }
-        ],
-        "[This is also the last skill your Fighter will be able to learn by leveling up. Don't push him too hard, stardust!]": [
-            {
-                "clean": "[This is also the last skill your Fighter will be able to learn by leveling up. Don't push him too hard, stardust!]",
-                "site": {
-                    "raw": "[This is also the last skill your Fighter will be able to learn by leveling up. Don't push him too hard, stardust!]",
-                    "page": "random/levels.html",
-                    "index": 29
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][This is also the last skill your Fighter will be able to learn by leveling up.\\!\\ Don't push him too hard, stardust!]\\m[rb]",
-                    "jp": "[これは、レベルアップで戦士君が習得できる最後のスキルでもある。戦士君にあまり無理させないようにね、星くず君！]",
-                    "jp_raw": "\\m[vtuto][これは、レベルアップで戦士君が習得できる最後のスキルでもある。\\!戦士君にあまり無理させないようにね、星くず君！]\\m[rb]",
-                    "index": 13940
-                }
-            }
-        ],
-        "(Odile just learned a new skill...)": [
-            {
-                "clean": "(Odile just learned a new skill...)",
-                "site": {
-                    "raw": "(Odile just learned a new skill...)",
-                    "page": "random/levels.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Odile just learned a new skill...)",
-                    "jp": "(オディールが新しいスキルを習得した...)",
-                    "jp_raw": "\\m[clear](オディールが新しいスキルを習得した...)",
-                    "index": 13941
-                }
-            }
-        ],
-        "Huh... I finally figured it out.": [
-            {
-                "clean": "Huh... I finally figured it out.",
-                "site": {
-                    "raw": "Huh... I finally figured it out.",
-                    "page": "random/levels.html",
-                    "index": 31
-                },
-                "game": {
-                    "en_raw": "\\m[vo]Huh...\\!\\ I finally figured it out.",
-                    "jp": "ふむ... ようやく分かったぞ。",
-                    "jp_raw": "\\m[vo]ふむ...\\!\\ ようやく分かったぞ。",
-                    "index": 13942
-                }
-            }
-        ],
-        "(You got the MEMORY OF PAPER α V!)": [
-            {
-                "clean": "(You got the MEMORY OF PAPER α V!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF PAPER α V!)",
-                    "page": "random/levels.html",
-                    "index": 32
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF PAPER α V!)",
-                    "jp": "(「パー α Vの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「パー α Vの記憶」を手に入れた！)",
-                    "index": 13943
-                }
-            }
-        ],
-        "[When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]": [
-            {
-                "clean": "[When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]",
-                "site": {
-                    "raw": "[When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]",
-                    "page": "random/levels.html",
-                    "index": 34
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]\\m[rb]",
-                    "jp": "[「パー α Vの記憶」を装備すると、研究者君のレベルが49に達していなくても、パー α Vを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「パー α Vの記憶」を装備すると、研究者君のレベルが49に達していなくても、パー α Vを使用できる。]\\m[rb]",
-                    "index": 13944
-                }
-            }
-        ],
-        "[Paper α V is a skill that deals BIG PAPER damage to one enemy!]": [
-            {
-                "clean": "[Paper α V is a skill that deals BIG PAPER damage to one enemy!]",
-                "site": {
-                    "raw": "[Paper α V is a skill that deals BIG PAPER damage to one enemy!]",
-                    "page": "random/levels.html",
-                    "index": 35
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][Paper α V is a skill that deals BIG \\i[116]PAPER damage to one enemy!]\\m[rb]",
-                    "jp": "[パー α Vは敵1体に強力なパータイプのダメージを与えるスキルだ！]",
-                    "jp_raw": "\\m[vtuto][パー α Vは敵1体に強力な\\i[116]パータイプのダメージを与えるスキルだ！]\\m[rb]",
-                    "index": 13945
-                }
-            }
-        ],
-        "(You got the MEMORY OF CRAFT BUFF!)": [
-            {
-                "clean": "(You got the MEMORY OF CRAFT BUFF!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF CRAFT BUFF!)",
-                    "page": "random/levels.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF CRAFT BUFF!)",
-                    "jp": "(「クラフトバフの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「クラフトバフの記憶」を手に入れた！)",
-                    "index": 13946
-                }
-            }
-        ],
-        "[When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]": [
-            {
-                "clean": "[When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]",
-                "site": {
-                    "raw": "[When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]",
-                    "page": "random/levels.html",
-                    "index": 38
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]\\m[rb]",
-                    "jp": "[「クラフトバフの記憶」を装備すると、研究者君のレベルが54に達していなくても、クラフトバフを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「クラフトバフの記憶」を装備すると、研究者君のレベルが54に達していなくても、クラフトバフを使用できる。]\\m[rb]",
-                    "index": 13947
-                }
-            }
-        ],
-        "(You got the MEMORY OF CRAFT BREAK!)": [
-            {
-                "clean": "(You got the MEMORY OF CRAFT BREAK!)",
-                "site": {
-                    "raw": "(You got the MEMORY OF CRAFT BREAK!)",
-                    "page": "random/levels.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You got the MEMORY OF CRAFT BREAK!)",
-                    "jp": "(「クラフトブレイクの記憶」を手に入れた！)",
-                    "jp_raw": "\\m[clear](「クラフトブレイクの記憶」を手に入れた！)",
-                    "index": 13949
-                }
-            }
-        ],
-        "[When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]": [
-            {
-                "clean": "[When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]",
-                "site": {
-                    "raw": "[When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]",
-                    "page": "random/levels.html",
-                    "index": 42
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]\\m[rb]",
-                    "jp": "[「クラフトブレイクの記憶」を装備すると、研究者君のレベルが55に達していなくても、クラフトブレイクを使用できる。]",
-                    "jp_raw": "\\m[vtuto][「クラフトブレイクの記憶」を装備すると、研究者君のレベルが55に達していなくても、クラフトブレイクを使用できる。]\\m[rb]",
-                    "index": 13950
-                }
-            }
-        ],
-        "[This is also the last skill your Researcher will be able to learn by leveling up. Don't push her too hard, stardust!]": [
-            {
-                "clean": "[This is also the last skill your Researcher will be able to learn by leveling up. Don't push her too hard, stardust!]",
-                "site": {
-                    "raw": "[This is also the last skill your Researcher will be able to learn by leveling up. Don't push her too hard, stardust!]",
-                    "page": "random/levels.html",
-                    "index": 44
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][This is also the last skill your Researcher will be able to learn by leveling up.\\!\\ Don't push her too hard, stardust!]\\m[rb]",
-                    "jp": "[これは、レベルアップで研究者君が習得できる最後のスキルでもある。研究者君にあまり無理させないようにね、星くず君！]",
-                    "jp_raw": "\\m[vtuto][これは、レベルアップで研究者君が習得できる最後のスキルでもある。\\!<br>研究者君にあまり無理させないようにね、星くず君！]\\m[rb]",
-                    "index": 13952
-                }
-            }
-        ],
-        "[Hey stardust! Loop here!]": [
-            {
-                "clean": "[Hey stardust! Loop here!]",
-                "site": {
-                    "raw": "[Hey stardust! Loop here!]",
-                    "page": "random/levels.html",
-                    "index": 45
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][Hey stardust!\\!\\ Loop here!]\\m[rb]",
-                    "jp": "[やあ、星くず君！ ループだよ！]",
-                    "jp_raw": "\\m[vtuto][やあ、星くず君！\\!\\ ループだよ！]\\m[rb]",
-                    "index": 13953
-                }
-            }
-        ],
-        "[When it comes to experience and levels, this is as far as your Housemaiden can go.]": [
-            {
-                "clean": "[When it comes to experience and levels, this is as far as your Housemaiden can go.]",
-                "site": {
-                    "raw": "[When it comes to experience and levels, this is as far as your Housemaiden can go.]",
-                    "page": "random/levels.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When it comes to experience and levels, this is as far as your Housemaiden can go.]\\m[rb]",
-                    "jp": "[経験値とレベルって点においては、これが侍祭君の最大値だ。]",
-                    "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが侍祭君の最大値だ。]\\m[rb]",
-                    "index": 13954
-                }
-            }
-        ],
-        "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]": [
-            {
-                "clean": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
-                "site": {
-                    "raw": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
-                    "page": "random/levels.html",
-                    "index": 47
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][Good job getting her this far.\\!\\ She's a lot stronger than she was when she entered the House!]\\m[rb]",
-                    "jp": "[ここまで強化するなんて、よくやったな。館に足を踏み入れたときよりも、ずいぶん強くなった！]",
-                    "jp_raw": "\\m[vtuto][ここまで強化するなんて、よくやったな。\\!館に足を踏み入れたときよりも、ずいぶん強くなった！]\\m[rb]",
-                    "index": 13955
-                }
-            }
-        ],
-        "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be scared, knowing how far you pushed her. I dunno!]": [
-            {
-                "clean": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be scared, knowing how far you pushed her. I dunno!]",
-                "site": {
-                    "raw": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be scared, knowing how far you pushed her. I dunno!]",
-                    "page": "random/levels.html",
-                    "index": 48
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][If she knew it was thanks to you, I'm sure she'd say thank you.\\!\\ Or maybe she'd be scared, knowing how far you pushed her.\\!\\ I dunno!]\\m[rb]",
-                    "jp": "[きみのおかげだと知ったら、彼女もきみに感謝するだろう。それとも、怖がるかな。ここまで強くならされるなんて。どっちかな！]",
-                    "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼女もきみに感謝するだろう。\\!それとも、怖がるかな。\\!ここまで強くならされるなんて。\\!どっちかな！]\\m[rb]",
-                    "index": 13956
-                }
-            }
-        ],
-        "[When it comes to experience and levels, this is as far as your Fighter can go.]": [
-            {
-                "clean": "[When it comes to experience and levels, this is as far as your Fighter can go.]",
-                "site": {
-                    "raw": "[When it comes to experience and levels, this is as far as your Fighter can go.]",
-                    "page": "random/levels.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When it comes to experience and levels, this is as far as your Fighter can go.]\\m[rb]",
-                    "jp": "[経験値とレベルって点においては、これが戦士君の最大値だ。]",
-                    "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが戦士君の最大値だ。]\\m[rb]",
-                    "index": 13961
-                }
-            }
-        ],
-        "[Good job getting him this far. He's a lot stronger than he was when he entered the House!]": [
-            {
-                "clean": "[Good job getting him this far. He's a lot stronger than he was when he entered the House!]",
-                "site": {
-                    "raw": "[Good job getting him this far. He's a lot stronger than he was when he entered the House!]",
-                    "page": "random/levels.html",
-                    "index": 51
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][Good job getting him this far.\\!\\ He's a lot stronger than he was when he entered the House!]\\m[rb]",
-                    "jp": "[ここまで強化するなんて、よくやったな。館に足を踏み入れたときよりも、ずいぶん強くなった！]",
-                    "jp_raw": "\\m[vtuto][ここまで強化するなんて、よくやったな。\\!館に足を踏み入れたときよりも、ずいぶん強くなった！]\\m[rb]",
-                    "index": 13962
-                }
-            }
-        ],
-        "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]": [
-            {
-                "clean": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
-                "site": {
-                    "raw": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
-                    "page": "random/levels.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][If he knew it was thanks to you, I'm sure he'd say thank you.\\!\\ Or maybe he'd be disgusted, knowing his only worth to you is how strong he is.\\!\\ I dunno!]\\m[rb]",
-                    "jp": "[きみのおかげだと知ったら、彼もきみに感謝するだろう。それとも、嫌になるかな。彼の強さだけがきみにとって価値あることだと知ったらね。どっちかな！]",
-                    "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼もきみに感謝するだろう。\\!それとも、嫌になるかな。\\!彼の強さだけがきみにとって価値あることだと知ったらね。\\!どっちかな！]\\m[rb]",
-                    "index": 13958
-                }
-            }
-        ],
-        "[And your Fighter too is maxed out!]": [
-            {
-                "clean": "[And your Fighter too is maxed out!]",
-                "site": {
-                    "raw": "[And your Fighter too is maxed out!]",
-                    "page": "random/levels.html",
-                    "index": 53
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][And your Fighter too is maxed out!]\\m[rb]",
-                    "jp": "[戦士君もここがピークだ！]",
-                    "jp_raw": "\\m[vtuto][戦士君もここがピークだ！]\\m[rb]",
-                    "index": 13957
-                }
-            }
-        ],
-        "[When it comes to experience and levels, this is as far as your Researcher can go.]": [
-            {
-                "clean": "[When it comes to experience and levels, this is as far as your Researcher can go.]",
-                "site": {
-                    "raw": "[When it comes to experience and levels, this is as far as your Researcher can go.]",
-                    "page": "random/levels.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][When it comes to experience and levels, this is as far as your Researcher can go.]\\m[rb]",
-                    "jp": "[経験値とレベルって点においては、これが研究者君の最大値だ。]",
-                    "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが研究者君の最大値だ。]\\m[rb]",
-                    "index": 13963
-                }
-            }
-        ],
-        "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]": [
-            {
-                "clean": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
-                "site": {
-                    "raw": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
-                    "page": "random/levels.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][If she knew it was thanks to you, I'm sure she'd say thank you.\\!\\ Or maybe she'd be angry, knowing you broke rules to make her this strong.\\!\\ I dunno!]\\m[rb]",
-                    "jp": "[きみのおかげだと知ったら、彼女もきみに感謝するだろう。それとも、起こるかも。ルールを破って彼女を強化したんだと知ったらね。どっちかな！]",
-                    "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼女もきみに感謝するだろう。\\!それとも、起こるかも。\\!ルールを破って彼女を強化したんだと知ったらね。\\!どっちかな！]\\m[rb]",
-                    "index": 13960
-                }
-            }
-        ],
-        "[And your Researcher too!]": [
-            {
-                "clean": "[And your Researcher too!]",
-                "site": {
-                    "raw": "[And your Researcher too!]",
-                    "page": "random/levels.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vtuto][And your Researcher too!]\\m[rb]",
-                    "jp": "[研究者君もだ！]",
-                    "jp_raw": "\\m[vtuto][研究者君もだ！]\\m[rb]",
-                    "index": 13959
-                }
-            }
-        ]
+[
+    {
+        "en_raw": "(Mirabelle just learned a new skill...)",
+        "en_clean": "(Mirabelle just learned a new skill...)",
+        "jp_raw": "\\m[clear](ミラベルが新しいスキルを習得した...)",
+        "jp_clean": "(ミラベルが新しいスキルを習得した...)"
     },
-    "no_matches": {
-        "Oh, thank Change... I'll be able to help out more!": {
-            "clean": "Oh, thank Change... I'll be able to help out more!",
-            "raw": "Oh, thank Change... I'll be able to help out more!",
-            "page": "random/levels.html",
-            "index": 1
-        },
-        "[LOVELY MOVING CURE is a skill that cures FROZEN for one [friend/ally/family member]! It's VERY USEFUL that she knows this!]": {
-            "clean": "[LOVELY MOVING CURE is a skill that cures FROZEN for one [friend/ally/family member]! It's VERY USEFUL that she knows this!]",
-            "raw": "[LOVELY MOVING CURE is a skill that cures FROZEN for one [friend/ally/family member]! It's VERY USEFUL that she knows this!]",
-            "page": "random/levels.html",
-            "index": 5
-        },
-        "[Shining Life is a skill that revives a K.O.'d [friend/ally/family member]!]": {
-            "clean": "[Shining Life is a skill that revives a K.O.'d [friend/ally/family member]!]",
-            "raw": "[Shining Life is a skill that revives a K.O.'d [friend/ally/family member]!]",
-            "page": "random/levels.html",
-            "index": 9
-        },
-        "[Mega Sparkle Heal is a skill that heals all [friends/allies/family members] for 80% of their HP!]": {
-            "clean": "[Mega Sparkle Heal is a skill that heals all [friends/allies/family members] for 80% of their HP!]",
-            "raw": "[Mega Sparkle Heal is a skill that heals all [friends/allies/family members] for 80% of their HP!]",
-            "page": "random/levels.html",
-            "index": 13
-        },
-        "[NOT OVER YET!!! is a skill that lowers all of [a friend/an ally/a family member]'s Craft Skill COOLDOWNS by 4.]": {
-            "clean": "[NOT OVER YET!!! is a skill that lowers all of [a friend/an ally/a family member]'s Craft Skill COOLDOWNS by 4.]",
-            "raw": "[NOT OVER YET!!! is a skill that lowers all of [a friend/an ally/a family member]'s Craft Skill COOLDOWNS by 4.]",
-            "page": "random/levels.html",
-            "index": 28
-        },
-        "[Craft Buff is a skill that strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns!]": {
-            "clean": "[Craft Buff is a skill that strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns!]",
-            "raw": "[Craft Buff is a skill that strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns!]",
-            "page": "random/levels.html",
-            "index": 39
-        },
-        "[Craft Break is a skill that makes an enemy weaker to a CRAFT type's attacks for a few turns!]": {
-            "clean": "[Craft Break is a skill that makes an enemy weaker to a CRAFT type's attacks for a few turns!]",
-            "raw": "[Craft Break is a skill that makes an enemy weaker to a CRAFT type's attacks for a few turns!]",
-            "page": "random/levels.html",
-            "index": 43
-        }
+    {
+        "en_raw": "Oh, thank Change... I'll be able to help out more!",
+        "en_clean": "Oh, thank Change... I'll be able to help out more!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You got the MEMORY OF LOVELY MOVING CURE!)",
+        "en_clean": "(You got the MEMORY OF LOVELY MOVING CURE!)",
+        "jp_raw": "\\m[clear](「ラブリームービングキュアの記憶」を手に入れた！)",
+        "jp_clean": "(「ラブリームービングキュアの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]",
+        "en_clean": "[When equipped, your Housemaiden will be able to use Lovely Moving Cure as a skill, even if she isn't at level 47.]",
+        "jp_raw": "\\m[vtuto][「ラブリームービングキュアの記憶」を装備すると、侍祭君のレベルが47に達していなくても、ラブリームービングキュアを使用できる。]\\m[rb]",
+        "jp_clean": "[「ラブリームービングキュアの記憶」を装備すると、侍祭君のレベルが47に達していなくても、ラブリームービングキュアを使用できる。]"
+    },
+    {
+        "en_raw": "[LOVELY MOVING CURE is a skill that cures FROZEN for one [friend/ally/family member]! It's VERY USEFUL that she knows this!]",
+        "en_clean": "[LOVELY MOVING CURE is a skill that cures FROZEN for one [friend/ally/family member]! It's VERY USEFUL that she knows this!]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You got the MEMORY OF SHINING LIFE!)",
+        "en_clean": "(You got the MEMORY OF SHINING LIFE!)",
+        "jp_raw": "\\m[clear](「シャイニングライフの記憶」を手に入れた！)",
+        "jp_clean": "(「シャイニングライフの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]",
+        "en_clean": "[When equipped, your Housemaiden will be able to use Shining Life as a skill, even if she isn't at level 50.]",
+        "jp_raw": "\\m[vtuto][「シャイニングライフの記憶」を装備すると、侍祭君のレベルが50に達していなくても、シャイニングライフを使用できる。]\\m[rb]",
+        "jp_clean": "[「シャイニングライフの記憶」を装備すると、侍祭君のレベルが50に達していなくても、シャイニングライフを使用できる。]"
+    },
+    {
+        "en_raw": "[Shining Life is a skill that revives a K.O.'d [friend/ally/family member]!]",
+        "en_clean": "[Shining Life is a skill that revives a K.O.'d [friend/ally/family member]!]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You got the MEMORY OF MEGA SPARKLE HEAL!)",
+        "en_clean": "(You got the MEMORY OF MEGA SPARKLE HEAL!)",
+        "jp_raw": "\\m[clear](「メガスパークルヒールの記憶」を手に入れた！)",
+        "jp_clean": "(「メガスパークルヒールの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]",
+        "en_clean": "[When equipped, your Housemaiden will be able to use Mega Sparkle Heal as a skill, even if she isn't at level 52.]",
+        "jp_raw": "\\m[vtuto][「メガスパークルヒールの記憶」を装備すると、侍祭君のレベルが52に達していなくても、メガスパークルヒールを使用できる。]\\m[rb]",
+        "jp_clean": "[「メガスパークルヒールの記憶」を装備すると、侍祭君のレベルが52に達していなくても、メガスパークルヒールを使用できる。]"
+    },
+    {
+        "en_raw": "[Mega Sparkle Heal is a skill that heals all [friends/allies/family members] for 80% of their HP!]",
+        "en_clean": "[Mega Sparkle Heal is a skill that heals all [friends/allies/family members] for 80% of their HP!]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "[This is also the last skill your Housemaiden will be able to learn by leveling up. Don't push her too hard, stardust!]",
+        "en_clean": "[This is also the last skill your Housemaiden will be able to learn by leveling up. Don't push her too hard, stardust!]",
+        "jp_raw": "\\m[vtuto][これは、レベルアップで侍祭君が習得できる最後のスキルでもある。\\!侍祭君にあまり無理させないようにね、星くず君！]\\m[rb]",
+        "jp_clean": "[これは、レベルアップで侍祭君が習得できる最後のスキルでもある。侍祭君にあまり無理させないようにね、星くず君！]"
+    },
+    {
+        "en_raw": "(Isabeau just learned a new skill...)",
+        "en_clean": "(Isabeau just learned a new skill...)",
+        "jp_raw": "\\m[clear](イザボーが新しいスキルを習得した...)",
+        "jp_clean": "(イザボーが新しいスキルを習得した...)"
+    },
+    {
+        "en_raw": "Fufufu... I have gotten stronger.",
+        "en_clean": "Fufufu... I have gotten stronger.",
+        "jp_raw": "\\m[vi]ふっふっふ...\\!\\ もっと強くなったぜ。",
+        "jp_clean": "ふっふっふ... もっと強くなったぜ。"
+    },
+    {
+        "en_raw": "(You got the MEMORY OF SO WEAK!!!!)",
+        "en_clean": "(You got the MEMORY OF SO WEAK!!!!)",
+        "jp_raw": "\\m[clear](「貧弱ゥ！の記憶」を手に入れた！)",
+        "jp_clean": "(「貧弱ゥ！の記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]",
+        "en_clean": "[When equipped, your Fighter will be able to use SO WEAK!!! as a skill, even if he isn't at level 46.]",
+        "jp_raw": "\\m[vtuto][「貧弱ゥ！の記憶」を装備すると、戦士君のレベルが46に達していなくても、貧弱ゥ！を使用できる。]\\m[rb]",
+        "jp_clean": "[「貧弱ゥ！の記憶」を装備すると、戦士君のレベルが46に達していなくても、貧弱ゥ！を使用できる。]"
+    },
+    {
+        "en_raw": "[SO WEAK!!! is a skill that lowers one enemy's ATTACK!]",
+        "en_clean": "[SO WEAK!!! is a skill that lowers one enemy's ATTACK!]",
+        "jp_raw": "\\m[vtuto][貧弱ゥ！は敵1体の\\i[50]攻撃力を低下させるスキルだ！]\\m[rb]",
+        "jp_clean": "[貧弱ゥ！は敵1体の攻撃力を低下させるスキルだ！]"
+    },
+    {
+        "en_raw": "(You got the MEMORY OF BREAK, BREAK!!!)",
+        "en_clean": "(You got the MEMORY OF BREAK, BREAK!!!)",
+        "jp_raw": "\\m[clear](「ガードブレイク！の記憶」を手に入れた！)",
+        "jp_clean": "(「ガードブレイク！の記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]",
+        "en_clean": "[When equipped, your Fighter will be able to use BREAK, BREAK!!! as a skill, even if he isn't at level 49.]",
+        "jp_raw": "\\m[vtuto][「ガードブレイク！の記憶」を装備すると、戦士君のレベルが49に達していなくても、ガードブレイク！を使用できる。]\\m[rb]",
+        "jp_clean": "[「ガードブレイク！の記憶」を装備すると、戦士君のレベルが49に達していなくても、ガードブレイク！を使用できる。]"
+    },
+    {
+        "en_raw": "[BREAK, BREAK!!! is a skill that lowers one enemy's DEFENSE!]",
+        "en_clean": "[BREAK, BREAK!!! is a skill that lowers one enemy's DEFENSE!]",
+        "jp_raw": "\\m[vtuto][ガードブレイク！は敵1体の\\i[51]防御力を低下させるスキルだ！]\\m[rb]",
+        "jp_clean": "[ガードブレイク！は敵1体の防御力を低下させるスキルだ！]"
+    },
+    {
+        "en_raw": "(You got the MEMORY OF NOT OVER YET!!!!)",
+        "en_clean": "(You got the MEMORY OF NOT OVER YET!!!!)",
+        "jp_raw": "\\m[clear](「まだまだァ！の記憶」を手に入れた！)",
+        "jp_clean": "(「まだまだァ！の記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]",
+        "en_clean": "[When equipped, your Fighter will be able to use NOT OVER YET!!! as a skill, even if he isn't at level 54.]",
+        "jp_raw": "\\m[vtuto][「まだまだァ！の記憶」を装備すると、戦士君のレベルが54に達していなくても、まだまだァ！を使用できる。]\\m[rb]",
+        "jp_clean": "[「まだまだァ！の記憶」を装備すると、戦士君のレベルが54に達していなくても、まだまだァ！を使用できる。]"
+    },
+    {
+        "en_raw": "[NOT OVER YET!!! is a skill that lowers all of [a friend/an ally/a family member]'s Craft Skill COOLDOWNS by 4.]",
+        "en_clean": "[NOT OVER YET!!! is a skill that lowers all of [a friend/an ally/a family member]'s Craft Skill COOLDOWNS by 4.]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "[This is also the last skill your Fighter will be able to learn by leveling up. Don't push him too hard, stardust!]",
+        "en_clean": "[This is also the last skill your Fighter will be able to learn by leveling up. Don't push him too hard, stardust!]",
+        "jp_raw": "\\m[vtuto][これは、レベルアップで戦士君が習得できる最後のスキルでもある。\\!戦士君にあまり無理させないようにね、星くず君！]\\m[rb]",
+        "jp_clean": "[これは、レベルアップで戦士君が習得できる最後のスキルでもある。戦士君にあまり無理させないようにね、星くず君！]"
+    },
+    {
+        "en_raw": "(Odile just learned a new skill...)",
+        "en_clean": "(Odile just learned a new skill...)",
+        "jp_raw": "\\m[clear](オディールが新しいスキルを習得した...)",
+        "jp_clean": "(オディールが新しいスキルを習得した...)"
+    },
+    {
+        "en_raw": "Huh... I finally figured it out.",
+        "en_clean": "Huh... I finally figured it out.",
+        "jp_raw": "\\m[vo]ふむ...\\!\\ ようやく分かったぞ。",
+        "jp_clean": "ふむ... ようやく分かったぞ。"
+    },
+    {
+        "en_raw": "(You got the MEMORY OF PAPER α V!)",
+        "en_clean": "(You got the MEMORY OF PAPER α V!)",
+        "jp_raw": "\\m[clear](「パー α Vの記憶」を手に入れた！)",
+        "jp_clean": "(「パー α Vの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]",
+        "en_clean": "[When equipped, your Researcher will be able to use Paper α V as a skill, even if she isn't at level 49.]",
+        "jp_raw": "\\m[vtuto][「パー α Vの記憶」を装備すると、研究者君のレベルが49に達していなくても、パー α Vを使用できる。]\\m[rb]",
+        "jp_clean": "[「パー α Vの記憶」を装備すると、研究者君のレベルが49に達していなくても、パー α Vを使用できる。]"
+    },
+    {
+        "en_raw": "[Paper α V is a skill that deals BIG PAPER damage to one enemy!]",
+        "en_clean": "[Paper α V is a skill that deals BIG PAPER damage to one enemy!]",
+        "jp_raw": "\\m[vtuto][パー α Vは敵1体に強力な\\i[116]パータイプのダメージを与えるスキルだ！]\\m[rb]",
+        "jp_clean": "[パー α Vは敵1体に強力なパータイプのダメージを与えるスキルだ！]"
+    },
+    {
+        "en_raw": "(You got the MEMORY OF CRAFT BUFF!)",
+        "en_clean": "(You got the MEMORY OF CRAFT BUFF!)",
+        "jp_raw": "\\m[clear](「クラフトバフの記憶」を手に入れた！)",
+        "jp_clean": "(「クラフトバフの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]",
+        "en_clean": "[When equipped, your Researcher will be able to use Craft Buff as a skill, even if she isn't at level 53.]",
+        "jp_raw": "\\m[vtuto][「クラフトバフの記憶」を装備すると、研究者君のレベルが54に達していなくても、クラフトバフを使用できる。]\\m[rb]",
+        "jp_clean": "[「クラフトバフの記憶」を装備すると、研究者君のレベルが54に達していなくても、クラフトバフを使用できる。]"
+    },
+    {
+        "en_raw": "[Craft Buff is a skill that strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns!]",
+        "en_clean": "[Craft Buff is a skill that strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns!]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You got the MEMORY OF CRAFT BREAK!)",
+        "en_clean": "(You got the MEMORY OF CRAFT BREAK!)",
+        "jp_raw": "\\m[clear](「クラフトブレイクの記憶」を手に入れた！)",
+        "jp_clean": "(「クラフトブレイクの記憶」を手に入れた！)"
+    },
+    {
+        "en_raw": "(You'll always remember this.)",
+        "en_clean": "(You'll always remember this.)",
+        "jp_raw": "(これはいつでも思い出せる記憶だ。)",
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+    },
+    {
+        "en_raw": "[When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]",
+        "en_clean": "[When equipped, your Researcher will be able to use Craft Break as a skill, even if she isn't at level 55.]",
+        "jp_raw": "\\m[vtuto][「クラフトブレイクの記憶」を装備すると、研究者君のレベルが55に達していなくても、クラフトブレイクを使用できる。]\\m[rb]",
+        "jp_clean": "[「クラフトブレイクの記憶」を装備すると、研究者君のレベルが55に達していなくても、クラフトブレイクを使用できる。]"
+    },
+    {
+        "en_raw": "[Craft Break is a skill that makes an enemy weaker to a CRAFT type's attacks for a few turns!]",
+        "en_clean": "[Craft Break is a skill that makes an enemy weaker to a CRAFT type's attacks for a few turns!]",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "[This is also the last skill your Researcher will be able to learn by leveling up. Don't push her too hard, stardust!]",
+        "en_clean": "[This is also the last skill your Researcher will be able to learn by leveling up. Don't push her too hard, stardust!]",
+        "jp_raw": "\\m[vtuto][これは、レベルアップで研究者君が習得できる最後のスキルでもある。\\!<br>研究者君にあまり無理させないようにね、星くず君！]\\m[rb]",
+        "jp_clean": "[これは、レベルアップで研究者君が習得できる最後のスキルでもある。研究者君にあまり無理させないようにね、星くず君！]"
+    },
+    {
+        "en_raw": "[Hey stardust! Loop here!]",
+        "en_clean": "[Hey stardust! Loop here!]",
+        "jp_raw": "\\m[vtuto][やあ、星くず君！\\!\\ ループだよ！]\\m[rb]",
+        "jp_clean": "[やあ、星くず君！ ループだよ！]"
+    },
+    {
+        "en_raw": "[When it comes to experience and levels, this is as far as your Housemaiden can go.]",
+        "en_clean": "[When it comes to experience and levels, this is as far as your Housemaiden can go.]",
+        "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが侍祭君の最大値だ。]\\m[rb]",
+        "jp_clean": "[経験値とレベルって点においては、これが侍祭君の最大値だ。]"
+    },
+    {
+        "en_raw": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
+        "en_clean": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
+        "jp_raw": "\\m[vtuto][ここまで強化するなんて、よくやったな。\\!館に足を踏み入れたときよりも、ずいぶん強くなった！]\\m[rb]",
+        "jp_clean": "[ここまで強化するなんて、よくやったな。館に足を踏み入れたときよりも、ずいぶん強くなった！]"
+    },
+    {
+        "en_raw": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be scared, knowing how far you pushed her. I dunno!]",
+        "en_clean": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be scared, knowing how far you pushed her. I dunno!]",
+        "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼女もきみに感謝するだろう。\\!それとも、怖がるかな。\\!ここまで強くならされるなんて。\\!どっちかな！]\\m[rb]",
+        "jp_clean": "[きみのおかげだと知ったら、彼女もきみに感謝するだろう。それとも、怖がるかな。ここまで強くならされるなんて。どっちかな！]"
+    },
+    {
+        "en_raw": "[Hey stardust! Loop here!]",
+        "en_clean": "[Hey stardust! Loop here!]",
+        "jp_raw": "\\m[vtuto][やあ、星くず君！\\!\\ ループだよ！]\\m[rb]",
+        "jp_clean": "[やあ、星くず君！ ループだよ！]"
+    },
+    {
+        "en_raw": "[When it comes to experience and levels, this is as far as your Fighter can go.]",
+        "en_clean": "[When it comes to experience and levels, this is as far as your Fighter can go.]",
+        "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが戦士君の最大値だ。]\\m[rb]",
+        "jp_clean": "[経験値とレベルって点においては、これが戦士君の最大値だ。]"
+    },
+    {
+        "en_raw": "[Good job getting him this far. He's a lot stronger than he was when he entered the House!]",
+        "en_clean": "[Good job getting him this far. He's a lot stronger than he was when he entered the House!]",
+        "jp_raw": "\\m[vtuto][ここまで強化するなんて、よくやったな。\\!館に足を踏み入れたときよりも、ずいぶん強くなった！]\\m[rb]",
+        "jp_clean": "[ここまで強化するなんて、よくやったな。館に足を踏み入れたときよりも、ずいぶん強くなった！]"
+    },
+    {
+        "en_raw": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
+        "en_clean": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
+        "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼もきみに感謝するだろう。\\!それとも、嫌になるかな。\\!彼の強さだけがきみにとって価値あることだと知ったらね。\\!どっちかな！]\\m[rb]",
+        "jp_clean": "[きみのおかげだと知ったら、彼もきみに感謝するだろう。それとも、嫌になるかな。彼の強さだけがきみにとって価値あることだと知ったらね。どっちかな！]"
+    },
+    {
+        "en_raw": "[And your Fighter too is maxed out!]",
+        "en_clean": "[And your Fighter too is maxed out!]",
+        "jp_raw": "\\m[vtuto][戦士君もここがピークだ！]\\m[rb]",
+        "jp_clean": "[戦士君もここがピークだ！]"
+    },
+    {
+        "en_raw": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
+        "en_clean": "[If he knew it was thanks to you, I'm sure he'd say thank you. Or maybe he'd be disgusted, knowing his only worth to you is how strong he is. I dunno!]",
+        "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼もきみに感謝するだろう。\\!それとも、嫌になるかな。\\!彼の強さだけがきみにとって価値あることだと知ったらね。\\!どっちかな！]\\m[rb]",
+        "jp_clean": "[きみのおかげだと知ったら、彼もきみに感謝するだろう。それとも、嫌になるかな。彼の強さだけがきみにとって価値あることだと知ったらね。どっちかな！]"
+    },
+    {
+        "en_raw": "[Hey stardust! Loop here!]",
+        "en_clean": "[Hey stardust! Loop here!]",
+        "jp_raw": "\\m[vtuto][やあ、星くず君！\\!\\ ループだよ！]\\m[rb]",
+        "jp_clean": "[やあ、星くず君！ ループだよ！]"
+    },
+    {
+        "en_raw": "[When it comes to experience and levels, this is as far as your Researcher can go.]",
+        "en_clean": "[When it comes to experience and levels, this is as far as your Researcher can go.]",
+        "jp_raw": "\\m[vtuto][経験値とレベルって点においては、これが研究者君の最大値だ。]\\m[rb]",
+        "jp_clean": "[経験値とレベルって点においては、これが研究者君の最大値だ。]"
+    },
+    {
+        "en_raw": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
+        "en_clean": "[Good job getting her this far. She's a lot stronger than she was when she entered the House!]",
+        "jp_raw": "\\m[vtuto][ここまで強化するなんて、よくやったな。\\!館に足を踏み入れたときよりも、ずいぶん強くなった！]\\m[rb]",
+        "jp_clean": "[ここまで強化するなんて、よくやったな。館に足を踏み入れたときよりも、ずいぶん強くなった！]"
+    },
+    {
+        "en_raw": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
+        "en_clean": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
+        "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼女もきみに感謝するだろう。\\!それとも、起こるかも。\\!ルールを破って彼女を強化したんだと知ったらね。\\!どっちかな！]\\m[rb]",
+        "jp_clean": "[きみのおかげだと知ったら、彼女もきみに感謝するだろう。それとも、起こるかも。ルールを破って彼女を強化したんだと知ったらね。どっちかな！]"
+    },
+    {
+        "en_raw": "[And your Researcher too!]",
+        "en_clean": "[And your Researcher too!]",
+        "jp_raw": "\\m[vtuto][研究者君もだ！]\\m[rb]",
+        "jp_clean": "[研究者君もだ！]"
+    },
+    {
+        "en_raw": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
+        "en_clean": "[If she knew it was thanks to you, I'm sure she'd say thank you. Or maybe she'd be angry, knowing you broke rules to make her this strong. I dunno!]",
+        "jp_raw": "\\m[vtuto][きみのおかげだと知ったら、彼女もきみに感謝するだろう。\\!それとも、起こるかも。\\!ルールを破って彼女を強化したんだと知ったらね。\\!どっちかな！]\\m[rb]",
+        "jp_clean": "[きみのおかげだと知ったら、彼女もきみに感謝するだろう。それとも、起こるかも。ルールを破って彼女を強化したんだと知ったらね。どっちかな！]"
     }
-}
+]

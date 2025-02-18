@@ -1,3126 +1,952 @@
-{
-    "matches": {
-        "(Some papers.)": [
-            {
-                "clean": "(Some papers.)",
-                "site": {
-                    "raw": "(Some papers.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 0
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some papers.)",
-                    "jp": "(紙が何枚かある。)",
-                    "jp_raw": "\\m[clear](紙が何枚かある。)",
-                    "index": 9883
-                }
-            }
+[
+    {
+        "en_raw": "(Some papers.)",
+        "en_clean": "(Some papers.)",
+        "jp_raw": "\\m[clear](紙が何枚かある。)",
+        "jp_clean": "(紙が何枚かある。)"
+    },
+    {
+        "en_raw": "(There's some sort of sale happening, it seems.)",
+        "en_clean": "(There's some sort of sale happening, it seems.)",
+        "jp_raw": "(どうやら、何か売り出し中のようだ。)",
+        "jp_clean": "(どうやら、何か売り出し中のようだ。)"
+    },
+    {
+        "en_raw": "(Some papers.)",
+        "en_clean": "(Some papers.)",
+        "jp_raw": "\\m[clear](紙が何枚かある。)",
+        "jp_clean": "(紙が何枚かある。)"
+    },
+    {
+        "en_raw": "Ahoy, traveling one!",
+        "en_clean": "Ahoy, traveling one!",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]やあやあ、旅の人！",
+        "jp_clean": "やあやあ、旅の人！"
+    },
+    {
+        "en_raw": "Oh! You're with Mirabelle and the lady with the glasses, I recognize you!",
+        "en_clean": "Oh! You're with Mirabelle and the lady with the glasses, I recognize you!",
+        "jp_raw": "\\n<\\v[46]>おや！\\!\\ きみはミラベルやメガネのご婦人と旅してる人だね、見覚えがあるよ！",
+        "jp_clean": "おや！ きみはミラベルやメガネのご婦人と旅してる人だね、見覚えがあるよ！"
+    },
+    {
+        "en_raw": "Can you believe Mirabelle has been blessed by the Change God to save us all?",
+        "en_clean": "Can you believe Mirabelle has been blessed by the Change God to save us all?",
+        "jp_raw": "\\n<\\v[46]>信じられるかい？\\!\\ ミラベルはウツロイ様の祝福を受けて、私たちを救ってくれるんだ。",
+        "jp_clean": "信じられるかい？ ミラベルはウツロイ様の祝福を受けて、私たちを救ってくれるんだ。"
+    },
+    {
+        "en_raw": "The Change God almost never gives blessings of any kind... It's truly amazing Mirabelle has been chosen!",
+        "en_clean": "The Change God almost never gives blessings of any kind... It's truly amazing Mirabelle has been chosen!",
+        "jp_raw": "\\n<\\v[46]>ウツロイ様が祝福を授けてくださることなんて、ほとんどないのに...\\!\\ ミラベルが選ばれたのは、驚くべきことだよ！",
+        "jp_clean": "ウツロイ様が祝福を授けてくださることなんて、ほとんどないのに... ミラベルが選ばれたのは、驚くべきことだよ！"
+    },
+    {
+        "en_raw": "May the Change God protect her in her journey!!!",
+        "en_clean": "May the Change God protect her in her journey!!!",
+        "jp_raw": "\\n<\\v[46]>ウツロイ様が彼女の旅をお守りくださいますように！！！",
+        "jp_clean": "ウツロイ様が彼女の旅をお守りくださいますように！！！"
+    },
+    {
+        "en_raw": "(You nod.)",
+        "en_clean": "(You nod.)",
+        "jp_raw": [
+            "\\m[clear](うなずいてみせる。)",
+            "(僕はうなずく。)",
+            "\\m[wait](僕はうなずいた。)",
+            "\\m[vs](僕はうなずいた。)\\!\\"
         ],
-        "(There's some sort of sale happening, it seems.)": [
-            {
-                "clean": "(There's some sort of sale happening, it seems.)",
-                "site": {
-                    "raw": "(There's some sort of sale happening, it seems.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 1
-                },
-                "game": {
-                    "en_raw": "(There's some sort of sale happening, it seems.)",
-                    "jp": "(どうやら、何か売り出し中のようだ。)",
-                    "jp_raw": "(どうやら、何か売り出し中のようだ。)",
-                    "index": 9884
-                }
-            }
-        ],
-        "Ahoy, traveling one!": [
-            {
-                "clean": "Ahoy, traveling one!",
-                "site": {
-                    "raw": "Ahoy, traveling one!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 3
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]Ahoy, traveling one!",
-                    "jp": "やあやあ、旅の人！",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]やあやあ、旅の人！",
-                    "index": 9885
-                }
-            }
-        ],
-        "Oh! You're with Mirabelle and the lady with the glasses, I recognize you!": [
-            {
-                "clean": "Oh! You're with Mirabelle and the lady with the glasses, I recognize you!",
-                "site": {
-                    "raw": "Oh! You're with Mirabelle and the lady with the glasses, I recognize you!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 4
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Oh!\\!\\ You're with Mirabelle and the lady with the glasses, I recognize you!",
-                    "jp": "おや！ きみはミラベルやメガネのご婦人と旅してる人だね、見覚えがあるよ！",
-                    "jp_raw": "\\n<\\v[46]>おや！\\!\\ きみはミラベルやメガネのご婦人と旅してる人だね、見覚えがあるよ！",
-                    "index": 9886
-                }
-            }
-        ],
-        "Can you believe Mirabelle has been blessed by the Change God to save us all?": [
-            {
-                "clean": "Can you believe Mirabelle has been blessed by the Change God to save us all?",
-                "site": {
-                    "raw": "Can you believe Mirabelle has been blessed by the Change God to save us all?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 5
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Can you believe Mirabelle has been blessed by the Change God to save us all?",
-                    "jp": "信じられるかい？ ミラベルはウツロイ様の祝福を受けて、私たちを救ってくれるんだ。",
-                    "jp_raw": "\\n<\\v[46]>信じられるかい？\\!\\ ミラベルはウツロイ様の祝福を受けて、私たちを救ってくれるんだ。",
-                    "index": 9887
-                }
-            }
-        ],
-        "The Change God almost never gives blessings of any kind... It's truly amazing Mirabelle has been chosen!": [
-            {
-                "clean": "The Change God almost never gives blessings of any kind... It's truly amazing Mirabelle has been chosen!",
-                "site": {
-                    "raw": "The Change God almost never gives blessings of any kind... It's truly amazing Mirabelle has been chosen!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 6
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>The Change God almost never gives blessings of any kind...\\!\\ It's truly amazing Mirabelle has been chosen!",
-                    "jp": "ウツロイ様が祝福を授けてくださることなんて、ほとんどないのに... ミラベルが選ばれたのは、驚くべきことだよ！",
-                    "jp_raw": "\\n<\\v[46]>ウツロイ様が祝福を授けてくださることなんて、ほとんどないのに...\\!\\ ミラベルが選ばれたのは、驚くべきことだよ！",
-                    "index": 9888
-                }
-            }
-        ],
-        "May the Change God protect her in her journey!!!": [
-            {
-                "clean": "May the Change God protect her in her journey!!!",
-                "site": {
-                    "raw": "May the Change God protect her in her journey!!!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 7
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>May the Change God protect her in her journey!!!",
-                    "jp": "ウツロイ様が彼女の旅をお守りくださいますように！！！",
-                    "jp_raw": "\\n<\\v[46]>ウツロイ様が彼女の旅をお守りくださいますように！！！",
-                    "index": 9889
-                }
-            }
-        ],
-        "(You nod.)": [
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You nod.)",
-                    "jp": "(うなずいてみせる。)",
-                    "jp_raw": "\\m[clear](うなずいてみせる。)",
-                    "index": 132
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "(You nod.)",
-                    "jp": "(僕はうなずく。)",
-                    "jp_raw": "(僕はうなずく。)",
-                    "index": 841
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[wait](You nod.)",
-                    "jp": "(僕はうなずいた。)",
-                    "jp_raw": "\\m[wait](僕はうなずいた。)",
-                    "index": 3299
-                }
-            },
-            {
-                "clean": "(You nod.)",
-                "site": {
-                    "raw": "(You nod.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 8
-                },
-                "game": {
-                    "en_raw": "\\m[vs](You nod.)\\!\\",
-                    "jp": "(僕はうなずいた。)",
-                    "jp_raw": "\\m[vs](僕はうなずいた。)\\!\\",
-                    "index": 3707
-                }
-            }
-        ],
-        "(The Change God, huh...)": [
-            {
-                "clean": "(The Change God, huh...)",
-                "site": {
-                    "raw": "(The Change God, huh...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 9
-                },
-                "game": {
-                    "en_raw": "(The Change God, huh...)",
-                    "jp": "(ウツロイ様、か...)",
-                    "jp_raw": "(ウツロイ様、か...)",
-                    "index": 9890
-                }
-            }
-        ],
-        "(You nod, again.)": [
-            {
-                "clean": "(You nod, again.)",
-                "site": {
-                    "raw": "(You nod, again.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 10
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You nod, again.)",
-                    "jp": "(うなずくのは2度目だ。)",
-                    "jp_raw": "\\m[clear](うなずくのは2度目だ。)",
-                    "index": 9891
-                }
-            }
-        ],
-        "(Blessings by the Change God, huh...)": [
-            {
-                "clean": "(Blessings by the Change God, huh...)",
-                "site": {
-                    "raw": "(Blessings by the Change God, huh...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 11
-                },
-                "game": {
-                    "en_raw": "(Blessings by the Change God, huh...)",
-                    "jp": "(ウツロイの神の祝福、ね...)",
-                    "jp_raw": "(ウツロイの神の祝福、ね...)",
-                    "index": 9892
-                }
-            }
-        ],
-        "(You wonder if the Change God is the one who revived you, and gave you those powers.)": [
-            {
-                "clean": "(You wonder if the Change God is the one who revived you, and gave you those powers.)",
-                "site": {
-                    "raw": "(You wonder if the Change God is the one who revived you, and gave you those powers.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 12
-                },
-                "game": {
-                    "en_raw": "(You wonder if the Change God is the one who revived you, and gave you those powers.)",
-                    "jp": "(僕を生き返らせてこの力を与えたのも、ウツロイの神なのだろうか。)",
-                    "jp_raw": "(僕を生き返らせてこの力を与えたのも、ウツロイの神なのだろうか。)",
-                    "index": 9893
-                }
-            }
-        ],
-        "(Eh, it doesn't matter that much.)": [
-            {
-                "clean": "(Eh, it doesn't matter that much.)",
-                "site": {
-                    "raw": "(Eh, it doesn't matter that much.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 13
-                },
-                "game": {
-                    "en_raw": "\\m[wait](Eh, it doesn't matter that much.)",
-                    "jp": "(いや、気にする必要はないな。)",
-                    "jp_raw": "\\m[wait](いや、気にする必要はないな。)",
-                    "index": 9894
-                }
-            }
-        ],
-        "(...)": [
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)",
-                    "jp": "(...)",
-                    "jp_raw": "(...)",
-                    "index": 21
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)",
-                    "index": 164
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\^",
-                    "index": 178
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\",
-                    "index": 205
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)",
-                    "index": 245
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)",
-                    "index": 264
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)",
-                    "index": 391
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)",
-                    "index": 532
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-                    "index": 560
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\m[wait]\\^",
-                    "index": 1027
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\!\\",
-                    "index": 1966
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\^",
-                    "index": 2139
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 2186
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](...)\\!\\",
-                    "index": 2310
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\shake(...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)",
-                    "index": 2334
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\..\\..\\..)\\!\\",
-                    "index": 2508
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\",
-                    "index": 2941
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)",
-                    "index": 3128
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](...)\\!\\m[wait]\\^",
-                    "index": 3751
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]\\^",
-                    "index": 3809
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](...)\\m[wait]\\^",
-                    "index": 3934
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-                    "index": 4505
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..\\.)",
-                    "index": 4578
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-                    "index": 4925
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..\\.)",
-                    "index": 5021
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\",
-                    "index": 6778
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace](\\..\\..\\..)\\!\\",
-                    "index": 7497
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs](\\|.\\|.\\|.)\\!\\",
-                    "index": 7563
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\!\\m[wait]",
-                    "index": 7874
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\shake(\\..\\..\\..)",
-                    "index": 8427
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)",
-                    "index": 8475
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..\\.)\\m[wait]",
-                    "index": 8773
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-                    "index": 9379
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 10078
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vsc](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vsc](...)\\!\\",
-                    "index": 10129
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\m[dot])\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "(\\m[dot])\\!\\",
-                    "index": 10550
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\shake(...)\\!\\",
-                    "index": 10935
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](.\\|.\\|.\\|)",
-                    "index": 11969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear]\\m[rb](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear]\\m[rb](...)",
-                    "index": 12007
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[vs](...)\\!\\",
-                    "index": 12044
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[choicespace]\\m[rb](...)\\!\\",
-                    "index": 12183
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-                    "index": 12241
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\shake(...)\\!\\m[wait]\\^",
-                    "index": 12285
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-                    "index": 13281
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(...)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "(...)\\!\\m[wait]",
-                    "index": 13579
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "(\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14087
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-                    "index": 14623
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-                    "index": 14870
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[vs]\\m[rb](...)\\!\\",
-                    "index": 14969
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](...)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](...)",
-                    "index": 15047
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[rb]\\m[clear](\\..\\..\\..)",
-                    "index": 15058
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-                    "index": 15161
-                }
-            },
-            {
-                "clean": "(...)",
-                "site": {
-                    "raw": "(...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 14
-                },
-                "game": {
-                    "en_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "jp": "(...)",
-                    "jp_raw": "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-                    "index": 16033
-                }
-            }
-        ],
-        "(But Mirabelle wasn't blessed by the Change God. She was blessed by the Head Housemaiden.)": [
-            {
-                "clean": "(But Mirabelle wasn't blessed by the Change God. She was blessed by the Head Housemaiden.)",
-                "site": {
-                    "raw": "(But Mirabelle wasn't blessed by the Change God. She was blessed by the Head Housemaiden.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 15
-                },
-                "game": {
-                    "en_raw": "(But Mirabelle wasn't blessed by the Change God.\\!\\ She was blessed by the Head Housemaiden.)",
-                    "jp": "(ミラベルに祝福を授けたのは、ウツロイの神じゃない。祝福を授けたのは、侍祭長だ。)",
-                    "jp_raw": "(ミラベルに祝福を授けたのは、ウツロイの神じゃない。\\!祝福を授けたのは、侍祭長だ。)",
-                    "index": 9895
-                }
-            }
-        ],
-        "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)": [
-            {
-                "clean": "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)",
-                "site": {
-                    "raw": "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 16
-                },
-                "game": {
-                    "en_raw": "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)",
-                    "jp": "(自分にはあまり違いが分からないけど、ミラベルはそのことを知られるのをとても心配していた。真実を秘密にしておくほどに...)",
-                    "jp_raw": "(自分にはあまり違いが分からないけど、ミラベルはそのことを知られるのをとても心配していた。\\!真実を秘密にしておくほどに...)",
-                    "index": 9896
-                }
-            }
-        ],
-        "(Probably Mirabelle getting stressed out for nothing.)": [
-            {
-                "clean": "(Probably Mirabelle getting stressed out for nothing.)",
-                "site": {
-                    "raw": "(Probably Mirabelle getting stressed out for nothing.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 17
-                },
-                "game": {
-                    "en_raw": "\\m[wait](Probably Mirabelle getting stressed out for nothing.)",
-                    "jp": "(たぶん、なんでもないことを心配しているだけだ。)",
-                    "jp_raw": "\\m[wait](たぶん、なんでもないことを心配しているだけだ。)",
-                    "index": 9897
-                }
-            }
-        ],
-        "...": [
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "...",
-                    "jp": "...",
-                    "jp_raw": "...",
-                    "index": 447
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..",
-                    "index": 584
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...",
-                    "index": 644
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...",
-                    "index": 669
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...",
-                    "index": 670
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...",
-                    "index": 671
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..",
-                    "index": 699
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..",
-                    "index": 700
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..",
-                    "index": 701
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..",
-                    "index": 784
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 844
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 921
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\|.\\|.\\|.",
-                    "index": 1017
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.",
-                    "index": 1035
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..",
-                    "index": 1148
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-                    "index": 1459
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vcg]...\\!\\m[wait]\\^",
-                    "index": 1461
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]...",
-                    "index": 2011
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]...",
-                    "index": 2146
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...",
-                    "index": 2149
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]...",
-                    "index": 2156
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]...\\!\\m[wait]\\^",
-                    "index": 2157
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-                    "index": 2175
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\|.\\|.\\|.",
-                    "index": 2582
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 2600
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...",
-                    "index": 2631
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-                    "index": 2719
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 2922
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>...",
-                    "index": 3001
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...\\!\\m[wait]\\^",
-                    "index": 3172
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]...\\!\\m[wait]\\^",
-                    "index": 3197
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]...\\!\\m[wait]\\^",
-                    "index": 3414
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]...\\!\\m[wait]\\^",
-                    "index": 3423
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]\\^",
-                    "index": 3524
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 3722
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 3846
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]...\\!\\m[wait]\\^",
-                    "index": 3848
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vh]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]...",
-                    "index": 3940
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-                    "index": 3953
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>...",
-                    "index": 3964
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\..\\..\\..",
-                    "index": 4587
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vonp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vonp]\\..\\..\\..",
-                    "index": 5061
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vm]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vm]\\shake...",
-                    "index": 5296
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 5586
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 5647
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...",
-                    "index": 5942
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-                    "index": 6020
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..",
-                    "index": 6341
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 6388
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\|.\\|.\\|.\\m[wait]",
-                    "index": 7218
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vh]\\|.\\|.\\|.",
-                    "index": 7421
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...",
-                    "index": 8336
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 8343
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..",
-                    "index": 8359
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.",
-                    "index": 8398
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 8419
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 8446
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\m[rb]",
-                    "index": 8463
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...",
-                    "index": 8465
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[rb]",
-                    "index": 8469
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9427
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]...",
-                    "index": 9898
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 9905
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 11568
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-                    "index": 11589
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-                    "index": 11619
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...",
-                    "index": 11655
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-                    "index": 11656
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.",
-                    "index": 11891
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 11893
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..",
-                    "index": 12071
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]...\\!\\m[wait]\\^",
-                    "index": 12104
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-                    "index": 12216
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12240
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake\\..\\..\\..",
-                    "index": 12244
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...",
-                    "index": 12248
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\..\\..\\..\\m[wait]",
-                    "index": 12255
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-                    "index": 12312
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\!\\m[wait]\\^",
-                    "index": 12321
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]\\shake...\\m[rb]",
-                    "index": 12441
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vlnp]\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vlnp]...\\m[rb]",
-                    "index": 12453
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[rb]",
-                    "index": 12786
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]\\shake...",
-                    "jp": "...",
-                    "jp_raw": "\\m[vbnp]\\shake...",
-                    "index": 13519
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\..\\..\\..\\m[wait]",
-                    "index": 13843
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vmnp]\\..\\..\\..",
-                    "jp": "...",
-                    "jp_raw": "\\m[vmnp]\\..\\..\\..",
-                    "index": 14245
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-                    "index": 14959
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "jp": "...",
-                    "jp_raw": "\\m[vl]\\|.\\|.\\|.",
-                    "index": 14962
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "...\\m[rb]",
-                    "jp": "...",
-                    "jp_raw": "...\\m[rb]",
-                    "index": 15458
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "\\..\\..\\..\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "\\..\\..\\..\\m[wait]",
-                    "index": 16042
-                }
-            },
-            {
-                "clean": "...",
-                "site": {
-                    "raw": "...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 59
-                },
-                "game": {
-                    "en_raw": "...\\!\\m[wait]",
-                    "jp": "...",
-                    "jp_raw": "...\\!\\m[wait]",
-                    "index": 16049
-                }
-            }
-        ],
-        "Huh? What do you mean?": [
-            {
-                "clean": "Huh? What do you mean?",
-                "site": {
-                    "raw": "Huh? What do you mean?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vm]Huh?\\!\\ What do you mean?",
-                    "jp": "ええっ？ どういう意味？",
-                    "jp_raw": "\\m[vm]ええっ？\\!\\ どういう意味？",
-                    "index": 1849
-                }
-            },
-            {
-                "clean": "Huh? What do you mean?",
-                "site": {
-                    "raw": "Huh? What do you mean?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vbnp]Huh?\\!\\ What do you mean?",
-                    "jp": "えっ？ どういうこと？",
-                    "jp_raw": "\\m[vbnp]えっ？\\!\\ どういうこと？",
-                    "index": 2163
-                }
-            },
-            {
-                "clean": "Huh? What do you mean?",
-                "site": {
-                    "raw": "Huh? What do you mean?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\m[vb]Huh?\\!\\ What do you mean?",
-                    "jp": "えっ？ どういうこと？",
-                    "jp_raw": "\\m[vb]えっ？\\!\\ どういうこと？",
-                    "index": 3621
-                }
-            },
-            {
-                "clean": "Huh? What do you mean?",
-                "site": {
-                    "raw": "Huh? What do you mean?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 20
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Huh?\\!\\ What do you mean?",
-                    "jp": "えっ？ そりゃどういう意味だい？",
-                    "jp_raw": "\\n<\\v[46]>えっ？\\!\\ そりゃどういう意味だい？",
-                    "index": 9899
-                }
-            }
-        ],
-        "If... If she wasn't blessed by the Change God, then...": [
-            {
-                "clean": "If... If she wasn't blessed by the Change God, then...",
-                "site": {
-                    "raw": "If... If she wasn't blessed by the Change God, then...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 21
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>If...\\!\\ If she wasn't blessed by the Change God, then...",
-                    "jp": "仮に... ウツロイ様の祝福を受けていないとしたら...",
-                    "jp_raw": "\\n<\\v[46]>仮に...\\!\\ ウツロイ様の祝福を受けていないとしたら...",
-                    "index": 9900
-                }
-            }
-        ],
-        "Then it would mean the Change God abandoned us, right? It would mean there's no hope for Vaugarde, right? Hahaha...": [
-            {
-                "clean": "Then it would mean the Change God abandoned us, right? It would mean there's no hope for Vaugarde, right? Hahaha...",
-                "site": {
-                    "raw": "Then it would mean the Change God abandoned us, right? It would mean there's no hope for Vaugarde, right? Hahaha...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 22
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Then it would mean the Change God abandoned us, right?\\!\\ It would mean there's no hope for Vaugarde, right?\\!\\ Hahaha...",
-                    "jp": "ウツロイ様が私たちを見捨てたってことだろう？ ヴォーガルドには希望がないってことだ。 ハハハ...",
-                    "jp_raw": "\\n<\\v[46]>ウツロイ様が私たちを見捨てたってことだろう？\\!\\ ヴォーガルドには希望がないってことだ。\\!\\ ハハハ...",
-                    "index": 9901
-                }
-            }
-        ],
-        "...Where is this coming from, anyway? You said this hypothetically, right? She's really blessed by the Change God, right?": [
-            {
-                "clean": "...Where is this coming from, anyway? You said this hypothetically, right? She's really blessed by the Change God, right?",
-                "site": {
-                    "raw": "...Where is this coming from, anyway? You said this hypothetically, right? She's really blessed by the Change God, right?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 23
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>...Where is this coming from, anyway?\\!\\ You said this hypothetically, right?\\!\\ She's really blessed by the Change God, right?",
-                    "jp": "...そんなこと、どこから思いついたんだ？ 仮定の話なんだろう？ 本当はちゃんと、ウツロイ様の祝福を受けたんだろう？",
-                    "jp_raw": "\\n<\\v[46]>...そんなこと、どこから思いついたんだ？\\!\\ 仮定の話なんだろう？\\!\\ 本当はちゃんと、ウツロイ様の祝福を受けたんだろう？",
-                    "index": 9902
-                }
-            }
-        ],
-        "VAUGARDE WILL BE SAVED, RIGHT?!?": [
-            {
-                "clean": "VAUGARDE WILL BE SAVED, RIGHT?!?",
-                "site": {
-                    "raw": "<span class=\"shake\">\n VAUGARDE WILL BE SAVED, RIGHT?!?\n</span>",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 24
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\shakeVAUGARDE WILL BE SAVED, RIGHT?!?",
-                    "jp": "ヴォーガルドは救われる、よな！？",
-                    "jp_raw": "\\n<\\v[46]>\\shakeヴォーガルドは救われる、よな！？",
-                    "index": 9903
-                }
-            }
-        ],
-        "(Ah, you get it now.)": [
-            {
-                "clean": "(Ah, you get it now.)",
-                "site": {
-                    "raw": "(Ah, you get it now.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 26
-                },
-                "game": {
-                    "en_raw": "(Ah, you get it now.)",
-                    "jp": "(ああ、こういうことだったのか。)",
-                    "jp_raw": "(ああ、こういうことだったのか。)",
-                    "index": 9904
-                }
-            }
-        ],
-        "Oh, okay! Phew! You had me worried for a second, there!!!": [
-            {
-                "clean": "Oh, okay! Phew! You had me worried for a second, there!!!",
-                "site": {
-                    "raw": "Oh, okay! Phew! You had me worried for a second, there!!!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 29
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Oh, okay!\\!\\ Phew!\\!\\ You had me worried for a second, there!!!",
-                    "jp": "ああ、よかった！ ふう！ 心配したじゃないか！！！",
-                    "jp_raw": "\\n<\\v[46]>ああ、よかった！\\!\\ ふう！\\!\\ 心配したじゃないか！！！",
-                    "index": 9906
-                }
-            }
-        ],
-        "Ah, what a relief.": [
-            {
-                "clean": "Ah, what a relief.",
-                "site": {
-                    "raw": "Ah, what a relief.",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 30
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Ah, what a relief.",
-                    "jp": "やれやれ、安心した。",
-                    "jp_raw": "\\n<\\v[46]>やれやれ、安心した。",
-                    "index": 9907
-                }
-            }
-        ],
-        "(You understand Mirabelle a bit better, now.)": [
-            {
-                "clean": "(You understand Mirabelle a bit better, now.)",
-                "site": {
-                    "raw": "(You understand Mirabelle a bit better, now.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 32
-                },
-                "game": {
-                    "en_raw": "(You understand Mirabelle a bit better, now.)",
-                    "jp": "(ミラベルの心配を少し理解できたな。)",
-                    "jp_raw": "(ミラベルの心配を少し理解できたな。)",
-                    "index": 9908
-                }
-            }
-        ],
-        "Locked doors...? Ah, yes!": [
-            {
-                "clean": "Locked doors...? Ah, yes!",
-                "site": {
-                    "raw": "Locked doors...? Ah, yes!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 34
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]Locked doors...?\\!\\ Ah, yes!",
-                    "jp": "鍵のかかった扉...？ ああ、あれだな！",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]鍵のかかった扉...？\\!\\ ああ、あれだな！",
-                    "index": 9911
-                }
-            }
-        ],
-        "There's one locked by one of those word locks. Let's see...": [
-            {
-                "clean": "There's one locked by one of those word locks. Let's see...",
-                "site": {
-                    "raw": "There's one locked by one of those word locks. Let's see...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 35
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>There's one locked by one of those word locks.\\!\\ Let's see...",
-                    "jp": "言葉の鍵がかけられている扉があるんだ。 なんだったか...",
-                    "jp_raw": "\\n<\\v[46]>言葉の鍵がかけられている扉があるんだ。\\!\\ なんだったか...",
-                    "index": 9912
-                }
-            }
-        ],
-        "Ah, I remember! The openphrase to open it is \"stostorage roomoom\", because there's a storage room inside, but I didn't want it to unlock if you just said \"storage room\".": [
-            {
-                "clean": "Ah, I remember! The openphrase to open it is \"stostorage roomoom\", because there's a storage room inside, but I didn't want it to unlock if you just said \"storage room\".",
-                "site": {
-                    "raw": "Ah, I remember! The openphrase to open it is \"stostorage roomoom\", because there's a storage room inside, but I didn't want it to unlock if you just said \"storage room\".",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 36
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Ah, I remember!\\!\\ The openphrase to open it is \"stostorage roomoom\",\\!\\ because there's a storage room inside,\\!\\ but I didn't want it to unlock if you just said \"storage room\".",
-                    "jp": "ああ、思い出した！ 合言葉は「そうそうここ」だ。中は倉庫なんだよ。でも、ただ「そうこ」って言ったんじゃ、開かないようになってる。",
-                    "jp_raw": "\\n<\\v[46]>ああ、思い出した！\\!\\ 合言葉は「そうそうここ」だ。\\!中は倉庫なんだよ。\\!でも、ただ「そうこ」って言ったんじゃ、開かないようになってる。",
-                    "index": 9913
-                }
-            }
-        ],
-        "D-Don't look at me like that...": [
-            {
-                "clean": "D-Don't look at me like that...",
-                "site": {
-                    "raw": "D-Don't look at me like that...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 38
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]D-Don't look at me like that...",
-                    "jp": "そっ、そんな顔で見ないでくれ...",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]そっ、そんな顔で見ないでくれ...",
-                    "index": 9914
-                }
-            }
-        ],
-        "Well, either way, there's not much in there. Nonetheless, I hope it helps you on your journey tomorrow!": [
-            {
-                "clean": "Well, either way, there's not much in there. Nonetheless, I hope it helps you on your journey tomorrow!",
-                "site": {
-                    "raw": "Well, either way, there's not much in there. Nonetheless, I hope it helps you on your journey tomorrow!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 39
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Well, either way, there's not much in there.\\!\\ Nonetheless, I hope it helps you on your journey tomorrow!",
-                    "jp": "まあ、どっちにしろ、中に大したものはないよ。とはいえ、明日はこの言葉が役に立つことを願うよ！",
-                    "jp_raw": "\\n<\\v[46]>まあ、どっちにしろ、中に大したものはないよ。\\!とはいえ、明日はこの言葉が役に立つことを願うよ！",
-                    "index": 9915
-                }
-            }
-        ],
-        "(Hm...)": [
-            {
-                "clean": "(Hm...)",
-                "site": {
-                    "raw": "(Hm...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Hm...)",
-                    "jp": "(ふむ...)",
-                    "jp_raw": "\\m[clear](ふむ...)",
-                    "index": 1876
-                }
-            },
-            {
-                "clean": "(Hm...)",
-                "site": {
-                    "raw": "(Hm...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "(Hm...)",
-                    "jp": "(ふむ...)",
-                    "jp_raw": "(ふむ...)",
-                    "index": 2610
-                }
-            },
-            {
-                "clean": "(Hm...)",
-                "site": {
-                    "raw": "(Hm...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 40
-                },
-                "game": {
-                    "en_raw": "\\m[vs](Hm...)\\!\\",
-                    "jp": "(そうだな...)",
-                    "jp_raw": "\\m[vs](そうだな...)\\!\\",
-                    "index": 3309
-                }
-            }
-        ],
-        "(Didn't this shopkeeper know about that one locked room?)": [
-            {
-                "clean": "(Didn't this shopkeeper know about that one locked room?)",
-                "site": {
-                    "raw": "(Didn't this shopkeeper know about that one locked room?)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 41
-                },
-                "game": {
-                    "en_raw": "(Didn't this shopkeeper know about that one locked room?)",
-                    "jp": "(この人、前は鍵のかかった部屋について知らなったんじゃ？)",
-                    "jp_raw": "(この人、前は鍵のかかった部屋について知らなったんじゃ？)",
-                    "index": 9916
-                }
-            }
-        ],
-        "(Maybe they'd know about other, secret, hidden rooms around the House.)": [
-            {
-                "clean": "(Maybe they'd know about other, secret, hidden rooms around the House.)",
-                "site": {
-                    "raw": "(Maybe they'd know about other, secret, hidden rooms around the House.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 42
-                },
-                "game": {
-                    "en_raw": "(Maybe they'd know about other, secret, hidden rooms around the House.)",
-                    "jp": "(他にも知っているかもしれない。館にある秘密の隠し部屋のこととか。)",
-                    "jp_raw": "(他にも知っているかもしれない。\\!館にある秘密の隠し部屋のこととか。)",
-                    "index": 9917
-                }
-            }
-        ],
-        "(Nothing else to do but explore, you suppose.)": [
-            {
-                "clean": "(Nothing else to do but explore, you suppose.)",
-                "site": {
-                    "raw": "(Nothing else to do but explore, you suppose.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 43
-                },
-                "game": {
-                    "en_raw": "(Nothing else to do but explore, you suppose.)",
-                    "jp": "(探ってみるしかない、か。)",
-                    "jp_raw": "(探ってみるしかない、か。)",
-                    "index": 9918
-                }
-            }
-        ],
-        "Hm... Hidden rooms, hidden rooms...": [
-            {
-                "clean": "Hm... Hidden rooms, hidden rooms...",
-                "site": {
-                    "raw": "Hm... Hidden rooms, hidden rooms...",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 45
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>Hm...\\!\\ Hidden rooms, hidden rooms...",
-                    "jp": "ええと... 隠し部屋、隠し部屋かぁ...",
-                    "jp_raw": "\\n<\\v[46]>ええと...\\!\\ 隠し部屋、隠し部屋かぁ...",
-                    "index": 9919
-                }
-            }
-        ],
-        "Oh! It's not really hidden, but... You might see a bunch of holes in walls. And rubble around them, too.": [
-            {
-                "clean": "Oh! It's not really hidden, but... You might see a bunch of holes in walls. And rubble around them, too.",
-                "site": {
-                    "raw": "Oh! It's not really hidden, but... You might see a bunch of holes in walls. And rubble around them, too.",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 46
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Oh!\\!\\ It's not really hidden, but...\\!\\ You might see a bunch of holes in walls.\\!\\ And rubble around them, too.",
-                    "jp": "そうだ！ 隠れてるってわけじゃないが... 壁にたくさんの穴がある場所があるんだ。まわりには破片が散らばってる。",
-                    "jp_raw": "\\n<\\v[46]>そうだ！\\!\\ 隠れてるってわけじゃないが...\\!\\ 壁にたくさんの穴がある場所があるんだ。\\!まわりには破片が散らばってる。",
-                    "index": 9920
-                }
-            }
-        ],
-        "Honestly, we've been trying to fix those... Some are water damage, some are accidents, some are, uh, scientific explosions.": [
-            {
-                "clean": "Honestly, we've been trying to fix those... Some are water damage, some are accidents, some are, uh, scientific explosions.",
-                "site": {
-                    "raw": "Honestly, we've been trying to fix those... Some are water damage, some are accidents, some are, uh, scientific explosions.",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 47
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>Honestly, we've been trying to fix those...\\!\\ Some are water damage, some are accidents, some are, uh, scientific explosions.",
-                    "jp": "私たちはその穴をふさごうとしてたんだよ... 穴ができた理由はいろいろだ。水漏れや何かの事故、それに、化学実験の爆発なんかでね。",
-                    "jp_raw": "\\n<\\v[46]>私たちはその穴をふさごうとしてたんだよ...\\!\\ 穴ができた理由はいろいろだ。\\!水漏れや何かの事故、それに、化学実験の爆発なんかでね。",
-                    "index": 9921
-                }
-            }
-        ],
-        "But I have heard one of those holes actually leads to some old, blocked off hallway!": [
-            {
-                "clean": "But I have heard one of those holes actually leads to some old, blocked off hallway!",
-                "site": {
-                    "raw": "But I have heard one of those holes actually leads to some old, blocked off hallway!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 48
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>But I have heard one of those holes actually leads to some old, blocked off hallway!",
-                    "jp": "そういう壁の中には、古いふさがれた通路につながってるものがあるって話だよ！",
-                    "jp_raw": "\\n<\\v[46]>そういう壁の中には、古いふさがれた通路につながってるものがあるって話だよ！",
-                    "index": 9922
-                }
-            }
-        ],
-        "(You should keep a lookout for holes in walls, and rubble, you suppose.)": [
-            {
-                "clean": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
-                "site": {
-                    "raw": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 50
-                },
-                "game": {
-                    "en_raw": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
-                    "jp": "(壁の穴と破片には注意しておいた方がよさそうだ。)",
-                    "jp_raw": "(壁の穴と破片には注意しておいた方がよさそうだ。)",
-                    "index": 9923
-                }
-            }
-        ],
-        "(You need to ask...)": [
-            {
-                "clean": "(You need to ask...)",
-                "site": {
-                    "raw": "(You need to ask...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 51
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You need to ask...)",
-                    "jp": "(聞きたいことは...)",
-                    "jp_raw": "\\m[clear](聞きたいことは...)",
-                    "index": 2365
-                }
-            }
-        ],
-        "What I asked the Favor Tree?": [
-            {
-                "clean": "What I asked the Favor Tree?",
-                "site": {
-                    "raw": "What I asked the Favor Tree?",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 52
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>What I asked the Favor Tree?",
-                    "jp": "願いの木に頼んだこと？",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>願いの木に頼んだこと？",
-                    "index": 6206
-                }
-            }
-        ],
-        "For the Change God to keep protecting Vaugarde, of course!": [
-            {
-                "clean": "For the Change God to keep protecting Vaugarde, of course!",
-                "site": {
-                    "raw": "For the Change God to keep protecting Vaugarde, of course!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 53
-                },
-                "game": {
-                    "en_raw": "\\m[vman]\\n<\\v[46]>For the Change God to keep protecting Vaugarde, of course!",
-                    "jp": "ウツロイ様に、ヴォーガルドをお守りくださいと願ったよ！",
-                    "jp_raw": "\\m[vman]\\n<\\v[46]>ウツロイ様に、ヴォーガルドをお守りくださいと願ったよ！",
-                    "index": 9924
-                }
-            }
-        ],
-        "Ahoy, tra--": [
-            {
-                "clean": "Ahoy, tra--",
-                "site": {
-                    "raw": "Ahoy, tra--",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 54
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]Ahoy, tra--",
-                    "jp": "やあやあ、旅の――",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]やあやあ、旅の――",
-                    "index": 9925
-                }
-            }
-        ],
-        "(No point talking to them.)": [
-            {
-                "clean": "(No point talking to them.)",
-                "site": {
-                    "raw": "(No point talking to them.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 55
-                },
-                "game": {
-                    "en_raw": "\\m[clear](No point talking to them.)",
-                    "jp": "(店主と話しても意味はない。)",
-                    "jp_raw": "\\m[clear](店主と話しても意味はない。)",
-                    "index": 9926
-                }
-            }
-        ],
-        "(You're only in here to talk to Odile, anyway.)": [
-            {
-                "clean": "(You're only in here to talk to Odile, anyway.)",
-                "site": {
-                    "raw": "(You're only in here to talk to Odile, anyway.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 56
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You're only in here to talk to Odile, anyway.)",
-                    "jp": "(ここに来たのは、オディールと話すためだ。)",
-                    "jp_raw": "\\m[clear](ここに来たのは、オディールと話すためだ。)",
-                    "index": 9927
-                }
-            }
-        ],
-        "(You walk away.)": [
-            {
-                "clean": "(You walk away.)",
-                "site": {
-                    "raw": "(You walk away.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 57
-                },
-                "game": {
-                    "en_raw": "(You walk away.)",
-                    "jp": "(ここは立ち去ろう。)",
-                    "jp_raw": "(ここは立ち去ろう。)",
-                    "index": 2371
-                }
-            },
-            {
-                "clean": "(You walk away.)",
-                "site": {
-                    "raw": "(You walk away.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 57
-                },
-                "game": {
-                    "en_raw": "\\m[clear](You walk away.)",
-                    "jp": "(立ち去る。)",
-                    "jp_raw": "\\m[clear](立ち去る。)",
-                    "index": 2712
-                }
-            }
-        ],
-        "Oh, um, okay! May the Change God protect you!": [
-            {
-                "clean": "Oh, um, okay! May the Change God protect you!",
-                "site": {
-                    "raw": "Oh, um, okay! May the Change God protect you!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 58
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]Oh, um, okay!\\!\\ May the Change God protect you!",
-                    "jp": "おっと、それじゃあな！ ウツロイ様のご加護があらんことを！",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]おっと、それじゃあな！\\!\\ ウツロイ様のご加護があらんことを！",
-                    "index": 9928
-                }
-            }
-        ],
-        "May the Change God protect you!": [
-            {
-                "clean": "May the Change God protect you!",
-                "site": {
-                    "raw": "May the Change God protect you!",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 60
-                },
-                "game": {
-                    "en_raw": "\\n<\\v[46]>\\m[vman]May the Change God protect you!",
-                    "jp": "ウツロイ様のご加護があらんことを！",
-                    "jp_raw": "\\n<\\v[46]>\\m[vman]ウツロイ様のご加護があらんことを！",
-                    "index": 9929
-                }
-            }
-        ],
-        "(Old, moldy books.)": [
-            {
-                "clean": "(Old, moldy books.)",
-                "site": {
-                    "raw": "(Old, moldy books.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 61
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Old, moldy books.)",
-                    "jp": "(古くてかび臭い本だ。)",
-                    "jp_raw": "\\m[clear](古くてかび臭い本だ。)",
-                    "index": 10044
-                }
-            }
-        ],
-        "(You can't even read their titles.)": [
-            {
-                "clean": "(You can't even read their titles.)",
-                "site": {
-                    "raw": "(You can't even read their titles.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 62
-                },
-                "game": {
-                    "en_raw": "(You can't even read their titles.)",
-                    "jp": "(タイトルも消えかかっている。)",
-                    "jp_raw": "(タイトルも消えかかっている。)",
-                    "index": 10045
-                }
-            }
-        ],
-        "(A closet filled with everything from empty salt shakers to half broken pencils.)": [
-            {
-                "clean": "(A closet filled with everything from empty salt shakers to half broken pencils.)",
-                "site": {
-                    "raw": "(A closet filled with everything from empty salt shakers to half broken pencils.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 63
-                },
-                "game": {
-                    "en_raw": "\\m[clear](A closet filled with everything from empty salt shakers to half broken pencils.)",
-                    "jp": "(クローゼットの中は空の塩入れや折れた鉛筆が詰まっている。)",
-                    "jp_raw": "\\m[clear](クローゼットの中は空の塩入れや折れた鉛筆が詰まっている。)",
-                    "index": 10046
-                }
-            }
-        ],
-        "(Are they for sale...?)": [
-            {
-                "clean": "(Are they for sale...?)",
-                "site": {
-                    "raw": "(Are they for sale...?)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 64
-                },
-                "game": {
-                    "en_raw": "(Are they for sale...?)",
-                    "jp": "(これも売り物...？)",
-                    "jp_raw": "(これも売り物...？)",
-                    "index": 10047
-                }
-            }
-        ],
-        "(A little figure of the Change God.)": [
-            {
-                "clean": "(A little figure of the Change God.)",
-                "site": {
-                    "raw": "(A little figure of the Change God.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 65
-                },
-                "game": {
-                    "en_raw": "\\m[clear](A little figure of the Change God.)",
-                    "jp": "(ウツロイの神の小像だ。)",
-                    "jp_raw": "\\m[clear](ウツロイの神の小像だ。)",
-                    "index": 5904
-                }
-            }
-        ],
-        "(It's been Crafted to dance slightly.)": [
-            {
-                "clean": "(It's been Crafted to dance slightly.)",
-                "site": {
-                    "raw": "(It's been Crafted to dance slightly.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 66
-                },
-                "game": {
-                    "en_raw": "(It's been Crafted to dance slightly.)",
-                    "jp": "(ダンスの動きのクラフトがかけられている。)",
-                    "jp_raw": "(ダンスの動きのクラフトがかけられている。)",
-                    "index": 5905
-                }
-            }
-        ],
-        "(This one has a wide smile.)": [
-            {
-                "clean": "(This one has a wide smile.)",
-                "site": {
-                    "raw": "(This one has a wide smile.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 67
-                },
-                "game": {
-                    "en_raw": "(This one has a wide smile.)",
-                    "jp": "(この像は満面の笑みだ。)",
-                    "jp_raw": "(この像は満面の笑みだ。)",
-                    "index": 10048
-                }
-            }
-        ],
-        "(Shelves filled with various foods.)": [
-            {
-                "clean": "(Shelves filled with various foods.)",
-                "site": {
-                    "raw": "(Shelves filled with various foods.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 68
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Shelves filled with various foods.)",
-                    "jp": "(棚はいろいろな食材でいっぱいだ。)",
-                    "jp_raw": "\\m[clear](棚はいろいろな食材でいっぱいだ。)",
-                    "index": 6078
-                }
-            }
-        ],
-        "(Being near them makes your stomach grumble...)": [
-            {
-                "clean": "(Being near them makes your stomach grumble...)",
-                "site": {
-                    "raw": "(Being near them makes your stomach grumble...)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 69
-                },
-                "game": {
-                    "en_raw": "(Being near them makes your stomach grumble...)",
-                    "jp": "(近くにいるだけで、おなかがなりそうだ...)",
-                    "jp_raw": "(近くにいるだけで、おなかがなりそうだ...)",
-                    "index": 6079
-                }
-            }
-        ],
-        "(Some little paintings animated by Craft.)": [
-            {
-                "clean": "(Some little paintings animated by Craft.)",
-                "site": {
-                    "raw": "(Some little paintings animated by Craft.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 70
-                },
-                "game": {
-                    "en_raw": "\\m[clear](Some little paintings animated by Craft.)",
-                    "jp": "(小さな絵だ。クラフトで描かれたものが動いている。)",
-                    "jp_raw": "\\m[clear](小さな絵だ。\\!クラフトで描かれたものが動いている。)",
-                    "index": 10049
-                }
-            }
-        ],
-        "(You can see the shopkeeper, along with some other people from Dormont.)": [
-            {
-                "clean": "(You can see the shopkeeper, along with some other people from Dormont.)",
-                "site": {
-                    "raw": "(You can see the shopkeeper, along with some other people from Dormont.)",
-                    "page": "rooms/dormont/itemshop.html",
-                    "index": 71
-                },
-                "game": {
-                    "en_raw": "(You can see the shopkeeper, along with some other people from Dormont.)",
-                    "jp": "(描かれているのは、店主とドーモントの人たちだ。)",
-                    "jp_raw": "(描かれているのは、店主とドーモントの人たちだ。)",
-                    "index": 10050
-                }
-            }
+        "jp_clean": [
+            "(うなずいてみせる。)",
+            "(僕はうなずく。)",
+            "(僕はうなずいた。)",
+            "(僕はうなずいた。)"
         ]
     },
-    "no_matches": {
-        "(. . .)": {
-            "clean": "(. . .)",
-            "raw": "(. . .)",
-            "page": "rooms/dormont/itemshop.html",
-            "index": 25
-        },
-        "Hypothetically, of course!": {
-            "clean": "Hypothetically, of course!",
-            "raw": "Hypothetically, of course!",
-            "page": "rooms/dormont/itemshop.html",
-            "index": 27
-        },
-        ". . .": {
-            "clean": ". . .",
-            "raw": ". . .",
-            "page": "rooms/dormont/itemshop.html",
-            "index": 28
-        },
-        "(Oh, before you forget.) Know anything about locked doors in the House?": {
-            "clean": "(Oh, before you forget.) Know anything about locked doors in the House?",
-            "raw": "(Oh, before you forget.) Know anything about locked doors in the House?",
-            "page": "rooms/dormont/itemshop.html",
-            "index": 33
-        },
-        "Know of any hidden rooms in the House?": {
-            "clean": "Know of any hidden rooms in the House?",
-            "raw": "Know of any hidden rooms in the House?",
-            "page": "rooms/dormont/itemshop.html",
-            "index": 44
-        }
+    {
+        "en_raw": "(The Change God, huh...)",
+        "en_clean": "(The Change God, huh...)",
+        "jp_raw": "(ウツロイ様、か...)",
+        "jp_clean": "(ウツロイ様、か...)"
+    },
+    {
+        "en_raw": "(You nod, again.)",
+        "en_clean": "(You nod, again.)",
+        "jp_raw": "\\m[clear](うなずくのは2度目だ。)",
+        "jp_clean": "(うなずくのは2度目だ。)"
+    },
+    {
+        "en_raw": "(Blessings by the Change God, huh...)",
+        "en_clean": "(Blessings by the Change God, huh...)",
+        "jp_raw": "(ウツロイの神の祝福、ね...)",
+        "jp_clean": "(ウツロイの神の祝福、ね...)"
+    },
+    {
+        "en_raw": "(You wonder if the Change God is the one who revived you, and gave you those powers.)",
+        "en_clean": "(You wonder if the Change God is the one who revived you, and gave you those powers.)",
+        "jp_raw": "(僕を生き返らせてこの力を与えたのも、ウツロイの神なのだろうか。)",
+        "jp_clean": "(僕を生き返らせてこの力を与えたのも、ウツロイの神なのだろうか。)"
+    },
+    {
+        "en_raw": "(Eh, it doesn't matter that much.)",
+        "en_clean": "(Eh, it doesn't matter that much.)",
+        "jp_raw": "\\m[wait](いや、気にする必要はないな。)",
+        "jp_clean": "(いや、気にする必要はないな。)"
+    },
+    {
+        "en_raw": "(...)",
+        "en_clean": "(...)",
+        "jp_raw": [
+            "(...)",
+            "(\\..\\..\\..)",
+            "(...)\\!\\m[wait]\\^",
+            "\\m[clear](...)\\!\\",
+            "\\m[clear](...)",
+            "(\\|.\\|.\\|.)",
+            "\\m[clear]\\shake(...)",
+            "\\m[clear](\\..\\..\\..)",
+            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\!\\",
+            "(...)\\!\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[choicespace](...)\\!\\",
+            "\\shake(...)",
+            "\\m[vs](\\..\\..\\..)\\!\\",
+            "(...)\\!\\",
+            "(\\..\\..\\..\\.)",
+            "\\m[clear](...)\\!\\m[wait]\\^",
+            "(\\..\\..\\..)\\!\\m[wait]\\^",
+            "\\m[vs](...)\\m[wait]\\^",
+            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..\\.)",
+            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
+            "\\m[clear]\\shake(\\..\\..\\..\\.)",
+            "\\m[clear](\\..\\..\\..)\\!\\",
+            "\\m[choicespace](\\..\\..\\..)\\!\\",
+            "\\m[vs](\\|.\\|.\\|.)\\!\\",
+            "(\\..\\..\\..)\\!\\m[wait]",
+            "\\m[clear]\\shake(\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.)",
+            "(\\..\\..\\..\\.)\\m[wait]",
+            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
+            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[vsc](...)\\!\\",
+            "(\\m[dot])\\!\\",
+            "\\m[vs]\\shake(...)\\!\\",
+            "\\m[clear](.\\|.\\|.\\|)",
+            "\\m[clear]\\m[rb](...)",
+            "\\m[rb]\\m[vs](...)\\!\\",
+            "\\m[choicespace]\\m[rb](...)\\!\\",
+            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
+            "\\shake(...)\\!\\m[wait]\\^",
+            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
+            "(...)\\!\\m[wait]",
+            "(\\..\\..\\..)\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
+            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
+            "\\m[vs]\\m[rb](...)\\!\\",
+            "\\m[rb]\\m[clear](...)",
+            "\\m[rb]\\m[clear](\\..\\..\\..)",
+            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)",
+            "(...)"
+        ]
+    },
+    {
+        "en_raw": "(But Mirabelle wasn't blessed by the Change God. She was blessed by the Head Housemaiden.)",
+        "en_clean": "(But Mirabelle wasn't blessed by the Change God. She was blessed by the Head Housemaiden.)",
+        "jp_raw": "(ミラベルに祝福を授けたのは、ウツロイの神じゃない。\\!祝福を授けたのは、侍祭長だ。)",
+        "jp_clean": "(ミラベルに祝福を授けたのは、ウツロイの神じゃない。祝福を授けたのは、侍祭長だ。)"
+    },
+    {
+        "en_raw": "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)",
+        "en_clean": "(It doesn't make that much of a difference to you, but Mirabelle seemed very worried at the idea of people knowing, so much that she kept the truth a secret...)",
+        "jp_raw": "(自分にはあまり違いが分からないけど、ミラベルはそのことを知られるのをとても心配していた。\\!真実を秘密にしておくほどに...)",
+        "jp_clean": "(自分にはあまり違いが分からないけど、ミラベルはそのことを知られるのをとても心配していた。真実を秘密にしておくほどに...)"
+    },
+    {
+        "en_raw": "(Probably Mirabelle getting stressed out for nothing.)",
+        "en_clean": "(Probably Mirabelle getting stressed out for nothing.)",
+        "jp_raw": "\\m[wait](たぶん、なんでもないことを心配しているだけだ。)",
+        "jp_clean": "(たぶん、なんでもないことを心配しているだけだ。)"
+    },
+    {
+        "en_raw": "",
+        "en_clean": "",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "Huh? What do you mean?",
+        "en_clean": "Huh? What do you mean?",
+        "jp_raw": [
+            "\\m[vm]ええっ？\\!\\ どういう意味？",
+            "\\m[vbnp]えっ？\\!\\ どういうこと？",
+            "\\m[vb]えっ？\\!\\ どういうこと？",
+            "\\n<\\v[46]>えっ？\\!\\ そりゃどういう意味だい？"
+        ],
+        "jp_clean": [
+            "ええっ？ どういう意味？",
+            "えっ？ どういうこと？",
+            "えっ？ どういうこと？",
+            "えっ？ そりゃどういう意味だい？"
+        ]
+    },
+    {
+        "en_raw": "If... If she wasn't blessed by the Change God, then...",
+        "en_clean": "If... If she wasn't blessed by the Change God, then...",
+        "jp_raw": "\\n<\\v[46]>仮に...\\!\\ ウツロイ様の祝福を受けていないとしたら...",
+        "jp_clean": "仮に... ウツロイ様の祝福を受けていないとしたら..."
+    },
+    {
+        "en_raw": "Then it would mean the Change God abandoned us, right? It would mean there's no hope for Vaugarde, right? Hahaha...",
+        "en_clean": "Then it would mean the Change God abandoned us, right? It would mean there's no hope for Vaugarde, right? Hahaha...",
+        "jp_raw": "\\n<\\v[46]>ウツロイ様が私たちを見捨てたってことだろう？\\!\\ ヴォーガルドには希望がないってことだ。\\!\\ ハハハ...",
+        "jp_clean": "ウツロイ様が私たちを見捨てたってことだろう？ ヴォーガルドには希望がないってことだ。 ハハハ..."
+    },
+    {
+        "en_raw": "...Where is this coming from, anyway? You said this hypothetically, right? She's really blessed by the Change God, right?",
+        "en_clean": "...Where is this coming from, anyway? You said this hypothetically, right? She's really blessed by the Change God, right?",
+        "jp_raw": "\\n<\\v[46]>...そんなこと、どこから思いついたんだ？\\!\\ 仮定の話なんだろう？\\!\\ 本当はちゃんと、ウツロイ様の祝福を受けたんだろう？",
+        "jp_clean": "...そんなこと、どこから思いついたんだ？ 仮定の話なんだろう？ 本当はちゃんと、ウツロイ様の祝福を受けたんだろう？"
+    },
+    {
+        "en_raw": "<span class=\"shake\">\n VAUGARDE WILL BE SAVED, RIGHT?!?\n</span>",
+        "en_clean": "VAUGARDE WILL BE SAVED, RIGHT?!?",
+        "jp_raw": "\\n<\\v[46]>\\shakeヴォーガルドは救われる、よな！？",
+        "jp_clean": "ヴォーガルドは救われる、よな！？"
+    },
+    {
+        "en_raw": "(. . .)",
+        "en_clean": "(. . .)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(Ah, you get it now.)",
+        "en_clean": "(Ah, you get it now.)",
+        "jp_raw": "(ああ、こういうことだったのか。)",
+        "jp_clean": "(ああ、こういうことだったのか。)"
+    },
+    {
+        "en_raw": "Hypothetically, of course!",
+        "en_clean": "Hypothetically, of course!",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": ". . .",
+        "en_clean": ". . .",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Oh, okay! Phew! You had me worried for a second, there!!!",
+        "en_clean": "Oh, okay! Phew! You had me worried for a second, there!!!",
+        "jp_raw": "\\n<\\v[46]>ああ、よかった！\\!\\ ふう！\\!\\ 心配したじゃないか！！！",
+        "jp_clean": "ああ、よかった！ ふう！ 心配したじゃないか！！！"
+    },
+    {
+        "en_raw": "Ah, what a relief.",
+        "en_clean": "Ah, what a relief.",
+        "jp_raw": "\\n<\\v[46]>やれやれ、安心した。",
+        "jp_clean": "やれやれ、安心した。"
+    },
+    {
+        "en_raw": "(. . .)",
+        "en_clean": "(. . .)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "(You understand Mirabelle a bit better, now.)",
+        "en_clean": "(You understand Mirabelle a bit better, now.)",
+        "jp_raw": "(ミラベルの心配を少し理解できたな。)",
+        "jp_clean": "(ミラベルの心配を少し理解できたな。)"
+    },
+    {
+        "en_raw": "(Oh, before you forget.) Know anything about locked doors in the House?",
+        "en_clean": "(Oh, before you forget.) Know anything about locked doors in the House?",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Locked doors...? Ah, yes!",
+        "en_clean": "Locked doors...? Ah, yes!",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]鍵のかかった扉...？\\!\\ ああ、あれだな！",
+        "jp_clean": "鍵のかかった扉...？ ああ、あれだな！"
+    },
+    {
+        "en_raw": "There's one locked by one of those word locks. Let's see...",
+        "en_clean": "There's one locked by one of those word locks. Let's see...",
+        "jp_raw": "\\n<\\v[46]>言葉の鍵がかけられている扉があるんだ。\\!\\ なんだったか...",
+        "jp_clean": "言葉の鍵がかけられている扉があるんだ。 なんだったか..."
+    },
+    {
+        "en_raw": "Ah, I remember! The openphrase to open it is \"stostorage roomoom\", because there's a storage room inside, but I didn't want it to unlock if you just said \"storage room\".",
+        "en_clean": "Ah, I remember! The openphrase to open it is \"stostorage roomoom\", because there's a storage room inside, but I didn't want it to unlock if you just said \"storage room\".",
+        "jp_raw": "\\n<\\v[46]>ああ、思い出した！\\!\\ 合言葉は「そうそうここ」だ。\\!中は倉庫なんだよ。\\!でも、ただ「そうこ」って言ったんじゃ、開かないようになってる。",
+        "jp_clean": "ああ、思い出した！ 合言葉は「そうそうここ」だ。中は倉庫なんだよ。でも、ただ「そうこ」って言ったんじゃ、開かないようになってる。"
+    },
+    {
+        "en_raw": "(. . .)",
+        "en_clean": "(. . .)",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "D-Don't look at me like that...",
+        "en_clean": "D-Don't look at me like that...",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]そっ、そんな顔で見ないでくれ...",
+        "jp_clean": "そっ、そんな顔で見ないでくれ..."
+    },
+    {
+        "en_raw": "Well, either way, there's not much in there. Nonetheless, I hope it helps you on your journey tomorrow!",
+        "en_clean": "Well, either way, there's not much in there. Nonetheless, I hope it helps you on your journey tomorrow!",
+        "jp_raw": "\\n<\\v[46]>まあ、どっちにしろ、中に大したものはないよ。\\!とはいえ、明日はこの言葉が役に立つことを願うよ！",
+        "jp_clean": "まあ、どっちにしろ、中に大したものはないよ。とはいえ、明日はこの言葉が役に立つことを願うよ！"
+    },
+    {
+        "en_raw": "(Hm...)",
+        "en_clean": "(Hm...)",
+        "jp_raw": [
+            "\\m[clear](ふむ...)",
+            "(ふむ...)",
+            "\\m[vs](そうだな...)\\!\\"
+        ],
+        "jp_clean": [
+            "(ふむ...)",
+            "(ふむ...)",
+            "(そうだな...)"
+        ]
+    },
+    {
+        "en_raw": "(Didn't this shopkeeper know about that one locked room?)",
+        "en_clean": "(Didn't this shopkeeper know about that one locked room?)",
+        "jp_raw": "(この人、前は鍵のかかった部屋について知らなったんじゃ？)",
+        "jp_clean": "(この人、前は鍵のかかった部屋について知らなったんじゃ？)"
+    },
+    {
+        "en_raw": "(Maybe they'd know about other, secret, hidden rooms around the House.)",
+        "en_clean": "(Maybe they'd know about other, secret, hidden rooms around the House.)",
+        "jp_raw": "(他にも知っているかもしれない。\\!館にある秘密の隠し部屋のこととか。)",
+        "jp_clean": "(他にも知っているかもしれない。館にある秘密の隠し部屋のこととか。)"
+    },
+    {
+        "en_raw": "(Nothing else to do but explore, you suppose.)",
+        "en_clean": "(Nothing else to do but explore, you suppose.)",
+        "jp_raw": "(探ってみるしかない、か。)",
+        "jp_clean": "(探ってみるしかない、か。)"
+    },
+    {
+        "en_raw": "Know of any hidden rooms in the House?",
+        "en_clean": "Know of any hidden rooms in the House?",
+        "jp_raw": null,
+        "jp_clean": null
+    },
+    {
+        "en_raw": "Hm... Hidden rooms, hidden rooms...",
+        "en_clean": "Hm... Hidden rooms, hidden rooms...",
+        "jp_raw": "\\n<\\v[46]>ええと...\\!\\ 隠し部屋、隠し部屋かぁ...",
+        "jp_clean": "ええと... 隠し部屋、隠し部屋かぁ..."
+    },
+    {
+        "en_raw": "Oh! It's not really hidden, but... You might see a bunch of holes in walls. And rubble around them, too.",
+        "en_clean": "Oh! It's not really hidden, but... You might see a bunch of holes in walls. And rubble around them, too.",
+        "jp_raw": "\\n<\\v[46]>そうだ！\\!\\ 隠れてるってわけじゃないが...\\!\\ 壁にたくさんの穴がある場所があるんだ。\\!まわりには破片が散らばってる。",
+        "jp_clean": "そうだ！ 隠れてるってわけじゃないが... 壁にたくさんの穴がある場所があるんだ。まわりには破片が散らばってる。"
+    },
+    {
+        "en_raw": "Honestly, we've been trying to fix those... Some are water damage, some are accidents, some are, uh, scientific explosions.",
+        "en_clean": "Honestly, we've been trying to fix those... Some are water damage, some are accidents, some are, uh, scientific explosions.",
+        "jp_raw": "\\n<\\v[46]>私たちはその穴をふさごうとしてたんだよ...\\!\\ 穴ができた理由はいろいろだ。\\!水漏れや何かの事故、それに、化学実験の爆発なんかでね。",
+        "jp_clean": "私たちはその穴をふさごうとしてたんだよ... 穴ができた理由はいろいろだ。水漏れや何かの事故、それに、化学実験の爆発なんかでね。"
+    },
+    {
+        "en_raw": "But I have heard one of those holes actually leads to some old, blocked off hallway!",
+        "en_clean": "But I have heard one of those holes actually leads to some old, blocked off hallway!",
+        "jp_raw": "\\n<\\v[46]>そういう壁の中には、古いふさがれた通路につながってるものがあるって話だよ！",
+        "jp_clean": "そういう壁の中には、古いふさがれた通路につながってるものがあるって話だよ！"
+    },
+    {
+        "en_raw": "(Hm...)",
+        "en_clean": "(Hm...)",
+        "jp_raw": [
+            "\\m[clear](ふむ...)",
+            "(ふむ...)",
+            "\\m[vs](そうだな...)\\!\\"
+        ],
+        "jp_clean": [
+            "(ふむ...)",
+            "(ふむ...)",
+            "(そうだな...)"
+        ]
+    },
+    {
+        "en_raw": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
+        "en_clean": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
+        "jp_raw": "(壁の穴と破片には注意しておいた方がよさそうだ。)",
+        "jp_clean": "(壁の穴と破片には注意しておいた方がよさそうだ。)"
+    },
+    {
+        "en_raw": "(You need to ask...)",
+        "en_clean": "(You need to ask...)",
+        "jp_raw": "\\m[clear](聞きたいことは...)",
+        "jp_clean": "(聞きたいことは...)"
+    },
+    {
+        "en_raw": "What I asked the Favor Tree?",
+        "en_clean": "What I asked the Favor Tree?",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>願いの木に頼んだこと？",
+        "jp_clean": "願いの木に頼んだこと？"
+    },
+    {
+        "en_raw": "For the Change God to keep protecting Vaugarde, of course!",
+        "en_clean": "For the Change God to keep protecting Vaugarde, of course!",
+        "jp_raw": "\\m[vman]\\n<\\v[46]>ウツロイ様に、ヴォーガルドをお守りくださいと願ったよ！",
+        "jp_clean": "ウツロイ様に、ヴォーガルドをお守りくださいと願ったよ！"
+    },
+    {
+        "en_raw": "Ahoy, tra--",
+        "en_clean": "Ahoy, tra--",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]やあやあ、旅の――",
+        "jp_clean": "やあやあ、旅の――"
+    },
+    {
+        "en_raw": "(No point talking to them.)",
+        "en_clean": "(No point talking to them.)",
+        "jp_raw": "\\m[clear](店主と話しても意味はない。)",
+        "jp_clean": "(店主と話しても意味はない。)"
+    },
+    {
+        "en_raw": "(You're only in here to talk to Odile, anyway.)",
+        "en_clean": "(You're only in here to talk to Odile, anyway.)",
+        "jp_raw": "\\m[clear](ここに来たのは、オディールと話すためだ。)",
+        "jp_clean": "(ここに来たのは、オディールと話すためだ。)"
+    },
+    {
+        "en_raw": "(You walk away.)",
+        "en_clean": "(You walk away.)",
+        "jp_raw": [
+            "(ここは立ち去ろう。)",
+            "\\m[clear](立ち去る。)"
+        ],
+        "jp_clean": [
+            "(ここは立ち去ろう。)",
+            "(立ち去る。)"
+        ]
+    },
+    {
+        "en_raw": "Oh, um, okay! May the Change God protect you!",
+        "en_clean": "Oh, um, okay! May the Change God protect you!",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]おっと、それじゃあな！\\!\\ ウツロイ様のご加護があらんことを！",
+        "jp_clean": "おっと、それじゃあな！ ウツロイ様のご加護があらんことを！"
+    },
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": [
+            "...",
+            "\\m[vo]\\..\\..\\..",
+            "\\m[vo]...",
+            "\\m[vm]...",
+            "\\m[vi]...",
+            "\\m[vb]...",
+            "\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..",
+            "\\m[vm]\\..\\..\\..",
+            "\\m[vb]\\shake\\..\\..\\..",
+            "\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vb]\\|.\\|.\\|.",
+            "\\|.\\|.\\|.",
+            "\\m[vi]\\..\\..\\..",
+            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
+            "\\m[vcg]...\\!\\m[wait]\\^",
+            "\\m[vbnp]...",
+            "\\m[vmnp]...",
+            "\\m[vonp]...",
+            "\\m[vinp]...",
+            "\\m[vonp]...\\!\\m[wait]\\^",
+            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
+            "\\m[vm]\\|.\\|.\\|.",
+            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vman]\\n<\\v[46]>...",
+            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
+            "\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
+            "\\n<\\v[46]>...",
+            "\\m[vh]...\\!\\m[wait]\\^",
+            "\\m[vb]...\\!\\m[wait]\\^",
+            "\\m[vo]...\\!\\m[wait]\\^",
+            "\\m[vm]...\\!\\m[wait]\\^",
+            "...\\!\\m[wait]\\^",
+            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vi]...\\!\\m[wait]\\^",
+            "\\m[vh]...",
+            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
+            "\\m[vwoman]\\n<\\v[46]>...",
+            "\\m[vbnp]\\..\\..\\..",
+            "\\m[vonp]\\..\\..\\..",
+            "\\m[vm]\\shake...",
+            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>...",
+            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..",
+            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\|.\\|.\\|.\\m[wait]",
+            "\\m[vh]\\|.\\|.\\|.",
+            "\\m[vlnp]...",
+            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\..\\..\\..",
+            "\\m[vlnp]\\|.\\|.\\|.",
+            "\\m[vlnp]...\\m[rb]",
+            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]...\\m[rb]",
+            "\\m[vl]...",
+            "\\m[vl]\\..\\..\\..\\m[rb]",
+            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vman]...",
+            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
+            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
+            "\\n<\\v[46]>\\m[vkid]...",
+            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
+            "\\m[vi]\\|.\\|.\\|.",
+            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..",
+            "\\m[vl]...\\!\\m[wait]\\^",
+            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
+            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]\\shake\\..\\..\\..",
+            "\\m[vlnp]\\shake...",
+            "\\m[vlnp]\\..\\..\\..\\m[wait]",
+            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
+            "\\m[vlnp]...\\!\\m[wait]\\^",
+            "\\m[vlnp]\\shake...\\m[rb]",
+            "\\m[vlnp]...\\m[rb]",
+            "\\..\\..\\..\\m[rb]",
+            "\\m[vbnp]\\shake...",
+            "\\m[vl]\\..\\..\\..\\m[wait]",
+            "\\m[vmnp]\\..\\..\\..",
+            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
+            "\\m[vl]\\|.\\|.\\|.",
+            "...\\m[rb]",
+            "\\..\\..\\..\\m[wait]",
+            "...\\!\\m[wait]"
+        ],
+        "jp_clean": [
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "...",
+            "..."
+        ]
+    },
+    {
+        "en_raw": "May the Change God protect you!",
+        "en_clean": "May the Change God protect you!",
+        "jp_raw": "\\n<\\v[46]>\\m[vman]ウツロイ様のご加護があらんことを！",
+        "jp_clean": "ウツロイ様のご加護があらんことを！"
+    },
+    {
+        "en_raw": "(Old, moldy books.)",
+        "en_clean": "(Old, moldy books.)",
+        "jp_raw": "\\m[clear](古くてかび臭い本だ。)",
+        "jp_clean": "(古くてかび臭い本だ。)"
+    },
+    {
+        "en_raw": "(You can't even read their titles.)",
+        "en_clean": "(You can't even read their titles.)",
+        "jp_raw": "(タイトルも消えかかっている。)",
+        "jp_clean": "(タイトルも消えかかっている。)"
+    },
+    {
+        "en_raw": "(A closet filled with everything from empty salt shakers to half broken pencils.)",
+        "en_clean": "(A closet filled with everything from empty salt shakers to half broken pencils.)",
+        "jp_raw": "\\m[clear](クローゼットの中は空の塩入れや折れた鉛筆が詰まっている。)",
+        "jp_clean": "(クローゼットの中は空の塩入れや折れた鉛筆が詰まっている。)"
+    },
+    {
+        "en_raw": "(Are they for sale...?)",
+        "en_clean": "(Are they for sale...?)",
+        "jp_raw": "(これも売り物...？)",
+        "jp_clean": "(これも売り物...？)"
+    },
+    {
+        "en_raw": "(A little figure of the Change God.)",
+        "en_clean": "(A little figure of the Change God.)",
+        "jp_raw": "\\m[clear](ウツロイの神の小像だ。)",
+        "jp_clean": "(ウツロイの神の小像だ。)"
+    },
+    {
+        "en_raw": "(It's been Crafted to dance slightly.)",
+        "en_clean": "(It's been Crafted to dance slightly.)",
+        "jp_raw": "(ダンスの動きのクラフトがかけられている。)",
+        "jp_clean": "(ダンスの動きのクラフトがかけられている。)"
+    },
+    {
+        "en_raw": "(This one has a wide smile.)",
+        "en_clean": "(This one has a wide smile.)",
+        "jp_raw": "(この像は満面の笑みだ。)",
+        "jp_clean": "(この像は満面の笑みだ。)"
+    },
+    {
+        "en_raw": "(Shelves filled with various foods.)",
+        "en_clean": "(Shelves filled with various foods.)",
+        "jp_raw": "\\m[clear](棚はいろいろな食材でいっぱいだ。)",
+        "jp_clean": "(棚はいろいろな食材でいっぱいだ。)"
+    },
+    {
+        "en_raw": "(Being near them makes your stomach grumble...)",
+        "en_clean": "(Being near them makes your stomach grumble...)",
+        "jp_raw": "(近くにいるだけで、おなかがなりそうだ...)",
+        "jp_clean": "(近くにいるだけで、おなかがなりそうだ...)"
+    },
+    {
+        "en_raw": "(Some little paintings animated by Craft.)",
+        "en_clean": "(Some little paintings animated by Craft.)",
+        "jp_raw": "\\m[clear](小さな絵だ。\\!クラフトで描かれたものが動いている。)",
+        "jp_clean": "(小さな絵だ。クラフトで描かれたものが動いている。)"
+    },
+    {
+        "en_raw": "(You can see the shopkeeper, along with some other people from Dormont.)",
+        "en_clean": "(You can see the shopkeeper, along with some other people from Dormont.)",
+        "jp_raw": "(描かれているのは、店主とドーモントの人たちだ。)",
+        "jp_clean": "(描かれているのは、店主とドーモントの人たちだ。)"
     }
-}
+]
