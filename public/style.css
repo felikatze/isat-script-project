@@ -169,6 +169,7 @@ img.cg {
 }
 
 /* alt text styled like notes */
+/* it doesn't work great on cg styled images tho and i couldnt fix it :c */
 img::before {
     display: block;
     margin: 0.5em;
