@@ -3,31 +3,36 @@
         "en_raw": "(You make the secret hand sign, and think about talking to Loop.)",
         "en_clean": "(You make the secret hand sign, and think about talking to Loop.)",
         "jp_raw": "\\m[clear](秘密の手の形を作って、ループを思い浮かべる。)",
-        "jp_clean": "(秘密の手の形を作って、ループを思い浮かべる。)"
+        "jp_clean": "(秘密の手の形を作って、ループを思い浮かべる。)",
+        "checked": false
     },
     {
         "en_raw": "(...You ignore the confused stares of your [friends/allies].)",
         "en_clean": "(...You ignore the confused stares of your [friends/allies].)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You close your eyes...)",
         "en_clean": "(You close your eyes...)",
         "jp_raw": "\\m[clear](目を閉じる...)",
-        "jp_clean": "(目を閉じる...)"
+        "jp_clean": "(目を閉じる...)",
+        "checked": false
     },
     {
         "en_raw": "Hello hello, Loop speaking! Thank you for calling! How may I help you!",
         "en_clean": "Hello hello, Loop speaking! Thank you for calling! How may I help you!",
         "jp_raw": "\\m[vl]もしもし、ループです！\\!\\ ご連絡ありがとう！\\!\\ ご用は何ですか！\\m[rb]",
-        "jp_clean": "もしもし、ループです！ ご連絡ありがとう！ ご用は何ですか！"
+        "jp_clean": "もしもし、ループです！ ご連絡ありがとう！ ご用は何ですか！",
+        "checked": false
     },
     {
         "en_raw": "(Questions...)",
         "en_clean": "(Questions...)",
         "jp_raw": "\\m[choicespace](聞きたいことは...)\\!\\",
-        "jp_clean": "(聞きたいことは...)"
+        "jp_clean": "(聞きたいことは...)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -143,7 +148,8 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -259,37 +265,43 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Well, I'd love to chat, stardust, but you have other things to do, don't you?",
         "en_clean": "Well, I'd love to chat, stardust, but you have other things to do, don't you?",
         "jp_raw": "\\m[vl]星くず君、僕だってお話したいけど、きみは他にすることがあるんじゃない？",
-        "jp_clean": "星くず君、僕だってお話したいけど、きみは他にすることがあるんじゃない？"
+        "jp_clean": "星くず君、僕だってお話したいけど、きみは他にすることがあるんじゃない？",
+        "checked": false
     },
     {
         "en_raw": "Come by and see me anytime! We'll have time to chat about whatever you want!",
         "en_clean": "Come by and see me anytime! We'll have time to chat about whatever you want!",
         "jp_raw": "いつでも僕のところへ来てよ！\\!\\ なんでも好きなことを話せるよ！\\m[rb]",
-        "jp_clean": "いつでも僕のところへ来てよ！ なんでも好きなことを話せるよ！"
+        "jp_clean": "いつでも僕のところへ来てよ！ なんでも好きなことを話せるよ！",
+        "checked": false
     },
     {
         "en_raw": "Okay! Talk to you later, stardust!",
         "en_clean": "Okay! Talk to you later, stardust!",
         "jp_raw": "\\m[vl]いいかな！\\!\\ また後で話そうね、星くず君！\\m[rb]",
-        "jp_clean": "いいかな！ また後で話そうね、星くず君！"
+        "jp_clean": "いいかな！ また後で話そうね、星くず君！",
+        "checked": false
     },
     {
         "en_raw": "(You're about to call Loop, when you hear...)",
         "en_clean": "(You're about to call Loop, when you hear...)",
         "jp_raw": "\\m[clear](ループに連絡しようとすると、声が聞こえてきた...)",
-        "jp_clean": "(ループに連絡しようとすると、声が聞こえてきた...)"
+        "jp_clean": "(ループに連絡しようとすると、声が聞こえてきた...)",
+        "checked": false
     },
     {
         "en_raw": "Stardust!!! Come talk to me, instead of calling!!!",
         "en_clean": "Stardust!!! Come talk to me, instead of calling!!!",
         "jp_raw": "\\m[vl]星くず君ってば！！\\!\\ こんなのじゃなくて、直接話しにきてよね！！\\m[rb]",
-        "jp_clean": "星くず君ってば！！ こんなのじゃなくて、直接話しにきてよね！！"
+        "jp_clean": "星くず君ってば！！ こんなのじゃなくて、直接話しにきてよね！！",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -405,13 +417,15 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Might as well just talk to them in person...)",
         "en_clean": "(Might as well just talk to them in person...)",
         "jp_raw": "(直接話した方がいいな...)",
-        "jp_clean": "(直接話した方がいいな...)"
+        "jp_clean": "(直接話した方がいいな...)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -601,37 +615,43 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Loop isn't saying anything, but you can feel them stare at you.)",
         "en_clean": "(Loop isn't saying anything, but you can feel them stare at you.)",
         "jp_raw": "\\m[clear](ループは何も言わないが、こちらをじっと見ているのが分かる。)",
-        "jp_clean": "(ループは何も言わないが、こちらをじっと見ているのが分かる。)"
+        "jp_clean": "(ループは何も言わないが、こちらをじっと見ているのが分かる。)",
+        "checked": false
     },
     {
         "en_raw": "(Might as well just talk to them in person...)",
         "en_clean": "(Might as well just talk to them in person...)",
         "jp_raw": "(直接話した方がいいな...)",
-        "jp_clean": "(直接話した方がいいな...)"
+        "jp_clean": "(直接話した方がいいな...)",
+        "checked": false
     },
     {
         "en_raw": "(No, you...)",
         "en_clean": "(No, you...)",
         "jp_raw": "\\m[clear](いや、ダメだ...)",
-        "jp_clean": "(いや、ダメだ...)"
+        "jp_clean": "(いや、ダメだ...)",
+        "checked": false
     },
     {
         "en_raw": "(You need to talk to them in person.)",
         "en_clean": "(You need to talk to them in person.)",
         "jp_raw": "(直接話さないと。)",
-        "jp_clean": "(直接話さないと。)"
+        "jp_clean": "(直接話さないと。)",
+        "checked": false
     },
     {
         "en_raw": "(You try to call Loop, but there's no answer.)",
         "en_clean": "(You try to call Loop, but there's no answer.)",
         "jp_raw": "\\m[clear](ループに連絡しようとしたが、返事がない。)",
-        "jp_clean": "(ループに連絡しようとしたが、返事がない。)"
+        "jp_clean": "(ループに連絡しようとしたが、返事がない。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -747,6 +767,7 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     }
 ]

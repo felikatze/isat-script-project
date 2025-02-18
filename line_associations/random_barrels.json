@@ -3,55 +3,64 @@
         "en_raw": "(That's a barrel.)",
         "en_clean": "(That's a barrel.)",
         "jp_raw": "\\m[clear](タルがある。)",
-        "jp_clean": "(タルがある。)"
+        "jp_clean": "(タルがある。)",
+        "checked": false
     },
     {
         "en_raw": "(It's a barrel.)",
         "en_clean": "(It's a barrel.)",
         "jp_raw": "\\m[clear](タルだな。)",
-        "jp_clean": "(タルだな。)"
+        "jp_clean": "(タルだな。)",
+        "checked": false
     },
     {
         "en_raw": "(It says on the side: \"DO NOT SHAKE!!!\")",
         "en_clean": "(It says on the side: \"DO NOT SHAKE!!!\")",
         "jp_raw": "\\m[clear](横に書いてあるのは...「揺するな！！！」)",
-        "jp_clean": "(横に書いてあるのは...「揺するな！！！」)"
+        "jp_clean": "(横に書いてあるのは...「揺するな！！！」)",
+        "checked": false
     },
     {
         "en_raw": "(It's full of various nuts.)",
         "en_clean": "(It's full of various nuts.)",
         "jp_raw": "\\m[clear](いろんな木の実が詰まっている。)",
-        "jp_clean": "(いろんな木の実が詰まっている。)"
+        "jp_clean": "(いろんな木の実が詰まっている。)",
+        "checked": false
     },
     {
         "en_raw": "(It's full of water.)",
         "en_clean": "(It's full of water.)",
         "jp_raw": "\\m[clear](水が詰まっている。)",
-        "jp_clean": "(水が詰まっている。)"
+        "jp_clean": "(水が詰まっている。)",
+        "checked": false
     },
     {
         "en_raw": "(It's full of nothing.)",
         "en_clean": "(It's full of nothing.)",
         "jp_raw": "\\m[clear](空っぽだな。)",
-        "jp_clean": "(空っぽだな。)"
+        "jp_clean": "(空っぽだな。)",
+        "checked": false
     },
     {
         "en_raw": "(...There's something in there[!/.])",
         "en_clean": "(...There's something in there[!/.])",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You got one SUPER SWEET TONIC!)",
         "en_clean": "(You got one SUPER SWEET TONIC!)",
         "jp_raw": "\\m[clear](「めちゃ甘トニック」を1個手に入れた！)",
-        "jp_clean": "(「めちゃ甘トニック」を1個手に入れた！)"
+        "jp_clean": "(「めちゃ甘トニック」を1個手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You got one SUPER SOUR TONIC!)",
         "en_clean": "(You got one SUPER SOUR TONIC!)",
         "jp_raw": "\\m[clear](「めちゃ甘トニック」を手に入れた！)",
-        "jp_clean": "(「めちゃ甘トニック」を手に入れた！)"
+        "jp_clean": "(「めちゃ甘トニック」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You got two SALTY BROTHS!)",
@@ -63,43 +72,50 @@
         "jp_clean": [
             "(「しょっぱスープ」を手に入れた！)",
             "(「しょっぱスープ」を2つ手に入れた！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You got three CRAFTED WATERS!)",
         "en_clean": "(You got three CRAFTED WATERS!)",
         "jp_raw": "\\m[clear](「クラフト水」を手に入れた！)",
-        "jp_clean": "(「クラフト水」を手に入れた！)"
+        "jp_clean": "(「クラフト水」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You give it to Bonnie for safekeeping.)",
         "en_clean": "(You give it to Bonnie for safekeeping.)",
         "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
-        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)"
+        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)",
+        "checked": false
     },
     {
         "en_raw": "(Barrel.)",
         "en_clean": "(Barrel.)",
         "jp_raw": "\\m[clear](タルだ。)",
-        "jp_clean": "(タルだ。)"
+        "jp_clean": "(タルだ。)",
+        "checked": false
     },
     {
         "en_raw": "(A barrel.)",
         "en_clean": "(A barrel.)",
         "jp_raw": "\\m[clear](タルが1つある。)",
-        "jp_clean": "(タルが1つある。)"
+        "jp_clean": "(タルが1つある。)",
+        "checked": false
     },
     {
         "en_raw": "Hey, uh Sif...",
         "en_clean": "Hey, uh Sif...",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "You okay, buddy? What's up with the barrels?",
         "en_clean": "You okay, buddy? What's up with the barrels?",
         "jp_raw": "大丈夫か？\\!\\ タルがどうかしたのか？",
-        "jp_clean": "大丈夫か？ タルがどうかしたのか？"
+        "jp_clean": "大丈夫か？ タルがどうかしたのか？",
+        "checked": false
     },
     {
         "en_raw": "(Oh, oops.)",
@@ -111,7 +127,8 @@
         "jp_clean": [
             "(うわ、しまった。)",
             "(あっ、しまった。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Oh, oops.)",
@@ -123,7 +140,8 @@
         "jp_clean": [
             "(うわ、しまった。)",
             "(あっ、しまった。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "...Well...",
@@ -135,127 +153,148 @@
         "jp_clean": [
             "...そうだな...",
             "...まあ..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "That's not false, I guess? Anything could be in there.",
         "en_clean": "That's not false, I guess? Anything could be in there.",
         "jp_raw": "ありえなくはないか？\\!\\ 何か入ってる可能性はある。",
-        "jp_clean": "ありえなくはないか？ 何か入ってる可能性はある。"
+        "jp_clean": "ありえなくはないか？ 何か入ってる可能性はある。",
+        "checked": false
     },
     {
         "en_raw": "A key, a crest...",
         "en_clean": "A key, a crest...",
         "jp_raw": "鍵とか、紋章とか...",
-        "jp_clean": "鍵とか、紋章とか..."
+        "jp_clean": "鍵とか、紋章とか...",
+        "checked": false
     },
     {
         "en_raw": "Some tonics...",
         "en_clean": "Some tonics...",
         "jp_raw": "\\m[vm]トニックとか...",
-        "jp_clean": "トニックとか..."
+        "jp_clean": "トニックとか...",
+        "checked": false
     },
     {
         "en_raw": "Maybe a sword.",
         "en_clean": "Maybe a sword.",
         "jp_raw": "\\m[vb]剣が入ってるかも。",
-        "jp_clean": "剣が入ってるかも。"
+        "jp_clean": "剣が入ってるかも。",
+        "checked": false
     },
     {
         "en_raw": "I don't think a barrel will hide a sword, Boniface.",
         "en_clean": "I don't think a barrel will hide a sword, Boniface.",
         "jp_raw": "\\m[vo]タルの中に剣を入れられるとは思わんぞ、ボニファス。",
-        "jp_clean": "タルの中に剣を入れられるとは思わんぞ、ボニファス。"
+        "jp_clean": "タルの中に剣を入れられるとは思わんぞ、ボニファス。",
+        "checked": false
     },
     {
         "en_raw": "(You just like looking into barrels, it's fun.)",
         "en_clean": "(You just like looking into barrels, it's fun.)",
         "jp_raw": "\\m[clear](楽しいからタルの中を覗いただけなのに。)",
-        "jp_clean": "(楽しいからタルの中を覗いただけなのに。)"
+        "jp_clean": "(楽しいからタルの中を覗いただけなのに。)",
+        "checked": false
     },
     {
         "en_raw": "(But Isabeau's right... You could find something interesting in those...)",
         "en_clean": "(But Isabeau's right... You could find something interesting in those...)",
         "jp_raw": "(でも、イザボーの言うとおりだ...\\!\\ 何かいいものが入っているかも...)",
-        "jp_clean": "(でも、イザボーの言うとおりだ... 何かいいものが入っているかも...)"
+        "jp_clean": "(でも、イザボーの言うとおりだ... 何かいいものが入っているかも...)",
+        "checked": false
     },
     {
         "en_raw": "(You got a MEMORY OF BARRELS!)",
         "en_clean": "(You got a MEMORY OF BARRELS!)",
         "jp_raw": "\\m[clear](「タルの記憶」を手に入れた！)",
-        "jp_clean": "(「タルの記憶」を手に入れた！)"
+        "jp_clean": "(「タルの記憶」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You'll always remember this.)",
         "en_clean": "(You'll always remember this.)",
         "jp_raw": "(これはいつでも思い出せる記憶だ。)",
-        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)",
+        "checked": false
     },
     {
         "en_raw": "[If you have Memory of Barrels equipped, examining barrels might give you some cool items!.]",
         "en_clean": "[If you have Memory of Barrels equipped, examining barrels might give you some cool items!.]",
         "jp_raw": "\\m[vtuto][「タルの記憶」を装備すると、タルを調べたときにアイテムが手に入ることがあるぞ！]\\m[rb]",
-        "jp_clean": "[「タルの記憶」を装備すると、タルを調べたときにアイテムが手に入ることがあるぞ！]"
+        "jp_clean": "[「タルの記憶」を装備すると、タルを調べたときにアイテムが手に入ることがあるぞ！]",
+        "checked": false
     },
     {
         "en_raw": "[Huh?! Is that how barrels work?!? Well, I guess that's how they work now. Yay for you!]",
         "en_clean": "[Huh?! Is that how barrels work?!? Well, I guess that's how they work now. Yay for you!]",
         "jp_raw": "[えっ？！\\!\\ タルはそんな仕組みじゃないって？！？！\\!\\ 今からそうなの。\\!\\ よかったね！]\\m[rb]",
-        "jp_clean": "[えっ？！ タルはそんな仕組みじゃないって？！？！ 今からそうなの。 よかったね！]"
+        "jp_clean": "[えっ？！ タルはそんな仕組みじゃないって？！？！ 今からそうなの。 よかったね！]",
+        "checked": false
     },
     {
         "en_raw": "(It's a pillar.)",
         "en_clean": "(It's a pillar.)",
         "jp_raw": "\\m[clear](柱だな。)",
-        "jp_clean": "(柱だな。)"
+        "jp_clean": "(柱だな。)",
+        "checked": false
     },
     {
         "en_raw": "(A pillar.)",
         "en_clean": "(A pillar.)",
         "jp_raw": "\\m[clear](柱が1本。)",
-        "jp_clean": "(柱が1本。)"
+        "jp_clean": "(柱が1本。)",
+        "checked": false
     },
     {
         "en_raw": "(That sure is a pillar.)",
         "en_clean": "(That sure is a pillar.)",
         "jp_raw": "\\m[clear](まさしく柱だ。)",
-        "jp_clean": "(まさしく柱だ。)"
+        "jp_clean": "(まさしく柱だ。)",
+        "checked": false
     },
     {
         "en_raw": "(It's a broken pillar.)",
         "en_clean": "(It's a broken pillar.)",
         "jp_raw": "\\m[clear](壊れた柱だな。)",
-        "jp_clean": "(壊れた柱だな。)"
+        "jp_clean": "(壊れた柱だな。)",
+        "checked": false
     },
     {
         "en_raw": "(A broken pillar.)",
         "en_clean": "(A broken pillar.)",
         "jp_raw": "\\m[clear](壊れた柱が1本。)",
-        "jp_clean": "(壊れた柱が1本。)"
+        "jp_clean": "(壊れた柱が1本。)",
+        "checked": false
     },
     {
         "en_raw": "(That sure is a broken pillar.)",
         "en_clean": "(That sure is a broken pillar.)",
         "jp_raw": "\\m[clear](まさしく壊れた柱だ。)",
-        "jp_clean": "(まさしく壊れた柱だ。)"
+        "jp_clean": "(まさしく壊れた柱だ。)",
+        "checked": false
     },
     {
         "en_raw": "(...There's something inside?)",
         "en_clean": "(...There's something inside?)",
         "jp_raw": "(...\\!中に何かある？)",
-        "jp_clean": "(...中に何かある？)"
+        "jp_clean": "(...中に何かある？)",
+        "checked": false
     },
     {
         "en_raw": "(You got one SUPER SOUR TONIC!)",
         "en_clean": "(You got one SUPER SOUR TONIC!)",
         "jp_raw": "\\m[clear](「めちゃ甘トニック」を手に入れた！)",
-        "jp_clean": "(「めちゃ甘トニック」を手に入れた！)"
+        "jp_clean": "(「めちゃ甘トニック」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You got one PEPPER JUICE!)",
         "en_clean": "(You got one PEPPER JUICE!)",
         "jp_raw": "\\m[clear](「こしょうジュース」を手に入れた！)",
-        "jp_clean": "(「こしょうジュース」を手に入れた！)"
+        "jp_clean": "(「こしょうジュース」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You got one GINGER JUICE!)",
@@ -267,7 +306,8 @@
         "jp_clean": [
             "(「しょうがジュース」を手に入れた！)",
             "(「しょうがジュース」を手に入れた！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You got one THYME JUICE!)",
@@ -279,115 +319,134 @@
         "jp_clean": [
             "(「タイムジュース」を手に入れた！)",
             "(「タイムジュース」を手に入れた！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You give it to Bonnie for safekeeping.)",
         "en_clean": "(You give it to Bonnie for safekeeping.)",
         "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
-        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)"
+        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)",
+        "checked": false
     },
     {
         "en_raw": "(Pillar.)",
         "en_clean": "(Pillar.)",
         "jp_raw": "\\m[clear](柱だ。)",
-        "jp_clean": "(柱だ。)"
+        "jp_clean": "(柱だ。)",
+        "checked": false
     },
     {
         "en_raw": "(A pillar.)",
         "en_clean": "(A pillar.)",
         "jp_raw": "\\m[clear](柱が1本。)",
-        "jp_clean": "(柱が1本。)"
+        "jp_clean": "(柱が1本。)",
+        "checked": false
     },
     {
         "en_raw": "(Broken pillar.)",
         "en_clean": "(Broken pillar.)",
         "jp_raw": "\\m[clear](壊れた柱だ。)",
-        "jp_clean": "(壊れた柱だ。)"
+        "jp_clean": "(壊れた柱だ。)",
+        "checked": false
     },
     {
         "en_raw": "(A broken pillar.)",
         "en_clean": "(A broken pillar.)",
         "jp_raw": "\\m[clear](壊れた柱が1本。)",
-        "jp_clean": "(壊れた柱が1本。)"
+        "jp_clean": "(壊れた柱が1本。)",
+        "checked": false
     },
     {
         "en_raw": "You okay, Sif? I really don't think we'll have another switch inside a pillar.",
         "en_clean": "You okay, Sif? I really don't think we'll have another switch inside a pillar.",
         "jp_raw": "\\m[vi]シフ、どうした？\\!\\ 柱の中にまたスイッチがあるってことは、もうないと思うぜ。",
-        "jp_clean": "シフ、どうした？ 柱の中にまたスイッチがあるってことは、もうないと思うぜ。"
+        "jp_clean": "シフ、どうした？ 柱の中にまたスイッチがあるってことは、もうないと思うぜ。",
+        "checked": false
     },
     {
         "en_raw": "Yes, I think using the same tactic twice would be quite stupid...",
         "en_clean": "Yes, I think using the same tactic twice would be quite stupid...",
         "jp_raw": "\\m[vo]そのとおりだ。\\!同じ戦術が二度目も通用すると思うなんて、バカげている...",
-        "jp_clean": "そのとおりだ。同じ戦術が二度目も通用すると思うなんて、バカげている..."
+        "jp_clean": "そのとおりだ。同じ戦術が二度目も通用すると思うなんて、バカげている...",
+        "checked": false
     },
     {
         "en_raw": "(But what if one of those columns hides another switch?!?! You just can't take the chance.)",
         "en_clean": "(But what if one of those columns hides another switch?!?! You just can't take the chance.)",
         "jp_raw": "\\m[clear](だけど、柱の中にまたスイッチがあるかもしれないじゃないか？！？！\\!\\ チャンスを逃したくない。)",
-        "jp_clean": "(だけど、柱の中にまたスイッチがあるかもしれないじゃないか？！？！ チャンスを逃したくない。)"
+        "jp_clean": "(だけど、柱の中にまたスイッチがあるかもしれないじゃないか？！？！ チャンスを逃したくない。)",
+        "checked": false
     },
     {
         "en_raw": "(And if not switches... They might have SOMETHING in them.)",
         "en_clean": "(And if not switches... They might have SOMETHING in them.)",
         "jp_raw": "(スイッチがなくても...\\!\\ 何か別のものが入っているかもしれない。)",
-        "jp_clean": "(スイッチがなくても... 何か別のものが入っているかもしれない。)"
+        "jp_clean": "(スイッチがなくても... 何か別のものが入っているかもしれない。)",
+        "checked": false
     },
     {
         "en_raw": "(You got a MEMORY OF PILLARS!)",
         "en_clean": "(You got a MEMORY OF PILLARS!)",
         "jp_raw": "\\m[clear](「柱の記憶」を手に入れた！)",
-        "jp_clean": "(「柱の記憶」を手に入れた！)"
+        "jp_clean": "(「柱の記憶」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You'll always remember this.)",
         "en_clean": "(You'll always remember this.)",
         "jp_raw": "(これはいつでも思い出せる記憶だ。)",
-        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)",
+        "checked": false
     },
     {
         "en_raw": "[If you have Memory of Pillars equipped, examining pillars might give you some cool items!]",
         "en_clean": "[If you have Memory of Pillars equipped, examining pillars might give you some cool items!]",
         "jp_raw": "\\m[vtuto][「柱の記憶」を装備すると、柱を調べたときにアイテムが手に入ることがあるぞ！]",
-        "jp_clean": "[「柱の記憶」を装備すると、柱を調べたときにアイテムが手に入ることがあるぞ！]"
+        "jp_clean": "[「柱の記憶」を装備すると、柱を調べたときにアイテムが手に入ることがあるぞ！]",
+        "checked": false
     },
     {
         "en_raw": "[Which is a little weird, I gotta say. Why would you find stuff in them? I don't get it, but that's how the world works now. Yay?]",
         "en_clean": "[Which is a little weird, I gotta say. Why would you find stuff in them? I don't get it, but that's how the world works now. Yay?]",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Something is keeping you from going back...)",
         "en_clean": "(Something is keeping you from going back...)",
         "jp_raw": "\\m[clear](邪魔されて、戻ることができない...)",
-        "jp_clean": "(邪魔されて、戻ることができない...)"
+        "jp_clean": "(邪魔されて、戻ることができない...)",
+        "checked": false
     },
     {
         "en_raw": "(There's no turning back now.)",
         "en_clean": "(There's no turning back now.)",
         "jp_raw": "\\m[clear](後で戻ってくることはできない。)",
-        "jp_clean": "(後で戻ってくることはできない。)"
+        "jp_clean": "(後で戻ってくることはできない。)",
+        "checked": false
     },
     {
         "en_raw": "(You have to press onwards.)",
         "en_clean": "(You have to press onwards.)",
         "jp_raw": "(前進しなければ。)",
-        "jp_clean": "(前進しなければ。)"
+        "jp_clean": "(前進しなければ。)",
+        "checked": false
     },
     {
         "en_raw": "(No need to go back!)",
         "en_clean": "(No need to go back!)",
         "jp_raw": "\\m[clear](戻る必要はない！)",
-        "jp_clean": "(戻る必要はない！)"
+        "jp_clean": "(戻る必要はない！)",
+        "checked": false
     },
     {
         "en_raw": "(Can't go back.)",
         "en_clean": "(Can't go back.)",
         "jp_raw": "\\m[clear](戻れない。)",
-        "jp_clean": "(戻れない。)"
+        "jp_clean": "(戻れない。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -503,12 +562,14 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Nope!)",
         "en_clean": "(Nope!)",
         "jp_raw": "\\m[clear](そんな！)",
-        "jp_clean": "(そんな！)"
+        "jp_clean": "(そんな！)",
+        "checked": false
     }
 ]

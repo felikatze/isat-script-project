@@ -3,13 +3,15 @@
         "en_raw": "Siffrin! You're up!",
         "en_clean": "Siffrin! You're up!",
         "jp_raw": "\\m[vm]シフラン！\\!\\ 起きたのね！",
-        "jp_clean": "シフラン！ 起きたのね！"
+        "jp_clean": "シフラン！ 起きたのね！",
+        "checked": false
     },
     {
         "en_raw": "(The usual, please.)",
         "en_clean": "(The usual, please.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Here again.)",
@@ -25,19 +27,22 @@
             "(またここだ。)",
             "(今回もか。)",
             "(まただ。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You'd like to make sure Mirabelle doesn't get upset, but is there any way to make this conversation go faster...?)",
         "en_clean": "(You'd like to make sure Mirabelle doesn't get upset, but is there any way to make this conversation go faster...?)",
         "jp_raw": "(ミラベルを怒らせないようにしつつ、会話を早く終わらせるにはどうしたらいいだろう...？)",
-        "jp_clean": "(ミラベルを怒らせないようにしつつ、会話を早く終わらせるにはどうしたらいいだろう...？)"
+        "jp_clean": "(ミラベルを怒らせないようにしつつ、会話を早く終わらせるにはどうしたらいいだろう...？)",
+        "checked": false
     },
     {
         "en_raw": "(Something like...)",
         "en_clean": "(Something like...)",
         "jp_raw": "(たとえば...)",
-        "jp_clean": "(たとえば...)"
+        "jp_clean": "(たとえば...)",
+        "checked": false
     },
     {
         "en_raw": "(Here again.)",
@@ -53,25 +58,29 @@
             "(またここだ。)",
             "(今回もか。)",
             "(まただ。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Enter Mirabelle.)",
         "en_clean": "(Enter Mirabelle.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Hey, Siffrin! Hehehe!",
         "en_clean": "Hey, Siffrin! Hehehe!",
         "jp_raw": "\\m[vm]あら、シフラン！\\!\\ エヘヘ！",
-        "jp_clean": "あら、シフラン！ エヘヘ！"
+        "jp_clean": "あら、シフラン！ エヘヘ！",
+        "checked": false
     },
     {
         "en_raw": "So how was your nap? On a scale of one to ten!",
         "en_clean": "So how was your nap? On a scale of one to ten!",
         "jp_raw": "お昼寝はどうだった？\\!\\ 10点満点だと何点ぐらい？",
-        "jp_clean": "お昼寝はどうだった？ 10点満点だと何点ぐらい？"
+        "jp_clean": "お昼寝はどうだった？ 10点満点だと何点ぐらい？",
+        "checked": false
     },
     {
         "en_raw": "(Hm...)",
@@ -85,7 +94,8 @@
             "(ふむ...)",
             "(ふむ...)",
             "(そうだな...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -201,73 +211,85 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "I'm glad! I know how much you value your naps.",
         "en_clean": "I'm glad! I know how much you value your naps.",
         "jp_raw": "\\m[vm]よかった！\\!\\ シフランにとってお昼寝は大切だもんね。",
-        "jp_clean": "よかった！ シフランにとってお昼寝は大切だもんね。"
+        "jp_clean": "よかった！ シフランにとってお昼寝は大切だもんね。",
+        "checked": false
     },
     {
         "en_raw": "...That bad? I'm sorry to hear that...",
         "en_clean": "...That bad? I'm sorry to hear that...",
         "jp_raw": "\\m[vm]...\\!そんなひどかったの？\\!\\ それは残念だったね...",
-        "jp_clean": "...そんなひどかったの？ それは残念だったね..."
+        "jp_clean": "...そんなひどかったの？ それは残念だったね...",
+        "checked": false
     },
     {
         "en_raw": "I hope you'll sleep well tonight! I know how much you value your naps!",
         "en_clean": "I hope you'll sleep well tonight! I know how much you value your naps!",
         "jp_raw": "今夜はぐっすり眠れるといいね。\\!シフランにとって睡眠は大切だもんね！",
-        "jp_clean": "今夜はぐっすり眠れるといいね。シフランにとって睡眠は大切だもんね！"
+        "jp_clean": "今夜はぐっすり眠れるといいね。シフランにとって睡眠は大切だもんね！",
+        "checked": false
     },
     {
         "en_raw": "Oh, wait! I had something I wanted to ask you!!!",
         "en_clean": "Oh, wait! I had something I wanted to ask you!!!",
         "jp_raw": "\\m[vm]あ、待って。\\!訊きたいことがあるの！",
-        "jp_clean": "あ、待って。訊きたいことがあるの！"
+        "jp_clean": "あ、待って。訊きたいことがあるの！",
+        "checked": false
     },
     {
         "en_raw": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "en_clean": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "jp_raw": "今夜のことなんだけど...\\!\\ 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
-        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って..."
+        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
+        "checked": false
     },
     {
         "en_raw": "So, I was thinking, how about a sleepover?",
         "en_clean": "So, I was thinking, how about a sleepover?",
         "jp_raw": "だからね、お泊り会なんてどうかな？",
-        "jp_clean": "だからね、お泊り会なんてどうかな？"
+        "jp_clean": "だからね、お泊り会なんてどうかな？",
+        "checked": false
     },
     {
         "en_raw": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "en_clean": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "jp_raw": "みんなで美味しいごはんを食べようよ！\\!\\ それから同じ部屋で寝るの！\\!\\ お話しなんかもしてさ！",
-        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！"
+        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！",
+        "checked": false
     },
     {
         "en_raw": "It would be nice, wouldn't it?",
         "en_clean": "It would be nice, wouldn't it?",
         "jp_raw": "素敵だと思わない？",
-        "jp_clean": "素敵だと思わない？"
+        "jp_clean": "素敵だと思わない？",
+        "checked": false
     },
     {
         "en_raw": "(Yeah, you know what to say.)",
         "en_clean": "(Yeah, you know what to say.)",
         "jp_raw": "\\m[clear](そうだ、言うべきことは分かってる。)",
-        "jp_clean": "(そうだ、言うべきことは分かってる。)"
+        "jp_clean": "(そうだ、言うべきことは分かってる。)",
+        "checked": false
     },
     {
         "en_raw": "(Make her happy.)",
         "en_clean": "(Make her happy.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(The usual.)",
         "en_clean": "(The usual.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Say the line, Siffrin.)",
@@ -279,31 +301,36 @@
         "jp_clean": [
             "(セリフを言え、シフラン。)",
             "(セリフを言え、シフラン。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Yeah? Oh, I'm so glad you think so!!!",
         "en_clean": "Yeah? Oh, I'm so glad you think so!!!",
         "jp_raw": "\\m[vm]そう？\\!\\ そう思ってくれてうれしい！",
-        "jp_clean": "そう？ そう思ってくれてうれしい！"
+        "jp_clean": "そう？ そう思ってくれてうれしい！",
+        "checked": false
     },
     {
         "en_raw": "I was thinking it was a little silly, but if you think it could be fun, then great!!!",
         "en_clean": "I was thinking it was a little silly, but if you think it could be fun, then great!!!",
         "jp_raw": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！",
-        "jp_clean": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！"
+        "jp_clean": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！",
+        "checked": false
     },
     {
         "en_raw": "Ah, I can't wait... This will be delightful! I'm smiling just thinking about it...",
         "en_clean": "Ah, I can't wait... This will be delightful! I'm smiling just thinking about it...",
         "jp_raw": "あー、待ち遠しいな...\\!\\ 愉快な夜になるよ！\\!\\ 想像しただけで頬がゆるんじゃう...",
-        "jp_clean": "あー、待ち遠しいな... 愉快な夜になるよ！ 想像しただけで頬がゆるんじゃう..."
+        "jp_clean": "あー、待ち遠しいな... 愉快な夜になるよ！ 想像しただけで頬がゆるんじゃう...",
+        "checked": false
     },
     {
         "en_raw": "(You're happy she's happy.)",
         "en_clean": "(You're happy she's happy.)",
         "jp_raw": "\\m[clear](ミラベルが喜んでいると、自分まで嬉しくなる。)",
-        "jp_clean": "(ミラベルが喜んでいると、自分まで嬉しくなる。)"
+        "jp_clean": "(ミラベルが喜んでいると、自分まで嬉しくなる。)",
+        "checked": false
     },
     {
         "en_raw": "(You smile back.)",
@@ -315,13 +342,15 @@
         "jp_clean": [
             "(微笑みを返す。)",
             "(微笑みを返す。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Her smile still manages to bring your mood back up.)",
         "en_clean": "(Her smile still manages to bring your mood back up.)",
         "jp_raw": "\\m[clear](彼女の笑顔は相変わらずだ。\\!こっちまで気分が良くなる。)",
-        "jp_clean": "(彼女の笑顔は相変わらずだ。こっちまで気分が良くなる。)"
+        "jp_clean": "(彼女の笑顔は相変わらずだ。こっちまで気分が良くなる。)",
+        "checked": false
     },
     {
         "en_raw": "(You smile back.)",
@@ -333,7 +362,8 @@
         "jp_clean": [
             "(微笑みを返す。)",
             "(微笑みを返す。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You smile back.)",
@@ -345,145 +375,169 @@
         "jp_clean": [
             "(微笑みを返す。)",
             "(微笑みを返す。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(It hurts a little bit.)",
         "en_clean": "(It hurts a little bit.)",
         "jp_raw": "\\m[wait](少し心が痛むけど。)",
-        "jp_clean": "(少し心が痛むけど。)"
+        "jp_clean": "(少し心が痛むけど。)",
+        "checked": false
     },
     {
         "en_raw": "--so, could you let everyone know? I would really appreciate it!",
         "en_clean": "--so, could you let everyone know? I would really appreciate it!",
         "jp_raw": "\\m[vm]じゃあ、シフランからみんなに知らせてもらえる？\\!\\ そうしてもらえるとすごく助かるわ！",
-        "jp_clean": "じゃあ、シフランからみんなに知らせてもらえる？ そうしてもらえるとすごく助かるわ！"
+        "jp_clean": "じゃあ、シフランからみんなに知らせてもらえる？ そうしてもらえるとすごく助かるわ！",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Okay! Let me think...",
         "en_clean": "Okay! Let me think...",
         "jp_raw": "\\m[vm]よし！\\!\\ えっと...",
-        "jp_clean": "よし！ えっと..."
+        "jp_clean": "よし！ えっと...",
+        "checked": false
     },
     {
         "en_raw": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "en_clean": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "jp_raw": "マダム・オディールはお店で買い物中。\\!ボニーは東にある畑のあたりにいるはず。\\!それからイザボーは、西にある願いの木にいるよ！",
-        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！"
+        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！",
+        "checked": false
     },
     {
         "en_raw": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "en_clean": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "jp_raw": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。\\!みんなには、そこで集合しようって伝えてね！",
-        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！"
+        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！",
+        "checked": false
     },
     {
         "en_raw": "...That was a lot of names and places. Will you remember?",
         "en_clean": "...That was a lot of names and places. Will you remember?",
         "jp_raw": "...\\!いっぺんにいろんなことを言っちゃったけど...\\!\\ 誰がどこにいるか覚えた？",
-        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？"
+        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？",
+        "checked": false
     },
     {
         "en_raw": "(You think so, yes.)",
         "en_clean": "(You think so, yes.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You really, really will.)",
         "en_clean": "(You really, really will.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
         "en_clean": "...Well, unrelated to your memory...",
         "jp_raw": "\\m[vm]...\\!覚えていてもいなくても...",
-        "jp_clean": "...覚えていてもいなくても..."
+        "jp_clean": "...覚えていてもいなくても...",
+        "checked": false
     },
     {
         "en_raw": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "en_clean": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "jp_raw": "みんなの居場所を書いたメモを渡しておくね！\\!\\ 念のためにどうぞ！\\!\\ 忘れたら...\\!\\ これを見て！",
-        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！"
+        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！",
+        "checked": false
     },
     {
         "en_raw": "(You got the REMINDER NOTE!)",
         "en_clean": "(You got the REMINDER NOTE!)",
         "jp_raw": "\\m[clear](「することメモ」を手に入れた！)",
-        "jp_clean": "(「することメモ」を手に入れた！)"
+        "jp_clean": "(「することメモ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You put the note in your pocket along with your Souvenirs.)",
         "en_clean": "(You put the note in your pocket along with your Souvenirs.)",
         "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
         "en_clean": "...Well, unrelated to your memory...",
         "jp_raw": "\\m[vm]...\\!覚えていてもいなくても...",
-        "jp_clean": "...覚えていてもいなくても..."
+        "jp_clean": "...覚えていてもいなくても...",
+        "checked": false
     },
     {
         "en_raw": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "en_clean": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "jp_raw": "みんなの居場所を書いたメモを渡しておくね！\\!\\ 念のためにどうぞ！\\!\\ 忘れたら...\\!\\ これを見て！",
-        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！"
+        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！",
+        "checked": false
     },
     {
         "en_raw": "(You got the REMINDER NOTE!)",
         "en_clean": "(You got the REMINDER NOTE!)",
         "jp_raw": "\\m[clear](「することメモ」を手に入れた！)",
-        "jp_clean": "(「することメモ」を手に入れた！)"
+        "jp_clean": "(「することメモ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You put the note in your pocket along with your Souvenirs.)",
         "en_clean": "(You put the note in your pocket along with your Souvenirs.)",
         "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "...Well, I'll let you do this then! Sounds like you remember!",
         "en_clean": "...Well, I'll let you do this then! Sounds like you remember!",
         "jp_raw": "\\m[vm]...うん、じゃあ任せるね！\\!\\ 覚えてるみたいだし！",
-        "jp_clean": "...うん、じゃあ任せるね！ 覚えてるみたいだし！"
+        "jp_clean": "...うん、じゃあ任せるね！ 覚えてるみたいだし！",
+        "checked": false
     },
     {
         "en_raw": "(You do!)",
         "en_clean": "(You do!)",
         "jp_raw": "\\m[clear](もちろん！)",
-        "jp_clean": "(もちろん！)"
+        "jp_clean": "(もちろん！)",
+        "checked": false
     },
     {
         "en_raw": "(You really, really do.)",
         "en_clean": "(You really, really do.)",
         "jp_raw": "\\m[clear](忘れようがないよ。)",
-        "jp_clean": "(忘れようがないよ。)"
+        "jp_clean": "(忘れようがないよ。)",
+        "checked": false
     },
     {
         "en_raw": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "en_clean": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "jp_raw": "\\m[vm]そしたら時計台で会おうね！\\!\\ わたしは図書館の近くにいるから、用事があったら声をかけて！",
-        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！"
+        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！",
+        "checked": false
     },
     {
         "en_raw": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "en_clean": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "jp_raw": "それと、ウツロイ様の像にも必ずお参りしてね！\\!\\ きっといいことがあるから！",
-        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！"
+        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！",
+        "checked": false
     },
     {
         "en_raw": "Oh!",
@@ -507,73 +561,85 @@
             "おっ！",
             "あっ！",
             "わっ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "I-I was actually just thinking about it... What do you think?",
         "en_clean": "I-I was actually just thinking about it... What do you think?",
         "jp_raw": "わ、わたしもちょうど同じことを考えてたの...\\!\\ シフランはどう思う？",
-        "jp_clean": "わ、わたしもちょうど同じことを考えてたの... シフランはどう思う？"
+        "jp_clean": "わ、わたしもちょうど同じことを考えてたの... シフランはどう思う？",
+        "checked": false
     },
     {
         "en_raw": "\"Absolutely! I'll let everyone know!\"",
         "en_clean": "\"Absolutely! I'll let everyone know!\"",
         "jp_raw": "\"やろうよ！ みんなに知らせてくるよ！\"",
-        "jp_clean": "\"やろうよ！ みんなに知らせてくるよ！\""
+        "jp_clean": "\"やろうよ！ みんなに知らせてくるよ！\"",
+        "checked": false
     },
     {
         "en_raw": "You're right! We don't have a moment to lose!!!",
         "en_clean": "You're right! We don't have a moment to lose!!!",
         "jp_raw": "\\m[vm]そうよね！\\!\\ 時間をムダに出来ない！！！",
-        "jp_clean": "そうよね！ 時間をムダに出来ない！！！"
+        "jp_clean": "そうよね！ 時間をムダに出来ない！！！",
+        "checked": false
     },
     {
         "en_raw": "But, wait, do you know where everyone--",
         "en_clean": "But, wait, do you know where everyone--",
         "jp_raw": "あ、待って。\\!みんながどこにいるか――",
-        "jp_clean": "あ、待って。みんながどこにいるか――"
+        "jp_clean": "あ、待って。みんながどこにいるか――",
+        "checked": false
     },
     {
         "en_raw": "\"Talk to you later, Mira!\"",
         "en_clean": "\"Talk to you later, Mira!\"",
         "jp_raw": "\"また後でね、ミラ！\"",
-        "jp_clean": "\"また後でね、ミラ！\""
+        "jp_clean": "\"また後でね、ミラ！\"",
+        "checked": false
     },
     {
         "en_raw": "O-okay???",
         "en_clean": "O-okay???",
         "jp_raw": "\\m[vm]う、うん？",
-        "jp_clean": "う、うん？"
+        "jp_clean": "う、うん？",
+        "checked": false
     },
     {
         "en_raw": "(Oh, wait...)",
         "en_clean": "(Oh, wait...)",
         "jp_raw": "\\m[clear](あ、待てよ...)",
-        "jp_clean": "(あ、待てよ...)"
+        "jp_clean": "(あ、待てよ...)",
+        "checked": false
     },
     {
         "en_raw": "(Maybe Mirabelle would know a way to survive the King's attack?)",
         "en_clean": "(Maybe Mirabelle would know a way to survive the King's attack?)",
         "jp_raw": "(ミラベルなら王の攻撃を耐え抜く方法を知っているかも。)",
-        "jp_clean": "(ミラベルなら王の攻撃を耐え抜く方法を知っているかも。)"
+        "jp_clean": "(ミラベルなら王の攻撃を耐え抜く方法を知っているかも。)",
+        "checked": false
     },
     {
         "en_raw": "(You should talk to her later...)",
         "en_clean": "(You should talk to her later...)",
         "jp_raw": "(後で訊ねてみよう...)",
-        "jp_clean": "(後で訊ねてみよう...)"
+        "jp_clean": "(後で訊ねてみよう...)",
+        "checked": false
     },
     {
         "en_raw": "(You need to make sure Mirabelle knows how to shield all of you against the King...)",
         "en_clean": "(You need to make sure Mirabelle knows how to shield all of you against the King...)",
         "jp_raw": "\\m[clear](ミラベルには、王の攻撃からみんなを守る手段を覚えてもらわないといけない。)",
-        "jp_clean": "(ミラベルには、王の攻撃からみんなを守る手段を覚えてもらわないといけない。)"
+        "jp_clean": "(ミラベルには、王の攻撃からみんなを守る手段を覚えてもらわないといけない。)",
+        "checked": false
     },
     {
         "en_raw": "(You tell her about the CARROT method, whatever it is, so she'll be able to cast it.)",
         "en_clean": "(You tell her about the CARROT method, whatever it is, so she'll be able to cast it.)",
         "jp_raw": "(ミラベルに「ニンジンメソッド」について教える。\\!それが何だか知らないけれど、詠唱してもらわないといけない。)",
-        "jp_clean": "(ミラベルに「ニンジンメソッド」について教える。それが何だか知らないけれど、詠唱してもらわないといけない。)"
+        "jp_clean": "(ミラベルに「ニンジンメソッド」について教える。それが何だか知らないけれど、詠唱してもらわないといけない。)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -763,49 +829,57 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Oh this makes so much sense.",
         "en_clean": "Oh this makes so much sense.",
         "jp_raw": "なるほどそういうことかぁ。",
-        "jp_clean": "なるほどそういうことかぁ。"
+        "jp_clean": "なるほどそういうことかぁ。",
+        "checked": false
     },
     {
         "en_raw": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\".   Again.)",
         "en_clean": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\".   Again.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You tell Mirabelle about the CARROT method so she can learn that one skill...)",
         "en_clean": "(You tell Mirabelle about the CARROT method so she can learn that one skill...)",
         "jp_raw": "\\m[clear](例のスキルを覚えてもらうために、ミラベルに「ニンジンメソッド」について教える。)",
-        "jp_clean": "(例のスキルを覚えてもらうために、ミラベルに「ニンジンメソッド」について教える。)"
+        "jp_clean": "(例のスキルを覚えてもらうために、ミラベルに「ニンジンメソッド」について教える。)",
+        "checked": false
     },
     {
         "en_raw": "W-Wait, how did you know about--",
         "en_clean": "W-Wait, how did you know about--",
         "jp_raw": "\\m[vm]え、待って。\\!どこでその話を――",
-        "jp_clean": "え、待って。どこでその話を――"
+        "jp_clean": "え、待って。どこでその話を――",
+        "checked": false
     },
     {
         "en_raw": "(...And wink.)",
         "en_clean": "(...And wink.)",
         "jp_raw": "\\m[clear](...ウィンクしておく。)",
-        "jp_clean": "(...ウィンクしておく。)"
+        "jp_clean": "(...ウィンクしておく。)",
+        "checked": false
     },
     {
         "en_raw": "O-Okay...",
         "en_clean": "O-Okay...",
         "jp_raw": "\\m[vm]あ、うん...",
-        "jp_clean": "あ、うん..."
+        "jp_clean": "あ、うん...",
+        "checked": false
     },
     {
         "en_raw": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "en_clean": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "jp_raw": "\\m[clear](ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
-        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)"
+        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
+        "checked": false
     },
     {
         "en_raw": "(You wave goodbye.)",
@@ -817,325 +891,379 @@
         "jp_clean": [
             "(手を振って別れる。)",
             "(僕はバイバイと手を振る。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You watch her go.)",
         "en_clean": "(You watch her go.)",
         "jp_raw": "\\m[clear](彼女を見送る。)",
-        "jp_clean": "(彼女を見送る。)"
+        "jp_clean": "(彼女を見送る。)",
+        "checked": false
     },
     {
         "en_raw": "Siffrin! You're up!",
         "en_clean": "Siffrin! You're up!",
         "jp_raw": "\\m[vm]シフラン！\\!\\ 起きたのね！",
-        "jp_clean": "シフラン！ 起きたのね！"
+        "jp_clean": "シフラン！ 起きたのね！",
+        "checked": false
     },
     {
         "en_raw": "(You sure are.) \"Hey Mira.\"",
         "en_clean": "(You sure are.) \"Hey Mira.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Hey, Siffrin! Hehehe!",
         "en_clean": "Hey, Siffrin! Hehehe!",
         "jp_raw": "\\m[vm]あら、シフラン！\\!\\ エヘヘ！",
-        "jp_clean": "あら、シフラン！ エヘヘ！"
+        "jp_clean": "あら、シフラン！ エヘヘ！",
+        "checked": false
     },
     {
         "en_raw": "So how was your nap? On a scale of one to ten!",
         "en_clean": "So how was your nap? On a scale of one to ten!",
         "jp_raw": "お昼寝はどうだった？\\!\\ 10点満点だと何点ぐらい？",
-        "jp_clean": "お昼寝はどうだった？ 10点満点だと何点ぐらい？"
+        "jp_clean": "お昼寝はどうだった？ 10点満点だと何点ぐらい？",
+        "checked": false
     },
     {
         "en_raw": "(Let's see...)",
         "en_clean": "(Let's see...)",
         "jp_raw": "(どれどれ...)",
-        "jp_clean": "(どれどれ...)"
+        "jp_clean": "(どれどれ...)",
+        "checked": false
     },
     {
         "en_raw": "I-I'm sorry! I-it's just, that there's a lot to do, and--",
         "en_clean": "I-I'm sorry! I-it's just, that there's a lot to do, and--",
         "jp_raw": "\\m[vm]ごごご、ごめんね！\\!\\ い、いろいろと用事があって、だから――",
-        "jp_clean": "ごごご、ごめんね！ い、いろいろと用事があって、だから――"
+        "jp_clean": "ごごご、ごめんね！ い、いろいろと用事があって、だから――",
+        "checked": false
     },
     {
         "en_raw": "\"How dare you wake me from my slumber.\"",
         "en_clean": "\"How dare you wake me from my slumber.\"",
         "jp_raw": "\"我の眠りを邪魔するとはけしからん。\"",
-        "jp_clean": "\"我の眠りを邪魔するとはけしからん。\""
+        "jp_clean": "\"我の眠りを邪魔するとはけしからん。\"",
+        "checked": false
     },
     {
         "en_raw": "A-ah?",
         "en_clean": "A-ah?",
         "jp_raw": "\\m[vm]えっ、えっ？",
-        "jp_clean": "えっ、えっ？"
+        "jp_clean": "えっ、えっ？",
+        "checked": false
     },
     {
         "en_raw": "\"Punishment for one hundred years.\"",
         "en_clean": "\"Punishment for one hundred years.\"",
         "jp_raw": "\"100年の刑に処してやる。\"",
-        "jp_clean": "\"100年の刑に処してやる。\""
+        "jp_clean": "\"100年の刑に処してやる。\"",
+        "checked": false
     },
     {
         "en_raw": "Hehehe, noooo! Not one hundred years!",
         "en_clean": "Hehehe, noooo! Not one hundred years!",
         "jp_raw": "\\m[vm]おゆるしを～。\\!エヘヘ。\\!100年は長すぎるよ！",
-        "jp_clean": "おゆるしを～。エヘヘ。100年は長すぎるよ！"
+        "jp_clean": "おゆるしを～。エヘヘ。100年は長すぎるよ！",
+        "checked": false
     },
     {
         "en_raw": "Is that a good or bad thing...?",
         "en_clean": "Is that a good or bad thing...?",
         "jp_raw": "\\m[vm]それっていいこと？\\!\\ 悪いこと？",
-        "jp_clean": "それっていいこと？ 悪いこと？"
+        "jp_clean": "それっていいこと？ 悪いこと？",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Good! I think.",
         "en_clean": "Good! I think.",
         "jp_raw": "\\m[vm]よかった！\\!のかな？",
-        "jp_clean": "よかった！のかな？"
+        "jp_clean": "よかった！のかな？",
+        "checked": false
     },
     {
         "en_raw": "Ah... Sorry...",
         "en_clean": "Ah... Sorry...",
         "jp_raw": "\\m[vm]ああ...\\!\\ ごめん...",
-        "jp_clean": "ああ... ごめん..."
+        "jp_clean": "ああ... ごめん...",
+        "checked": false
     },
     {
         "en_raw": "Hm... If you say average more it will stop being a word, I think...",
         "en_clean": "Hm... If you say average more it will stop being a word, I think...",
         "jp_raw": "\\m[vm]うーん...\\!\\ あんまり「普通」ばかり言ってると言葉の意味が失われちゃうと思う...",
-        "jp_clean": "うーん... あんまり「普通」ばかり言ってると言葉の意味が失われちゃうと思う..."
+        "jp_clean": "うーん... あんまり「普通」ばかり言ってると言葉の意味が失われちゃうと思う...",
+        "checked": false
     },
     {
         "en_raw": "\"Average average average average.\"",
         "en_clean": "\"Average average average average.\"",
         "jp_raw": "\"フツーフツーフツー\"",
-        "jp_clean": "\"フツーフツーフツー\""
+        "jp_clean": "\"フツーフツーフツー\"",
+        "checked": false
     },
     {
         "en_raw": "Nooo!!!",
         "en_clean": "Nooo!!!",
         "jp_raw": "\\m[vm]やめてー！",
-        "jp_clean": "やめてー！"
+        "jp_clean": "やめてー！",
+        "checked": false
     },
     {
         "en_raw": "Is it not a ten because... the finish could've used some work...?",
         "en_clean": "Is it not a ten because... the finish could've used some work...?",
         "jp_raw": "\\m[vm]満点じゃないのは...\\!\\ 最後が完璧じゃなかったから？",
-        "jp_clean": "満点じゃないのは... 最後が完璧じゃなかったから？"
+        "jp_clean": "満点じゃないのは... 最後が完璧じゃなかったから？",
+        "checked": false
     },
     {
         "en_raw": "\"We'll do better next time.\"",
         "en_clean": "\"We'll do better next time.\"",
         "jp_raw": "\"次はもっとうまくやろう。\"",
-        "jp_clean": "\"次はもっとうまくやろう。\""
+        "jp_clean": "\"次はもっとうまくやろう。\"",
+        "checked": false
     },
     {
         "en_raw": "Next time I promise I'll let you sleep in! So we can get the elusive ten out of ten score!!!",
         "en_clean": "Next time I promise I'll let you sleep in! So we can get the elusive ten out of ten score!!!",
         "jp_raw": "\\m[vm]次はずっと寝かせてあげるからね。\\!約束する！\\!\\ そうすれば幻の10点満点になる！",
-        "jp_clean": "次はずっと寝かせてあげるからね。約束する！ そうすれば幻の10点満点になる！"
+        "jp_clean": "次はずっと寝かせてあげるからね。約束する！ そうすれば幻の10点満点になる！",
+        "checked": false
     },
     {
         "en_raw": "Oh, wait! I had something I wanted to ask you!!!",
         "en_clean": "Oh, wait! I had something I wanted to ask you!!!",
         "jp_raw": "\\m[vm]あ、待って。\\!訊きたいことがあるの！",
-        "jp_clean": "あ、待って。訊きたいことがあるの！"
+        "jp_clean": "あ、待って。訊きたいことがあるの！",
+        "checked": false
     },
     {
         "en_raw": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "en_clean": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "jp_raw": "今夜のことなんだけど...\\!\\ 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
-        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って..."
+        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
+        "checked": false
     },
     {
         "en_raw": "So, I was thinking, how about a sleepover?",
         "en_clean": "So, I was thinking, how about a sleepover?",
         "jp_raw": "だからね、お泊り会なんてどうかな？",
-        "jp_clean": "だからね、お泊り会なんてどうかな？"
+        "jp_clean": "だからね、お泊り会なんてどうかな？",
+        "checked": false
     },
     {
         "en_raw": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "en_clean": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "jp_raw": "みんなで美味しいごはんを食べようよ！\\!\\ それから同じ部屋で寝るの！\\!\\ お話しなんかもしてさ！",
-        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！"
+        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！",
+        "checked": false
     },
     {
         "en_raw": "It would be nice, wouldn't it?",
         "en_clean": "It would be nice, wouldn't it?",
         "jp_raw": "素敵だと思わない？",
-        "jp_clean": "素敵だと思わない？"
+        "jp_clean": "素敵だと思わない？",
+        "checked": false
     },
     {
         "en_raw": "(How is it different from what you usually do...?)",
         "en_clean": "(How is it different from what you usually do...?)",
         "jp_raw": "\\m[clear](それ、普段やってることと同じでは...？)",
-        "jp_clean": "(それ、普段やってることと同じでは...？)"
+        "jp_clean": "(それ、普段やってることと同じでは...？)",
+        "checked": false
     },
     {
         "en_raw": "(Well...) \"...Okay?\"",
         "en_clean": "(Well...) \"...Okay?\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Ah... You think it's silly, don't you...",
         "en_clean": "Ah... You think it's silly, don't you...",
         "jp_raw": "\\m[vm]あー...\\!\\ くだらないって思ってるんでしょ...",
-        "jp_clean": "あー... くだらないって思ってるんでしょ..."
+        "jp_clean": "あー... くだらないって思ってるんでしょ...",
+        "checked": false
     },
     {
         "en_raw": "I'm sorry... I was trying to find something fun to do tonight, but that's all I could think of...",
         "en_clean": "I'm sorry... I was trying to find something fun to do tonight, but that's all I could think of...",
         "jp_raw": "ごめんね...\\!\\ わたしはただ、今晩楽しいことがしたかったの。\\!でもこれしか思い浮かばなくて...",
-        "jp_clean": "ごめんね... わたしはただ、今晩楽しいことがしたかったの。でもこれしか思い浮かばなくて..."
+        "jp_clean": "ごめんね... わたしはただ、今晩楽しいことがしたかったの。でもこれしか思い浮かばなくて...",
+        "checked": false
     },
     {
         "en_raw": "It was... It was a stupid idea, wasn't it...? Maybe we should forget about it...",
         "en_clean": "It was... It was a stupid idea, wasn't it...? Maybe we should forget about it...",
         "jp_raw": "でも...\\!\\ バカバカしいよね...？\\!\\ お泊り会なんて忘れたほうがいいかも...",
-        "jp_clean": "でも... バカバカしいよね...？ お泊り会なんて忘れたほうがいいかも..."
+        "jp_clean": "でも... バカバカしいよね...？ お泊り会なんて忘れたほうがいいかも...",
+        "checked": false
     },
     {
         "en_raw": "(Oh no.)",
         "en_clean": "(Oh no.)",
         "jp_raw": "\\m[clear](マズいぞ。)",
-        "jp_clean": "(マズいぞ。)"
+        "jp_clean": "(マズいぞ。)",
+        "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n (YOUR LACK OF ENTHUSIASM MADE MIRABELLE UPSET!!!!!!)\n</span>",
         "en_clean": "(YOUR LACK OF ENTHUSIASM MADE MIRABELLE UPSET!!!!!!)",
         "jp_raw": "\\shake(冷めてるのがバレてミラベルが動揺してる！)",
-        "jp_clean": "(冷めてるのがバレてミラベルが動揺してる！)"
+        "jp_clean": "(冷めてるのがバレてミラベルが動揺してる！)",
+        "checked": false
     },
     {
         "en_raw": "(Come on fix it!!!!) \"N-no, I think it's fun!!! Let's do it!!!\"",
         "en_clean": "(Come on fix it!!!!) \"N-no, I think it's fun!!! Let's do it!!!\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Are you sure...? Alright then...",
         "en_clean": "Are you sure...? Alright then...",
         "jp_raw": "\\m[vm]本当にそう思う？\\!\\ それなら...",
-        "jp_clean": "本当にそう思う？ それなら..."
+        "jp_clean": "本当にそう思う？ それなら...",
+        "checked": false
     },
     {
         "en_raw": "Um... So if we're doing it, can you let everyone know...? I... I don't think I could convince everyone...",
         "en_clean": "Um... So if we're doing it, can you let everyone know...? I... I don't think I could convince everyone...",
         "jp_raw": "えっと...\\!\\ じゃあシフランからみんなに知らせてもらえる？\\!\\ わたしが言っても乗ってもらえない気がして...",
-        "jp_clean": "えっと... じゃあシフランからみんなに知らせてもらえる？ わたしが言っても乗ってもらえない気がして..."
+        "jp_clean": "えっと... じゃあシフランからみんなに知らせてもらえる？ わたしが言っても乗ってもらえない気がして...",
+        "checked": false
     },
     {
         "en_raw": "(Well you kinda have to now.) \"Of course, Mira.\"",
         "en_clean": "(Well you kinda have to now.) \"Of course, Mira.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Okay! Let me think...",
         "en_clean": "Okay! Let me think...",
         "jp_raw": "\\m[vm]よし！\\!\\ えっと...",
-        "jp_clean": "よし！ えっと..."
+        "jp_clean": "よし！ えっと...",
+        "checked": false
     },
     {
         "en_raw": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "en_clean": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "jp_raw": "マダム・オディールはお店で買い物中。\\!ボニーは東にある畑のあたりにいるはず。\\!それからイザボーは、西にある願いの木にいるよ！",
-        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！"
+        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！",
+        "checked": false
     },
     {
         "en_raw": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "en_clean": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "jp_raw": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。\\!みんなには、そこで集合しようって伝えてね！",
-        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！"
+        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！",
+        "checked": false
     },
     {
         "en_raw": "...That was a lot of names and places. Will you remember?",
         "en_clean": "...That was a lot of names and places. Will you remember?",
         "jp_raw": "...\\!いっぺんにいろんなことを言っちゃったけど...\\!\\ 誰がどこにいるか覚えた？",
-        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？"
+        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？",
+        "checked": false
     },
     {
         "en_raw": "(Um...) \"I always remember things.\"",
         "en_clean": "(Um...) \"I always remember things.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
         "en_clean": "...Well, unrelated to your memory...",
         "jp_raw": "\\m[vm]...\\!覚えていてもいなくても...",
-        "jp_clean": "...覚えていてもいなくても..."
+        "jp_clean": "...覚えていてもいなくても...",
+        "checked": false
     },
     {
         "en_raw": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "en_clean": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "jp_raw": "みんなの居場所を書いたメモを渡しておくね！\\!\\ 念のためにどうぞ！\\!\\ 忘れたら...\\!\\ これを見て！",
-        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！"
+        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！",
+        "checked": false
     },
     {
         "en_raw": "(Yeah, smart.)",
         "en_clean": "(Yeah, smart.)",
         "jp_raw": "\\m[clear](おお、賢いな。)",
-        "jp_clean": "(おお、賢いな。)"
+        "jp_clean": "(おお、賢いな。)",
+        "checked": false
     },
     {
         "en_raw": "(You got the REMINDER NOTE!)",
         "en_clean": "(You got the REMINDER NOTE!)",
         "jp_raw": "\\m[clear](「することメモ」を手に入れた！)",
-        "jp_clean": "(「することメモ」を手に入れた！)"
+        "jp_clean": "(「することメモ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You put the note in your pocket along with your Souvenirs.)",
         "en_clean": "(You put the note in your pocket along with your Souvenirs.)",
         "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "[You can check your SOUVENIRS by going into your pockets.]",
         "en_clean": "[You can check your SOUVENIRS by going into your pockets.]",
         "jp_raw": "\\m[vtuto][ポケットを調べると思い出の品を確認できるよ。]",
-        "jp_clean": "[ポケットを調べると思い出の品を確認できるよ。]"
+        "jp_clean": "[ポケットを調べると思い出の品を確認できるよ。]",
+        "checked": false
     },
     {
         "en_raw": "[To access your Pockets, open the Menu by pressing [button].]",
         "en_clean": "[To access your Pockets, open the Menu by pressing [button].]",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "[The Menu contains your Pockets, your Equipment, and many other things!]",
         "en_clean": "[The Menu contains your Pockets, your Equipment, and many other things!]",
         "jp_raw": "[メニューにはポケットや装備の他にもいろいろな項目がある！]",
-        "jp_clean": "[メニューにはポケットや装備の他にもいろいろな項目がある！]"
+        "jp_clean": "[メニューにはポケットや装備の他にもいろいろな項目がある！]",
+        "checked": false
     },
     {
         "en_raw": "[You can interact with most items in your Pockets by pressing [button]!]",
         "en_clean": "[You can interact with most items in your Pockets by pressing [button]!]",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "en_clean": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "jp_raw": "\\m[vm]そしたら時計台で会おうね！\\!\\ わたしは図書館の近くにいるから、用事があったら声をかけて！",
-        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！"
+        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！",
+        "checked": false
     },
     {
         "en_raw": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "en_clean": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "jp_raw": "それと、ウツロイ様の像にも必ずお参りしてね！\\!\\ きっといいことがあるから！",
-        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！"
+        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！",
+        "checked": false
     },
     {
         "en_raw": "(You wave goodbye.)",
@@ -1147,55 +1275,64 @@
         "jp_clean": [
             "(手を振って別れる。)",
             "(僕はバイバイと手を振る。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Siffrin! You're up!",
         "en_clean": "Siffrin! You're up!",
         "jp_raw": "\\m[vm]シフラン！\\!\\ 起きたのね！",
-        "jp_clean": "シフラン！ 起きたのね！"
+        "jp_clean": "シフラン！ 起きたのね！",
+        "checked": false
     },
     {
         "en_raw": "(Oops, you don't know how to act right now.)",
         "en_clean": "(Oops, you don't know how to act right now.)",
         "jp_raw": "\\m[clear](しまった、どうリアクションすればいいんだ？)",
-        "jp_clean": "(しまった、どうリアクションすればいいんだ？)"
+        "jp_clean": "(しまった、どうリアクションすればいいんだ？)",
+        "checked": false
     },
     {
         "en_raw": "(You've seen this once before, so you should maybe... Act the same??? Figure something out, quick.)",
         "en_clean": "(You've seen this once before, so you should maybe... Act the same??? Figure something out, quick.)",
         "jp_raw": "(この状況は前にもあった。\\!だから...\\!\\ 同じ行動をとる？\\!\\ 早く決めなきゃ！)",
-        "jp_clean": "(この状況は前にもあった。だから... 同じ行動をとる？ 早く決めなきゃ！)"
+        "jp_clean": "(この状況は前にもあった。だから... 同じ行動をとる？ 早く決めなきゃ！)",
+        "checked": false
     },
     {
         "en_raw": "(Quick!) \"Hey, uh, hey again, Mira.\"",
         "en_clean": "(Quick!) \"Hey, uh, hey again, Mira.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...Still half asleep, huh? How was your nap?",
         "en_clean": "...Still half asleep, huh? How was your nap?",
         "jp_raw": "\\m[vm]...まだ寝ぼけてるの？\\!\\ お昼寝はどうだった？",
-        "jp_clean": "...まだ寝ぼけてるの？ お昼寝はどうだった？"
+        "jp_clean": "...まだ寝ぼけてるの？ お昼寝はどうだった？",
+        "checked": false
     },
     {
         "en_raw": "(Okay take two. Say something. Make normal words come out of your mouth.)",
         "en_clean": "(Okay take two. Say something. Make normal words come out of your mouth.)",
         "jp_raw": "\\m[clear](よし、テイク2だ。\\!\\ 何か言わないと。\\!当たり障りのないコメントを...)",
-        "jp_clean": "(よし、テイク2だ。 何か言わないと。当たり障りのないコメントを...)"
+        "jp_clean": "(よし、テイク2だ。 何か言わないと。当たり障りのないコメントを...)",
+        "checked": false
     },
     {
         "en_raw": "(Smart and normal words, GO!) \"Yes. Correct. I was taking nap time.\"",
         "en_clean": "(Smart and normal words, GO!) \"Yes. Correct. I was taking nap time.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...I know that? I was there?",
         "en_clean": "...I know that? I was there?",
         "jp_raw": "\\m[vm]...\\!\\m[wait]分かってるよ。\\!わたしもそこにいたんだし。",
-        "jp_clean": "...分かってるよ。わたしもそこにいたんだし。"
+        "jp_clean": "...分かってるよ。わたしもそこにいたんだし。",
+        "checked": false
     },
     {
         "en_raw": "(Oh stars.)",
@@ -1207,79 +1344,92 @@
         "jp_clean": [
             "(おお、星たちよ。)",
             "(ああ、星たちよ。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Oh, wait! I had something I wanted to ask you!!!",
         "en_clean": "Oh, wait! I had something I wanted to ask you!!!",
         "jp_raw": "\\m[vm]あ、待って。\\!訊きたいことがあるの！",
-        "jp_clean": "あ、待って。訊きたいことがあるの！"
+        "jp_clean": "あ、待って。訊きたいことがあるの！",
+        "checked": false
     },
     {
         "en_raw": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "en_clean": "Um, I have an idea for tonight... This will be the night before we go fight the King, so I felt like we could make it special somehow...",
         "jp_raw": "今夜のことなんだけど...\\!\\ 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
-        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って..."
+        "jp_clean": "今夜のことなんだけど... 王との決戦前夜になるわけだし、みんなにとって特別な夜にできたらいいなって思って...",
+        "checked": false
     },
     {
         "en_raw": "So, I was thinking, how about a sleepover?",
         "en_clean": "So, I was thinking, how about a sleepover?",
         "jp_raw": "だからね、お泊り会なんてどうかな？",
-        "jp_clean": "だからね、お泊り会なんてどうかな？"
+        "jp_clean": "だからね、お泊り会なんてどうかな？",
+        "checked": false
     },
     {
         "en_raw": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "en_clean": "Let's all eat good food together! Sleep in the same room! Maybe tell stories!!!",
         "jp_raw": "みんなで美味しいごはんを食べようよ！\\!\\ それから同じ部屋で寝るの！\\!\\ お話しなんかもしてさ！",
-        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！"
+        "jp_clean": "みんなで美味しいごはんを食べようよ！ それから同じ部屋で寝るの！ お話しなんかもしてさ！",
+        "checked": false
     },
     {
         "en_raw": "It would be nice, wouldn't it?",
         "en_clean": "It would be nice, wouldn't it?",
         "jp_raw": "素敵だと思わない？",
-        "jp_clean": "素敵だと思わない？"
+        "jp_clean": "素敵だと思わない？",
+        "checked": false
     },
     {
         "en_raw": "(Suddenly, you remember where this conversation is heading.)",
         "en_clean": "(Suddenly, you remember where this conversation is heading.)",
         "jp_raw": "\\m[clear](この会話がどこへ向かうのか、急に思い出した。)\\!\\m[wait]\\^",
-        "jp_clean": "(この会話がどこへ向かうのか、急に思い出した。)"
+        "jp_clean": "(この会話がどこへ向かうのか、急に思い出した。)",
+        "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n (THIS IS THE MOMENT IN THE CONVERSATION WHERE YOU MADE MIRABELLE UPSET...!!!)\n</span>",
         "en_clean": "(THIS IS THE MOMENT IN THE CONVERSATION WHERE YOU MADE MIRABELLE UPSET...!!!)",
         "jp_raw": "\\shake(会話のちょうどこのあたりから、ミラベルを動揺させたんだった！)",
-        "jp_clean": "(会話のちょうどこのあたりから、ミラベルを動揺させたんだった！)"
+        "jp_clean": "(会話のちょうどこのあたりから、ミラベルを動揺させたんだった！)",
+        "checked": false
     },
     {
         "en_raw": "(Can you change it? Can you change fate?!? Only one way to find out...)",
         "en_clean": "(Can you change it? Can you change fate?!? Only one way to find out...)",
         "jp_raw": "(変えられるだろうか？\\!\\ 運命は変えられる？！？\\!\\ 確かめる方法はひとつしかない...)",
-        "jp_clean": "(変えられるだろうか？ 運命は変えられる？！？ 確かめる方法はひとつしかない...)"
+        "jp_clean": "(変えられるだろうか？ 運命は変えられる？！？ 確かめる方法はひとつしかない...)",
+        "checked": false
     },
     {
         "en_raw": "(Something like...) \"That sounds like an AMAZING idea, Mira!\"",
         "en_clean": "(Something like...) \"That sounds like an AMAZING idea, Mira!\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Yeah? Oh, I'm so glad you think so!!!",
         "en_clean": "Yeah? Oh, I'm so glad you think so!!!",
         "jp_raw": "\\m[vm]そう？\\!\\ そう思ってくれてうれしい！",
-        "jp_clean": "そう？ そう思ってくれてうれしい！"
+        "jp_clean": "そう？ そう思ってくれてうれしい！",
+        "checked": false
     },
     {
         "en_raw": "I was thinking it was a little silly, but if you think it could be fun, then great!!!",
         "en_clean": "I was thinking it was a little silly, but if you think it could be fun, then great!!!",
         "jp_raw": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！",
-        "jp_clean": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！"
+        "jp_clean": "バカバカしいかなとも思い始めてたんだけど、あなたが楽しそうだと思うならいいや！",
+        "checked": false
     },
     {
         "en_raw": "Ah, I can't wait... This will be delightful! I'm smiling just thinking about it...",
         "en_clean": "Ah, I can't wait... This will be delightful! I'm smiling just thinking about it...",
         "jp_raw": "あー、待ち遠しいな...\\!\\ 愉快な夜になるよ！\\!\\ 想像しただけで頬がゆるんじゃう...",
-        "jp_clean": "あー、待ち遠しいな... 愉快な夜になるよ！ 想像しただけで頬がゆるんじゃう..."
+        "jp_clean": "あー、待ち遠しいな... 愉快な夜になるよ！ 想像しただけで頬がゆるんじゃう...",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1395,103 +1545,120 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...MISSION COMPLETE.)",
         "en_clean": "(...MISSION COMPLETE.)",
         "jp_raw": "(...\\!\\m[wait]任務完了だ。)",
-        "jp_clean": "(...任務完了だ。)"
+        "jp_clean": "(...任務完了だ。)",
+        "checked": false
     },
     {
         "en_raw": "(So you CAN change things.)",
         "en_clean": "(So you CAN change things.)",
         "jp_raw": "(やはり物事は変えられるんだ。)",
-        "jp_clean": "(やはり物事は変えられるんだ。)"
+        "jp_clean": "(やはり物事は変えられるんだ。)",
+        "checked": false
     },
     {
         "en_raw": "(This was a small change, but if your fate isn't set in stone... Then...)",
         "en_clean": "(This was a small change, but if your fate isn't set in stone... Then...)",
         "jp_raw": "(今のは小さな変化だけど、運命は確定しているわけじゃない。\\!それならば...)",
-        "jp_clean": "(今のは小さな変化だけど、運命は確定しているわけじゃない。それならば...)"
+        "jp_clean": "(今のは小さな変化だけど、運命は確定しているわけじゃない。それならば...)",
+        "checked": false
     },
     {
         "en_raw": "--so, could you let everyone know? I would really appreciate it!",
         "en_clean": "--so, could you let everyone know? I would really appreciate it!",
         "jp_raw": "\\m[vm]じゃあ、シフランからみんなに知らせてもらえる？\\!\\ そうしてもらえるとすごく助かるわ！",
-        "jp_clean": "じゃあ、シフランからみんなに知らせてもらえる？ そうしてもらえるとすごく助かるわ！"
+        "jp_clean": "じゃあ、シフランからみんなに知らせてもらえる？ そうしてもらえるとすごく助かるわ！",
+        "checked": false
     },
     {
         "en_raw": "\"Sure!\"",
         "en_clean": "\"Sure!\"",
         "jp_raw": "\"もちろん！\"",
-        "jp_clean": "\"もちろん！\""
+        "jp_clean": "\"もちろん！\"",
+        "checked": false
     },
     {
         "en_raw": "Okay! Let me think...",
         "en_clean": "Okay! Let me think...",
         "jp_raw": "\\m[vm]よし！\\!\\ えっと...",
-        "jp_clean": "よし！ えっと..."
+        "jp_clean": "よし！ えっと...",
+        "checked": false
     },
     {
         "en_raw": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "en_clean": "Madame Odile should be in the shop buying items, Bonnie should be near the fields to the east, and Isabeau is at the Favor Tree to the west!",
         "jp_raw": "マダム・オディールはお店で買い物中。\\!ボニーは東にある畑のあたりにいるはず。\\!それからイザボーは、西にある願いの木にいるよ！",
-        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！"
+        "jp_clean": "マダム・オディールはお店で買い物中。ボニーは東にある畑のあたりにいるはず。それからイザボーは、西にある願いの木にいるよ！",
+        "checked": false
     },
     {
         "en_raw": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "en_clean": "We're staying in the clocktower at the east of the town, right past the broken bridge, so you can just tell everyone to meet up there later!",
         "jp_raw": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。\\!みんなには、そこで集合しようって伝えてね！",
-        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！"
+        "jp_clean": "わたしたちが泊っているのは町の東側、壊れた橋の先にある時計台だよ。みんなには、そこで集合しようって伝えてね！",
+        "checked": false
     },
     {
         "en_raw": "...That was a lot of names and places. Will you remember?",
         "en_clean": "...That was a lot of names and places. Will you remember?",
         "jp_raw": "...\\!いっぺんにいろんなことを言っちゃったけど...\\!\\ 誰がどこにいるか覚えた？",
-        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？"
+        "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？",
+        "checked": false
     },
     {
         "en_raw": "(You think so, yes.) \"I always remember things.\"",
         "en_clean": "(You think so, yes.) \"I always remember things.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
         "en_clean": "...Well, unrelated to your memory...",
         "jp_raw": "\\m[vm]...\\!覚えていてもいなくても...",
-        "jp_clean": "...覚えていてもいなくても..."
+        "jp_clean": "...覚えていてもいなくても...",
+        "checked": false
     },
     {
         "en_raw": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "en_clean": "Here's a note with everyone's location! Just in case! You! Forget!!!",
         "jp_raw": "みんなの居場所を書いたメモを渡しておくね！\\!\\ 念のためにどうぞ！\\!\\ 忘れたら...\\!\\ これを見て！",
-        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！"
+        "jp_clean": "みんなの居場所を書いたメモを渡しておくね！ 念のためにどうぞ！ 忘れたら... これを見て！",
+        "checked": false
     },
     {
         "en_raw": "(You got the REMINDER NOTE!)",
         "en_clean": "(You got the REMINDER NOTE!)",
         "jp_raw": "\\m[clear](「することメモ」を手に入れた！)",
-        "jp_clean": "(「することメモ」を手に入れた！)"
+        "jp_clean": "(「することメモ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You put the note in your pocket along with your Souvenirs.)",
         "en_clean": "(You put the note in your pocket along with your Souvenirs.)",
         "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "en_clean": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
         "jp_raw": "\\m[vm]そしたら時計台で会おうね！\\!\\ わたしは図書館の近くにいるから、用事があったら声をかけて！",
-        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！"
+        "jp_clean": "そしたら時計台で会おうね！ わたしは図書館の近くにいるから、用事があったら声をかけて！",
+        "checked": false
     },
     {
         "en_raw": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "en_clean": "Oh, and don't forget to check the Change God's statue too! For good luck!",
         "jp_raw": "それと、ウツロイ様の像にも必ずお参りしてね！\\!\\ きっといいことがあるから！",
-        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！"
+        "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！",
+        "checked": false
     },
     {
         "en_raw": "(You wave goodbye.)",
@@ -1503,31 +1670,36 @@
         "jp_clean": [
             "(手を振って別れる。)",
             "(僕はバイバイと手を振る。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Okay, that was... slightly different from what you remembered, but still...)",
         "en_clean": "(Okay, that was... slightly different from what you remembered, but still...)",
         "jp_raw": "\\m[clear](さて、今のは...\\!\\ 記憶していたのとはちょっと違うけど、まあいいか...)",
-        "jp_clean": "(さて、今のは... 記憶していたのとはちょっと違うけど、まあいいか...)"
+        "jp_clean": "(さて、今のは... 記憶していたのとはちょっと違うけど、まあいいか...)",
+        "checked": false
     },
     {
         "en_raw": "(So it seems you really are... repeating the same day. With small differences.)",
         "en_clean": "(So it seems you really are... repeating the same day. With small differences.)",
         "jp_raw": "(僕はまぎれもなく...\\!\\ 同じ一日を繰り返している。\\!多少の違いはあるけれど。)",
-        "jp_clean": "(僕はまぎれもなく... 同じ一日を繰り返している。多少の違いはあるけれど。)"
+        "jp_clean": "(僕はまぎれもなく... 同じ一日を繰り返している。多少の違いはあるけれど。)",
+        "checked": false
     },
     {
         "en_raw": "(And Mirabelle... doesn't seem to be aware of it.)",
         "en_clean": "(And Mirabelle... doesn't seem to be aware of it.)",
         "jp_raw": "(そしてミラベルは...\\!\\ そのことに気づいていない。)",
-        "jp_clean": "(そしてミラベルは... そのことに気づいていない。)"
+        "jp_clean": "(そしてミラベルは... そのことに気づいていない。)",
+        "checked": false
     },
     {
         "en_raw": "(Are you the only one repeating today?)",
         "en_clean": "(Are you the only one repeating today?)",
         "jp_raw": "(今日を繰り返しているのは、僕だけなのか？)",
-        "jp_clean": "(今日を繰り返しているのは、僕だけなのか？)"
+        "jp_clean": "(今日を繰り返しているのは、僕だけなのか？)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1643,13 +1815,15 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(What should you do...?)",
         "en_clean": "(What should you do...?)",
         "jp_raw": "(どうしたらいいんだ？)",
-        "jp_clean": "(どうしたらいいんだ？)"
+        "jp_clean": "(どうしたらいいんだ？)",
+        "checked": false
     },
     {
         "en_raw": "[...]",
@@ -1661,19 +1835,22 @@
         "jp_clean": [
             "[...]",
             "[...]"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "[So.]",
         "en_clean": "[So.]",
         "jp_raw": "\\m[vtuto][さて。]",
-        "jp_clean": "[さて。]"
+        "jp_clean": "[さて。]",
+        "checked": false
     },
     {
         "en_raw": "[You should come to the Favor Tree when you have a second, stardust.]",
         "en_clean": "[You should come to the Favor Tree when you have a second, stardust.]",
         "jp_raw": "\\m[wait]\\m[wait][星くず君、時間ができたら願いの木に来なよ。]\\m[rb]",
-        "jp_clean": "[星くず君、時間ができたら願いの木に来なよ。]"
+        "jp_clean": "[星くず君、時間ができたら願いの木に来なよ。]",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1789,25 +1966,29 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(What...?)",
         "en_clean": "(What...?)",
         "jp_raw": "\\m[clear](えっ...？)",
-        "jp_clean": "(えっ...？)"
+        "jp_clean": "(えっ...？)",
+        "checked": false
     },
     {
         "en_raw": "Siffrin... You're up...",
         "en_clean": "Siffrin... You're up...",
         "jp_raw": "\\m[vm]シフラン...\\!\\ 起きたのね...",
-        "jp_clean": "シフラン... 起きたのね..."
+        "jp_clean": "シフラン... 起きたのね...",
+        "checked": false
     },
     {
         "en_raw": "I'm, uh, I'm sorry I woke you up earlier. I know you joked about it, but are you feeling better now? I'm worried...",
         "en_clean": "I'm, uh, I'm sorry I woke you up earlier. I know you joked about it, but are you feeling better now? I'm worried...",
         "jp_raw": "あ、さっきも起こそうとしちゃってごめんね。\\!シフランは冗談にしてたけど、気分はよくなった？\\!\\ 心配してたんだよ...",
-        "jp_clean": "あ、さっきも起こそうとしちゃってごめんね。シフランは冗談にしてたけど、気分はよくなった？ 心配してたんだよ..."
+        "jp_clean": "あ、さっきも起こそうとしちゃってごめんね。シフランは冗談にしてたけど、気分はよくなった？ 心配してたんだよ...",
+        "checked": false
     },
     {
         "en_raw": "(...?)",
@@ -1823,61 +2004,71 @@
             "(...？)",
             "(...?)",
             "(...？)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Well, this is new...) \"Yes, don't worry about me!\"",
         "en_clean": "(Well, this is new...) \"Yes, don't worry about me!\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Ah... Okay, but...",
         "en_clean": "Ah... Okay, but...",
         "jp_raw": "\\m[vm]そう...\\!\\ ならいいけど...",
-        "jp_clean": "そう... ならいいけど..."
+        "jp_clean": "そう... ならいいけど...",
+        "checked": false
     },
     {
         "en_raw": "(You really have to talk to Loop right now...) \"I have things to do, I'll talk to you later!\"",
         "en_clean": "(You really have to talk to Loop right now...) \"I have things to do, I'll talk to you later!\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Huh?! Um, Siffrin, please wait!!!",
         "en_clean": "Huh?! Um, Siffrin, please wait!!!",
         "jp_raw": "\\m[vm]へっ？\\!\\ シ、シフラン、待って！",
-        "jp_clean": "へっ？ シ、シフラン、待って！"
+        "jp_clean": "へっ？ シ、シフラン、待って！",
+        "checked": false
     },
     {
         "en_raw": "(What now.)",
         "en_clean": "(What now.)",
         "jp_raw": "\\m[clear](今度は何だ？)",
-        "jp_clean": "(今度は何だ？)"
+        "jp_clean": "(今度は何だ？)",
+        "checked": false
     },
     {
         "en_raw": "...Well, I know you're busy, but...",
         "en_clean": "...Well, I know you're busy, but...",
         "jp_raw": "\\m[vm]忙しいのは分かるんだけど...",
-        "jp_clean": "忙しいのは分かるんだけど..."
+        "jp_clean": "忙しいのは分かるんだけど...",
+        "checked": false
     },
     {
         "en_raw": "(\"But help me tell everyone about the sleepover\"?)",
         "en_clean": "(\"But help me tell everyone about the sleepover\"?)",
         "jp_raw": "\\m[clear](「お泊り会のことをみんなに伝えて」か？)",
-        "jp_clean": "(「お泊り会のことをみんなに伝えて」か？)"
+        "jp_clean": "(「お泊り会のことをみんなに伝えて」か？)",
+        "checked": false
     },
     {
         "en_raw": "...Can you come talk to me later? So we can talk? I'll wait in front of the library...",
         "en_clean": "...Can you come talk to me later? So we can talk? I'll wait in front of the library...",
         "jp_raw": "\\m[vm]...後で声をかけてくれない？\\!\\ お話ししたいの。\\!わたしは図書館の前にいるから...",
-        "jp_clean": "...後で声をかけてくれない？ お話ししたいの。わたしは図書館の前にいるから..."
+        "jp_clean": "...後で声をかけてくれない？ お話ししたいの。わたしは図書館の前にいるから...",
+        "checked": false
     },
     {
         "en_raw": "...Please.",
         "en_clean": "...Please.",
         "jp_raw": "...\\!\\m[wait]お願い。",
-        "jp_clean": "...お願い。"
+        "jp_clean": "...お願い。",
+        "checked": false
     },
     {
         "en_raw": "(Oh.)",
@@ -1893,55 +2084,64 @@
             "(そうか。)",
             "(ああ。)",
             "(あ。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...) \"Okay...?\"",
         "en_clean": "(...) \"Okay...?\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Okay! Go do your thing, and then come back, okay? I'll be waiting!",
         "en_clean": "Okay! Go do your thing, and then come back, okay? I'll be waiting!",
         "jp_raw": "\\m[vm]よかった！\\!\\ 用事が済んだら戻ってきてね。\\!いい？\\!\\ わたし待ってるから！",
-        "jp_clean": "よかった！ 用事が済んだら戻ってきてね。いい？ わたし待ってるから！"
+        "jp_clean": "よかった！ 用事が済んだら戻ってきてね。いい？ わたし待ってるから！",
+        "checked": false
     },
     {
         "en_raw": "(You nod again.)",
         "en_clean": "(You nod again.)",
         "jp_raw": "\\m[clear](もう一度うなずく。)",
-        "jp_clean": "(もう一度うなずく。)"
+        "jp_clean": "(もう一度うなずく。)",
+        "checked": false
     },
     {
         "en_raw": "(Habit takes over, and you tell her about the CARROT method.)",
         "en_clean": "(Habit takes over, and you tell her about the CARROT method.)",
         "jp_raw": "(「ニンジンメソッド」についてミラベルに教える。\\!すっかり習慣になってしまった。)",
-        "jp_clean": "(「ニンジンメソッド」についてミラベルに教える。すっかり習慣になってしまった。)"
+        "jp_clean": "(「ニンジンメソッド」についてミラベルに教える。すっかり習慣になってしまった。)",
+        "checked": false
     },
     {
         "en_raw": "W-Wait, how did you know about--",
         "en_clean": "W-Wait, how did you know about--",
         "jp_raw": "\\m[vm]え、待って。\\!どこでその話を――",
-        "jp_clean": "え、待って。どこでその話を――"
+        "jp_clean": "え、待って。どこでその話を――",
+        "checked": false
     },
     {
         "en_raw": "(...And wink.)",
         "en_clean": "(...And wink.)",
         "jp_raw": "\\m[clear](...ウィンクしておく。)",
-        "jp_clean": "(...ウィンクしておく。)"
+        "jp_clean": "(...ウィンクしておく。)",
+        "checked": false
     },
     {
         "en_raw": "O-Okay...",
         "en_clean": "O-Okay...",
         "jp_raw": "\\m[vm]あ、うん...",
-        "jp_clean": "あ、うん..."
+        "jp_clean": "あ、うん...",
+        "checked": false
     },
     {
         "en_raw": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "en_clean": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "jp_raw": "\\m[clear](ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
-        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)"
+        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -2057,85 +2257,99 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You can't...)",
         "en_clean": "(You can't...)",
         "jp_raw": "(無理だ...)",
-        "jp_clean": "(無理だ...)"
+        "jp_clean": "(無理だ...)",
+        "checked": false
     },
     {
         "en_raw": "(You can't talk to anyone right now.)",
         "en_clean": "(You can't talk to anyone right now.)",
         "jp_raw": "(今は誰とも話せない。)",
-        "jp_clean": "(今は誰とも話せない。)"
+        "jp_clean": "(今は誰とも話せない。)",
+        "checked": false
     },
     {
         "en_raw": "(You have to see... You have to ask Loop... What they think...)",
         "en_clean": "(You have to see... You have to ask Loop... What they think...)",
         "jp_raw": "(会わないと...\\!\\ どう思っているのかを...\\!\\ ループに訊ねないと...)",
-        "jp_clean": "(会わないと... どう思っているのかを... ループに訊ねないと...)"
+        "jp_clean": "(会わないと... どう思っているのかを... ループに訊ねないと...)",
+        "checked": false
     },
     {
         "en_raw": "Siffrin! You're--",
         "en_clean": "Siffrin! You're--",
         "jp_raw": "\\m[vm]シフラン！\\!\\ 起き――",
-        "jp_clean": "シフラン！ 起き――"
+        "jp_clean": "シフラン！ 起き――",
+        "checked": false
     },
     {
         "en_raw": "Oh Change, you look...",
         "en_clean": "Oh Change, you look...",
         "jp_raw": "ああ、ウツロイ様...",
-        "jp_clean": "ああ、ウツロイ様..."
+        "jp_clean": "ああ、ウツロイ様...",
+        "checked": false
     },
     {
         "en_raw": "You look really, really tired! I thought you were taking a nap! D-Did you not sleep well?",
         "en_clean": "You look really, really tired! I thought you were taking a nap! D-Did you not sleep well?",
         "jp_raw": "シフラン疲れ果ててるように見えるよ！\\!\\ お昼寝してたと思ったのに！\\!\\ ち、ちゃんと眠れた？",
-        "jp_clean": "シフラン疲れ果ててるように見えるよ！ お昼寝してたと思ったのに！ ち、ちゃんと眠れた？"
+        "jp_clean": "シフラン疲れ果ててるように見えるよ！ お昼寝してたと思ったのに！ ち、ちゃんと眠れた？",
+        "checked": false
     },
     {
         "en_raw": "\"Not really, haha!\"",
         "en_clean": "\"Not really, haha!\"",
         "jp_raw": "\"いや、あまり。ハハハ！\"",
-        "jp_clean": "\"いや、あまり。ハハハ！\""
+        "jp_clean": "\"いや、あまり。ハハハ！\"",
+        "checked": false
     },
     {
         "en_raw": "Oh no... I'm sorry to hear that...",
         "en_clean": "Oh no... I'm sorry to hear that...",
         "jp_raw": "\\m[vm]ああ...\\!\\ 大変そうだね...",
-        "jp_clean": "ああ... 大変そうだね..."
+        "jp_clean": "ああ... 大変そうだね...",
+        "checked": false
     },
     {
         "en_raw": "I was going to tell you something, b-but forget about it! Go on and do whatever you need to today!!!",
         "en_clean": "I was going to tell you something, b-but forget about it! Go on and do whatever you need to today!!!",
         "jp_raw": "伝えたいことがあったんだけど、い、今は忘れて！\\!\\ 今日中にやることがあるなら、先に済ませてきて！",
-        "jp_clean": "伝えたいことがあったんだけど、い、今は忘れて！ 今日中にやることがあるなら、先に済ませてきて！"
+        "jp_clean": "伝えたいことがあったんだけど、い、今は忘れて！ 今日中にやることがあるなら、先に済ませてきて！",
+        "checked": false
     },
     {
         "en_raw": "\"Sure.\"",
         "en_clean": "\"Sure.\"",
         "jp_raw": "\"了解。\"",
-        "jp_clean": "\"了解。\""
+        "jp_clean": "\"了解。\"",
+        "checked": false
     },
     {
         "en_raw": "\"Do you know if Bonnie is okay?\"",
         "en_clean": "\"Do you know if Bonnie is okay?\"",
         "jp_raw": "\"ボニーは平気かな？ 知ってる？\"",
-        "jp_clean": "\"ボニーは平気かな？ 知ってる？\""
+        "jp_clean": "\"ボニーは平気かな？ 知ってる？\"",
+        "checked": false
     },
     {
         "en_raw": "Bonnie...? Why wouldn't they be?",
         "en_clean": "Bonnie...? Why wouldn't they be?",
         "jp_raw": "\\m[vm]ボニー？\\!\\ 平気だと思うけど？",
-        "jp_clean": "ボニー？ 平気だと思うけど？"
+        "jp_clean": "ボニー？ 平気だと思うけど？",
+        "checked": false
     },
     {
         "en_raw": "I saw them near the fields earlier, to the East, if you'd like to talk to them...?",
         "en_clean": "I saw them near the fields earlier, to the East, if you'd like to talk to them...?",
         "jp_raw": "ちょっと前に東にある畑の近くで見かけたよ。\\!話したいなら行ってみれば？",
-        "jp_clean": "ちょっと前に東にある畑の近くで見かけたよ。話したいなら行ってみれば？"
+        "jp_clean": "ちょっと前に東にある畑の近くで見かけたよ。話したいなら行ってみれば？",
+        "checked": false
     },
     {
         "en_raw": "(You nod.)",
@@ -2151,55 +2365,64 @@
             "(僕はうなずく。)",
             "(僕はうなずいた。)",
             "(僕はうなずいた。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "O-Okay...",
         "en_clean": "O-Okay...",
         "jp_raw": "\\m[vm]あ、うん...",
-        "jp_clean": "あ、うん..."
+        "jp_clean": "あ、うん...",
+        "checked": false
     },
     {
         "en_raw": "I-I'll leave you alone... Make sure to rest up, and we'll meet for dinner at the Clocktower later!",
         "en_clean": "I-I'll leave you alone... Make sure to rest up, and we'll meet for dinner at the Clocktower later!",
         "jp_raw": "お邪魔はしないようにするね。\\!とにかくちゃんと休んで。\\!夜になったら時計台で一緒に食事しよう！",
-        "jp_clean": "お邪魔はしないようにするね。とにかくちゃんと休んで。夜になったら時計台で一緒に食事しよう！"
+        "jp_clean": "お邪魔はしないようにするね。とにかくちゃんと休んで。夜になったら時計台で一緒に食事しよう！",
+        "checked": false
     },
     {
         "en_raw": "(You nod again.)",
         "en_clean": "(You nod again.)",
         "jp_raw": "\\m[clear](もう一度うなずく。)",
-        "jp_clean": "(もう一度うなずく。)"
+        "jp_clean": "(もう一度うなずく。)",
+        "checked": false
     },
     {
         "en_raw": "(Habit takes over, and you tell her about the CARROT method.)",
         "en_clean": "(Habit takes over, and you tell her about the CARROT method.)",
         "jp_raw": "(「ニンジンメソッド」についてミラベルに教える。\\!すっかり習慣になってしまった。)",
-        "jp_clean": "(「ニンジンメソッド」についてミラベルに教える。すっかり習慣になってしまった。)"
+        "jp_clean": "(「ニンジンメソッド」についてミラベルに教える。すっかり習慣になってしまった。)",
+        "checked": false
     },
     {
         "en_raw": "W-Wait, how did you know about--",
         "en_clean": "W-Wait, how did you know about--",
         "jp_raw": "\\m[vm]え、待って。\\!どこでその話を――",
-        "jp_clean": "え、待って。どこでその話を――"
+        "jp_clean": "え、待って。どこでその話を――",
+        "checked": false
     },
     {
         "en_raw": "(...And wink.)",
         "en_clean": "(...And wink.)",
         "jp_raw": "\\m[clear](...ウィンクしておく。)",
-        "jp_clean": "(...ウィンクしておく。)"
+        "jp_clean": "(...ウィンクしておく。)",
+        "checked": false
     },
     {
         "en_raw": "O-Okay...",
         "en_clean": "O-Okay...",
         "jp_raw": "\\m[vm]あ、うん...",
-        "jp_clean": "あ、うん..."
+        "jp_clean": "あ、うん...",
+        "checked": false
     },
     {
         "en_raw": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "en_clean": "(Mirabelle learned the Craft Skill \"Adorable Moving Shield\" again.)",
         "jp_raw": "\\m[clear](ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
-        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)"
+        "jp_clean": "(ミラベルが再びクラフトスキルの「ラブリームービングシールド」を覚えた。)",
+        "checked": false
     },
     {
         "en_raw": "(You need to see if Bonnie is okay.)",
@@ -2211,6 +2434,7 @@
         "jp_clean": [
             "(ボニーの様子を見に行かないと。)",
             "(ボニーの様子を見に行かないと。)"
-        ]
+        ],
+        "checked": false
     }
 ]

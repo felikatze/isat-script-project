@@ -3,37 +3,43 @@
         "en_raw": "(The door is locked tight.)",
         "en_clean": "(The door is locked tight.)",
         "jp_raw": "\\m[clear](扉にはしっかりと鍵がかかっている。)",
-        "jp_clean": "(扉にはしっかりと鍵がかかっている。)"
+        "jp_clean": "(扉にはしっかりと鍵がかかっている。)",
+        "checked": false
     },
     {
         "en_raw": "(The lock keeping it closed has an interesting shape... It doesn't have a hole for a key..)",
         "en_clean": "(The lock keeping it closed has an interesting shape... It doesn't have a hole for a key..)",
         "jp_raw": "(扉の錠は面白い形をしている...\\!\\ 鍵を差すための穴がない。)",
-        "jp_clean": "(扉の錠は面白い形をしている... 鍵を差すための穴がない。)"
+        "jp_clean": "(扉の錠は面白い形をしている... 鍵を差すための穴がない。)",
+        "checked": false
     },
     {
         "en_raw": "What's this room, though?",
         "en_clean": "What's this room, though?",
         "jp_raw": "\\m[vb]ここはなんの部屋？",
-        "jp_clean": "ここはなんの部屋？"
+        "jp_clean": "ここはなんの部屋？",
+        "checked": false
     },
     {
         "en_raw": "I think it may be a storage room...?",
         "en_clean": "I think it may be a storage room...?",
         "jp_raw": "\\m[vm]倉庫だったかな...？",
-        "jp_clean": "倉庫だったかな...？"
+        "jp_clean": "倉庫だったかな...？",
+        "checked": false
     },
     {
         "en_raw": "I often saw Dormont's shopkeeper go there, he might know the openphrase for it!",
         "en_clean": "I often saw Dormont's shopkeeper go there, he might know the openphrase for it!",
         "jp_raw": "ドーモントのお店の人がよく出入りしてたから、店主さんなら合言葉を知ってるかも！",
-        "jp_clean": "ドーモントのお店の人がよく出入りしてたから、店主さんなら合言葉を知ってるかも！"
+        "jp_clean": "ドーモントのお店の人がよく出入りしてたから、店主さんなら合言葉を知ってるかも！",
+        "checked": false
     },
     {
         "en_raw": "If we... Had remembered to ask.",
         "en_clean": "If we... Had remembered to ask.",
         "jp_raw": "尋ねるのを...\\!\\ 覚えていられたらね。",
-        "jp_clean": "尋ねるのを... 覚えていられたらね。"
+        "jp_clean": "尋ねるのを... 覚えていられたらね。",
+        "checked": false
     },
     {
         "en_raw": "Oh.",
@@ -65,13 +71,15 @@
             "へえ。",
             "おや。",
             "へえ。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Well, too late now, right?",
         "en_clean": "Well, too late now, right?",
         "jp_raw": "\\m[vi]でも、今はもう遅すぎるだろ？",
-        "jp_clean": "でも、今はもう遅すぎるだろ？"
+        "jp_clean": "でも、今はもう遅すぎるだろ？",
+        "checked": false
     },
     {
         "en_raw": "(Hm...)",
@@ -85,7 +93,8 @@
             "(ふむ...)",
             "(ふむ...)",
             "(そうだな...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -201,19 +210,22 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(The door is locked tight.)",
         "en_clean": "(The door is locked tight.)",
         "jp_raw": "\\m[clear](扉にはしっかりと鍵がかかっている。)",
-        "jp_clean": "(扉にはしっかりと鍵がかかっている。)"
+        "jp_clean": "(扉にはしっかりと鍵がかかっている。)",
+        "checked": false
     },
     {
         "en_raw": "(It's locked by one of those weird word locks.)",
         "en_clean": "(It's locked by one of those weird word locks.)",
         "jp_raw": "(たまに見かける合言葉で開くタイプの扉だ。)",
-        "jp_clean": "(たまに見かける合言葉で開くタイプの扉だ。)"
+        "jp_clean": "(たまに見かける合言葉で開くタイプの扉だ。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -329,31 +341,36 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You say the word \"Change\" aloud.)",
         "en_clean": "(You say the word \"Change\" aloud.)",
         "jp_raw": "\\m[clear](「ウツロイ」と声に出して言ってみる。)",
-        "jp_clean": "(「ウツロイ」と声に出して言ってみる。)"
+        "jp_clean": "(「ウツロイ」と声に出して言ってみる。)",
+        "checked": false
     },
     {
         "en_raw": "(Nothing happens.)",
         "en_clean": "(Nothing happens.)",
         "jp_raw": "(何も起きない。)",
-        "jp_clean": "(何も起きない。)"
+        "jp_clean": "(何も起きない。)",
+        "checked": false
     },
     {
         "en_raw": "Worth a try!",
         "en_clean": "Worth a try!",
         "jp_raw": "\\m[vm]ナイストライ！",
-        "jp_clean": "ナイストライ！"
+        "jp_clean": "ナイストライ！",
+        "checked": false
     },
     {
         "en_raw": "(...The door unlocked.)",
         "en_clean": "(...The door unlocked.)",
         "jp_raw": "(...扉が開いた。)",
-        "jp_clean": "(...扉が開いた。)"
+        "jp_clean": "(...扉が開いた。)",
+        "checked": false
     },
     {
         "en_raw": "What.",
@@ -365,37 +382,43 @@
         "jp_clean": [
             "なんだ。",
             "え？"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Well, let's go inside, then...",
         "en_clean": "Well, let's go inside, then...",
         "jp_raw": "\\m[vi]じゃあ、中に入ってみるか...",
-        "jp_clean": "じゃあ、中に入ってみるか..."
+        "jp_clean": "じゃあ、中に入ってみるか...",
+        "checked": false
     },
     {
         "en_raw": "(You say the sentence \"Openphrase123\" aloud.)",
         "en_clean": "(You say the sentence \"Openphrase123\" aloud.)",
         "jp_raw": "\\m[clear](「パスワード123」と声に出して言ってみた。)",
-        "jp_clean": "(「パスワード123」と声に出して言ってみた。)"
+        "jp_clean": "(「パスワード123」と声に出して言ってみた。)",
+        "checked": false
     },
     {
         "en_raw": "(Nothing happens.)",
         "en_clean": "(Nothing happens.)",
         "jp_raw": "(何も起きない。)",
-        "jp_clean": "(何も起きない。)"
+        "jp_clean": "(何も起きない。)",
+        "checked": false
     },
     {
         "en_raw": "Worth a try!",
         "en_clean": "Worth a try!",
         "jp_raw": "\\m[vm]ナイストライ！",
-        "jp_clean": "ナイストライ！"
+        "jp_clean": "ナイストライ！",
+        "checked": false
     },
     {
         "en_raw": "(The door is locked tight.)",
         "en_clean": "(The door is locked tight.)",
         "jp_raw": "\\m[clear](扉にはしっかりと鍵がかかっている。)",
-        "jp_clean": "(扉にはしっかりと鍵がかかっている。)"
+        "jp_clean": "(扉にはしっかりと鍵がかかっている。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -511,61 +534,71 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You say the openphrase.)",
         "en_clean": "(You say the openphrase.)",
         "jp_raw": "\\m[clear](合言葉を口にした。)",
-        "jp_clean": "(合言葉を口にした。)"
+        "jp_clean": "(合言葉を口にした。)",
+        "checked": false
     },
     {
         "en_raw": "(You leave the door alone.)",
         "en_clean": "(You leave the door alone.)",
         "jp_raw": "\\m[clear](今はやめておこう。)",
-        "jp_clean": "(今はやめておこう。)"
+        "jp_clean": "(今はやめておこう。)",
+        "checked": false
     },
     {
         "en_raw": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "en_clean": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "jp_raw": "\\m[clear](本棚にはさまざまな言語で書かれた本が詰まっている。\\!ヴォーガルド語、ポテリア語、ムゥデュ語...)",
-        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)"
+        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)",
+        "checked": false
     },
     {
         "en_raw": "(One of them is written in a language you cannot read.)",
         "en_clean": "(One of them is written in a language you cannot read.)",
         "jp_raw": "(そのうち1冊は、自分には読めない言語で書かれている。)",
-        "jp_clean": "(そのうち1冊は、自分には読めない言語で書かれている。)"
+        "jp_clean": "(そのうち1冊は、自分には読めない言語で書かれている。)",
+        "checked": false
     },
     {
         "en_raw": "(Just looking at it is giving you a headache...)",
         "en_clean": "(Just looking at it is giving you a headache...)",
         "jp_raw": "(その本を見るだけで、頭痛がしてくる...)",
-        "jp_clean": "(その本を見るだけで、頭痛がしてくる...)"
+        "jp_clean": "(その本を見るだけで、頭痛がしてくる...)",
+        "checked": false
     },
     {
         "en_raw": "(But you could read it, if you remembered the Memory of it, wouldn't you?)",
         "en_clean": "(But you could read it, if you remembered the Memory of it, wouldn't you?)",
         "jp_raw": "(でもこの「記憶」を思い出しさえすれば、読めるはずだ。)",
-        "jp_clean": "(でもこの「記憶」を思い出しさえすれば、読めるはずだ。)"
+        "jp_clean": "(でもこの「記憶」を思い出しさえすれば、読めるはずだ。)",
+        "checked": false
     },
     {
         "en_raw": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "en_clean": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "jp_raw": "\\m[clear](本棚にはさまざまな言語で書かれた本が詰まっている。\\!ヴォーガルド語、ポテリア語、ムゥデュ語...)",
-        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)"
+        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)",
+        "checked": false
     },
     {
         "en_raw": "(One of them is written in your language.)",
         "en_clean": "(One of them is written in your language.)",
         "jp_raw": "(僕の国の言葉で書かれたものもある。)",
-        "jp_clean": "(僕の国の言葉で書かれたものもある。)"
+        "jp_clean": "(僕の国の言葉で書かれたものもある。)",
+        "checked": false
     },
     {
         "en_raw": "(You can read it, now...)",
         "en_clean": "(You can read it, now...)",
         "jp_raw": "(読むことはできるけど...)",
-        "jp_clean": "(読むことはできるけど...)"
+        "jp_clean": "(読むことはできるけど...)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -681,49 +714,57 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(It seems to be a theoretical essay about how to use Wish Craft...!)",
         "en_clean": "(It seems to be a theoretical essay about how to use Wish Craft...!)",
         "jp_raw": "(願いのクラフトについて、使い方の理論を記した論文だ...！)",
-        "jp_clean": "(願いのクラフトについて、使い方の理論を記した論文だ...！)"
+        "jp_clean": "(願いのクラフトについて、使い方の理論を記した論文だ...！)",
+        "checked": false
     },
     {
         "en_raw": "(Wish Craft! So it is real...!)",
         "en_clean": "(Wish Craft! So it is real...!)",
         "jp_raw": "(願いのクラフト！\\!\\ 本当にあるんだ...！)",
-        "jp_clean": "(願いのクラフト！ 本当にあるんだ...！)"
+        "jp_clean": "(願いのクラフト！ 本当にあるんだ...！)",
+        "checked": false
     },
     {
         "en_raw": "(...This essay seems too complicated for you to understand right now.)",
         "en_clean": "(...This essay seems too complicated for you to understand right now.)",
         "jp_raw": "(...論文は難しすぎて、今の僕には理解できない。)",
-        "jp_clean": "(...論文は難しすぎて、今の僕には理解できない。)"
+        "jp_clean": "(...論文は難しすぎて、今の僕には理解できない。)",
+        "checked": false
     },
     {
         "en_raw": "(You should find more information about Wish Craft elsewhere, and come back to this later...)",
         "en_clean": "(You should find more information about Wish Craft elsewhere, and come back to this later...)",
         "jp_raw": "(他の場所でも願いのクラフトに関する情報を探してみよう。\\!その後で、またここに戻ってくれば...)",
-        "jp_clean": "(他の場所でも願いのクラフトに関する情報を探してみよう。その後で、またここに戻ってくれば...)"
+        "jp_clean": "(他の場所でも願いのクラフトに関する情報を探してみよう。その後で、またここに戻ってくれば...)",
+        "checked": false
     },
     {
         "en_raw": "(Since the King is the one who told you about Wish Craft... You don't want to ask him anything, but is there someplace that's related to him?)",
         "en_clean": "(Since the King is the one who told you about Wish Craft... You don't want to ask him anything, but is there someplace that's related to him?)",
         "jp_raw": "(願いのクラフトのことを教えてくれたのは王だ...\\!\\ 王に尋ねたくはないけれど、王に関係する場所があれば...)",
-        "jp_clean": "(願いのクラフトのことを教えてくれたのは王だ... 王に尋ねたくはないけれど、王に関係する場所があれば...)"
+        "jp_clean": "(願いのクラフトのことを教えてくれたのは王だ... 王に尋ねたくはないけれど、王に関係する場所があれば...)",
+        "checked": false
     },
     {
         "en_raw": "(One of them is written in your language.)",
         "en_clean": "(One of them is written in your language.)",
         "jp_raw": "(僕の国の言葉で書かれたものもある。)",
-        "jp_clean": "(僕の国の言葉で書かれたものもある。)"
+        "jp_clean": "(僕の国の言葉で書かれたものもある。)",
+        "checked": false
     },
     {
         "en_raw": "(You can read it, now...)",
         "en_clean": "(You can read it, now...)",
         "jp_raw": "(読むことはできるけど...)",
-        "jp_clean": "(読むことはできるけど...)"
+        "jp_clean": "(読むことはできるけど...)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -839,97 +880,113 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(It seems to be a theoretical essay about how to use Wish Craft...!)",
         "en_clean": "(It seems to be a theoretical essay about how to use Wish Craft...!)",
         "jp_raw": "(願いのクラフトについて、使い方の理論を記した論文だ...！)",
-        "jp_clean": "(願いのクラフトについて、使い方の理論を記した論文だ...！)"
+        "jp_clean": "(願いのクラフトについて、使い方の理論を記した論文だ...！)",
+        "checked": false
     },
     {
         "en_raw": "(Wish Craft! So it is real...!)",
         "en_clean": "(Wish Craft! So it is real...!)",
         "jp_raw": "(願いのクラフト！\\!\\ 本当にあるんだ...！)",
-        "jp_clean": "(願いのクラフト！ 本当にあるんだ...！)"
+        "jp_clean": "(願いのクラフト！ 本当にあるんだ...！)",
+        "checked": false
     },
     {
         "en_raw": "(You've read the Wish Craft book before, but it wouldn't hurt to get a refresher...)",
         "en_clean": "(You've read the Wish Craft book before, but it wouldn't hurt to get a refresher...)",
         "jp_raw": "(願いのクラフトに関するこの本は、前にも読んだ。\\!でも、記憶をリフレッシュするのもいいかもしれない...)",
-        "jp_clean": "(願いのクラフトに関するこの本は、前にも読んだ。でも、記憶をリフレッシュするのもいいかもしれない...)"
+        "jp_clean": "(願いのクラフトに関するこの本は、前にも読んだ。でも、記憶をリフレッシュするのもいいかもしれない...)",
+        "checked": false
     },
     {
         "en_raw": "(You start flipping through it.)",
         "en_clean": "(You start flipping through it.)",
         "jp_raw": "(本を開いてみよう。)",
-        "jp_clean": "(本を開いてみよう。)"
+        "jp_clean": "(本を開いてみよう。)",
+        "checked": false
     },
     {
         "en_raw": "Siffrin? What are you looking at?",
         "en_clean": "Siffrin? What are you looking at?",
         "jp_raw": "\\m[vm]シフラン？\\!\\ 何を見てるの？",
-        "jp_clean": "シフラン？ 何を見てるの？"
+        "jp_clean": "シフラン？ 何を見てるの？",
+        "checked": false
     },
     {
         "en_raw": "Wish Craft? What's that?",
         "en_clean": "Wish Craft? What's that?",
         "jp_raw": "\\m[vi]願いのクラフト？\\!\\ なんだそれ？",
-        "jp_clean": "願いのクラフト？ なんだそれ？"
+        "jp_clean": "願いのクラフト？ なんだそれ？",
+        "checked": false
     },
     {
         "en_raw": "Do we really have time for this right now?",
         "en_clean": "Do we really have time for this right now?",
         "jp_raw": "\\m[vo]今、そんなことをしている暇はあるのか？",
-        "jp_clean": "今、そんなことをしている暇はあるのか？"
+        "jp_clean": "今、そんなことをしている暇はあるのか？",
+        "checked": false
     },
     {
         "en_raw": "Oh crab!!!",
         "en_clean": "Oh crab!!!",
         "jp_raw": "\\m[vi]うわ、マジか！！！",
-        "jp_clean": "うわ、マジか！！！"
+        "jp_clean": "うわ、マジか！！！",
+        "checked": false
     },
     {
         "en_raw": "This would be... Very very very useful to know, wouldn't it?!",
         "en_clean": "This would be... Very very very useful to know, wouldn't it?!",
         "jp_raw": "\\m[vm]ってことは...\\!\\ 読んでおいた方がいいよね！？",
-        "jp_clean": "ってことは... 読んでおいた方がいいよね！？"
+        "jp_clean": "ってことは... 読んでおいた方がいいよね！？",
+        "checked": false
     },
     {
         "en_raw": "Interesting... May I see?",
         "en_clean": "Interesting... May I see?",
         "jp_raw": "\\m[vo]興味深いな...\\!\\ 私も見ていいか？",
-        "jp_clean": "興味深いな... 私も見ていいか？"
+        "jp_clean": "興味深いな... 私も見ていいか？",
+        "checked": false
     },
     {
         "en_raw": "...How are you even reading this.",
         "en_clean": "...How are you even reading this.",
         "jp_raw": "...\\!どうしてきみは、これが読めるんだ。",
-        "jp_clean": "...どうしてきみは、これが読めるんだ。"
+        "jp_clean": "...どうしてきみは、これが読めるんだ。",
+        "checked": false
     },
     {
         "en_raw": "Letters bad.",
         "en_clean": "Letters bad.",
         "jp_raw": "\\m[vb]変な文字。",
-        "jp_clean": "変な文字。"
+        "jp_clean": "変な文字。",
+        "checked": false
     },
     {
         "en_raw": "I can't read it at all...",
         "en_clean": "I can't read it at all...",
         "jp_raw": "\\m[vi]俺には全然読めないぜ...",
-        "jp_clean": "俺には全然読めないぜ..."
+        "jp_clean": "俺には全然読めないぜ...",
+        "checked": false
     },
     {
         "en_raw": "I've never even heard of Wish Craft. Are you sure it's even real?",
         "en_clean": "I've never even heard of Wish Craft. Are you sure it's even real?",
         "jp_raw": "\\m[vo]願いのクラフトなど、聞いたことがない。\\!実在するのか？",
-        "jp_clean": "願いのクラフトなど、聞いたことがない。実在するのか？"
+        "jp_clean": "願いのクラフトなど、聞いたことがない。実在するのか？",
+        "checked": false
     },
     {
         "en_raw": "Worth a try! Since you can read it, can you translate what you can, Sif?",
         "en_clean": "Worth a try! Since you can read it, can you translate what you can, Sif?",
         "jp_raw": "\\m[vi]読んでみてもいいんじゃないか！\\!\\ シフは読めるんだから、分かるところを訳してくれないか？",
-        "jp_clean": "読んでみてもいいんじゃないか！ シフは読めるんだから、分かるところを訳してくれないか？"
+        "jp_clean": "読んでみてもいいんじゃないか！ シフは読めるんだから、分かるところを訳してくれないか？",
+        "checked": false
     },
     {
         "en_raw": "(You nod furiously.)",
@@ -941,49 +998,57 @@
         "jp_clean": [
             "(僕はうんうんとうなずいた。)",
             "(僕は熱心にうなずく。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You start reading, and translate as best you can...)",
         "en_clean": "(You start reading, and translate as best you can...)",
         "jp_raw": "(本を読み、できるだけ多くを訳して聞かせる。)",
-        "jp_clean": "(本を読み、できるだけ多くを訳して聞かせる。)"
+        "jp_clean": "(本を読み、できるだけ多くを訳して聞かせる。)",
+        "checked": false
     },
     {
         "en_raw": "(You translate again...)",
         "en_clean": "(You translate again...)",
         "jp_raw": "\\m[clear](さらに訳して...)",
-        "jp_clean": "(さらに訳して...)"
+        "jp_clean": "(さらに訳して...)",
+        "checked": false
     },
     {
         "en_raw": "...I'll leave the thinking to you all.",
         "en_clean": "...I'll leave the thinking to you all.",
         "jp_raw": "\\m[vm]...考えるのは、あなたたちに任せるね。",
-        "jp_clean": "...考えるのは、あなたたちに任せるね。"
+        "jp_clean": "...考えるのは、あなたたちに任せるね。",
+        "checked": false
     },
     {
         "en_raw": "I am a child. I have a lot on my mind. I cannot help.",
         "en_clean": "I am a child. I have a lot on my mind. I cannot help.",
         "jp_raw": "\\m[vb]オイラは子どもだから。\\!他に考えることがいっぱいある。\\!力になれないよ。",
-        "jp_clean": "オイラは子どもだから。他に考えることがいっぱいある。力になれないよ。"
+        "jp_clean": "オイラは子どもだから。他に考えることがいっぱいある。力になれないよ。",
+        "checked": false
     },
     {
         "en_raw": "Understandable.",
         "en_clean": "Understandable.",
         "jp_raw": "\\m[vi]そりゃそうだ。",
-        "jp_clean": "そりゃそうだ。"
+        "jp_clean": "そりゃそうだ。",
+        "checked": false
     },
     {
         "en_raw": "(Isabeau and Odile listen intently, while Mirabelle and Bonnie start playing some kind of game in a corner.)",
         "en_clean": "(Isabeau and Odile listen intently, while Mirabelle and Bonnie start playing some kind of game in a corner.)",
         "jp_raw": "\\m[clear](イザボーとオディールは熱心に耳を傾けてくれている。\\!ミラベルとボニーは部屋の隅で遊び始めた。)",
-        "jp_clean": "(イザボーとオディールは熱心に耳を傾けてくれている。ミラベルとボニーは部屋の隅で遊び始めた。)"
+        "jp_clean": "(イザボーとオディールは熱心に耳を傾けてくれている。ミラベルとボニーは部屋の隅で遊び始めた。)",
+        "checked": false
     },
     {
         "en_raw": "(You keep translating...)",
         "en_clean": "(You keep translating...)",
         "jp_raw": "(僕は訳し続ける...)",
-        "jp_clean": "(僕は訳し続ける...)"
+        "jp_clean": "(僕は訳し続ける...)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1099,199 +1164,232 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(After a bit, Odile nods.)",
         "en_clean": "(After a bit, Odile nods.)",
         "jp_raw": "(しばらくして、オディールがうなずいた。)",
-        "jp_clean": "(しばらくして、オディールがうなずいた。)"
+        "jp_clean": "(しばらくして、オディールがうなずいた。)",
+        "checked": false
     },
     {
         "en_raw": "Hm, I think I understand.",
         "en_clean": "Hm, I think I understand.",
         "jp_raw": "\\m[vo]なるほど、分かってきたぞ。",
-        "jp_clean": "なるほど、分かってきたぞ。"
+        "jp_clean": "なるほど、分かってきたぞ。",
+        "checked": false
     },
     {
         "en_raw": "Wish Craft, as the name implies, is the art of Crafting wishes. Of making whatever you desire come true.",
         "en_clean": "Wish Craft, as the name implies, is the art of Crafting wishes. Of making whatever you desire come true.",
         "jp_raw": "願いのクラフトはその名のとおり、願いをクラフトするものだ。\\!望みを叶えるということだな。",
-        "jp_clean": "願いのクラフトはその名のとおり、願いをクラフトするものだ。望みを叶えるということだな。"
+        "jp_clean": "願いのクラフトはその名のとおり、願いをクラフトするものだ。望みを叶えるということだな。",
+        "checked": false
     },
     {
         "en_raw": "According to this, there seems to be no clear limit on what kind of wish you can make come true...",
         "en_clean": "According to this, there seems to be no clear limit on what kind of wish you can make come true...",
         "jp_raw": "この本によると、叶えられる願いの規模には、はっきりとした制限がない...",
-        "jp_clean": "この本によると、叶えられる願いの規模には、はっきりとした制限がない..."
+        "jp_clean": "この本によると、叶えられる願いの規模には、はっきりとした制限がない...",
+        "checked": false
     },
     {
         "en_raw": "A big part of it seems to come through just believing very strongly that you wish will come true, huh?",
         "en_clean": "A big part of it seems to come through just believing very strongly that you wish will come true, huh?",
         "jp_raw": "\\m[vi]重要なのは、願いが叶うようにと強く信じることみたいだな？",
-        "jp_clean": "重要なのは、願いが叶うようにと強く信じることみたいだな？"
+        "jp_clean": "重要なのは、願いが叶うようにと強く信じることみたいだな？",
+        "checked": false
     },
     {
         "en_raw": "So by Crafting some specific rituals, in conjunction with a powerful will for your wish to come true, people can seemingly make any kind of wish come true...",
         "en_clean": "So by Crafting some specific rituals, in conjunction with a powerful will for your wish to come true, people can seemingly make any kind of wish come true...",
         "jp_raw": "\\m[vo]そして、特定の儀式をクラフトすると、それが願いが叶うと信じる強い気持ちと結合して、どんな願いも叶う...",
-        "jp_clean": "そして、特定の儀式をクラフトすると、それが願いが叶うと信じる強い気持ちと結合して、どんな願いも叶う..."
+        "jp_clean": "そして、特定の儀式をクラフトすると、それが願いが叶うと信じる強い気持ちと結合して、どんな願いも叶う...",
+        "checked": false
     },
     {
         "en_raw": "Um... Okay...",
         "en_clean": "Um... Okay...",
         "jp_raw": "\\m[vm]へえ...\\!\\ なるほど...",
-        "jp_clean": "へえ... なるほど..."
+        "jp_clean": "へえ... なるほど...",
+        "checked": false
     },
     {
         "en_raw": "You used the word \"congestion\", so now I'm confused.",
         "en_clean": "You used the word \"congestion\", so now I'm confused.",
         "jp_raw": "\\m[vb]「ケツ棒」なんて言葉使われても、混乱するよ。",
-        "jp_clean": "「ケツ棒」なんて言葉使われても、混乱するよ。"
+        "jp_clean": "「ケツ棒」なんて言葉使われても、混乱するよ。",
+        "checked": false
     },
     {
         "en_raw": "\"Conjunction\". It means--",
         "en_clean": "\"Conjunction\". It means--",
         "jp_raw": "\\m[vo]「結合」だ。\\!つまり――",
-        "jp_clean": "「結合」だ。つまり――"
+        "jp_clean": "「結合」だ。つまり――",
+        "checked": false
     },
     {
         "en_raw": "The same way we use Craft and certain knowledge and will to make figurines move, there's a way to use Craft to make your wishes come true!",
         "en_clean": "The same way we use Craft and certain knowledge and will to make figurines move, there's a way to use Craft to make your wishes come true!",
         "jp_raw": "\\m[vi]クラフトと特定の知識を使って像に動きを付けたりするのと同じだよ。\\!クラフトを使って、願いを叶える方法があるってこと！",
-        "jp_clean": "クラフトと特定の知識を使って像に動きを付けたりするのと同じだよ。クラフトを使って、願いを叶える方法があるってこと！"
+        "jp_clean": "クラフトと特定の知識を使って像に動きを付けたりするのと同じだよ。クラフトを使って、願いを叶える方法があるってこと！",
+        "checked": false
     },
     {
         "en_raw": "(You nod, you nod.)",
         "en_clean": "(You nod, you nod.)",
         "jp_raw": "\\m[clear](僕は何度もうなずいた。)",
-        "jp_clean": "(僕は何度もうなずいた。)"
+        "jp_clean": "(僕は何度もうなずいた。)",
+        "checked": false
     },
     {
         "en_raw": "(Bonnie raises their hand.)",
         "en_clean": "(Bonnie raises their hand.)",
         "jp_raw": "(ボニーが手を挙げる。)",
-        "jp_clean": "(ボニーが手を挙げる。)"
+        "jp_clean": "(ボニーが手を挙げる。)",
+        "checked": false
     },
     {
         "en_raw": "You have a question, Boniface?",
         "en_clean": "You have a question, Boniface?",
         "jp_raw": "\\m[vo]質問か、ボニー？",
-        "jp_clean": "質問か、ボニー？"
+        "jp_clean": "質問か、ボニー？",
+        "checked": false
     },
     {
         "en_raw": "Um, so, um...",
         "en_clean": "Um, so, um...",
         "jp_raw": "\\m[vb]あの、それじゃあ、えっと...",
-        "jp_clean": "あの、それじゃあ、えっと..."
+        "jp_clean": "あの、それじゃあ、えっと...",
+        "checked": false
     },
     {
         "en_raw": "Can it make any wish come true if you ask?",
         "en_clean": "Can it make any wish come true if you ask?",
         "jp_raw": "どんな願いでも叶えることができるの？",
-        "jp_clean": "どんな願いでも叶えることができるの？"
+        "jp_clean": "どんな願いでも叶えることができるの？",
+        "checked": false
     },
     {
         "en_raw": "Yes, but the way the wish comes true seems a little more complicated than that, from what Siffrin translated.",
         "en_clean": "Yes, but the way the wish comes true seems a little more complicated than that, from what Siffrin translated.",
         "jp_raw": "\\m[vo]そうだ。\\!だが、願いを叶える方法は口で言うほど簡単そうではなさそうだ。\\!シフランの訳によるとな。",
-        "jp_clean": "そうだ。だが、願いを叶える方法は口で言うほど簡単そうではなさそうだ。シフランの訳によるとな。"
+        "jp_clean": "そうだ。だが、願いを叶える方法は口で言うほど簡単そうではなさそうだ。シフランの訳によるとな。",
+        "checked": false
     },
     {
         "en_raw": "Yeah, depending on what you ask, your wish might not come true, but you might get the MEANS to make your wish come true!",
         "en_clean": "Yeah, depending on what you ask, your wish might not come true, but you might get the MEANS to make your wish come true!",
         "jp_raw": "\\m[vi]ああ。\\!願いによっては、そのまま叶わないこともあるらしい。\\!でも、その願いを叶える「手段」を得られるみたいだぞ！",
-        "jp_clean": "ああ。願いによっては、そのまま叶わないこともあるらしい。でも、その願いを叶える「手段」を得られるみたいだぞ！"
+        "jp_clean": "ああ。願いによっては、そのまま叶わないこともあるらしい。でも、その願いを叶える「手段」を得られるみたいだぞ！",
+        "checked": false
     },
     {
         "en_raw": "So like, let's say... Let's say you wished to win a Rock Paper Scissors tournament.",
         "en_clean": "So like, let's say... Let's say you wished to win a Rock Paper Scissors tournament.",
         "jp_raw": "そうだな、たとえば...\\!\\ じゃんけん大会で優勝したいと願ったとしよう。",
-        "jp_clean": "そうだな、たとえば... じゃんけん大会で優勝したいと願ったとしよう。"
+        "jp_clean": "そうだな、たとえば... じゃんけん大会で優勝したいと願ったとしよう。",
+        "checked": false
     },
     {
         "en_raw": "Instead of just having it come true through pure luck... You might get SOMETHING to help make it come true.",
         "en_clean": "Instead of just having it come true through pure luck... You might get SOMETHING to help make it come true.",
         "jp_raw": "純粋にじゃんけん運がよくなるわけじゃなく...\\!\\ 何かを手に入れて、それで大会に優勝できるようになるんだ。",
-        "jp_clean": "純粋にじゃんけん運がよくなるわけじゃなく... 何かを手に入れて、それで大会に優勝できるようになるんだ。"
+        "jp_clean": "純粋にじゃんけん運がよくなるわけじゃなく... 何かを手に入れて、それで大会に優勝できるようになるんだ。",
+        "checked": false
     },
     {
         "en_raw": "Like, maybe you'd get better at reacting, and you could see your opponent's hand in slow motion as it falls, so you can change your own hand!",
         "en_clean": "Like, maybe you'd get better at reacting, and you could see your opponent's hand in slow motion as it falls, so you can change your own hand!",
         "jp_raw": "もしかしたら、反射神経がよくなるのかもしれない。\\!相手の動きがスローモーションで見えれば、自分の手を変えられるだろ！",
-        "jp_clean": "もしかしたら、反射神経がよくなるのかもしれない。相手の動きがスローモーションで見えれば、自分の手を変えられるだろ！"
+        "jp_clean": "もしかしたら、反射神経がよくなるのかもしれない。相手の動きがスローモーションで見えれば、自分の手を変えられるだろ！",
+        "checked": false
     },
     {
         "en_raw": "Or maybe you'd get the insight to tell what they'd be playing, based on their body language...",
         "en_clean": "Or maybe you'd get the insight to tell what they'd be playing, based on their body language...",
         "jp_raw": "\\m[vo]あるいは、相手の出す手が分かるようになるのかもしれない。\\!ボディーランゲージを読み取ったりして...",
-        "jp_clean": "あるいは、相手の出す手が分かるようになるのかもしれない。ボディーランゲージを読み取ったりして..."
+        "jp_clean": "あるいは、相手の出す手が分かるようになるのかもしれない。ボディーランゲージを読み取ったりして...",
+        "checked": false
     },
     {
         "en_raw": "Or you'd just get the power to see the future, so you know what hand your opponent will play beforehand.",
         "en_clean": "Or you'd just get the power to see the future, so you know what hand your opponent will play beforehand.",
         "jp_raw": "単に、未来が見える力を手に入れることもあるかもしれないな。\\!そうすれば、相手の出す手が事前に分かる。",
-        "jp_clean": "単に、未来が見える力を手に入れることもあるかもしれないな。そうすれば、相手の出す手が事前に分かる。"
+        "jp_clean": "単に、未来が見える力を手に入れることもあるかもしれないな。そうすれば、相手の出す手が事前に分かる。",
+        "checked": false
     },
     {
         "en_raw": "Oh! Or maybe, you could meet a powerful Rock Paper Scissors master, who'd be willing to teach you through the goodness of their heart!",
         "en_clean": "Oh! Or maybe, you could meet a powerful Rock Paper Scissors master, who'd be willing to teach you through the goodness of their heart!",
         "jp_raw": "\\m[vm]ああ！\\!\\ じゃあ、やり手のじゃんけん師匠に出会うなんてこともあるかもね。勝ち方を親切に教えてくれたりして！",
-        "jp_clean": "ああ！ じゃあ、やり手のじゃんけん師匠に出会うなんてこともあるかもね。勝ち方を親切に教えてくれたりして！"
+        "jp_clean": "ああ！ じゃあ、やり手のじゃんけん師匠に出会うなんてこともあるかもね。勝ち方を親切に教えてくれたりして！",
+        "checked": false
     },
     {
         "en_raw": "Maybe!!!",
         "en_clean": "Maybe!!!",
         "jp_raw": "\\m[vi]かもな！",
-        "jp_clean": "かもな！"
+        "jp_clean": "かもな！",
+        "checked": false
     },
     {
         "en_raw": "But what if your opponent also made a wish to win? What do you think would happen?",
         "en_clean": "But what if your opponent also made a wish to win? What do you think would happen?",
         "jp_raw": "\\m[vb]でも、相手も同じ願いのクラフトを使ってたら、どうなんの？\\!\\ 何が起きると思う？",
-        "jp_clean": "でも、相手も同じ願いのクラフトを使ってたら、どうなんの？ 何が起きると思う？"
+        "jp_clean": "でも、相手も同じ願いのクラフトを使ってたら、どうなんの？ 何が起きると思う？",
+        "checked": false
     },
     {
         "en_raw": "Hm... Maybe the wishes would cancel each other out, and the match would end in a draw.",
         "en_clean": "Hm... Maybe the wishes would cancel each other out, and the match would end in a draw.",
         "jp_raw": "\\m[vo]ふむ...\\!\\ お互いの願いが打ち消しあって、勝負は引き分けになるかもしれない。",
-        "jp_clean": "ふむ... お互いの願いが打ち消しあって、勝負は引き分けになるかもしれない。"
+        "jp_clean": "ふむ... お互いの願いが打ち消しあって、勝負は引き分けになるかもしれない。",
+        "checked": false
     },
     {
         "en_raw": "Or maybe their wishes would both be considered null, and it'd be anyone's game.",
         "en_clean": "Or maybe their wishes would both be considered null, and it'd be anyone's game.",
         "jp_raw": "あるいは、両方の願いが無効とみなされるかもな。\\!その場合、誰が勝つかは分からない。",
-        "jp_clean": "あるいは、両方の願いが無効とみなされるかもな。その場合、誰が勝つかは分からない。"
+        "jp_clean": "あるいは、両方の願いが無効とみなされるかもな。その場合、誰が勝つかは分からない。",
+        "checked": false
     },
     {
         "en_raw": "Or maybe the wishes can't work because it's two opposite wishes, so they'd both explode!!!!! And destroy the whole world!!!!!",
         "en_clean": "Or maybe the wishes can't work because it's two opposite wishes, so they'd both explode!!!!! And destroy the whole world!!!!!",
         "jp_raw": "\\m[vb]それか、2つの願いが対立して、両方が爆発するかもしれない！！！\\!\\ そんで世界がぶっ壊れる！！！",
-        "jp_clean": "それか、2つの願いが対立して、両方が爆発するかもしれない！！！ そんで世界がぶっ壊れる！！！"
+        "jp_clean": "それか、2つの願いが対立して、両方が爆発するかもしれない！！！ そんで世界がぶっ壊れる！！！",
+        "checked": false
     },
     {
         "en_raw": "Oh no!!!",
         "en_clean": "Oh no!!!",
         "jp_raw": "\\m[vm]ええっ！！！",
-        "jp_clean": "ええっ！！！"
+        "jp_clean": "ええっ！！！",
+        "checked": false
     },
     {
         "en_raw": "But neither of the wishes would come true, then! So maybe...",
         "en_clean": "But neither of the wishes would come true, then! So maybe...",
         "jp_raw": "\\m[vi]でも、そうしたらどちらの願いも叶わないぜ！\\!\\ だから...",
-        "jp_clean": "でも、そうしたらどちらの願いも叶わないぜ！ だから..."
+        "jp_clean": "でも、そうしたらどちらの願いも叶わないぜ！ だから...",
+        "checked": false
     },
     {
         "en_raw": "Maybe they'd both get to win somehow. Maybe they'd go to different tournaments.",
         "en_clean": "Maybe they'd both get to win somehow. Maybe they'd go to different tournaments.",
         "jp_raw": "両方が、何らかの形で勝つのかもしれない。\\!別々の大会に参加するとか。",
-        "jp_clean": "両方が、何らかの形で勝つのかもしれない。別々の大会に参加するとか。"
+        "jp_clean": "両方が、何らかの形で勝つのかもしれない。別々の大会に参加するとか。",
+        "checked": false
     },
     {
         "en_raw": "Or share a medal!",
         "en_clean": "Or share a medal!",
         "jp_raw": "\\m[vm]メダルを共同で受け取ってもいいよね！",
-        "jp_clean": "メダルを共同で受け取ってもいいよね！"
+        "jp_clean": "メダルを共同で受け取ってもいいよね！",
+        "checked": false
     },
     {
         "en_raw": "Cute.",
@@ -1303,7 +1401,8 @@
         "jp_clean": [
             "かわいいぞ。",
             "いいね。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Hehehe!",
@@ -1321,85 +1420,99 @@
             "エヘヘ！",
             "えへへっ！",
             "ヘヘッ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "...This is fascinating.",
         "en_clean": "...This is fascinating.",
         "jp_raw": "\\m[vo]...とても興味深い話だ。",
-        "jp_clean": "...とても興味深い話だ。"
+        "jp_clean": "...とても興味深い話だ。",
+        "checked": false
     },
     {
         "en_raw": "Makes you wanna go into wish-ology, huh?",
         "en_clean": "Makes you wanna go into wish-ology, huh?",
         "jp_raw": "\\m[vi]願い学を研究したくなった？",
-        "jp_clean": "願い学を研究したくなった？"
+        "jp_clean": "願い学を研究したくなった？",
+        "checked": false
     },
     {
         "en_raw": "Hah! Almost.",
         "en_clean": "Hah! Almost.",
         "jp_raw": "\\m[vo]ハハッ！\\!\\ まあな。",
-        "jp_clean": "ハハッ！ まあな。"
+        "jp_clean": "ハハッ！ まあな。",
+        "checked": false
     },
     {
         "en_raw": "So, if Wish Craft is how the King got his powers...",
         "en_clean": "So, if Wish Craft is how the King got his powers...",
         "jp_raw": "\\m[vm]それじゃあ、王が力を手に入れたのは願いのクラフトのおかげだとすると...",
-        "jp_clean": "それじゃあ、王が力を手に入れたのは願いのクラフトのおかげだとすると..."
+        "jp_clean": "それじゃあ、王が力を手に入れたのは願いのクラフトのおかげだとすると...",
+        "checked": false
     },
     {
         "en_raw": "...What did he wish for, then?",
         "en_clean": "...What did he wish for, then?",
         "jp_raw": "...王は何を願ったのかな？",
-        "jp_clean": "...王は何を願ったのかな？"
+        "jp_clean": "...王は何を願ったのかな？",
+        "checked": false
     },
     {
         "en_raw": "...I don't know, but...",
         "en_clean": "...I don't know, but...",
         "jp_raw": "\\m[vo]...分からない。\\!でも...",
-        "jp_clean": "...分からない。でも..."
+        "jp_clean": "...分からない。でも...",
+        "checked": false
     },
     {
         "en_raw": "Maybe his power to freeze people in time might not be what he wished for, but it's the means to make his wish come true.",
         "en_clean": "Maybe his power to freeze people in time might not be what he wished for, but it's the means to make his wish come true.",
         "jp_raw": "人々の時間を止めることが、王の願いではなかったのかもしれない。\\!時間を止めることが、結果的に王の願いを叶える手段になっているのではないか？",
-        "jp_clean": "人々の時間を止めることが、王の願いではなかったのかもしれない。時間を止めることが、結果的に王の願いを叶える手段になっているのではないか？"
+        "jp_clean": "人々の時間を止めることが、王の願いではなかったのかもしれない。時間を止めることが、結果的に王の願いを叶える手段になっているのではないか？",
+        "checked": false
     },
     {
         "en_raw": "(To make Vaugarde perfect.)",
         "en_clean": "(To make Vaugarde perfect.)",
         "jp_raw": "\\m[clear](ヴォーガルドを完璧な状態にするためだ。)",
-        "jp_clean": "(ヴォーガルドを完璧な状態にするためだ。)"
+        "jp_clean": "(ヴォーガルドを完璧な状態にするためだ。)",
+        "checked": false
     },
     {
         "en_raw": "(A perfect picture.)",
         "en_clean": "(A perfect picture.)",
         "jp_raw": "(完璧な絵を作るため。)\\!\\m[wait]\\^",
-        "jp_clean": "(完璧な絵を作るため。)"
+        "jp_clean": "(完璧な絵を作るため。)",
+        "checked": false
     },
     {
         "en_raw": "OH!!! But then...",
         "en_clean": "OH!!! But then...",
         "jp_raw": "\\m[vm]ああ！！！\\!\\ でも、それじゃあ...",
-        "jp_clean": "ああ！！！ でも、それじゃあ..."
+        "jp_clean": "ああ！！！ でも、それじゃあ...",
+        "checked": false
     },
     {
         "en_raw": "Um, question, I have a question!!!",
         "en_clean": "Um, question, I have a question!!!",
         "jp_raw": "えっと、質問があります！！！",
-        "jp_clean": "えっと、質問があります！！！"
+        "jp_clean": "えっと、質問があります！！！",
+        "checked": false
     },
     {
         "en_raw": "Yes, Mira! I give you permission to speak!!!",
         "en_clean": "Yes, Mira! I give you permission to speak!!!",
         "jp_raw": "\\m[vi]はい、ミラ！\\!\\ 発言を許可します！",
-        "jp_clean": "はい、ミラ！ 発言を許可します！"
+        "jp_clean": "はい、ミラ！ 発言を許可します！",
+        "checked": false
     },
     {
         "en_raw": "Thank you!!! Um, Siffrin, you think the King could've gotten Time Craft powers by just wishing for them, right?",
         "en_clean": "Thank you!!! Um, Siffrin, you think the King could've gotten Time Craft powers by just wishing for them, right?",
         "jp_raw": "\\m[vm]ありがとう！！！\\!\\ あのね、シフランは、王が時間のクラフトを手に入れるよう願ったから、その力を手に入れることができたと考えてるんだよね？",
-        "jp_clean": "ありがとう！！！ あのね、シフランは、王が時間のクラフトを手に入れるよう願ったから、その力を手に入れることができたと考えてるんだよね？"
+        "jp_clean": "ありがとう！！！ あのね、シフランは、王が時間のクラフトを手に入れるよう願ったから、その力を手に入れることができたと考えてるんだよね？",
+        "checked": false
     },
     {
         "en_raw": "(You nod.)",
@@ -1415,127 +1528,148 @@
             "(僕はうなずく。)",
             "(僕はうなずいた。)",
             "(僕はうなずいた。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Considering he's the one who told you about Wish Craft in the first place...)",
         "en_clean": "(Considering he's the one who told you about Wish Craft in the first place...)",
         "jp_raw": "(そもそも、願いのクラフトのことを言い出したのは王だ...)",
-        "jp_clean": "(そもそも、願いのクラフトのことを言い出したのは王だ...)"
+        "jp_clean": "(そもそも、願いのクラフトのことを言い出したのは王だ...)",
+        "checked": false
     },
     {
         "en_raw": "So then... If wishes can be that powerful...",
         "en_clean": "So then... If wishes can be that powerful...",
         "jp_raw": "\\m[vm]そういうことなら...\\!\\ 願いによってそれほどの力を持つことができるなら...",
-        "jp_clean": "そういうことなら... 願いによってそれほどの力を持つことができるなら..."
+        "jp_clean": "そういうことなら... 願いによってそれほどの力を持つことができるなら...",
+        "checked": false
     },
     {
         "en_raw": "Wouldn't anyone making a wish at any time be... Kind of dangerous?!",
         "en_clean": "Wouldn't anyone making a wish at any time be... Kind of dangerous?!",
         "jp_raw": "誰でも、どんな時にでも願いを叶えられるのは...\\!\\ ちょっと危険なんじゃない！？",
-        "jp_clean": "誰でも、どんな時にでも願いを叶えられるのは... ちょっと危険なんじゃない！？"
+        "jp_clean": "誰でも、どんな時にでも願いを叶えられるのは... ちょっと危険なんじゃない！？",
+        "checked": false
     },
     {
         "en_raw": "We'd be living in a very different world, wouldn't we?! If someone wished to be the strongest person alive... Or a kid wished for a million ponies!!!",
         "en_clean": "We'd be living in a very different world, wouldn't we?! If someone wished to be the strongest person alive... Or a kid wished for a million ponies!!!",
         "jp_raw": "世界がまったく変わってしまうことにならない！？\\!\\ 誰かが、生きている人の中で一番強くなりたいと願ったり...\\!\\ 子どもが、大量のポニーを願ったりしたら！！！",
-        "jp_clean": "世界がまったく変わってしまうことにならない！？ 誰かが、生きている人の中で一番強くなりたいと願ったり... 子どもが、大量のポニーを願ったりしたら！！！"
+        "jp_clean": "世界がまったく変わってしまうことにならない！？ 誰かが、生きている人の中で一番強くなりたいと願ったり... 子どもが、大量のポニーを願ったりしたら！！！",
+        "checked": false
     },
     {
         "en_raw": "We can do that...? Wish for a million ponies...?",
         "en_clean": "We can do that...? Wish for a million ponies...?",
         "jp_raw": "\\m[vb]そんなこともできるの...？\\!\\ 大量のポニーを...？",
-        "jp_clean": "そんなこともできるの...？ 大量のポニーを...？"
+        "jp_clean": "そんなこともできるの...？ 大量のポニーを...？",
+        "checked": false
     },
     {
         "en_raw": "OH NO!!!",
         "en_clean": "OH NO!!!",
         "jp_raw": "\\m[vm]ああっ！！",
-        "jp_clean": "ああっ！！"
+        "jp_clean": "ああっ！！",
+        "checked": false
     },
     {
         "en_raw": "To answer your question, my dear Mira...",
         "en_clean": "To answer your question, my dear Mira...",
         "jp_raw": "\\m[vi]親愛なるミラよ、疑問にお答えしましょう...",
-        "jp_clean": "親愛なるミラよ、疑問にお答えしましょう..."
+        "jp_clean": "親愛なるミラよ、疑問にお答えしましょう...",
+        "checked": false
     },
     {
         "en_raw": "It seems that just wishing for things does hold a little bit of power, but like, not enough to actually make anything come true.",
         "en_clean": "It seems that just wishing for things does hold a little bit of power, but like, not enough to actually make anything come true.",
         "jp_raw": "願うだけでは、あまり力を得ることはできないみたいだ。\\!願いが叶うほどの力は手に入らない。",
-        "jp_clean": "願うだけでは、あまり力を得ることはできないみたいだ。願いが叶うほどの力は手に入らない。"
+        "jp_clean": "願うだけでは、あまり力を得ることはできないみたいだ。願いが叶うほどの力は手に入らない。",
+        "checked": false
     },
     {
         "en_raw": "But like Sif said, over time, people figured out specific ways to do Wish Craft, to increase their chances of the wish coming true!",
         "en_clean": "But like Sif said, over time, people figured out specific ways to do Wish Craft, to increase their chances of the wish coming true!",
         "jp_raw": "だけどシフが言ったように、願いのクラフトのための手順が徐々に明らかになってきたんだ。\\!願いが叶う可能性を上げる手順がな！",
-        "jp_clean": "だけどシフが言ったように、願いのクラフトのための手順が徐々に明らかになってきたんだ。願いが叶う可能性を上げる手順がな！"
+        "jp_clean": "だけどシフが言ったように、願いのクラフトのための手順が徐々に明らかになってきたんだ。願いが叶う可能性を上げる手順がな！",
+        "checked": false
     },
     {
         "en_raw": "And it depends on the wish, too. Some wishes are easier to make come true.",
         "en_clean": "And it depends on the wish, too. Some wishes are easier to make come true.",
         "jp_raw": "\\m[vo]それに、どんなことを願うかにもよる。\\!叶えるのが簡単な願いもあるんだ。",
-        "jp_clean": "それに、どんなことを願うかにもよる。叶えるのが簡単な願いもあるんだ。"
+        "jp_clean": "それに、どんなことを願うかにもよる。叶えるのが簡単な願いもあるんだ。",
+        "checked": false
     },
     {
         "en_raw": "It also depends on the strength of the wish! Like, how much you want it to come true!",
         "en_clean": "It also depends on the strength of the wish! Like, how much you want it to come true!",
         "jp_raw": "\\m[vi]願いの強さも関係するぞ！\\!\\ 願う気持ちの強さによって、変わるんだ！",
-        "jp_clean": "願いの強さも関係するぞ！ 願う気持ちの強さによって、変わるんだ！"
+        "jp_clean": "願いの強さも関係するぞ！ 願う気持ちの強さによって、変わるんだ！",
+        "checked": false
     },
     {
         "en_raw": "Although, it seems the strength of the wish isn't as important as the whole ritual part.",
         "en_clean": "Although, it seems the strength of the wish isn't as important as the whole ritual part.",
         "jp_raw": "だけど、願いの強さは、願いの儀式よりも重要度が低いらしい。",
-        "jp_clean": "だけど、願いの強さは、願いの儀式よりも重要度が低いらしい。"
+        "jp_clean": "だけど、願いの強さは、願いの儀式よりも重要度が低いらしい。",
+        "checked": false
     },
     {
         "en_raw": "You can wish as hard as you want for something, but if there's no ritual, it's very likely that nothing will happen.",
         "en_clean": "You can wish as hard as you want for something, but if there's no ritual, it's very likely that nothing will happen.",
         "jp_raw": "どれだけ強く願っても、儀式を行わなければ、願いは叶わない可能性が高い。",
-        "jp_clean": "どれだけ強く願っても、儀式を行わなければ、願いは叶わない可能性が高い。"
+        "jp_clean": "どれだけ強く願っても、儀式を行わなければ、願いは叶わない可能性が高い。",
+        "checked": false
     },
     {
         "en_raw": "Hm... \"I wish I won this single game\" wouldn't ask for much belief, or for a lot of rituals...",
         "en_clean": "Hm... \"I wish I won this single game\" wouldn't ask for much belief, or for a lot of rituals...",
         "jp_raw": "\\m[vo]ふむ...\\!\\ 「この試合に勝ちたい」なんて願いには、信仰も儀式もあまり必要ではないが...",
-        "jp_clean": "ふむ... 「この試合に勝ちたい」なんて願いには、信仰も儀式もあまり必要ではないが..."
+        "jp_clean": "ふむ... 「この試合に勝ちたい」なんて願いには、信仰も儀式もあまり必要ではないが...",
+        "checked": false
     },
     {
         "en_raw": "But in theory, you could prepare rituals and wish for something much larger, like \"I wish I could win this world tournament\"...",
         "en_clean": "But in theory, you could prepare rituals and wish for something much larger, like \"I wish I could win this world tournament\"...",
         "jp_raw": "理論的には、儀式を行えば、もっと大きな願いが叶う。\\!たとえば、「世界大会で優勝したい」とか...",
-        "jp_clean": "理論的には、儀式を行えば、もっと大きな願いが叶う。たとえば、「世界大会で優勝したい」とか..."
+        "jp_clean": "理論的には、儀式を行えば、もっと大きな願いが叶う。たとえば、「世界大会で優勝したい」とか...",
+        "checked": false
     },
     {
         "en_raw": "...Or \"I wish to get enough power so I can freeze a whole country in time\", right?",
         "en_clean": "...Or \"I wish to get enough power so I can freeze a whole country in time\", right?",
         "jp_raw": "\\m[vb]...「国じゅうの時を止められるほどの力が欲しい」とか？",
-        "jp_clean": "...「国じゅうの時を止められるほどの力が欲しい」とか？"
+        "jp_clean": "...「国じゅうの時を止められるほどの力が欲しい」とか？",
+        "checked": false
     },
     {
         "en_raw": "...Right.",
         "en_clean": "...Right.",
         "jp_raw": "\\m[vo]...そうだ。",
-        "jp_clean": "...そうだ。"
+        "jp_clean": "...そうだ。",
+        "checked": false
     },
     {
         "en_raw": "So the King knew how to do Wish Craft, then? That's what this means?",
         "en_clean": "So the King knew how to do Wish Craft, then? That's what this means?",
         "jp_raw": "\\m[vm]じゃあ、王は願いのクラフトのやり方を知っていたってこと？\\!\\ そういうことなの？",
-        "jp_clean": "じゃあ、王は願いのクラフトのやり方を知っていたってこと？ そういうことなの？"
+        "jp_clean": "じゃあ、王は願いのクラフトのやり方を知っていたってこと？ そういうことなの？",
+        "checked": false
     },
     {
         "en_raw": "Wish Craft could account for his mastery over Time Craft... And so, he must have known specific rituals to make his wish come true...",
         "en_clean": "Wish Craft could account for his mastery over Time Craft... And so, he must have known specific rituals to make his wish come true...",
         "jp_raw": "願いのクラフトが、王が時間のクラフトを操れる理由かもしれない...\\!\\ そして、王は願いを叶えるための儀式を知っている...",
-        "jp_clean": "願いのクラフトが、王が時間のクラフトを操れる理由かもしれない... そして、王は願いを叶えるための儀式を知っている..."
+        "jp_clean": "願いのクラフトが、王が時間のクラフトを操れる理由かもしれない... そして、王は願いを叶えるための儀式を知っている...",
+        "checked": false
     },
     {
         "en_raw": "Where could he have learned them...?",
         "en_clean": "Where could he have learned them...?",
         "jp_raw": "そんなこと、どこで知ったのかな...？",
-        "jp_clean": "そんなこと、どこで知ったのかな...？"
+        "jp_clean": "そんなこと、どこで知ったのかな...？",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -1725,7 +1859,8 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1841,61 +1976,71 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Does it matter?)",
         "en_clean": "(Does it matter?)",
         "jp_raw": "(それは重要なことか？)",
-        "jp_clean": "(それは重要なことか？)"
+        "jp_clean": "(それは重要なことか？)",
+        "checked": false
     },
     {
         "en_raw": "(Because that's it, isn't it! That's it!!!)",
         "en_clean": "(Because that's it, isn't it! That's it!!!)",
         "jp_raw": "(だって、その先の話なんかない！\\!\\ そうだろ！！！)",
-        "jp_clean": "(だって、その先の話なんかない！ そうだろ！！！)"
+        "jp_clean": "(だって、その先の話なんかない！ そうだろ！！！)",
+        "checked": false
     },
     {
         "en_raw": "(Wish Craft is the art of making wishes come true... Wishes that could bestow immense power...)",
         "en_clean": "(Wish Craft is the art of making wishes come true... Wishes that could bestow immense power...)",
         "jp_raw": "(願いのクラフトは、願いを叶えることができる術...\\!\\ 絶大な力を得るというような願いさえも...)",
-        "jp_clean": "(願いのクラフトは、願いを叶えることができる術... 絶大な力を得るというような願いさえも...)"
+        "jp_clean": "(願いのクラフトは、願いを叶えることができる術... 絶大な力を得るというような願いさえも...)",
+        "checked": false
     },
     {
         "en_raw": "(A wish must be what is trapping you here!)",
         "en_clean": "(A wish must be what is trapping you here!)",
         "jp_raw": "(その願いが、僕をこんな状況にしたんだ！)",
-        "jp_clean": "(その願いが、僕をこんな状況にしたんだ！)"
+        "jp_clean": "(その願いが、僕をこんな状況にしたんだ！)",
+        "checked": false
     },
     {
         "en_raw": "(That's it, that's it, that's it!!!)",
         "en_clean": "(That's it, that's it, that's it!!!)",
         "jp_raw": "(そうだ、そういうことだ、そうだろ！！！)",
-        "jp_clean": "(そうだ、そういうことだ、そうだろ！！！)"
+        "jp_clean": "(そうだ、そういうことだ、そうだろ！！！)",
+        "checked": false
     },
     {
         "en_raw": "(You can't help but smile widely.)",
         "en_clean": "(You can't help but smile widely.)",
         "jp_raw": "(こんなの、笑わずにはいられない。)",
-        "jp_clean": "(こんなの、笑わずにはいられない。)"
+        "jp_clean": "(こんなの、笑わずにはいられない。)",
+        "checked": false
     },
     {
         "en_raw": "(Finally, a hint! Finally, a real path you can follow!)",
         "en_clean": "(Finally, a hint! Finally, a real path you can follow!)",
         "jp_raw": "(ようやく手がかりをつかんだ！\\!\\ ようやく、道が見えてきたぞ！)",
-        "jp_clean": "(ようやく手がかりをつかんだ！ ようやく、道が見えてきたぞ！)"
+        "jp_clean": "(ようやく手がかりをつかんだ！ ようやく、道が見えてきたぞ！)",
+        "checked": false
     },
     {
         "en_raw": "(Something you can do!!!)",
         "en_clean": "(Something you can do!!!)",
         "jp_raw": "(僕にできることがある！！！)",
-        "jp_clean": "(僕にできることがある！！！)"
+        "jp_clean": "(僕にできることがある！！！)",
+        "checked": false
     },
     {
         "en_raw": "(You try and calm your breathing.)",
         "en_clean": "(You try and calm your breathing.)",
         "jp_raw": "(落ち着くために息を整える。)",
-        "jp_clean": "(落ち着くために息を整える。)"
+        "jp_clean": "(落ち着くために息を整える。)",
+        "checked": false
     },
     {
         "en_raw": "(Phew...)",
@@ -1907,25 +2052,29 @@
         "jp_clean": [
             "(ふう...)",
             "(ふう...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Okay.)",
         "en_clean": "(Okay.)",
         "jp_raw": "(よし。)",
-        "jp_clean": "(よし。)"
+        "jp_clean": "(よし。)",
+        "checked": false
     },
     {
         "en_raw": "(...Specific rituals, huh...)",
         "en_clean": "(...Specific rituals, huh...)",
         "jp_raw": "(...\\!特定の儀式、か...)",
-        "jp_clean": "(...特定の儀式、か...)"
+        "jp_clean": "(...特定の儀式、か...)",
+        "checked": false
     },
     {
         "en_raw": "(It's a long shot, but there might be another book about Wish Craft somewhere... Something you couldn't read before...)",
         "en_clean": "(It's a long shot, but there might be another book about Wish Craft somewhere... Something you couldn't read before...)",
         "jp_raw": "(望みは薄いが、願いのクラフトについての本がどこかにあるかもしれない...\\!\\ 以前は読めなかったものが...)",
-        "jp_clean": "(望みは薄いが、願いのクラフトについての本がどこかにあるかもしれない... 以前は読めなかったものが...)"
+        "jp_clean": "(望みは薄いが、願いのクラフトについての本がどこかにあるかもしれない... 以前は読めなかったものが...)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -2041,79 +2190,92 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "en_clean": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "jp_raw": "\\m[clear](本棚にはさまざまな言語で書かれた本が詰まっている。\\!ヴォーガルド語、ポテリア語、ムゥデュ語...)",
-        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)"
+        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)",
+        "checked": false
     },
     {
         "en_raw": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "en_clean": "(The bookcase is filled with many books written in many different languages. Vaugardian, Poterian, Mwudu...)",
         "jp_raw": "\\m[clear](本棚にはさまざまな言語で書かれた本が詰まっている。\\!ヴォーガルド語、ポテリア語、ムゥデュ語...)",
-        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)"
+        "jp_clean": "(本棚にはさまざまな言語で書かれた本が詰まっている。ヴォーガルド語、ポテリア語、ムゥデュ語...)",
+        "checked": false
     },
     {
         "en_raw": "(One of them is written in your language.)",
         "en_clean": "(One of them is written in your language.)",
         "jp_raw": "(僕の国の言葉で書かれたものもある。)",
-        "jp_clean": "(僕の国の言葉で書かれたものもある。)"
+        "jp_clean": "(僕の国の言葉で書かれたものもある。)",
+        "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n (You couldn't read it now even if you tried.)\n</span>",
         "en_clean": "(You couldn't read it now even if you tried.)",
         "jp_raw": "\\shake(読もうとしたけれど、読めなかった。)",
-        "jp_clean": "(読もうとしたけれど、読めなかった。)"
+        "jp_clean": "(読もうとしたけれど、読めなかった。)",
+        "checked": false
     },
     {
         "en_raw": "(It's a Poterian-Vaugardian translation dictionary.)",
         "en_clean": "(It's a Poterian-Vaugardian translation dictionary.)",
         "jp_raw": "\\m[clear](ポテリア語とヴォーガルド語の二言語辞書だ。)",
-        "jp_clean": "(ポテリア語とヴォーガルド語の二言語辞書だ。)"
+        "jp_clean": "(ポテリア語とヴォーガルド語の二言語辞書だ。)",
+        "checked": false
     },
     {
         "en_raw": "(It's open to a page of Vaugardian words starting with a T.)",
         "en_clean": "(It's open to a page of Vaugardian words starting with a T.)",
         "jp_raw": "(ヴォーガルド語の「か」で始まる語のページが開かれている。)",
-        "jp_clean": "(ヴォーガルド語の「か」で始まる語のページが開かれている。)"
+        "jp_clean": "(ヴォーガルド語の「か」で始まる語のページが開かれている。)",
+        "checked": false
     },
     {
         "en_raw": "\"Taciturn\".",
         "en_clean": "\"Taciturn\".",
         "jp_raw": "\\m[vb]「カモクな」",
-        "jp_clean": "「カモクな」"
+        "jp_clean": "「カモクな」",
+        "checked": false
     },
     {
         "en_raw": "What does \"taciturn\" mean?",
         "en_clean": "What does \"taciturn\" mean?",
         "jp_raw": "「カモク」って何？",
-        "jp_clean": "「カモク」って何？"
+        "jp_clean": "「カモク」って何？",
+        "checked": false
     },
     {
         "en_raw": "It's someone who doesn't speak up very often, Boniface.",
         "en_clean": "It's someone who doesn't speak up very often, Boniface.",
         "jp_raw": "\\m[vo]あまりしゃべらない人のことだ、ボニファス。",
-        "jp_clean": "あまりしゃべらない人のことだ、ボニファス。"
+        "jp_clean": "あまりしゃべらない人のことだ、ボニファス。",
+        "checked": false
     },
     {
         "en_raw": "Oh, like Frin, okay.",
         "en_clean": "Oh, like Frin, okay.",
         "jp_raw": "\\m[vb]ああ、フランみたいな人のことね。",
-        "jp_clean": "ああ、フランみたいな人のことね。"
+        "jp_clean": "ああ、フランみたいな人のことね。",
+        "checked": false
     },
     {
         "en_raw": "Yes, just like Siffrin.",
         "en_clean": "Yes, just like Siffrin.",
         "jp_raw": "\\m[vo]そうだ、シフランのような人だ。",
-        "jp_clean": "そうだ、シフランのような人だ。"
+        "jp_clean": "そうだ、シフランのような人だ。",
+        "checked": false
     },
     {
         "en_raw": "(Hey!)",
         "en_clean": "(Hey!)",
         "jp_raw": "\\m[clear](なんだよ！)",
-        "jp_clean": "(なんだよ！)"
+        "jp_clean": "(なんだよ！)",
+        "checked": false
     },
     {
         "en_raw": "(Hey...)",
@@ -2127,7 +2289,8 @@
             "(ちょっと...)",
             "(なんだよぉ...)",
             "(なんだよ...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -2243,7 +2406,8 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Um...",
@@ -2265,91 +2429,106 @@
             "うーん...",
             "えっと...",
             "えっと..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Not really, Sif.",
         "en_clean": "Not really, Sif.",
         "jp_raw": "\\m[vi]そうでもないぞ、シフ。",
-        "jp_clean": "そうでもないぞ、シフ。"
+        "jp_clean": "そうでもないぞ、シフ。",
+        "checked": false
     },
     {
         "en_raw": "My teacher always says we gotta speak up more.",
         "en_clean": "My teacher always says we gotta speak up more.",
         "jp_raw": "\\m[vb]学校の先生はいつも、はっきりと言葉にしなさいって言ってるぞ。",
-        "jp_clean": "学校の先生はいつも、はっきりと言葉にしなさいって言ってるぞ。"
+        "jp_clean": "学校の先生はいつも、はっきりと言葉にしなさいって言ってるぞ。",
+        "checked": false
     },
     {
         "en_raw": "You're an adult, so why don't you speak up more, stupid?",
         "en_clean": "You're an adult, so why don't you speak up more, stupid?",
         "jp_raw": "フランは大人だろ。なのにどうしてはっきり言葉にしないんだ？\\!\\ バカなの？",
-        "jp_clean": "フランは大人だろ。なのにどうしてはっきり言葉にしないんだ？ バカなの？"
+        "jp_clean": "フランは大人だろ。なのにどうしてはっきり言葉にしないんだ？ バカなの？",
+        "checked": false
     },
     {
         "en_raw": "You're an adult, so why don't you speak up more?",
         "en_clean": "You're an adult, so why don't you speak up more?",
         "jp_raw": "フランは大人だろ。\\!\\なのにどうしてはっきり言葉にしないんだ？",
-        "jp_clean": "フランは大人だろ。なのにどうしてはっきり言葉にしないんだ？"
+        "jp_clean": "フランは大人だろ。なのにどうしてはっきり言葉にしないんだ？",
+        "checked": false
     },
     {
         "en_raw": "(Why don't you?)",
         "en_clean": "(Why don't you?)",
         "jp_raw": "\\m[clear](どうしてだろう？)",
-        "jp_clean": "(どうしてだろう？)"
+        "jp_clean": "(どうしてだろう？)",
+        "checked": false
     },
     {
         "en_raw": "(You just don't have much to say.)",
         "en_clean": "(You just don't have much to say.)",
         "jp_raw": "(あまり言いたいことがないからだ。)",
-        "jp_clean": "(あまり言いたいことがないからだ。)"
+        "jp_clean": "(あまり言いたいことがないからだ。)",
+        "checked": false
     },
     {
         "en_raw": "(It's simpler to just let people talk.)",
         "en_clean": "(It's simpler to just let people talk.)",
         "jp_raw": "(他の人たちにしゃべらせる方が簡単だ。)",
-        "jp_clean": "(他の人たちにしゃべらせる方が簡単だ。)"
+        "jp_clean": "(他の人たちにしゃべらせる方が簡単だ。)",
+        "checked": false
     },
     {
         "en_raw": "(Heheh...)",
         "en_clean": "(Heheh...)",
         "jp_raw": "\\m[clear](へへ...)",
-        "jp_clean": "(へへ...)"
+        "jp_clean": "(へへ...)",
+        "checked": false
     },
     {
         "en_raw": "(Because why would you?)",
         "en_clean": "(Because why would you?)",
         "jp_raw": "\\m[clear](どうしてそんなことする必要が？)",
-        "jp_clean": "(どうしてそんなことする必要が？)"
+        "jp_clean": "(どうしてそんなことする必要が？)",
+        "checked": false
     },
     {
         "en_raw": "(Because you're tired.)",
         "en_clean": "(Because you're tired.)",
         "jp_raw": "\\m[clear](だって、疲れているから。)",
-        "jp_clean": "(だって、疲れているから。)"
+        "jp_clean": "(だって、疲れているから。)",
+        "checked": false
     },
     {
         "en_raw": "(Tired of repeating the same blinding lines over and over and OVER again.)",
         "en_clean": "(Tired of repeating the same blinding lines over and over and OVER again.)",
         "jp_raw": "(同じセリフを何度も、何度も繰り返すのにうんざりしているからだ。)",
-        "jp_clean": "(同じセリフを何度も、何度も繰り返すのにうんざりしているからだ。)"
+        "jp_clean": "(同じセリフを何度も、何度も繰り返すのにうんざりしているからだ。)",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Hm.",
@@ -2379,25 +2558,29 @@
             "ふむ。",
             "ふう。",
             "ふーん。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Oh.",
@@ -2429,13 +2612,15 @@
             "へえ。",
             "おや。",
             "へえ。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Awwwwwww!!!",
         "en_clean": "Awwwwwww!!!",
         "jp_raw": "\\m[vi]うわわわわ！！！",
-        "jp_clean": "うわわわわ！！！"
+        "jp_clean": "うわわわわ！！！",
+        "checked": false
     },
     {
         "en_raw": "That's cute.",
@@ -2447,25 +2632,29 @@
         "jp_clean": [
             "かわいいだろ？",
             "かわいいことを言うじゃないか。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "That's a lovely thing to say, Siffrin!",
         "en_clean": "That's a lovely thing to say, Siffrin!",
         "jp_raw": "\\m[vm]それってすてきだね、シフラン！",
-        "jp_clean": "それってすてきだね、シフラン！"
+        "jp_clean": "それってすてきだね、シフラン！",
+        "checked": false
     },
     {
         "en_raw": "(Huh?!?)",
         "en_clean": "(Huh?!?)",
         "jp_raw": "\\m[clear](へっ？！？)",
-        "jp_clean": "(へっ？！？)"
+        "jp_clean": "(へっ？！？)",
+        "checked": false
     },
     {
         "en_raw": "(Oh, stars.)",
         "en_clean": "(Oh, stars.)",
         "jp_raw": "\\m[clear](ああ、星たちよ。)",
-        "jp_clean": "(ああ、星たちよ。)"
+        "jp_clean": "(ああ、星たちよ。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -2581,37 +2770,43 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "It feels like we tamed a wild animal, doesn't it?",
         "en_clean": "It feels like we tamed a wild animal, doesn't it?",
         "jp_raw": "\\m[vm]野生の動物を手なずけられたみたいだと思わない？",
-        "jp_clean": "野生の動物を手なずけられたみたいだと思わない？"
+        "jp_clean": "野生の動物を手なずけられたみたいだと思わない？",
+        "checked": false
     },
     {
         "en_raw": "Perfect analogy.",
         "en_clean": "Perfect analogy.",
         "jp_raw": "\\m[vo]ぴったりの例えだ。",
-        "jp_clean": "ぴったりの例えだ。"
+        "jp_clean": "ぴったりの例えだ。",
+        "checked": false
     },
     {
         "en_raw": "Maybe soon we'll even be able to pet them.",
         "en_clean": "Maybe soon we'll even be able to pet them.",
         "jp_raw": "もうすぐ、なでられるようになるかもしれないな。",
-        "jp_clean": "もうすぐ、なでられるようになるかもしれないな。"
+        "jp_clean": "もうすぐ、なでられるようになるかもしれないな。",
+        "checked": false
     },
     {
         "en_raw": "Oh crab, stop, just imagining it makes me emotional!!!",
         "en_clean": "Oh crab, stop, just imagining it makes me emotional!!!",
         "jp_raw": "\\m[vi]カニったれ、やめてくれよ。\\!想像するだけで、涙が出そうだ！！！",
-        "jp_clean": "カニったれ、やめてくれよ。想像するだけで、涙が出そうだ！！！"
+        "jp_clean": "カニったれ、やめてくれよ。想像するだけで、涙が出そうだ！！！",
+        "checked": false
     },
     {
         "en_raw": "(Are they making fun of you?)",
         "en_clean": "(Are they making fun of you?)",
         "jp_raw": "\\m[clear](僕をからかっているのか？)",
-        "jp_clean": "(僕をからかっているのか？)"
+        "jp_clean": "(僕をからかっているのか？)",
+        "checked": false
     },
     {
         "en_raw": "(Aaaaaaah...)",
@@ -2623,37 +2818,43 @@
         "jp_clean": [
             "(あー...)",
             "(ああああ...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You don't like it when they see you.)",
         "en_clean": "(You don't like it when they see you.)",
         "jp_raw": "\\m[clear](見られるのは好きじゃない。)",
-        "jp_clean": "(見られるのは好きじゃない。)"
+        "jp_clean": "(見られるのは好きじゃない。)",
+        "checked": false
     },
     {
         "en_raw": "(You hide your face under your hat.)",
         "en_clean": "(You hide your face under your hat.)",
         "jp_raw": "(帽子を深くかぶりなおして、顔を隠す。)",
-        "jp_clean": "(帽子を深くかぶりなおして、顔を隠す。)"
+        "jp_clean": "(帽子を深くかぶりなおして、顔を隠す。)",
+        "checked": false
     },
     {
         "en_raw": "See, now he went back to a shy, skittish animal.",
         "en_clean": "See, now he went back to a shy, skittish animal.",
         "jp_raw": "\\m[vo]見ろ、内気で用心深い動物に戻ってしまったぞ。",
-        "jp_clean": "見ろ、内気で用心深い動物に戻ってしまったぞ。"
+        "jp_clean": "見ろ、内気で用心深い動物に戻ってしまったぞ。",
+        "checked": false
     },
     {
         "en_raw": "All this hard work... Wasted...",
         "en_clean": "All this hard work... Wasted...",
         "jp_raw": "\\m[vi]ここまでがんばったのに...\\!\\ しくじった...",
-        "jp_clean": "ここまでがんばったのに... しくじった..."
+        "jp_clean": "ここまでがんばったのに... しくじった...",
+        "checked": false
     },
     {
         "en_raw": "(Face warm, you walk away.)",
         "en_clean": "(Face warm, you walk away.)",
         "jp_raw": "\\m[clear](顔が熱くなって、僕はみんなから離れた。)",
-        "jp_clean": "(顔が熱くなって、僕はみんなから離れた。)"
+        "jp_clean": "(顔が熱くなって、僕はみんなから離れた。)",
+        "checked": false
     },
     {
         "en_raw": "Hehehe!",
@@ -2671,25 +2872,29 @@
             "エヘヘ！",
             "えへへっ！",
             "ヘヘッ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Yes, yes, we're coming!",
         "en_clean": "Yes, yes, we're coming!",
         "jp_raw": "\\m[vi]はいはい、ついていくよ！",
-        "jp_clean": "はいはい、ついていくよ！"
+        "jp_clean": "はいはい、ついていくよ！",
+        "checked": false
     },
     {
         "en_raw": "Oh, sorry... Are we making you uncomfortable?",
         "en_clean": "Oh, sorry... Are we making you uncomfortable?",
         "jp_raw": "\\m[vo]おや、すまない...\\!\\ イヤな気分にさせてしまったか？",
-        "jp_clean": "おや、すまない... イヤな気分にさせてしまったか？"
+        "jp_clean": "おや、すまない... イヤな気分にさせてしまったか？",
+        "checked": false
     },
     {
         "en_raw": "We'll stop, Sif! Sorry, Sif!",
         "en_clean": "We'll stop, Sif! Sorry, Sif!",
         "jp_raw": "\\m[vi]もうやめるよ、シフ！\\!\\ ごめんな、シフ！",
-        "jp_clean": "もうやめるよ、シフ！ ごめんな、シフ！"
+        "jp_clean": "もうやめるよ、シフ！ ごめんな、シフ！",
+        "checked": false
     },
     {
         "en_raw": "(You walk away.)",
@@ -2701,37 +2906,43 @@
         "jp_clean": [
             "(ここは立ち去ろう。)",
             "(立ち去る。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(It's a dictionary.)",
         "en_clean": "(It's a dictionary.)",
         "jp_raw": "\\m[clear](辞書だ。)",
-        "jp_clean": "(辞書だ。)"
+        "jp_clean": "(辞書だ。)",
+        "checked": false
     },
     {
         "en_raw": "(It's open to a page of words starting with a T.)",
         "en_clean": "(It's open to a page of words starting with a T.)",
         "jp_raw": "(「か」で始まる語のページが開かれている。)",
-        "jp_clean": "(「か」で始まる語のページが開かれている。)"
+        "jp_clean": "(「か」で始まる語のページが開かれている。)",
+        "checked": false
     },
     {
         "en_raw": "(Not so taciturn anymore, are you?!?)",
         "en_clean": "(Not so taciturn anymore, are you?!?)",
         "jp_raw": "\\m[clear](もう、それほどカモクじゃない、よな？！？)",
-        "jp_clean": "(もう、それほどカモクじゃない、よな？！？)"
+        "jp_clean": "(もう、それほどカモクじゃない、よな？！？)",
+        "checked": false
     },
     {
         "en_raw": "(It's a dictionary.)",
         "en_clean": "(It's a dictionary.)",
         "jp_raw": "\\m[clear](辞書だ。)",
-        "jp_clean": "(辞書だ。)"
+        "jp_clean": "(辞書だ。)",
+        "checked": false
     },
     {
         "en_raw": "(Some vials.)",
         "en_clean": "(Some vials.)",
         "jp_raw": "\\m[clear](瓶がいくつかある。)",
-        "jp_clean": "(瓶がいくつかある。)"
+        "jp_clean": "(瓶がいくつかある。)",
+        "checked": false
     },
     {
         "en_raw": "(You got one GINGER JUICE!)",
@@ -2743,13 +2954,15 @@
         "jp_clean": [
             "(「しょうがジュース」を手に入れた！)",
             "(「しょうがジュース」を手に入れた！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You got one SWEET TONIC!)",
         "en_clean": "(You got one SWEET TONIC!)",
         "jp_raw": "\\m[clear](「甘トニック」を1個手に入れた！)",
-        "jp_clean": "(「甘トニック」を1個手に入れた！)"
+        "jp_clean": "(「甘トニック」を1個手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You got two SALTY BROTHS!)",
@@ -2761,36 +2974,42 @@
         "jp_clean": [
             "(「しょっぱスープ」を手に入れた！)",
             "(「しょっぱスープ」を2つ手に入れた！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You give it to Bonnie to safekeeping.)",
         "en_clean": "(You give it to Bonnie to safekeeping.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Nothing else here.)",
         "en_clean": "(Nothing else here.)",
         "jp_raw": "\\m[clear](他に目ぼしいものはない。)",
-        "jp_clean": "(他に目ぼしいものはない。)"
+        "jp_clean": "(他に目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(A stool.)",
         "en_clean": "(A stool.)",
         "jp_raw": "\\m[clear](スツールだ。)",
-        "jp_clean": "(スツールだ。)"
+        "jp_clean": "(スツールだ。)",
+        "checked": false
     },
     {
         "en_raw": "(A stool.)",
         "en_clean": "(A stool.)",
         "jp_raw": "\\m[clear](スツールだ。)",
-        "jp_clean": "(スツールだ。)"
+        "jp_clean": "(スツールだ。)",
+        "checked": false
     },
     {
         "en_raw": "(But you're fine, so it'd be a waste of time to sit down.)",
         "en_clean": "(But you're fine, so it'd be a waste of time to sit down.)",
         "jp_raw": "(座る必要はない。\\!時間を無駄にするだけだ。)",
-        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)"
+        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)",
+        "checked": false
     }
 ]

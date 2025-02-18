@@ -3,31 +3,36 @@
         "en_raw": "(You open the closet...)",
         "en_clean": "(You open the closet...)",
         "jp_raw": "\\m[clear](クローゼットを開ける...)",
-        "jp_clean": "(クローゼットを開ける...)"
+        "jp_clean": "(クローゼットを開ける...)",
+        "checked": false
     },
     {
         "en_raw": "(There's a pair of glasses inside a transparent case.)",
         "en_clean": "(There's a pair of glasses inside a transparent case.)",
         "jp_raw": "(透明のケースの中に、メガネが入っている。)",
-        "jp_clean": "(透明のケースの中に、メガネが入っている。)"
+        "jp_clean": "(透明のケースの中に、メガネが入っている。)",
+        "checked": false
     },
     {
         "en_raw": "(Unlike the case, the glasses are completely opaque...)",
         "en_clean": "(Unlike the case, the glasses are completely opaque...)",
         "jp_raw": "(ケースは透き通っているのに、メガネはくすんでいる...)",
-        "jp_clean": "(ケースは透き通っているのに、メガネはくすんでいる...)"
+        "jp_clean": "(ケースは透き通っているのに、メガネはくすんでいる...)",
+        "checked": false
     },
     {
         "en_raw": "Glasses you can't even see out of... Absolutely useless.",
         "en_clean": "Glasses you can't even see out of... Absolutely useless.",
         "jp_raw": "\\m[vo]前があまり見えないメガネ...\\!\\ まったく役に立たないな。",
-        "jp_clean": "前があまり見えないメガネ... まったく役に立たないな。"
+        "jp_clean": "前があまり見えないメガネ... まったく役に立たないな。",
+        "checked": false
     },
     {
         "en_raw": "Are you gonna take them?",
         "en_clean": "Are you gonna take them?",
         "jp_raw": "\\m[vb]持っていく？",
-        "jp_clean": "持っていく？"
+        "jp_clean": "持っていく？",
+        "checked": false
     },
     {
         "en_raw": "Hm...",
@@ -61,103 +66,120 @@
             "そうか...",
             "へえ...",
             "ふむ..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Yes. I'll take them.",
         "en_clean": "Yes. I'll take them.",
         "jp_raw": "そうしよう。\\!持っていくよ。",
-        "jp_clean": "そうしよう。持っていくよ。"
+        "jp_clean": "そうしよう。持っていくよ。",
+        "checked": false
     },
     {
         "en_raw": "(You got the OPAQUE GLASSES!)",
         "en_clean": "(You got the OPAQUE GLASSES!)",
         "jp_raw": "\\m[clear](「半透明メガネ」を手に入れた！)",
-        "jp_clean": "(「半透明メガネ」を手に入れた！)"
+        "jp_clean": "(「半透明メガネ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You give the Opaque Glasses to Odile to equip later.)",
         "en_clean": "(You give the Opaque Glasses to Odile to equip later.)",
         "jp_raw": "(後で装備できるよう、オディールに半透明メガネを渡した。)",
-        "jp_clean": "(後で装備できるよう、オディールに半透明メガネを渡した。)"
+        "jp_clean": "(後で装備できるよう、オディールに半透明メガネを渡した。)",
+        "checked": false
     },
     {
         "en_raw": "[You found an Armor!]",
         "en_clean": "[You found an Armor!]",
         "jp_raw": "\\m[vtuto][アーマーを見つけたね！]",
-        "jp_clean": "[アーマーを見つけたね！]"
+        "jp_clean": "[アーマーを見つけたね！]",
+        "checked": false
     },
     {
         "en_raw": "[Weapons and Armors can be equipped by going through the menu, and then to \"Equip\".]",
         "en_clean": "[Weapons and Armors can be equipped by going through the menu, and then to \"Equip\".]",
         "jp_raw": "[武器やアーマーは、メニューの「装備」から装備できるよ。]",
-        "jp_clean": "[武器やアーマーは、メニューの「装備」から装備できるよ。]"
+        "jp_clean": "[武器やアーマーは、メニューの「装備」から装備できるよ。]",
+        "checked": false
     },
     {
         "en_raw": "[This specific armor is for that Researcher of yours. Don't forget to equip it!]",
         "en_clean": "[This specific armor is for that Researcher of yours. Don't forget to equip it!]",
         "jp_raw": "[今手に入れたアーマーは、研究者君用だね。\\!装備の設定を忘れないようにね！]\\m[rb]",
-        "jp_clean": "[今手に入れたアーマーは、研究者君用だね。装備の設定を忘れないようにね！]"
+        "jp_clean": "[今手に入れたアーマーは、研究者君用だね。装備の設定を忘れないようにね！]",
+        "checked": false
     },
     {
         "en_raw": "(There's a pair of",
         "en_clean": "(There's a pair of",
         "jp_raw": "(中にあるのは\\.\\^",
-        "jp_clean": "(中にあるのは"
+        "jp_clean": "(中にあるのは",
+        "checked": false
     },
     {
         "en_raw": "(There's no glasses in there, but there are some supplies...)",
         "en_clean": "(There's no glasses in there, but there are some supplies...)",
         "jp_raw": "(中にメガネはないけれど、補給品が少しある...)",
-        "jp_clean": "(中にメガネはないけれど、補給品が少しある...)"
+        "jp_clean": "(中にメガネはないけれど、補給品が少しある...)",
+        "checked": false
     },
     {
         "en_raw": "(You got a SALTY BROTH!)",
         "en_clean": "(You got a SALTY BROTH!)",
         "jp_raw": "(「しょっぱスープ」を手に入れた！)",
-        "jp_clean": "(「しょっぱスープ」を手に入れた！)"
+        "jp_clean": "(「しょっぱスープ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You give them\n<!--sic-->\nto Bonnie for safekeeping.)",
         "en_clean": "(You give themto Bonnie for safekeeping.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You take the item.)",
         "en_clean": "(You take the item.)",
         "jp_raw": "(アイテムを手に取った。)",
-        "jp_clean": "(アイテムを手に取った。)"
+        "jp_clean": "(アイテムを手に取った。)",
+        "checked": false
     },
     {
         "en_raw": "(You got a SALTY BROTH!)",
         "en_clean": "(You got a SALTY BROTH!)",
         "jp_raw": "(「しょっぱスープ」を手に入れた！)",
-        "jp_clean": "(「しょっぱスープ」を手に入れた！)"
+        "jp_clean": "(「しょっぱスープ」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You give them\n<!--sic-->\nto Bonnie for safekeeping.)",
         "en_clean": "(You give themto Bonnie for safekeeping.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(There's nothing else in there.)",
         "en_clean": "(There's nothing else in there.)",
         "jp_raw": "\\m[clear](中には何もない。)",
-        "jp_clean": "(中には何もない。)"
+        "jp_clean": "(中には何もない。)",
+        "checked": false
     },
     {
         "en_raw": "(You look inside the closet, waiting for the Universe to right itself.)",
         "en_clean": "(You look inside the closet, waiting for the Universe to right itself.)",
         "jp_raw": "\\m[clear](クローゼットの中を眺めた。\\!クローゼットは宇宙が自分を整えてくれるのを待っている。)",
-        "jp_clean": "(クローゼットの中を眺めた。クローゼットは宇宙が自分を整えてくれるのを待っている。)"
+        "jp_clean": "(クローゼットの中を眺めた。クローゼットは宇宙が自分を整えてくれるのを待っている。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -273,145 +295,169 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You open the closet...)",
         "en_clean": "(You open the closet...)",
         "jp_raw": "\\m[clear](クローゼットを開ける...)",
-        "jp_clean": "(クローゼットを開ける...)"
+        "jp_clean": "(クローゼットを開ける...)",
+        "checked": false
     },
     {
         "en_raw": "(It's filled with wax and candle-making supplies.)",
         "en_clean": "(It's filled with wax and candle-making supplies.)",
         "jp_raw": "(キャンドルワックスや他の材料でいっぱいだ。)",
-        "jp_clean": "(キャンドルワックスや他の材料でいっぱいだ。)"
+        "jp_clean": "(キャンドルワックスや他の材料でいっぱいだ。)",
+        "checked": false
     },
     {
         "en_raw": "(The closet full of wax and candle-making supplies.)",
         "en_clean": "(The closet full of wax and candle-making supplies.)",
         "jp_raw": "\\m[clear](クローゼットはキャンドルワックスや他の材料でいっぱいだ。)",
-        "jp_clean": "(クローゼットはキャンドルワックスや他の材料でいっぱいだ。)"
+        "jp_clean": "(クローゼットはキャンドルワックスや他の材料でいっぱいだ。)",
+        "checked": false
     },
     {
         "en_raw": "(Something smells sweet.)",
         "en_clean": "(Something smells sweet.)",
         "jp_raw": "(甘いにおいがする。)",
-        "jp_clean": "(甘いにおいがする。)"
+        "jp_clean": "(甘いにおいがする。)",
+        "checked": false
     },
     {
         "en_raw": "(Some sort of candle-making station.)",
         "en_clean": "(Some sort of candle-making station.)",
         "jp_raw": "\\m[clear](キャンドルを作るための作業台のようなものだ。)",
-        "jp_clean": "(キャンドルを作るための作業台のようなものだ。)"
+        "jp_clean": "(キャンドルを作るための作業台のようなものだ。)",
+        "checked": false
     },
     {
         "en_raw": "Sniff sniff...",
         "en_clean": "Sniff sniff...",
         "jp_raw": "\\m[vi]クンクン...",
-        "jp_clean": "クンクン..."
+        "jp_clean": "クンクン...",
+        "checked": false
     },
     {
         "en_raw": "I have no idea what this smells like.",
         "en_clean": "I have no idea what this smells like.",
         "jp_raw": "このにおい、なんだ？",
-        "jp_clean": "このにおい、なんだ？"
+        "jp_clean": "このにおい、なんだ？",
+        "checked": false
     },
     {
         "en_raw": "Sniff sniff.",
         "en_clean": "Sniff sniff.",
         "jp_raw": "\\m[vb]クンクン。",
-        "jp_clean": "クンクン。"
+        "jp_clean": "クンクン。",
+        "checked": false
     },
     {
         "en_raw": "Apples and cinnamon.",
         "en_clean": "Apples and cinnamon.",
         "jp_raw": "リンゴとシナモンだよ。",
-        "jp_clean": "リンゴとシナモンだよ。"
+        "jp_clean": "リンゴとシナモンだよ。",
+        "checked": false
     },
     {
         "en_raw": "Pie smell?",
         "en_clean": "Pie smell?",
         "jp_raw": "\\m[vi]パイってことか？",
-        "jp_clean": "パイってことか？"
+        "jp_clean": "パイってことか？",
+        "checked": false
     },
     {
         "en_raw": "Pie smell.",
         "en_clean": "Pie smell.",
         "jp_raw": "\\m[vb]パイだね。",
-        "jp_clean": "パイだね。"
+        "jp_clean": "パイだね。",
+        "checked": false
     },
     {
         "en_raw": "Pie smell...",
         "en_clean": "Pie smell...",
         "jp_raw": "\\m[vm]パイのかおり...",
-        "jp_clean": "パイのかおり..."
+        "jp_clean": "パイのかおり...",
+        "checked": false
     },
     {
         "en_raw": "(Pie smell.)",
         "en_clean": "(Pie smell.)",
         "jp_raw": "\\m[clear](パイのかおり、か。)",
-        "jp_clean": "(パイのかおり、か。)"
+        "jp_clean": "(パイのかおり、か。)",
+        "checked": false
     },
     {
         "en_raw": "(Candles.)",
         "en_clean": "(Candles.)",
         "jp_raw": "\\m[clear](キャンドルだ。)",
-        "jp_clean": "(キャンドルだ。)"
+        "jp_clean": "(キャンドルだ。)",
+        "checked": false
     },
     {
         "en_raw": "(The candle-making station.)",
         "en_clean": "(The candle-making station.)",
         "jp_raw": "\\m[clear](キャンドルを作るための作業台だ。)",
-        "jp_clean": "(キャンドルを作るための作業台だ。)"
+        "jp_clean": "(キャンドルを作るための作業台だ。)",
+        "checked": false
     },
     {
         "en_raw": "(It doesn't smell like a pie, but it does smell sweet.)",
         "en_clean": "(It doesn't smell like a pie, but it does smell sweet.)",
         "jp_raw": "(パイのかおりはしないけど、甘いにおいはする。)",
-        "jp_clean": "(パイのかおりはしないけど、甘いにおいはする。)"
+        "jp_clean": "(パイのかおりはしないけど、甘いにおいはする。)",
+        "checked": false
     },
     {
         "en_raw": "(A craftonomy book.)",
         "en_clean": "(A craftonomy book.)",
         "jp_raw": "\\m[clear](クラフト学の本だ。)",
-        "jp_clean": "(クラフト学の本だ。)"
+        "jp_clean": "(クラフト学の本だ。)",
+        "checked": false
     },
     {
         "en_raw": "Oooh, is this a craftology book?",
         "en_clean": "Oooh, is this a craftology book?",
         "jp_raw": "\\m[vi]おお、クラフト術の本か？",
-        "jp_clean": "おお、クラフト術の本か？"
+        "jp_clean": "おお、クラフト術の本か？",
+        "checked": false
     },
     {
         "en_raw": "Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--",
         "en_clean": "Piercing Craft, Creative Craft... Where's the Protecting Craft chapt--",
         "jp_raw": "刺突のクラフト、創造のクラフト...\\!\\ 守りのクラフトの章はどこに――",
-        "jp_clean": "刺突のクラフト、創造のクラフト... 守りのクラフトの章はどこに――"
+        "jp_clean": "刺突のクラフト、創造のクラフト... 守りのクラフトの章はどこに――",
+        "checked": false
     },
     {
         "en_raw": "It's a craftONOMY book, not a craftOLOGY book.",
         "en_clean": "It's a craftONOMY book, not a craftOLOGY book.",
         "jp_raw": "\\m[vo]クラフト「学」だ。\\!クラフト「術」ではない。",
-        "jp_clean": "クラフト「学」だ。クラフト「術」ではない。"
+        "jp_clean": "クラフト「学」だ。クラフト「術」ではない。",
+        "checked": false
     },
     {
         "en_raw": "This one is about the study of Craft, not your fortune.",
         "en_clean": "This one is about the study of Craft, not your fortune.",
         "jp_raw": "クラフトを研究した本であって、占いの本とは違う。",
-        "jp_clean": "クラフトを研究した本であって、占いの本とは違う。"
+        "jp_clean": "クラフトを研究した本であって、占いの本とは違う。",
+        "checked": false
     },
     {
         "en_raw": "(A book about the study of Craft?)",
         "en_clean": "(A book about the study of Craft?)",
         "jp_raw": "\\m[clear](クラフトを研究した本？)",
-        "jp_clean": "(クラフトを研究した本？)"
+        "jp_clean": "(クラフトを研究した本？)",
+        "checked": false
     },
     {
         "en_raw": "(Could it have any information about Time Craft, maybe...?)",
         "en_clean": "(Could it have any information about Time Craft, maybe...?)",
         "jp_raw": "(もしかして、時間のクラフトについての記述があるかな...？)",
-        "jp_clean": "(もしかして、時間のクラフトについての記述があるかな...？)"
+        "jp_clean": "(もしかして、時間のクラフトについての記述があるかな...？)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -527,43 +573,50 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You know this already.)",
         "en_clean": "(You know this already.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Time Craft? What for?",
         "en_clean": "Time Craft? What for?",
         "jp_raw": "\\m[vm]時間のクラフト？\\!\\ どうして？",
-        "jp_clean": "時間のクラフト？ どうして？"
+        "jp_clean": "時間のクラフト？ どうして？",
+        "checked": false
     },
     {
         "en_raw": "Hm... It is related to our situation, isn't it? With the King?",
         "en_clean": "Hm... It is related to our situation, isn't it? With the King?",
         "jp_raw": "\\m[vi]ああ...\\!\\ 俺たちの状況に関係するからだな？\\!\\ 王がやってることに。",
-        "jp_clean": "ああ... 俺たちの状況に関係するからだな？ 王がやってることに。"
+        "jp_clean": "ああ... 俺たちの状況に関係するからだな？ 王がやってることに。",
+        "checked": false
     },
     {
         "en_raw": "We don't have ti--",
         "en_clean": "We don't have ti--",
         "jp_raw": "\\m[vo]時間がない――",
-        "jp_clean": "時間がない――"
+        "jp_clean": "時間がない――",
+        "checked": false
     },
     {
         "en_raw": "What's Time Craft? I dunno what that is.",
         "en_clean": "What's Time Craft? I dunno what that is.",
         "jp_raw": "\\m[vb]時間のクラフトって何？\\!\\ オイラ、知らない。",
-        "jp_clean": "時間のクラフトって何？ オイラ、知らない。"
+        "jp_clean": "時間のクラフトって何？ オイラ、知らない。",
+        "checked": false
     },
     {
         "en_raw": "...Should we have a crash course on Time Craft, then?",
         "en_clean": "...Should we have a crash course on Time Craft, then?",
         "jp_raw": "\\m[vi]...\\!よし、時間のクラフトの短期講座でもやるか？",
-        "jp_clean": "...よし、時間のクラフトの短期講座でもやるか？"
+        "jp_clean": "...よし、時間のクラフトの短期講座でもやるか？",
+        "checked": false
     },
     {
         "en_raw": "Urgh, fine.",
@@ -575,103 +628,120 @@
         "jp_clean": [
             "まったく。付き合うよ。",
             "やれやれ、仕方ない。"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Odile flips through the book.)",
         "en_clean": "(Odile flips through the book.)",
         "jp_raw": "\\m[clear](オディールが本を開く。)",
-        "jp_clean": "(オディールが本を開く。)"
+        "jp_clean": "(オディールが本を開く。)",
+        "checked": false
     },
     {
         "en_raw": "...It does have a section on Time Craft.",
         "en_clean": "...It does have a section on Time Craft.",
         "jp_raw": "\\m[vo]...\\!\\m[wait]時間のクラフトについてのページがある。",
-        "jp_clean": "...時間のクラフトについてのページがある。"
+        "jp_clean": "...時間のクラフトについてのページがある。",
+        "checked": false
     },
     {
         "en_raw": "Alright. So, Time Craft is, as the name implies, the power to wield and craft time itself.",
         "en_clean": "Alright. So, Time Craft is, as the name implies, the power to wield and craft time itself.",
         "jp_raw": "読んでみよう。\\!まず、時間のクラフトはその名のとおり、時間そのものを操り、作り出すクラフトだ。",
-        "jp_clean": "読んでみよう。まず、時間のクラフトはその名のとおり、時間そのものを操り、作り出すクラフトだ。"
+        "jp_clean": "読んでみよう。まず、時間のクラフトはその名のとおり、時間そのものを操り、作り出すクラフトだ。",
+        "checked": false
     },
     {
         "en_raw": "It's a type of craft that's been hypothesized to exist for decades, but its existence has never been proven.",
         "en_clean": "It's a type of craft that's been hypothesized to exist for decades, but its existence has never been proven.",
         "jp_raw": "何十年もの間、存在するとは考えられていたものの、実在は確認されていなかった。",
-        "jp_clean": "何十年もの間、存在するとは考えられていたものの、実在は確認されていなかった。"
+        "jp_clean": "何十年もの間、存在するとは考えられていたものの、実在は確認されていなかった。",
+        "checked": false
     },
     {
         "en_raw": "Until now, right?",
         "en_clean": "Until now, right?",
         "jp_raw": "\\m[vm]王の出現で、それが変わったんだね？",
-        "jp_clean": "王の出現で、それが変わったんだね？"
+        "jp_clean": "王の出現で、それが変わったんだね？",
+        "checked": false
     },
     {
         "en_raw": "Stopping time... That's what the King does, right?",
         "en_clean": "Stopping time... That's what the King does, right?",
         "jp_raw": "\\m[vb]時間を止める...\\!\\ 王がやってるのは、そういうことでしょ？",
-        "jp_clean": "時間を止める... 王がやってるのは、そういうことでしょ？"
+        "jp_clean": "時間を止める... 王がやってるのは、そういうことでしょ？",
+        "checked": false
     },
     {
         "en_raw": "So the King is using Time Craft?",
         "en_clean": "So the King is using Time Craft?",
         "jp_raw": "じゃあ、王は時間のクラフトを使ってるってこと？",
-        "jp_clean": "じゃあ、王は時間のクラフトを使ってるってこと？"
+        "jp_clean": "じゃあ、王は時間のクラフトを使ってるってこと？",
+        "checked": false
     },
     {
         "en_raw": "The King most likely is, yes. Which would make it the first time in history someone managed to harvest that power.",
         "en_clean": "The King most likely is, yes. Which would make it the first time in history someone managed to harvest that power.",
         "jp_raw": "\\m[vo]ああ、おそらくそうだろう。\\!史上初めてその力を使いこなしている例と言える。",
-        "jp_clean": "ああ、おそらくそうだろう。史上初めてその力を使いこなしている例と言える。"
+        "jp_clean": "ああ、おそらくそうだろう。史上初めてその力を使いこなしている例と言える。",
+        "checked": false
     },
     {
         "en_raw": "Outside of stories told in familytales, that is.",
         "en_clean": "Outside of stories told in familytales, that is.",
         "jp_raw": "「一族の物語」で語られていることを除けば、そうなる。",
-        "jp_clean": "「一族の物語」で語られていることを除けば、そうなる。"
+        "jp_clean": "「一族の物語」で語られていることを除けば、そうなる。",
+        "checked": false
     },
     {
         "en_raw": "I've heard scholars outside of Vaugarde are really excited right now! Time Craft, confirmed to be real!",
         "en_clean": "I've heard scholars outside of Vaugarde are really excited right now! Time Craft, confirmed to be real!",
         "jp_raw": "\\m[vi]国外の学者たちは、今、すごく興奮してるらしいぜ！\\!\\ 時間のクラフトが本当にあるって分かったから！",
-        "jp_clean": "国外の学者たちは、今、すごく興奮してるらしいぜ！ 時間のクラフトが本当にあるって分かったから！"
+        "jp_clean": "国外の学者たちは、今、すごく興奮してるらしいぜ！ 時間のクラフトが本当にあるって分かったから！",
+        "checked": false
     },
     {
         "en_raw": "...So they're happy because he froze people in time?",
         "en_clean": "...So they're happy because he froze people in time?",
         "jp_raw": "\\m[vb]...\\!\\m[wait]王がこの国の人たちの時間を止めるのが、学者にとってはうれしいとことなのか？",
-        "jp_clean": "...王がこの国の人たちの時間を止めるのが、学者にとってはうれしいとことなのか？"
+        "jp_clean": "...王がこの国の人たちの時間を止めるのが、学者にとってはうれしいとことなのか？",
+        "checked": false
     },
     {
         "en_raw": "W-well, it's more complicated than that!!!",
         "en_clean": "W-well, it's more complicated than that!!!",
         "jp_raw": "\\m[vm]う、ううん、もう少し複雑な話！！！",
-        "jp_clean": "う、ううん、もう少し複雑な話！！！"
+        "jp_clean": "う、ううん、もう少し複雑な話！！！",
+        "checked": false
     },
     {
         "en_raw": "Morals aside, it does change everything we knew about Time Craft.",
         "en_clean": "Morals aside, it does change everything we knew about Time Craft.",
         "jp_raw": "\\m[vo]道徳の話は置いておくとしても、時間のクラフトについて分かることが増えた出来事には違いない。",
-        "jp_clean": "道徳の話は置いておくとしても、時間のクラフトについて分かることが増えた出来事には違いない。"
+        "jp_clean": "道徳の話は置いておくとしても、時間のクラフトについて分かることが増えた出来事には違いない。",
+        "checked": false
     },
     {
         "en_raw": "Think about how Time Craft could be used. The King is only stopping people's time... But it could be used for many other things.",
         "en_clean": "Think about how Time Craft could be used. The King is only stopping people's time... But it could be used for many other things.",
         "jp_raw": "時間のクラフトの使われ方を考えてみるといい。\\!王は人々の時間を止めているが...\\!\\ 同じクラフトが他の使われ方をすることもあり得るだろう。",
-        "jp_clean": "時間のクラフトの使われ方を考えてみるといい。王は人々の時間を止めているが... 同じクラフトが他の使われ方をすることもあり得るだろう。"
+        "jp_clean": "時間のクラフトの使われ方を考えてみるといい。王は人々の時間を止めているが... 同じクラフトが他の使われ方をすることもあり得るだろう。",
+        "checked": false
     },
     {
         "en_raw": "It could be used to hasten or slow people's time, too. Maybe make people's bodies younger or older. Maybe make buds grow into trees in an instant.",
         "en_clean": "It could be used to hasten or slow people's time, too. Maybe make people's bodies younger or older. Maybe make buds grow into trees in an instant.",
         "jp_raw": "時間を速めたり、遅くしたりすることもできそうだ。\\!人間の体を若返らせたり、年老いさせたりすることもできるかもしれない。\\!枯れ木に花をパッと咲かせることも可能かもしれないぞ。",
-        "jp_clean": "時間を速めたり、遅くしたりすることもできそうだ。人間の体を若返らせたり、年老いさせたりすることもできるかもしれない。枯れ木に花をパッと咲かせることも可能かもしれないぞ。"
+        "jp_clean": "時間を速めたり、遅くしたりすることもできそうだ。人間の体を若返らせたり、年老いさせたりすることもできるかもしれない。枯れ木に花をパッと咲かせることも可能かもしれないぞ。",
+        "checked": false
     },
     {
         "en_raw": "Worst case scenario, it could be used to change history itself! Crafting time to go back in time, and change history!",
         "en_clean": "Worst case scenario, it could be used to change history itself! Crafting time to go back in time, and change history!",
         "jp_raw": "\\m[vi]最悪なのは、過去の出来事を変えるのに使われるかもしれないってことだ！\\!\\ クラフトで時間をさかのぼって、過去に起こったことを変えてしまうんだ！",
-        "jp_clean": "最悪なのは、過去の出来事を変えるのに使われるかもしれないってことだ！ クラフトで時間をさかのぼって、過去に起こったことを変えてしまうんだ！"
+        "jp_clean": "最悪なのは、過去の出来事を変えるのに使われるかもしれないってことだ！ クラフトで時間をさかのぼって、過去に起こったことを変えてしまうんだ！",
+        "checked": false
     },
     {
         "en_raw": "Woah!",
@@ -683,13 +753,15 @@
         "jp_clean": [
             "うわあ！",
             "うおっ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Woah.)",
         "en_clean": "(Woah.)",
         "jp_raw": "\\m[clear](うわ。)",
-        "jp_clean": "(うわ。)"
+        "jp_clean": "(うわ。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -805,67 +877,78 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(\"Worst case scenario\".)",
         "en_clean": "(\"Worst case scenario\".)",
         "jp_raw": "(「最悪」か。)",
-        "jp_clean": "(「最悪」か。)"
+        "jp_clean": "(「最悪」か。)",
+        "checked": false
     },
     {
         "en_raw": "The possibilities are endless... And terrifying.",
         "en_clean": "The possibilities are endless... And terrifying.",
         "jp_raw": "\\m[vo]可能性は無限にある...\\!\\ 恐ろしいことばかりだ。",
-        "jp_clean": "可能性は無限にある... 恐ろしいことばかりだ。"
+        "jp_clean": "可能性は無限にある... 恐ろしいことばかりだ。",
+        "checked": false
     },
     {
         "en_raw": "Definitely not the kind of power you want in someone's hands!",
         "en_clean": "Definitely not the kind of power you want in someone's hands!",
         "jp_raw": "\\m[vi]絶対に、誰かの手に渡したくない力だな！",
-        "jp_clean": "絶対に、誰かの手に渡したくない力だな！"
+        "jp_clean": "絶対に、誰かの手に渡したくない力だな！",
+        "checked": false
     },
     {
         "en_raw": "And definitely not someone like the King.",
         "en_clean": "And definitely not someone like the King.",
         "jp_raw": "\\m[vo]王のような者には特にな。",
-        "jp_clean": "王のような者には特にな。"
+        "jp_clean": "王のような者には特にな。",
+        "checked": false
     },
     {
         "en_raw": "And, correct me if I'm wrong... But crafting time wouldn't be like crafting clay to a specific shape, or crafting a sword.",
         "en_clean": "And, correct me if I'm wrong... But crafting time wouldn't be like crafting clay to a specific shape, or crafting a sword.",
         "jp_raw": "\\m[vm]それに、間違ってるかもだけど...\\!\\ 時間のクラフトは、粘土で何かの形を作ったり、剣を作ったりするのとは違うでしょ？",
-        "jp_clean": "それに、間違ってるかもだけど... 時間のクラフトは、粘土で何かの形を作ったり、剣を作ったりするのとは違うでしょ？"
+        "jp_clean": "それに、間違ってるかもだけど... 時間のクラフトは、粘土で何かの形を作ったり、剣を作ったりするのとは違うでしょ？",
+        "checked": false
     },
     {
         "en_raw": "Those are easy enough to do and won't tire you out, but crafting time? Something as basic and essential as time?",
         "en_clean": "Those are easy enough to do and won't tire you out, but crafting time? Something as basic and essential as time?",
         "jp_raw": "そういうことは、簡単で、人を疲弊させるものじゃない。\\!だけど、時間のクラフトは？\\!\\ 時間という、世界の基礎であり不可欠なものを操るなんて...",
-        "jp_clean": "そういうことは、簡単で、人を疲弊させるものじゃない。だけど、時間のクラフトは？ 時間という、世界の基礎であり不可欠なものを操るなんて..."
+        "jp_clean": "そういうことは、簡単で、人を疲弊させるものじゃない。だけど、時間のクラフトは？ 時間という、世界の基礎であり不可欠なものを操るなんて...",
+        "checked": false
     },
     {
         "en_raw": "Wouldn't it ask for immense amounts of power?",
         "en_clean": "Wouldn't it ask for immense amounts of power?",
         "jp_raw": "はかり知れない程の力を必要とするんじゃない？",
-        "jp_clean": "はかり知れない程の力を必要とするんじゃない？"
+        "jp_clean": "はかり知れない程の力を必要とするんじゃない？",
+        "checked": false
     },
     {
         "en_raw": "Exactly. Crafting clay barely asks for any power from the user... But crafting time...",
         "en_clean": "Exactly. Crafting clay barely asks for any power from the user... But crafting time...",
         "jp_raw": "\\m[vo]そのとおりだ。\\!粘土のクラフトは力をほとんど必要としないが...\\!\\ 時間のクラフトは...",
-        "jp_clean": "そのとおりだ。粘土のクラフトは力をほとんど必要としないが... 時間のクラフトは..."
+        "jp_clean": "そのとおりだ。粘土のクラフトは力をほとんど必要としないが... 時間のクラフトは...",
+        "checked": false
     },
     {
         "en_raw": "It was theorized that crafting time, even to pause time for a single second... Would probably kill the user immediately.",
         "en_clean": "It was theorized that crafting time, even to pause time for a single second... Would probably kill the user immediately.",
         "jp_raw": "理論的には、時間のクラフトを使ってほんの1秒ほど時間を止めるだけで...\\!\\m[wait] クラフターは死んでしまうと考えられるそうだ。",
-        "jp_clean": "理論的には、時間のクラフトを使ってほんの1秒ほど時間を止めるだけで... クラフターは死んでしまうと考えられるそうだ。"
+        "jp_clean": "理論的には、時間のクラフトを使ってほんの1秒ほど時間を止めるだけで... クラフターは死んでしまうと考えられるそうだ。",
+        "checked": false
     },
     {
         "en_raw": "(HUH?!?)",
         "en_clean": "(HUH?!?)",
         "jp_raw": "\\m[clear](えっ？！？)",
-        "jp_clean": "(えっ？！？)"
+        "jp_clean": "(えっ？！？)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -981,49 +1064,57 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "KILL THEM DEAD?!?",
         "en_clean": "KILL THEM DEAD?!?",
         "jp_raw": "\\m[vb]死んじゃうの？！？",
-        "jp_clean": "死んじゃうの？！？"
+        "jp_clean": "死んじゃうの？！？",
+        "checked": false
     },
     {
         "en_raw": "Kill them dead.",
         "en_clean": "Kill them dead.",
         "jp_raw": "\\m[vi]死んじまうんだ。",
-        "jp_clean": "死んじまうんだ。"
+        "jp_clean": "死んじまうんだ。",
+        "checked": false
     },
     {
         "en_raw": "And yet, the King is still alive...",
         "en_clean": "And yet, the King is still alive...",
         "jp_raw": "\\m[vm]なのに、王は生きている...",
-        "jp_clean": "なのに、王は生きている..."
+        "jp_clean": "なのに、王は生きている...",
+        "checked": false
     },
     {
         "en_raw": "So it raises the question...",
         "en_clean": "So it raises the question...",
         "jp_raw": "\\m[vi]それじゃあ疑問なんだけど...",
-        "jp_clean": "それじゃあ疑問なんだけど..."
+        "jp_clean": "それじゃあ疑問なんだけど...",
+        "checked": false
     },
     {
         "en_raw": "What gave him enough power to use Time Craft without dying? And how did he learn how to use it?",
         "en_clean": "What gave him enough power to use Time Craft without dying? And how did he learn how to use it?",
         "jp_raw": "王が時間のクラフトを使っても死なずにいられるほどの力を持っているのはなぜだ？\\!\\ それに、どうやって使い方を学んだ？",
-        "jp_clean": "王が時間のクラフトを使っても死なずにいられるほどの力を持っているのはなぜだ？ それに、どうやって使い方を学んだ？"
+        "jp_clean": "王が時間のクラフトを使っても死なずにいられるほどの力を持っているのはなぜだ？ それに、どうやって使い方を学んだ？",
+        "checked": false
     },
     {
         "en_raw": "Good questions, Isabeau. You have pretty smart insights sometimes.",
         "en_clean": "Good questions, Isabeau. You have pretty smart insights sometimes.",
         "jp_raw": "\\m[vo]よい質問だ、イザボー。\\!きみはたまに鋭いことを言う。",
-        "jp_clean": "よい質問だ、イザボー。きみはたまに鋭いことを言う。"
+        "jp_clean": "よい質問だ、イザボー。きみはたまに鋭いことを言う。",
+        "checked": false
     },
     {
         "en_raw": "I sure do!",
         "en_clean": "I sure do!",
         "jp_raw": "\\m[vi]だろ！",
-        "jp_clean": "だろ！"
+        "jp_clean": "だろ！",
+        "checked": false
     },
     {
         "en_raw": "Hm...",
@@ -1057,19 +1148,22 @@
             "そうか...",
             "へえ...",
             "ふむ..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Time Craft is what the King uses and it's dangerous. Got it.",
         "en_clean": "Time Craft is what the King uses and it's dangerous. Got it.",
         "jp_raw": "王は時間のクラフトを使っていて、時間のクラフトは危険なもの。\\!そういうことか。",
-        "jp_clean": "王は時間のクラフトを使っていて、時間のクラフトは危険なもの。そういうことか。"
+        "jp_clean": "王は時間のクラフトを使っていて、時間のクラフトは危険なもの。そういうことか。",
+        "checked": false
     },
     {
         "en_raw": "I suppose talking about this was useful. I'm surprised you're curious about this, though... Siffrin.",
         "en_clean": "I suppose talking about this was useful. I'm surprised you're curious about this, though... Siffrin.",
         "jp_raw": "\\m[vo]話せてよかったな。\\!だが、きみが時間のクラフトに興味があったのには驚いたぞ...\\!\\ シフラン。",
-        "jp_clean": "話せてよかったな。だが、きみが時間のクラフトに興味があったのには驚いたぞ... シフラン。"
+        "jp_clean": "話せてよかったな。だが、きみが時間のクラフトに興味があったのには驚いたぞ... シフラン。",
+        "checked": false
     },
     {
         "en_raw": "(You shrug.)",
@@ -1081,7 +1175,8 @@
         "jp_clean": [
             "(僕は肩をすくめる。)",
             "(僕は肩をすくめた。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -1271,7 +1366,8 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1387,91 +1483,106 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Time Craft, a type of Craft that allows the user to control time...)",
         "en_clean": "(Time Craft, a type of Craft that allows the user to control time...)",
         "jp_raw": "(時間のクラフトを使うと、時間を操ることができる...)",
-        "jp_clean": "(時間のクラフトを使うと、時間を操ることができる...)"
+        "jp_clean": "(時間のクラフトを使うと、時間を操ることができる...)",
+        "checked": false
     },
     {
         "en_raw": "(Isn't that what you and the King have been using?)",
         "en_clean": "(Isn't that what you and the King have been using?)",
         "jp_raw": "(僕が使っているのも王が使っているのもこの力じゃないか？)",
-        "jp_clean": "(僕が使っているのも王が使っているのもこの力じゃないか？)"
+        "jp_clean": "(僕が使っているのも王が使っているのもこの力じゃないか？)",
+        "checked": false
     },
     {
         "en_raw": "(But neither of you should be able to use it... Using it would ask for immense amounts of power.)",
         "en_clean": "(But neither of you should be able to use it... Using it would ask for immense amounts of power.)",
         "jp_raw": "(だけど、僕たちには使えるはずのない力だ...\\!\\ 時間のクラフトを使うには、はかり知れない程の力が必要なんだから。)",
-        "jp_clean": "(だけど、僕たちには使えるはずのない力だ... 時間のクラフトを使うには、はかり知れない程の力が必要なんだから。)"
+        "jp_clean": "(だけど、僕たちには使えるはずのない力だ... 時間のクラフトを使うには、はかり知れない程の力が必要なんだから。)",
+        "checked": false
     },
     {
         "en_raw": "(So then... What gave you this power?)",
         "en_clean": "(So then... What gave you this power?)",
         "jp_raw": "(じゃあ...\\!\\ この力はどこから来たんだ？)",
-        "jp_clean": "(じゃあ... この力はどこから来たんだ？)"
+        "jp_clean": "(じゃあ... この力はどこから来たんだ？)",
+        "checked": false
     },
     {
         "en_raw": "(...Maybe you should ask the King about this.)",
         "en_clean": "(...Maybe you should ask the King about this.)",
         "jp_raw": "(...\\!\\m[wait]王に聞いてみるべきかもしれない。)",
-        "jp_clean": "(...王に聞いてみるべきかもしれない。)"
+        "jp_clean": "(...王に聞いてみるべきかもしれない。)",
+        "checked": false
     },
     {
         "en_raw": "(And... You still need to go talk to the Head Housemaiden.)",
         "en_clean": "(And... You still need to go talk to the Head Housemaiden.)",
         "jp_raw": "(それに...\\!\\ 侍祭長とも話さないと。)",
-        "jp_clean": "(それに... 侍祭長とも話さないと。)"
+        "jp_clean": "(それに... 侍祭長とも話さないと。)",
+        "checked": false
     },
     {
         "en_raw": "(She seemed aware that you were looping in time... Maybe she knows why you're able to use Time Craft?)",
         "en_clean": "(She seemed aware that you were looping in time... Maybe she knows why you're able to use Time Craft?)",
         "jp_raw": "(彼女は、僕が時間をループしていることに気づいているようだった...\\!\\ 僕が時間のクラフトを使えるわけを知っているのか？)",
-        "jp_clean": "(彼女は、僕が時間をループしていることに気づいているようだった... 僕が時間のクラフトを使えるわけを知っているのか？)"
+        "jp_clean": "(彼女は、僕が時間をループしていることに気づいているようだった... 僕が時間のクラフトを使えるわけを知っているのか？)",
+        "checked": false
     },
     {
         "en_raw": "(You need to talk to her.)",
         "en_clean": "(You need to talk to her.)",
         "jp_raw": "(侍祭長と話さないと。)",
-        "jp_clean": "(侍祭長と話さないと。)"
+        "jp_clean": "(侍祭長と話さないと。)",
+        "checked": false
     },
     {
         "en_raw": "(But what if it isn't enough? What if he doesn't want to tell you anything about Time Craft?)",
         "en_clean": "(But what if it isn't enough? What if he doesn't want to tell you anything about Time Craft?)",
         "jp_raw": "(だけど、それじゃダメだったら？\\!\\ 王に、時間のクラフトについて話す気がなかったらどうすれば？)",
-        "jp_clean": "(だけど、それじゃダメだったら？ 王に、時間のクラフトについて話す気がなかったらどうすれば？)"
+        "jp_clean": "(だけど、それじゃダメだったら？ 王に、時間のクラフトについて話す気がなかったらどうすれば？)",
+        "checked": false
     },
     {
         "en_raw": "(You've talked to the King, and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)",
         "en_clean": "(You've talked to the King, and the Head Housemaiden... Are those really the only two people that would know anything about the loops you're stuck in?)",
         "jp_raw": "(王とも話したし、侍祭長とも話した。\\!\\この厄介なループについて何か知っているのは、本当にあの二人だけなんだろうか？)",
-        "jp_clean": "(王とも話したし、侍祭長とも話した。この厄介なループについて何か知っているのは、本当にあの二人だけなんだろうか？)"
+        "jp_clean": "(王とも話したし、侍祭長とも話した。この厄介なループについて何か知っているのは、本当にあの二人だけなんだろうか？)",
+        "checked": false
     },
     {
         "en_raw": "(Who else could you talk to about the loops? To theorize?)",
         "en_clean": "(Who else could you talk to about the loops? To theorize?)",
         "jp_raw": "(ループについて、誰と話せば...\\!\\ 考えがまとまるだろう？)",
-        "jp_clean": "(ループについて、誰と話せば... 考えがまとまるだろう？)"
+        "jp_clean": "(ループについて、誰と話せば... 考えがまとまるだろう？)",
+        "checked": false
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Oh, wait.)",
         "en_clean": "(Oh, wait.)",
         "jp_raw": "(あ、待てよ。)",
-        "jp_clean": "(あ、待てよ。)"
+        "jp_clean": "(あ、待てよ。)",
+        "checked": false
     },
     {
         "en_raw": "(There is ONE person.)",
         "en_clean": "(There is ONE person.)",
         "jp_raw": "(そういえば一人いるな。)",
-        "jp_clean": "(そういえば一人いるな。)"
+        "jp_clean": "(そういえば一人いるな。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1587,13 +1698,15 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Heheheh.",
         "en_clean": "Heheheh.",
         "jp_raw": "\\m[vb]へへへ。",
-        "jp_clean": "へへへ。"
+        "jp_clean": "へへへ。",
+        "checked": false
     },
     {
         "en_raw": "Aww... I wanted to know my horoscope today...",
@@ -1605,85 +1718,99 @@
         "jp_clean": [
             "へへ... 今日の運勢を知りたかったんだよな...",
             "へへ... 今日の運勢を知りたかったんだよな..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "This place has been frozen for a few months now... I don't think it'd be up to date...",
         "en_clean": "This place has been frozen for a few months now... I don't think it'd be up to date...",
         "jp_raw": "\\m[vo]ここではもう、数か月も時が止まっているんだ...\\!\\ 最新のものではないと思うが...",
-        "jp_clean": "ここではもう、数か月も時が止まっているんだ... 最新のものではないと思うが..."
+        "jp_clean": "ここではもう、数か月も時が止まっているんだ... 最新のものではないと思うが...",
+        "checked": false
     },
     {
         "en_raw": "Hehehe, you really like that sort of stuff, don't you Isabeau?",
         "en_clean": "Hehehe, you really like that sort of stuff, don't you Isabeau?",
         "jp_raw": "\\m[vm]エヘヘ、イザボーって本当にそういうのが好きだよね？",
-        "jp_clean": "エヘヘ、イザボーって本当にそういうのが好きだよね？"
+        "jp_clean": "エヘヘ、イザボーって本当にそういうのが好きだよね？",
+        "checked": false
     },
     {
         "en_raw": "Yes I do!!!",
         "en_clean": "Yes I do!!!",
         "jp_raw": "\\m[vi]ああ、大好きだ！！！",
-        "jp_clean": "ああ、大好きだ！！！"
+        "jp_clean": "ああ、大好きだ！！！",
+        "checked": false
     },
     {
         "en_raw": "It's absolutely useless and has no basis in reality, but I like it when some letters tells me I'm gonna have a good day.",
         "en_clean": "It's absolutely useless and has no basis in reality, but I like it when some letters tells me I'm gonna have a good day.",
         "jp_raw": "まったく役に立たないし、根拠のないものだけどな。\\!でも、いい日になるでしょう、って書いてあると気分がいいんだ。",
-        "jp_clean": "まったく役に立たないし、根拠のないものだけどな。でも、いい日になるでしょう、って書いてあると気分がいいんだ。"
+        "jp_clean": "まったく役に立たないし、根拠のないものだけどな。でも、いい日になるでしょう、って書いてあると気分がいいんだ。",
+        "checked": false
     },
     {
         "en_raw": "You're Protector Craft, aren't you, Isabeau... People who use it are patient, honest, loyal...",
         "en_clean": "You're Protector Craft, aren't you, Isabeau... People who use it are patient, honest, loyal...",
         "jp_raw": "\\m[vo]イザボーは守りのクラフトの使い手...\\!\\ このタイプの人間は、我慢強く、正直で、誠実...",
-        "jp_clean": "イザボーは守りのクラフトの使い手... このタイプの人間は、我慢強く、正直で、誠実..."
+        "jp_clean": "イザボーは守りのクラフトの使い手... このタイプの人間は、我慢強く、正直で、誠実...",
+        "checked": false
     },
     {
         "en_raw": "...and very gullible.",
         "en_clean": "...and very gullible.",
         "jp_raw": "...そして、だまされやすいんだ。",
-        "jp_clean": "...そして、だまされやすいんだ。"
+        "jp_clean": "...そして、だまされやすいんだ。",
+        "checked": false
     },
     {
         "en_raw": "That sure is me!!!",
         "en_clean": "That sure is me!!!",
         "jp_raw": "\\m[vi]そういうことっ！！！",
-        "jp_clean": "そういうことっ！！！"
+        "jp_clean": "そういうことっ！！！",
+        "checked": false
     },
     {
         "en_raw": "Haha, you're very gullible!!!",
         "en_clean": "Haha, you're very gullible!!!",
         "jp_raw": "\\m[vb]アハハ、イザボーはだまされやすいんだ！！！",
-        "jp_clean": "アハハ、イザボーはだまされやすいんだ！！！"
+        "jp_clean": "アハハ、イザボーはだまされやすいんだ！！！",
+        "checked": false
     },
     {
         "en_raw": "Bonnie, you're laughing, but... Aren't you... also using Protector Craft?",
         "en_clean": "Bonnie, you're laughing, but... Aren't you... also using Protector Craft?",
         "jp_raw": "\\m[vm]ボニーってば笑ってるけど...\\!\\ あなたも... 守りのクラフトの使い手じゃなかった？",
-        "jp_clean": "ボニーってば笑ってるけど... あなたも... 守りのクラフトの使い手じゃなかった？"
+        "jp_clean": "ボニーってば笑ってるけど... あなたも... 守りのクラフトの使い手じゃなかった？",
+        "checked": false
     },
     {
         "en_raw": "NO????",
         "en_clean": "NO????",
         "jp_raw": "\\m[vb]違うけど？？",
-        "jp_clean": "違うけど？？"
+        "jp_clean": "違うけど？？",
+        "checked": false
     },
     {
         "en_raw": "Yes, I do seem to remember this being the case, kiddo.",
         "en_clean": "Yes, I do seem to remember this being the case, kiddo.",
         "jp_raw": "\\m[vo]いいや、違わない。\\!ボニーにも当てはまるよ。覚えがある。",
-        "jp_clean": "いいや、違わない。ボニーにも当てはまるよ。覚えがある。"
+        "jp_clean": "いいや、違わない。ボニーにも当てはまるよ。覚えがある。",
+        "checked": false
     },
     {
         "en_raw": "NO!!!!!!! IT'S NOT THE SAME!!!!! I'M NOT GULLIBLE!!!",
         "en_clean": "NO!!!!!!! IT'S NOT THE SAME!!!!! I'M NOT GULLIBLE!!!",
         "jp_raw": "\\m[vb]違うって！！！\\!\\ 同じじゃないから！！！\\!\\ だまされやすくなんかないもん！！！",
-        "jp_clean": "違うって！！！ 同じじゃないから！！！ だまされやすくなんかないもん！！！"
+        "jp_clean": "違うって！！！ 同じじゃないから！！！ だまされやすくなんかないもん！！！",
+        "checked": false
     },
     {
         "en_raw": "Heheheheheh...",
         "en_clean": "Heheheheheh...",
         "jp_raw": "\\m[vi]へへへへ...",
-        "jp_clean": "へへへへ..."
+        "jp_clean": "へへへへ...",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1799,73 +1926,85 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You like being able to be near them and not have to contribute to the conversation.)",
         "en_clean": "(You like being able to be near them and not have to contribute to the conversation.)",
         "jp_raw": "(みんなと一緒にいるのも、僕が必ずしも会話に加わらなくてもいいのも、気に入っている。)",
-        "jp_clean": "(みんなと一緒にいるのも、僕が必ずしも会話に加わらなくてもいいのも、気に入っている。)"
+        "jp_clean": "(みんなと一緒にいるのも、僕が必ずしも会話に加わらなくてもいいのも、気に入っている。)",
+        "checked": false
     },
     {
         "en_raw": "(Being silent and surrounded by people you like is nice!)",
         "en_clean": "(Being silent and surrounded by people you like is nice!)",
         "jp_raw": "(黙っていられて、好きな人たちに囲まれているのって、すてきだ！)",
-        "jp_clean": "(黙っていられて、好きな人たちに囲まれているのって、すてきだ！)"
+        "jp_clean": "(黙っていられて、好きな人たちに囲まれているのって、すてきだ！)",
+        "checked": false
     },
     {
         "en_raw": "(It's like watching a play you've seen a dozen times.)",
         "en_clean": "(It's like watching a play you've seen a dozen times.)",
         "jp_raw": "(定番の演劇を見ているみたいな気分。)",
-        "jp_clean": "(定番の演劇を見ているみたいな気分。)"
+        "jp_clean": "(定番の演劇を見ているみたいな気分。)",
+        "checked": false
     },
     {
         "en_raw": "(It's comforting.)",
         "en_clean": "(It's comforting.)",
         "jp_raw": "(心地よい。)",
-        "jp_clean": "(心地よい。)"
+        "jp_clean": "(心地よい。)",
+        "checked": false
     },
     {
         "en_raw": "(Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)",
         "en_clean": "(Before this all happened, you'd never noticed how you could just stay silent and they'd all talk around you like nothing's wrong.)",
         "jp_raw": "\\m[wait](こんなことになる前は、\\!僕が黙っている周りで、みんながなんでもない顔をしておしゃべりしているのを、気にかけたことがなかった。)",
-        "jp_clean": "(こんなことになる前は、僕が黙っている周りで、みんながなんでもない顔をしておしゃべりしているのを、気にかけたことがなかった。)"
+        "jp_clean": "(こんなことになる前は、僕が黙っている周りで、みんながなんでもない顔をしておしゃべりしているのを、気にかけたことがなかった。)",
+        "checked": false
     },
     {
         "en_raw": "(Sometimes you wonder if you really exist.)",
         "en_clean": "(Sometimes you wonder if you really exist.)",
         "jp_raw": "(時々、僕は本当に存在しているのだろうかという気になる。)",
-        "jp_clean": "(時々、僕は本当に存在しているのだろうかという気になる。)"
+        "jp_clean": "(時々、僕は本当に存在しているのだろうかという気になる。)",
+        "checked": false
     },
     {
         "en_raw": "(If THEY really exist.)",
         "en_clean": "(If THEY really exist.)",
         "jp_raw": "(もしも、みんなが本当に存在しているのなら。)",
-        "jp_clean": "(もしも、みんなが本当に存在しているのなら。)"
+        "jp_clean": "(もしも、みんなが本当に存在しているのなら。)",
+        "checked": false
     },
     {
         "en_raw": "(Real people wouldn't say the exact same thing over and over and over, wouldn't they...?)",
         "en_clean": "(Real people wouldn't say the exact same thing over and over and over, wouldn't they...?)",
         "jp_raw": "(本物の人間なら、まったく同じことを繰り返し、繰り返し言うことなんてないだろ...？)",
-        "jp_clean": "(本物の人間なら、まったく同じことを繰り返し、繰り返し言うことなんてないだろ...？)"
+        "jp_clean": "(本物の人間なら、まったく同じことを繰り返し、繰り返し言うことなんてないだろ...？)",
+        "checked": false
     },
     {
         "en_raw": "(You can come back and read this again later if you need to.)",
         "en_clean": "(You can come back and read this again later if you need to.)",
         "jp_raw": "\\m[clear](必要なら、後で戻ってきて読めばいい。)",
-        "jp_clean": "(必要なら、後で戻ってきて読めばいい。)"
+        "jp_clean": "(必要なら、後で戻ってきて読めばいい。)",
+        "checked": false
     },
     {
         "en_raw": "(You're Piercing Craft!)",
         "en_clean": "(You're Piercing Craft!)",
         "jp_raw": "\\m[clear](僕は刺突のクラフトだ！)",
-        "jp_clean": "(僕は刺突のクラフトだ！)"
+        "jp_clean": "(僕は刺突のクラフトだ！)",
+        "checked": false
     },
     {
         "en_raw": "(Determined! Brave! Honest!)",
         "en_clean": "(Determined! Brave! Honest!)",
         "jp_raw": "(度胸がある！\\!\\ 勇敢！\\!\\ 正直！)",
-        "jp_clean": "(度胸がある！ 勇敢！ 正直！)"
+        "jp_clean": "(度胸がある！ 勇敢！ 正直！)",
+        "checked": false
     },
     {
         "en_raw": "(Or so people say.)",
@@ -1877,19 +2016,22 @@
         "jp_clean": [
             "(...って言われているらしい。)",
             "(...と言われているらしい。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You   are Piercing Craft.)",
         "en_clean": "(You   are Piercing Craft.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Callous. Aimless. Manipulative.)",
         "en_clean": "(Callous. Aimless. Manipulative.)",
         "jp_raw": "(無神経。\\!目的がない。\\!人を操りたがる。)",
-        "jp_clean": "(無神経。目的がない。人を操りたがる。)"
+        "jp_clean": "(無神経。目的がない。人を操りたがる。)",
+        "checked": false
     },
     {
         "en_raw": "(Or so people say.)",
@@ -1901,7 +2043,8 @@
         "jp_clean": [
             "(...って言われているらしい。)",
             "(...と言われているらしい。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Aww... I wanted to know my horoscope today...",
@@ -1913,7 +2056,8 @@
         "jp_clean": [
             "へへ... 今日の運勢を知りたかったんだよな...",
             "へへ... 今日の運勢を知りたかったんだよな..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You",
@@ -1927,7 +2071,8 @@
             "(何も",
             "(僕",
             "(おまえは"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You don't think about anything.)",
@@ -1939,132 +2084,154 @@
         "jp_clean": [
             "(何も考えるな。)",
             "(僕は何も考えない。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(The craftonomy book.)",
         "en_clean": "(The craftonomy book.)",
         "jp_raw": "\\m[clear](クラフト学の本だ。)",
-        "jp_clean": "(クラフト学の本だ。)"
+        "jp_clean": "(クラフト学の本だ。)",
+        "checked": false
     },
     {
         "en_raw": "(Some vials.)",
         "en_clean": "(Some vials.)",
         "jp_raw": "\\m[clear](瓶がいくつかある。)",
-        "jp_clean": "(瓶がいくつかある。)"
+        "jp_clean": "(瓶がいくつかある。)",
+        "checked": false
     },
     {
         "en_raw": "(You got two SOUR TONICS!)",
         "en_clean": "(You got two SOUR TONICS!)",
         "jp_raw": "\\m[clear](「すっぱトニック」を手に入れた！)",
-        "jp_clean": "(「すっぱトニック」を手に入れた！)"
+        "jp_clean": "(「すっぱトニック」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You give them to Bonnie for safekeeping.)",
         "en_clean": "(You give them to Bonnie for safekeeping.)",
         "jp_raw": "(ボニーに渡して保管しておいてもらおう。)",
-        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)"
+        "jp_clean": "(ボニーに渡して保管しておいてもらおう。)",
+        "checked": false
     },
     {
         "en_raw": "(Nothing else here.)",
         "en_clean": "(Nothing else here.)",
         "jp_raw": "\\m[clear](他に目ぼしいものはない。)",
-        "jp_clean": "(他に目ぼしいものはない。)"
+        "jp_clean": "(他に目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(A tidy bed.)",
         "en_clean": "(A tidy bed.)",
         "jp_raw": "\\m[clear](整えられたベッドだ。)",
-        "jp_clean": "(整えられたベッドだ。)"
+        "jp_clean": "(整えられたベッドだ。)",
+        "checked": false
     },
     {
         "en_raw": "(There's bits of wax stuck to the covers.)",
         "en_clean": "(There's bits of wax stuck to the covers.)",
         "jp_raw": "(カバーにワックスの染みがある。)",
-        "jp_clean": "(カバーにワックスの染みがある。)"
+        "jp_clean": "(カバーにワックスの染みがある。)",
+        "checked": false
     },
     {
         "en_raw": "(The usual bed.)",
         "en_clean": "(The usual bed.)",
         "jp_raw": "\\m[clear](普通のベッドだ。)",
-        "jp_clean": "(普通のベッドだ。)"
+        "jp_clean": "(普通のベッドだ。)",
+        "checked": false
     },
     {
         "en_raw": "(A tidy bed.)",
         "en_clean": "(A tidy bed.)",
         "jp_raw": "\\m[clear](整えられたベッドだ。)",
-        "jp_clean": "(整えられたベッドだ。)"
+        "jp_clean": "(整えられたベッドだ。)",
+        "checked": false
     },
     {
         "en_raw": "(The same bed as always.)",
         "en_clean": "(The same bed as always.)",
         "jp_raw": "\\m[clear](いつもと同じベッドだ。)",
-        "jp_clean": "(いつもと同じベッドだ。)"
+        "jp_clean": "(いつもと同じベッドだ。)",
+        "checked": false
     },
     {
         "en_raw": "(Instructions on how to craft candles.)",
         "en_clean": "(Instructions on how to craft candles.)",
         "jp_raw": "\\m[clear](キャンドルのクラフトのやり方だ。)",
-        "jp_clean": "(キャンドルのクラフトのやり方だ。)"
+        "jp_clean": "(キャンドルのクラフトのやり方だ。)",
+        "checked": false
     },
     {
         "en_raw": "(Unlike normal candles, it seems Crafted candles last longer, and can change smells as time goes by...)",
         "en_clean": "(Unlike normal candles, it seems Crafted candles last longer, and can change smells as time goes by...)",
         "jp_raw": "(普通のキャンドルとは違って、クラフトで作るキャンドルは持ちがよく、時間の経過で香りを変えることができるらしい...)",
-        "jp_clean": "(普通のキャンドルとは違って、クラフトで作るキャンドルは持ちがよく、時間の経過で香りを変えることができるらしい...)"
+        "jp_clean": "(普通のキャンドルとは違って、クラフトで作るキャンドルは持ちがよく、時間の経過で香りを変えることができるらしい...)",
+        "checked": false
     },
     {
         "en_raw": "(Instructions on how to craft candles.)",
         "en_clean": "(Instructions on how to craft candles.)",
         "jp_raw": "\\m[clear](キャンドルのクラフトのやり方だ。)",
-        "jp_clean": "(キャンドルのクラフトのやり方だ。)"
+        "jp_clean": "(キャンドルのクラフトのやり方だ。)",
+        "checked": false
     },
     {
         "en_raw": "(They're engraved in your brain, now.)",
         "en_clean": "(They're engraved in your brain, now.)",
         "jp_raw": "(もう、脳に刻み込まれている。)",
-        "jp_clean": "(もう、脳に刻み込まれている。)"
+        "jp_clean": "(もう、脳に刻み込まれている。)",
+        "checked": false
     },
     {
         "en_raw": "(Some books on the House of Change.)",
         "en_clean": "(Some books on the House of Change.)",
         "jp_raw": "\\m[clear](ウツロイの館に関する本がいくつかある。)",
-        "jp_clean": "(ウツロイの館に関する本がいくつかある。)"
+        "jp_clean": "(ウツロイの館に関する本がいくつかある。)",
+        "checked": false
     },
     {
         "en_raw": "(...and an book from the series \"The Cursing of Château Castle\", issue #51.)",
         "en_clean": "(...and an book from the series \"The Cursing of Château Castle\", issue #51.)",
         "jp_raw": "(...それに「キャッスル城の呪い」シリーズの本も。\\!第51巻だ。)",
-        "jp_clean": "(...それに「キャッスル城の呪い」シリーズの本も。第51巻だ。)"
+        "jp_clean": "(...それに「キャッスル城の呪い」シリーズの本も。第51巻だ。)",
+        "checked": false
     },
     {
         "en_raw": "(...Issue 51? You should remember this number.)",
         "en_clean": "(...Issue 51? You should remember this number.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Some books.)",
         "en_clean": "(Some books.)",
         "jp_raw": "\\m[clear](本がいくつかある。)",
-        "jp_clean": "(本がいくつかある。)"
+        "jp_clean": "(本がいくつかある。)",
+        "checked": false
     },
     {
         "en_raw": "(A chair.)",
         "en_clean": "(A chair.)",
         "jp_raw": "\\m[clear](イスだ。)",
-        "jp_clean": "(イスだ。)"
+        "jp_clean": "(イスだ。)",
+        "checked": false
     },
     {
         "en_raw": "(A chair.)",
         "en_clean": "(A chair.)",
         "jp_raw": "\\m[clear](イスだ。)",
-        "jp_clean": "(イスだ。)"
+        "jp_clean": "(イスだ。)",
+        "checked": false
     },
     {
         "en_raw": "(But you're fine, so it'd be a waste of time to sit down.)",
         "en_clean": "(But you're fine, so it'd be a waste of time to sit down.)",
         "jp_raw": "(座る必要はない。\\!時間を無駄にするだけだ。)",
-        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)"
+        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)",
+        "checked": false
     }
 ]

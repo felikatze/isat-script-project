@@ -173,6 +173,7 @@ def associate_lines_for_page(page_path: str):
         else:
             line["jp_raw"] = None
             line["jp_clean"] = None
+        line["checked"] = False
             
     write_json_to_file("line_associations/" + page_path.removesuffix(".html").replace("/", "_") + ".json", data)
     
@@ -187,6 +188,5 @@ def generate_page_line_associations():
         for file in filelist:
             associate_lines_for_page(file)
             bar()
-            
-clean_game_lines()
+
 generate_page_line_associations()

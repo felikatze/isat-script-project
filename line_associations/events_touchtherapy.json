@@ -3,43 +3,50 @@
         "en_raw": "(WOW there's no place to pass through with everyone following you.)",
         "en_clean": "(WOW there's no place to pass through with everyone following you.)",
         "jp_raw": "\\m[clear](うわっ、みんなと一緒だと通る隙間がないや。)",
-        "jp_clean": "(うわっ、みんなと一緒だと通る隙間がないや。)"
+        "jp_clean": "(うわっ、みんなと一緒だと通る隙間がないや。)",
+        "checked": false
     },
     {
         "en_raw": "(You try your best to pass through the tight space between your [allies/family members], the tables, and the wall.)",
         "en_clean": "(You try your best to pass through the tight space between your [allies/family members], the tables, and the wall.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You try your best to pass through the tight space between your [allies/family members], the tables, and the wall.)",
         "en_clean": "(You try your best to pass through the tight space between your [allies/family members], the tables, and the wall.)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(As you pass through, you realize, not for the first time in this situation, that everyone unconsciously makes sure to not touch you any more than necessary.)",
         "en_clean": "(As you pass through, you realize, not for the first time in this situation, that everyone unconsciously makes sure to not touch you any more than necessary.)",
         "jp_raw": "(みんな無意識に身を引いて、通ろうとする僕になるべく触らないようにしている。\\!前も似たようなシチュエーションがあった。)",
-        "jp_clean": "(みんな無意識に身を引いて、通ろうとする僕になるべく触らないようにしている。前も似たようなシチュエーションがあった。)"
+        "jp_clean": "(みんな無意識に身を引いて、通ろうとする僕になるべく触らないようにしている。前も似たようなシチュエーションがあった。)",
+        "checked": false
     },
     {
         "en_raw": "(It's not the best feeling, but there must be a reason they're not touching you, so you leave it alone.)",
         "en_clean": "(It's not the best feeling, but there must be a reason they're not touching you, so you leave it alone.)",
         "jp_raw": "(いい気分はしないけれど、触らないようにするにはそれなりの理由があるんだろうし、放っておこう。)",
-        "jp_clean": "(いい気分はしないけれど、触らないようにするにはそれなりの理由があるんだろうし、放っておこう。)"
+        "jp_clean": "(いい気分はしないけれど、触らないようにするにはそれなりの理由があるんだろうし、放っておこう。)",
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you stumble and accidentally bump against Odile.)",
         "en_clean": "(While passing through, you stumble and accidentally bump against Odile.)",
         "jp_raw": "\\m[clear](途中でつまずいて、勢いでオディールにぶつかってしまう。)",
-        "jp_clean": "(途中でつまずいて、勢いでオディールにぶつかってしまう。)"
+        "jp_clean": "(途中でつまずいて、勢いでオディールにぶつかってしまう。)",
+        "checked": false
     },
     {
         "en_raw": "(You jump and yelp.)",
         "en_clean": "(You jump and yelp.)",
         "jp_raw": "(僕はその場で飛び上がり、ギャッと叫ぶ。)",
-        "jp_clean": "(僕はその場で飛び上がり、ギャッと叫ぶ。)"
+        "jp_clean": "(僕はその場で飛び上がり、ギャッと叫ぶ。)",
+        "checked": false
     },
     {
         "en_raw": "Woah!",
@@ -51,73 +58,85 @@
         "jp_clean": [
             "うわあ！",
             "うおっ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Oh, sorry, Siffrin.",
         "en_clean": "Oh, sorry, Siffrin.",
         "jp_raw": "\\m[vo]ああ、すまない、シフラン。",
-        "jp_clean": "ああ、すまない、シフラン。"
+        "jp_clean": "ああ、すまない、シフラン。",
+        "checked": false
     },
     {
         "en_raw": "\"I, uh, I just wasn't--\"",
         "en_clean": "\"I, uh, I just wasn't--\"",
         "jp_raw": "\"あ、ちょっと不注意で――\"",
-        "jp_clean": "\"あ、ちょっと不注意で――\""
+        "jp_clean": "\"あ、ちょっと不注意で――\"",
+        "checked": false
     },
     {
         "en_raw": "Ha! Don't worry, you're good.",
         "en_clean": "Ha! Don't worry, you're good.",
         "jp_raw": "\\m[vo]ハ！\\!\\ 問題ない。\\!気にするな。",
-        "jp_clean": "ハ！ 問題ない。気にするな。"
+        "jp_clean": "ハ！ 問題ない。気にするな。",
+        "checked": false
     },
     {
         "en_raw": "We are used to your weird aversion to touch.",
         "en_clean": "We are used to your weird aversion to touch.",
         "jp_raw": "きみの接触嫌悪には慣れている。",
-        "jp_clean": "きみの接触嫌悪には慣れている。"
+        "jp_clean": "きみの接触嫌悪には慣れている。",
+        "checked": false
     },
     {
         "en_raw": "(Your what?)",
         "en_clean": "(Your what?)",
         "jp_raw": "\\m[clear](きみの何だって？)",
-        "jp_clean": "(きみの何だって？)"
+        "jp_clean": "(きみの何だって？)",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "My turn, actually, my turn! I have a question!!!",
         "en_clean": "My turn, actually, my turn! I have a question!!!",
         "jp_raw": "\\m[vl]今回は僕の番だ！\\!\\ 聞きたいことがある！！！",
-        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！"
+        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！",
+        "checked": false
     },
     {
         "en_raw": "(You guess that's fair...)",
         "en_clean": "(You guess that's fair...)",
         "jp_raw": "\\m[rb]\\m[clear](確かに、僕ばかりじゃ不公平だもんな...)",
-        "jp_clean": "(確かに、僕ばかりじゃ不公平だもんな...)"
+        "jp_clean": "(確かに、僕ばかりじゃ不公平だもんな...)",
+        "checked": false
     },
     {
         "en_raw": "Of course it's fair.",
         "en_clean": "Of course it's fair.",
         "jp_raw": "\\m[vl]そう、不公平だよ。",
-        "jp_clean": "そう、不公平だよ。"
+        "jp_clean": "そう、不公平だよ。",
+        "checked": false
     },
     {
         "en_raw": "So, I've seen you don't like to be touched, huh? Why do you think that is?",
         "en_clean": "So, I've seen you don't like to be touched, huh? Why do you think that is?",
         "jp_raw": "きみは、体に触れられるのが好きじゃない、よね？\\!\\ どうしてなの？\\m[rb]",
-        "jp_clean": "きみは、体に触れられるのが好きじゃない、よね？ どうしてなの？"
+        "jp_clean": "きみは、体に触れられるのが好きじゃない、よね？ どうしてなの？",
+        "checked": false
     },
     {
         "en_raw": "(You flinch.)\n\t\t\t\t\t\t\"I'm just too precious to touch!\"",
         "en_clean": "(You flinch.)\t\t\t\t\t\t\"I'm just too precious to touch!\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Haha!",
@@ -129,43 +148,50 @@
         "jp_clean": [
             "ハハ！",
             "ハハッ！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "No, but really. Ever thought of NOT flinching when someone touches you, though?",
         "en_clean": "No, but really. Ever thought of NOT flinching when someone touches you, though?",
         "jp_raw": "冗談はやめてくれ。\\!誰かに触れられて、体を固くしないでいようと思ったことはある？\\m[rb]",
-        "jp_clean": "冗談はやめてくれ。誰かに触れられて、体を固くしないでいようと思ったことはある？"
+        "jp_clean": "冗談はやめてくれ。誰かに触れられて、体を固くしないでいようと思ったことはある？",
+        "checked": false
     },
     {
         "en_raw": "(As if it was that easy. You just can't help it.)",
         "en_clean": "(As if it was that easy. You just can't help it.)",
         "jp_raw": "\\m[clear](思うだけでそうできたらいいのに。\\!勝手にそうなるんだ。)",
-        "jp_clean": "(思うだけでそうできたらいいのに。勝手にそうなるんだ。)"
+        "jp_clean": "(思うだけでそうできたらいいのに。勝手にそうなるんだ。)",
+        "checked": false
     },
     {
         "en_raw": "(You can't help but jump when people touch you. You think it's because you're just not used to it.)",
         "en_clean": "(You can't help but jump when people touch you. You think it's because you're just not used to it.)",
         "jp_raw": "(体に触れられると、飛び上がってしまう。\\!そういうのに慣れていないからだと思っていた。)",
-        "jp_clean": "(体に触れられると、飛び上がってしまう。そういうのに慣れていないからだと思っていた。)"
+        "jp_clean": "(体に触れられると、飛び上がってしまう。そういうのに慣れていないからだと思っていた。)",
+        "checked": false
     },
     {
         "en_raw": "(It's not like you wanted to be like this...)",
         "en_clean": "(It's not like you wanted to be like this...)",
         "jp_raw": "(こんな風になりたかったわけじゃないけど...)",
-        "jp_clean": "(こんな風になりたかったわけじゃないけど...)"
+        "jp_clean": "(こんな風になりたかったわけじゃないけど...)",
+        "checked": false
     },
     {
         "en_raw": "Maybe you could do some exposure therapy. Try to touch your allies. Like in that gardening room in the House!",
         "en_clean": "Maybe you could do some exposure therapy. Try to touch your allies. Like in that gardening room in the House!",
         "jp_raw": "\\m[vl]スキンシップの練習が必要だよ。\\!まずは、仲間に触れてみたら。\\!ほら、館の温室とかで！",
-        "jp_clean": "スキンシップの練習が必要だよ。まずは、仲間に触れてみたら。ほら、館の温室とかで！"
+        "jp_clean": "スキンシップの練習が必要だよ。まずは、仲間に触れてみたら。ほら、館の温室とかで！",
+        "checked": false
     },
     {
         "en_raw": "You have nothing but time, after all!",
         "en_clean": "You have nothing but time, after all!",
         "jp_raw": "時間だけはたっぷりあるんだし！\\m[rb]",
-        "jp_clean": "時間だけはたっぷりあるんだし！"
+        "jp_clean": "時間だけはたっぷりあるんだし！",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -281,19 +307,22 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Once again, you can tell that people make sure to give you some space.)",
         "en_clean": "(Once again, you can tell that people make sure to give you some space.)",
         "jp_raw": "\\m[clear](またしても、みんなが自分のためにスペースを空けようとしている。)",
-        "jp_clean": "(またしても、みんなが自分のためにスペースを空けようとしている。)"
+        "jp_clean": "(またしても、みんなが自分のためにスペースを空けようとしている。)",
+        "checked": false
     },
     {
         "en_raw": "(Steeling yourself, you take a deep breath, and brush against everyone softly.)",
         "en_clean": "(Steeling yourself, you take a deep breath, and brush against everyone softly.)",
         "jp_raw": "\\m[clear](気持ちを強く保ち、深呼吸をする。\\!そして全員に軽く触れながら通り抜ける。)",
-        "jp_clean": "(気持ちを強く保ち、深呼吸をする。そして全員に軽く触れながら通り抜ける。)"
+        "jp_clean": "(気持ちを強く保ち、深呼吸をする。そして全員に軽く触れながら通り抜ける。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -409,49 +438,57 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(What a rush!)",
         "en_clean": "(What a rush!)",
         "jp_raw": "(新鮮な感覚！)",
-        "jp_clean": "(新鮮な感覚！)"
+        "jp_clean": "(新鮮な感覚！)",
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you take a deep breath, and--)",
         "en_clean": "(While passing through, you take a deep breath, and--)",
         "jp_raw": "\\m[clear](通り抜ける最中に深く息を吸って――)",
-        "jp_clean": "(通り抜ける最中に深く息を吸って――)"
+        "jp_clean": "(通り抜ける最中に深く息を吸って――)",
+        "checked": false
     },
     {
         "en_raw": "Wah!!!",
         "en_clean": "Wah!!!",
         "jp_raw": "\\m[vi]ワッ！",
-        "jp_clean": "ワッ！"
+        "jp_clean": "ワッ！",
+        "checked": false
     },
     {
         "en_raw": "D-Don't poke my sides, Sif!!! I'm ticklish!!!",
         "en_clean": "D-Don't poke my sides, Sif!!! I'm ticklish!!!",
         "jp_raw": "わ、わき腹をツンツンするなよ、シフ！\\!\\ そこ弱いんだから！",
-        "jp_clean": "わ、わき腹をツンツンするなよ、シフ！ そこ弱いんだから！"
+        "jp_clean": "わ、わき腹をツンツンするなよ、シフ！ そこ弱いんだから！",
+        "checked": false
     },
     {
         "en_raw": "(Oh, that's wonderful information to have.)",
         "en_clean": "(Oh, that's wonderful information to have.)",
         "jp_raw": "\\m[clear](ほほぉ、それはいいことを聞いた。)",
-        "jp_clean": "(ほほぉ、それはいいことを聞いた。)"
+        "jp_clean": "(ほほぉ、それはいいことを聞いた。)",
+        "checked": false
     },
     {
         "en_raw": "(You feel lightheaded.)",
         "en_clean": "(You feel lightheaded.)",
         "jp_raw": "(頭がクラクラする。)",
-        "jp_clean": "(頭がクラクラする。)"
+        "jp_clean": "(頭がクラクラする。)",
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you take a deep breath, and--)",
         "en_clean": "(While passing through, you take a deep breath, and--)",
         "jp_raw": "\\m[clear](通り抜ける最中に深く息を吸って――)",
-        "jp_clean": "(通り抜ける最中に深く息を吸って――)"
+        "jp_clean": "(通り抜ける最中に深く息を吸って――)",
+        "checked": false
     },
     {
         "en_raw": "!",
@@ -471,25 +508,29 @@
             "...",
             "！",
             "！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(As you gently poke her, she pokes you back.)",
         "en_clean": "(As you gently poke her, she pokes you back.)",
         "jp_raw": "\\m[clear](彼女を軽くツンツンすると、向こうもツンツンしてくる。)",
-        "jp_clean": "(彼女を軽くツンツンすると、向こうもツンツンしてくる。)"
+        "jp_clean": "(彼女を軽くツンツンすると、向こうもツンツンしてくる。)",
+        "checked": false
     },
     {
         "en_raw": "(Your cheeks feel warm.)",
         "en_clean": "(Your cheeks feel warm.)",
         "jp_raw": "(頬が熱くなる。)",
-        "jp_clean": "(頬が熱くなる。)"
+        "jp_clean": "(頬が熱くなる。)",
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you take a deep breath, and--)",
         "en_clean": "(While passing through, you take a deep breath, and--)",
         "jp_raw": "\\m[clear](通り抜ける最中に深く息を吸って――)",
-        "jp_clean": "(通り抜ける最中に深く息を吸って――)"
+        "jp_clean": "(通り抜ける最中に深く息を吸って――)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -679,19 +720,22 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You quickly poked Odile's side.)",
         "en_clean": "(You quickly poked Odile's side.)",
         "jp_raw": "\\m[clear](素早くオディールのわき腹をツンツンする。)",
-        "jp_clean": "(素早くオディールのわき腹をツンツンする。)"
+        "jp_clean": "(素早くオディールのわき腹をツンツンする。)",
+        "checked": false
     },
     {
         "en_raw": "(Beyond throwing you a look, she doesn't react.)",
         "en_clean": "(Beyond throwing you a look, she doesn't react.)",
         "jp_raw": "(ギョロリとにらまれるだけで、それ以上のリアクションはない。)",
-        "jp_clean": "(ギョロリとにらまれるだけで、それ以上のリアクションはない。)"
+        "jp_clean": "(ギョロリとにらまれるだけで、それ以上のリアクションはない。)",
+        "checked": false
     },
     {
         "en_raw": "(You try not to smile.)",
@@ -703,163 +747,190 @@
         "jp_clean": [
             "(にやけないように気をつける。)",
             "(笑顔を見せないように努める。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you take a deep breath, and--)",
         "en_clean": "(While passing through, you take a deep breath, and--)",
         "jp_raw": "\\m[clear](通り抜ける最中に深く息を吸って――)",
-        "jp_clean": "(通り抜ける最中に深く息を吸って――)"
+        "jp_clean": "(通り抜ける最中に深く息を吸って――)",
+        "checked": false
     },
     {
         "en_raw": "(Poke.)",
         "en_clean": "(Poke.)",
         "jp_raw": "(ツンツン。)",
-        "jp_clean": "(ツンツン。)"
+        "jp_clean": "(ツンツン。)",
+        "checked": false
     },
     {
         "en_raw": "Poke my cheek again and die.",
         "en_clean": "Poke my cheek again and die.",
         "jp_raw": "\\m[vb]頬っぺたツンツンしたら命はないぞ。",
-        "jp_clean": "頬っぺたツンツンしたら命はないぞ。"
+        "jp_clean": "頬っぺたツンツンしたら命はないぞ。",
+        "checked": false
     },
     {
         "en_raw": "(Yep, message received.)",
         "en_clean": "(Yep, message received.)",
         "jp_raw": "\\m[clear](なるほど、承知した。)",
-        "jp_clean": "(なるほど、承知した。)"
+        "jp_clean": "(なるほど、承知した。)",
+        "checked": false
     },
     {
         "en_raw": "(You giggle under your breath.)",
         "en_clean": "(You giggle under your breath.)",
         "jp_raw": "(ひそかに笑うだけにする。)",
-        "jp_clean": "(ひそかに笑うだけにする。)"
+        "jp_clean": "(ひそかに笑うだけにする。)",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "My turn, actually, my turn! I have a question!!!",
         "en_clean": "My turn, actually, my turn! I have a question!!!",
         "jp_raw": "\\m[vl]今回は僕の番だ！\\!\\ 聞きたいことがある！！！",
-        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！"
+        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！",
+        "checked": false
     },
     {
         "en_raw": "So, so, so, how's your touch exposure therapy going?",
         "en_clean": "So, so, so, how's your touch exposure therapy going?",
         "jp_raw": "それで、それで？ スキンシップの練習はどうなってる？\\m[rb]",
-        "jp_clean": "それで、それで？ スキンシップの練習はどうなってる？"
+        "jp_clean": "それで、それで？ スキンシップの練習はどうなってる？",
+        "checked": false
     },
     {
         "en_raw": "(Your what?)",
         "en_clean": "(Your what?)",
         "jp_raw": "\\m[clear](きみの何だって？)",
-        "jp_clean": "(きみの何だって？)"
+        "jp_clean": "(きみの何だって？)",
+        "checked": false
     },
     {
         "en_raw": "In the gardening room! You've been practicing to touch your party in that annoyingly cramped room, right?",
         "en_clean": "In the gardening room! You've been practicing to touch your party in that annoyingly cramped room, right?",
         "jp_raw": "\\m[vl]温室でするんだっただろ！\\!\\ あの、植物がぎゅうぎゅうに詰め込まれた部屋で、仲間に触れる練習をしてるんじゃなかった？\\m[rb]",
-        "jp_clean": "温室でするんだっただろ！ あの、植物がぎゅうぎゅうに詰め込まれた部屋で、仲間に触れる練習をしてるんじゃなかった？"
+        "jp_clean": "温室でするんだっただろ！ あの、植物がぎゅうぎゅうに詰め込まれた部屋で、仲間に触れる練習をしてるんじゃなかった？",
+        "checked": false
     },
     {
         "en_raw": "(How does Loop know about this...)\n\t\t\t\t\t\t\"It's going well.\"",
         "en_clean": "(How does Loop know about this...)\t\t\t\t\t\t\"It's going well.\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "I'm so happy for you!!!",
         "en_clean": "I'm so happy for you!!!",
         "jp_raw": "\\m[vl]よかったね！",
-        "jp_clean": "よかったね！"
+        "jp_clean": "よかったね！",
+        "checked": false
     },
     {
         "en_raw": "Touching people is so weird, right? At least you have all the time in the world to get used to it!",
         "en_clean": "Touching people is so weird, right? At least you have all the time in the world to get used to it!",
         "jp_raw": "人に触れるって変な感じだろ？\\!\\ きみなら、それに慣れるのにどんなに時間をかけたっていいんだ！",
-        "jp_clean": "人に触れるって変な感じだろ？ きみなら、それに慣れるのにどんなに時間をかけたっていいんだ！"
+        "jp_clean": "人に触れるって変な感じだろ？ きみなら、それに慣れるのにどんなに時間をかけたっていいんだ！",
+        "checked": false
     },
     {
         "en_raw": "Especially since they don't remember what you did if you loop, right? Removes all the yucky yucky ew vulnerability of it all.",
         "en_clean": "Especially since they don't remember what you did if you loop, right? Removes all the yucky yucky ew vulnerability of it all.",
         "jp_raw": "それに、きみが時間をループさせれば、みんなは前にあったことを覚えてないんだから。\\!どんなにキモい思いをしたって、全部忘れるんだ。\\m[rb]",
-        "jp_clean": "それに、きみが時間をループさせれば、みんなは前にあったことを覚えてないんだから。どんなにキモい思いをしたって、全部忘れるんだ。"
+        "jp_clean": "それに、きみが時間をループさせれば、みんなは前にあったことを覚えてないんだから。どんなにキモい思いをしたって、全部忘れるんだ。",
+        "checked": false
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(While passing through, you discreetly touch everyone.)",
         "en_clean": "(While passing through, you discreetly touch everyone.)",
         "jp_raw": "\\m[clear](通り抜ける最中に、こっそりみんなを触る。)",
-        "jp_clean": "(通り抜ける最中に、こっそりみんなを触る。)"
+        "jp_clean": "(通り抜ける最中に、こっそりみんなを触る。)",
+        "checked": false
     },
     {
         "en_raw": "(You're getting better at this!)",
         "en_clean": "(You're getting better at this!)",
         "jp_raw": "(だんだん上手になってきた！)",
-        "jp_clean": "(だんだん上手になってきた！)"
+        "jp_clean": "(だんだん上手になってきた！)",
+        "checked": false
     },
     {
         "en_raw": "(As you pass through the tight space between the tables and the wall, you brush against everyone.)",
         "en_clean": "(As you pass through the tight space between the tables and the wall, you brush against everyone.)",
         "jp_raw": "\\m[clear](壁と机の間の狭いスペースを通り抜ける最中に\\!こっそりみんなを触る。)",
-        "jp_clean": "(壁と机の間の狭いスペースを通り抜ける最中にこっそりみんなを触る。)"
+        "jp_clean": "(壁と机の間の狭いスペースを通り抜ける最中にこっそりみんなを触る。)",
+        "checked": false
     },
     {
         "en_raw": "(Touch touch touch touch.)",
         "en_clean": "(Touch touch touch touch.)",
         "jp_raw": "(ペタペタペタペタ。)",
-        "jp_clean": "(ペタペタペタペタ。)"
+        "jp_clean": "(ペタペタペタペタ。)",
+        "checked": false
     },
     {
         "en_raw": "(You try to get some human contact every loop, even if it's discreetly like this.)",
         "en_clean": "(You try to get some human contact every loop, even if it's discreetly like this.)",
         "jp_raw": "(僕はループするたびに、こうやってすこしでも人と触れ合おうとしている。)",
-        "jp_clean": "(僕はループするたびに、こうやってすこしでも人と触れ合おうとしている。)"
+        "jp_clean": "(僕はループするたびに、こうやってすこしでも人と触れ合おうとしている。)",
+        "checked": false
     },
     {
         "en_raw": "(You brush against everyone again.)",
         "en_clean": "(You brush against everyone again.)",
         "jp_raw": "\\m[clear](またしてもみんなに軽く触れる。)",
-        "jp_clean": "(またしてもみんなに軽く触れる。)"
+        "jp_clean": "(またしてもみんなに軽く触れる。)",
+        "checked": false
     },
     {
         "en_raw": "(You've read somewhere that humans need a certain amount of skin-to-skin contact otherwise they go insane.)",
         "en_clean": "(You've read somewhere that humans need a certain amount of skin-to-skin contact otherwise they go insane.)",
         "jp_raw": "(前に読んだことがある。\\!人間にはある程度のスキンシップが必要であり、\\!それが足りないと精神がおかしくなるらしい。)",
-        "jp_clean": "(前に読んだことがある。人間にはある程度のスキンシップが必要であり、それが足りないと精神がおかしくなるらしい。)"
+        "jp_clean": "(前に読んだことがある。人間にはある程度のスキンシップが必要であり、それが足りないと精神がおかしくなるらしい。)",
+        "checked": false
     },
     {
         "en_raw": "(Asking for skin-to-skin contact would be weird, so you content yourself with clothes-to-clothes.)",
         "en_clean": "(Asking for skin-to-skin contact would be weird, so you content yourself with clothes-to-clothes.)",
         "jp_raw": "(スキンシップをお願いするのは奇妙だから、衣服のふれあいでよしとしよう。)",
-        "jp_clean": "(スキンシップをお願いするのは奇妙だから、衣服のふれあいでよしとしよう。)"
+        "jp_clean": "(スキンシップをお願いするのは奇妙だから、衣服のふれあいでよしとしよう。)",
+        "checked": false
     },
     {
         "en_raw": "(What do books know, anyway?)",
         "en_clean": "(What do books know, anyway?)",
         "jp_raw": "\\m[wait](本が常に正しいとは限らないわけだし。)",
-        "jp_clean": "(本が常に正しいとは限らないわけだし。)"
+        "jp_clean": "(本が常に正しいとは限らないわけだし。)",
+        "checked": false
     },
     {
         "en_raw": "(Poke poke poke poke.)",
         "en_clean": "(Poke poke poke poke.)",
         "jp_raw": "\\m[clear](ツンツンツンツン。)",
-        "jp_clean": "(ツンツンツンツン。)"
+        "jp_clean": "(ツンツンツンツン。)",
+        "checked": false
     },
     {
         "en_raw": "Poke!",
         "en_clean": "Poke!",
         "jp_raw": "\\m[vi]ツンツン！",
-        "jp_clean": "ツンツン！"
+        "jp_clean": "ツンツン！",
+        "checked": false
     },
     {
         "en_raw": "(!)",
@@ -875,13 +946,15 @@
             "(！)",
             "(！)",
             "(！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Without meaning to, you smile.)",
         "en_clean": "(Without meaning to, you smile.)",
         "jp_raw": "(無意識のうちに\\!笑みを浮かべる。)",
-        "jp_clean": "(無意識のうちに笑みを浮かべる。)"
+        "jp_clean": "(無意識のうちに笑みを浮かべる。)",
+        "checked": false
     },
     {
         "en_raw": "!!!",
@@ -897,133 +970,155 @@
             "！！！",
             "！！！",
             "！！！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "Kids, please...",
         "en_clean": "Kids, please...",
         "jp_raw": "\\m[vo]お子様はこれだから...",
-        "jp_clean": "お子様はこれだから..."
+        "jp_clean": "お子様はこれだから...",
+        "checked": false
     },
     {
         "en_raw": "(You poke everyone again, but this time no one reacts.)",
         "en_clean": "(You poke everyone again, but this time no one reacts.)",
         "jp_raw": "\\m[clear](もう一度みんなをツンツンする。\\!しかし...\\!\\ 誰も反応しない。)",
-        "jp_clean": "(もう一度みんなをツンツンする。しかし... 誰も反応しない。)"
+        "jp_clean": "(もう一度みんなをツンツンする。しかし... 誰も反応しない。)",
+        "checked": false
     },
     {
         "en_raw": "(Someone, anyone...)",
         "en_clean": "(Someone, anyone...)",
         "jp_raw": "(おーい、誰か...)",
-        "jp_clean": "(おーい、誰か...)"
+        "jp_clean": "(おーい、誰か...)",
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "My turn, actually, my turn! I have a question!!!",
         "en_clean": "My turn, actually, my turn! I have a question!!!",
         "jp_raw": "\\m[vl]今回は僕の番だ！\\!\\ 聞きたいことがある！！！",
-        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！"
+        "jp_clean": "今回は僕の番だ！ 聞きたいことがある！！！",
+        "checked": false
     },
     {
         "en_raw": ". . .So.",
         "en_clean": ". . .So.",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "How's your touch therapy going?",
         "en_clean": "How's your touch therapy going?",
         "jp_raw": "スキンシップの練習はどうなってる？",
-        "jp_clean": "スキンシップの練習はどうなってる？"
+        "jp_clean": "スキンシップの練習はどうなってる？",
+        "checked": false
     },
     {
         "en_raw": "You know, poking all your party members in the gardening room.",
         "en_clean": "You know, poking all your party members in the gardening room.",
         "jp_raw": "館の温室で、パーティーの仲間に触れるってやつ。\\m[rb]",
-        "jp_clean": "館の温室で、パーティーの仲間に触れるってやつ。"
+        "jp_clean": "館の温室で、パーティーの仲間に触れるってやつ。",
+        "checked": false
     },
     {
         "en_raw": "(...)\n\t\t\t\t\t\t\"Does it matter?\"",
         "en_clean": "(...)\t\t\t\t\t\t\"Does it matter?\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "That well, huh?",
         "en_clean": "That well, huh?",
         "jp_raw": "\\m[vl]そんなにうまくいったの？\\m[rb]",
-        "jp_clean": "そんなにうまくいったの？"
+        "jp_clean": "そんなにうまくいったの？",
+        "checked": false
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(They used to react before, when you touched them.)",
         "en_clean": "(They used to react before, when you touched them.)",
         "jp_raw": "(前はみんな、僕が触れると反応していた。)",
-        "jp_clean": "(前はみんな、僕が触れると反応していた。)"
+        "jp_clean": "(前はみんな、僕が触れると反応していた。)",
+        "checked": false
     },
     {
         "en_raw": "(Why aren't they reacting now?)",
         "en_clean": "(Why aren't they reacting now?)",
         "jp_raw": "(どうして今は反応しないんだ？)",
-        "jp_clean": "(どうして今は反応しないんだ？)"
+        "jp_clean": "(どうして今は反応しないんだ？)",
+        "checked": false
     },
     {
         "en_raw": "(Poke, poke, poke, poke.)",
         "en_clean": "(Poke, poke, poke, poke.)",
         "jp_raw": "(つん、つん、つんつん。)",
-        "jp_clean": "(つん、つん、つんつん。)"
+        "jp_clean": "(つん、つん、つんつん。)",
+        "checked": false
     },
     {
         "en_raw": "(You keep trying and trying, but nothing changes.)",
         "en_clean": "(You keep trying and trying, but nothing changes.)",
         "jp_raw": "(何度も挑戦しているけれど、何も変わらない。)",
-        "jp_clean": "(何度も挑戦しているけれど、何も変わらない。)"
+        "jp_clean": "(何度も挑戦しているけれど、何も変わらない。)",
+        "checked": false
     },
     {
         "en_raw": "(It's like you aren't even here anymore.)",
         "en_clean": "(It's like you aren't even here anymore.)",
         "jp_raw": "(まるで、僕が存在していないみたいだ。)",
-        "jp_clean": "(まるで、僕が存在していないみたいだ。)"
+        "jp_clean": "(まるで、僕が存在していないみたいだ。)",
+        "checked": false
     },
     {
         "en_raw": "(It's like you're being erased.)",
         "en_clean": "(It's like you're being erased.)",
         "jp_raw": "(僕が、消されたみたいだ。)",
-        "jp_clean": "(僕が、消されたみたいだ。)"
+        "jp_clean": "(僕が、消されたみたいだ。)",
+        "checked": false
     },
     {
         "en_raw": "(Are you here?)",
         "en_clean": "(Are you here?)",
         "jp_raw": "(僕は存在してる？)",
-        "jp_clean": "(僕は存在してる？)"
+        "jp_clean": "(僕は存在してる？)",
+        "checked": false
     },
     {
         "en_raw": "(Are you even living?)",
         "en_clean": "(Are you even living?)",
         "jp_raw": "(僕は生きているのか？)",
-        "jp_clean": "(僕は生きているのか？)"
+        "jp_clean": "(僕は生きているのか？)",
+        "checked": false
     },
     {
         "en_raw": "(Someone, anyone...\n<span class=\"shake\">\n Please. . .)\n</span>",
         "en_clean": "(Someone, anyone...Please. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "I see you, stardust.",
         "en_clean": "I see you, stardust.",
         "jp_raw": "\\m[vl]僕には見えてるぞ、星くず君。\\m[rb]",
-        "jp_clean": "僕には見えてるぞ、星くず君。"
+        "jp_clean": "僕には見えてるぞ、星くず君。",
+        "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n (!)\n</span>",
@@ -1039,55 +1134,64 @@
             "(！)",
             "(！)",
             "(！)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "I see you.",
         "en_clean": "I see you.",
         "jp_raw": "\\m[vl]僕には見える。",
-        "jp_clean": "僕には見える。"
+        "jp_clean": "僕には見える。",
+        "checked": false
     },
     {
         "en_raw": "Y-You're still here, look!",
         "en_clean": "Y-You're still here, look!",
         "jp_raw": "き、きみはまだ、ここにいる。\\!ほら！\\m[rb]",
-        "jp_clean": "き、きみはまだ、ここにいる。ほら！"
+        "jp_clean": "き、きみはまだ、ここにいる。ほら！",
+        "checked": false
     },
     {
         "en_raw": "(With some hesitation, Loop brings their hand forwards...)",
         "en_clean": "(With some hesitation, Loop brings their hand forwards...)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(...and pokes your gloved hand.)",
         "en_clean": "(...and pokes your gloved hand.)",
         "jp_raw": "\\m[wait](...手袋に包まれた僕の手をつついた。)",
-        "jp_clean": "(...手袋に包まれた僕の手をつついた。)"
+        "jp_clean": "(...手袋に包まれた僕の手をつついた。)",
+        "checked": false
     },
     {
         "en_raw": "(You feel pressure, and warmth.)",
         "en_clean": "(You feel pressure, and warmth.)",
         "jp_raw": "(圧力と、体温が感じられる。)",
-        "jp_clean": "(圧力と、体温が感じられる。)"
+        "jp_clean": "(圧力と、体温が感じられる。)",
+        "checked": false
     },
     {
         "en_raw": "Stardust.",
         "en_clean": "Stardust.",
         "jp_raw": "\\m[vl]星くず君。\\!\\m[wait]\\^",
-        "jp_clean": "星くず君。"
+        "jp_clean": "星くず君。",
+        "checked": false
     },
     {
         "en_raw": "You're here, with me.",
         "en_clean": "You're here, with me.",
         "jp_raw": "きみはここにいる。\\!僕も一緒だ。\\m[rb]",
-        "jp_clean": "きみはここにいる。僕も一緒だ。"
+        "jp_clean": "きみはここにいる。僕も一緒だ。",
+        "checked": false
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You breathe out.)",
@@ -1101,13 +1205,15 @@
             "(フーと息を吐く。)",
             "(息を吐きだす。)",
             "(息を吐き出す。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Loop seems to flash you a hesitant smile.)",
         "en_clean": "(Loop seems to flash you a hesitant smile.)",
         "jp_raw": "(ループはためらいがちにほほ笑んで、僕を見ている。)",
-        "jp_clean": "(ループはためらいがちにほほ笑んで、僕を見ている。)"
+        "jp_clean": "(ループはためらいがちにほほ笑んで、僕を見ている。)",
+        "checked": false
     },
     {
         "en_raw": "(You smile back.)",
@@ -1119,13 +1225,15 @@
         "jp_clean": [
             "(微笑みを返す。)",
             "(微笑みを返す。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "\"You're also here, with me.\"",
         "en_clean": "\"You're also here, with me.\"",
         "jp_raw": "\"きみも、ここにいる。僕と一緒だ。\"",
-        "jp_clean": "\"きみも、ここにいる。僕と一緒だ。\""
+        "jp_clean": "\"きみも、ここにいる。僕と一緒だ。\"",
+        "checked": false
     },
     {
         "en_raw": "...!",
@@ -1145,37 +1253,43 @@
             "...！",
             "...！",
             "...！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": ". . .\n<span class=\"shake\">\n Ha...\n</span>",
         "en_clean": ". . .Ha...",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "I sure am!!!!!!",
         "en_clean": "I sure am!!!!!!",
         "jp_raw": "そりゃそうだよ！！！！！！",
-        "jp_clean": "そりゃそうだよ！！！！！！"
+        "jp_clean": "そりゃそうだよ！！！！！！",
+        "checked": false
     },
     {
         "en_raw": "(You poke everyone again, but this time no one reacts.)",
         "en_clean": "(You poke everyone again, but this time no one reacts.)",
         "jp_raw": "\\m[clear](もう一度みんなをツンツンする。\\!しかし...\\!\\ 誰も反応しない。)",
-        "jp_clean": "(もう一度みんなをツンツンする。しかし... 誰も反応しない。)"
+        "jp_clean": "(もう一度みんなをツンツンする。しかし... 誰も反応しない。)",
+        "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n (. . .)\n</span>",
         "en_clean": "(. . .)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You're here.)",
         "en_clean": "(You're here.)",
         "jp_raw": "\\m[wait](僕はここにいるのに。)",
-        "jp_clean": "(僕はここにいるのに。)"
+        "jp_clean": "(僕はここにいるのに。)",
+        "checked": false
     },
     {
         "en_raw": "(Aaaaaaah...)",
@@ -1187,13 +1301,15 @@
         "jp_clean": [
             "(あー...)",
             "(ああああ...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You rub your arms once, twice, thrice.)",
         "en_clean": "(You rub your arms once, twice, thrice.)",
         "jp_raw": "(僕は両腕をこする。\\!1回、2回、3回。)",
-        "jp_clean": "(僕は両腕をこする。1回、2回、3回。)"
+        "jp_clean": "(僕は両腕をこする。1回、2回、3回。)",
+        "checked": false
     },
     {
         "en_raw": "(Your throat tightens.)",
@@ -1205,18 +1321,21 @@
         "jp_clean": [
             "(喉が引きつる。)",
             "(のどが締め付けられる。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You feel like you're floating in your own body.)",
         "en_clean": "(You feel like you're floating in your own body.)",
         "jp_raw": "(体の中で浮いているような感じがする。)",
-        "jp_clean": "(体の中で浮いているような感じがする。)"
+        "jp_clean": "(体の中で浮いているような感じがする。)",
+        "checked": false
     },
     {
         "en_raw": "(If only someone would touch you to make sure you're real! Someone, anyone!)",
         "en_clean": "(If only someone would touch you to make sure you're real! Someone, anyone!)",
         "jp_raw": "(誰かが触れてくれれば、僕は本当に存在するって思えるのに！\\!\\ 誰でもいい、誰か！)",
-        "jp_clean": "(誰かが触れてくれれば、僕は本当に存在するって思えるのに！ 誰でもいい、誰か！)"
+        "jp_clean": "(誰かが触れてくれれば、僕は本当に存在するって思えるのに！ 誰でもいい、誰か！)",
+        "checked": false
     }
 ]

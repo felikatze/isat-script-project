@@ -3,49 +3,57 @@
         "en_raw": "A storage room! Let's look around!",
         "en_clean": "A storage room! Let's look around!",
         "jp_raw": "\\m[vi]倉庫だ！\\!\\ 調べてみよう！",
-        "jp_clean": "倉庫だ！ 調べてみよう！"
+        "jp_clean": "倉庫だ！ 調べてみよう！",
+        "checked": false
     },
     {
         "en_raw": "I see a few tonics on those tables... Make sure to pick them up and give them to Bonnie before we leave.",
         "en_clean": "I see a few tonics on those tables... Make sure to pick them up and give them to Bonnie before we leave.",
         "jp_raw": "\\m[vo]テーブルの上にいくつかトニックがある...\\!\\ ここを出る前に回収してボニーに渡しておくように。",
-        "jp_clean": "テーブルの上にいくつかトニックがある... ここを出る前に回収してボニーに渡しておくように。"
+        "jp_clean": "テーブルの上にいくつかトニックがある... ここを出る前に回収してボニーに渡しておくように。",
+        "checked": false
     },
     {
         "en_raw": "Check that closet too, there might be some cool stuff in there!",
         "en_clean": "Check that closet too, there might be some cool stuff in there!",
         "jp_raw": "\\m[vi]クローゼットも調べないとな。\\!使えるものがあるかもしれない！",
-        "jp_clean": "クローゼットも調べないとな。使えるものがあるかもしれない！"
+        "jp_clean": "クローゼットも調べないとな。使えるものがあるかもしれない！",
+        "checked": false
     },
     {
         "en_raw": "(You should check those out...)",
         "en_clean": "(You should check those out...)",
         "jp_raw": "\\m[clear](調べたほうがよさそうだ...)",
-        "jp_clean": "(調べたほうがよさそうだ...)"
+        "jp_clean": "(調べたほうがよさそうだ...)",
+        "checked": false
     },
     {
         "en_raw": "(Urgh, items to pick up again.) \"Do we REALLY need items?\"",
         "en_clean": "(Urgh, items to pick up again.) \"Do we REALLY need items?\"",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Oh? I'm surprised to hear this from you, since you just love to pick up random things.",
         "en_clean": "Oh? I'm surprised to hear this from you, since you just love to pick up random things.",
         "jp_raw": "\\m[vo]ほぅ...\\!\\ きみがそれを言うか？\\!\\ いつもワケの分からないものをポケットに入れているくせに。",
-        "jp_clean": "ほぅ... きみがそれを言うか？ いつもワケの分からないものをポケットに入れているくせに。"
+        "jp_clean": "ほぅ... きみがそれを言うか？ いつもワケの分からないものをポケットに入れているくせに。",
+        "checked": false
     },
     {
         "en_raw": "Of course we need those items. Tonics, juices... Those items will keep our health up, and are integral to our survival.",
         "en_clean": "Of course we need those items. Tonics, juices... Those items will keep our health up, and are integral to our survival.",
         "jp_raw": "アイテムはもちろん必要だ。\\!トニックやジュースなど...\\!\\ アイテムは体力の維持に欠かせない。\\!生き抜くうえで必要不可欠だ。",
-        "jp_clean": "アイテムはもちろん必要だ。トニックやジュースなど... アイテムは体力の維持に欠かせない。生き抜くうえで必要不可欠だ。"
+        "jp_clean": "アイテムはもちろん必要だ。トニックやジュースなど... アイテムは体力の維持に欠かせない。生き抜くうえで必要不可欠だ。",
+        "checked": false
     },
     {
         "en_raw": "We can't always count on Mirabelle to heal us. Don't hesitate to use tonics or items in battle if you get overwhelmed.",
         "en_clean": "We can't always count on Mirabelle to heal us. Don't hesitate to use tonics or items in battle if you get overwhelmed.",
         "jp_raw": "いつもミラベルの回復に頼れるとは限らない。\\!バトル中に危なくなったら、迷わずにトニックやアイテムを使ったほうがいい。",
-        "jp_clean": "いつもミラベルの回復に頼れるとは限らない。バトル中に危なくなったら、迷わずにトニックやアイテムを使ったほうがいい。"
+        "jp_clean": "いつもミラベルの回復に頼れるとは限らない。バトル中に危なくなったら、迷わずにトニックやアイテムを使ったほうがいい。",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -161,37 +169,43 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(This seems important... You decide to remember those words.)",
         "en_clean": "(This seems important... You decide to remember those words.)",
         "jp_raw": "(大事な教えだ...\\!\\ 今の言葉はしっかり覚えておこう。)",
-        "jp_clean": "(大事な教えだ... 今の言葉はしっかり覚えておこう。)"
+        "jp_clean": "(大事な教えだ... 今の言葉はしっかり覚えておこう。)",
+        "checked": false
     },
     {
         "en_raw": "(It'd be bad to be beaten in battle because you forgot about the items you carry...)",
         "en_clean": "(It'd be bad to be beaten in battle because you forgot about the items you carry...)",
         "jp_raw": "(バトルで負けるのはマズい。\\!持っていたアイテムのことも忘れてしまうから...)",
-        "jp_clean": "(バトルで負けるのはマズい。持っていたアイテムのことも忘れてしまうから...)"
+        "jp_clean": "(バトルで負けるのはマズい。持っていたアイテムのことも忘れてしまうから...)",
+        "checked": false
     },
     {
         "en_raw": "(You got a MEMORY OF TONICS!)",
         "en_clean": "(You got a MEMORY OF TONICS!)",
         "jp_raw": "\\m[clear](「トニックの記憶」を手に入れた！)",
-        "jp_clean": "(「トニックの記憶」を手に入れた！)"
+        "jp_clean": "(「トニックの記憶」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You'll always remember this.)",
         "en_clean": "(You'll always remember this.)",
         "jp_raw": "(これはいつでも思い出せる記憶だ。)",
-        "jp_clean": "(これはいつでも思い出せる記憶だ。)"
+        "jp_clean": "(これはいつでも思い出せる記憶だ。)",
+        "checked": false
     },
     {
         "en_raw": "[When Memory of Tonics is equipped, any tonic the Researcher uses will recover more HP!]",
         "en_clean": "[When Memory of Tonics is equipped, any tonic the Researcher uses will recover more HP!]",
         "jp_raw": "\\m[vtuto][「トニックの記憶」を装備すると、研究者君がトニックを使ったときの回復量がアップするぞ！]\\m[rb]",
-        "jp_clean": "[「トニックの記憶」を装備すると、研究者君がトニックを使ったときの回復量がアップするぞ！]"
+        "jp_clean": "[「トニックの記憶」を装備すると、研究者君がトニックを使ったときの回復量がアップするぞ！]",
+        "checked": false
     },
     {
         "en_raw": "(You don't say anything.)",
@@ -203,211 +217,246 @@
         "jp_clean": [
             "(僕は何も言わない。)",
             "(僕は何も言わない。)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Some small glass containers.)",
         "en_clean": "(Some small glass containers.)",
         "jp_raw": "\\m[clear](小さなガラス製の容器がある。)",
-        "jp_clean": "(小さなガラス製の容器がある。)"
+        "jp_clean": "(小さなガラス製の容器がある。)",
+        "checked": false
     },
     {
         "en_raw": "(You look around...)",
         "en_clean": "(You look around...)",
         "jp_raw": "(周囲を見回すと...)",
-        "jp_clean": "(周囲を見回すと...)"
+        "jp_clean": "(周囲を見回すと...)",
+        "checked": false
     },
     {
         "en_raw": "(You found a SOUR TONIC!)",
         "en_clean": "(You found a SOUR TONIC!)",
         "jp_raw": "(「すっぱトニック」を見つけた！)",
-        "jp_clean": "(「すっぱトニック」を見つけた！)"
+        "jp_clean": "(「すっぱトニック」を見つけた！)",
+        "checked": false
     },
     {
         "en_raw": "T-Tonics are good to keep your HP up so you don't get knocked out in battle!",
         "en_clean": "T-Tonics are good to keep your HP up so you don't get knocked out in battle!",
         "jp_raw": "\\m[vm]ト、トニックは便利だよ。\\!HPを高く保つことで、バトル中に気を失うリスクを抑えられる！",
-        "jp_clean": "ト、トニックは便利だよ。HPを高く保つことで、バトル中に気を失うリスクを抑えられる！"
+        "jp_clean": "ト、トニックは便利だよ。HPを高く保つことで、バトル中に気を失うリスクを抑えられる！",
+        "checked": false
     },
     {
         "en_raw": "They're very sour...\n<br/>\nBut the sourness is sure to make you more awake and ready for anything!",
         "en_clean": "They're very sour...But the sourness is sure to make you more awake and ready for anything!",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(The table has nothing else interesting on it.)",
         "en_clean": "(The table has nothing else interesting on it.)",
         "jp_raw": "\\m[clear](テーブルにはもう目ぼしいものはない。)",
-        "jp_clean": "(テーブルにはもう目ぼしいものはない。)"
+        "jp_clean": "(テーブルにはもう目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(Some small glass containers.)",
         "en_clean": "(Some small glass containers.)",
         "jp_raw": "\\m[clear](小さなガラス製の容器がある。)",
-        "jp_clean": "(小さなガラス製の容器がある。)"
+        "jp_clean": "(小さなガラス製の容器がある。)",
+        "checked": false
     },
     {
         "en_raw": "(You look around...)",
         "en_clean": "(You look around...)",
         "jp_raw": "(周囲を見回すと...)",
-        "jp_clean": "(周囲を見回すと...)"
+        "jp_clean": "(周囲を見回すと...)",
+        "checked": false
     },
     {
         "en_raw": "(You got a SUPER SOUR TONIC!)",
         "en_clean": "(You got a SUPER SOUR TONIC!)",
         "jp_raw": "(「めちゃすっぱトニック」を手に入れた！)",
-        "jp_clean": "(「めちゃすっぱトニック」を手に入れた！)"
+        "jp_clean": "(「めちゃすっぱトニック」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "Oh! Sour tonics for everyone to share!",
         "en_clean": "Oh! Sour tonics for everyone to share!",
         "jp_raw": "\\m[vm]そうそう、すっぱトニックはみんなで分けられるんだよ！",
-        "jp_clean": "そうそう、すっぱトニックはみんなで分けられるんだよ！"
+        "jp_clean": "そうそう、すっぱトニックはみんなで分けられるんだよ！",
+        "checked": false
     },
     {
         "en_raw": "Y'know, I always wondered why they're more powerful than regular sour tonics when they're the same size.",
         "en_clean": "Y'know, I always wondered why they're more powerful than regular sour tonics when they're the same size.",
         "jp_raw": "\\m[vb]あのさ、\\!前から不思議だったんだけど、なんで同じサイズなのに普通のすっぱトニックより効き目があんの？",
-        "jp_clean": "あのさ、前から不思議だったんだけど、なんで同じサイズなのに普通のすっぱトニックより効き目があんの？"
+        "jp_clean": "あのさ、前から不思議だったんだけど、なんで同じサイズなのに普通のすっぱトニックより効き目があんの？",
+        "checked": false
     },
     {
         "en_raw": "They're just that concentrated.",
         "en_clean": "They're just that concentrated.",
         "jp_raw": "\\m[vo]それだけ濃縮されているということだ。",
-        "jp_clean": "それだけ濃縮されているということだ。"
+        "jp_clean": "それだけ濃縮されているということだ。",
+        "checked": false
     },
     {
         "en_raw": "I tried drinking a full Super Sour Tonic once!",
         "en_clean": "I tried drinking a full Super Sour Tonic once!",
         "jp_raw": "\\m[vi]俺は前に、めちゃすっぱトニックを1本まるごと飲んだことがある！",
-        "jp_clean": "俺は前に、めちゃすっぱトニックを1本まるごと飲んだことがある！"
+        "jp_clean": "俺は前に、めちゃすっぱトニックを1本まるごと飲んだことがある！",
+        "checked": false
     },
     {
         "en_raw": "And... What happened?",
         "en_clean": "And... What happened?",
         "jp_raw": "\\m[vo]それで...\\!\\ どうなった？",
-        "jp_clean": "それで... どうなった？"
+        "jp_clean": "それで... どうなった？",
+        "checked": false
     },
     {
         "en_raw": "I couldn't taste anything for weeks!!!",
         "en_clean": "I couldn't taste anything for weeks!!!",
         "jp_raw": "\\m[vi]何週間も味覚が戻らなかった！",
-        "jp_clean": "何週間も味覚が戻らなかった！"
+        "jp_clean": "何週間も味覚が戻らなかった！",
+        "checked": false
     },
     {
         "en_raw": "(The table has nothing else interesting on it.)",
         "en_clean": "(The table has nothing else interesting on it.)",
         "jp_raw": "\\m[clear](テーブルにはもう目ぼしいものはない。)",
-        "jp_clean": "(テーブルにはもう目ぼしいものはない。)"
+        "jp_clean": "(テーブルにはもう目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(You look at what's on the table...)",
         "en_clean": "(You look at what's on the table...)",
         "jp_raw": "\\m[clear](テーブルの上を見てみる...)",
-        "jp_clean": "(テーブルの上を見てみる...)"
+        "jp_clean": "(テーブルの上を見てみる...)",
+        "checked": false
     },
     {
         "en_raw": "(You found a CRAFTED WATER!)",
         "en_clean": "(You found a CRAFTED WATER!)",
         "jp_raw": "(「クラフト水」を見つけた！)",
-        "jp_clean": "(「クラフト水」を見つけた！)"
+        "jp_clean": "(「クラフト水」を見つけた！)",
+        "checked": false
     },
     {
         "en_raw": "Um, this is a Crafted Water!",
         "en_clean": "Um, this is a Crafted Water!",
         "jp_raw": "\\m[vm]あっ、これはクラフト水だね！",
-        "jp_clean": "あっ、これはクラフト水だね！"
+        "jp_clean": "あっ、これはクラフト水だね！",
+        "checked": false
     },
     {
         "en_raw": "If someone gets\n<!--\\i[1] do we have this icon-->\nKnocked Out during battle...\n<br/>\nJust a drop of it is enough to wake them right up!",
         "en_clean": "If someone getsKnocked Out during battle...Just a drop of it is enough to wake them right up!",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Someone at school told me it was just coconut water!",
         "en_clean": "Someone at school told me it was just coconut water!",
         "jp_raw": "\\m[vb]学校のヤツは、ただのココナッツジュースだって言ってたぜ！",
-        "jp_clean": "学校のヤツは、ただのココナッツジュースだって言ってたぜ！"
+        "jp_clean": "学校のヤツは、ただのココナッツジュースだって言ってたぜ！",
+        "checked": false
     },
     {
         "en_raw": "Wait... is it?",
         "en_clean": "Wait... is it?",
         "jp_raw": "\\m[vm]えっ...\\!\\ そうなの？",
-        "jp_clean": "えっ... そうなの？"
+        "jp_clean": "えっ... そうなの？",
+        "checked": false
     },
     {
         "en_raw": "(The table has nothing else interesting on it.)",
         "en_clean": "(The table has nothing else interesting on it.)",
         "jp_raw": "\\m[clear](テーブルにはもう目ぼしいものはない。)",
-        "jp_clean": "(テーブルにはもう目ぼしいものはない。)"
+        "jp_clean": "(テーブルにはもう目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(You look at what's on the table...)",
         "en_clean": "(You look at what's on the table...)",
         "jp_raw": "\\m[clear](テーブルの上を見てみる...)",
-        "jp_clean": "(テーブルの上を見てみる...)"
+        "jp_clean": "(テーブルの上を見てみる...)",
+        "checked": false
     },
     {
         "en_raw": "(You found one GINGER JUICE!)",
         "en_clean": "(You found one GINGER JUICE!)",
         "jp_raw": "(「しょうがジュース」を1個見つけた！)",
-        "jp_clean": "(「しょうがジュース」を1個見つけた！)"
+        "jp_clean": "(「しょうがジュース」を1個見つけた！)",
+        "checked": false
     },
     {
         "en_raw": "(You found one PEPPER JUICE!)",
         "en_clean": "(You found one PEPPER JUICE!)",
         "jp_raw": "(「こしょうジュース」を1個見つけた！)",
-        "jp_clean": "(「こしょうジュース」を1個見つけた！)"
+        "jp_clean": "(「こしょうジュース」を1個見つけた！)",
+        "checked": false
     },
     {
         "en_raw": "(You found one THYME JUICE!)",
         "en_clean": "(You found one THYME JUICE!)",
         "jp_raw": "(「タイムジュース」を1個見つけた！)",
-        "jp_clean": "(「タイムジュース」を1個見つけた！)"
+        "jp_clean": "(「タイムジュース」を1個見つけた！)",
+        "checked": false
     },
     {
         "en_raw": "Still, that's a lot of spices you found there...",
         "en_clean": "Still, that's a lot of spices you found there...",
         "jp_raw": "\\m[vi]それにしてもいろんなスパイスがあるもんだな...",
-        "jp_clean": "それにしてもいろんなスパイスがあるもんだな..."
+        "jp_clean": "それにしてもいろんなスパイスがあるもんだな...",
+        "checked": false
     },
     {
         "en_raw": "Oh, oh, I know this one!\n<br/>\nPepper raises your ATTACK, ginger raises your DEFENSE, and thyme makes you faster!",
         "en_clean": "Oh, oh, I know this one!Pepper raises your ATTACK, ginger raises your DEFENSE, and thyme makes you faster!",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Because spicy stuff makes people angry, ginger makes you not sick, and thyme...",
         "en_clean": "Because spicy stuff makes people angry, ginger makes you not sick, and thyme...",
         "jp_raw": "なぜなら辛いものはカッカするし、しょうがは病気を予防するし、タイムは...",
-        "jp_clean": "なぜなら辛いものはカッカするし、しょうがは病気を予防するし、タイムは..."
+        "jp_clean": "なぜなら辛いものはカッカするし、しょうがは病気を予防するし、タイムは...",
+        "checked": false
     },
     {
         "en_raw": "Well... I don't actually know why thyme makes you faster.",
         "en_clean": "Well... I don't actually know why thyme makes you faster.",
         "jp_raw": "えっと...\\!\\ なんでタイムで速くなるのかは分からないや。",
-        "jp_clean": "えっと... なんでタイムで速くなるのかは分からないや。"
+        "jp_clean": "えっと... なんでタイムで速くなるのかは分からないや。",
+        "checked": false
     },
     {
         "en_raw": "Me neither...",
         "en_clean": "Me neither...",
         "jp_raw": "\\m[vm]わたしも分からない...",
-        "jp_clean": "わたしも分からない..."
+        "jp_clean": "わたしも分からない...",
+        "checked": false
     },
     {
         "en_raw": "(The table has nothing else interesting on it.)",
         "en_clean": "(The table has nothing else interesting on it.)",
         "jp_raw": "\\m[clear](テーブルにはもう目ぼしいものはない。)",
-        "jp_clean": "(テーブルにはもう目ぼしいものはない。)"
+        "jp_clean": "(テーブルにはもう目ぼしいものはない。)",
+        "checked": false
     },
     {
         "en_raw": "(Someone just took the bottle from you.)",
         "en_clean": "(Someone just took the bottle from you.)",
         "jp_raw": "(瓶を誰かに取り上げられた。)",
-        "jp_clean": "(瓶を誰かに取り上げられた。)"
+        "jp_clean": "(瓶を誰かに取り上げられた。)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -597,25 +646,29 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "...Dile said I'm on [tonics/water/spices] duty.",
         "en_clean": "...Dile said I'm on [tonics/water/spices] duty.",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Dile said I'm on [tonics/water/spices] duty!",
         "en_clean": "Dile said I'm on [tonics/water/spices] duty!",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(Someone just took the bottle from you.)",
         "en_clean": "(Someone just took the bottle from you.)",
         "jp_raw": "(瓶を誰かに取り上げられた。)",
-        "jp_clean": "(瓶を誰かに取り上げられた。)"
+        "jp_clean": "(瓶を誰かに取り上げられた。)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -805,19 +858,22 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "...Dile also said I'm on [tonics/water/spices] duty.",
         "en_clean": "...Dile also said I'm on [tonics/water/spices] duty.",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Dile also said I'm on [tonics/water/spices] duty!",
         "en_clean": "Dile also said I'm on [tonics/water/spices] duty!",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -1007,55 +1063,64 @@
             "...",
             "...",
             "..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You just give it all to them.)",
         "en_clean": "(You just give it all to them.)",
         "jp_raw": "\\m[clear](ボニーに全部あげよう。)",
-        "jp_clean": "(ボニーに全部あげよう。)"
+        "jp_clean": "(ボニーに全部あげよう。)",
+        "checked": false
     },
     {
         "en_raw": "Heh, you learn fast, Frin.",
         "en_clean": "Heh, you learn fast, Frin.",
         "jp_raw": "\\m[vb]へへっ、飲み込みが早いね、フラン。",
-        "jp_clean": "へへっ、飲み込みが早いね、フラン。"
+        "jp_clean": "へへっ、飲み込みが早いね、フラン。",
+        "checked": false
     },
     {
         "en_raw": "YAHOO!!!",
         "en_clean": "YAHOO!!!",
         "jp_raw": "\\m[vb]やったー！！！",
-        "jp_clean": "やったー！！！"
+        "jp_clean": "やったー！！！",
+        "checked": false
     },
     {
         "en_raw": "Be careful with those items, Boniface. Guard them well.",
         "en_clean": "Be careful with those items, Boniface. Guard them well.",
         "jp_raw": "\\m[vo]気を付けて扱うんだぞ、ボニファス。\\!しっかり守れ。",
-        "jp_clean": "気を付けて扱うんだぞ、ボニファス。しっかり守れ。"
+        "jp_clean": "気を付けて扱うんだぞ、ボニファス。しっかり守れ。",
+        "checked": false
     },
     {
         "en_raw": "Be ready to throw those at us if we need them during battle. It's probably safer than making all of us carry some...",
         "en_clean": "Be ready to throw those at us if we need them during battle. It's probably safer than making all of us carry some...",
         "jp_raw": "戦闘中に私たちに必要になったら、いつでも投げられるようにしておいてくれ。\\!みんなで手分けして持っておくより、安全だろう...",
-        "jp_clean": "戦闘中に私たちに必要になったら、いつでも投げられるようにしておいてくれ。みんなで手分けして持っておくより、安全だろう..."
+        "jp_clean": "戦闘中に私たちに必要になったら、いつでも投げられるようにしておいてくれ。みんなで手分けして持っておくより、安全だろう...",
+        "checked": false
     },
     {
         "en_raw": "But Sif found those! You don't trust Sif to keep our items safe?",
         "en_clean": "But Sif found those! You don't trust Sif to keep our items safe?",
         "jp_raw": "\\m[vi]でも、シフが見つけたんだぞ！\\!\\ シフじゃあアイテムを安全に持ち運べないって？",
-        "jp_clean": "でも、シフが見つけたんだぞ！ シフじゃあアイテムを安全に持ち運べないって？"
+        "jp_clean": "でも、シフが見つけたんだぞ！ シフじゃあアイテムを安全に持ち運べないって？",
+        "checked": false
     },
     {
         "en_raw": "The person who a few weeks ago mixed up all the items we had to make a so-called \"Super Potion\"?",
         "en_clean": "The person who a few weeks ago mixed up all the items we had to make a so-called \"Super Potion\"?",
         "jp_raw": "\\m[vo]少し前に、全部のアイテムをまぜこぜにして「スーパーポーション」を生み出したやつだぞ？",
-        "jp_clean": "少し前に、全部のアイテムをまぜこぜにして「スーパーポーション」を生み出したやつだぞ？"
+        "jp_clean": "少し前に、全部のアイテムをまぜこぜにして「スーパーポーション」を生み出したやつだぞ？",
+        "checked": false
     },
     {
         "en_raw": "No. I don't trust Siffrin with items.",
         "en_clean": "No. I don't trust Siffrin with items.",
         "jp_raw": "ダメだ。\\!シフランには任せられない。",
-        "jp_clean": "ダメだ。シフランには任せられない。"
+        "jp_clean": "ダメだ。シフランには任せられない。",
+        "checked": false
     },
     {
         "en_raw": "HA!",
@@ -1073,139 +1138,162 @@
             "そうか！",
             "アハハ！",
             "ほう！"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(You cutely bat your eyes.)",
         "en_clean": "(You cutely bat your eyes.)",
         "jp_raw": "\\m[clear](パチパチとまばたきして、ぶりっ子して見せる。)",
-        "jp_clean": "(パチパチとまばたきして、ぶりっ子して見せる。)"
+        "jp_clean": "(パチパチとまばたきして、ぶりっ子して見せる。)",
+        "checked": false
     },
     {
         "en_raw": "(A lifetime ago for you now.)",
         "en_clean": "(A lifetime ago for you now.)",
         "jp_raw": "\\m[clear](僕にとってはすごく昔のことだ。)",
-        "jp_clean": "(僕にとってはすごく昔のことだ。)"
+        "jp_clean": "(僕にとってはすごく昔のことだ。)",
+        "checked": false
     },
     {
         "en_raw": "(You open the closet.)",
         "en_clean": "(You open the closet.)",
         "jp_raw": "\\m[clear](クローゼットを開ける。)",
-        "jp_clean": "(クローゼットを開ける。)"
+        "jp_clean": "(クローゼットを開ける。)",
+        "checked": false
     },
     {
         "en_raw": "(It's full of boxes and paper, and...)",
         "en_clean": "(It's full of boxes and paper, and...)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(A pendant shaped like a bell.)",
         "en_clean": "(A pendant shaped like a bell.)",
         "jp_raw": "(鈴の形をしたペンダントだ。)",
-        "jp_clean": "(鈴の形をしたペンダントだ。)"
+        "jp_clean": "(鈴の形をしたペンダントだ。)",
+        "checked": false
     },
     {
         "en_raw": "(You got a BELL PENDANT!)",
         "en_clean": "(You got a BELL PENDANT!)",
         "jp_raw": "\\m[clear](「鈴のペンダント」を手に入れた！)",
-        "jp_clean": "(「鈴のペンダント」を手に入れた！)"
+        "jp_clean": "(「鈴のペンダント」を手に入れた！)",
+        "checked": false
     },
     {
         "en_raw": "(You put the pendant in your pocket along with your Souvenirs.)",
         "en_clean": "(You put the pendant in your pocket along with your Souvenirs.)",
         "jp_raw": "(ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "Well. That closet was useless.",
         "en_clean": "Well. That closet was useless.",
         "jp_raw": "\\m[vo]ふむ。\\!使えないクローゼットだったな。",
-        "jp_clean": "ふむ。使えないクローゼットだったな。"
+        "jp_clean": "ふむ。使えないクローゼットだったな。",
+        "checked": false
     },
     {
         "en_raw": "Pretty pendant though.",
         "en_clean": "Pretty pendant though.",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "Can the pendant heal me when I'm hurt?",
         "en_clean": "Can the pendant heal me when I'm hurt?",
         "jp_raw": "\\m[vo]私が傷ついたときにペンダントが治してくれるのか？",
-        "jp_clean": "私が傷ついたときにペンダントが治してくれるのか？"
+        "jp_clean": "私が傷ついたときにペンダントが治してくれるのか？",
+        "checked": false
     },
     {
         "en_raw": "Maybe it can! You don't know!",
         "en_clean": "Maybe it can! You don't know!",
         "jp_raw": "\\m[vm]かもしれないよ！\\!\\ 可能性は否定できない！",
-        "jp_clean": "かもしれないよ！ 可能性は否定できない！"
+        "jp_clean": "かもしれないよ！ 可能性は否定できない！",
+        "checked": false
     },
     {
         "en_raw": "(You look at the pendant closely...)",
         "en_clean": "(You look at the pendant closely...)",
         "jp_raw": "\\m[clear](ペンダントをよく見てみる...)",
-        "jp_clean": "(ペンダントをよく見てみる...)"
+        "jp_clean": "(ペンダントをよく見てみる...)",
+        "checked": false
     },
     {
         "en_raw": "(It's just a pendant shaped like a bell.)",
         "en_clean": "(It's just a pendant shaped like a bell.)",
         "jp_raw": "\\m[wait](鈴の形をした、ただのペンダントだ。)",
-        "jp_clean": "(鈴の形をした、ただのペンダントだ。)"
+        "jp_clean": "(鈴の形をした、ただのペンダントだ。)",
+        "checked": false
     },
     {
         "en_raw": "(But you like it, so you put it in your pocket along with your Souvenirs.)",
         "en_clean": "(But you like it, so you put it in your pocket along with your Souvenirs.)",
         "jp_raw": "(でも気に入ったから、ポケットの「思い出の品」に入れておこう。)",
-        "jp_clean": "(でも気に入ったから、ポケットの「思い出の品」に入れておこう。)"
+        "jp_clean": "(でも気に入ったから、ポケットの「思い出の品」に入れておこう。)",
+        "checked": false
     },
     {
         "en_raw": "(Tonics and any useful items will usually be visible, but you might get some useless but interesting things if you check everything in an room...)",
         "en_clean": "(Tonics and any useful items will usually be visible, but you might get some useless but interesting things if you check everything in an room...)",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You got the bell pendant back.)",
         "en_clean": "(You got the bell pendant back.)",
         "jp_raw": "\\m[clear](鈴のペンダントを再び手に入れた。)",
-        "jp_clean": "(鈴のペンダントを再び手に入れた。)"
+        "jp_clean": "(鈴のペンダントを再び手に入れた。)",
+        "checked": false
     },
     {
         "en_raw": "(Hm... You wonder if you could find a chain for it somewhere!)",
         "en_clean": "(Hm... You wonder if you could find a chain for it somewhere!)",
         "jp_raw": "(ううむ...\\!\\ どこかでこれの鎖が見つかるかもしれない！)",
-        "jp_clean": "(ううむ... どこかでこれの鎖が見つかるかもしれない！)"
+        "jp_clean": "(ううむ... どこかでこれの鎖が見つかるかもしれない！)",
+        "checked": false
     },
     {
         "en_raw": "(Ding ding!)",
         "en_clean": "(Ding ding!)",
         "jp_raw": "\\m[clear](リンリン！)",
-        "jp_clean": "(リンリン！)"
+        "jp_clean": "(リンリン！)",
+        "checked": false
     },
     {
         "en_raw": "(Ding ding.)",
         "en_clean": "(Ding ding.)",
         "jp_raw": "\\m[clear](リンリン。)",
-        "jp_clean": "(リンリン。)"
+        "jp_clean": "(リンリン。)",
+        "checked": false
     },
     {
         "en_raw": "(You hold it tightly in your hand.)",
         "en_clean": "(You hold it tightly in your hand.)",
         "jp_raw": "\\m[clear](しっかりと握りしめる。)",
-        "jp_clean": "(しっかりと握りしめる。)"
+        "jp_clean": "(しっかりと握りしめる。)",
+        "checked": false
     },
     {
         "en_raw": "(The closet doesn't have anything interesting left in it.)",
         "en_clean": "(The closet doesn't have anything interesting left in it.)",
         "jp_raw": "\\m[clear](クローゼットに目ぼしいものは残っていない。)",
-        "jp_clean": "(クローゼットに目ぼしいものは残っていない。)"
+        "jp_clean": "(クローゼットに目ぼしいものは残っていない。)",
+        "checked": false
     },
     {
         "en_raw": "(You open the useless closet.)",
         "en_clean": "(You open the useless closet.)",
         "jp_raw": "\\m[clear](使えないクローゼットを開ける。)",
-        "jp_clean": "(使えないクローゼットを開ける。)"
+        "jp_clean": "(使えないクローゼットを開ける。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1321,31 +1409,36 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Got the Bell Pendant.)",
         "en_clean": "(Got the Bell Pendant.)",
         "jp_raw": "(「鈴のペンダント」を手に入れた。)",
-        "jp_clean": "(「鈴のペンダント」を手に入れた。)"
+        "jp_clean": "(「鈴のペンダント」を手に入れた。)",
+        "checked": false
     },
     {
         "en_raw": "(Some flyers.)",
         "en_clean": "(Some flyers.)",
         "jp_raw": "\\m[clear](チラシだ。)",
-        "jp_clean": "(チラシだ。)"
+        "jp_clean": "(チラシだ。)",
+        "checked": false
     },
     {
         "en_raw": "(They say:\n<i>\n \"House of Change open! Come and see what you can do for the community, and what the community can do for you!!!\"\n</i>\n)",
         "en_clean": "(They say:\"House of Change open! Come and see what you can do for the community, and what the community can do for you!!!\")",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(There's some people with sparkly eyes holding hands drawn on it.)",
         "en_clean": "(There's some people with sparkly eyes holding hands drawn on it.)",
         "jp_raw": "(目をキラキラさせた人たちが手をつないでいる絵が描かれている。)",
-        "jp_clean": "(目をキラキラさせた人たちが手をつないでいる絵が描かれている。)"
+        "jp_clean": "(目をキラキラさせた人たちが手をつないでいる絵が描かれている。)",
+        "checked": false
     },
     {
         "en_raw": "Hehehe...",
@@ -1363,19 +1456,22 @@
             "ヘヘッ...",
             "エヘヘ...",
             "エヘヘ..."
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "I drew those a few years ago to get people to come to the House...\n<br/>\nIt's a little embarrassing now.",
         "en_clean": "I drew those a few years ago to get people to come to the House...It's a little embarrassing now.",
         "jp_raw": null,
-        "jp_clean": null
+        "jp_clean": null,
+        "checked": false
     },
     {
         "en_raw": "(You think they look nice!)",
         "en_clean": "(You think they look nice!)",
         "jp_raw": "\\m[clear](素敵な絵だと思う！)",
-        "jp_clean": "(素敵な絵だと思う！)"
+        "jp_clean": "(素敵な絵だと思う！)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1491,13 +1587,15 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(One of the people she drew looks like the Head Housemaiden.)",
         "en_clean": "(One of the people she drew looks like the Head Housemaiden.)",
         "jp_raw": "(描かれている人物の一人は侍祭長に似ている。)",
-        "jp_clean": "(描かれている人物の一人は侍祭長に似ている。)"
+        "jp_clean": "(描かれている人物の一人は侍祭長に似ている。)",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1613,36 +1711,42 @@
             "(...)",
             "(...)",
             "(...)"
-        ]
+        ],
+        "checked": false
     },
     {
         "en_raw": "(Some flyers.)",
         "en_clean": "(Some flyers.)",
         "jp_raw": "\\m[clear](チラシだ。)",
-        "jp_clean": "(チラシだ。)"
+        "jp_clean": "(チラシだ。)",
+        "checked": false
     },
     {
         "en_raw": "(Some flyers.)",
         "en_clean": "(Some flyers.)",
         "jp_raw": "\\m[clear](チラシだ。)",
-        "jp_clean": "(チラシだ。)"
+        "jp_clean": "(チラシだ。)",
+        "checked": false
     },
     {
         "en_raw": "(You look at the people holding hands for a bit, and keep going.)",
         "en_clean": "(You look at the people holding hands for a bit, and keep going.)",
         "jp_raw": "(手をつないだ人たちの絵を少し眺めて、\\!僕は先を急ぐ。)",
-        "jp_clean": "(手をつないだ人たちの絵を少し眺めて、僕は先を急ぐ。)"
+        "jp_clean": "(手をつないだ人たちの絵を少し眺めて、僕は先を急ぐ。)",
+        "checked": false
     },
     {
         "en_raw": "(A stool.)",
         "en_clean": "(A stool.)",
         "jp_raw": "\\m[clear](スツールだ。)",
-        "jp_clean": "(スツールだ。)"
+        "jp_clean": "(スツールだ。)",
+        "checked": false
     },
     {
         "en_raw": "(But you're fine, so it'd be a waste of time to sit down.)",
         "en_clean": "(But you're fine, so it'd be a waste of time to sit down.)",
         "jp_raw": "(座る必要はない。\\!時間を無駄にするだけだ。)",
-        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)"
+        "jp_clean": "(座る必要はない。時間を無駄にするだけだ。)",
+        "checked": false
     }
 ]
