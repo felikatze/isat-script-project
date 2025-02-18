@@ -73,9 +73,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -193,9 +195,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -417,9 +421,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -731,9 +737,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -834,8 +842,8 @@
     {
         "en_raw": "\"Uh, hello, stranger.\"",
         "en_clean": "\"Uh, hello, stranger.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"えっと、こんにちは。\"",
+        "jp_clean": "\"えっと、こんにちは。\""
     },
     {
         "en_raw": "...Hello, stranger.",
@@ -1406,8 +1414,8 @@
     {
         "en_raw": "\"My what now--\"",
         "en_clean": "\"My what now--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕のプロフ――\"",
+        "jp_clean": "\"僕のプロフ――\""
     },
     {
         "en_raw": "Anyway stardust, I'm here to help! Ask whatever questions your little heart desires!",
@@ -1511,9 +1519,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2035,9 +2045,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2197,9 +2209,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2484,8 +2498,8 @@
     {
         "en_raw": "\"And yet I'm still here.\"",
         "en_clean": "\"And yet I'm still here.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど、やっぱり戻ってきた。\"",
+        "jp_clean": "\"だけど、やっぱり戻ってきた。\""
     },
     {
         "en_raw": "...Yes.",
@@ -2528,8 +2542,8 @@
     {
         "en_raw": "\"Did you know this would happen?\"",
         "en_clean": "\"Did you know this would happen?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"こうなるって分かってたのか？\"",
+        "jp_clean": "\"こうなるって分かってたのか？\""
     },
     {
         "en_raw": "...",
@@ -2783,9 +2797,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2874,8 +2890,8 @@
     {
         "en_raw": "\"Why not...?\"",
         "en_clean": "\"Why not...?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして...？\"",
+        "jp_clean": "\"どうして...？\""
     },
     {
         "en_raw": "I don't know why it didn't end with beating the King.",
@@ -2898,26 +2914,26 @@
     {
         "en_raw": "\"I never thought about the reason why I got this power.\"",
         "en_clean": "\"I never thought about the reason why I got this power.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕がこの力を手に入れた理由を考えたことはなかった。\"",
+        "jp_clean": "\"僕がこの力を手に入れた理由を考えたことはなかった。\""
     },
     {
         "en_raw": "\"I just thought... It was to beat the King.\"",
         "en_clean": "\"I just thought... It was to beat the King.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"この力は... 王を倒すためにあると思ってた。\"",
+        "jp_clean": "\"この力は... 王を倒すためにあると思ってた。\""
     },
     {
         "en_raw": "\"That the Change God, someone, anyone, gave me this power to beat him.\"",
         "en_clean": "\"That the Change God, someone, anyone, gave me this power to beat him.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ウツロイの神とか誰かが、王を倒すためにこの力をくれたのかと思ってた。\"",
+        "jp_clean": "\"ウツロイの神とか誰かが、王を倒すためにこの力をくれたのかと思ってた。\""
     },
     {
         "en_raw": "\"But if beating him made me loop back anyway...\"",
         "en_clean": "\"But if beating him made me loop back anyway...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど、王を倒してもループがまた始まるなら...\"",
+        "jp_clean": "\"だけど、王を倒してもループがまた始まるなら...\""
     },
     {
         "en_raw": "...",
@@ -3112,8 +3128,8 @@
     {
         "en_raw": "\"I don't know what to do now.\"",
         "en_clean": "\"I don't know what to do now.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"もう、どうすればいいのか分からない。\"",
+        "jp_clean": "\"もう、どうすればいいのか分からない。\""
     },
     {
         "en_raw": "...",
@@ -3403,9 +3419,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3494,8 +3512,8 @@
     {
         "en_raw": "\"The Head Housemaiden seemed to know something was wrong, didn't she?\"",
         "en_clean": "\"The Head Housemaiden seemed to know something was wrong, didn't she?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"侍祭長は、何かがおかしいと言ってたよな？\"",
+        "jp_clean": "\"侍祭長は、何かがおかしいと言ってたよな？\""
     },
     {
         "en_raw": "Ah... I guess she did.",
@@ -3512,8 +3530,8 @@
     {
         "en_raw": "\"Did she mean the loops?\"",
         "en_clean": "\"Did she mean the loops?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それって、ループのことかな？\"",
+        "jp_clean": "\"それって、ループのことかな？\""
     },
     {
         "en_raw": "The loops, breaking?",
@@ -3548,8 +3566,8 @@
     {
         "en_raw": "\"And the King...\"",
         "en_clean": "\"And the King...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それから、王の...\"",
+        "jp_clean": "\"それから、王の...\""
     },
     {
         "en_raw": "The King?! What about him?",
@@ -3560,14 +3578,14 @@
     {
         "en_raw": "\"Something about his powers...\"",
         "en_clean": "\"Something about his powers...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王の力がどうとか...\"",
+        "jp_clean": "\"王の力がどうとか...\""
     },
     {
         "en_raw": "\"He can freeze people's time. And I can rewind time.\"",
         "en_clean": "\"He can freeze people's time. And I can rewind time.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王は人々の時を止められる。僕は時を戻せる。\"",
+        "jp_clean": "\"王は人々の時を止められる。僕は時を戻せる。\""
     },
     {
         "en_raw": "...Yes, that's...",
@@ -3590,8 +3608,8 @@
     {
         "en_raw": "\"Isn't that something to find out more about?\"",
         "en_clean": "\"Isn't that something to find out more about?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"これについて、もっと調べた方がいいんじゃないかな？\"",
+        "jp_clean": "\"これについて、もっと調べた方がいいんじゃないかな？\""
     },
     {
         "en_raw": "...I suppose so?",
@@ -3602,8 +3620,8 @@
     {
         "en_raw": "\"Maybe I just need to ask him.\"",
         "en_clean": "\"Maybe I just need to ask him.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"彼に聞いてみようかな。\"",
+        "jp_clean": "\"彼に聞いてみようかな。\""
     },
     {
         "en_raw": "Ask the King?!?",
@@ -3979,9 +3997,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4090,8 +4110,8 @@
     {
         "en_raw": "\"Loop...\"",
         "en_clean": "\"Loop...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループ...\"",
+        "jp_clean": "\"ループ...\""
     },
     {
         "en_raw": "Hm~?",
@@ -4156,14 +4176,14 @@
     {
         "en_raw": "\"Why?\"",
         "en_clean": "\"Why?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして？\"",
+        "jp_clean": "\"どうして？\""
     },
     {
         "en_raw": "\"Aren't you stuck here too, just because you're helping me?\"",
         "en_clean": "\"Aren't you stuck here too, just because you're helping me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕に手を貸すために、きみも閉じ込められているんじゃないのか？\"",
+        "jp_clean": "\"僕に手を貸すために、きみも閉じ込められているんじゃないのか？\""
     },
     {
         "en_raw": "...",
@@ -4429,9 +4449,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4520,8 +4542,8 @@
     {
         "en_raw": "\"To answer your question, though...\"",
         "en_clean": "\"To answer your question, though...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"さっきの質問に答えるよ...\"",
+        "jp_clean": "\"さっきの質問に答えるよ...\""
     },
     {
         "en_raw": "Hm?",
@@ -4546,14 +4568,14 @@
     {
         "en_raw": "\"No, Loop.\"",
         "en_clean": "\"No, Loop.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いいや、ループ。\"",
+        "jp_clean": "\"いいや、ループ。\""
     },
     {
         "en_raw": "\"It's too early to give up.\"",
         "en_clean": "\"It's too early to give up.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あきらめるには早すぎる。\"",
+        "jp_clean": "\"あきらめるには早すぎる。\""
     },
     {
         "en_raw": "...I'm very glad to hear that, stardust.",
@@ -4897,9 +4919,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4988,8 +5012,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "This was... Not the nicest thing you could've said?",
@@ -5006,8 +5030,8 @@
     {
         "en_raw": "\"Does it matter?\"",
         "en_clean": "\"Does it matter?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それ、重要？\"",
+        "jp_clean": "\"それ、重要？\""
     },
     {
         "en_raw": "Well... Um...",
@@ -5024,14 +5048,14 @@
     {
         "en_raw": "\"They'll come with me to the House anyway.\"",
         "en_clean": "\"They'll come with me to the House anyway.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんな、僕と一緒に館に行くんだ。\"",
+        "jp_clean": "\"みんな、僕と一緒に館に行くんだ。\""
     },
     {
         "en_raw": "\"They've always done it before.\"",
         "en_clean": "\"They've always done it before.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今までもずっとそうしてきた。\"",
+        "jp_clean": "\"今までもずっとそうしてきた。\""
     },
     {
         "en_raw": "... Okay, but...",
@@ -5042,14 +5066,14 @@
     {
         "en_raw": "\"But it really doesn't matter!\"",
         "en_clean": "\"But it really doesn't matter!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でも、そんなの関係ないんだ！\"",
+        "jp_clean": "\"でも、そんなの関係ないんだ！\""
     },
     {
         "en_raw": "\"Because I've found it, Loop!!!\"",
         "en_clean": "\"Because I've found it, Loop!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だって、ループ、分かったから！\"",
+        "jp_clean": "\"だって、ループ、分かったから！\""
     },
     {
         "en_raw": "Found it? Found what?",
@@ -5060,8 +5084,8 @@
     {
         "en_raw": "\"How to break this loop! How to escape!!!\"",
         "en_clean": "\"How to break this loop! How to escape!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループを破る方法だよ！ ここから抜け出す方法が分かったんだ！！！\"",
+        "jp_clean": "\"ループを破る方法だよ！ ここから抜け出す方法が分かったんだ！！！\""
     },
     {
         "en_raw": "What?! But--",
@@ -5072,14 +5096,14 @@
     {
         "en_raw": "\"I'm here to kill the King, aren't I?\"",
         "en_clean": "\"I'm here to kill the King, aren't I?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は王を倒すためにここにいる。だろ？\"",
+        "jp_clean": "\"僕は王を倒すためにここにいる。だろ？\""
     },
     {
         "en_raw": "\"Everyone's been wishing for it, for the King to be defeated, so that's why I'm here, aren't I?!\"",
         "en_clean": "\"Everyone's been wishing for it, for the King to be defeated, so that's why I'm here, aren't I?!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんな、それを願ってる。王を倒してほしいと願ってる。だから僕がここにいるんだ。違う？\"",
+        "jp_clean": "\"みんな、それを願ってる。王を倒してほしいと願ってる。だから僕がここにいるんだ。違う？\""
     },
     {
         "en_raw": "Well, um...",
@@ -5096,14 +5120,14 @@
     {
         "en_raw": "\"And, and, and!!!\"",
         "en_clean": "\"And, and, and!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、それにだ！！！\"",
+        "jp_clean": "\"それに、それにだ！！！\""
     },
     {
         "en_raw": "\"Mira's always the one, isn't she?!\"",
         "en_clean": "\"Mira's always the one, isn't she?!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いつも、ミラの役目だ。そうだろ！？\"",
+        "jp_clean": "\"いつも、ミラの役目だ。そうだろ！？\""
     },
     {
         "en_raw": "The one? The one to what?",
@@ -5114,8 +5138,8 @@
     {
         "en_raw": "\"The one to deal the final strike on the King!!!\"",
         "en_clean": "\"The one to deal the final strike on the King!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王への最後の一撃だ。それはミラの役目になってる！！！\"",
+        "jp_clean": "\"王への最後の一撃だ。それはミラの役目になってる！！！\""
     },
     {
         "en_raw": "...And?",
@@ -5140,26 +5164,26 @@
     {
         "en_raw": "\"And if I'm the only one who's looping and remembering...\"",
         "en_clean": "\"And if I'm the only one who's looping and remembering...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループして、それを覚えているのが僕だけなら...\"",
+        "jp_clean": "\"ループして、それを覚えているのが僕だけなら...\""
     },
     {
         "en_raw": "\"And if time keeps rewinding after I kill the King...\"",
         "en_clean": "\"And if time keeps rewinding after I kill the King...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、僕が王を倒すと、時間が戻るなら...\"",
+        "jp_clean": "\"それに、僕が王を倒すと、時間が戻るなら...\""
     },
     {
         "en_raw": "\"The Head Housemaiden said it might be because the wish hasn't come true, right? So...\"",
         "en_clean": "\"The Head Housemaiden said it might be because the wish hasn't come true, right? So...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"侍祭長が言うには、それはみんなの願いが叶っていないってことだろ？\"",
+        "jp_clean": "\"侍祭長が言うには、それはみんなの願いが叶っていないってことだろ？\""
     },
     {
         "en_raw": "\"Isn't it rewinding because it's not me, the person who's in the middle of this, killing the King?!?\"",
         "en_clean": "\"Isn't it rewinding because it's not me, the person who's in the middle of this, killing the King?!?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"つまり、時間が戻るのは僕のせいじゃない。中心にいる人物、王を倒している僕のせいじゃないんじゃないか？！？\"",
+        "jp_clean": "\"つまり、時間が戻るのは僕のせいじゃない。中心にいる人物、王を倒している僕のせいじゃないんじゃないか？！？\""
     },
     {
         "en_raw": "...",
@@ -5372,20 +5396,20 @@
     {
         "en_raw": "\"Maybe it IS that simple!\"",
         "en_clean": "\"Maybe it IS that simple!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それほど単純かもしれないだろ！\"",
+        "jp_clean": "\"それほど単純かもしれないだろ！\""
     },
     {
         "en_raw": "\"We've never thought about it, haven't we?\"",
         "en_clean": "\"We've never thought about it, haven't we?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今まで、考えてみたことがなかったじゃないか。\"",
+        "jp_clean": "\"今まで、考えてみたことがなかったじゃないか。\""
     },
     {
         "en_raw": "\"Maybe it WAS that easy, all this time!!!\"",
         "en_clean": "\"Maybe it WAS that easy, all this time!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"もしかすると、それほど簡単なことかもしれないんだ！！！\"",
+        "jp_clean": "\"もしかすると、それほど簡単なことかもしれないんだ！！！\""
     },
     {
         "en_raw": "No, I...",
@@ -5408,8 +5432,8 @@
     {
         "en_raw": "\"Why?\"",
         "en_clean": "\"Why?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして？\"",
+        "jp_clean": "\"どうして？\""
     },
     {
         "en_raw": "Huh? Well, are you even sure you've never defeated the King yourself?",
@@ -5426,26 +5450,26 @@
     {
         "en_raw": "\"'It must've happened once or twice'?\"",
         "en_clean": "\"'It must've happened once or twice'?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"一度や二度はあったはず？\"",
+        "jp_clean": "\"一度や二度はあったはず？\""
     },
     {
         "en_raw": "\"I'm certain I never defeated him myself.\"",
         "en_clean": "\"I'm certain I never defeated him myself.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は一度も、王に最後の一撃を与えたことはない。\"",
+        "jp_clean": "\"僕は一度も、王に最後の一撃を与えたことはない。\""
     },
     {
         "en_raw": "\"And yet...\"",
         "en_clean": "\"And yet...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それなのに...\"",
+        "jp_clean": "\"それなのに...\""
     },
     {
         "en_raw": "\"How can you say it with certainty?\"",
         "en_clean": "\"How can you say it with certainty?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうしてそんなにはっきりと断言できるんだ？\"",
+        "jp_clean": "\"どうしてそんなにはっきりと断言できるんだ？\""
     },
     {
         "en_raw": "",
@@ -5456,8 +5480,8 @@
     {
         "en_raw": "\"Do you know something?\"",
         "en_clean": "\"Do you know something?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"何か知っているのか？\"",
+        "jp_clean": "\"何か知っているのか？\""
     },
     {
         "en_raw": "N-No, I don't know any more than you, stardust!!!",
@@ -5521,9 +5545,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5594,44 +5620,44 @@
     {
         "en_raw": "\"THEN WHAT ELSE, LOOP?!?\"",
         "en_clean": "\"THEN WHAT ELSE, LOOP?!?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"じゃあ、何が原因なんだ？！？\"",
+        "jp_clean": "\"じゃあ、何が原因なんだ？！？\""
     },
     {
         "en_raw": "\"WHAT ELSE AM I SUPPOSED TO DO? WHAT ELSE AM I SUPPOSED TO TRY?!\"",
         "en_clean": "\"WHAT ELSE AM I SUPPOSED TO DO? WHAT ELSE AM I SUPPOSED TO TRY?!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕はどうすればいい？ 何を試せばいいい！？\"",
+        "jp_clean": "\"僕はどうすればいい？ 何を試せばいいい！？\""
     },
     {
         "en_raw": "\"SHOULD I MAKE EVERYONE COME WITH ME? SHOULD I RELY ON THE POWER OF LOVE?\"",
         "en_clean": "\"SHOULD I MAKE EVERYONE COME WITH ME? SHOULD I RELY ON THE POWER OF LOVE?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんなを僕に同行させるべきなのか？ 愛の力を信じるべきなのか？\"",
+        "jp_clean": "\"みんなを僕に同行させるべきなのか？ 愛の力を信じるべきなのか？\""
     },
     {
         "en_raw": "\"SHOULD I TALK TO THE KING? THE HEAD HOUSEMAIDEN?\"",
         "en_clean": "\"SHOULD I TALK TO THE KING? THE HEAD HOUSEMAIDEN?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王と話すべきか？ 侍祭長と話すべきか？\"",
+        "jp_clean": "\"王と話すべきか？ 侍祭長と話すべきか？\""
     },
     {
         "en_raw": "\"SHOULD I DIE? SHOULD EVERYONE DIE? WHAT? WHAT ELSE IS THERE? HAVEN'T I DONE IT ALL?!?\"",
         "en_clean": "\"SHOULD I DIE? SHOULD EVERYONE DIE? WHAT? WHAT ELSE IS THERE? HAVEN'T I DONE IT ALL?!?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕が死ねばいいのか？ みんなが死ねばいいのか？ なんだ？ 他に何がある？ 何かしていないことがまだあるか？！？\"",
+        "jp_clean": "\"僕が死ねばいいのか？ みんなが死ねばいいのか？ なんだ？ 他に何がある？ 何かしていないことがまだあるか？！？\""
     },
     {
         "en_raw": "\"THERE'S NOTHING ELSE, LOOP!!! I KNOW IT'S STUPID, I KNOW IT'S A LONG SHOT, BUT IT HAS TO BE THIS!!!\"",
         "en_clean": "\"THERE'S NOTHING ELSE, LOOP!!! I KNOW IT'S STUPID, I KNOW IT'S A LONG SHOT, BUT IT HAS TO BE THIS!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ないんだよ、ループ！！！ バカげてるし、回りくどい方法だ。でも、これしかないんだ！！！\"",
+        "jp_clean": "\"ないんだよ、ループ！！！ バカげてるし、回りくどい方法だ。でも、これしかないんだ！！！\""
     },
     {
         "en_raw": "\"IT HAS TO BE THIS, LOOP, OR-- OR--\"",
         "en_clean": "\"IT HAS TO BE THIS, LOOP, OR-- OR--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"これしかないんだよ、ループ。あるいは――あるいは――\"",
+        "jp_clean": "\"これしかないんだよ、ループ。あるいは――あるいは――\""
     },
     {
         "en_raw": "(You fall to your knees.)",
@@ -5642,20 +5668,20 @@
     {
         "en_raw": "\"Or, or does it mean-- It means--\"",
         "en_clean": "\"Or, or does it mean-- It means--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あるいは、それが意味するのは――つまり――\"",
+        "jp_clean": "\"あるいは、それが意味するのは――つまり――\""
     },
     {
         "en_raw": "\"It means I'm stuck here for good, aren't I?\"",
         "en_clean": "\"It means I'm stuck here for good, aren't I?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は永遠にここから抜け出せないって、ことだ。\"",
+        "jp_clean": "\"僕は永遠にここから抜け出せないって、ことだ。\""
     },
     {
         "en_raw": "\"Forever?\"",
         "en_clean": "\"Forever?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"永久に？\"",
+        "jp_clean": "\"永久に？\""
     },
     {
         "en_raw": "...",
@@ -5874,26 +5900,26 @@
     {
         "en_raw": "\"Loop.\"",
         "en_clean": "\"Loop.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループ。\"",
+        "jp_clean": "\"ループ。\""
     },
     {
         "en_raw": "\"You knew.\"",
         "en_clean": "\"You knew.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"知っていたんだな。\"",
+        "jp_clean": "\"知っていたんだな。\""
     },
     {
         "en_raw": "\"You knew this whole time.\"",
         "en_clean": "\"You knew this whole time.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ずっと、分かっていたんだ。\"",
+        "jp_clean": "\"ずっと、分かっていたんだ。\""
     },
     {
         "en_raw": "\"You knew this whole time there was no escape.\"",
         "en_clean": "\"You knew this whole time there was no escape.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"抜け出せることはないって、最初から分かっていたんだろ。\"",
+        "jp_clean": "\"抜け出せることはないって、最初から分かっていたんだろ。\""
     },
     {
         "en_raw": "<span class=\"shake\">\n . . .\n</span>",
@@ -5932,8 +5958,8 @@
     {
         "en_raw": "\"Why didn't you tell me?\"",
         "en_clean": "\"Why didn't you tell me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして言わなかった？\"",
+        "jp_clean": "\"どうして言わなかった？\""
     },
     {
         "en_raw": "<span class=\"shake\">\n ...\n</span>",
@@ -6128,8 +6154,8 @@
     {
         "en_raw": "\"Why did you lie to me?\"",
         "en_clean": "\"Why did you lie to me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして僕にうそを？\"",
+        "jp_clean": "\"どうして僕にうそを？\""
     },
     {
         "en_raw": "<span class=\"shake\">\n I-I didn't...\n</span>",
@@ -6146,8 +6172,8 @@
     {
         "en_raw": "\"You knew there was no way to break the loops?\"",
         "en_clean": "\"You knew there was no way to break the loops?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループを壊す方法はないって、知っていたな？\"",
+        "jp_clean": "\"ループを壊す方法はないって、知っていたな？\""
     },
     {
         "en_raw": "<span class=\"shake\">\n I thought that if we tried, together, w-we'd--\n</span>",
@@ -6158,20 +6184,20 @@
     {
         "en_raw": "\"YOU KNEW.\"",
         "en_clean": "\"YOU KNEW.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"知っていたんだな。\"",
+        "jp_clean": "\"知っていたんだな。\""
     },
     {
         "en_raw": "\"YOU KNEW!!!!!!\"",
         "en_clean": "\"YOU KNEW!!!!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"知っていたんだろ！！！\"",
+        "jp_clean": "\"知っていたんだろ！！！\""
     },
     {
         "en_raw": "\"YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW THIS ENTIRE TIME!!!!!!!!!!!!\"",
         "en_clean": "\"YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW THIS ENTIRE TIME!!!!!!!!!!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"知ってた、知ってた、きみは、知ってた、知ってたんだ、ずっと、ずっと分かってたんだろ！！！！！！\"",
+        "jp_clean": "\"知ってた、知ってた、きみは、知ってた、知ってたんだ、ずっと、ずっと分かってたんだろ！！！！！！\""
     },
     {
         "en_raw": "<span class=\"shake\">\n Stardust--\n</span>",
@@ -6182,20 +6208,20 @@
     {
         "en_raw": "\"DID YOU HAVE FUN, LOOP?\"",
         "en_clean": "\"DID YOU HAVE FUN, LOOP?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"楽しかったか、ループ？\"",
+        "jp_clean": "\"楽しかったか、ループ？\""
     },
     {
         "en_raw": "\"WAS IT ENTERTAINING, AT LEAST? WAS IT FUNNY?\"",
         "en_clean": "\"WAS IT ENTERTAINING, AT LEAST? WAS IT FUNNY?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"せめて、愉快だったか？ 楽しめたか？\"",
+        "jp_clean": "\"せめて、愉快だったか？ 楽しめたか？\""
     },
     {
         "en_raw": "\"DID YOU LIKE WATCHING ME RUN AROUND IN CIRCLES, HOPING, WISHING?\"",
         "en_clean": "\"DID YOU LIKE WATCHING ME RUN AROUND IN CIRCLES, HOPING, WISHING?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕が望みや願いを持ちながら、同じところをグルグルまわっているのを見て、楽しんでいたのか？\"",
+        "jp_clean": "\"僕が望みや願いを持ちながら、同じところをグルグルまわっているのを見て、楽しんでいたのか？\""
     },
     {
         "en_raw": "\"DID YOU LIKE THE SHOW?!?",
@@ -6236,8 +6262,8 @@
     {
         "en_raw": "\"Curse you, Loop.\"",
         "en_clean": "\"Curse you, Loop.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いい加減にしろよ、ループ。\"",
+        "jp_clean": "\"いい加減にしろよ、ループ。\""
     },
     {
         "en_raw": ". . .",

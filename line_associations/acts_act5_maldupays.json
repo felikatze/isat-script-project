@@ -113,9 +113,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -263,9 +265,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -395,9 +399,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -521,9 +527,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1696,8 +1704,14 @@
     {
         "en_raw": "<span class=\"shake\">\n (no)\n</span>",
         "en_clean": "(no)",
-        "jp_raw": "\\m[clear]\\shake(違う)",
-        "jp_clean": "(違う)"
+        "jp_raw": [
+            "\\m[clear]\\shake(違う)",
+            "(いいえ)"
+        ],
+        "jp_clean": [
+            "(違う)",
+            "(いいえ)"
+        ]
     },
     {
         "en_raw": "(THEY HATE YOU)",
@@ -1750,8 +1764,14 @@
     {
         "en_raw": "<span class=\"shake\">\n (no)\n</span>",
         "en_clean": "(no)",
-        "jp_raw": "\\m[clear]\\shake(違う)",
-        "jp_clean": "(違う)"
+        "jp_raw": [
+            "\\m[clear]\\shake(違う)",
+            "(いいえ)"
+        ],
+        "jp_clean": [
+            "(違う)",
+            "(いいえ)"
+        ]
     },
     {
         "en_raw": "(YOU CAN WISH AND WISH AND WISH ALL YOU WANT, BUT IT'S INEVITABLE)",

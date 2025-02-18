@@ -14,14 +14,14 @@
     {
         "en_raw": "\"When I was fighting the King.\"",
         "en_clean": "\"When I was fighting the King.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王と戦っていたときだ。\"",
+        "jp_clean": "\"王と戦っていたときだ。\""
     },
     {
         "en_raw": "\"A shade that doesn't exist.\"",
         "en_clean": "\"A shade that doesn't exist.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"存在しない陰影だ。\"",
+        "jp_clean": "\"存在しない陰影だ。\""
     },
     {
         "en_raw": "A shade that doesn't exist...",
@@ -254,14 +254,14 @@
     {
         "en_raw": "\"When I was fighting the King.\"",
         "en_clean": "\"When I was fighting the King.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王と戦っていたときだ。\"",
+        "jp_clean": "\"王と戦っていたときだ。\""
     },
     {
         "en_raw": "\"A shade that doesn't exist.\"",
         "en_clean": "\"A shade that doesn't exist.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"存在しない陰影だ。\"",
+        "jp_clean": "\"存在しない陰影だ。\""
     },
     {
         "en_raw": "Like... A \"color\"?",
@@ -486,8 +486,8 @@
     {
         "en_raw": "\"Is there a way to see colors now?\"",
         "en_clean": "\"Is there a way to see colors now?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"色を見る方法はあるの？\"",
+        "jp_clean": "\"色を見る方法はあるの？\""
     },
     {
         "en_raw": "Funny you should mention it... People have been known to see a \"weird shade\" during...",
@@ -623,9 +623,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

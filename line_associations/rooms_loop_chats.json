@@ -2,8 +2,8 @@
     {
         "en_raw": "\"Are you getting on my nerves on purpose?\"",
         "en_clean": "\"Are you getting on my nerves on purpose?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"わざと僕の神経を逆なでているのか？\"",
+        "jp_clean": "\"わざと僕の神経を逆なでているのか？\""
     },
     {
         "en_raw": "Yes, I actually manufactured this personality especially to get on your nerves, stardust!",
@@ -26,8 +26,8 @@
     {
         "en_raw": "\"Can you read my thoughts?\"",
         "en_clean": "\"Can you read my thoughts?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕の思考が読めるのか？\"",
+        "jp_clean": "\"僕の思考が読めるのか？\""
     },
     {
         "en_raw": "Nah, I just have very good intuition!",
@@ -62,8 +62,8 @@
     {
         "en_raw": "\"Why 'stardust'?\"",
         "en_clean": "\"Why 'stardust'?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうして僕を「星くず」と？\"",
+        "jp_clean": "\"どうして僕を「星くず」と？\""
     },
     {
         "en_raw": ". . . Because you're what's left, I suppose.",
@@ -104,8 +104,8 @@
     {
         "en_raw": "\"What do you do, when I'm not here?\"",
         "en_clean": "\"What do you do, when I'm not here?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕がいないとき、きみは何をしているんだ？\"",
+        "jp_clean": "\"僕がいないとき、きみは何をしているんだ？\""
     },
     {
         "en_raw": "Excuse you, my life doesn't revolve around you! I do loads of things while you're gone.",
@@ -122,8 +122,8 @@
     {
         "en_raw": "\"What do you dream about?\"",
         "en_clean": "\"What do you dream about?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"なんの夢を見るんだ？\"",
+        "jp_clean": "\"なんの夢を見るんだ？\""
     },
     {
         "en_raw": "...",
@@ -377,9 +377,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -515,9 +517,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -737,9 +741,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -863,9 +869,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1023,9 +1031,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1108,8 +1118,8 @@
     {
         "en_raw": "\"You're under the Favor Tree, so...?\"",
         "en_clean": "\"You're under the Favor Tree, so...?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"願いの木の下にいるから...？\"",
+        "jp_clean": "\"願いの木の下にいるから...？\""
     },
     {
         "en_raw": "Ha!",
@@ -1193,9 +1203,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1723,9 +1735,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1867,9 +1881,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2017,9 +2033,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2333,9 +2351,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2649,9 +2669,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2776,8 +2798,8 @@
     {
         "en_raw": "\"Am I right?\"",
         "en_clean": "\"Am I right?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"合ってる？\"",
+        "jp_clean": "\"合ってる？\""
     },
     {
         "en_raw": "HAHAHAHAHAHAHA!!!!!!!",
@@ -2883,9 +2905,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2956,8 +2980,8 @@
     {
         "en_raw": "\"Same vibe...?\"",
         "en_clean": "\"Same vibe...?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"同じような雰囲気だから...？\"",
+        "jp_clean": "\"同じような雰囲気だから...？\""
     },
     {
         "en_raw": "Hmmm?",
@@ -3033,9 +3057,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3171,9 +3197,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3238,14 +3266,14 @@
     {
         "en_raw": "\"I don't need to know who you really are or anything.\"",
         "en_clean": "\"I don't need to know who you really are or anything.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみの正体を知る必要はない。\"",
+        "jp_clean": "\"きみの正体を知る必要はない。\""
     },
     {
         "en_raw": "\"You're Loop, and you're helping. I don't care about the rest.\"",
         "en_clean": "\"You're Loop, and you're helping. I don't care about the rest.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみはループだ。僕を手伝ってくれてる。他のことはどうでもいい。\"",
+        "jp_clean": "\"きみはループだ。僕を手伝ってくれてる。他のことはどうでもいい。\""
     },
     {
         "en_raw": "...",
@@ -3499,9 +3527,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3883,9 +3913,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3998,8 +4030,8 @@
     {
         "en_raw": "\"And what would happen if you saw them?\"",
         "en_clean": "\"And what would happen if you saw them?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみがみんなの姿を見たら、どうなる？\"",
+        "jp_clean": "\"きみがみんなの姿を見たら、どうなる？\""
     },
     {
         "en_raw": "...",
@@ -4242,14 +4274,14 @@
     {
         "en_raw": "\"I dunno, you just act weird every time I talk about them.\"",
         "en_clean": "\"I dunno, you just act weird every time I talk about them.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だって、僕がみんなのことを話すとき、態度が変だから。\"",
+        "jp_clean": "\"だって、僕がみんなのことを話すとき、態度が変だから。\""
     },
     {
         "en_raw": "\"Like...\"",
         "en_clean": "\"Like...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"たとえば...\"",
+        "jp_clean": "\"たとえば...\""
     },
     {
         "en_raw": "Like what? Like I'm your partner, waiting at home, and when I finally get to talk to you, all you can talk about is the fun you're having with other people?!?",
@@ -4278,8 +4310,8 @@
     {
         "en_raw": "\"Uh huh.\"",
         "en_clean": "\"Uh huh.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"へーえ。\"",
+        "jp_clean": "\"へーえ。\""
     },
     {
         "en_raw": "Shut your mouth.",
@@ -4318,8 +4350,8 @@
     {
         "en_raw": "\"The King really likes stars.\"",
         "en_clean": "\"The King really likes stars.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王は本当に星が好きなんだな。\"",
+        "jp_clean": "\"王は本当に星が好きなんだな。\""
     },
     {
         "en_raw": "He sure does!",
@@ -4330,8 +4362,8 @@
     {
         "en_raw": "\"And you're...\"",
         "en_clean": "\"And you're...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それにきみは...\"",
+        "jp_clean": "\"それにきみは...\""
     },
     {
         "en_raw": "Hm? I'm what?",
@@ -4408,8 +4440,8 @@
     {
         "en_raw": "\"Someti--\"",
         "en_clean": "\"Someti--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"たまに――\"",
+        "jp_clean": "\"たまに――\""
     },
     {
         "en_raw": "And what, just because the King likes stars and I have a star head means we have to be friends somehow?!?",
@@ -4479,9 +4511,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4540,8 +4574,8 @@
     {
         "en_raw": "\"It's complicated.\"",
         "en_clean": "\"It's complicated.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"複雑なんだ。\"",
+        "jp_clean": "\"複雑なんだ。\""
     },
     {
         "en_raw": "Exactly!!!",
@@ -4605,9 +4639,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4898,8 +4934,8 @@
     {
         "en_raw": "\"But I don't mind if you stay silent for a bit, too, you know.\"",
         "en_clean": "\"But I don't mind if you stay silent for a bit, too, you know.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど、きみが黙っていても僕は構わないよ。\"",
+        "jp_clean": "\"だけど、きみが黙っていても僕は構わないよ。\""
     },
     {
         "en_raw": "Heh, alright!",
@@ -4928,8 +4964,8 @@
     {
         "en_raw": "\"I like to listen to people talk. I don't mind if you talk a lot.\"",
         "en_clean": "\"I like to listen to people talk. I don't mind if you talk a lot.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は人の話を聞くのが好きなんだ。きみがずっと話していても構わないよ。\"",
+        "jp_clean": "\"僕は人の話を聞くのが好きなんだ。きみがずっと話していても構わないよ。\""
     },
     {
         "en_raw": "...",
@@ -5247,9 +5283,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5340,8 +5378,8 @@
     {
         "en_raw": "\"It is so.\"",
         "en_clean": "\"It is so.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"本当だ。\"",
+        "jp_clean": "\"本当だ。\""
     },
     {
         "en_raw": "(You just like to twirl it, flip it, or interact with it every once in a while.)",
@@ -5431,9 +5469,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5741,9 +5781,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5885,9 +5927,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -6059,9 +6103,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -6228,8 +6274,8 @@
     {
         "en_raw": "\"Huh?\"",
         "en_clean": "\"Huh?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"は？\"",
+        "jp_clean": "\"は？\""
     },
     {
         "en_raw": "...",
@@ -6436,20 +6482,20 @@
     {
         "en_raw": "\"Well, like...\"",
         "en_clean": "\"Well, like...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そうだな、たとえば...\"",
+        "jp_clean": "\"そうだな、たとえば...\""
     },
     {
         "en_raw": "\"Like...\"",
         "en_clean": "\"Like...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"たとえば...\"",
+        "jp_clean": "\"たとえば...\""
     },
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "(...)",
@@ -6507,9 +6553,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -7023,9 +7071,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -7348,8 +7398,8 @@
     {
         "en_raw": "\"You're also here, with me.\"",
         "en_clean": "\"You're also here, with me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみも、ここにいる。僕と一緒だ。\"",
+        "jp_clean": "\"きみも、ここにいる。僕と一緒だ。\""
     },
     {
         "en_raw": "...!",
@@ -7386,8 +7436,8 @@
     {
         "en_raw": "\"Did you know your eyes have different shades?\"",
         "en_clean": "\"Did you know your eyes have different shades?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみの目、左右で明るさが違うって知ってた？\"",
+        "jp_clean": "\"きみの目、左右で明るさが違うって知ってた？\""
     },
     {
         "en_raw": "They... They do?",
@@ -7398,8 +7448,14 @@
     {
         "en_raw": "(Yeah.)",
         "en_clean": "(Yeah.)",
-        "jp_raw": "\\m[clear](ああ、そうだ。)",
-        "jp_clean": "(ああ、そうだ。)"
+        "jp_raw": [
+            "\\m[clear](ああ、そうだ。)",
+            "(そうしよう。)"
+        ],
+        "jp_clean": [
+            "(ああ、そうだ。)",
+            "(そうしよう。)"
+        ]
     },
     {
         "en_raw": "(You can barely see it most of the time, but you've been looking at Loop's face for a while, now.)",
@@ -7503,9 +7559,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -7896,8 +7954,8 @@
     {
         "en_raw": "\"What's the difference between looping with a Tear, and looping because of my dagger?\"",
         "en_clean": "\"What's the difference between looping with a Tear, and looping because of my dagger?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"涙のしずくで時間をループさせることと、ダガーで時間をループさせることの違いは何？\"",
+        "jp_clean": "\"涙のしずくで時間をループさせることと、ダガーで時間をループさせることの違いは何？\""
     },
     {
         "en_raw": "Oh!",
@@ -8061,9 +8119,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -8128,8 +8188,8 @@
     {
         "en_raw": "\"What's the difference between looping with a Tear, and looping because of my dagger?\"",
         "en_clean": "\"What's the difference between looping with a Tear, and looping because of my dagger?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"涙のしずくで時間をループさせることと、ダガーで時間をループさせることの違いは何？\"",
+        "jp_clean": "\"涙のしずくで時間をループさせることと、ダガーで時間をループさせることの違いは何？\""
     },
     {
         "en_raw": ". . .",
@@ -8223,9 +8283,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -8349,9 +8411,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -8452,8 +8516,8 @@
     {
         "en_raw": "\"It's faster.\"",
         "en_clean": "\"It's faster.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"素早くできるから。\"",
+        "jp_clean": "\"素早くできるから。\""
     },
     {
         "en_raw": "Ha, it sure is.",
@@ -8952,8 +9016,8 @@
     {
         "en_raw": "\"I don't control them!\"",
         "en_clean": "\"I don't control them!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんなをコントロールしてるわけじゃない！\"",
+        "jp_clean": "\"みんなをコントロールしてるわけじゃない！\""
     },
     {
         "en_raw": "You control their responses, stardust.",
@@ -8976,8 +9040,8 @@
     {
         "en_raw": "\"I-- I don't--\"",
         "en_clean": "\"I-- I don't--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は――そんなこと――\"",
+        "jp_clean": "\"僕は――そんなこと――\""
     },
     {
         "en_raw": "Do you even see them as people you knew, anymore?",
@@ -9006,8 +9070,8 @@
     {
         "en_raw": "\"SHUT UP!!!\"",
         "en_clean": "\"SHUT UP!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"黙れっ！！！\"",
+        "jp_clean": "\"黙れっ！！！\""
     },
     {
         "en_raw": "(You breathe harshly.)",
@@ -9095,9 +9159,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -9346,14 +9412,14 @@
     {
         "en_raw": "\"If I'm the director...\"",
         "en_clean": "\"If I'm the director...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕が演出家だとしたら...\"",
+        "jp_clean": "\"僕が演出家だとしたら...\""
     },
     {
         "en_raw": "\"What does that make you?\"",
         "en_clean": "\"What does that make you?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみはなんなんだ？\"",
+        "jp_clean": "\"きみはなんなんだ？\""
     },
     {
         "en_raw": ". . .",
@@ -9429,9 +9495,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -9610,14 +9678,14 @@
     {
         "en_raw": "\"We used up all the conversations we had available to us?\"",
         "en_clean": "\"We used up all the conversations we had available to us?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"もう、話せることはすべて話したってこと？\"",
+        "jp_clean": "\"もう、話せることはすべて話したってこと？\""
     },
     {
         "en_raw": "\"We can't talk, anymore?\"",
         "en_clean": "\"We can't talk, anymore?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕たちはもう話せないのか？\"",
+        "jp_clean": "\"僕たちはもう話せないのか？\""
     },
     {
         "en_raw": "...",
@@ -9883,9 +9951,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -10140,26 +10210,26 @@
     {
         "en_raw": "\"Thank you, Loop, for chatting with me.\"",
         "en_clean": "\"Thank you, Loop, for chatting with me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ありがとう、ループ。話せてよかった。\"",
+        "jp_clean": "\"ありがとう、ループ。話せてよかった。\""
     },
     {
         "en_raw": "\"You can be a pain, and annoying...\"",
         "en_clean": "\"You can be a pain, and annoying...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみは悩みの種だし、ウザいけど...\"",
+        "jp_clean": "\"きみは悩みの種だし、ウザいけど...\""
     },
     {
         "en_raw": "\"But... I really enjoyed our chats.\"",
         "en_clean": "\"But... I really enjoyed our chats.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でも... おしゃべりは楽しかったよ。\"",
+        "jp_clean": "\"でも... おしゃべりは楽しかったよ。\""
     },
     {
         "en_raw": "\"So... Thank you.\"",
         "en_clean": "\"So... Thank you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だから... 感謝してる。\"",
+        "jp_clean": "\"だから... 感謝してる。\""
     },
     {
         "en_raw": "...!",

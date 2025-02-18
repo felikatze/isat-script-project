@@ -208,8 +208,8 @@
     {
         "en_raw": "\"I'm a growing kid.\"",
         "en_clean": "\"I'm a growing kid.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"成長期だからね。\"",
+        "jp_clean": "\"成長期だからね。\""
     },
     {
         "en_raw": "A growing kid that drinks alcohol?!?",
@@ -452,8 +452,8 @@
     {
         "en_raw": "\"I'm just not very hungry.\"",
         "en_clean": "\"I'm just not very hungry.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あんまりお腹が空いてなかったんだよ。\"",
+        "jp_clean": "\"あんまりお腹が空いてなかったんだよ。\""
     },
     {
         "en_raw": "But you're always hungry?!?",
@@ -566,8 +566,8 @@
     {
         "en_raw": "\"No... How could this happen...\"",
         "en_clean": "\"No... How could this happen...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そんな... なぜこんなことに...\"",
+        "jp_clean": "\"そんな... なぜこんなことに...\""
     },
     {
         "en_raw": "Hehehe...",
@@ -1039,9 +1039,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1242,8 +1244,8 @@
     {
         "en_raw": "\"Okay.\"",
         "en_clean": "\"Okay.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"分かった。\"",
+        "jp_clean": "\"分かった。\""
     },
     {
         "en_raw": "...  Okay!",
@@ -1266,8 +1268,8 @@
     {
         "en_raw": "\"Okay.\"",
         "en_clean": "\"Okay.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"分かった。\"",
+        "jp_clean": "\"分かった。\""
     },
     {
         "en_raw": "...  Okay!",
@@ -1284,8 +1286,8 @@
     {
         "en_raw": "\"Can't you tell me now?\"",
         "en_clean": "\"Can't you tell me now?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今は言えないの？\"",
+        "jp_clean": "\"今は言えないの？\""
     },
     {
         "en_raw": "Well, no, it doesn't work like that, sill--",
@@ -1367,9 +1369,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1428,8 +1432,8 @@
     {
         "en_raw": "\"Okay.\"",
         "en_clean": "\"Okay.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"分かった。\"",
+        "jp_clean": "\"分かった。\""
     },
     {
         "en_raw": "...  Okay!",
@@ -1589,9 +1593,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

@@ -62,8 +62,8 @@
     {
         "en_raw": "\"Nah, nothing.\"",
         "en_clean": "\"Nah, nothing.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いや、なんでもない。\"",
+        "jp_clean": "\"いや、なんでもない。\""
     },
     {
         "en_raw": "See you later, stardust.",
@@ -140,8 +140,8 @@
     {
         "en_raw": "\"Mirabelle.\"",
         "en_clean": "\"Mirabelle.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ミラベルだ。\"",
+        "jp_clean": "\"ミラベルだ。\""
     },
     {
         "en_raw": "So your Housemaiden is hiding something? Some papers?",
@@ -254,8 +254,8 @@
     {
         "en_raw": "\"Isabeau.\"",
         "en_clean": "\"Isabeau.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"イザボーだ。\"",
+        "jp_clean": "\"イザボーだ。\""
     },
     {
         "en_raw": "Him, huh...",
@@ -601,9 +601,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -858,8 +860,8 @@
     {
         "en_raw": "\"Odile.\"",
         "en_clean": "\"Odile.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"オディール。\"",
+        "jp_clean": "\"オディール。\""
     },
     {
         "en_raw": "Her, huh...",
@@ -960,8 +962,8 @@
     {
         "en_raw": "\"Bonnie.\"",
         "en_clean": "\"Bonnie.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ボニー。\"",
+        "jp_clean": "\"ボニー。\""
     },
     {
         "en_raw": "Them, huh...",
@@ -1271,9 +1273,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1451,9 +1455,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1554,8 +1560,8 @@
     {
         "en_raw": "\"You don't agree?\"",
         "en_clean": "\"You don't agree?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみは反対？\"",
+        "jp_clean": "\"きみは反対？\""
     },
     {
         "en_raw": "He's a giant monster who might be related to the reason why you're trapped in time.",
@@ -1698,8 +1704,8 @@
     {
         "en_raw": "\"Most people don't know anything about the stars, do they...?\"",
         "en_clean": "\"Most people don't know anything about the stars, do they...?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"星について知ってる人なんて、ほとんどいないだろ...？\"",
+        "jp_clean": "\"星について知ってる人なんて、ほとんどいないだろ...？\""
     },
     {
         "en_raw": "They sure don't. You barely do, most of the time, don't you? But then...",
@@ -1775,9 +1781,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2206,8 +2214,8 @@
     {
         "en_raw": "\"...Why is he so focused on Vaugarde?\"",
         "en_clean": "\"...Why is he so focused on Vaugarde?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...どうしてこんなに、ヴォーガルドにこだわる？\"",
+        "jp_clean": "\"...どうしてこんなに、ヴォーガルドにこだわる？\""
     },
     {
         "en_raw": "Exactly. Why freeze Vaugarde in time, specifically?",
@@ -2218,8 +2226,8 @@
     {
         "en_raw": "\"We know he appeared in Vaugarde in his adulthood.\"",
         "en_clean": "\"We know he appeared in Vaugarde in his adulthood.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王がヴォーガルドに来たのは、大人になってからだ。\"",
+        "jp_clean": "\"王がヴォーガルドに来たのは、大人になってからだ。\""
     },
     {
         "en_raw": "In the city of Corbeaux, right?",
@@ -2236,14 +2244,14 @@
     {
         "en_raw": "\"He said, earlier...\"",
         "en_clean": "\"He said, earlier...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王は言ってた...\"",
+        "jp_clean": "\"王は言ってた...\""
     },
     {
         "en_raw": "\"He thought Vaugarde was perfect.\"",
         "en_clean": "\"He thought Vaugarde was perfect.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ヴォーガルドは完璧だ、って。\"",
+        "jp_clean": "\"ヴォーガルドは完璧だ、って。\""
     },
     {
         "en_raw": "Perfect... And yet he wanted to freeze it in time.",
@@ -2520,8 +2528,8 @@
     {
         "en_raw": "\"You still disagree?\"",
         "en_clean": "\"You still disagree?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループはまだ反対？\"",
+        "jp_clean": "\"ループはまだ反対？\""
     },
     {
         "en_raw": "I... I don't...",
@@ -2609,9 +2617,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2694,14 +2704,14 @@
     {
         "en_raw": "\"Loop...\"",
         "en_clean": "\"Loop...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループ...\"",
+        "jp_clean": "\"ループ...\""
     },
     {
         "en_raw": "\"I have to talk to him, one last time.\"",
         "en_clean": "\"I have to talk to him, one last time.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"最後にもう一度だけ、王と話したい。\"",
+        "jp_clean": "\"最後にもう一度だけ、王と話したい。\""
     },
     {
         "en_raw": ". . .",
@@ -2712,14 +2722,14 @@
     {
         "en_raw": "\"The King is trying to remember our country, trying to keep Vaugarde from meeting the same fate.\"",
         "en_clean": "\"The King is trying to remember our country, trying to keep Vaugarde from meeting the same fate.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"王は僕たちの国が記憶に留まるようにしようとしている。ヴォーガルドが同じ運命をたどらないようにしている。\"",
+        "jp_clean": "\"王は僕たちの国が記憶に留まるようにしようとしている。ヴォーガルドが同じ運命をたどらないようにしている。\""
     },
     {
         "en_raw": "\"He's deluded, he can't bring it back, but... But...\"",
         "en_clean": "\"He's deluded, he can't bring it back, but... But...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だまされてるんだ。元には戻せないのに。でも... だけど...\"",
+        "jp_clean": "\"だまされてるんだ。元には戻せないのに。でも... だけど...\""
     },
     {
         "en_raw": "But you have to try.",
@@ -3142,8 +3152,8 @@
     {
         "en_raw": "\"Were you from there, too?\"",
         "en_clean": "\"Were you from there, too?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみもあの国の出身なのか？\"",
+        "jp_clean": "\"きみもあの国の出身なのか？\""
     },
     {
         "en_raw": ". . .",

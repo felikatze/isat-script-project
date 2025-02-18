@@ -62,8 +62,8 @@
     {
         "en_raw": "\"I, uh, I just wasn't--\"",
         "en_clean": "\"I, uh, I just wasn't--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あ、ちょっと不注意で――\"",
+        "jp_clean": "\"あ、ちょっと不注意で――\""
     },
     {
         "en_raw": "Ha! Don't worry, you're good.",
@@ -223,9 +223,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -349,9 +351,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1120,8 +1124,8 @@
     {
         "en_raw": "\"You're also here, with me.\"",
         "en_clean": "\"You're also here, with me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみも、ここにいる。僕と一緒だ。\"",
+        "jp_clean": "\"きみも、ここにいる。僕と一緒だ。\""
     },
     {
         "en_raw": "...!",

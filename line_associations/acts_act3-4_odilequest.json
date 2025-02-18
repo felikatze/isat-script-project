@@ -38,8 +38,8 @@
     {
         "en_raw": "\"Odile.\"",
         "en_clean": "\"Odile.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"オディール。\"",
+        "jp_clean": "\"オディール。\""
     },
     {
         "en_raw": "Oh, Siffrin.",
@@ -104,8 +104,8 @@
     {
         "en_raw": "\"A 'type' of book? Not a specific book?\"",
         "en_clean": "\"A 'type' of book? Not a specific book?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ある「種類」の本？ 特定の本じゃなく？\"",
+        "jp_clean": "\"ある「種類」の本？ 特定の本じゃなく？\""
     },
     {
         "en_raw": "No, not a specific book.",
@@ -122,8 +122,8 @@
     {
         "en_raw": "\"Nope. What is it?\"",
         "en_clean": "\"Nope. What is it?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ううん。何それ？\"",
+        "jp_clean": "\"ううん。何それ？\""
     },
     {
         "en_raw": "It's a book filled with tales written by a single family, through generations. It's a tradition, in Vaugarde.",
@@ -186,8 +186,8 @@
     {
         "en_raw": "\"So you'd like a familytale of a family that died off?\"",
         "en_clean": "\"So you'd like a familytale of a family that died off?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"つまり、滅んだ一族の「一族の物語」を探してるの？\"",
+        "jp_clean": "\"つまり、滅んだ一族の「一族の物語」を探してるの？\""
     },
     {
         "en_raw": "Yes.",
@@ -1048,8 +1048,8 @@
     {
         "en_raw": "\"I was, but it's fine.\"",
         "en_clean": "\"I was, but it's fine.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"探してたけど、もういいんだ。\"",
+        "jp_clean": "\"探してたけど、もういいんだ。\""
     },
     {
         "en_raw": "Hey, are you ignoring us? What's happening? Is this another secret quest?!?",
@@ -1132,8 +1132,8 @@
     {
         "en_raw": "\"Odile.\"",
         "en_clean": "\"Odile.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"オディール。\"",
+        "jp_clean": "\"オディール。\""
     },
     {
         "en_raw": "Oh, Siffrin.",
@@ -1198,8 +1198,8 @@
     {
         "en_raw": "\"A 'type' of book? Not a specific book?\"",
         "en_clean": "\"A 'type' of book? Not a specific book?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ある「種類」の本？ 特定の本じゃなく？\"",
+        "jp_clean": "\"ある「種類」の本？ 特定の本じゃなく？\""
     },
     {
         "en_raw": "No, not a specific book.",
@@ -1274,8 +1274,8 @@
     {
         "en_raw": "\"So you'd like a familytale of a family that died off?\"",
         "en_clean": "\"So you'd like a familytale of a family that died off?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"つまり、滅んだ一族の「一族の物語」を探してるの？\"",
+        "jp_clean": "\"つまり、滅んだ一族の「一族の物語」を探してるの？\""
     },
     {
         "en_raw": "Yes.",
@@ -1658,8 +1658,8 @@
     {
         "en_raw": "\"What about you? Do you know where the book is?\"",
         "en_clean": "\"What about you? Do you know where the book is?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみはどう？ 本がどこにあるか知ってる？\"",
+        "jp_clean": "\"きみはどう？ 本がどこにあるか知ってる？\""
     },
     {
         "en_raw": "A book?",
@@ -1716,8 +1716,8 @@
     {
         "en_raw": "\"Oh my!\"",
         "en_clean": "\"Oh my!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"驚いた！\"",
+        "jp_clean": "\"驚いた！\""
     },
     {
         "en_raw": ". . .So you had it, Charline...",
@@ -2898,8 +2898,8 @@
     {
         "en_raw": "\"Hi!\"",
         "en_clean": "\"Hi!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"こんにちは！\"",
+        "jp_clean": "\"こんにちは！\""
     },
     {
         "en_raw": "...",
@@ -3517,9 +3517,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3981,9 +3983,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4221,9 +4225,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4335,9 +4341,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4713,9 +4721,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4899,9 +4909,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5073,9 +5085,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5206,14 +5220,14 @@
     {
         "en_raw": "\"I...\"",
         "en_clean": "\"I...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は...\"",
+        "jp_clean": "\"僕は...\""
     },
     {
         "en_raw": "\"I don't remember much about where I'm from.\"",
         "en_clean": "\"I don't remember much about where I'm from.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は自分の故郷のことをほとんど覚えてないんだ。\"",
+        "jp_clean": "\"僕は自分の故郷のことをほとんど覚えてないんだ。\""
     },
     {
         "en_raw": "(Odile turns to look at you.)",
@@ -5342,20 +5356,20 @@
     {
         "en_raw": "\"Neither.\"",
         "en_clean": "\"Neither.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どちらでもない。\"",
+        "jp_clean": "\"どちらでもない。\""
     },
     {
         "en_raw": "\"But I can relate to you.\"",
         "en_clean": "\"But I can relate to you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でもオディールの気持ちは分かるよ。\"",
+        "jp_clean": "\"でもオディールの気持ちは分かるよ。\""
     },
     {
         "en_raw": "\"Trying to find pieces of yourself wherever you can.\"",
         "en_clean": "\"Trying to find pieces of yourself wherever you can.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どこであろうと、自分のかけらを見つけたい。\"",
+        "jp_clean": "\"どこであろうと、自分のかけらを見つけたい。\""
     },
     {
         "en_raw": "Trying to find where you belong?",
@@ -5372,8 +5386,8 @@
     {
         "en_raw": "\"Trying to find how your roots might have shaped you.\"",
         "en_clean": "\"Trying to find how your roots might have shaped you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"自分のルーツが、自分をどうやって形作ったのかを知りたい。\"",
+        "jp_clean": "\"自分のルーツが、自分をどうやって形作ったのかを知りたい。\""
     },
     {
         "en_raw": "Which parts of you you created, and which parts already were.",
@@ -5453,9 +5467,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5585,9 +5601,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5821,9 +5839,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -5957,9 +5977,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

@@ -8,8 +8,8 @@
     {
         "en_raw": "\"Bonnie...\"",
         "en_clean": "\"Bonnie...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ボニー...\"",
+        "jp_clean": "\"ボニー...\""
     },
     {
         "en_raw": "Huh? Huh? What's wrong?",
@@ -20,8 +20,8 @@
     {
         "en_raw": "\"I-I'm sorry for yesterday.\"",
         "en_clean": "\"I-I'm sorry for yesterday.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"き、昨日はごめん。\"",
+        "jp_clean": "\"き、昨日はごめん。\""
     },
     {
         "en_raw": "Oh, okay.",
@@ -38,20 +38,20 @@
     {
         "en_raw": "\"For, um, being mean.\"",
         "en_clean": "\"For, um, being mean.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だから、その、いじわるなこと言って。\"",
+        "jp_clean": "\"だから、その、いじわるなこと言って。\""
     },
     {
         "en_raw": "\"And trying to make you stronger and stuff.\"",
         "en_clean": "\"And trying to make you stronger and stuff.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、きみを強くしようとしたことも。\"",
+        "jp_clean": "\"それに、きみを強くしようとしたことも。\""
     },
     {
         "en_raw": "\"And making you cry.\"",
         "en_clean": "\"And making you cry.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"結局、ボニーを泣かせちゃった。\"",
+        "jp_clean": "\"結局、ボニーを泣かせちゃった。\""
     },
     {
         "en_raw": "OH!",
@@ -187,9 +187,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -350,8 +352,8 @@
     {
         "en_raw": "\"'Balances it out'.\"",
         "en_clean": "\"'Balances it out'.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"「おあいこ」だね。\"",
+        "jp_clean": "\"「おあいこ」だね。\""
     },
     {
         "en_raw": "Yeah, that!",
@@ -386,14 +388,14 @@
     {
         "en_raw": "\"I tried to protect you, and I did the exact opposite.\"",
         "en_clean": "\"I tried to protect you, and I did the exact opposite.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみを守ろうとしたのに、実際は正反対のことをしてしまった。\"",
+        "jp_clean": "\"きみを守ろうとしたのに、実際は正反対のことをしてしまった。\""
     },
     {
         "en_raw": "\"I shouldn't have done what I did.\"",
         "en_clean": "\"I shouldn't have done what I did.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"すべきではないことをしたんだ。\"",
+        "jp_clean": "\"すべきではないことをしたんだ。\""
     },
     {
         "en_raw": "Hm.",
@@ -446,8 +448,8 @@
     {
         "en_raw": "\"I'll try, Bonbon.\"",
         "en_clean": "\"I'll try, Bonbon.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そうするよ、ボンボン。\"",
+        "jp_clean": "\"そうするよ、ボンボン。\""
     },
     {
         "en_raw": "Yay!",
@@ -518,8 +520,8 @@
     {
         "en_raw": "\"Do you still carry snacks on you?\"",
         "en_clean": "\"Do you still carry snacks on you?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"おやつをまだ持ってる？\"",
+        "jp_clean": "\"おやつをまだ持ってる？\""
     },
     {
         "en_raw": "Yeah!!! I do!!!",
@@ -686,8 +688,8 @@
     {
         "en_raw": "\"I did!\"",
         "en_clean": "\"I did!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"なったよ！\"",
+        "jp_clean": "\"なったよ！\""
     },
     {
         "en_raw": "Hehehe... Good!",
@@ -716,14 +718,14 @@
     {
         "en_raw": "\"And, you know...\"",
         "en_clean": "\"And, you know...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それにね...\"",
+        "jp_clean": "\"それにね...\""
     },
     {
         "en_raw": "\"I didn't realize you were such an amazing cook, Bonbon.\"",
         "en_clean": "\"I didn't realize you were such an amazing cook, Bonbon.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみがこんなにすばらしい料理人だって、気づいてなかったよ、ボンボン。\"",
+        "jp_clean": "\"きみがこんなにすばらしい料理人だって、気づいてなかったよ、ボンボン。\""
     },
     {
         "en_raw": "Huh? What do you mean?",
@@ -744,14 +746,14 @@
     {
         "en_raw": "\"You prepared a whole lot of snacks, before.\"",
         "en_clean": "\"You prepared a whole lot of snacks, before.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみは事前にたくさんのおやつを準備した。\"",
+        "jp_clean": "\"きみは事前にたくさんのおやつを準備した。\""
     },
     {
         "en_raw": "\"You know so many recipes!\"",
         "en_clean": "\"You know so many recipes!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"レシピをいっぱい知ってるんだな！\"",
+        "jp_clean": "\"レシピをいっぱい知ってるんだな！\""
     },
     {
         "en_raw": "Oh!!!",
@@ -820,14 +822,14 @@
     {
         "en_raw": "\"I LOVED them, Bonbon!\"",
         "en_clean": "\"I LOVED them, Bonbon!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"とても気に入ったよ、ボンボン！\"",
+        "jp_clean": "\"とても気に入ったよ、ボンボン！\""
     },
     {
         "en_raw": "\"I loved them so much!!!\"",
         "en_clean": "\"I loved them so much!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"すごくおいしかった！！！\"",
+        "jp_clean": "\"すごくおいしかった！！！\""
     },
     {
         "en_raw": "REALLY?",
@@ -838,8 +840,8 @@
     {
         "en_raw": "\"REALLY!\"",
         "en_clean": "\"REALLY!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"本当だ！\"",
+        "jp_clean": "\"本当だ！\""
     },
     {
         "en_raw": "YEAH!!!!!!!!!!",
@@ -874,8 +876,8 @@
     {
         "en_raw": "\"If nothing else, I do remember that, right now.\"",
         "en_clean": "\"If nothing else, I do remember that, right now.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"他には覚えていなくても、それだけは覚えてるよ。\"",
+        "jp_clean": "\"他には覚えていなくても、それだけは覚えてるよ。\""
     },
     {
         "en_raw": "\"If nothing else\"...?",
@@ -886,14 +888,14 @@
     {
         "en_raw": "\"I'll tell you about that, one day, maybe.\"",
         "en_clean": "\"I'll tell you about that, one day, maybe.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いつか話してあげるよ。\"",
+        "jp_clean": "\"いつか話してあげるよ。\""
     },
     {
         "en_raw": "\"It would just be a lot to talk about, right now.\"",
         "en_clean": "\"It would just be a lot to talk about, right now.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"長い話になるから、また今度ね。\"",
+        "jp_clean": "\"長い話になるから、また今度ね。\""
     },
     {
         "en_raw": "Ah, yeah, adult stuff, I get it.",
@@ -946,8 +948,8 @@
     {
         "en_raw": "\"I talked to you about it before.\"",
         "en_clean": "\"I talked to you about it before.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"前にもきみに話したんだ。\"",
+        "jp_clean": "\"前にもきみに話したんだ。\""
     },
     {
         "en_raw": "Me? Oh, another Bonnie...",
@@ -1148,20 +1150,20 @@
     {
         "en_raw": "\"I got in front of that Sadness back then because I wanted to protect you.\"",
         "en_clean": "\"I got in front of that Sadness back then because I wanted to protect you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕はある時、哀し身の前に立ちはだかったんだ。ボニーを守るためだった。\"",
+        "jp_clean": "\"僕はある時、哀し身の前に立ちはだかったんだ。ボニーを守るためだった。\""
     },
     {
         "en_raw": "\"I didn't mean to get hurt, but if it's anyone's fault, it was mine.\"",
         "en_clean": "\"I didn't mean to get hurt, but if it's anyone's fault, it was mine.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"痛い目にあおうと思ってそうしたわけじゃない。だけど、誰のせいかと言ったら、僕のせいだ。\"",
+        "jp_clean": "\"痛い目にあおうと思ってそうしたわけじゃない。だけど、誰のせいかと言ったら、僕のせいだ。\""
     },
     {
         "en_raw": "\"It wasn't your fault, Bonnie.\"",
         "en_clean": "\"It wasn't your fault, Bonnie.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみのせいじゃなかったんだよ、ボニー。\"",
+        "jp_clean": "\"きみのせいじゃなかったんだよ、ボニー。\""
     },
     {
         "en_raw": "...",
@@ -1362,14 +1364,14 @@
     {
         "en_raw": "\"I'd still protect you.\"",
         "en_clean": "\"I'd still protect you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それでも、僕はきみを守るよ。\"",
+        "jp_clean": "\"それでも、僕はきみを守るよ。\""
     },
     {
         "en_raw": "\"But differently!\"",
         "en_clean": "\"But differently!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"違う方法でね！\"",
+        "jp_clean": "\"違う方法でね！\""
     },
     {
         "en_raw": "Differently?",
@@ -1380,8 +1382,8 @@
     {
         "en_raw": "\"I wouldn't get hurt, either!\"",
         "en_clean": "\"I wouldn't get hurt, either!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、けがしないようにする！\"",
+        "jp_clean": "\"それに、けがしないようにする！\""
     },
     {
         "en_raw": "Oh.",
@@ -1644,8 +1646,8 @@
     {
         "en_raw": "\"So I... I can't...\"",
         "en_clean": "\"So I... I can't...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だから... 約束は...\"",
+        "jp_clean": "\"だから... 約束は...\""
     },
     {
         "en_raw": "...",
@@ -1912,8 +1914,8 @@
     {
         "en_raw": "\"I'll super try.\"",
         "en_clean": "\"I'll super try.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"めちゃがんばるよ。\"",
+        "jp_clean": "\"めちゃがんばるよ。\""
     },
     {
         "en_raw": "Will you super duper try?!?",
@@ -1924,8 +1926,8 @@
     {
         "en_raw": "\"I'll super duper try!!!\"",
         "en_clean": "\"I'll super duper try!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"めちゃめちゃがんばるよ！！！\"",
+        "jp_clean": "\"めちゃめちゃがんばるよ！！！\""
     },
     {
         "en_raw": "Crab yeah!!!",
@@ -1972,8 +1974,8 @@
     {
         "en_raw": "\"I had a good teacher.\"",
         "en_clean": "\"I had a good teacher.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"やり手の先生がいたからね。\"",
+        "jp_clean": "\"やり手の先生がいたからね。\""
     },
     {
         "en_raw": "You had a teacher for hugs? That's weird.\n<br/>",
@@ -2022,8 +2024,8 @@
     {
         "en_raw": "\"None of us died.\"",
         "en_clean": "\"None of us died.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんな、死ななかったね。\"",
+        "jp_clean": "\"みんな、死ななかったね。\""
     },
     {
         "en_raw": "Yeah!",
@@ -2052,14 +2054,14 @@
     {
         "en_raw": "\"You... Because of us, every loop, you'd get really worried that we'd die.\"",
         "en_clean": "\"You... Because of us, every loop, you'd get really worried that we'd die.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕たちのせいで、きみは... 僕たちが死ぬことを、どのループでもとても心配してたから。\"",
+        "jp_clean": "\"僕たちのせいで、きみは... 僕たちが死ぬことを、どのループでもとても心配してたから。\""
     },
     {
         "en_raw": "\"So... Even if you don't remember, I just wanted to tell you that we're all okay.\"",
         "en_clean": "\"So... Even if you don't remember, I just wanted to tell you that we're all okay.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だから... そのことを覚えていなくても、みんな無事だよってちゃんと伝えたかったんだ。\"",
+        "jp_clean": "\"だから... そのことを覚えていなくても、みんな無事だよってちゃんと伝えたかったんだ。\""
     },
     {
         "en_raw": "Huh.",

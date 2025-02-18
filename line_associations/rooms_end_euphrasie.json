@@ -26,8 +26,8 @@
     {
         "en_raw": "\"But I'd like to talk to you now--\"",
         "en_clean": "\"But I'd like to talk to you now--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でも僕は今すぐお話ししたいんですけど――\"",
+        "jp_clean": "\"でも僕は今すぐお話ししたいんですけど――\""
     },
     {
         "en_raw": "Now? But you and your friends had such a wonderful journey together!",
@@ -50,8 +50,8 @@
     {
         "en_raw": "\"I have to talk to you about--\"",
         "en_clean": "\"I have to talk to you about--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あなたと話さないといけないんです――\"",
+        "jp_clean": "\"あなたと話さないといけないんです――\""
     },
     {
         "en_raw": "Tut tut tut!",
@@ -74,8 +74,8 @@
     {
         "en_raw": "\"But you might know something about--\"",
         "en_clean": "\"But you might know something about--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でもあなたが知っているかも――\"",
+        "jp_clean": "\"でもあなたが知っているかも――\""
     },
     {
         "en_raw": "Ohohoho!",
@@ -114,8 +114,8 @@
     {
         "en_raw": "\"Can you PLEASE talk to me?\"",
         "en_clean": "\"Can you PLEASE talk to me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"お願いだから話してくれませんか？\"",
+        "jp_clean": "\"お願いだから話してくれませんか？\""
     },
     {
         "en_raw": "...",
@@ -453,9 +453,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -532,8 +534,14 @@
     {
         "en_raw": "(Just a little longer...)",
         "en_clean": "(Just a little longer...)",
-        "jp_raw": "\\m[clear](あと少しだけ...)",
-        "jp_clean": "(あと少しだけ...)"
+        "jp_raw": [
+            "\\m[clear](あと少しだけ...)",
+            "(あと少しだけ...)"
+        ],
+        "jp_clean": [
+            "(あと少しだけ...)",
+            "(あと少しだけ...)"
+        ]
     },
     {
         "en_raw": "(Just a moment longer, a minute, a second longer...)",
@@ -598,8 +606,8 @@
     {
         "en_raw": "\"...?\"",
         "en_clean": "\"...?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...？\"",
+        "jp_clean": "\"...？\""
     },
     {
         "en_raw": "Oh...   Siffrin...!",
@@ -640,8 +648,8 @@
     {
         "en_raw": "\"What do you mean? What's happening?!?\"",
         "en_clean": "\"What do you mean? What's happening?!?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どういうこと？ 何が起きているの？\"",
+        "jp_clean": "\"どういうこと？ 何が起きているの？\""
     },
     {
         "en_raw": "I know you thought your quest was over, but it can't be!",
@@ -726,8 +734,8 @@
     {
         "en_raw": "\"You said something was broken, what was it?\"",
         "en_clean": "\"You said something was broken, what was it?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"何かが壊れているって言ってたけど、何が壊れてるんです？\"",
+        "jp_clean": "\"何かが壊れているって言ってたけど、何が壊れてるんです？\""
     },
     {
         "en_raw": "Broken...? What do you...",
@@ -803,9 +811,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -930,8 +940,8 @@
     {
         "en_raw": "\"Don't just repeat it, say something...!!!\"",
         "en_clean": "\"Don't just repeat it, say something...!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"繰り返さないで、何か言ってよ...！\"",
+        "jp_clean": "\"繰り返さないで、何か言ってよ...！\""
     },
     {
         "en_raw": "I know you thought your quest was over, but it can't be!",
@@ -978,8 +988,8 @@
     {
         "en_raw": "\"JUST TALK TO ME!!!\"",
         "en_clean": "\"JUST TALK TO ME!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ちゃんと話してよ！！！\"",
+        "jp_clean": "\"ちゃんと話してよ！！！\""
     },
     {
         "en_raw": "(You feel a tug on your stomach.)",
@@ -1034,8 +1044,8 @@
     {
         "en_raw": "\"Will you repeat the same lines again?\"",
         "en_clean": "\"Will you repeat the same lines again?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今回も同じセリフを言うんですか？\"",
+        "jp_clean": "\"今回も同じセリフを言うんですか？\""
     },
     {
         "en_raw": "The same lines...? What do you...",
@@ -1123,9 +1133,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1220,8 +1232,8 @@
     {
         "en_raw": "\"I know. Do you have anything new to say?\"",
         "en_clean": "\"I know. Do you have anything new to say?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"分かってるよ。何か目新しいことは言えないの？\"",
+        "jp_clean": "\"分かってるよ。何か目新しいことは言えないの？\""
     },
     {
         "en_raw": "I know you thought your quest was over, but it can't be!",
@@ -1315,9 +1327,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1408,14 +1422,14 @@
     {
         "en_raw": "\"Do you even see me?\"",
         "en_clean": "\"Do you even see me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕のこと見えてます？\"",
+        "jp_clean": "\"僕のこと見えてます？\""
     },
     {
         "en_raw": "\"Am I real to you, right now?\"",
         "en_clean": "\"Am I real to you, right now?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今この瞬間、僕はあなたにとって現実ですか？\"",
+        "jp_clean": "\"今この瞬間、僕はあなたにとって現実ですか？\""
     },
     {
         "en_raw": "Real...? What do you...",
@@ -1447,12 +1461,14 @@
         "jp_raw": [
             "\\m[clear](まあいいや。)",
             "(まあいいや。)",
-            "(まあ\\!いいさ。)"
+            "(まあ\\!いいさ。)",
+            "(別にいいじゃないか。)"
         ],
         "jp_clean": [
             "(まあいいや。)",
             "(まあいいや。)",
-            "(まあいいさ。)"
+            "(まあいいさ。)",
+            "(別にいいじゃないか。)"
         ]
     },
     {
@@ -1592,14 +1608,14 @@
     {
         "en_raw": "\"Hi.\"",
         "en_clean": "\"Hi.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうも。\"",
+        "jp_clean": "\"どうも。\""
     },
     {
         "en_raw": "\"You can start breaking down now.\"",
         "en_clean": "\"You can start breaking down now.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いいですよ、そろそろぶっ壊れても。\"",
+        "jp_clean": "\"いいですよ、そろそろぶっ壊れても。\""
     },
     {
         "en_raw": "Breaking down...? What do you...",
@@ -1610,14 +1626,14 @@
     {
         "en_raw": "\"Hi.\"",
         "en_clean": "\"Hi.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうも。\"",
+        "jp_clean": "\"どうも。\""
     },
     {
         "en_raw": "\"I have a flower for you.\"",
         "en_clean": "\"I have a flower for you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"お花をどうぞ。\"",
+        "jp_clean": "\"お花をどうぞ。\""
     },
     {
         "en_raw": "A flower? But...",
@@ -1652,8 +1668,8 @@
     {
         "en_raw": "\"Not a fan of flowers, huh...\"",
         "en_clean": "\"Not a fan of flowers, huh...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"お花は好きじゃないんですね...\"",
+        "jp_clean": "\"お花は好きじゃないんですね...\""
     },
     {
         "en_raw": "Oh... Siffrin...!",
@@ -1840,8 +1856,8 @@
     {
         "en_raw": "\"Hello!!!\"",
         "en_clean": "\"Hello!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どうも！\"",
+        "jp_clean": "\"どうも！\""
     },
     {
         "en_raw": "Traveling one!",
@@ -3153,9 +3169,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3262,8 +3280,8 @@
     {
         "en_raw": "\"I know about Wish Craft!\"",
         "en_clean": "\"I know about Wish Craft!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は願いのクラフトについて知ってるんです！\"",
+        "jp_clean": "\"僕は願いのクラフトについて知ってるんです！\""
     },
     {
         "en_raw": "Wish Craft...?",
@@ -3328,8 +3346,8 @@
     {
         "en_raw": "\"But you can fix it, can't you?!\"",
         "en_clean": "\"But you can fix it, can't you?!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でもあなたなら直せるんですよね？\"",
+        "jp_clean": "\"でもあなたなら直せるんですよね？\""
     },
     {
         "en_raw": "I know you thought your quest was over, but it can't be!",
@@ -3418,8 +3436,8 @@
     {
         "en_raw": "\"Right! So--\"",
         "en_clean": "\"Right! So--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ですよね！ じゃあ――\"",
+        "jp_clean": "\"ですよね！ じゃあ――\""
     },
     {
         "en_raw": "But... But something went wrong, didn't it?",
@@ -3584,8 +3602,14 @@
     {
         "en_raw": "(Just a little longer...)",
         "en_clean": "(Just a little longer...)",
-        "jp_raw": "\\m[clear](あと少しだけ...)",
-        "jp_clean": "(あと少しだけ...)"
+        "jp_raw": [
+            "\\m[clear](あと少しだけ...)",
+            "(あと少しだけ...)"
+        ],
+        "jp_clean": [
+            "(あと少しだけ...)",
+            "(あと少しだけ...)"
+        ]
     },
     {
         "en_raw": "(Just a moment longer, a minute, a second longer...)",

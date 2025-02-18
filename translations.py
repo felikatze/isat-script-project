@@ -66,25 +66,52 @@ def clean_game_lines():
     main_pattern = re.compile(r"(\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|wait|rb|choice(var|space)|wish(on|off))\]|!\\|!|\.|\||\^|>|<|(reset)?shake|wave|{|}|v\[\d+?\]|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\])|bustClear\[\d+?,\d+?\]))|m\[wait\]", flags=re.IGNORECASE)
     dot_pattern = re.compile(r"\\m\[dot\]")
     newline_pattern = re.compile(r"<br>\n|<br>|\n|\r")
+    conditional_pattern = re.compile(r"<<.+?>>")
     
     game_lines = []
     
-    for original_english_line in game_translations_file["msg"]:
-        original_japanese_line = game_translations_file["msg"][original_english_line]["Japanese"]
+    with alive_bar(len(game_translations_file["msg"]) + len(game_translations_file["cmd"])) as bar:
+        for original_english_line in game_translations_file["msg"]:
+            original_japanese_line = game_translations_file["msg"][original_english_line]["Japanese"]
+            
+            new_english_line = re.sub(main_pattern, '', original_english_line)
+            new_japanese_line = re.sub(main_pattern, '', original_japanese_line)
+            
+            new_english_line = re.sub(dot_pattern, '...', new_english_line)
+            new_japanese_line = re.sub(dot_pattern, '...', new_japanese_line)
+            
+            new_english_line = re.sub(newline_pattern, ' ', new_english_line)
+            new_japanese_line = re.sub(newline_pattern, '', new_japanese_line)
+            
+            
+            if new_english_line or new_japanese_line: # if at least one of them isn't an empty stirng
+                line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
+                game_lines.append(line)
+            bar()
+                
+        # there's probably a way to do this without duplicating half the code but i can't be bothered right now
+        for original_english_line in game_translations_file["cmd"]:
+            original_japanese_line = game_translations_file["cmd"][original_english_line]["Japanese"]
+            
+            new_english_line = re.sub(main_pattern, '', original_english_line)
+            new_japanese_line = re.sub(main_pattern, '', original_japanese_line)
+            
+            new_english_line = re.sub(dot_pattern, '...', new_english_line)
+            new_japanese_line = re.sub(dot_pattern, '...', new_japanese_line)
+            
+            new_english_line = re.sub(newline_pattern, ' ', new_english_line)
+            new_japanese_line = re.sub(newline_pattern, '', new_japanese_line)
+            
+            new_english_line = re.sub(conditional_pattern, ' ', new_english_line)
+            new_japanese_line = re.sub(conditional_pattern, '', new_japanese_line)
+            
+            
+            if new_english_line or new_japanese_line: # if at least one of them isn't an empty stirng
+                line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
+                game_lines.append(line)
+            bar()
+
         
-        new_english_line = re.sub(main_pattern, '', original_english_line)
-        new_japanese_line = re.sub(main_pattern, '', original_japanese_line)
-        
-        new_english_line = re.sub(dot_pattern, '...', new_english_line)
-        new_japanese_line = re.sub(dot_pattern, '...', new_japanese_line)
-        
-        new_english_line = re.sub(newline_pattern, ' ', new_english_line)
-        new_japanese_line = re.sub(newline_pattern, '', new_japanese_line)
-        
-        
-        if new_english_line or new_japanese_line: # if at least one of them isn't an empty stirng
-            line = {"og_en": original_english_line, "en": new_english_line, "og_jp": original_japanese_line, "jp": new_japanese_line}
-            game_lines.append(line)
     
     write_json_to_file("game_lines.json", game_lines)
 
@@ -106,64 +133,6 @@ def clean_site_lines():
                     line["dialogue_clean"] = ""
                     
     write_json_to_file("site_lines.json", site_lines_file)
-        
-def associate_lines():
-    with open("game_lines.json", encoding="utf-8") as file:
-        game_lines: list[dict[str, str]] = json.load(file)
-    
-    with open("site_lines.json", encoding="utf-8") as file:
-        site_lines: dict[str, list[dict[str, str]]] = json.load(file)
-        
-    total_matches = {}
-    for page in site_lines:
-        if not re.match(ignored_pages, page):
-            print(f"page {page}")
-            matches = {}
-            no_matches = {}
-            with alive_bar(len(site_lines[page])) as bar:
-                for test_site_line in site_lines[page]: # for every site line (dict)
-                    try:
-                        # print(f"  checking {test_site_line['dialogue_clean']}")
-                        
-                        this_matches = []
-                        for test_game_line in game_lines: # for every game line (dict)
-                            if test_site_line["dialogue_clean"] == test_game_line["en"]: # if the cleaned up site and game lines are the same
-                                
-                                this_matches.append({
-                                    "clean": test_site_line["dialogue_clean"],
-                                    "site": {
-                                        "raw": test_site_line["dialogue"],
-                                        "page": page,
-                                        "index": site_lines[page].index(test_site_line)
-                                    },
-                                    "game": {
-                                        "en_raw": test_game_line["og_en"],
-                                        "jp": test_game_line["jp"],
-                                        "jp_raw": test_game_line["og_jp"],
-                                        "index": game_lines.index(test_game_line)
-                                    }
-                                })
-                        if this_matches:
-                            matches[test_site_line["dialogue_clean"]] = this_matches
-                            # print(f"    matches found")
-                        else:
-                            # print(f"    no matches found")
-                            no_matches[test_site_line["dialogue_clean"]] = {
-                                "clean": test_site_line["dialogue_clean"],
-                                "raw": test_site_line["dialogue"],
-                                "page": page,
-                                "index": site_lines[page].index(test_site_line)
-                                }
-                        bar()
-                    except KeyError:
-                        bar()
-                        continue
-                
-                total_matches[page] = {}
-                total_matches[page]["matches"] = matches
-                total_matches[page]["no_matches"] = no_matches
-    
-    write_json_to_file("line_associations.json", total_matches)
         
 def associate_lines_for_page(page_path: str):
     with open("game_lines.json", encoding="utf-8") as file:
@@ -219,4 +188,5 @@ def generate_page_line_associations():
             associate_lines_for_page(file)
             bar()
             
+clean_game_lines()
 generate_page_line_associations()

@@ -121,9 +121,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -485,9 +487,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1130,8 +1134,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "Oh no, was I wrong??? Was it really more of an actual swear word like \"crab\", where you don't actually like stars and stars are bad and gross??? Did I step in it??? Did I mess up???",
@@ -1142,14 +1146,14 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "\"...No, you didn't step in it.\"",
         "en_clean": "\"...No, you didn't step in it.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...いや、しくじってないよ。\"",
+        "jp_clean": "\"...いや、しくじってないよ。\""
     },
     {
         "en_raw": "Oh, phew! I got scared, heheh.",
@@ -1172,8 +1176,8 @@
     {
         "en_raw": "\"Constellations.\"",
         "en_clean": "\"Constellations.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"星座。\"",
+        "jp_clean": "\"星座。\""
     },
     {
         "en_raw": "<span class=\"wave\">\n Constellations!!!\n</span>",
@@ -1202,8 +1206,8 @@
     {
         "en_raw": "\"No, I don't know any.\"",
         "en_clean": "\"No, I don't know any.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いや、ひとつも知らない。\"",
+        "jp_clean": "\"いや、ひとつも知らない。\""
     },
     {
         "en_raw": "Huh.",
@@ -1260,8 +1264,8 @@
     {
         "en_raw": "\"Tell me something?\"",
         "en_clean": "\"Tell me something?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"教えてもらっていいかな？\"",
+        "jp_clean": "\"教えてもらっていいかな？\""
     },
     {
         "en_raw": "Something?",
@@ -1272,8 +1276,8 @@
     {
         "en_raw": "\"Something about you.\"",
         "en_clean": "\"Something about you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみのことをさ。\"",
+        "jp_clean": "\"きみのことをさ。\""
     },
     {
         "en_raw": "Oh, okay! Um...",
@@ -1427,9 +1431,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1885,9 +1891,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1970,8 +1978,8 @@
     {
         "en_raw": "\"They both sound bad, Isa.\"",
         "en_clean": "\"They both sound bad, Isa.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"どっちも響きはよくないよ、イザ。\"",
+        "jp_clean": "\"どっちも響きはよくないよ、イザ。\""
     },
     {
         "en_raw": "<span class=\"wave\">\n Nooooo\n</span>\n, don't say that! Hahaha!!!",
@@ -2254,8 +2262,8 @@
     {
         "en_raw": "\"Isa...\"",
         "en_clean": "\"Isa...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"イザ...\"",
+        "jp_clean": "\"イザ...\""
     },
     {
         "en_raw": "...Yeah, Sif?",
@@ -2266,14 +2274,14 @@
     {
         "en_raw": "\"I have never felt ashamed of knowing you.\"",
         "en_clean": "\"I have never felt ashamed of knowing you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみと知り合ったことを恥ずかしく思ったことなんて、一度もないよ。\"",
+        "jp_clean": "\"きみと知り合ったことを恥ずかしく思ったことなんて、一度もないよ。\""
     },
     {
         "en_raw": "\"Not even a little bit.\"",
         "en_clean": "\"Not even a little bit.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そんなことかけらも思わない。\"",
+        "jp_clean": "\"そんなことかけらも思わない。\""
     },
     {
         "en_raw": ". . .",
@@ -2925,9 +2933,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3519,9 +3529,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3885,9 +3897,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

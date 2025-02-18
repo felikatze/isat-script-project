@@ -1050,14 +1050,14 @@
     {
         "en_raw": "\"But I don't want to say it.\"",
         "en_clean": "\"But I don't want to say it.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"言いたくないんだ。\"",
+        "jp_clean": "\"言いたくないんだ。\""
     },
     {
         "en_raw": "\"I'm scared to say it.\"",
         "en_clean": "\"I'm scared to say it.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"言うのが怖い。\"",
+        "jp_clean": "\"言うのが怖い。\""
     },
     {
         "en_raw": "Scared...?",
@@ -1074,14 +1074,14 @@
     {
         "en_raw": "\"I'm scared that...\"",
         "en_clean": "\"I'm scared that...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"怖いんだ。だって...\"",
+        "jp_clean": "\"怖いんだ。だって...\""
     },
     {
         "en_raw": "\"That if I tell you, something terrible will happen.\"",
         "en_clean": "\"That if I tell you, something terrible will happen.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"言ったら、何か恐ろしいことが起こるから。\"",
+        "jp_clean": "\"言ったら、何か恐ろしいことが起こるから。\""
     },
     {
         "en_raw": ". . .",
@@ -1233,9 +1233,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1512,8 +1514,8 @@
     {
         "en_raw": "\"But...\"",
         "en_clean": "\"But...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でも...\"",
+        "jp_clean": "\"でも...\""
     },
     {
         "en_raw": "(But that wasn't it, was it?)",
@@ -1578,8 +1580,8 @@
     {
         "en_raw": "\"Deep down, I wished...\"",
         "en_clean": "\"Deep down, I wished...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"本当に願ったのは...\"",
+        "jp_clean": "\"本当に願ったのは...\""
     },
     {
         "en_raw": "(She doesn't realize it, but now she's able to talk to people while looking them in the eyes. Sometimes she even snarks back when you tease her, which you didn't think was even possible.)",
@@ -1632,8 +1634,8 @@
     {
         "en_raw": "\"I wished...!\"",
         "en_clean": "\"I wished...!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕の願いは...！\"",
+        "jp_clean": "\"僕の願いは...！\""
     },
     {
         "en_raw": "(You  want  to  stay  with  them!)",
@@ -1644,8 +1646,8 @@
     {
         "en_raw": "\"I... I wished I could just stay with everyone...!!!\"",
         "en_clean": "\"I... I wished I could just stay with everyone...!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"み... みんなとずっと一緒にいることだ...！！！\"",
+        "jp_clean": "\"み... みんなとずっと一緒にいることだ...！！！\""
     },
     {
         "en_raw": "What...?",
@@ -1690,26 +1692,26 @@
     {
         "en_raw": "\"When we win against the King, then our journey ends, doesn't it?\"",
         "en_clean": "\"When we win against the King, then our journey ends, doesn't it?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕たちが王に勝ったら、僕たちの旅は終わりだろ？\"",
+        "jp_clean": "\"僕たちが王に勝ったら、僕たちの旅は終わりだろ？\""
     },
     {
         "en_raw": "\"Mirabelle will go back to the House, Isabeau to Jouvente...\"",
         "en_clean": "\"Mirabelle will go back to the House, Isabeau to Jouvente...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ミラベルは館に、イザボーはジュヴァンテに戻る...\"",
+        "jp_clean": "\"ミラベルは館に、イザボーはジュヴァンテに戻る...\""
     },
     {
         "en_raw": "\"Odile to Ka Bue, Bonnie to their sister!\"",
         "en_clean": "\"Odile to Ka Bue, Bonnie to their sister!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"オディールはカ・ビューへ、ボニーはお姉さんのもとへ！\"",
+        "jp_clean": "\"オディールはカ・ビューへ、ボニーはお姉さんのもとへ！\""
     },
     {
         "en_raw": "\"You'll all go back home!!!\"",
         "en_clean": "\"You'll all go back home!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんな、故郷に帰ってしまう！！！\"",
+        "jp_clean": "\"みんな、故郷に帰ってしまう！！！\""
     },
     {
         "en_raw": "...",
@@ -1918,20 +1920,20 @@
     {
         "en_raw": "\"If we win, then you'll all leave!\"",
         "en_clean": "\"If we win, then you'll all leave!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"勝ったら、みんないなくなるんだ！\"",
+        "jp_clean": "\"勝ったら、みんないなくなるんだ！\""
     },
     {
         "en_raw": "\"And I don't-- I don't want that at all!\"",
         "en_clean": "\"And I don't-- I don't want that at all!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は――僕はそんなのいやだ！\"",
+        "jp_clean": "\"僕は――僕はそんなのいやだ！\""
     },
     {
         "en_raw": "\"I just want to stay with all of you!!!\"",
         "en_clean": "\"I just want to stay with all of you!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんなと一緒にいたいんだ！！！\"",
+        "jp_clean": "\"みんなと一緒にいたいんだ！！！\""
     },
     {
         "en_raw": "Siffrin...",
@@ -1954,32 +1956,32 @@
     {
         "en_raw": "\"I'm sorry, I'm sorry! I know it's not fair! I know you have homes to go back to!\"",
         "en_clean": "\"I'm sorry, I'm sorry! I know it's not fair! I know you have homes to go back to!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ごめん、ごめんなさい！ ずるいことだって分かってる！ みんなには帰る場所があるのに！\"",
+        "jp_clean": "\"ごめん、ごめんなさい！ ずるいことだって分かってる！ みんなには帰る場所があるのに！\""
     },
     {
         "en_raw": "\"And I know I should be fine with leaving, because you're fine with it, too!\"",
         "en_clean": "\"And I know I should be fine with leaving, because you're fine with it, too!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんながいなくなっても平気でいなきゃいけないことも分かってる。だって、みんなは平気なんだから！\"",
+        "jp_clean": "\"みんながいなくなっても平気でいなきゃいけないことも分かってる。だって、みんなは平気なんだから！\""
     },
     {
         "en_raw": "\"I-It's fine that this journey meant more to me than to all of you!\"",
         "en_clean": "\"I-It's fine that this journey meant more to me than to all of you!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"こ、この旅はみんなが思う以上に、僕にとっては大きな意味のあるものなんだ！ それは構わない！\"",
+        "jp_clean": "\"こ、この旅はみんなが思う以上に、僕にとっては大きな意味のあるものなんだ！ それは構わない！\""
     },
     {
         "en_raw": "\"And that, as soon as this journey is over, you'll forget me!\"",
         "en_clean": "\"And that, as soon as this journey is over, you'll forget me!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、この旅が終わったら、みんなが僕のことを忘れるのも構わない！\"",
+        "jp_clean": "\"それに、この旅が終わったら、みんなが僕のことを忘れるのも構わない！\""
     },
     {
         "en_raw": "\"But I didn't-- I don't wanna be alone!\"",
         "en_clean": "\"But I didn't-- I don't wanna be alone!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど僕は――僕は独りになりたくない！\"",
+        "jp_clean": "\"だけど僕は――僕は独りになりたくない！\""
     },
     {
         "en_raw": "Siffrin.",
@@ -2004,8 +2006,8 @@
     {
         "en_raw": "\"And I didn't mean to do that, I didn't mean to trap everyone here, but I--\"",
         "en_clean": "\"And I didn't mean to do that, I didn't mean to trap everyone here, but I--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"こんなことするつもりじゃなかった。みんなを閉じ込めるなんて。でも――\"",
+        "jp_clean": "\"こんなことするつもりじゃなかった。みんなを閉じ込めるなんて。でも――\""
     },
     {
         "en_raw": "SIFFRIN!!!",
@@ -2334,8 +2336,8 @@
     {
         "en_raw": "\"Hmrf.\"",
         "en_clean": "\"Hmrf.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あー。\"",
+        "jp_clean": "\"あー。\""
     },
     {
         "en_raw": "Yes, Siffrin. I had stalkers with less issues than you.",
@@ -2346,8 +2348,8 @@
     {
         "en_raw": "\"Hmrnghrgh.\"",
         "en_clean": "\"Hmrnghrgh.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あーあーあー。\"",
+        "jp_clean": "\"あーあーあー。\""
     },
     {
         "en_raw": "I think it's nice.",
@@ -2364,20 +2366,20 @@
     {
         "en_raw": "\"Rhghhmghmmghhrm.\"",
         "en_clean": "\"Rhghhmghmmghhrm.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あーあーあーあーあー。\"",
+        "jp_clean": "\"あーあーあーあーあー。\""
     },
     {
         "en_raw": "\"...I'm sorry.\"",
         "en_clean": "\"...I'm sorry.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...ごめん。\"",
+        "jp_clean": "\"...ごめん。\""
     },
     {
         "en_raw": "\"For everything.\"",
         "en_clean": "\"For everything.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕が悪かった。\"",
+        "jp_clean": "\"僕が悪かった。\""
     },
     {
         "en_raw": "Which is...?",
@@ -2388,8 +2390,8 @@
     {
         "en_raw": "\"For saying all those things yesterday.\"",
         "en_clean": "\"For saying all those things yesterday.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"昨日、あんなこと言っちゃったこと。\"",
+        "jp_clean": "\"昨日、あんなこと言っちゃったこと。\""
     },
     {
         "en_raw": "Okay, good start.",
@@ -2466,8 +2468,8 @@
     {
         "en_raw": "\"And for, uh, unknowingly trapping everyone in time.\"",
         "en_clean": "\"And for, uh, unknowingly trapping everyone in time.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それから、知らないうちにみんなを時間の中に閉じ込めちゃったこと。\"",
+        "jp_clean": "\"それから、知らないうちにみんなを時間の中に閉じ込めちゃったこと。\""
     },
     {
         "en_raw": "Oh, that one's fine, isn't it?",
@@ -2550,8 +2552,8 @@
     {
         "en_raw": "\"W-Well, uh, well...\"",
         "en_clean": "\"W-Well, uh, well...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"う、だって、ほら、その..\"",
+        "jp_clean": "\"う、だって、ほら、その..\""
     },
     {
         "en_raw": "\"None of you said you wanted to keep traveling together either!!!\"",
@@ -2717,9 +2719,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2826,8 +2830,8 @@
     {
         "en_raw": "\"Sounds good to me.\"",
         "en_clean": "\"Sounds good to me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"うん、よさそうだ。\"",
+        "jp_clean": "\"うん、よさそうだ。\""
     },
     {
         "en_raw": "Um... Before that, though...",
@@ -3042,8 +3046,8 @@
     {
         "en_raw": "\"Also, I'm sorry for throwing you, earlier.\"",
         "en_clean": "\"Also, I'm sorry for throwing you, earlier.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、さっきは放り投げてごめんなさい。\"",
+        "jp_clean": "\"それに、さっきは放り投げてごめんなさい。\""
     },
     {
         "en_raw": "Ohohohohohohoho!!! Do not worry!!!",
@@ -3090,20 +3094,20 @@
     {
         "en_raw": "\"You said the things you always say when I come and talk to you.\"",
         "en_clean": "\"You said the things you always say when I come and talk to you.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕がここへ来るといつも話すようなことを言ってたよ。\"",
+        "jp_clean": "\"僕がここへ来るといつも話すようなことを言ってたよ。\""
     },
     {
         "en_raw": "\"About how the world is rotting.\"",
         "en_clean": "\"About how the world is rotting.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"世界が腐敗しているとか。\"",
+        "jp_clean": "\"世界が腐敗しているとか。\""
     },
     {
         "en_raw": "\"And you can't do anything to help.\"",
         "en_clean": "\"And you can't do anything to help.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"それに、自分には何もできないってことも。\"",
+        "jp_clean": "\"それに、自分には何もできないってことも。\""
     },
     {
         "en_raw": "Hm...",

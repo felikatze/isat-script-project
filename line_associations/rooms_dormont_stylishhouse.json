@@ -322,8 +322,8 @@
     {
         "en_raw": "\"She really liked it!\"",
         "en_clean": "\"She really liked it!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"気に入ってたよ！\"",
+        "jp_clean": "\"気に入ってたよ！\""
     },
     {
         "en_raw": "<span class=\"shake big\">\n SHE REALLY LIKED IT.......................\n</span>",
@@ -423,9 +423,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

@@ -279,9 +279,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -469,9 +471,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -908,8 +912,8 @@
     {
         "en_raw": "\"I'm going now.\"",
         "en_clean": "\"I'm going now.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"もう行くね。\"",
+        "jp_clean": "\"もう行くね。\""
     },
     {
         "en_raw": "Hm.",
@@ -956,8 +960,8 @@
     {
         "en_raw": "\"What?\"",
         "en_clean": "\"What?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"えっ？\"",
+        "jp_clean": "\"えっ？\""
     },
     {
         "en_raw": "You look... Kind of upset.",
@@ -980,8 +984,8 @@
     {
         "en_raw": "\"Nothing! What did you want to tell me?\"",
         "en_clean": "\"Nothing! What did you want to tell me?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"べつに！ それより何を伝えたかったの？\"",
+        "jp_clean": "\"べつに！ それより何を伝えたかったの？\""
     },
     {
         "en_raw": "No, it doesn't matter right now. You don't look good at all.",
@@ -1076,8 +1080,8 @@
     {
         "en_raw": "\"DON'T TOUCH ME--\"",
         "en_clean": "\"DON'T TOUCH ME--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"触るな――\"",
+        "jp_clean": "\"触るな――\""
     },
     {
         "en_raw": "(You feel a tug on your stomach--)",
@@ -1094,8 +1098,8 @@
     {
         "en_raw": "\"Yep, all good!\"",
         "en_clean": "\"Yep, all good!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"うん、大丈夫！\"",
+        "jp_clean": "\"うん、大丈夫！\""
     },
     {
         "en_raw": "Oh... Okay!",
@@ -1250,8 +1254,8 @@
     {
         "en_raw": "\"Will this be quick?\"",
         "en_clean": "\"Will this be quick?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"長くなりそう？\"",
+        "jp_clean": "\"長くなりそう？\""
     },
     {
         "en_raw": "I, um...  What?",
@@ -1262,8 +1266,8 @@
     {
         "en_raw": "\"I should go talk with everyone else.\"",
         "en_clean": "\"I should go talk with everyone else.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"みんなと話しておきたいんだ。\"",
+        "jp_clean": "\"みんなと話しておきたいんだ。\""
     },
     {
         "en_raw": "Oh, um...",
@@ -1368,8 +1372,8 @@
     {
         "en_raw": "\"One could say it's a pretty...\"",
         "en_clean": "\"One could say it's a pretty...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"この木はかなり...\"",
+        "jp_clean": "\"この木はかなり...\""
     },
     {
         "en_raw": "Uh huh???",
@@ -1380,8 +1384,8 @@
     {
         "en_raw": "\"...TREE-mendous tree.\"",
         "en_clean": "\"...TREE-mendous tree.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...キになるね。\"",
+        "jp_clean": "\"...キになるね。\""
     },
     {
         "en_raw": "HAHAHA!!!!! YEAH!!!! YEAH!!!!!! YES!!!!!!!",
@@ -1577,9 +1581,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -2564,8 +2570,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "...",
@@ -2766,8 +2772,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "But you didn't value me, did you, and I had to see you kiss the fighter, in front of my very eyes! The shock! The betrayal!!!",
@@ -2802,8 +2808,8 @@
     {
         "en_raw": "\"Shut up!\"",
         "en_clean": "\"Shut up!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"黙れよっ！！！\"",
+        "jp_clean": "\"黙れよっ！！！\""
     },
     {
         "en_raw": "Or, stardust... Maybe you ARE that disgusting. Not letting the poor fighter make his own decisions! Who would do that! Or--",
@@ -2814,8 +2820,8 @@
     {
         "en_raw": "\"SHUT. UP.\"",
         "en_clean": "\"SHUT. UP.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"うるさい。\"",
+        "jp_clean": "\"うるさい。\""
     },
     {
         "en_raw": "...",
@@ -3010,14 +3016,14 @@
     {
         "en_raw": "\"I don't want to talk or THINK about ANY of this.\"",
         "en_clean": "\"I don't want to talk or THINK about ANY of this.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そのことについては、話したくないし、考えたくない。\"",
+        "jp_clean": "\"そのことについては、話したくないし、考えたくない。\""
     },
     {
         "en_raw": "\"Especially not with YOU.\"",
         "en_clean": "\"Especially not with YOU.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"特に、きみとは。\"",
+        "jp_clean": "\"特に、きみとは。\""
     },
     {
         "en_raw": "...",
@@ -3218,8 +3224,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "...",

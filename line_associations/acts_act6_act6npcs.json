@@ -937,9 +937,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1181,9 +1183,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3201,9 +3205,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3889,9 +3895,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3974,8 +3982,8 @@
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...\"",
+        "jp_clean": "\"...\""
     },
     {
         "en_raw": "...Oh...",
@@ -3992,8 +4000,8 @@
     {
         "en_raw": "\"I couldn't talk to Loop.\"",
         "en_clean": "\"I couldn't talk to Loop.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ループとは話せなかった。\"",
+        "jp_clean": "\"ループとは話せなかった。\""
     },
     {
         "en_raw": "Oh.",
@@ -5046,8 +5054,8 @@
     {
         "en_raw": "\"...Hi?\"",
         "en_clean": "\"...Hi?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...こんにちは？\"",
+        "jp_clean": "\"...こんにちは？\""
     },
     {
         "en_raw": "(The kid seems to study your face, and breaks out into a big smile.)",
@@ -5070,8 +5078,8 @@
     {
         "en_raw": "\"It's me and everyone.\"",
         "en_clean": "\"It's me and everyone.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕とみんなだ。\"",
+        "jp_clean": "\"僕とみんなだ。\""
     },
     {
         "en_raw": "(The kid giggles.)",
@@ -5082,8 +5090,8 @@
     {
         "en_raw": "\"Thank you for all your wonderful drawings.\"",
         "en_clean": "\"Thank you for all your wonderful drawings.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"すてきな絵をありがとう。\"",
+        "jp_clean": "\"すてきな絵をありがとう。\""
     },
     {
         "en_raw": "(The kid huffs proudly, and goes back to drawing.)",

@@ -26,8 +26,8 @@
     {
         "en_raw": "\"Nah, nothing.\"",
         "en_clean": "\"Nah, nothing.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"いや、なんでもない。\"",
+        "jp_clean": "\"いや、なんでもない。\""
     },
     {
         "en_raw": "See you later, stardust!",
@@ -271,9 +271,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

@@ -411,9 +411,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -555,9 +557,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -717,9 +721,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -837,9 +843,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3177,9 +3185,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3303,9 +3313,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -3382,8 +3394,8 @@
     {
         "en_raw": "\"...Bonnie?\"",
         "en_clean": "\"...Bonnie?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"...ボニー？\"",
+        "jp_clean": "\"...ボニー？\""
     },
     {
         "en_raw": ". . .",
@@ -3470,8 +3482,8 @@
     {
         "en_raw": "\"Were you listening to us just now?\"",
         "en_clean": "\"Were you listening to us just now?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"今の話、聞いてた？\"",
+        "jp_clean": "\"今の話、聞いてた？\""
     },
     {
         "en_raw": "...  I don't wanna talk about it...",
@@ -4013,9 +4025,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4139,9 +4153,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4295,9 +4311,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -4356,8 +4374,8 @@
     {
         "en_raw": "\"You know, adults are stupid.\"",
         "en_clean": "\"You know, adults are stupid.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あのさ、大人ってのはバカなものなんだよ。\"",
+        "jp_clean": "\"あのさ、大人ってのはバカなものなんだよ。\""
     },
     {
         "en_raw": "Huh...?",
@@ -4374,14 +4392,14 @@
     {
         "en_raw": "\"We like to think about every possible thing that could happen...\"",
         "en_clean": "\"We like to think about every possible thing that could happen...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"起こり得ることを何から何まで想定したがるものなんだ...\"",
+        "jp_clean": "\"起こり得ることを何から何まで想定したがるものなんだ...\""
     },
     {
         "en_raw": "\"Even though it probably won't.\"",
         "en_clean": "\"Even though it probably won't.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"その可能性が低かったとしてもね。\"",
+        "jp_clean": "\"その可能性が低かったとしてもね。\""
     },
     {
         "en_raw": ". . .",
@@ -4416,8 +4434,8 @@
     {
         "en_raw": "\"We won't.\"",
         "en_clean": "\"We won't.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そうはならない。\"",
+        "jp_clean": "\"そうはならない。\""
     },
     {
         "en_raw": "But you don't know that.",
@@ -4428,20 +4446,20 @@
     {
         "en_raw": "\"I do.\"",
         "en_clean": "\"I do.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕には分かる。\"",
+        "jp_clean": "\"僕には分かる。\""
     },
     {
         "en_raw": "\"I won't let anything happen, Bonnie.\"",
         "en_clean": "\"I won't let anything happen, Bonnie.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕がいるかぎり大丈夫だ、ボニー。\"",
+        "jp_clean": "\"僕がいるかぎり大丈夫だ、ボニー。\""
     },
     {
         "en_raw": "\"I promise.\"",
         "en_clean": "\"I promise.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"約束する。\"",
+        "jp_clean": "\"約束する。\""
     },
     {
         "en_raw": "<span class=\"shake\">\n (AND YET, YOU LET BONNIE DIE.)\n</span>",
@@ -4791,9 +4809,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

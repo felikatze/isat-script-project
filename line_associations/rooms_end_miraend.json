@@ -277,9 +277,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -500,8 +502,8 @@
     {
         "en_raw": "\"What about you, Mira?\"",
         "en_clean": "\"What about you, Mira?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そっちはどうなの、ミラ？\"",
+        "jp_clean": "\"そっちはどうなの、ミラ？\""
     },
     {
         "en_raw": "M-Me? Well, I'm better now, but...",
@@ -518,8 +520,8 @@
     {
         "en_raw": "\"I'm good!\"",
         "en_clean": "\"I'm good!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕は平気！\"",
+        "jp_clean": "\"僕は平気！\""
     },
     {
         "en_raw": "...Okay...",
@@ -827,9 +829,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

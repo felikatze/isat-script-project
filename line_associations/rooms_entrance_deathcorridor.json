@@ -1160,8 +1160,8 @@
     {
         "en_raw": "\"We're not dead yet, are we?\"",
         "en_clean": "\"We're not dead yet, are we?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"まだ誰も死んでないだろ？\"",
+        "jp_clean": "\"まだ誰も死んでないだろ？\""
     },
     {
         "en_raw": "...Well, that's true...",
@@ -1224,20 +1224,20 @@
     {
         "en_raw": "\"We're good, Mira.\"",
         "en_clean": "\"We're good, Mira.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"大丈夫だよ、ミラ。\"",
+        "jp_clean": "\"大丈夫だよ、ミラ。\""
     },
     {
         "en_raw": "\"See?\"",
         "en_clean": "\"See?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ほらね？\"",
+        "jp_clean": "\"ほらね？\""
     },
     {
         "en_raw": "\"Everything's fine.\"",
         "en_clean": "\"Everything's fine.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"すべてオッケーだ。\"",
+        "jp_clean": "\"すべてオッケーだ。\""
     },
     {
         "en_raw": "(As you live through the novel experience of having your body crushed by a giant rock,)",
@@ -1361,9 +1361,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1475,9 +1477,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",

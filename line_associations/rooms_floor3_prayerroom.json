@@ -1861,9 +1861,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1970,8 +1972,8 @@
     {
         "en_raw": "\"Mira, can you put your hand on the statue?\"",
         "en_clean": "\"Mira, can you put your hand on the statue?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ミラ、像に手をのせてみてくれる？\"",
+        "jp_clean": "\"ミラ、像に手をのせてみてくれる？\""
     },
     {
         "en_raw": "Hm? Um, sure?",

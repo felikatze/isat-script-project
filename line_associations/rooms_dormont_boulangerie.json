@@ -183,9 +183,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -285,14 +287,16 @@
             "\\m[vs](いらない。)\\!\\",
             "(違う。)\\!\\m[wait]\\^",
             "\\m[clear]\\shake(違う。)\\m[wait]\\m[wait]\\^",
-            "(キリッ。)"
+            "(キリッ。)",
+            "(やめておこう。)"
         ],
         "jp_clean": [
             "(やめよう。)",
             "(いらない。)",
             "(違う。)",
             "(違う。)",
-            "(キリッ。)"
+            "(キリッ。)",
+            "(やめておこう。)"
         ]
     },
     {
@@ -1676,8 +1680,8 @@
     {
         "en_raw": "\"What about you? Do you know where the book is?\"",
         "en_clean": "\"What about you? Do you know where the book is?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"きみはどう？ 本がどこにあるか知ってる？\"",
+        "jp_clean": "\"きみはどう？ 本がどこにあるか知ってる？\""
     },
     {
         "en_raw": "A book?",
@@ -1734,8 +1738,8 @@
     {
         "en_raw": "\"Oh my!\"",
         "en_clean": "\"Oh my!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"驚いた！\"",
+        "jp_clean": "\"驚いた！\""
     },
     {
         "en_raw": ". . .So you had it, Charline...",
@@ -1830,8 +1834,8 @@
     {
         "en_raw": "\"Hi!\"",
         "en_clean": "\"Hi!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"こんにちは！\"",
+        "jp_clean": "\"こんにちは！\""
     },
     {
         "en_raw": "...",

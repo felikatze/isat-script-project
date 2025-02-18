@@ -1593,9 +1593,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1702,8 +1704,8 @@
     {
         "en_raw": "\"Sharpening stone.\"",
         "en_clean": "\"Sharpening stone.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"砥石を使う。\"",
+        "jp_clean": "\"砥石を使う。\""
     },
     {
         "en_raw": "And... Where is it?",

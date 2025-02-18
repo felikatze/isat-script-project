@@ -8,8 +8,8 @@
     {
         "en_raw": "\"I'm sorry about everything I said it wasn't cool and you didn't deserve that when you were just trying to help--\"",
         "en_clean": "\"I'm sorry about everything I said it wasn't cool and you didn't deserve that when you were just trying to help--\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あんなこと言ってごめん。よくなかったし、きみは僕を助けようとしてくれてたのに、あんなこと言われる筋合いはない――\"",
+        "jp_clean": "\"あんなこと言ってごめん。よくなかったし、きみは僕を助けようとしてくれてたのに、あんなこと言われる筋合いはない――\""
     },
     {
         "en_raw": "Woah woah woah!",
@@ -62,8 +62,8 @@
     {
         "en_raw": "\"But...\"",
         "en_clean": "\"But...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"でも...\"",
+        "jp_clean": "\"でも...\""
     },
     {
         "en_raw": "Sif...",
@@ -341,9 +341,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -576,8 +578,8 @@
     {
         "en_raw": "\"No, that was the first time for me, too.\"",
         "en_clean": "\"No, that was the first time for me, too.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ううん、僕にとっても初めてだったよ。\"",
+        "jp_clean": "\"ううん、僕にとっても初めてだったよ。\""
     },
     {
         "en_raw": "What?!? Weird!!! And cool!!!",
@@ -600,20 +602,20 @@
     {
         "en_raw": "\"I won't, Isa.\"",
         "en_clean": "\"I won't, Isa.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"忘れないよ、イザ。\"",
+        "jp_clean": "\"忘れないよ、イザ。\""
     },
     {
         "en_raw": "\"Thank you. For telling me.\"",
         "en_clean": "\"Thank you. For telling me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"言ってくれて、ありがとう。\"",
+        "jp_clean": "\"言ってくれて、ありがとう。\""
     },
     {
         "en_raw": "\"A-And I love you too, Isa!\"",
         "en_clean": "\"A-And I love you too, Isa!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ぼ、僕もきみを愛してるよ、イザ！\"",
+        "jp_clean": "\"ぼ、僕もきみを愛してるよ、イザ！\""
     },
     {
         "en_raw": "Oh!",
@@ -729,9 +731,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -790,8 +794,8 @@
     {
         "en_raw": "\"Give me some time to figure it out.\"",
         "en_clean": "\"Give me some time to figure it out.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "それを知るには、少し時間がかかりそうだ。",
+        "jp_clean": "それを知るには、少し時間がかかりそうだ。"
     },
     {
         "en_raw": "Of course! Take all the time you need, Sif!!!",
@@ -1034,8 +1038,8 @@
     {
         "en_raw": "\"Literally EVERY time!!!\"",
         "en_clean": "\"Literally EVERY time!!!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"毎回ね！！！\"",
+        "jp_clean": "\"毎回ね！！！\""
     },
     {
         "en_raw": "Oh.",
@@ -1112,14 +1116,14 @@
     {
         "en_raw": "\"But they were good, this time.\"",
         "en_clean": "\"But they were good, this time.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど、今回は良い仲間だったよ。\"",
+        "jp_clean": "\"だけど、今回は良い仲間だったよ。\""
     },
     {
         "en_raw": "\"And that's all that matters, doesn't it?\"",
         "en_clean": "\"And that's all that matters, doesn't it?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"重要なのはそこだろ？\"",
+        "jp_clean": "\"重要なのはそこだろ？\""
     },
     {
         "en_raw": "Oh!",
@@ -1200,8 +1204,8 @@
     {
         "en_raw": "\"There is one thing I'd like to apologize for, Isa.\"",
         "en_clean": "\"There is one thing I'd like to apologize for, Isa.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"イザ、きみに謝りたいことがあるんだ。\"",
+        "jp_clean": "\"イザ、きみに謝りたいことがあるんだ。\""
     },
     {
         "en_raw": "Hm?",
@@ -1238,14 +1242,14 @@
     {
         "en_raw": "\"I, um...\"",
         "en_clean": "\"I, um...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"僕、その...\"",
+        "jp_clean": "\"僕、その...\""
     },
     {
         "en_raw": "\"I kissed you, once, in one loop.\"",
         "en_clean": "\"I kissed you, once, in one loop.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あるループで、きみにキスしたんだ。一度だけ。\"",
+        "jp_clean": "\"あるループで、きみにキスしたんだ。一度だけ。\""
     },
     {
         "en_raw": "",
@@ -1256,14 +1260,14 @@
     {
         "en_raw": "\"I didn't really ask if it was okay or anything...\"",
         "en_clean": "\"I didn't really ask if it was okay or anything...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"その時、してもいいかどうか、きみに聞かなかったから...\"",
+        "jp_clean": "\"その時、してもいいかどうか、きみに聞かなかったから...\""
     },
     {
         "en_raw": "\"So I wanted to, um...\"",
         "en_clean": "\"So I wanted to, um...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だから、その...\"",
+        "jp_clean": "\"だから、その...\""
     },
     {
         "en_raw": "(Huh?)",
@@ -1298,8 +1302,8 @@
     {
         "en_raw": "\"Isa?!\"",
         "en_clean": "\"Isa?!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"イザ！？\"",
+        "jp_clean": "\"イザ！？\""
     },
     {
         "en_raw": "I'm fine. I'm okay. We kissed. It's fine. I'm being perfectly normal about this piece of information.",
@@ -1356,14 +1360,14 @@
     {
         "en_raw": "\"Oh, um...\"",
         "en_clean": "\"Oh, um...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"ああ、それは...\"",
+        "jp_clean": "\"ああ、それは...\""
     },
     {
         "en_raw": "\"It didn't go that great.\"",
         "en_clean": "\"It didn't go that great.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"あまりうまくできなかったから。\"",
+        "jp_clean": "\"あまりうまくできなかったから。\""
     },
     {
         "en_raw": "(He pushed you away, then, so clearly, even if it was fine, you must've done something wrong.)",
@@ -1525,9 +1529,11 @@
             "\\m[rb]\\m[clear](...)",
             "\\m[rb]\\m[clear](\\..\\..\\..)",
             "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]"
+            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
+            "(...)"
         ],
         "jp_clean": [
+            "(...)",
             "(...)",
             "(...)",
             "(...)",
@@ -1598,8 +1604,8 @@
     {
         "en_raw": "\"Maybe we should.\"",
         "en_clean": "\"Maybe we should.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そうかもしれないね。\"",
+        "jp_clean": "\"そうかもしれないね。\""
     },
     {
         "en_raw": "Hm.",
@@ -1686,14 +1692,14 @@
     {
         "en_raw": "\"There's loads of time I wouldn't have been able to progress without you knowing about stuff.\"",
         "en_clean": "\"There's loads of time I wouldn't have been able to progress without you knowing about stuff.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"物知りなきみがいなければ、前に進めなかっただろうなってことが、何度もあったんだ。\"",
+        "jp_clean": "\"物知りなきみがいなければ、前に進めなかっただろうなってことが、何度もあったんだ。\""
     },
     {
         "en_raw": "\"The mirror being one of them!\"",
         "en_clean": "\"The mirror being one of them!\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"鏡もその一つ！\"",
+        "jp_clean": "\"鏡もその一つ！\""
     },
     {
         "en_raw": "Oh, the mirror... It's true no one knew about it, earlier...",
@@ -1770,8 +1776,8 @@
     {
         "en_raw": "\"And we wouldn't like you any less if you were smart, you know.\"",
         "en_clean": "\"And we wouldn't like you any less if you were smart, you know.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"だけど、賢いからってきみを好きな気持ちが減るわけじゃないよ。\"",
+        "jp_clean": "\"だけど、賢いからってきみを好きな気持ちが減るわけじゃないよ。\""
     },
     {
         "en_raw": "Oh.",
@@ -2004,8 +2010,8 @@
     {
         "en_raw": "\"Isa...\"",
         "en_clean": "\"Isa...\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"イザ...\"",
+        "jp_clean": "\"イザ...\""
     },
     {
         "en_raw": "Yeah, yeah, I'll try.",
@@ -2028,8 +2034,8 @@
     {
         "en_raw": "\"Sure thing, Isa.\"",
         "en_clean": "\"Sure thing, Isa.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"もちろんだ、イザ。\"",
+        "jp_clean": "\"もちろんだ、イザ。\""
     },
     {
         "en_raw": "Oh! And you knew about the clothing designer thing, too!",
@@ -2104,8 +2110,8 @@
     {
         "en_raw": "\"Is that so?\"",
         "en_clean": "\"Is that so?\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"そうなの？\"",
+        "jp_clean": "\"そうなの？\""
     },
     {
         "en_raw": "It is so.",
@@ -2116,8 +2122,8 @@
     {
         "en_raw": "\"Alright, then. I'll let you design clothes for me.\"",
         "en_clean": "\"Alright, then. I'll let you design clothes for me.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"分かったよ。じゃあ、僕のための服をデザインさせてあげる。\"",
+        "jp_clean": "\"分かったよ。じゃあ、僕のための服をデザインさせてあげる。\""
     },
     {
         "en_raw": "YAHOO!!! SO GENEROUS!!!",
@@ -2134,8 +2140,8 @@
     {
         "en_raw": "\"I do want to preface by saying.\"",
         "en_clean": "\"I do want to preface by saying.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "あらかじめ言っておきたいんだ。",
+        "jp_clean": "あらかじめ言っておきたいんだ。"
     },
     {
         "en_raw": "Hm?",
@@ -2160,8 +2166,8 @@
     {
         "en_raw": "\"That you told me this joke before.\"",
         "en_clean": "\"That you told me this joke before.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"このジョークは、前にきみが教えてくれたものだよ。\"",
+        "jp_clean": "\"このジョークは、前にきみが教えてくれたものだよ。\""
     },
     {
         "en_raw": "Uh huh?",
@@ -2172,14 +2178,14 @@
     {
         "en_raw": "\"Okay, so.\"",
         "en_clean": "\"Okay, so.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"じゃあ言うね。\"",
+        "jp_clean": "\"じゃあ言うね。\""
     },
     {
         "en_raw": "\"'Why shouldn't you take up time travel?'\"",
         "en_clean": "\"'Why shouldn't you take up time travel?'\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"過去へのタイムトラベルに手を付けてはいけないのはどうして？\"",
+        "jp_clean": "\"過去へのタイムトラベルに手を付けてはいけないのはどうして？\""
     },
     {
         "en_raw": "Uh oh.",
@@ -2208,8 +2214,8 @@
     {
         "en_raw": "\"'Because there's no future in it!'\"",
         "en_clean": "\"'Because there's no future in it!'\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"未来がないからだよ！\"",
+        "jp_clean": "\"未来がないからだよ！\""
     },
     {
         "en_raw": ". . .",
@@ -2226,8 +2232,8 @@
     {
         "en_raw": "\"Sometime yesterday.\"",
         "en_clean": "\"Sometime yesterday.\"",
-        "jp_raw": null,
-        "jp_clean": null
+        "jp_raw": "\"昨日だよ。\"",
+        "jp_clean": "\"昨日だよ。\""
     },
     {
         "en_raw": "...",
