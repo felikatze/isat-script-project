@@ -201,8 +201,8 @@ def format_line_associations(json_path: str | None = None):
     # waves:
     #    "\\\\wave(.+?)("|\\\\resetshake)
     #    "<span class=\"wave\">$1</span>"
-    shake_pattern = re.compile(r"\\shake(.+?)($|\\resetshake)")
-    wave_pattern = re.compile(r"\\wave(.+?)($|\\resetshake)")
+    shake_pattern = re.compile(r"\\shake(.+?)($|\\resetshake)", flags=re.IGNORECASE)
+    wave_pattern = re.compile(r"\\wave(.+?)($|\\resetshake)", flags=re.IGNORECASE)
     unneeded_stuff_pattern = re.compile(r"(\\(m\[(v([smioblhkq](np)?|(wo)?man||nb|kid|sc|tuto|cg)|clear|rb|choice(var|space))\]|!\\|!|n<.+?>|fi|i\[\d+?\]|ls(on|off|piv?\[\d+?\])|bustClear\[\d+?,\d+?\]))", flags=re.IGNORECASE)
     
     
@@ -227,6 +227,5 @@ def format_line_associations(json_path: str | None = None):
                 bar()
     
     
-    
-generate_page_line_associations()
+
 format_line_associations()
