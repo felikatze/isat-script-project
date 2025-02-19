@@ -2,49 +2,49 @@
     {
         "en_raw": "(The Clocktower.)",
         "en_clean": "(The Clocktower.)",
-        "jp_raw": "\\m[clear](時計台だ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(時計台だ。)m[wait]\\m[wait]\\^",
         "jp_clean": "(時計台だ。)",
         "checked": false
     },
     {
         "en_raw": "(You arrived later than usual.)",
         "en_clean": "(You arrived later than usual.)",
-        "jp_raw": "(いつもより、着くのが遅くなった。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(いつもより、着くのが遅くなった。)m[wait]\\m[wait]\\^",
         "jp_clean": "(いつもより、着くのが遅くなった。)",
         "checked": false
     },
     {
         "en_raw": "(Is everyone eating still?)",
         "en_clean": "(Is everyone eating still?)",
-        "jp_raw": "(みんな、まだ食事中なのか？)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(みんな、まだ食事中なのか？)m[wait]\\m[wait]\\^",
         "jp_clean": "(みんな、まだ食事中なのか？)",
         "checked": false
     },
     {
         "en_raw": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
         "en_clean": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
-        "jp_raw": "(食事に加わって、\\!今回は普通にしておかないと。\\!そうすれば、明日は一緒に館に行ける。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)m[wait]\\m[wait]\\^",
         "jp_clean": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)",
         "checked": false
     },
     {
         "en_raw": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
         "en_clean": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
-        "jp_raw": "(みんなの強さが十分じゃなくても、構わない。\\!自分でやればいい。\\!自分で王を倒すんだ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)m[wait]\\m[wait]\\^",
         "jp_clean": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)",
         "checked": false
     },
     {
         "en_raw": "(You just want them here.)",
         "en_clean": "(You just want them here.)",
-        "jp_raw": "(みんなは、そばにいてくれるだけでいい。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(みんなは、そばにいてくれるだけでいい。)m[wait]\\m[wait]\\^",
         "jp_clean": "(みんなは、そばにいてくれるだけでいい。)",
         "checked": false
     },
     {
         "en_raw": "(You enter silently.)",
         "en_clean": "(You enter silently.)",
-        "jp_raw": "(僕は無言で中に入る。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(僕は無言で中に入る。)m[wait]\\m[wait]\\^",
         "jp_clean": "(僕は無言で中に入る。)",
         "checked": false
     },
@@ -168,7 +168,7 @@
     {
         "en_raw": "(You don't hear cutlery or anything.)",
         "en_clean": "(You don't hear cutlery or anything.)",
-        "jp_raw": "(食器の音も何も聞こえない。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(食器の音も何も聞こえない。)m[wait]\\m[wait]\\^",
         "jp_clean": "(食器の音も何も聞こえない。)",
         "checked": false
     },
@@ -192,21 +192,21 @@
     {
         "en_raw": "(They must've eaten without you.)",
         "en_clean": "(They must've eaten without you.)",
-        "jp_raw": "(みんな僕抜きで食事を終えたんだ。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(みんな僕抜きで食事を終えたんだ。)m[wait]\\m[wait]\\^",
         "jp_clean": "(みんな僕抜きで食事を終えたんだ。)",
         "checked": false
     },
     {
         "en_raw": "(Maybe they're already sleeping.)",
         "en_clean": "(Maybe they're already sleeping.)",
-        "jp_raw": "(もう眠っているかもしれない。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(もう眠っているかもしれない。)m[wait]\\m[wait]\\^",
         "jp_clean": "(もう眠っているかもしれない。)",
         "checked": false
     },
     {
         "en_raw": "(But no-- You can hear them talk.)",
         "en_clean": "(But no-- You can hear them talk.)",
-        "jp_raw": "(いや、そうじゃない――\\!みんなの会話が聞こえる。)\\!\\m[wait]\\m[wait]\\^",
+        "jp_raw": "(いや、そうじゃない――みんなの会話が聞こえる。)m[wait]\\m[wait]\\^",
         "jp_clean": "(いや、そうじゃない――みんなの会話が聞こえる。)",
         "checked": false
     },
@@ -428,7 +428,7 @@
     {
         "en_raw": "And then I left. I couldn't... Be there anymore.",
         "en_clean": "And then I left. I couldn't... Be there anymore.",
-        "jp_raw": "\\m[vmnp]その場を離れたの。\\!だって、もう...\\!\\ それ以上いられなかったから。",
+        "jp_raw": "その場を離れたの。だって、もう... それ以上いられなかったから。",
         "jp_clean": "その場を離れたの。だって、もう... それ以上いられなかったから。",
         "checked": false
     },
@@ -626,35 +626,35 @@
     {
         "en_raw": "Why would Sif act like this suddenly? That's not like them at all...",
         "en_clean": "Why would Sif act like this suddenly? That's not like them at all...",
-        "jp_raw": "\\m[vinp]どうしてシフは急にあんな態度をとるようになったんだ？\\!\\ ちっともシフらしくない...",
+        "jp_raw": "どうしてシフは急にあんな態度をとるようになったんだ？ ちっともシフらしくない...",
         "jp_clean": "どうしてシフは急にあんな態度をとるようになったんだ？ ちっともシフらしくない...",
         "checked": false
     },
     {
         "en_raw": "Clearly, something happened.",
         "en_clean": "Clearly, something happened.",
-        "jp_raw": "\\m[vonp]何かがあったのは間違いない。",
+        "jp_raw": "何かがあったのは間違いない。",
         "jp_clean": "何かがあったのは間違いない。",
         "checked": false
     },
     {
         "en_raw": "B-But what?",
         "en_clean": "B-But what?",
-        "jp_raw": "\\m[vbnp]で、でも何が？",
+        "jp_raw": "で、でも何が？",
         "jp_clean": "で、でも何が？",
         "checked": false
     },
     {
         "en_raw": "I don't understand... Why he'd do stuff like that.",
         "en_clean": "I don't understand... Why he'd do stuff like that.",
-        "jp_raw": "\\m[vbnp]サッパリ分かんない...\\!\\ なんでそんなことすんだ？",
+        "jp_raw": "サッパリ分かんない... なんでそんなことすんだ？",
         "jp_clean": "サッパリ分かんない... なんでそんなことすんだ？",
         "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n I don't understand at all!\n</span>",
         "en_clean": "I don't understand at all!",
-        "jp_raw": "\\m[vbnp]\\shakeぜんっぜん分かんないよ！",
+        "jp_raw": "<span class=\"shake\">ぜんっぜん分かんないよ！</span>",
         "jp_clean": "ぜんっぜん分かんないよ！",
         "checked": false
     },
@@ -1056,7 +1056,7 @@
     {
         "en_raw": "Everyone.",
         "en_clean": "Everyone.",
-        "jp_raw": "\\m[vonp]\\m[wait]みんな。",
+        "jp_raw": "\\m[wait]みんな。",
         "jp_clean": "みんな。",
         "checked": false
     },
@@ -1070,14 +1070,14 @@
     {
         "en_raw": "What to do?",
         "en_clean": "What to do?",
-        "jp_raw": "\\m[vinp]どうするかって？",
+        "jp_raw": "どうするかって？",
         "jp_clean": "どうするかって？",
         "checked": false
     },
     {
         "en_raw": "About tomorrow...?",
         "en_clean": "About tomorrow...?",
-        "jp_raw": "\\m[vmnp]明日のこと...？",
+        "jp_raw": "明日のこと...？",
         "jp_clean": "明日のこと...？",
         "checked": false
     },
@@ -1105,28 +1105,28 @@
     {
         "en_raw": "What do you mean?",
         "en_clean": "What do you mean?",
-        "jp_raw": "\\m[vl]どういうこと？\\m[rb]",
+        "jp_raw": "どういうこと？",
         "jp_clean": "どういうこと？",
         "checked": false
     },
     {
         "en_raw": "Are you saying... Leave without Siffrin?",
         "en_clean": "Are you saying... Leave without Siffrin?",
-        "jp_raw": "\\m[vmnp]つまり...\\!\\ シフラン抜きで出発するかってこと？",
+        "jp_raw": "つまり... シフラン抜きで出発するかってこと？",
         "jp_clean": "つまり... シフラン抜きで出発するかってこと？",
         "checked": false
     },
     {
         "en_raw": "What?!",
         "en_clean": "What?!",
-        "jp_raw": "\\m[vinp]ええっ？！",
+        "jp_raw": "ええっ？！",
         "jp_clean": "ええっ？！",
         "checked": false
     },
     {
         "en_raw": "I-I understand how you feel, but...",
         "en_clean": "I-I understand how you feel, but...",
-        "jp_raw": "\\m[vinp]き、気持ちは分かるけどさ...",
+        "jp_raw": "き、気持ちは分かるけどさ...",
         "jp_clean": "き、気持ちは分かるけどさ...",
         "checked": false
     },
@@ -1140,14 +1140,14 @@
     {
         "en_raw": "Plus, he's our friend! We can't leave them behind!!!",
         "en_clean": "Plus, he's our friend! We can't leave them behind!!!",
-        "jp_raw": "\\m[vinp]それに、シフは仲間だろ！\\!\\ 仲間を置いてくなんてできないよ！",
+        "jp_raw": "それに、シフは仲間だろ！ 仲間を置いてくなんてできないよ！",
         "jp_clean": "それに、シフは仲間だろ！ 仲間を置いてくなんてできないよ！",
         "checked": false
     },
     {
         "en_raw": "Yeah! H-He was mean, but, but Frin was always with us, so--",
         "en_clean": "Yeah! H-He was mean, but, but Frin was always with us, so--",
-        "jp_raw": "\\m[vbnp]そうだそうだ！\\!\\ き、今日はイジワルだったけど、フランはいつも一緒だった。\\!だから――",
+        "jp_raw": "そうだそうだ！ き、今日はイジワルだったけど、フランはいつも一緒だった。だから――",
         "jp_clean": "そうだそうだ！ き、今日はイジワルだったけど、フランはいつも一緒だった。だから――",
         "checked": false
     },
@@ -1161,28 +1161,28 @@
     {
         "en_raw": "Maybe they won't even come back tonight...",
         "en_clean": "Maybe they won't even come back tonight...",
-        "jp_raw": "\\m[vmnp]もしかしたら今晩だって帰ってこないかもだし...",
+        "jp_raw": "もしかしたら今晩だって帰ってこないかもだし...",
         "jp_clean": "もしかしたら今晩だって帰ってこないかもだし...",
         "checked": false
     },
     {
         "en_raw": "No, Frin will be there!!! I know it!!!",
         "en_clean": "No, Frin will be there!!! I know it!!!",
-        "jp_raw": "\\m[vbnp]フランはぜったいに来る！\\!\\ ぜったいだ！",
+        "jp_raw": "フランはぜったいに来る！ ぜったいだ！",
         "jp_clean": "フランはぜったいに来る！ ぜったいだ！",
         "checked": false
     },
     {
         "en_raw": "And either way, we should wait for them, everyone... We can't...",
         "en_clean": "And either way, we should wait for them, everyone... We can't...",
-        "jp_raw": "\\m[vinp]いずれにしても、シフランを待つべきだよ...\\!\\ だって急に...",
+        "jp_raw": "いずれにしても、シフランを待つべきだよ... だって急に...",
         "jp_clean": "いずれにしても、シフランを待つべきだよ... だって急に...",
         "checked": false
     },
     {
         "en_raw": "Please, listen to me.",
         "en_clean": "Please, listen to me.",
-        "jp_raw": "\\m[vonp]私の話を聞いてほしい。",
+        "jp_raw": "私の話を聞いてほしい。",
         "jp_clean": "私の話を聞いてほしい。",
         "checked": false
     },
@@ -1196,14 +1196,14 @@
     {
         "en_raw": "I... I just... I just don't know if we can trust Siffrin anymore.",
         "en_clean": "I... I just... I just don't know if we can trust Siffrin anymore.",
-        "jp_raw": "\\m[vonp]私は...\\!\\ ただ...\\!\\m[wait] この先もシフランを信頼できるか、分からなくなってしまったんだ。",
+        "jp_raw": "私は... ただ...m[wait] この先もシフランを信頼できるか、分からなくなってしまったんだ。",
         "jp_clean": "私は... ただ... この先もシフランを信頼できるか、分からなくなってしまったんだ。",
         "checked": false
     },
     {
         "en_raw": "Not at such an important moment.",
         "en_clean": "Not at such an important moment.",
-        "jp_raw": "\\m[vonp]今ほど重要なタイミングはないんだぞ。",
+        "jp_raw": "今ほど重要なタイミングはないんだぞ。",
         "jp_clean": "今ほど重要なタイミングはないんだぞ。",
         "checked": false
     },
@@ -1223,28 +1223,28 @@
     {
         "en_raw": "We'll be fighting the King tomorrow, Isabeau!!!",
         "en_clean": "We'll be fighting the King tomorrow, Isabeau!!!",
-        "jp_raw": "\\m[vonp]イザボー、私たちは明日、王と戦うんだ！",
+        "jp_raw": "イザボー、私たちは明日、王と戦うんだ！",
         "jp_clean": "イザボー、私たちは明日、王と戦うんだ！",
         "checked": false
     },
     {
         "en_raw": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
         "en_clean": "It's not just a simple Sadness. It's the KING. The being who has trapped Vaugarde in time.",
-        "jp_raw": "\\m[vonp]ただの哀し身じゃない。\\!王だぞ。\\!ヴォーガルドの時間を止めたとんでもない相手だ。",
+        "jp_raw": "ただの哀し身じゃない。王だぞ。ヴォーガルドの時間を止めたとんでもない相手だ。",
         "jp_clean": "ただの哀し身じゃない。王だぞ。ヴォーガルドの時間を止めたとんでもない相手だ。",
         "checked": false
     },
     {
         "en_raw": "And we need to be a team.",
         "en_clean": "And we need to be a team.",
-        "jp_raw": "\\m[vonp]一丸にならないと勝ち目はない。",
+        "jp_raw": "一丸にならないと勝ち目はない。",
         "jp_clean": "一丸にならないと勝ち目はない。",
         "checked": false
     },
     {
         "en_raw": "We need to be united, we need to trust one another.",
         "en_clean": "We need to be united, we need to trust one another.",
-        "jp_raw": "\\m[vonp]団結して、お互いを信頼しなければ。",
+        "jp_raw": "団結して、お互いを信頼しなければ。",
         "jp_clean": "団結して、お互いを信頼しなければ。",
         "checked": false
     },
@@ -1258,14 +1258,14 @@
     {
         "en_raw": "Could you do it, everyone?",
         "en_clean": "Could you do it, everyone?",
-        "jp_raw": "\\m[vonp]それが可能だと思うか？\\!\\m[wait]\\^",
+        "jp_raw": "それが可能だと思うか？m[wait]\\^",
         "jp_clean": "それが可能だと思うか？",
         "checked": false
     },
     {
         "en_raw": "Could you entrust your life and future to someone like Siffrin right now?",
         "en_clean": "Could you entrust your life and future to someone like Siffrin right now?",
-        "jp_raw": "\\m[vonp]今のシフランのような人物に命を預け、未来を託すことができるか？\\!\\m[wait]\\^",
+        "jp_raw": "今のシフランのような人物に命を預け、未来を託すことができるか？m[wait]\\^",
         "jp_clean": "今のシフランのような人物に命を預け、未来を託すことができるか？",
         "checked": false
     },
@@ -1865,7 +1865,7 @@
     {
         "en_raw": "(You decide to",
         "en_clean": "(You decide to",
-        "jp_raw": "\\m[clear](自分で\\!決断\\!しないと\\|\\^",
+        "jp_raw": "(自分で決断しないと\\|\\^",
         "jp_clean": "(自分で決断しないと",
         "checked": false
     }

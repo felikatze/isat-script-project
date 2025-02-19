@@ -16,7 +16,7 @@
     {
         "en_raw": "(With your superior sense of smell, you smell the flower.)",
         "en_clean": "(With your superior sense of smell, you smell the flower.)",
-        "jp_raw": "\\m[clear](鋭い嗅覚のおかげで、花の香りをキャッチした。)",
+        "jp_raw": "(鋭い嗅覚のおかげで、花の香りをキャッチした。)",
         "jp_clean": "(鋭い嗅覚のおかげで、花の香りをキャッチした。)",
         "checked": false
     },
@@ -30,7 +30,7 @@
     {
         "en_raw": "(You look at the flower.)",
         "en_clean": "(You look at the flower.)",
-        "jp_raw": "\\m[clear](花を見つめる。)",
+        "jp_raw": "(花を見つめる。)",
         "jp_clean": "(花を見つめる。)",
         "checked": false
     },
@@ -44,7 +44,7 @@
     {
         "en_raw": "(It's a flower.)",
         "en_clean": "(It's a flower.)",
-        "jp_raw": "\\m[clear](花だ。)",
+        "jp_raw": "(花だ。)",
         "jp_clean": "(花だ。)",
         "checked": false
     },
@@ -65,7 +65,7 @@
     {
         "en_raw": "(It's a flower.)",
         "en_clean": "(It's a flower.)",
-        "jp_raw": "\\m[clear](花だ。)",
+        "jp_raw": "(花だ。)",
         "jp_clean": "(花だ。)",
         "checked": false
     },
@@ -79,7 +79,7 @@
     {
         "en_raw": "(You remove the flower's petals, one at a time.)",
         "en_clean": "(You remove the flower's petals, one at a time.)",
-        "jp_raw": "\\m[clear](花びらを1枚ずつ抜きとる。)",
+        "jp_raw": "(花びらを1枚ずつ抜きとる。)",
         "jp_clean": "(花びらを1枚ずつ抜きとる。)",
         "checked": false
     },
@@ -100,14 +100,14 @@
     {
         "en_raw": "(still here)",
         "en_clean": "(still here)",
-        "jp_raw": "\\m[clear](まだある)",
+        "jp_raw": "(まだある)",
         "jp_clean": "(まだある)",
         "checked": false
     },
     {
         "en_raw": "(You still have the flower.)",
         "en_clean": "(You still have the flower.)",
-        "jp_raw": "\\m[clear](まだ花を持っている。)",
+        "jp_raw": "(まだ花を持っている。)",
         "jp_clean": "(まだ花を持っている。)",
         "checked": false
     },
@@ -238,7 +238,7 @@
     {
         "en_raw": "You're giving me a flower?",
         "en_clean": "You're giving me a flower?",
-        "jp_raw": "\\m[vb]シフランがオイラに花を？",
+        "jp_raw": "シフランがオイラに花を？",
         "jp_clean": "シフランがオイラに花を？",
         "checked": false
     },
@@ -309,7 +309,7 @@
     {
         "en_raw": "(Bonnie hesitantly takes the flower, and stares at it intently.)",
         "en_clean": "(Bonnie hesitantly takes the flower, and stares at it intently.)",
-        "jp_raw": "\\m[clear](ボニーはためらいがちに花を受け取り、\\!それをじっと見つめた。)",
+        "jp_raw": "(ボニーはためらいがちに花を受け取り、それをじっと見つめた。)",
         "jp_clean": "(ボニーはためらいがちに花を受け取り、それをじっと見つめた。)",
         "checked": false
     },
@@ -323,14 +323,14 @@
     {
         "en_raw": "W-what? A flower?",
         "en_clean": "W-what? A flower?",
-        "jp_raw": "\\m[vi]え、なんだ？\\!\\ 花？",
+        "jp_raw": "え、なんだ？ 花？",
         "jp_clean": "え、なんだ？ 花？",
         "checked": false
     },
     {
         "en_raw": "...For me?",
         "en_clean": "...For me?",
-        "jp_raw": "\\..\\..\\..\\!\\m[wait]俺に？",
+        "jp_raw": "\\..\\..\\..m[wait]俺に？",
         "jp_clean": "...俺に？",
         "checked": false
     },
@@ -344,21 +344,21 @@
     {
         "en_raw": "Haha, yeah!!!!!!!!!",
         "en_clean": "Haha, yeah!!!!!!!!!",
-        "jp_raw": "\\m[vi]ハハ、やった！！！！！！",
+        "jp_raw": "ハハ、やった！！！！！！",
         "jp_clean": "ハハ、やった！！！！！！",
         "checked": false
     },
     {
         "en_raw": "(Isabeau takes the flower and cradles it gently in his hands.)",
         "en_clean": "(Isabeau takes the flower and cradles it gently in his hands.)",
-        "jp_raw": "\\m[clear](イザボーは花を受け取ると、手のひらでそっと包み込んだ。)",
+        "jp_raw": "(イザボーは花を受け取ると、手のひらでそっと包み込んだ。)",
         "jp_clean": "(イザボーは花を受け取ると、手のひらでそっと包み込んだ。)",
         "checked": false
     },
     {
         "en_raw": "... Thanks, Sif...",
         "en_clean": "... Thanks, Sif...",
-        "jp_raw": "\\m[vi]...\\!\\m[wait] ありがとう、シフ...",
+        "jp_raw": "...m[wait] ありがとう、シフ...",
         "jp_clean": "... ありがとう、シフ...",
         "checked": false
     },
@@ -372,35 +372,35 @@
     {
         "en_raw": "(He seems happy.)",
         "en_clean": "(He seems happy.)",
-        "jp_raw": "\\m[clear](うれしそうだ。)",
+        "jp_raw": "(うれしそうだ。)",
         "jp_clean": "(うれしそうだ。)",
         "checked": false
     },
     {
         "en_raw": "Oh! For me? Thank you, Siffrin!",
         "en_clean": "Oh! For me? Thank you, Siffrin!",
-        "jp_raw": "\\m[vm]えーっ！\\!\\ わたしに？\\!\\ ありがとう、シフラン！",
+        "jp_raw": "えーっ！ わたしに？ ありがとう、シフラン！",
         "jp_clean": "えーっ！ わたしに？ ありがとう、シフラン！",
         "checked": false
     },
     {
         "en_raw": "Hehehe, this is a nice gift... I'll make sure to press it in a book so I can keep it forever!",
         "en_clean": "Hehehe, this is a nice gift... I'll make sure to press it in a book so I can keep it forever!",
-        "jp_raw": "エヘヘ、いいものもらっちゃった...\\!\\ 本にはさんで押し花にして、ずっと大切にするね！",
+        "jp_raw": "エヘヘ、いいものもらっちゃった... 本にはさんで押し花にして、ずっと大切にするね！",
         "jp_clean": "エヘヘ、いいものもらっちゃった... 本にはさんで押し花にして、ずっと大切にするね！",
         "checked": false
     },
     {
         "en_raw": "(She seems happy.)",
         "en_clean": "(She seems happy.)",
-        "jp_raw": "\\m[clear](喜んでいるみたいだ。)",
+        "jp_raw": "(喜んでいるみたいだ。)",
         "jp_clean": "(喜んでいるみたいだ。)",
         "checked": false
     },
     {
         "en_raw": "For me? Where did that come from?",
         "en_clean": "For me? Where did that come from?",
-        "jp_raw": "\\m[vo]私に？\\!\\ どこで手に入れたんだ？",
+        "jp_raw": "私に？ どこで手に入れたんだ？",
         "jp_clean": "私に？ どこで手に入れたんだ？",
         "checked": false
     },
@@ -414,35 +414,35 @@
     {
         "en_raw": "Well, nonetheless... Thank you, Siffrin.",
         "en_clean": "Well, nonetheless... Thank you, Siffrin.",
-        "jp_raw": "まあ、とにかく...\\!\\ ありがとう、シフラン。",
+        "jp_raw": "まあ、とにかく... ありがとう、シフラン。",
         "jp_clean": "まあ、とにかく... ありがとう、シフラン。",
         "checked": false
     },
     {
         "en_raw": "It's not like you to be so thoughtful, so I'll definitely keep it as proof.",
         "en_clean": "It's not like you to be so thoughtful, so I'll definitely keep it as proof.",
-        "jp_raw": "思いやりのあるシフランなんて、珍しいな。\\!証拠としてもらっておくよ。",
+        "jp_raw": "思いやりのあるシフランなんて、珍しいな。証拠としてもらっておくよ。",
         "jp_clean": "思いやりのあるシフランなんて、珍しいな。証拠としてもらっておくよ。",
         "checked": false
     },
     {
         "en_raw": "(Proof of what...?)",
         "en_clean": "(Proof of what...?)",
-        "jp_raw": "\\m[clear](なんの証拠だよ...？)",
+        "jp_raw": "(なんの証拠だよ...？)",
         "jp_clean": "(なんの証拠だよ...？)",
         "checked": false
     },
     {
         "en_raw": "(Well, anyway... She seems happy.)",
         "en_clean": "(Well, anyway... She seems happy.)",
-        "jp_raw": "(まあいいか...\\!\\ オディールもうれしそうだし。)",
+        "jp_raw": "(まあいいか... オディールもうれしそうだし。)",
         "jp_clean": "(まあいいか... オディールもうれしそうだし。)",
         "checked": false
     },
     {
         "en_raw": "(You offer the Bright Flower to the King.)",
         "en_clean": "(You offer the Bright Flower to the King.)",
-        "jp_raw": "\\m[clear](「派手な花」を王に差し出した。)",
+        "jp_raw": "(「派手な花」を王に差し出した。)",
         "jp_clean": "(「派手な花」を王に差し出した。)",
         "checked": false
     },
@@ -515,21 +515,21 @@
     {
         "en_raw": "Siffrin?!?",
         "en_clean": "Siffrin?!?",
-        "jp_raw": "\\m[vm]シフラン？！？",
+        "jp_raw": "シフラン？！？",
         "jp_clean": "シフラン？！？",
         "checked": false
     },
     {
         "en_raw": "Uh, Sif, I don't know how it works where you're from...",
         "en_clean": "Uh, Sif, I don't know how it works where you're from...",
-        "jp_raw": "\\m[vi]なあ、シフ。\\!きみの故郷ではどうだか知らないが...",
+        "jp_raw": "なあ、シフ。きみの故郷ではどうだか知らないが...",
         "jp_clean": "なあ、シフ。きみの故郷ではどうだか知らないが...",
         "checked": false
     },
     {
         "en_raw": "But in Vaugarde, we only give flowers to people we, um... Actually like.",
         "en_clean": "But in Vaugarde, we only give flowers to people we, um... Actually like.",
-        "jp_raw": "ヴォーガルドでは、花をあげるのは...\\!\\ 本当に好きな相手だけだ。",
+        "jp_raw": "ヴォーガルドでは、花をあげるのは... 本当に好きな相手だけだ。",
         "jp_clean": "ヴォーガルドでは、花をあげるのは... 本当に好きな相手だけだ。",
         "checked": false
     },
@@ -543,21 +543,21 @@
     {
         "en_raw": "<span class=\"shake\">\n ......Important.\n</span>",
         "en_clean": "......Important.",
-        "jp_raw": "\\m[vk]\\shake......重要な人なら。",
+        "jp_raw": "<span class=\"shake\">......重要な人なら。</span>",
         "jp_clean": "......重要な人なら。",
         "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n Friends, family, rivals...... Enemies......\n</span>",
         "en_clean": "Friends, family, rivals...... Enemies......",
-        "jp_raw": "\\shake友人、家族、ライバル......\\!<br>\n敵......\\m[rb]",
+        "jp_raw": "\\shake友人、家族、ライバル......<br>\n敵......",
         "jp_clean": "友人、家族、ライバル......敵......",
         "checked": false
     },
     {
         "en_raw": "(The King takes a step forward, and gently takes the flower from your hand.)",
         "en_clean": "(The King takes a step forward, and gently takes the flower from your hand.)",
-        "jp_raw": "\\m[clear](王は1歩前に出て、僕の手からそっと花を取った。)",
+        "jp_raw": "(王は1歩前に出て、僕の手からそっと花を取った。)",
         "jp_clean": "(王は1歩前に出て、僕の手からそっと花を取った。)",
         "checked": false
     },
@@ -617,14 +617,14 @@
     {
         "en_raw": "<span class=\"shake\">\n Bright one...... No matter how this battle ends......\n</span>",
         "en_clean": "Bright one...... No matter how this battle ends......",
-        "jp_raw": "\\shake明るき者......\\!<br>\nこの戦いがどのような結末になろうとも......",
+        "jp_raw": "\\shake明るき者......<br>\nこの戦いがどのような結末になろうとも......",
         "jp_clean": "明るき者......この戦いがどのような結末になろうとも......",
         "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n Will you remember me......?\n</span>",
         "en_clean": "Will you remember me......?",
-        "jp_raw": "\\shake私を覚えておいてくれるか......？\\m[rb]",
+        "jp_raw": "<span class=\"shake\">私を覚えておいてくれるか......？</span>",
         "jp_clean": "私を覚えておいてくれるか......？",
         "checked": false
     },
@@ -801,14 +801,14 @@
     {
         "en_raw": "<span class=\"shake\">\n Ha......\n</span>",
         "en_clean": "Ha......",
-        "jp_raw": "\\shakeハ......",
+        "jp_raw": "<span class=\"shake\">ハ......</span>",
         "jp_clean": "ハ......",
         "checked": false
     },
     {
         "en_raw": "Let us make this battle a moment truly worth remembering, then!",
         "en_clean": "Let us make this battle a moment truly worth remembering, then!",
-        "jp_raw": "それではこの戦いを、記憶するにふさわしいものにしようではないか！\\m[rb]",
+        "jp_raw": "それではこの戦いを、記憶するにふさわしいものにしようではないか！",
         "jp_clean": "それではこの戦いを、記憶するにふさわしいものにしようではないか！",
         "checked": false
     },
@@ -881,14 +881,14 @@
     {
         "en_raw": "<span class=\"shake\">\n If it's any consolation......\n</span>",
         "en_clean": "If it's any consolation......",
-        "jp_raw": "\\shake気休めになるかどうか分からないが......",
+        "jp_raw": "<span class=\"shake\">気休めになるかどうか分からないが......</span>",
         "jp_clean": "気休めになるかどうか分からないが......",
         "checked": false
     },
     {
         "en_raw": "<span class=\"shake\">\n I'll remember you after I defeat you, bright one.\n</span>",
         "en_clean": "I'll remember you after I defeat you, bright one.",
-        "jp_raw": "\\shakeおまえを倒しても、私はお前を覚えておく、明るき者よ。\\m[rb]",
+        "jp_raw": "<span class=\"shake\">おまえを倒しても、私はお前を覚えておく、明るき者よ。</span>",
         "jp_clean": "おまえを倒しても、私はお前を覚えておく、明るき者よ。",
         "checked": false
     },
@@ -909,21 +909,21 @@
     {
         "en_raw": "A flower? But...",
         "en_clean": "A flower? But...",
-        "jp_raw": "\\m[vh]お花？\\!\\ でも...",
+        "jp_raw": "お花？ でも...",
         "jp_clean": "お花？ でも...",
         "checked": false
     },
     {
         "en_raw": "...!!!!!",
         "en_clean": "...!!!!!",
-        "jp_raw": "\\shake...！！！",
+        "jp_raw": "<span class=\"shake\">...！！！</span>",
         "jp_clean": "...！！！",
         "checked": false
     },
     {
         "en_raw": "Oh... Oh no. Oh no, no, no, no, no...",
         "en_clean": "Oh... Oh no. Oh no, no, no, no, no...",
-        "jp_raw": "ああ...\\!\\ そんな。\\!\\ ああ、ああ、ああ...",
+        "jp_raw": "ああ... そんな。 ああ、ああ、ああ...",
         "jp_clean": "ああ... そんな。 ああ、ああ、ああ...",
         "checked": false
     },
@@ -963,14 +963,14 @@
     {
         "en_raw": "I'm sorry! You'll be going back! Back when everything started!",
         "en_clean": "I'm sorry! You'll be going back! Back when everything started!",
-        "jp_raw": "ごめんなさいね！\\!\\ あなたは戻ってしまう！\\!\\ すべてが始まった時点に！",
+        "jp_raw": "ごめんなさいね！ あなたは戻ってしまう！ すべてが始まった時点に！",
         "jp_clean": "ごめんなさいね！ あなたは戻ってしまう！ すべてが始まった時点に！",
         "checked": false
     },
     {
         "en_raw": "(Burnt sugar, right on cue.)",
         "en_clean": "(Burnt sugar, right on cue.)",
-        "jp_raw": "\\m[clear](焦げた砂糖。\\!お決まりのタイミングだ。)",
+        "jp_raw": "(焦げた砂糖。お決まりのタイミングだ。)",
         "jp_clean": "(焦げた砂糖。お決まりのタイミングだ。)",
         "checked": false
     },
@@ -984,7 +984,7 @@
     {
         "en_raw": "I know you thought your quest was over, but it can't be!",
         "en_clean": "I know you thought your quest was over, but it can't be!",
-        "jp_raw": "\\m[vh]あなたたちの旅は終わったと考えているでしょうが、それはありえません！",
+        "jp_raw": "あなたたちの旅は終わったと考えているでしょうが、それはありえません！",
         "jp_clean": "あなたたちの旅は終わったと考えているでしょうが、それはありえません！",
         "checked": false
     },
@@ -1038,7 +1038,7 @@
     {
         "en_raw": "It's my fault that you have to suffer like this.",
         "en_clean": "It's my fault that you have to suffer like this.",
-        "jp_raw": "\\m[vh]あなたがこうやって苦しむのは、私のせいですわ。",
+        "jp_raw": "あなたがこうやって苦しむのは、私のせいですわ。",
         "jp_clean": "あなたがこうやって苦しむのは、私のせいですわ。",
         "checked": false
     },
@@ -1067,14 +1067,14 @@
     {
         "en_raw": "(You wave the flower towards Loop.)",
         "en_clean": "(You wave the flower towards Loop.)",
-        "jp_raw": "\\m[clear](ループに向かって花を振る。)",
+        "jp_raw": "(ループに向かって花を振る。)",
         "jp_clean": "(ループに向かって花を振る。)",
         "checked": false
     },
     {
         "en_raw": "Urgh, a flower.",
         "en_clean": "Urgh, a flower.",
-        "jp_raw": "\\m[vl]うわ、花だ。",
+        "jp_raw": "うわ、花だ。",
         "jp_clean": "うわ、花だ。",
         "checked": false
     },
@@ -1088,56 +1088,56 @@
     {
         "en_raw": "Get that outta here!!!",
         "en_clean": "Get that outta here!!!",
-        "jp_raw": "どこかへやってくれ！！！\\m[rb]",
+        "jp_raw": "どこかへやってくれ！！！",
         "jp_clean": "どこかへやってくれ！！！",
         "checked": false
     },
     {
         "en_raw": "(This is where your gentle, giving heart gets you.)",
         "en_clean": "(This is where your gentle, giving heart gets you.)",
-        "jp_raw": "\\m[clear](優しい、寛大な心を持つと、こうなるんだ。)",
+        "jp_raw": "(優しい、寛大な心を持つと、こうなるんだ。)",
         "jp_clean": "(優しい、寛大な心を持つと、こうなるんだ。)",
         "checked": false
     },
     {
         "en_raw": "(You wave the flower towards Loop.)",
         "en_clean": "(You wave the flower towards Loop.)",
-        "jp_raw": "\\m[clear](ループに向かって花を振る。)",
+        "jp_raw": "(ループに向かって花を振る。)",
         "jp_clean": "(ループに向かって花を振る。)",
         "checked": false
     },
     {
         "en_raw": "Urgh, that flower AGAIN?",
         "en_clean": "Urgh, that flower AGAIN?",
-        "jp_raw": "\\m[vl]うわ、またあの花？",
+        "jp_raw": "うわ、またあの花？",
         "jp_clean": "うわ、またあの花？",
         "checked": false
     },
     {
         "en_raw": "I don't want it, stardust! Give it to someone else!",
         "en_clean": "I don't want it, stardust! Give it to someone else!",
-        "jp_raw": "欲しくないんだよ、星くず君！\\!\\ 誰か他の人にあげてくれ！\\m[rb]",
+        "jp_raw": "欲しくないんだよ、星くず君！ 誰か他の人にあげてくれ！",
         "jp_clean": "欲しくないんだよ、星くず君！ 誰か他の人にあげてくれ！",
         "checked": false
     },
     {
         "en_raw": "(You wave the flower towards Loop.)",
         "en_clean": "(You wave the flower towards Loop.)",
-        "jp_raw": "\\m[clear](ループに向かって花を振る。)",
+        "jp_raw": "(ループに向かって花を振る。)",
         "jp_clean": "(ループに向かって花を振る。)",
         "checked": false
     },
     {
         "en_raw": "Really, stop. This is getting annoying, now.",
         "en_clean": "Really, stop. This is getting annoying, now.",
-        "jp_raw": "\\m[vl]本当にやめてくれ。\\!ムカついてきた。",
+        "jp_raw": "本当にやめてくれ。ムカついてきた。",
         "jp_clean": "本当にやめてくれ。ムカついてきた。",
         "checked": false
     },
     {
         "en_raw": "Give it to someone else.",
         "en_clean": "Give it to someone else.",
-        "jp_raw": "誰か他の人にあげてくれ。\\m[rb]",
+        "jp_raw": "誰か他の人にあげてくれ。",
         "jp_clean": "誰か他の人にあげてくれ。",
         "checked": false
     },
@@ -1171,14 +1171,14 @@
     {
         "en_raw": "She'll never wear it, but it would fit her, I think.",
         "en_clean": "She'll never wear it, but it would fit her, I think.",
-        "jp_raw": "彼女が花を着けているのは見たことがないが、きっと似合うだろう。\\m[rb]",
+        "jp_raw": "彼女が花を着けているのは見たことがないが、きっと似合うだろう。",
         "jp_clean": "彼女が花を着けているのは見たことがないが、きっと似合うだろう。",
         "checked": false
     },
     {
         "en_raw": "(Would it...?)",
         "en_clean": "(Would it...?)",
-        "jp_raw": "\\m[clear](似合うかな...？)",
+        "jp_raw": "(似合うかな...？)",
         "jp_clean": "(似合うかな...？)",
         "checked": false
     },
@@ -1192,14 +1192,14 @@
     {
         "en_raw": "He'd like anything you'd give him, that sucker.",
         "en_clean": "He'd like anything you'd give him, that sucker.",
-        "jp_raw": "きみがあげるものなら、彼はなんでも喜ぶよ。\\!きみに夢中だから。\\m[rb]",
+        "jp_raw": "きみがあげるものなら、彼はなんでも喜ぶよ。きみに夢中だから。",
         "jp_clean": "きみがあげるものなら、彼はなんでも喜ぶよ。きみに夢中だから。",
         "checked": false
     },
     {
         "en_raw": "(Would he...?)",
         "en_clean": "(Would he...?)",
-        "jp_raw": "\\m[clear](喜ぶかな...？)",
+        "jp_raw": "(喜ぶかな...？)",
         "jp_clean": "(喜ぶかな...？)",
         "checked": false
     },
@@ -1213,14 +1213,14 @@
     {
         "en_raw": "It would surprise her, if nothing else.",
         "en_clean": "It would surprise her, if nothing else.",
-        "jp_raw": "少なくとも、驚かせられるだろうよ。\\m[rb]",
+        "jp_raw": "少なくとも、驚かせられるだろうよ。",
         "jp_clean": "少なくとも、驚かせられるだろうよ。",
         "checked": false
     },
     {
         "en_raw": "(Would it...?)",
         "en_clean": "(Would it...?)",
-        "jp_raw": "\\m[clear](似合うかな...？)",
+        "jp_raw": "(似合うかな...？)",
         "jp_clean": "(似合うかな...？)",
         "checked": false
     },
@@ -1234,14 +1234,14 @@
     {
         "en_raw": "They're a kid, and what kind of kid doesn't like flowers?",
         "en_clean": "They're a kid, and what kind of kid doesn't like flowers?",
-        "jp_raw": "あいつは子どもだ。\\!花が嫌いな子どもなんていないだろ？\\m[rb]",
+        "jp_raw": "あいつは子どもだ。花が嫌いな子どもなんていないだろ？",
         "jp_clean": "あいつは子どもだ。花が嫌いな子どもなんていないだろ？",
         "checked": false
     },
     {
         "en_raw": "(Is that so..?)",
         "en_clean": "(Is that so..?)",
-        "jp_raw": "\\m[clear](そうなのか...？)",
+        "jp_raw": "(そうなのか...？)",
         "jp_clean": "(そうなのか...？)",
         "checked": false
     },
@@ -1255,7 +1255,7 @@
     {
         "en_raw": "No, I won't, so stop trying.",
         "en_clean": "No, I won't, so stop trying.",
-        "jp_raw": "\\m[vl]受け取らない。\\!だから、もうやめてくれ。\\m[rb]",
+        "jp_raw": "受け取らない。だから、もうやめてくれ。",
         "jp_clean": "受け取らない。だから、もうやめてくれ。",
         "checked": false
     },
@@ -1406,7 +1406,7 @@
     {
         "en_raw": "(You wave the flower towards Loop.)",
         "en_clean": "(You wave the flower towards Loop.)",
-        "jp_raw": "\\m[clear](ループに向かって花を振る。)",
+        "jp_raw": "(ループに向かって花を振る。)",
         "jp_clean": "(ループに向かって花を振る。)",
         "checked": false
     },
@@ -1656,7 +1656,7 @@
     {
         "en_raw": "(Loop doesn't say anything.)",
         "en_clean": "(Loop doesn't say anything.)",
-        "jp_raw": "\\m[clear](ループは何も言わない。)",
+        "jp_raw": "(ループは何も言わない。)",
         "jp_clean": "(ループは何も言わない。)",
         "checked": false
     },
@@ -1670,7 +1670,7 @@
     {
         "en_raw": "(You wave the flower towards Loop, asking them silently if they'll accept it again.)",
         "en_clean": "(You wave the flower towards Loop, asking them silently if they'll accept it again.)",
-        "jp_raw": "\\m[clear](ループに向かって花を振り、もう一度受け取ってくれるかどうか、身振りで尋ねた。)",
+        "jp_raw": "(ループに向かって花を振り、もう一度受け取ってくれるかどうか、身振りで尋ねた。)",
         "jp_clean": "(ループに向かって花を振り、もう一度受け取ってくれるかどうか、身振りで尋ねた。)",
         "checked": false
     },

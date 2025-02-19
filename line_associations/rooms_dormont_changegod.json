@@ -2,7 +2,7 @@
     {
         "en_raw": "(You approach the Change God's statue.)",
         "en_clean": "(You approach the Change God's statue.)",
-        "jp_raw": "\\m[clear](ウツロイの神像に近づく。)",
+        "jp_raw": "(ウツロイの神像に近づく。)",
         "jp_clean": "(ウツロイの神像に近づく。)",
         "checked": false
     },
@@ -23,14 +23,14 @@
     {
         "en_raw": "(...Would it know?)",
         "en_clean": "(...Would it know?)",
-        "jp_raw": "(...\\!\\m[wait]バレたりしない？)",
+        "jp_raw": "(...m[wait]バレたりしない？)",
         "jp_clean": "(...バレたりしない？)",
         "checked": false
     },
     {
         "en_raw": "(The Change God's blessing has been reset now that you're back in Dormont, so time to get a new one.)",
         "en_clean": "(The Change God's blessing has been reset now that you're back in Dormont, so time to get a new one.)",
-        "jp_raw": "(ドーモントに戻ったのだから、ウツロイの神の祝福はリセットされている。\\!改めて祝福を受けよう。)",
+        "jp_raw": "(ドーモントに戻ったのだから、ウツロイの神の祝福はリセットされている。改めて祝福を受けよう。)",
         "jp_clean": "(ドーモントに戻ったのだから、ウツロイの神の祝福はリセットされている。改めて祝福を受けよう。)",
         "checked": false
     },
@@ -80,7 +80,7 @@
     {
         "en_raw": "(So instead... Maybe you should...)",
         "en_clean": "(So instead... Maybe you should...)",
-        "jp_raw": "(なら代わりに...\\!\\ そうだな...)",
+        "jp_raw": "(なら代わりに... そうだな...)",
         "jp_clean": "(なら代わりに... そうだな...)",
         "checked": false
     },
@@ -239,7 +239,7 @@
     {
         "en_raw": "(You touch the statue you like the most, and close your eyes.)",
         "en_clean": "(You touch the statue you like the most, and close your eyes.)",
-        "jp_raw": "(一番気に入った像の頭に触れて\\!目を閉じる。)",
+        "jp_raw": "(一番気に入った像の頭に触れて目を閉じる。)",
         "jp_clean": "(一番気に入った像の頭に触れて目を閉じる。)",
         "checked": false
     },
@@ -259,14 +259,14 @@
     {
         "en_raw": "(You... \"believe strongly\", or whatever...)",
         "en_clean": "(You... \"believe strongly\", or whatever...)",
-        "jp_raw": "(ここで...\\!「強く念じる」んだよな...)\\!\\",
+        "jp_raw": "(ここで...「強く念じる」んだよな...)",
         "jp_clean": "(ここで...「強く念じる」んだよな...)",
         "checked": false
     },
     {
         "en_raw": "(Best defense is a good offense. If you hit hard, no one will hurt you or your friends.)",
         "en_clean": "(Best defense is a good offense. If you hit hard, no one will hurt you or your friends.)",
-        "jp_raw": "(攻撃こそ最大の防御。\\!強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
+        "jp_raw": "(攻撃こそ最大の防御。強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
         "jp_clean": "(攻撃こそ最大の防御。強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
         "checked": false
     },
@@ -321,7 +321,7 @@
     {
         "en_raw": "(Best offense is a good defense. You win if you and your friends are the only ones standing.)",
         "en_clean": "(Best offense is a good defense. You win if you and your friends are the only ones standing.)",
-        "jp_raw": "(防御こそ最大の攻撃。\\!自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
+        "jp_raw": "(防御こそ最大の攻撃。自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
         "jp_clean": "(防御こそ最大の攻撃。自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
         "checked": false
     },
@@ -355,7 +355,7 @@
     {
         "en_raw": "(Ouch. Okay then, not that much more powerful.)",
         "en_clean": "(Ouch. Okay then, not that much more powerful.)",
-        "jp_raw": "(イタッ！\\!\\ うん、そこまで強化されたわけじゃないな。)",
+        "jp_raw": "(イタッ！ うん、そこまで強化されたわけじゃないな。)",
         "jp_clean": "(イタッ！ うん、そこまで強化されたわけじゃないな。)",
         "checked": false
     },
@@ -369,7 +369,7 @@
     {
         "en_raw": "(Always attack first. Don't leave the enemy a chance to touch you.)",
         "en_clean": "(Always attack first. Don't leave the enemy a chance to touch you.)",
-        "jp_raw": "(先手必勝。\\!敵に指一本触れさせなければいいんだ。)",
+        "jp_raw": "(先手必勝。敵に指一本触れさせなければいいんだ。)",
         "jp_clean": "(先手必勝。敵に指一本触れさせなければいいんだ。)",
         "checked": false
     },
@@ -431,21 +431,21 @@
     {
         "en_raw": "[Once per loop, you can go to the Change God's statue and boost one of your stats!]",
         "en_clean": "[Once per loop, you can go to the Change God's statue and boost one of your stats!]",
-        "jp_raw": "\\m[vtuto][ループするたびに1回だけ、ウツロイの神像に参拝することでステータスをひとつ強化できる！]",
+        "jp_raw": "[ループするたびに1回だけ、ウツロイの神像に参拝することでステータスをひとつ強化できる！]",
         "jp_clean": "[ループするたびに1回だけ、ウツロイの神像に参拝することでステータスをひとつ強化できる！]",
         "checked": false
     },
     {
         "en_raw": "[The effects of the statue will be reset every time you go back to Dormont. So, every time you loop back here, don't forget to go to the Change God's statue, okay?]",
         "en_clean": "[The effects of the statue will be reset every time you go back to Dormont. So, every time you loop back here, don't forget to go to the Change God's statue, okay?]",
-        "jp_raw": "[像の効果はドーモントに戻るたびにリセットされる。\\!つまりここに戻るときは、必ずウツロイの神を参拝したほうがいいってことさ。\\!分かった？]\\m[rb]",
+        "jp_raw": "[像の効果はドーモントに戻るたびにリセットされる。つまりここに戻るときは、必ずウツロイの神を参拝したほうがいいってことさ。分かった？]",
         "jp_clean": "[像の効果はドーモントに戻るたびにリセットされる。つまりここに戻るときは、必ずウツロイの神を参拝したほうがいいってことさ。分かった？]",
         "checked": false
     },
     {
         "en_raw": "(Wow! Okay, that's enough for this loop.)",
         "en_clean": "(Wow! Okay, that's enough for this loop.)",
-        "jp_raw": "(おお！\\!\\ よし、今日のところはもう十分だ。)",
+        "jp_raw": "(おお！ よし、今日のところはもう十分だ。)",
         "jp_clean": "(おお！ よし、今日のところはもう十分だ。)",
         "checked": false
     },
@@ -459,7 +459,7 @@
     {
         "en_raw": "(Crouching down, you whisper to the statue, and ask...)",
         "en_clean": "(Crouching down, you whisper to the statue, and ask...)",
-        "jp_raw": "(しゃがみつつ像に向かってささやく...)\\!\\",
+        "jp_raw": "(しゃがみつつ像に向かってささやく...)",
         "jp_clean": "(しゃがみつつ像に向かってささやく...)",
         "checked": false
     },
@@ -730,7 +730,7 @@
     {
         "en_raw": "(This whole time... Were you...)",
         "en_clean": "(This whole time... Were you...)",
-        "jp_raw": "(もしかして...\\!\\ 僕はずっと...)",
+        "jp_raw": "(もしかして... 僕はずっと...)",
         "jp_clean": "(もしかして... 僕はずっと...)",
         "checked": false
     },
@@ -765,7 +765,7 @@
     {
         "en_raw": "(You approach the Change God's statue.)",
         "en_clean": "(You approach the Change God's statue.)",
-        "jp_raw": "\\m[clear](ウツロイの神像に近づく。)",
+        "jp_raw": "(ウツロイの神像に近づく。)",
         "jp_clean": "(ウツロイの神像に近づく。)",
         "checked": false
     },
@@ -779,7 +779,7 @@
     {
         "en_raw": "(Statues, big and small, all with different faces.)",
         "en_clean": "(Statues, big and small, all with different faces.)",
-        "jp_raw": "\\m[clear](いくつもの像。\\!表情もいろいろ、大きさもいろいろだ。)",
+        "jp_raw": "(いくつもの像。表情もいろいろ、大きさもいろいろだ。)",
         "jp_clean": "(いくつもの像。表情もいろいろ、大きさもいろいろだ。)",
         "checked": false
     },
@@ -793,7 +793,7 @@
     {
         "en_raw": "(A few are animated by Craft, and one jumps around and bumps gently into your foot.)",
         "en_clean": "(A few are animated by Craft, and one jumps around and bumps gently into your foot.)",
-        "jp_raw": "(クラフトの力で動いている像もいくつかある。\\!跳ね回っている像がコツンと足に当たる。)",
+        "jp_raw": "(クラフトの力で動いている像もいくつかある。跳ね回っている像がコツンと足に当たる。)",
         "jp_clean": "(クラフトの力で動いている像もいくつかある。跳ね回っている像がコツンと足に当たる。)",
         "checked": false
     },
@@ -807,7 +807,7 @@
     {
         "en_raw": "(You have trouble believing you're finally here, almost at the end of your journey.)",
         "en_clean": "(You have trouble believing you're finally here, almost at the end of your journey.)",
-        "jp_raw": "(この冒険ももうすぐ終わる。\\!ここまでたどり着いたなんて信じがたい。)",
+        "jp_raw": "(この冒険ももうすぐ終わる。ここまでたどり着いたなんて信じがたい。)",
         "jp_clean": "(この冒険ももうすぐ終わる。ここまでたどり着いたなんて信じがたい。)",
         "checked": false
     },
@@ -842,28 +842,28 @@
     {
         "en_raw": "(With Dormont's House of Change in his control, he patiently waits, for he knows his Curse can only be reversed if he is defeated.)",
         "en_clean": "(With Dormont's House of Change in his control, he patiently waits, for he knows his Curse can only be reversed if he is defeated.)",
-        "jp_raw": "(ドーモントのウツロイの館を制圧した王は、じっくりと待っている。\\!自分が倒されない限り呪いは解けないと知っているからだ。)",
+        "jp_raw": "(ドーモントのウツロイの館を制圧した王は、じっくりと待っている。自分が倒されない限り呪いは解けないと知っているからだ。)",
         "jp_clean": "(ドーモントのウツロイの館を制圧した王は、じっくりと待っている。自分が倒されない限り呪いは解けないと知っているからだ。)",
         "checked": false
     },
     {
         "en_raw": "(His victory would be all but determined, if not for Mirabelle.)",
         "en_clean": "(His victory would be all but determined, if not for Mirabelle.)",
-        "jp_raw": "(やつの勝利はほとんど確定している。\\!唯一の光明はミラベルだ。)",
+        "jp_raw": "(やつの勝利はほとんど確定している。唯一の光明はミラベルだ。)",
         "jp_clean": "(やつの勝利はほとんど確定している。唯一の光明はミラベルだ。)",
         "checked": false
     },
     {
         "en_raw": "(Your friend Mirabelle is the only survivor of the House of Dormont, after the King froze everyone inside in time and locked the gates.)",
         "en_clean": "(Your friend Mirabelle is the only survivor of the House of Dormont, after the King froze everyone inside in time and locked the gates.)",
-        "jp_raw": "(王はドーモントの館にいる人を全員凍りつかせ、固く門を閉じた。\\!そのなかでミラベルは、ただ一人逃げ延びた。)",
+        "jp_raw": "(王はドーモントの館にいる人を全員凍りつかせ、固く門を閉じた。そのなかでミラベルは、ただ一人逃げ延びた。)",
         "jp_clean": "(王はドーモントの館にいる人を全員凍りつかせ、固く門を閉じた。そのなかでミラベルは、ただ一人逃げ延びた。)",
         "checked": false
     },
     {
         "en_raw": "(Everyone says she was blessed by the Change God themselves with the power to fight back the King's Curse...)",
         "en_clean": "(Everyone says she was blessed by the Change God themselves with the power to fight back the King's Curse...)",
-        "jp_raw": "(ミラベルはウツロイの神に祝福されているのだと皆が言っている。\\!彼女は王の呪いに抗う力を授けられたと...)",
+        "jp_raw": "(ミラベルはウツロイの神に祝福されているのだと皆が言っている。彼女は王の呪いに抗う力を授けられたと...)",
         "jp_clean": "(ミラベルはウツロイの神に祝福されているのだと皆が言っている。彼女は王の呪いに抗う力を授けられたと...)",
         "checked": false
     },
@@ -877,14 +877,14 @@
     {
         "en_raw": "(When you met her, she was already traveling with Isabeau and Odile, trying to get the orbs necessary to open the House's gates and defeat the King.)",
         "en_clean": "(When you met her, she was already traveling with Isabeau and Odile, trying to get the orbs necessary to open the House's gates and defeat the King.)",
-        "jp_raw": "(ミラベルと出会ったとき、彼女はすでにイザボーとオディールと行動を共にしていた。\\!王を倒すには、まず館の門を開けるオーブを手に入れる必要があったからだ。)",
+        "jp_raw": "(ミラベルと出会ったとき、彼女はすでにイザボーとオディールと行動を共にしていた。王を倒すには、まず館の門を開けるオーブを手に入れる必要があったからだ。)",
         "jp_clean": "(ミラベルと出会ったとき、彼女はすでにイザボーとオディールと行動を共にしていた。王を倒すには、まず館の門を開けるオーブを手に入れる必要があったからだ。)",
         "checked": false
     },
     {
         "en_raw": "(You helped them defeat a particularly strong Sadness, and, seeing your strength, they asked for your help.)",
         "en_clean": "(You helped them defeat a particularly strong Sadness, and, seeing your strength, they asked for your help.)",
-        "jp_raw": "(僕はミラベルたちがやたら手強い哀し身を倒すのを手伝った。\\!そしてその戦いぶりを見た彼らに、力を貸すように頼まれた。)",
+        "jp_raw": "(僕はミラベルたちがやたら手強い哀し身を倒すのを手伝った。そしてその戦いぶりを見た彼らに、力を貸すように頼まれた。)",
         "jp_clean": "(僕はミラベルたちがやたら手強い哀し身を倒すのを手伝った。そしてその戦いぶりを見た彼らに、力を貸すように頼まれた。)",
         "checked": false
     },
@@ -905,7 +905,7 @@
     {
         "en_raw": "(You saw a lot of Vaugardian cities during your travels, some frozen, some not, and did your best to sidestep the slowly encroaching Curse.)",
         "en_clean": "(You saw a lot of Vaugardian cities during your travels, some frozen, some not, and did your best to sidestep the slowly encroaching Curse.)",
-        "jp_raw": "(旅の途中でヴォーガルドの町をいくつも訪れた。\\!完全に時間が止まった町も、まだ無事な町もあった。\\!僕らは迫り来る呪いを慎重に回避した。)",
+        "jp_raw": "(旅の途中でヴォーガルドの町をいくつも訪れた。完全に時間が止まった町も、まだ無事な町もあった。僕らは迫り来る呪いを慎重に回避した。)",
         "jp_clean": "(旅の途中でヴォーガルドの町をいくつも訪れた。完全に時間が止まった町も、まだ無事な町もあった。僕らは迫り来る呪いを慎重に回避した。)",
         "checked": false
     },
@@ -982,7 +982,7 @@
     {
         "en_raw": "(You wanted to put her at ease, so you said easily and truthfully that traveling with everyone was the happiest you could remember being.)",
         "en_clean": "(You wanted to put her at ease, so you said easily and truthfully that traveling with everyone was the happiest you could remember being.)",
-        "jp_raw": "(僕は彼女を安心させたくて、みんなとの旅は自分にとって一番幸せな時間だと答えた。\\!率直な感想だった。)",
+        "jp_raw": "(僕は彼女を安心させたくて、みんなとの旅は自分にとって一番幸せな時間だと答えた。率直な感想だった。)",
         "jp_clean": "(僕は彼女を安心させたくて、みんなとの旅は自分にとって一番幸せな時間だと答えた。率直な感想だった。)",
         "checked": false
     },
@@ -996,7 +996,7 @@
     {
         "en_raw": "(You cringe just thinking about it, truth be told. Maybe not the most considerate thing you could've said to someone with her problems at that moment.)",
         "en_clean": "(You cringe just thinking about it, truth be told. Maybe not the most considerate thing you could've said to someone with her problems at that moment.)",
-        "jp_raw": "(正直、思い出すだけで穴に入りたくなる。\\!ミラベルのような問題を抱えている人に、あのタイミングで言うには不適切な言葉だった。)",
+        "jp_raw": "(正直、思い出すだけで穴に入りたくなる。ミラベルのような問題を抱えている人に、あのタイミングで言うには不適切な言葉だった。)",
         "jp_clean": "(正直、思い出すだけで穴に入りたくなる。ミラベルのような問題を抱えている人に、あのタイミングで言うには不適切な言葉だった。)",
         "checked": false
     },
@@ -1127,21 +1127,21 @@
     {
         "en_raw": "(...You should believe something very strongly at the Change God.)",
         "en_clean": "(...You should believe something very strongly at the Change God.)",
-        "jp_raw": "(...\\!ウツロイの神の前では、何かを強く念じるのが習わしだ。)",
+        "jp_raw": "(...ウツロイの神の前では、何かを強く念じるのが習わしだ。)",
         "jp_clean": "(...ウツロイの神の前では、何かを強く念じるのが習わしだ。)",
         "checked": false
     },
     {
         "en_raw": "(That's how those work, right? Mirabelle and Isabeau taught you before.)",
         "en_clean": "(That's how those work, right? Mirabelle and Isabeau taught you before.)",
-        "jp_raw": "(そういう仕組み... なんだよね？\\!\\ ミラベルとイザボーからそう教わった。)",
+        "jp_raw": "(そういう仕組み... なんだよね？ ミラベルとイザボーからそう教わった。)",
         "jp_clean": "(そういう仕組み... なんだよね？ ミラベルとイザボーからそう教わった。)",
         "checked": false
     },
     {
         "en_raw": "(Can't just ask for things because the Change belief considers this lazy. It's the Change God, only pure belief and confidence in yourself will do, with the Change God only providing a little nudge.)",
         "en_clean": "(Can't just ask for things because the Change belief considers this lazy. It's the Change God, only pure belief and confidence in yourself will do, with the Change God only providing a little nudge.)",
-        "jp_raw": "(単に願うだけじゃだめなんだ。\\!ウツロイの信仰では怠惰とみなされる。\\!ウツロイの神に通じるのは、純粋な信仰心と自信だけ。\\!それを神が少しだけ後押ししてくれるのだとか。)",
+        "jp_raw": "(単に願うだけじゃだめなんだ。ウツロイの信仰では怠惰とみなされる。ウツロイの神に通じるのは、純粋な信仰心と自信だけ。それを神が少しだけ後押ししてくれるのだとか。)",
         "jp_clean": "(単に願うだけじゃだめなんだ。ウツロイの信仰では怠惰とみなされる。ウツロイの神に通じるのは、純粋な信仰心と自信だけ。それを神が少しだけ後押ししてくれるのだとか。)",
         "checked": false
     },
@@ -1162,14 +1162,14 @@
     {
         "en_raw": "(You... \"believe strongly\", or whatever...)",
         "en_clean": "(You... \"believe strongly\", or whatever...)",
-        "jp_raw": "(ここで...\\!「強く念じる」んだよな...)\\!\\",
+        "jp_raw": "(ここで...「強く念じる」んだよな...)",
         "jp_clean": "(ここで...「強く念じる」んだよな...)",
         "checked": false
     },
     {
         "en_raw": "(Best defense is a good offense. If you hit hard, no one will hurt you or your friends.)",
         "en_clean": "(Best defense is a good offense. If you hit hard, no one will hurt you or your friends.)",
-        "jp_raw": "(攻撃こそ最大の防御。\\!強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
+        "jp_raw": "(攻撃こそ最大の防御。強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
         "jp_clean": "(攻撃こそ最大の防御。強烈な攻撃を入れれば、自分も仲間も傷つけられずにすむ。)",
         "checked": false
     },
@@ -1224,7 +1224,7 @@
     {
         "en_raw": "(Best offense is a good defense. You win if you and your friends are the only ones standing.)",
         "en_clean": "(Best offense is a good defense. You win if you and your friends are the only ones standing.)",
-        "jp_raw": "(防御こそ最大の攻撃。\\!自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
+        "jp_raw": "(防御こそ最大の攻撃。自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
         "jp_clean": "(防御こそ最大の攻撃。自分たちが最後まで生き残っていれば、それは勝利を意味する。)",
         "checked": false
     },
@@ -1258,7 +1258,7 @@
     {
         "en_raw": "(Ouch. Okay then, not that much more powerful.)",
         "en_clean": "(Ouch. Okay then, not that much more powerful.)",
-        "jp_raw": "(イタッ！\\!\\ うん、そこまで強化されたわけじゃないな。)",
+        "jp_raw": "(イタッ！ うん、そこまで強化されたわけじゃないな。)",
         "jp_clean": "(イタッ！ うん、そこまで強化されたわけじゃないな。)",
         "checked": false
     },
@@ -1272,7 +1272,7 @@
     {
         "en_raw": "(Always attack first. Don't leave the enemy a chance to touch you.)",
         "en_clean": "(Always attack first. Don't leave the enemy a chance to touch you.)",
-        "jp_raw": "(先手必勝。\\!敵に指一本触れさせなければいいんだ。)",
+        "jp_raw": "(先手必勝。敵に指一本触れさせなければいいんだ。)",
         "jp_clean": "(先手必勝。敵に指一本触れさせなければいいんだ。)",
         "checked": false
     },
@@ -1334,28 +1334,28 @@
     {
         "en_raw": "[Going to the Change God's statue will boost one stat of your choice!]",
         "en_clean": "[Going to the Change God's statue will boost one stat of your choice!]",
-        "jp_raw": "\\m[vtuto][ウツロイの神像に参拝すると、ステータスをどれか1つ強化できるぞ！]",
+        "jp_raw": "[ウツロイの神像に参拝すると、ステータスをどれか1つ強化できるぞ！]",
         "jp_clean": "[ウツロイの神像に参拝すると、ステータスをどれか1つ強化できるぞ！]",
         "checked": false
     },
     {
         "en_raw": "[You can also save your progress by praying at the Change God's statue!]",
         "en_clean": "[You can also save your progress by praying at the Change God's statue!]",
-        "jp_raw": "\\m[vtuto][ウツロイの神像の前で祈ると、今の状態を保存することもできる！]\\m[rb]",
+        "jp_raw": "[ウツロイの神像の前で祈ると、今の状態を保存することもできる！]",
         "jp_clean": "[ウツロイの神像の前で祈ると、今の状態を保存することもできる！]",
         "checked": false
     },
     {
         "en_raw": "(Wow! Okay, that's enough for today.)",
         "en_clean": "(Wow! Okay, that's enough for today.)",
-        "jp_raw": "(おお！\\!\\ よし、今日のところはもう十分だ。)",
+        "jp_raw": "(おお！ よし、今日のところはもう十分だ。)",
         "jp_clean": "(おお！ よし、今日のところはもう十分だ。)",
         "checked": false
     },
     {
         "en_raw": "(You thank the Change God for its blessing and quickly run away, crossing it out from the Reminder Note.)",
         "en_clean": "(You thank the Change God for its blessing and quickly run away, crossing it out from the Reminder Note.)",
-        "jp_raw": "(ウツロイの神に祝福への感謝を告げて走り去る。\\!これで「することメモ」の項目をひとつクリアできた。)",
+        "jp_raw": "(ウツロイの神に祝福への感謝を告げて走り去る。これで「することメモ」の項目をひとつクリアできた。)",
         "jp_clean": "(ウツロイの神に祝福への感謝を告げて走り去る。これで「することメモ」の項目をひとつクリアできた。)",
         "checked": false
     }
