@@ -173,7 +173,7 @@ def associate_lines_for_page(page_path: str):
                 line["jp_clean"] = matches[0][1]
             else:
                 line["jp_raw"] = [match[0] for match in matches]
-                line["jp_clean"] = [match[1] for match in matches]
+                line["jp_clean"] = matches[0][1]
         else:
             line["jp_raw"] = None
             line["jp_clean"] = None
@@ -227,5 +227,5 @@ def format_line_associations(json_path: str | None = None):
                 bar()
     
     
-
+generate_page_line_associations()
 format_line_associations()
