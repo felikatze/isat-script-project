@@ -298,10 +298,10 @@ function applySettings() {
 //                               other functions                              //
 ////////////////////////////////////////////////////////////////////////////////
 
-window.onload = async function() {
+window.addEventListener('load', async function() {
     updateButtonsPosition();
     applySettings();
-};
+});
 
 function topFunction() {
     document.body.scrollTop = 0;

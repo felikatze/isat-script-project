@@ -1,8 +1,8 @@
 import {expressionsUrlDictionary} from "/expressionsUrlDict.js"
 
-window.onload = async function() {
+window.addEventListener('load', async function() {
     tooltipImages();
-};
+});
 
 ////////////////////////////////////////////////////////////////////////////////
 //                               tooltip images                               //
