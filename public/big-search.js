@@ -6,6 +6,7 @@ window.addEventListener("load", async () => {
     if (bigAllLines.length == 0) {
         bigAllLines = await getAllDialogueLines();
     }
+    let preinsertedSpeakers = ["Siffrin", "Isabeau", "Odile", "Mirabelle", "Bonnie", "King", "Euphrasie", "Loop"];
     for (let i = 0; i < bigAllLines.length; i++) {
         var pageName = bigAllLines[i][2];
         var expressionName = bigAllLines[i][4];
@@ -17,11 +18,10 @@ window.addEventListener("load", async () => {
         if (expressionName.length > 0 && !allExpressionNames.includes(expressionName)) {
             allExpressionNames.push(expressionName)
         }
-        if (speakerName.length > 0 && !allSpeakerNames.includes(speakerName)) {
+        if (speakerName.length > 0 && !allSpeakerNames.includes(speakerName) && !preinsertedSpeakers.includes(speakerName)) {
             allSpeakerNames.push(speakerName)
         }
     }
-
     allPageNames = allPageNames.sort();
     allExpressionNames = allExpressionNames.sort();
     allSpeakerNames = allSpeakerNames.sort();
@@ -35,6 +35,7 @@ window.addEventListener("load", async () => {
     }
     for (let i = 0; i < allExpressionNames.length; i++) {
         var opt = newOption(allExpressionNames[i]);
+        opt.classList.add('tooltip')
         bigExpressionDropdown.appendChild(opt)
     }
     for (let i = 0; i < allSpeakerNames.length; i++) {
@@ -65,6 +66,7 @@ function RefreshPage(queryString) {
 let bigSearchTerm = "";
 let allPageNames = [];
 let allExpressionNames = [];
+// initialize allSpeakerNames with the pre-inserted characters already in
 let allSpeakerNames = [];
 
 function bigFilterLines(lines) {
@@ -205,15 +207,15 @@ function bigModifyResultsList(lines) {
         speakerItem.textContent = speaker
 
         sourceItem.appendChild(sourceTextNode);
-        sourceItem.classList.add('search-result-source');
+        sourceItem.classList.add('big-search-result-source');
         linkItem.appendChild(textnode);
         linkItem.appendChild(lineBreakItem);
         linkItem.appendChild(sourceItem);
         resultItem.appendChild(speakerItem);
         resultItem.appendChild(linkItem);
         resultItem.classList.add("dialogue");
-        resultItem.classList.add("search-result");
-        linkItem.classList.add("search-result-link");
+        resultItem.classList.add("big-search-result");
+        linkItem.classList.add("big-search-result-link");
 
         newUri = uri + "#!s" + nth_instance + "!" + text;
 
