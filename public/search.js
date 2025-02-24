@@ -50,7 +50,8 @@ class Searcher extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
             `
-                <input type="text" id="searchbox" placeholder="Search dialogues...">
+                <input type="search" id="searchbox" placeholder="Search dialogues..." />
+                <i id="removeSearchbarButton">&times;</i>
                 <ul id="searchUL" class="hidden">
                 </ul>
             `
@@ -68,6 +69,39 @@ function filterLines(lines) {
 
 var searchbox = document.getElementById("searchbox");
 var resultsList = document.getElementById("searchUL");
+var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon")
+var searchbarContainer = document.getElementById("searchbarContainer")
+var removeSearchbarButton = document.getElementById("removeSearchbarButton");
+
+magnifyingGlassIcon.addEventListener('click', function(){
+    searchbox.style.visibility = "visible"
+    searchbarContainer.style.visibility = "visible"
+    searchbox.style.display = "block"
+    searchbox.style.position = "static"
+    searchbox.focus()
+    searchbarContainer.style.position = "relative"
+    searchbox.style.height = "30px"
+    searchbarContainer.style.height = "30px"
+    setTimeout(() => {
+        removeSearchbarButton.style.visibility = "visible";
+        removeSearchbarButton.style.display = "block";
+        }, 100);
+
+})
+
+removeSearchbarButton.addEventListener('click', function(){
+    searchbox.style.height = "0px"
+    searchbarContainer.style.height = "0px"
+    removeSearchbarButton.style.visibility = "hidden";
+    removeSearchbarButton.style.display = "none";
+    
+    setTimeout(() => {
+    searchbox.style.position = "fixed"
+    searchbarContainer.style.position = "fixed"
+    searchbox.style.visibility = "hidden"
+    searchbarContainer.style.visibility = "hidden"
+    }, 100);
+})
 
 searchbox.onkeyup = function() {
     let filteredLines = filterLines(allLines);
@@ -75,7 +109,7 @@ searchbox.onkeyup = function() {
     if (filteredLines.length == 0 && !resultsList.classList.contains("hidden")) {
         toggleElementVisibility(resultsList)
     }
-}
+}   
 
 async function getAllDialogueLines() {
     return fetch("/dialogue-lines.json")

@@ -189,18 +189,21 @@ img.cg {
     border-image: url("/assets/images/border.png") 14 round;
 }
 
-
 #searchbox {
-    width: var(--searchbar-length);
+    width: 100%;
     float:right;
     font-family: 'VCR_OSD_MONO';
+    height: 0;
+    transition: height 100ms;
+    max-width: 1200px;
+    visibility: hidden;
     color: white;
     background-color: black;
 }
 
 #searchbox:focus {
     outline: none;
-    width: var(--searchbar-length);
+    width: 100%;
     float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
@@ -213,18 +216,16 @@ img.cg {
 }
 
 #searchUL {
-    width: var(--searchbar-length);
+    width: 100%;
     margin: 0;
-    margin-top: 20px;
     float: right;
     clear: right;
-    padding-left: 0;
-    z-index: 0;
-    height: 200px;
+    max-width: 1200px;
+    max-height: 800px;
     overflow: hidden;
     overflow-y: auto;
-    position: absolute;
     z-index: 100;
+    position: relative;
     scrollbar-width: thin;
     border-color: #555;
 }
@@ -236,11 +237,12 @@ img.cg {
 
 .search-result {
     float:right;
-    width: 100%;
+    position: relative;
+    width: 1195px;
+    height: fit-content;
     font-size: 12.5px;
     background-color:  #424949;
     margin: 0;
-    
 }
 
 .search-result-link {
@@ -251,6 +253,27 @@ img.cg {
     background-color: lightgrey;
 }
 
+#searchbarContainer {
+    margin: 0px;
+    padding: 0px;
+    height: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: height 100ms;
+    overflow: hidden;
+    position: fixed;
+    color:#fff;
+    font-size:20px;
+}
+
+#removeSearchbarButton {
+    position: fixed;
+    margin-top: 3px;
+    margin-left: 1175px;
+}
+#removeSearchbarButton:hover {
+    cursor: pointer;
+}
 
 
 /* HTML: <div class="loader"></div> */
