@@ -6,7 +6,8 @@
     <title>Menus</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-    <script src="/bars.js" defer></script>
+    <script src="/bars.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                 <h1>Menus</h1>
                 <small>Created by Felikatze</small>
                 <p>
-                    <b>Source: Common Events 143-159, 252-259, Various Plugins <!-- they're a nightmare to work with from plugin editor, so i transcribed this the hard way ~Feli --></b>
+                    <b>Source: Common Events 143-159, 252-259, YEP_OptionsCore, ARP_TitleCommandExit, GamepadConfig, YEP_SaveCore <!-- they're a nightmare to work with from plugin editor, so i transcribed this the hard way ~Feli --></b>
                 </p>
 
                 <!-- I'm not doing CSS wizard stuff rn. Anyone feel free to pretty this up.-->
@@ -69,8 +70,6 @@
 
                     <p>The animation of Siffrin on the title screen changes depending on the ACT.</p>
 
-                    <br>
-
                     <ul>
                         <li><a href="https://instarsandtime.wiki.gg/wiki/File:ISAT_Title_Animation.gif">ACT 1</a> (Eye closed, sleeping)</li>
                         <li><a href="https://instarsandtime.wiki.gg/wiki/File:ISAT_Title_ACT2_Animation.gif">ACT 2</a> (Eye open, with shine)</li>
@@ -108,7 +107,43 @@
                 <hr>
                 <br>
 
-                <h1 id="option">Options</h1>
+                <h1 id="pockets">Pockets</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        The Pockets menu contains several submenus.
+                    </p>
+
+                    <ul>
+                        <li>Pockets</li>
+                        <li><a href="/random/equipment.html">Equipment</a></li>
+                        <li><a href="/random/memories.html">Memories</a></li>
+                        <li><a href="/random/souvenirs1.html">Souvenirs</a></li>
+                    </ul>
+
+                </div>
+                
+                <hr>
+                <br>
+
+                <h1 id="craft">Craft</h1>
+
+                <hr>
+                <br>
+
+                <h1 id="equip">Equip</h1>
+
+                <hr>
+                <br>
+
+                <h1 id="profile">Profile</h1>
+
+                <h2 id="charsif">Siffrin</h2>
+
+                <hr>
+                <br>
+
+                <h1 id="option">Options / Settings</h1>
 
                 <div class="dialogue">
 
@@ -184,6 +219,8 @@
                         Game remembers the last command selected during battle.
                     </p>
 
+                    <br>
+
                     <p class="dialogue-note">
                         Available settings:
                     </p>
@@ -206,6 +243,29 @@
                     <p class="dialogue-note">
                         Can be increased in incriments of 1. Minimum is 1, maximum is 10.
                     </p>
+
+                    <br>
+
+                    <h3>Fast-Forward</h3>
+
+                    <p class="dialogue-line">
+                        Fast forward through all fast-forwardable conversations, regardless of whether you've seen them once before.
+                    </p>
+
+                    <p class="dialogue-note">
+                        Only available on New Game+.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
 
                     <hr>
                     
@@ -317,11 +377,114 @@
 
                     <br>
 
+                    <p class="dialogue-note">
+                        The following inputs can be reconfigured:
+                    </p>
+
+                    <br>
+
+                    <h4>OK / Interact</h4>
+
+                    <p class="dialogue-line indented">
+                        Confirm menus/Interact with the world.
+                    </p>
+
+                    <br>
+
+                    <h4>Cancel</h4>
+
+                    <p class="dialogue-line indented">
+                        Cancel menu actions.
+                    </p>
+
+                    <br>
+
+                    <h4>Run</h4>
+
+                    <p class="dialogue-line indented">
+                        Hold to run on the field.
+                    </p>
+
+                    <br>
+
+                    <h4>Menu</h4>
+
+                    <p class="dialogue-line indented">
+                        Access the Main Menu.
+                    </p>
+
+                    <br>
+
+                    <h4>L</h4>
+
+                    <p class="dialogue-line indented">
+                        Quickly scroll up menus.
+                    </p>
+
+                    <br>
+
+                    <h4>R</h4>
+
+                    <p class="dialogue-line indented">
+                        Quickly scroll down menus.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Other options in this menu include:
+                    </p>
+
+                    <br>
+
+                    <h4>Reset to Default</h4>
+
+                    <p class="dialogue-line indented">
+                        Returns your controller to default settings.
+                    </p>
+
+                    <br>
+
+                    <h4>Finish Configuration</h4>
+
+                    <p class="dialogue-line indented">
+                        Are you done configuring your gamepad?
+                    </p>
+
+                    <hr>
+                    <br>
+
                     <h3>Keyboard Config</h3>
 
-                    <p class="dialogue-line">
+                    <p class="dialogue-line indented">
                         Configure the game's keyboard settings.
                     </p>
+
+                    <h4>Default Keyboard Layout</h4>
+                    <p class="dialogue-line indented">
+                        Reverts your keyboard setting to default setup.
+                    </p>
+
+                    <br>
+
+                    <h4>WASD Movement Layout</h4>
+                    <p class="dialogue-line indented">
+                        Changes your keyboard to WASD movement.
+                    </p>
+
+                    <br>
+
+                    <h4>Finish Configuration</h4>
+                    <p class="dialogue-line indented">
+                        Are you done configuring your keyboard?
+                    </p>
+
+                    <br>
+
+                    <h4 class="dialogue-note">Hovering over a key</h4>
+                    <p class="dialogue-line">
+                        Change the configuration of this key?
+                    </p>                
 
                     <br>
 
@@ -353,9 +516,8 @@
 
                 </div>
 
-                <h1 id="profile">Profile</h1>
-
-                <h2 id="charsif">Siffrin</h2>
+                <hr>
+                <br>
 
                 <h1 id="load">Load / Save</h1>
 
@@ -481,6 +643,8 @@
 
                 </div>
 
+                <hr>
+                <br>
 
                 <h1 id="quit">Quit</h1>
 
