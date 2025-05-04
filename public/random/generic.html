@@ -6,7 +6,8 @@
     <title>Generic Dialogues</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-    <script src="/bars.js" defer></script>
+    <script src="/bars.js"></script> 
+    <script src="/expressions.js" type="module" defer></script>
     <script src="/search.js" defer></script> 
 </head>
 
@@ -22,9 +23,10 @@
 
             <main>
                 <h1>Generic Text</h1>
-                <small>Edited by candycoatedrox</small>
+                <small>Created by felikatze, edited by candycoatedrox and fairywrenss</small>
                 <p>A page for dialogue that stays the same across all rooms.</p>
-                <p>I don't want to write it down every time, and it's not even that interesting.</p>
+                <p>We don't want to write it down every time, and it's not even that interesting.</p>
+                <!--guy who compiled Chair And Stool Dialogue Differences: yeah def it's super uninteresting ^^; ~wren LMAO-->
                     
                 <p><b>Sources:</b> Common Events 190 (BirdEvent), 197 (FakeDoorDormont) 194 (FlowersInteract), 195 (BunchaFlowersInteract), 219 (HoleInteract), 133 (Locked Door),
                     120 (Save Point), 83 (Tears Code), 195 (TorchInteract), 135 (WeaponFoundAgain), 201 (Act5_PickUpTonics), 200 (Act5_SavePoint), 207 (Act5_NothingElse)</p>
@@ -53,6 +55,7 @@
                             <li><a href="#item5">Items</a></li>
                             <li><a href="#tears5">Tears</a></li>
                             <li><a href="#save5">Save points</a></li>
+                            <li><a href="#chairs5">Chairs and Stools</a></li>
                             <li><a href="#nothing">Nothing else</a></li>
                         </ul>
                     </li>
@@ -104,35 +107,26 @@
                     The text is very often (but not always) the same, yet it's not a Common Event, for some reason. 
                     If there's more than one seat, the second line won't play, and some versions only play it in ACTs 2 and 3.
                 </p>
-                <p>In ACT 5, the first line plays as appropiate, and the second varies by room.</p>
-                <!--dunno if i want to add it to the page (is it really generic if it's only used in one room) but here's what i found, available only to those sneaking about backstage
-
-                entrance storage room and floor 1 (armory, candle dorm, break room, storage room, kitchen)
-                    (But you're fine, so it'd be a waste of time to sit down.)
-
-                garden, hhm office
-                    (But you're fine!!!)
-
-                infirmary
-                    (BUT YOU'RE FINE.)
-
-                trap room, openphrase123
-                    (...)
-
-                observatory
-                    (You wish you could sit down.)
-                    \shake(No no no you wouldn't you wouldn't wish for anything ever again because you know that somehow somehow somehow Wish Craft brought you here)
-
-                pottery room, writing room have just say (Stool.) alone
-                -->
+                <p>In <a href="#chairs5">ACT 5</a>, the first line plays as appropiate, and the second varies by room.</p>
 
                 <br>
                     
                 <div class="dialogue">
 
-                    <p class="dialogue-line">(A [chair/stool].)</p>
-                    
-                    <p class="dialogue-line">(But there's only one, so it'd be rude to sit down.)</p>
+                    <p class="dialogue-note"><a href="/rooms/floor1/candleroom.html">Candle Room</a>, <a href="/rooms/floor1/breakroom1.html">Floor 1 Break Room</a>, <a href="/rooms/floor2/garden.html">Gardening Room</a>, <a href="/rooms/floor2/infirmary.html">Infirmary</a>, Storage Rooms on <a href="/rooms/floor1/stostorageroomoom.html">Floor 1</a>, <a href="/rooms/floor2/breakroom2.html">Floor 2</a>, and in <a href="/rooms/entrance/storageroom0.html">the Entrance</a></p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note"><a href="/rooms/floor3/potteryroom.html">Pottery Room</a>, <a href="/rooms/floor3/writing_room.html">Writing Room</a>, <a href="/rooms/floor2/admin.html">Head Housemaiden's Office</a>, <a href="/rooms/floor3/secret_room.html">Secret Room</a> (only in ACT 2 & 3); <a href="/rooms/floor1/armory.html">Armory</a>, <a href="/rooms/floor1/kitchen.html">Kitchen</a>, Garden</p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+                    <p class="dialogue-line indented">(But there's only one, so it'd be rude to sit down.)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note"><a href="/rooms/floor3/observatory.html">Observatory</a></p>
+                    <p class="dialogue-line indented">(A chair.)</p>
+                    <p class="dialogue-line indented">(You wish you could sit down.)</p>
 
                 </div>
 
@@ -848,6 +842,50 @@
                         </li>
                     </ul>
                     
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="chairs5">Chairs and Stools</h2>
+                <p>This pushes our definition of "generic", but I <!--wren, if you're wondering who "i" is here--> wanted to compile this.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Entrance Storage Room, Pottery Room, Writing Room</p>
+                    <p class="dialogue-line indented">(Stool.)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Armory, Kitchen, Candle dorm, Floor 1 Storage Room, Floor 1 Break Room</p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+                    <p class="dialogue-line indented">(But you're fine, so it'd be a waste of time to sit down.)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Gardening Room, Head Housemaiden's Office</p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+                    <p class="dialogue-line indented">(But you're fine!!!)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Infirmary</p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+                    <p class="dialogue-line indented">(BUT YOU'RE FINE.)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Floor 2 Break Room</p>
+                    <p class="dialogue-line indented">(A [chair/stool].)</p>
+                    <p class="dialogue-line indented">(...)</p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Observatory</p>
+                    <p class="dialogue-line indented">(A chair.)</p>
+                    <p class="dialogue-line indented">(You wish you could sit down.)</p>
+                    <p class="dialogue-line indented"><span class="shake">(No no no you wouldn't you wouldn't wish for anything ever again because you know that somehow somehow somehow Wish Craft brought you here)</span></p>
+
                 </div>
 
                 <hr>
