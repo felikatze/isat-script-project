@@ -1,3 +1,9 @@
+:root {
+    --custom-color: #f0f0f0;
+    --searchbar-length: 200px;
+    --searchbar-margin: 0px;
+    --loader-margin: 70px;
+  }
 /* ************************************************************************** */
 /*                                    base                                    */
 /* ************************************************************************** */
@@ -182,6 +188,151 @@ img.cg {
     border: 13px solid transparent;
     border-image: url("/assets/images/border.png") 14 round;
 }
+
+#searchbox {
+    width: 80%;
+    float:left;
+    font-family: 'VCR_OSD_MONO';
+    height: 0;
+    transition: height 100ms;
+    max-width: 1200px;
+    visibility: hidden;
+    color: white;
+    background-color: black;
+    border-right: none;
+}
+
+#searchbox:focus {
+    font-family: 'VCR_OSD_MONO';
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#searchUL {
+    width: 100%;
+    margin: 0;
+    float: right;
+    clear: right;
+    max-width: 1200px;
+    max-height: 800px;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    position: relative;
+    scrollbar-width: thin;
+    border-color: #555;
+}
+
+#searchUL:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.search-result {
+    float:right;
+    position: relative;
+    width: 1195px;
+    height: fit-content;
+    font-size: 12.5px;
+    background-color:  #424949;
+    margin: 0;
+}
+
+.search-result-link {
+    display: inline-block;
+    
+}
+.search-result:hover {
+    background-color: lightgrey;
+}
+
+#searchbarContainer {
+    margin: 0px;
+    padding: 0px;
+    height: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: height 100ms;
+    overflow: hidden;
+    position: fixed;
+    color:#fff;
+    font-size:20px;
+}
+
+.wrapper {
+    width: 1200px;
+    float:left;
+    font-family: 'VCR_OSD_MONO';
+    height: 0;
+    transition: height 100ms;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    border-right: 1px solid gray;
+}
+#advancedSearchLink  {
+    font-size: 16px;
+    position: static;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#removeSearchbarButton {
+    position: static;
+    margin-top: 3px;
+    margin-right: 25px;
+    float: right;
+}
+
+#removeSearchbarButton:hover {
+    cursor: pointer;
+}
+
+.searchBarHidden {
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    height: 0px;
+}
+
+.searchBarVisible {
+    visibility: visible;
+    display: block;
+    position: static;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    align-content: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: var(--loader-margin);
+    position: absolute;
+    float: right;
+    clear: right;
+    padding-left: 0;
+    z-index: 0;
+    width: 30px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,white 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
 
 .tooltip {
     visibility: hidden;
@@ -484,6 +635,7 @@ nav span {
     margin: auto;
     text-align: center;
 }
+
 
 nav a {
     color: white;

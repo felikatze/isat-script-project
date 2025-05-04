@@ -1,0 +1,50 @@
+/* TODO: THIS FILE IS FOR TESTING PURPOSES ONLY AND SHOULD BE MERGED INTO style.css BEFORE BEING DEPLOYED */
+ul.bigSearchPageSelect   { list-style:none; }
+ul.bigSearchPageSelect option    {display: inline; list-style-type: none; padding-right: 20px; text-decoration: underline;}
+ul.bigSearchPageSelect option:hover   {cursor: pointer;}
+ul.bigSearchPageSelect option::selection   {display: none;}
+
+#big-searchbox {
+    width: 100%;
+    height: 30px;
+    float: right;
+    font-family: 'VCR_OSD_MONO';
+    color: white;
+    background-color: black;
+}
+
+#big-searchUL {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    float: right;
+    clear: right;
+    padding-left: 0;
+    z-index: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    scrollbar-width: thin;
+    border-color: #555;
+}
+
+#big-searchUL:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.big-search-result {
+    width: 100%;
+    float: left;
+    font-size: 12.5px;
+    background-color: #424949;
+    margin: 0;
+}
+
+.big-search-result-link {
+    display: inline-block;
+    
+}
+.big-search-result:hover {
+    background-color: lightgrey;
+}

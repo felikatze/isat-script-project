@@ -6,7 +6,9 @@
     <title>Enemies</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-    <script src="/bars.js" defer></script> 
+    <script src="/bars.js"></script> 
+    <script src="/expressions.js" type="module" defer></script>
+    <script src="/search.js" defer></script> 
 </head>
 
 <body>
@@ -20,22 +22,20 @@
             <side-bar></side-bar>
 
             <main>
-                <h1>Combat</h1>
+                <h1>Enemies</h1>
                 <p><b>Source:</b> 
                     Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3), Map116 (Room (Crest)<!--f1-->), Map088 (Room (Crest)<!--f2-->), Map097 (Room (Crest)<!--f1-->); 
-                    Common Events 049 (EXAMINE), 048 (BONNIEACTION), 054 (!!!TEXT VARIABLES), 068 (ITEM_memory of skirmish), 062 (BATTLE_StartBattle), 265 (SmallEvents), 093 (MonsterCodeEntireCode), 
-                    305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 308 (FinalHit), 309 (FinalHit2), 310 (ReviveAct5), 
+                    Common Events 049 (EXAMINE), 093 (MonsterCodeEntireCode), 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 310 (ReviveAct5), 
                     224 (MidBoss1), 297 (MidBoss2A), 298 (MidBoss2B), 299 (MidBoss3A1), 300 (MidBoss3A2), 301 (MidBoss3B1), 302 (MidBoss3B2), 303 (MidBoss3C1), 303 (MidBoss3C2)
-                <p>All text (maybe) for all things combat. Enemies are organised by the floor they appear on in ACT 2, although any enemy can appear on any floor from ACT 3 onwards.</p>
+                <p>All text for (most) enemies, including skill usage and Examine text. Enemies are organised by the floor they appear on in ACT 2, although any enemy can appear on any floor from ACT 3 onwards.</p>
                 <ul>
-                    <li>For things like stats and skills, please check out the <a href="https://instarsandtime.wiki.gg">ISAT wiki</a> instead.</li>
+                    <li>For technical stats, please check out the <a href="https://instarsandtime.wiki.gg">ISAT wiki</a> instead.</li>
                     <li>For the tutorial in the House, see <a href="/events/tutorial">Tutorial</a>.</li>
                     <li>For Tutorial Kid's battle, see <a href="/rooms/dormont/tutokid">Tutorial Kid</a>.</li>
                     <li>For the King, see <a href="/rooms/king/kingfight.html">King Fight</a> or <a href="/rooms/king/kingfight-act5.html">King Fight ACT 5</a>.</li>
                     <li>For Mal du Pays' battle, see <a href="/acts/act5/maldupays">Mal du Pays</a>.</li>
                     <li>For the battle against the party, see <a href="/acts/act5/VSFriends">VS Friends</a>.</li>
                     <li>For Loop's battle, see <a href="/rooms/loop/loopfight.html">Favor Tree, ACT 6</a>.</li>
-                    <li>For the text that plays when a party member levels up, see <a href="/random/levels.html">Level Milestones</a>.</li>
                 </ul>
 
                 <!--
@@ -49,25 +49,6 @@
                 <h1>Index</h1>
 
                 <ul>
-                    <li>
-                        <a href="#generic">Generic Battle Text</a>
-                        <ul>
-                            <li><a href="#buffs">Buffs from Memories</a></li>
-                            <li><a href="#exp">Gaining EXP from death</a></li>
-                            <li><a href="#buttkicking">Mirabelle revives someone</a></li>
-                            <li><a href="#bonnie">Bonnie helps</a></li>
-                            <li><a href="#tutobon">Bonnie deals the final hit</a></li>
-                            <li><a href="#exprecieved">Battle end</a></li>
-                            <li><a href="#skirmish">Using Memory of Skirmish</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#act5">ACT 5</a>
-                        <ul>
-                            <li><a href="#revive5">Siffrin loops back</a></li>
-                            <li><a href="#bonnie5">Bonnie "helps"</a></li>
-                        </ul>
-                    </li>
                     <li>
                         <a href="#f1">Floor 1 Enemies</a>
                         <ul>
@@ -99,490 +80,6 @@
                         </ul>
                     </li>
                 </ul>
-
-                <hr>
-                <br>
-
-                <h1 id="generic">Generic Battle Text</h1>
-                <p>Text that can happen anywhere.</p>
-                <br>
-
-                <h1 id="buffs">Buffs from Memories</h1>
-                <p><b>Source:</b> Common Event 062 (BATTLE_StartBattle); Skills 115 ([MEMORY_timestopshield]), 152 ([MEMORY_Start_Atk Up]), 153 ([MEMORY_Start_Def Up]), 154 ([MEMORY_Start_Agi Up])</p>
-                <p>Plays at the start of battle with certain Memories equipped.</p>
-
-                <div class="dialogue">
-                    
-                    <p class="dialogue-note">With Memory of Victory equipped</p>
-                    <p class="dialogue-line indented">(Everyone feels more powerful!)</p>
-
-                    <br>
-
-                    <p class="dialogue-note">With Memory of Reflection equipped</p>
-                    <p class="dialogue-line indented">(Everyone feels stronger!)</p>
-
-                    <br>
-
-                    <p class="dialogue-note">With Memory of First Strike equipped</p>
-                    <p class="dialogue-line indented">(Everyone feels faster!)</p>
-
-                    <br>
-
-                    <p class="dialogue-note">With Memory of Change God equipped</p>
-                    <p class="dialogue-line indented">(Everyone is protected!)</p>
-
-                </div>
-
-                <br>
-
-                <h1 id="exp">Gaining EXP from death</h1>
-                <p><b>Source:</b> Common Event 062 (BATTLE_StartBattle); Troop54 (BASE TROOP)</p>
-                <p>After certain deaths, you'll gain EXP next time you enter a battle. This text plays after buffs are applied but before anyone takes a turn.</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">After dying to a Sadness</p>
-                    <p class="dialogue-line indented">(A Sadness killed you earlier... But you feel a tiny bit stronger.)</p>
-                    <p class="dialogue-line indented">(You gained a little bit of EXP[!/.])</p>
-                    <br>
-                    <p class="dialogue-note indented">Siffrin gains 500 EXP.</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">After dying to the King</p>
-                    <p class="dialogue-line indented">(You didn't manage to beat the King earlier, but you feel a little stronger.)</p>
-                    <p class="dialogue-line indented">(You gained some EXP[!/.])</p>
-                    <br>
-                    <p class="dialogue-note indented">Siffrin gains 2000 EXP.</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">After getting to the end</p>
-                    <p class="dialogue-line indented">(You managed to beat the King earlier...)</p>
-                    <p class="dialogue-line indented">(You feel stronger.)</p>
-                    <p class="dialogue-line indented">(You gained a lot of EXP.)</p><!--calls v286 but this can only play in act 3 onwards, no?-->
-                    <br>
-                    <p class="dialogue-note indented">Siffrin gains 10000 EXP.</p>
-                                
-                </div>
-
-                <br>
-
-                <h1 id="buttkicking">Mirabelle revives someone</h1>
-                <p><b>Source:</b> Common Events 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3); Troop54 (BASE TROOP); Skill 158 ([MEMORY_Revive])</p>
-                <p>
-                    With Memory of Buttkicking equipped, Mirabelle can revive someone as soon as they're knocked out. 
-                    This is supposed to be able to happen once per battle, but in practice it seems to only happen once per save.
-                    <!--the base troop event that revives an actor toggles Sw137 RevivedAlly to on, but nowhere seems to toggle it back off-->
-                </p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">Reviving Siffrin</p>
-                    <p class="dialogue-line indented">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(fight4)</span>
-                        </span>
-                        Siffrin...!!!
-                    </p>
-                    
-                    <br>
-
-                    <p class="dialogue-note">Reviving Isabeau</p>
-                    <p class="dialogue-line indented">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(fight2)</span>
-                        </span>
-                        Isabeau, this is NOT the time!!!
-                    </p>
-                    
-                    <br>
-
-                    <p class="dialogue-note">Reviving Odile</p>
-                    <p class="dialogue-line indented">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(fight4)</span>
-                        </span>
-                        Odile, wake up...!!!
-                    </p>    
-
-                    <hr>
-
-                    <p class="dialogue-line">(Mirabelle brings her hands to the sky!)</p>
-
-                </div>
-
-                <br>
-
-                <h1 id="bonnie">Bonnie helps</h1>
-                <p><b>Source:</b> Common Event 048 (BONNIEACTION); Skills 052-059</p>
-                <p>Every other turn, Bonnie will try to help.</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">During the tutorial</p>
-
-                    <p class="dialogue-line indented">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(stop!2)</span>
-                        </span>
-                        I WANNA HELP TOO!!!
-                    </p>
-                    
-                    <hr>
-
-                    <p class="dialogue-note">
-                        If Memory of Bonnie, Memory of Snacks, or Memory of Promise is equipped, the game rolls a number between 1 in 3. 
-                        If a 1 is rolled, Bonnie will try to take the action specified by their Memory (attacking, healing, or buffing, respectively).
-                    </p>
-                    <p class="dialogue-note">If not, the game rolls a number between 1 and 5.</p>
-                    <!--<p class="dialogue-note indented">If a 1 is rolled, Bonnie will try to heal.</p>
-                    <p class="dialogue-note indented">If a 2 is rolled or Bonnie can't heal, they'll try to buff.</p>
-                    <p class="dialogue-note indented">If a 3, 4, or 5 is rolled, or Bonnie can't buff, they'll try to attack.</p>-->
-
-                    <br>
-
-                    <p class="dialogue-note">Bonnie will try to heal if a 1 is rolled</p>
-                    <p class="dialogue-note indented">
-                        If Isabeau's<!--actor(2), which is isa i think?--> HP is below 80%, Bonnie will heal the whole party by 20%. If not, they'll try to buff instead.
-                    </p>
-                    
-                    <br>
-                    
-                    <p class="dialogue-line indented">(Bonnie runs in with snacks!)</p>
-
-                    <br>
-
-                    <p class="dialogue-note">Bonnie will try to heal if a 2 is rolled, or if they couldn't heal</p>
-                    <p class="dialogue-note indented">
-                        If Bonnie has the Griddle Pan, the Wok, or the unused Saucepan equipped, 
-                        they'll always try to buff <abbr title="Attack">ATK</abbr>, <abbr title="Defence">DEF</abbr>, or <abbr title="Speed">ATKSPD</abbr>, respectively.
-                    </p>
-                    <p class="dialogue-note indented">
-                        If not, Bonnie will buff anything Siffrin is debuffed in, with the priority of <abbr title="Speed">ATKSPD</abbr> over <abbr title="Attack">ATK</abbr> over <abbr title="Defence">DEF</abbr>.
-                    </p>
-                    <p class="dialogue-note indented">
-                        If not, a buff will be picked at random. If Siffrin already has that buff in any form, Bonnie will try to attack instead.
-                    </p>
-                    
-                    <br>
-
-                    <div class="indented">
-
-                        <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p>
-                        <p class="dialogue-line indented">(Bonnie puffs their cheeks!)</p>
-
-                        <br>
-
-                        <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p>
-                        <p class="dialogue-line indented">(Bonnie yells encouragement everyone's way!)</p>
-
-                        <br>
-
-                        <p class="dialogue-note">Buffing <abbr title="Speed">ATKSPD</abbr></p>
-                        <p class="dialogue-line indented">(Bonnie runs in a circle!)</p>
-
-                    </div>
-
-                    <br>
-
-                    <p class="dialogue-note">Bonnie will try to attack if a 3, 4, or 5 is rolled, or if they couldn't buff</p>
-                    <p class="dialogue-note indented">
-                        If Memory of Training is equipped, Bonnie will never miss.
-                    </p>
-                    <p class="dialogue-note indented">
-                        If fighting against the King, Bonnie hits 70% of the time. Otherwise, they have a 50/50 chance of missing.
-                    </p>
-
-                    <br>
-
-                    <div class="indented">
-
-                        <p class="dialogue-note">Without Bonnie's friendquest completed this loop</p>
-                        <p class="dialogue-line indented">(Bonnie whacks the enemy!)</p>
-
-                        <br>
-
-                        <p class="dialogue-note">With Bonnie's friendquest completed this loop<!-- - Billion Blows Technique does four times as much damage as Thousand Blows Technique--></p>
-                        <p class="dialogue-line indented">(Bonnie whacks the enemy really hard!)</p>
-
-                        <br>
-
-                        <p class="dialogue-note">If they missed</p>
-                        <p class="dialogue-line indented">(Bonnie missed...)</p>
-
-                    </div>
-
-                </div>
-
-                <br>
-
-                <h1 id="tutobon">Bonnie deals the final hit</h1>
-                <p><b>Source:</b> Common Events 308 (FinalHit), 309 (FinalHit2); Skill 058 ([Bonnie's final blow])</p>
-                <p>
-                    Bonnie can deal the final hit on an enemy (except the tutorial Sadnesses, Bourdon and its hands, or the King) 
-                    if it has less than 5% HP left after a party member (including Bonnie themself) takes their turn, finishing it off in one hit. 
-                    The first time this happens, this text plays.
-                </p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(no!2)</span>
-                        </span>
-                        AW!!! We almost got it!!!
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(anxious2)</span>
-                        </span>
-                        It's very weak... A slightly stronger blow would've done it!
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(fufufu1)</span>
-                        </span>
-                        Well, if it's weak...
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(brag1)</span>
-                        </span>
-                        Wanna deal the final blow, Bonnie?
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(wow1)</span>
-                        </span>
-                        CAN I?!??
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(dotdotdot2)</span>
-                        </span>
-                        It IS pretty weak, so...
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol3)</span>
-                        </span>
-                        Sure. Knock yourself out.
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(stop!2)</span>
-                        </span>
-                        O-OKAY!!!! HERE I GO!!!!!
-                    </p>
-
-                    <br>
-
-                    <img src="https://instarsandtime.wiki.gg/images/9/97/ISAT_Special_Bonnie.png" 
-                    alt="Image ID: Bonnie runs forward with their frying pan at the ready and a determined expression. End ID." >
-                    <!--i don't know what i'm doingggg this is the styling bonnie's friendquest cut-in uses which is to say no styling-->
-
-                    <br>
-
-                    <p class="dialogue-line">(Bonnie deals the final blow!!!)</p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(UWAH1)</span>
-                        </span>
-                        <span class="big">YEAAAAAAAAAAAAAAAAAAAH!!!!!!!</span>
-                    </p>
-                    
-                    <br>
-
-                    <p class="dialogue-line">(You clap.)</p>
-
-                    <br>
-
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Isabeau</span>
-                            <span class="dialogue-expression">(hahaha2)</span>
-                        </span>
-                        Great job, Bonbon!
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Odile</span>
-                            <span class="dialogue-expression">(lol2)</span>
-                        </span>
-                        You did good.
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Mirabelle</span>
-                            <span class="dialogue-expression">(excited1)</span>
-                        </span>
-                        What would we have done without you!
-                    </p>
-                    
-                    <p class="dialogue-line">
-                        <span class="dialogue-head">
-                            <span class="dialogue-name">Bonnie</span>
-                            <span class="dialogue-expression">(hmf2)</span>
-                        </span>
-                        HMF!!!!!!!!!!!
-                    </p>
-                    
-                    <br>
-
-                    <p class="dialogue-line">[If an enemy is close to death, your little kiddo might deal the final blow!]</p>
-                    <p class="dialogue-line">[Look at them. So proud. Like a little bird who flew for the first time.]</p>
-
-                </div>
-
-                <br>
-
-                <h1 id="exprecieved">Battle end</h1>
-                <p>Plays at the end of battle, before closing the battle menu. For the text that plays when a party member levels up, see <a href="/random/levels.html">Level Milestones</a>.</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">Normally</p>
-                    <p class="dialogue-line indented">(You breathe in, and out.)</p>
-                    <p class="dialogue-line indented">([number] EXP received[!/.])</p>
-                    
-                    <hr>
-
-                    <p class="dialogue-note">With Memory of Family equipped</p>
-                    <p class="dialogue-line indented">(You breathe in, and out.)</p>
-                    <p class="dialogue-line indented">([number] EXP received. EXP doubled for everyone else.)</p>
-
-                </div>
-
-                <br>
-
-                <h1 id="skirmish">Using Memory of Skirmish</h1>
-                <p>Plays when you use the Memory of Skirmish item in the menu.</p>
-                <small>"Hey, this isn't really a battle text if it's in the menu?" Well, we had to put it somewhere!</small>
-
-                <h2>Description</h2>
-                <p><b>Source:</b> Common Event 054 (!!!TEXT VARIABLES)</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">ACT 1</p>
-                    <p class="dialogue-line indented">Pew! Bam! Kapow! Easy-peasy!</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">ACT 2</p>
-                    <p class="dialogue-line indented">Not gonna be done anytime soon.</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">ACT 3 onwards</p>
-                    <p class="dialogue-line indented">Too many to count.</p>
-
-                </div>
-
-                <br>
-
-                <h2>Usage</h2>
-                <p><b>Source:</b> Common Event 068 (ITEM_memory of skirmish)</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">ACT 1</p>
-                    <p class="dialogue-line indented">(You remember the battles you have fought.)</p>
-                    <p class="dialogue-line indented">(Battles sure are easy, aren't they?)</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">ACT 2-4</p>
-                    <div class="indented">
-                        <p class="dialogue-note">First time only</p>
-                        <p class="dialogue-line indented">(Battles aren't so important that you need to remember them all.)</p>
-                        <br>
-                        <p class="dialogue-line">(You currently have [number] memories you can use.)</p>
-                    </div>
-
-                    <hr>
-
-                    <p class="dialogue-note">ACT 5</p>
-                    <p class="dialogue-line indented"><span class="shake">(Enough!!!)</span></p>
-
-                </div>
-
-                <hr>
-                <br>
-
-                <h1 id="act5">ACT 5</h1>
-                <p>Text that appears in battles during ACT 5.</p>
-                <br>
-
-                <h1 id="revive5">Siffrin loops back in ACT 5</h1>
-                <p><b>Source:</b> Common Event 310 (ReviveAct5); Troop54 (BASE TROOP); Skill 187 ([Heal with timeloop])</p>
-                <p>When Siffrin dies in ACT 5, the battle doesn't end. After this text plays, Siffrin is restored to full HP and any debuffs are removed.</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-note">First time</p>
-
-                    <p class="dialogue-line indented">(No.)</p>
-
-                    <br>
-
-                    <p class="dialogue-note indented">Time rewinds.</p>
-
-                    <br>
-
-                    <p class="dialogue-line indented">(You looped back.)</p>
-                    <p class="dialogue-line indented">(Get back on the stage.)</p>
-
-                    <hr>
-
-                    <p class="dialogue-note">Subsequent times</p>
-
-                    <p class="dialogue-note indented">Time rewinds.</p>
-
-                    <br>
-
-                    <p class="dialogue-line indented">(You looped back.)</p>
-
-                </div>
-
-                <br>
-
-                <h1 id="bonnie5">Bonnie "helps"</h1>
-                <p><b>Source:</b> Common Event 048 (BONNIEACTION)</p>
-                <p>Normally, Bonnie will help every other turn. During ACT 5, the first time you hit a 1 in 7 chance on their turn, this text plays.</p>
-
-                <div class="dialogue">
-
-                    <p class="dialogue-line">(...)</p>
-                    <p class="dialogue-line">(You wait for help that won't come.)</p>
-
-                </div>
 
                 <hr>
                 <br>
@@ -1962,18 +1459,19 @@
                         </span>
                         We should be careful about where we use this one...
                     </p><!--yes she always says this even if you haven't seen the branching paths yet-->
-                    
-                </div>
 
-                <!--
-                idk if we want separate nostalgie pages, and nostalgie's room decor seems irrelevant to this page, but there is Exactly One piece of other interesting text in this room
+                    <hr>
 
-                <div class="dialogue">
+                    <p class="dialogue-note">
+                        Note on the wall
+                    </p>
+
                     <p class="dialogue-line">(There's a note on the wall.)</p>
                     <p class="dialogue-line">(It says: "STOP EATING NUTS DIRECTLY FROM THE BARRELS")</p>
-                </div>
 
-                -->
+                    <!--Decided to put it here cuz tis not rlly worth giving the Nostalgia rooms unique pages ~Feli -->
+                    
+                </div>
 
                 <hr>
                 <br>

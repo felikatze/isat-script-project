@@ -6,7 +6,9 @@
     <title>Generic Change God Statues</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
-    <script src="/bars.js" defer></script> 
+    <script src="/bars.js"></script> 
+    <script src="/expressions.js" type="module" defer></script>
+    <script src="/search.js" defer></script> 
 </head>
 
 <body>
@@ -172,29 +174,31 @@
 
                     <br>
 
-                    <ul>
-                        <li><b>First time:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(awkward1)</span>
-                            </span>
-                            (Oh, um...)
-                        </li>
-                        <li><b>ACT 2 & 3:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(questions1)</span>
-                            </span>
-                            (...)
-                        </li>
-                        <li><b>ACT 4:</b>
-                            <span class="dialogue-head">
-                                <span class="dialogue-name">Siffrin</span>
-                                <span class="dialogue-expression">(fake1)</span>
-                            </span>
-                            (...)
-                        </li>
-                    </ul>
+                    <p class="dialogue-note">First time</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        (Oh, um...)
+                    </p>
+                    <p class="dialogue-note">ACT 2 & 3</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(questions1)</span>
+                        </span>
+                        (...)
+                    </p>
+
+                    <p class="dialogue-note">ACT 4</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Siffrin</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                        </span>
+                        (...)
+                    </p>
 
                     <ul class="dialogue-option">
                         <li>
@@ -445,23 +449,22 @@
 
                                     <hr>
 
-                                    <h4>First time</h4>
+                                    <p class="dialogue-note">First time</p>
 
-                                    <p class="dialogue-line">
+                                    <p class="dialogue-line indented">
                                         (Interesting.)
                                     </p>
 
-                                    <p class="dialogue-line">
+                                    <p class="dialogue-line indented">
                                         (Now that you know more about the statues and the Change belief, maybe you could check Mirabelle's statue once more...)
                                     </p>
 
-                                    <hr>
+                                    <br>
 
-                                    <h5>ACT 2 only</h5>
-
-                                    <p class="dialogue-line">
-                                        (Not right now, though. You have a King to beat.)
-                                    </p>
+                                    <div class="indented">
+                                        <p class="dialogue-note">ACT 2</p>
+                                        <p class="dialogue-line indented">(Not right now, though. You have a King to beat.)</p>
+                                    </div>
 
                                 </div>
                             </details>
@@ -488,12 +491,12 @@
                                         W-Well, let me know if you ever want to know more about them, okay?!?
                                     </p>
 
-                                    <br>
+                                    <hr>
 
-                                    <ul>
-                                        <li><b>First time:</b> (Was it because you looked at the statues too often...?)</li>
-                                        <li><b>Subsequent times:</b> (You looked at the statues too often again.)</li>
-                                    </ul>
+                                    <p class="dialogue-note">First time</p>
+                                    <p class="dialogue-line indented">(Was it because you looked at the statues too often...?)</p>
+                                    <p class="dialogue-note">Subsequent times</p>
+                                    <p class="dialogue-line indented">(You looked at the statues too often again.)</p>
 
                                 </div>
                             </details>
@@ -501,6 +504,7 @@
                     </ul>
 
                 </div>
+                
             </main>
         </div>
 
