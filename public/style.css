@@ -190,8 +190,8 @@ img.cg {
 }
 
 #searchbox {
-    width: 100%;
-    float:right;
+    width: 80%;
+    float:left;
     font-family: 'VCR_OSD_MONO';
     height: 0;
     transition: height 100ms;
@@ -199,15 +199,12 @@ img.cg {
     visibility: hidden;
     color: white;
     background-color: black;
+    border-right: none;
 }
 
 #searchbox:focus {
-    outline: none;
-    width: 100%;
-    float:right;
     font-family: 'VCR_OSD_MONO';
     color: white;
-    background-color: black;
 }
 
 
@@ -266,13 +263,45 @@ img.cg {
     font-size:20px;
 }
 
-#removeSearchbarButton {
-    position: fixed;
-    margin-top: 3px;
-    margin-left: 1175px;
+.wrapper {
+    width: 1200px;
+    float:left;
+    font-family: 'VCR_OSD_MONO';
+    height: 0;
+    transition: height 100ms;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    border-right: 1px solid gray;
 }
+#advancedSearchLink  {
+    font-size: 16px;
+    position: static;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#removeSearchbarButton {
+    position: static;
+    margin-top: 3px;
+    margin-right: 25px;
+    float: right;
+}
+
 #removeSearchbarButton:hover {
     cursor: pointer;
+}
+
+.searchBarHidden {
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    height: 0px;
+}
+
+.searchBarVisible {
+    visibility: visible;
+    display: block;
+    position: static;
 }
 
 

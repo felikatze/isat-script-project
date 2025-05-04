@@ -37,9 +37,7 @@ class Header extends HTMLElement {
                     <span><a href="/overview/sasasap.html">START AGAIN</a></span>
                     <span><a href="/thanks.html">Special Thanks</a></span>
                     <span>
-                        <span><a id="magnifyingGlassIcon" href="#"><img src="/assets/images/magnifying-glass-white.png" alt=""></a></span>
-                        <span>or</span>
-                        <span><a href="/search.html">Advanced <br>Search!</a></span>
+                        <a id="magnifyingGlassIcon" href="#"><img src="/assets/images/magnifying-glass-white.png" alt=""></a>
                     </span>
                     <img src="/assets/images/Craft.png" alt="">
                 </nav>

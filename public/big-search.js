@@ -35,7 +35,7 @@ window.addEventListener("load", async () => {
     }
     for (let i = 0; i < allExpressionNames.length; i++) {
         var opt = newOption(allExpressionNames[i]);
-        opt.classList.add('tooltip')
+       // opt.classList.add('tooltip')
         bigExpressionDropdown.appendChild(opt)
     }
     for (let i = 0; i < allSpeakerNames.length; i++) {

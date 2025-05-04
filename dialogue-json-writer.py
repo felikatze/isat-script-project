@@ -47,6 +47,12 @@ for uri in all_public_subdirectory_page_URIs:
         if not line.strip(): # if the string is just whitespace
             continue # skip to next line
         
+        if line[0] == "(" and line[-1] == ")" and speaker == "":
+            speaker = "Siffrin (Internal Monologue)"
+        
+        if line[0] == "[" and line[-1] == "]" and speaker == "":
+            speaker = "Loop (Tutorial)"
+
         if "\n" not in line:
             dialogue_lines_linebreak_parsed.append([line.strip(), expression, speaker])
             continue

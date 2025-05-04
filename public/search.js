@@ -50,10 +50,12 @@ class Searcher extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
             `
-                <input type="search" id="searchbox" placeholder="Search dialogues..." />
+            <div class="wrapper">
+                <input id="searchbox" placeholder="Search dialogues..." />
+                <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
                 <i id="removeSearchbarButton">&times;</i>
-                <ul id="searchUL" class="hidden">
-                </ul>
+            </div>
+                <ul id="searchUL" class="hidden"></ul>
             `
     }
 }
@@ -72,9 +74,14 @@ var resultsList = document.getElementById("searchUL");
 var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon")
 var searchbarContainer = document.getElementById("searchbarContainer")
 var removeSearchbarButton = document.getElementById("removeSearchbarButton");
+var advancedSearchLink = document.getElementById("advancedSearchLink");
 
-magnifyingGlassIcon.addEventListener('click', function(){
+magnifyingGlassIcon.addEventListener('click', async function(){
+    if (allLines.length == 0) {
+        allLines = await getAllDialogueLines()
+    }
     searchbox.style.visibility = "visible"
+    
     searchbarContainer.style.visibility = "visible"
     searchbox.style.display = "block"
     searchbox.style.position = "static"
@@ -83,6 +90,7 @@ magnifyingGlassIcon.addEventListener('click', function(){
     searchbox.style.height = "30px"
     searchbarContainer.style.height = "30px"
     setTimeout(() => {
+        advancedSearchLink.style.visibility = "visible";
         removeSearchbarButton.style.visibility = "visible";
         removeSearchbarButton.style.display = "block";
         }, 100);
@@ -94,6 +102,7 @@ removeSearchbarButton.addEventListener('click', function(){
     searchbarContainer.style.height = "0px"
     removeSearchbarButton.style.visibility = "hidden";
     removeSearchbarButton.style.display = "none";
+    advancedSearchLink.style.visibility = "hidden";
     
     setTimeout(() => {
     searchbox.style.position = "fixed"
@@ -122,9 +131,6 @@ async function getAllDialogueLines() {
 
 let allLines = []
 searchbox.onclick = async function() {
-    if (allLines.length == 0) {
-        allLines = await getAllDialogueLines()
-    }
     toggleElementVisibility(resultsList);
     console.log(allLines)
 }
