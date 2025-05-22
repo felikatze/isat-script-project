@@ -117,7 +117,7 @@ function changeFontStyle(fontFamily) {
     // function to change Fonts
     // parameter: string fontFamily = name of the font you want to change the document to
     // appends style = "font-family: fontFamily" to almost all elements in the body + the body itself
-    // writes current fontFamily into sessionStorage / removes it if the font was already set or fontFamily is null
+    // writes current fontFamily into localStorage / removes it if the font was already set or fontFamily is null
     // pass fontFamily = null to reset to default
     var change;
     var elements = document.querySelectorAll("body, body *:not(script)");
@@ -125,11 +125,11 @@ function changeFontStyle(fontFamily) {
     var isSetOrNull = elements[0].style.fontFamily == fontFamily || !fontFamily || fontFamily == "null";
 
     if(!isSetOrNull) {
-        sessionStorage.setItem("font", fontFamily);
+        localStorage.setItem("font", fontFamily);
         change = (element) => element.style.fontFamily = fontFamily;
     }
     else {
-        sessionStorage.removeItem("font");
+        localStorage.removeItem("font");
         change = (element) => element.style.fontFamily = null;
     }
 
@@ -143,7 +143,7 @@ function changeWishStyle() {
             wish.classList.remove("wish");
             wish.classList.add("wish-alt");
         })
-        sessionStorage.setItem("wishStyle", "alt");
+        localStorage.setItem("wishStyle", "alt");
         if (debugMode) {console.log("wish style alt")};
     } else {
         wishes = document.querySelectorAll(".wish-alt");
@@ -152,7 +152,7 @@ function changeWishStyle() {
                 wish.classList.remove("wish-alt");
                 wish.classList.add("wish");
             })
-            sessionStorage.setItem("wishStyle", "default");
+            localStorage.setItem("wishStyle", "default");
             if (debugMode) {console.log("wish style default")};
         } else {
             if (debugMode) {console.log("no wish text found")};
@@ -164,14 +164,14 @@ function toggleExpressions(state = null) {
     document.querySelectorAll(".dialogue-expression").forEach(function(expression){
         if (state == true || state == null && expression.style.display == "none") {
             expression.style.display = "inline-flex";
-            sessionStorage.setItem("expressionsToggle", "on");
+            localStorage.setItem("expressionsToggle", "on");
         } else if (state == false || state == null && expression.style.display != "none") {
             expression.style.display = "none";
-            sessionStorage.setItem("expressionsToggle", "off");
+            localStorage.setItem("expressionsToggle", "off");
         }
     })
     if (debugMode) {
-        if (sessionStorage.getItem("expressionsToggle") == "on") {
+        if (localStorage.getItem("expressionsToggle") == "on") {
             console.log("expressions on!");
         } else {
             console.log("expressions off!");
@@ -206,13 +206,13 @@ function toggleAnimations(state = null) {
         animationToggle = "on";
         applyShakeAnimation();
         applyWaveAnimation();
-        sessionStorage.setItem("animationToggle", "on");
+        localStorage.setItem("animationToggle", "on");
         if (debugMode) {console.log("animations on!")};
     } else if (state == false || state == null && animationToggle != "off") {
         animationToggle = "off";
         disableShakeAnimation();
         disableWaveAnimation();
-        sessionStorage.setItem("animationToggle", "off");
+        localStorage.setItem("animationToggle", "off");
         if (debugMode) {console.log("animations off!")};
     }
     return animationToggle;
@@ -268,25 +268,25 @@ function disableWaveAnimation() {
 }
 
 function applySettings() {
-    var font = sessionStorage.getItem("font");
+    var font = localStorage.getItem("font");
     if (!!font) {
         changeFontStyle(font);
     }
 
-    if (sessionStorage.getItem("expressionsToggle") == "off") {
+    if (localStorage.getItem("expressionsToggle") == "off") {
         toggleExpressions();
         if (debugMode) {console.log("toggled expressions off on load!")};
     }
 
     wrapAllCharacters(document.querySelectorAll(".shake, .wave"));
-    if (sessionStorage.getItem("animationToggle") == "off") {
+    if (localStorage.getItem("animationToggle") == "off") {
         toggleAnimations(false);
         if (debugMode) {console.log("toggled animations off on load!")};
     } else {
         toggleAnimations(true);
     }
 
-    if (sessionStorage.getItem("wishStyle") == "alt") {
+    if (localStorage.getItem("wishStyle") == "alt") {
         changeWishStyle();
         if (debugMode) {console.log("changed wish style on load!")};
     }
