@@ -91,7 +91,7 @@ class Helper extends HTMLElement {
         `<div id="settings" style="display: none">
             <button onclick="changeFontStyle(null)">Default font</button>
             <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
-            <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
+            <button onclick="changeFontStyle('OpenDyslexic3, sans-serif')">OpenDyslexic3</button>
             <button onclick="toggleAnimations()">Toggle animations</button>
             <button onclick="toggleExpressions()" style="font-size: 0.95em">Toggle expressions</button>
             <button onclick="toggleChoices()">Toggle choices</button>

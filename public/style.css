@@ -35,7 +35,7 @@
 body {
     color: white;
     background-image: var(--body-bg-image);
-    font-family: 'CascadiaCode';
+    font-family: 'CascadiaCode', sans-serif;
     max-width: 1200px;
     margin: auto;
 }
@@ -98,7 +98,7 @@ button {
 
 h1, h2, h3, h4 {
     color: white;
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
 
 }
 
@@ -117,7 +117,7 @@ h3 {
 /* ************************************************************************** */
 
 .vcr {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
 }
 
 .center {
@@ -183,7 +183,7 @@ img::before {
 /* * *                        containers and stuff                        * * */
 
 .dialogue {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
     font-size: 16.5px;
     border: 13px solid transparent;
     border-image: url("/assets/images/border.png") 14 round;
@@ -331,7 +331,7 @@ details .dialogue {
 /* * *                               skills                               * * */
 
 .skill {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
     text-align: center;
     display: block;
 }
@@ -431,7 +431,7 @@ help-er button {
     background-color: #434343;
     color: white;
     cursor: pointer;
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
     text-align: center;
     text-decoration: none;
 }
@@ -475,7 +475,7 @@ nav {
     min-height: 60px;
     width: 100%;
     background-color: #434343;
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'VCR_OSD_MONO', 'CascadiaCode', sans-serif;
 }
 
 nav img {
