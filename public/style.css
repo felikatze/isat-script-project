@@ -191,20 +191,19 @@ img.cg {
 
 #searchbox {
     width: 80%;
-    float:left;
     font-family: 'VCR_OSD_MONO';
-    height: 0;
     transition: height 100ms;
     max-width: 1200px;
-    visibility: hidden;
     color: white;
     background-color: black;
-    border-right: none;
+    height: 0;
+    visibility: hidden;
 }
 
 #searchbox:focus {
     font-family: 'VCR_OSD_MONO';
     color: white;
+    outline: none;
 }
 
 
@@ -215,8 +214,7 @@ img.cg {
 #searchUL {
     width: 100%;
     margin: 0;
-    float: right;
-    clear: right;
+    padding: 0;
     max-width: 1200px;
     max-height: 800px;
     overflow: hidden;
@@ -224,30 +222,48 @@ img.cg {
     z-index: 100;
     position: relative;
     scrollbar-width: thin;
+    scrollbar-color: #111 black;
     border-color: #555;
 }
 
 #searchUL:focus {
     outline: none;
-    border-color: #555;
 }
 
 .search-result {
-    float:right;
-    position: relative;
-    width: 1195px;
+    font-family: "VCR_OSD_MONO";
+    width: 1192px;
     height: fit-content;
-    font-size: 12.5px;
-    background-color:  #424949;
+    font-size: 16px;
+    background-color: black;
     margin: 0;
+    padding: 2px 4px;
+    border: 3px solid transparent;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.search-result::marker {
+    content: ''
+}
+.search-result:hover {
+    border-image: url('assets/images/border-choice.png') 3 stretch;
 }
 
 .search-result-link {
     display: inline-block;
-    
+    font-weight: 400 !important;
+    text-decoration: none;
 }
 .search-result:hover {
-    background-color: lightgrey;
+    background-color: #333;
+}
+
+.search-result-source {
+    font-style: italic;
+    color: #888;
+    margin: 0;
+    font-size: 0.8em;
 }
 
 #searchbarContainer {
@@ -263,30 +279,26 @@ img.cg {
     font-size:20px;
 }
 
-.wrapper {
+#searchWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 1200px;
-    float:left;
     font-family: 'VCR_OSD_MONO';
     height: 0;
     transition: height 100ms;
     color: white;
     background-color: black;
-    border: 1px solid gray;
-    border-right: 1px solid gray;
 }
 #advancedSearchLink  {
     font-size: 16px;
     position: static;
-    margin-top: 5px;
-    margin-right: 10px;
 }
 #removeSearchbarButton {
     position: static;
-    margin-top: 3px;
     margin-right: 25px;
-    float: right;
 }
-
 #removeSearchbarButton:hover {
     cursor: pointer;
 }

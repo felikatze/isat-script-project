@@ -50,7 +50,7 @@ class Searcher extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
             `
-            <div class="wrapper">
+            <div id="searchWrapper">
                 <input id="searchbox" placeholder="Search dialogues..." />
                 <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
                 <i id="removeSearchbarButton">&times;</i>
@@ -69,6 +69,7 @@ function filterLines(lines) {
     return filteredLines
 }
 
+var wrapper = document.getElementById("searchWrapper");
 var searchbox = document.getElementById("searchbox");
 var resultsList = document.getElementById("searchUL");
 var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon")
@@ -78,17 +79,18 @@ var advancedSearchLink = document.getElementById("advancedSearchLink");
 
 magnifyingGlassIcon.addEventListener('click', async function(){
     if (allLines.length == 0) {
-        allLines = await getAllDialogueLines()
+        allLines = await getAllDialogueLines();
     }
-    searchbox.style.visibility = "visible"
+    searchbox.style.visibility = "visible";
     
-    searchbarContainer.style.visibility = "visible"
-    searchbox.style.display = "block"
-    searchbox.style.position = "static"
-    searchbox.focus()
-    searchbarContainer.style.position = "relative"
-    searchbox.style.height = "30px"
-    searchbarContainer.style.height = "30px"
+    searchbarContainer.style.visibility = "visible";
+    searchbox.style.display = "block";
+    searchbox.style.position = "static";
+    searchbox.focus();
+    searchbarContainer.style.position = "relative";
+    wrapper.style.height = "30px";
+    searchbox.style.height = "30px";
+    searchbarContainer.style.height = "30px";
     setTimeout(() => {
         advancedSearchLink.style.visibility = "visible";
         removeSearchbarButton.style.visibility = "visible";
@@ -98,8 +100,9 @@ magnifyingGlassIcon.addEventListener('click', async function(){
 })
 
 removeSearchbarButton.addEventListener('click', function(){
-    searchbox.style.height = "0px"
-    searchbarContainer.style.height = "0px"
+    wrapper.style.height = "0px";
+    searchbox.style.height = "0px";
+    searchbarContainer.style.height = "0px";
     removeSearchbarButton.style.visibility = "hidden";
     removeSearchbarButton.style.display = "none";
     advancedSearchLink.style.visibility = "hidden";
@@ -175,15 +178,14 @@ function createSearchResultItem(uri, text, source, nth_instance) {
     let textnode = document.createTextNode(text);
     let lineBreakItem = document.createElement('br');
     let sourceItem = document.createElement('p');
-    let sourceTextNode = document.createTextNode("(In: " + source + ")");
+    let sourceTextNode = document.createTextNode(source);
 
     sourceItem.appendChild(sourceTextNode);
     sourceItem.classList.add('search-result-source');
     linkItem.appendChild(textnode);
-    linkItem.appendChild(lineBreakItem);
+    // linkItem.appendChild(lineBreakItem);
     linkItem.appendChild(sourceItem);
     resultItem.appendChild(linkItem);
-    resultItem.classList.add("dialogue");
     resultItem.classList.add("search-result");
     linkItem.classList.add("search-result-link");
 

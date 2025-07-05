@@ -1,50 +1,104 @@
 /* TODO: THIS FILE IS FOR TESTING PURPOSES ONLY AND SHOULD BE MERGED INTO style.css BEFORE BEING DEPLOYED */
-ul.bigSearchPageSelect   { list-style:none; }
-ul.bigSearchPageSelect option    {display: inline; list-style-type: none; padding-right: 20px; text-decoration: underline;}
-ul.bigSearchPageSelect option:hover   {cursor: pointer;}
-ul.bigSearchPageSelect option::selection   {display: none;}
+ul.bigSearchPageSelect {
+    list-style: none;
+}
+ul.bigSearchPageSelect option {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+ul.bigSearchPageSelect option:hover {
+    cursor: pointer;
+}
+ul.bigSearchPageSelect option::selection {
+    display: none;
+}
 
 #big-searchbox {
     width: 100%;
     height: 30px;
     float: right;
-    font-family: 'VCR_OSD_MONO';
+    font-family: "VCR_OSD_MONO";
     color: white;
     background-color: black;
+}
+#big-searchbox:focus {
+    outline: none;
 }
 
 #big-searchUL {
     width: 100%;
     margin: 0;
     margin-top: 20px;
-    float: right;
-    clear: right;
-    padding-left: 0;
+    padding: 0;
     z-index: 0;
     overflow: hidden;
     overflow-y: auto;
     z-index: 100;
     scrollbar-width: thin;
+    scrollbar-color: #111 black;
     border-color: #555;
 }
 
 #big-searchUL:focus {
     outline: none;
-    border-color: #555;
 }
 
 .big-search-result {
+    font-family: "VCR_OSD_MONO";
     width: 100%;
-    float: left;
-    font-size: 12.5px;
-    background-color: #424949;
+    height: fit-content;
+    font-size: 16px;
+    background-color: black;
     margin: 0;
+    padding: 2px 4px;
+    border: 3px solid transparent;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
 }
-
+.big-search-result::marker {
+    content: "";
+}
 .big-search-result-link {
     display: inline-block;
-    
+    font-weight: 400 !important;
+    text-decoration: none;
 }
 .big-search-result:hover {
-    background-color: lightgrey;
+    background-color: #333;
+}
+.big-search-result-source {
+    font-style: italic;
+    color: #888;
+    margin: 0 0.5em;
+    font-size: 0.8em;
+}
+
+.filterDropdown {
+    font-family: "VCR_OSD_MONO";
+    border: 3px solid transparent;
+    border-image: url("assets/images/border-choice.png") 3 stretch;
+    background-color: black;
+    color: white;
+    height: 24px;
+}
+#clearFilters {
+    margin: 2px;
+    padding: 7px 4px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #434343;
+    color: white;
+    cursor: pointer;
+    font-family: "VCR_OSD_MONO";
+    text-align: center;
+}
+#searchOptions {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
