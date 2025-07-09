@@ -62,13 +62,23 @@ function RefreshPage(queryString) {
     return false;
 }
 
+const debounce = (callback, wait) => {
+  let timeoutId = null;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => {
+      callback(...args);
+    }, wait);
+  };
+}
+
 
 let bigSearchTerm = "";
 let allPageNames = [];
 let allExpressionNames = [];
 // initialize allSpeakerNames with the pre-inserted characters already in
 let allSpeakerNames = [];
-
+let filteredSceneValue = "";
 function bigFilterLines(lines) {
     bigSearchTerm = bigSearchbox.value;
 
@@ -111,37 +121,41 @@ bigClearFiltersButton.onclick = function () {
         toggleElementVisibility(bigResultsList)
     }
 }
+let bigAllLines = [];
 
-bigSearchbox.onkeyup = function() {
-    let filteredLines = bigFilterLines(bigAllLines);
+const modifyResultsOnSearchboxChange = debounce((ev) => {
+    console.log('madeIt')
+        let filteredLines = bigFilterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
-    console.log(filteredLines);
-
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
+        
         toggleElementVisibility(bigResultsList)
     }
-}
+},250);
+
+bigSearchbox.addEventListener('keydown', modifyResultsOnSearchboxChange)
 
 
-let bigAllLines = [];
 bigSearchbox.onclick = async function() {
-    console.log("madeIt")
     if (bigAllLines.length == 0) {
         bigAllLines = await getAllDialogueLines()
     }
     toggleElementVisibility(resultsList);
 }
 
-let filteredSceneValue = "";
-bigPageNameDropdown.onchange = function() {
+
+
+const modifyResultsOnKeyup = debounce((ev) => {
     filteredSceneValue = bigPageNameDropdown.value;
     let filteredLines = bigFilterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
 
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
-        toggleElementVisibility(bigResultsList)
+        toggleElementVisibility(bigResultsList);
     }
-}
+}, 250);
+
+bigPageNameDropdown.addEventListener('onkeyup', modifyResultsOnKeyup);
 
 let filteredExpressionValue = ""
 bigExpressionDropdown.onchange = function() {
@@ -170,9 +184,7 @@ bigSpeakerDropdown.onchange = function () {
 
 document.addEventListener('click', (e) => {
     console.log(e.currentTarget.activeElement);
-    if (e.currentTarget.activeElement.id == "searchbox"
-        || e.currentTarget.classList.contains("filterDropdown")
-        || e.currentTarget.classList.contains("filterOption")) {
+    if (e.currentTarget.activeElement.id == "searchbox") {
         console.log("waow");
         return
     }
@@ -183,7 +195,6 @@ document.addEventListener('click', (e) => {
 })
 
 function bigModifyResultsList(lines) {
-    console.log("madeitlol");
     if (lines.length == 0 || bigSearchTerm.length <= 3) {
         bigClearSearchResults()
     }
