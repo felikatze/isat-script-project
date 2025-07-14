@@ -135,7 +135,6 @@ async function getAllDialogueLines() {
 let allLines = []
 searchbox.onclick = async function() {
     toggleElementVisibility(resultsList);
-    console.log(allLines)
 }
 
 
@@ -157,8 +156,6 @@ function toggleElementVisibility(el) {
 }
 
 function modifyResultsList(lines) {
-    console.log("heyoo")
-    console.log(lines)
 
     if (lines.length == 0 || searchterm.length <= 3) {
         clearSearchResults()
@@ -201,7 +198,6 @@ function createSearchResultItem(uri, text, source, nth_instance) {
 
 function setSearchResults(setListLines) {
     clearSearchResults();
-    console.log("setSearchResults")
     for (let i = 0; i < setListLines.length; i++) {
         let uri = setListLines[i][0];
         let text = setListLines[i][1];
