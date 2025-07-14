@@ -25,9 +25,6 @@ window.addEventListener("load", async () => {
     allPageNames = allPageNames.sort();
     allExpressionNames = allExpressionNames.sort();
     allSpeakerNames = allSpeakerNames.sort();
-    console.log(allPageNames);
-    console.log(allExpressionNames);
-    console.log(allSpeakerNames);
 
     for (let i = 0; i < allPageNames.length; i++) {
         var opt = newOption(allPageNames[i]);
@@ -42,7 +39,6 @@ window.addEventListener("load", async () => {
         var opt = newOption(allSpeakerNames[i]);
         bigSpeakerDropdown.appendChild(opt)
     }
-    console.log(allPageNames);
 
     toggleElementVisibility(resultsList);
 })
@@ -124,7 +120,6 @@ bigClearFiltersButton.onclick = function () {
 let bigAllLines = [];
 
 const modifyResultsOnSearchboxChange = debounce((ev) => {
-    console.log('madeIt');
     let filteredLines = bigFilterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
@@ -170,11 +165,7 @@ bigSpeakerDropdown.onchange = function () {
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
 document.addEventListener('click', (e) => {
-    console.log(e.currentTarget.activeElement);
-    if (e.currentTarget.activeElement.id == "searchbox") {
-        console.log("waow");
-        return
-    }
+    if (e.currentTarget.activeElement.id == "searchbox") return
 
     if (!bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
@@ -182,7 +173,6 @@ document.addEventListener('click', (e) => {
 })
 
 function bigModifyResultsList(lines) {
-    console.log("madeitlol");
     if (lines.length == 0 || bigSearchTerm.length <= 3) {
         bigClearSearchResults()
     }
@@ -242,7 +232,6 @@ function bigModifyResultsList(lines) {
 
     function bigSetSearchResults(setListLines) {
         bigClearSearchResults();
-        console.log("madeIt2");
         for (let i = 0; i < setListLines.length; i++) {
             let uri = setListLines[i][0];
             let text = setListLines[i][1];
