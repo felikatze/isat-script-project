@@ -169,30 +169,48 @@ function modifyResultsList(lines) {
     }
 }
 
-function createSearchResultItem(uri, text, source, nth_instance) {
+function createSearchResultItem(uri, text, source, nth_instance, expression, speaker) {
     let resultItem = document.createElement('li');
     let linkItem = document.createElement('a');
     let textnode = document.createTextNode(text);
-    let lineBreakItem = document.createElement('br');
     let sourceItem = document.createElement('p');
     let sourceTextNode = document.createTextNode(source);
+    let speakerItem = document.createElement('span')
+    let expressionItem = document.createElement('span')
+    let dialogueHead = document.createElement('span')
+    let dialogueLine = document.createElement('p')
+    speakerItem.textContent = speaker
+    expressionItem.textContent = expression
 
+    dialogueHead.classList.add("dialogue-head")
+    speakerItem.classList.add("dialogue-name")
+    expressionItem.classList.add("dialogue-expression")
+    dialogueLine.classList.add("dialogue-line")
+    if (speaker) dialogueHead.appendChild(speakerItem)
+    if (expression) dialogueHead.appendChild(expressionItem)
+    if (speaker || expression) {
+        dialogueLine.appendChild(dialogueHead);
+        dialogueLine.appendChild(document.createTextNode(" "))
+    }
+    dialogueLine.appendChild(textnode)
     sourceItem.appendChild(sourceTextNode);
-    sourceItem.classList.add('search-result-source');
-    linkItem.appendChild(textnode);
-    // linkItem.appendChild(lineBreakItem);
+    sourceItem.classList.add('search-result-source')
+    linkItem.append(dialogueLine)
     linkItem.appendChild(sourceItem);
     resultItem.appendChild(linkItem);
+    resultItem.classList.add("dialogue");
     resultItem.classList.add("search-result");
     linkItem.classList.add("search-result-link");
 
     newUri = uri + "#!s" + nth_instance + "!" + text;
+
     if (currentPath == uri) {
-        linkItem.addEventListener("click", function() {
+        linkItem.addEventListener("click", function () {
             RefreshPage("#!s" + nth_instance + "!" + text)
         })
     }
-    linkItem.setAttribute("href", newUri);
+
+    linkItem.setAttribute("href", newUri)
     return resultItem;
 }
 
@@ -203,7 +221,9 @@ function setSearchResults(setListLines) {
         let text = setListLines[i][1];
         let source = setListLines[i][2];
         let nth_instance = setListLines[i][3];
-        resultItem = createSearchResultItem(uri, text, source, nth_instance);
+        let expression = setListLines[i][4];
+        let speaker = setListLines[i][5];
+        resultItem = createSearchResultItem(uri, text, source, nth_instance, expression, speaker);
         resultsList.appendChild(resultItem)
     }
     if (resultsList.classList.contains("hidden")) {
