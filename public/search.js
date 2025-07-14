@@ -52,8 +52,10 @@ class Searcher extends HTMLElement {
             `
             <div id="searchWrapper">
                 <input id="searchbox" placeholder="Search dialogues..." />
-                <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
-                <i id="removeSearchbarButton">&times;</i>
+                <div id="searchExtras">
+                    <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
+                    <i id="removeSearchbarButton">&times;</i>
+                </div>
             </div>
                 <ul id="searchUL" class="hidden"></ul>
             `
@@ -73,11 +75,12 @@ var wrapper = document.getElementById("searchWrapper");
 var searchbox = document.getElementById("searchbox");
 var resultsList = document.getElementById("searchUL");
 var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon")
+var mobileSearchLink = document.getElementById("mobileSearchLink")
 var searchbarContainer = document.getElementById("searchbarContainer")
 var removeSearchbarButton = document.getElementById("removeSearchbarButton");
 var advancedSearchLink = document.getElementById("advancedSearchLink");
 
-magnifyingGlassIcon.addEventListener('click', async function(){
+async function openSearch() {
     if (allLines.length == 0) {
         allLines = await getAllDialogueLines();
     }
@@ -95,9 +98,12 @@ magnifyingGlassIcon.addEventListener('click', async function(){
         advancedSearchLink.style.visibility = "visible";
         removeSearchbarButton.style.visibility = "visible";
         removeSearchbarButton.style.display = "block";
+        updateButtonsPosition();
         }, 100);
+}
 
-})
+magnifyingGlassIcon.addEventListener('click', openSearch)
+mobileSearchLink.addEventListener('click', openSearch)
 
 removeSearchbarButton.addEventListener('click', function(){
     wrapper.style.height = "0px";
@@ -112,6 +118,7 @@ removeSearchbarButton.addEventListener('click', function(){
     searchbarContainer.style.position = "fixed"
     searchbox.style.visibility = "hidden"
     searchbarContainer.style.visibility = "hidden"
+    updateButtonsPosition()
     }, 100);
 })
 

@@ -190,7 +190,6 @@ img.cg {
 }
 
 #searchbox {
-    width: 80%;
     font-family: 'VCR_OSD_MONO';
     transition: height 100ms;
     max-width: 1200px;
@@ -198,6 +197,7 @@ img.cg {
     background-color: black;
     height: 0;
     visibility: hidden;
+    flex: auto;
 }
 
 #searchbox:focus {
@@ -284,7 +284,7 @@ img.cg {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     font-family: 'VCR_OSD_MONO';
     height: 0;
     transition: height 100ms;
@@ -294,14 +294,27 @@ img.cg {
 #advancedSearchLink  {
     font-size: 16px;
     position: static;
+    flex: fit-content;
+    text-align: center;
 }
 #removeSearchbarButton {
     position: static;
-    margin-right: 25px;
+    margin: 0;
+    padding: 0 10px;
     font-style: normal;
+    text-align: center;
+    flex: auto;
 }
 #removeSearchbarButton:hover {
     cursor: pointer;
+}
+#searchExtras {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 10px;
 }
 
 .searchBarHidden {
@@ -764,6 +777,10 @@ nav a:hover {
     color: white;
 }
 
+#searchButtonMobile {
+    display: none;
+}
+
 side-bar {
     background-color: #6d6d6d;
     padding: 20px;
@@ -854,6 +871,14 @@ footer {
 
     nav img {
         display: none;
+    }
+
+    #searchButtonDesktop {
+        display: none;
+    }
+
+    #searchButtonMobile {
+        display: inline-block;
     }
 }
 
