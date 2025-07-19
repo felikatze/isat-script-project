@@ -15,8 +15,6 @@
 </head>
 
 <body>
-        
-    <help-er></help-er>
 
     <div id="container">
         <head-er></head-er>
@@ -26,28 +24,29 @@
 
             <main>
                 <input type="text" id="big-searchbox" placeholder="Search dialogues...">
-                <select id="big-pageNameDropdown" class="filterDropdown">
-                    <option value="" class="filterOption" disabled selected>Filter by page...</option>
-                    <option value="" class="filterOption">Any</option>
-                </select>
-                <select id="big-expressionDropdown" class="filterDropdown">
-                    <option value="" class="filterOption" disabled selected>Filter by expression...</option>
-                    <option value="" class="filterOption">Any</option>
-                </select>
-                <select id="big-speakerDropdown" class="filterDropdown">
-                    <option value="" class="filterOption" disabled selected>Filter by speaker...</option>
-                    <option value="" class="filterOption">Any</option>
-                    <option value="Siffrin" class="filterOption">Siffrin</option>
-                    <option value="Mirabelle" class="filterOption">Mirabelle</option>
-                    <option value="Isabeau" class="filterOption">Isabeau</option>
-                    <option value="Odile" class="filterOption">Odile</option>
-                    <option value="Bonnie" class="filterOption">Bonnie</option>
-                    <option value="Loop" class="filterOption">Loop</option>
-                    <option value="King" class="filterOption">King</option>
-                    <option value="Euphrasie" class="filterOption">Euphrasie</option>
-                    
-                </select>
-                <button id="clearFilters">Clear Filters</button>
+                <div id="searchOptions">
+                    <select id="big-pageNameDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by page...</option>
+                        <option value="" class="filterOption">Any</option>
+                    </select>
+                    <select id="big-expressionDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by expression...</option>
+                        <option value="" class="filterOption">Any</option>
+                    </select>
+                    <select id="big-speakerDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by speaker...</option>
+                        <option value="" class="filterOption">Any</option>
+                        <option value="Siffrin" class="filterOption">Siffrin</option>
+                        <option value="Mirabelle" class="filterOption">Mirabelle</option>
+                        <option value="Isabeau" class="filterOption">Isabeau</option>
+                        <option value="Odile" class="filterOption">Odile</option>
+                        <option value="Bonnie" class="filterOption">Bonnie</option>
+                        <option value="Loop" class="filterOption">Loop</option>
+                        <option value="King" class="filterOption">King</option>
+                        <option value="Euphrasie" class="filterOption">Euphrasie</option>
+                    </select>
+                    <button id="clearFilters">Clear Filters</button>
+                </div>
 
                 <ul id="big-searchUL" class="hidden"></ul>
                 

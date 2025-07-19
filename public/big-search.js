@@ -75,6 +75,17 @@ const debounce = (callback, wait) => {
   };
 }
 
+const debounce = (callback, wait) => {
+  let timeoutId = null;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => {
+      callback(...args);
+    }, wait);
+  };
+}
+
+
 
 function filterLines(lines) {
     bigSearchTerm = bigSearchbox.value;
@@ -111,6 +122,7 @@ const clearFilters = function() {
         toggleElementVisibility(bigResultsList)
     }
 }
+let bigAllLines = [];
 
 const modifyResultsOnSearchboxChange = debounce((ev) => {
     let filteredLines = filterLines(bigAllLines);
@@ -119,6 +131,7 @@ const modifyResultsOnSearchboxChange = debounce((ev) => {
         toggleElementVisibility(bigResultsList)
     }
 },250);
+
 
 
 
@@ -185,9 +198,9 @@ bigSpeakerDropdown.addEventListener('change', modifyResultsForSpeakerChange)
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
 document.addEventListener('click', (e) => {
+
     console.log(e.currentTarget.activeElement);
     if (e.currentTarget.activeElement.id == "searchbox" || e.currentTarget.activeElement.classList.contains('filterDropdown')) {
-        console.log("waow");
         return
     }
 
@@ -213,18 +226,30 @@ function bigModifyResultsList(lines) {
         let resultItem = document.createElement('li')
         let linkItem = document.createElement('a')
         let textnode = document.createTextNode(text)
-        let lineBreakItem = document.createElement('br')
         let sourceItem = document.createElement('p')
         let sourceTextNode = document.createTextNode("(In: " + source + ")")
         let speakerItem = document.createElement('span')
+        let expressionItem = document.createElement('span')
+        let dialogueHead = document.createElement('span')
+        let dialogueLine = document.createElement('p')
         speakerItem.textContent = speaker
+        expressionItem.textContent = expression
 
+        dialogueHead.classList.add("dialogue-head")
+        speakerItem.classList.add("dialogue-name")
+        expressionItem.classList.add("dialogue-expression")
+        dialogueLine.classList.add("dialogue-line")
+        if (speaker) dialogueHead.appendChild(speakerItem)
+        if (expression) dialogueHead.appendChild(expressionItem)
+        if (speaker || expression) {
+            dialogueLine.appendChild(dialogueHead);
+            dialogueLine.appendChild(document.createTextNode(" "))
+        }
+        dialogueLine.appendChild(textnode)
         sourceItem.appendChild(sourceTextNode);
-        sourceItem.classList.add('big-search-result-source');
-        linkItem.appendChild(textnode);
-        linkItem.appendChild(lineBreakItem);
+        sourceItem.classList.add('big-search-result-source')
+        linkItem.append(dialogueLine)
         linkItem.appendChild(sourceItem);
-        resultItem.appendChild(speakerItem);
         resultItem.appendChild(linkItem);
         resultItem.classList.add("dialogue");
         resultItem.classList.add("big-search-result");
@@ -244,7 +269,6 @@ function bigModifyResultsList(lines) {
 
     function bigSetSearchResults(setListLines) {
         bigClearSearchResults();
-        console.log("madeIt2");
         for (let i = 0; i < setListLines.length; i++) {
             let uri = setListLines[i][0];
             let text = setListLines[i][1];

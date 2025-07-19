@@ -50,10 +50,12 @@ class Searcher extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
             `
-            <div class="wrapper">
+            <div id="searchWrapper">
                 <input id="searchbox" placeholder="Search dialogues..." />
-                <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
-                <i id="removeSearchbarButton">&times;</i>
+                <div id="searchExtras">
+                    <a id="advancedSearchLink" href="/search.html">Advanced Search!</a>
+                    <i id="removeSearchbarButton">&times;</i>
+                </div>
             </div>
                 <ul id="searchUL" class="hidden"></ul>
             `
@@ -69,37 +71,44 @@ function filterLines(lines) {
     return filteredLines
 }
 
+var wrapper = document.getElementById("searchWrapper");
 var searchbox = document.getElementById("searchbox");
 var resultsList = document.getElementById("searchUL");
 var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon")
+var mobileSearchLink = document.getElementById("mobileSearchLink")
 var searchbarContainer = document.getElementById("searchbarContainer")
 var removeSearchbarButton = document.getElementById("removeSearchbarButton");
 var advancedSearchLink = document.getElementById("advancedSearchLink");
 
-magnifyingGlassIcon.addEventListener('click', async function(){
+async function openSearch() {
     if (allLines.length == 0) {
-        allLines = await getAllDialogueLines()
+        allLines = await getAllDialogueLines();
     }
-    searchbox.style.visibility = "visible"
+    searchbox.style.visibility = "visible";
     
-    searchbarContainer.style.visibility = "visible"
-    searchbox.style.display = "block"
-    searchbox.style.position = "static"
-    searchbox.focus()
-    searchbarContainer.style.position = "relative"
-    searchbox.style.height = "30px"
-    searchbarContainer.style.height = "30px"
+    searchbarContainer.style.visibility = "visible";
+    searchbox.style.display = "block";
+    searchbox.style.position = "static";
+    searchbox.focus();
+    searchbarContainer.style.position = "relative";
+    wrapper.style.height = "30px";
+    searchbox.style.height = "30px";
+    searchbarContainer.style.height = "30px";
     setTimeout(() => {
         advancedSearchLink.style.visibility = "visible";
         removeSearchbarButton.style.visibility = "visible";
         removeSearchbarButton.style.display = "block";
+        updateButtonsPosition();
         }, 100);
+}
 
-})
+magnifyingGlassIcon.addEventListener('click', openSearch)
+mobileSearchLink.addEventListener('click', openSearch)
 
 removeSearchbarButton.addEventListener('click', function(){
-    searchbox.style.height = "0px"
-    searchbarContainer.style.height = "0px"
+    wrapper.style.height = "0px";
+    searchbox.style.height = "0px";
+    searchbarContainer.style.height = "0px";
     removeSearchbarButton.style.visibility = "hidden";
     removeSearchbarButton.style.display = "none";
     advancedSearchLink.style.visibility = "hidden";
@@ -109,6 +118,7 @@ removeSearchbarButton.addEventListener('click', function(){
     searchbarContainer.style.position = "fixed"
     searchbox.style.visibility = "hidden"
     searchbarContainer.style.visibility = "hidden"
+    updateButtonsPosition()
     }, 100);
 })
 
@@ -132,7 +142,6 @@ async function getAllDialogueLines() {
 let allLines = []
 searchbox.onclick = async function() {
     toggleElementVisibility(resultsList);
-    console.log(allLines)
 }
 
 
@@ -154,8 +163,6 @@ function toggleElementVisibility(el) {
 }
 
 function modifyResultsList(lines) {
-    console.log("heyoo")
-    console.log(lines)
 
     if (lines.length == 0 || searchterm.length <= 3) {
         clearSearchResults()
@@ -169,18 +176,33 @@ function modifyResultsList(lines) {
     }
 }
 
-function createSearchResultItem(uri, text, source, nth_instance) {
+function createSearchResultItem(uri, text, source, nth_instance, expression, speaker) {
     let resultItem = document.createElement('li');
     let linkItem = document.createElement('a');
     let textnode = document.createTextNode(text);
-    let lineBreakItem = document.createElement('br');
     let sourceItem = document.createElement('p');
-    let sourceTextNode = document.createTextNode("(In: " + source + ")");
+    let sourceTextNode = document.createTextNode(source);
+    let speakerItem = document.createElement('span')
+    let expressionItem = document.createElement('span')
+    let dialogueHead = document.createElement('span')
+    let dialogueLine = document.createElement('p')
+    speakerItem.textContent = speaker
+    expressionItem.textContent = expression
 
+    dialogueHead.classList.add("dialogue-head")
+    speakerItem.classList.add("dialogue-name")
+    expressionItem.classList.add("dialogue-expression")
+    dialogueLine.classList.add("dialogue-line")
+    if (speaker) dialogueHead.appendChild(speakerItem)
+    if (expression) dialogueHead.appendChild(expressionItem)
+    if (speaker || expression) {
+        dialogueLine.appendChild(dialogueHead);
+        dialogueLine.appendChild(document.createTextNode(" "))
+    }
+    dialogueLine.appendChild(textnode)
     sourceItem.appendChild(sourceTextNode);
-    sourceItem.classList.add('search-result-source');
-    linkItem.appendChild(textnode);
-    linkItem.appendChild(lineBreakItem);
+    sourceItem.classList.add('search-result-source')
+    linkItem.append(dialogueLine)
     linkItem.appendChild(sourceItem);
     resultItem.appendChild(linkItem);
     resultItem.classList.add("dialogue");
@@ -188,24 +210,27 @@ function createSearchResultItem(uri, text, source, nth_instance) {
     linkItem.classList.add("search-result-link");
 
     newUri = uri + "#!s" + nth_instance + "!" + text;
+
     if (currentPath == uri) {
-        linkItem.addEventListener("click", function() {
+        linkItem.addEventListener("click", function () {
             RefreshPage("#!s" + nth_instance + "!" + text)
         })
     }
-    linkItem.setAttribute("href", newUri);
+
+    linkItem.setAttribute("href", newUri)
     return resultItem;
 }
 
 function setSearchResults(setListLines) {
     clearSearchResults();
-    console.log("setSearchResults")
     for (let i = 0; i < setListLines.length; i++) {
         let uri = setListLines[i][0];
         let text = setListLines[i][1];
         let source = setListLines[i][2];
         let nth_instance = setListLines[i][3];
-        resultItem = createSearchResultItem(uri, text, source, nth_instance);
+        let expression = setListLines[i][4];
+        let speaker = setListLines[i][5];
+        resultItem = createSearchResultItem(uri, text, source, nth_instance, expression, speaker);
         resultsList.appendChild(resultItem)
     }
     if (resultsList.classList.contains("hidden")) {
