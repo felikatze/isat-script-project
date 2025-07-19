@@ -75,15 +75,6 @@ const debounce = (callback, wait) => {
   };
 }
 
-const debounce = (callback, wait) => {
-  let timeoutId = null;
-  return (...args) => {
-    window.clearTimeout(timeoutId);
-    timeoutId = window.setTimeout(() => {
-      callback(...args);
-    }, wait);
-  };
-}
 
 
 
@@ -122,7 +113,7 @@ const clearFilters = function() {
         toggleElementVisibility(bigResultsList)
     }
 }
-let bigAllLines = [];
+//let bigAllLines = [];
 
 const modifyResultsOnSearchboxChange = debounce((ev) => {
     let filteredLines = filterLines(bigAllLines);
