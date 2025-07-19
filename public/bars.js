@@ -35,8 +35,14 @@ class Header extends HTMLElement {
                     <span><a href="/overview/random.html">Random</a></span>
                     <span><a href="/overview/sasasap.html">START AGAIN</a></span>
                     <span><a href="/thanks.html">Special Thanks</a></span>
+                    <span id="searchButtonDesktop">
+                        <a id="magnifyingGlassIcon" href="#"><img src="/assets/images/magnifying-glass-white.png" alt=""></a>
+                    </span>
+                    <span id="searchButtonMobile"><a id="mobileSearchLink" href="#">Search</a></span>
                     <img src="/assets/images/Craft.png" alt="">
                 </nav>
+                <span id="searchbarContainer"><search-er></search-er></span>
+                
             </header>`
     }
 }
