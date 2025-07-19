@@ -1,9 +1,23 @@
-// Code for the searching and highlighting of the requested text in the URL
 
 var currentPath = window.location.pathname.replaceAll("/", "\\")
+let bigAllLines = [];
+let filteredExpressionValue = ""
+let filteredSpeakerValue = ""
+let filteredSceneValue = "";
+let bigSearchTerm = "";
+let allPageNames = [];
+let allExpressionNames = [];
+let allSpeakerNames = [];
 
-window.addEventListener("load", async () => {
-    if (bigAllLines.length == 0) {
+var bigSearchbox = document.getElementById("big-searchbox");
+var bigResultsList = document.getElementById("big-searchUL");
+var bigPageNameDropdown = document.getElementById("big-pageNameDropdown");
+var bigExpressionDropdown = document.getElementById("big-expressionDropdown");
+var bigSpeakerDropdown = document.getElementById("big-speakerDropdown");
+var bigClearFiltersButton = document.getElementById("clearFilters");
+
+const fillFilterDropdowns = async function(){
+        if (bigAllLines.length == 0) {
         bigAllLines = await getAllDialogueLines();
     }
     let preinsertedSpeakers = ["Siffrin", "Isabeau", "Odile", "Mirabelle", "Bonnie", "King", "Euphrasie", "Loop"];
@@ -32,16 +46,16 @@ window.addEventListener("load", async () => {
     }
     for (let i = 0; i < allExpressionNames.length; i++) {
         var opt = newOption(allExpressionNames[i]);
-       // opt.classList.add('tooltip')
         bigExpressionDropdown.appendChild(opt)
     }
     for (let i = 0; i < allSpeakerNames.length; i++) {
         var opt = newOption(allSpeakerNames[i]);
         bigSpeakerDropdown.appendChild(opt)
     }
-
     toggleElementVisibility(resultsList);
-})
+}
+
+
 
 function newOption(text) {
     var opt = document.createElement('option');
@@ -51,11 +65,14 @@ function newOption(text) {
     return opt
 }
 
-function RefreshPage(queryString) {
-    // Hard page refresh function, used to force a new search on search results that redirect to the current page
-    var newUrl = window.location.origin + window.location.pathname + "?key=" + queryString;
-    window.location.href = newUrl;
-    return false;
+const debounce = (callback, wait) => {
+  let timeoutId = null;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => {
+      callback(...args);
+    }, wait);
+  };
 }
 
 const debounce = (callback, wait) => {
@@ -69,18 +86,12 @@ const debounce = (callback, wait) => {
 }
 
 
-let bigSearchTerm = "";
-let allPageNames = [];
-let allExpressionNames = [];
-// initialize allSpeakerNames with the pre-inserted characters already in
-let allSpeakerNames = [];
-let filteredSceneValue = "";
-function bigFilterLines(lines) {
+
+function filterLines(lines) {
     bigSearchTerm = bigSearchbox.value;
-
     filteredLines = lines.filter(x => x[1].toLowerCase().includes(bigSearchTerm.toLowerCase()));
-
     if (filteredSceneValue != "") {
+        console.log("filter by scene")
         filteredLines = filteredLines.filter(x => x[2].toLowerCase() == filteredSceneValue.toLowerCase())
     }
     if (filteredExpressionValue != "") {
@@ -93,14 +104,8 @@ function bigFilterLines(lines) {
     return filteredLines
 }
 
-var bigSearchbox = document.getElementById("big-searchbox");
-var bigResultsList = document.getElementById("big-searchUL");
-var bigPageNameDropdown = document.getElementById("big-pageNameDropdown");
-var bigExpressionDropdown = document.getElementById("big-expressionDropdown");
-var bigSpeakerDropdown = document.getElementById("big-speakerDropdown");
-var bigClearFiltersButton = document.getElementById("clearFilters");
 
-bigClearFiltersButton.onclick = function () {
+const clearFilters = function() {
     bigPageNameDropdown.selectedIndex = 0;
     bigExpressionDropdown.selectedIndex = 0;
     bigSpeakerDropdown.selectedIndex = 0;
@@ -110,7 +115,7 @@ bigClearFiltersButton.onclick = function () {
     filteredExpressionValue = "";
     filteredSpeakerValue = "";
 
-    let filteredLines = bigFilterLines(bigAllLines);
+    let filteredLines = filterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
 
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
@@ -120,7 +125,7 @@ bigClearFiltersButton.onclick = function () {
 let bigAllLines = [];
 
 const modifyResultsOnSearchboxChange = debounce((ev) => {
-    let filteredLines = bigFilterLines(bigAllLines);
+    let filteredLines = filterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
@@ -128,44 +133,76 @@ const modifyResultsOnSearchboxChange = debounce((ev) => {
 },250);
 
 
-bigSearchbox.addEventListener('keydown', modifyResultsOnSearchboxChange)
 
-bigSearchbox.onclick = async function() {
-    if (bigAllLines.length == 0) {
-        bigAllLines = await getAllDialogueLines()
-    }
+
+const searchboxClick = async function() {
     toggleElementVisibility(resultsList);
 }
 
-bigPageNameDropdown.addEventListener('onkeyup', modifyResultsOnSearchboxChange)
 
-let filteredExpressionValue = ""
-bigExpressionDropdown.onchange = function() {
+const modifyResultsOnKeyup = debounce((ev) => {
+    filteredSceneValue = bigPageNameDropdown.value;
+    let filteredLines = filterLines(bigAllLines);
+    bigModifyResultsList(filteredLines);
+    if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
+        toggleElementVisibility(bigResultsList);
+    }
+}, 250);
+
+
+
+const modifyResultsForExpressionChange = function() {
     filteredExpressionValue = bigExpressionDropdown.value;
-    let filteredLines = bigFilterLines(bigAllLines);
+    let filteredLines = filterLines(bigAllLines);
+    console.log(filteredLines)
     bigModifyResultsList(filteredLines);
-
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
     }
 }
 
-let filteredSpeakerValue = ""
-bigSpeakerDropdown.onchange = function () {
+
+
+const modifyResultsForPageChange = function() {
+    filteredSceneValue = bigPageNameDropdown.value;
+    let filteredLines = filterLines(bigAllLines);
+    console.log(filteredLines)
+    bigModifyResultsList(filteredLines);
+    if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
+        toggleElementVisibility(bigResultsList)
+    }
+}
+
+
+
+
+const modifyResultsForSpeakerChange = function() {
     filteredSpeakerValue = bigSpeakerDropdown.value;
-    let filteredLines = bigFilterLines(bigAllLines);
+    let filteredLines = filterLines(bigAllLines);
     bigModifyResultsList(filteredLines);
-
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
     }
-}
+} 
+
+window.addEventListener("load", async () => fillFilterDropdowns())
+bigClearFiltersButton.addEventListener('click', clearFilters)
+bigSearchbox.addEventListener('keydown', modifyResultsOnSearchboxChange)
+bigSearchbox.addEventListener('click', searchboxClick)
+bigPageNameDropdown.addEventListener('onkeyup', modifyResultsOnKeyup);
+bigExpressionDropdown.addEventListener('change', modifyResultsForExpressionChange)
+bigPageNameDropdown.addEventListener('change', modifyResultsForPageChange)
+bigSpeakerDropdown.addEventListener('change', modifyResultsForSpeakerChange)
 
 
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
 
 document.addEventListener('click', (e) => {
-    if (e.currentTarget.activeElement.id == "searchbox") return
+
+    console.log(e.currentTarget.activeElement);
+    if (e.currentTarget.activeElement.id == "searchbox" || e.currentTarget.activeElement.classList.contains('filterDropdown')) {
+        return
+    }
 
     if (!bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
