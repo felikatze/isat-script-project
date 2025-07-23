@@ -260,6 +260,7 @@ img::before {
     display: inline-block;
     font-weight: 400 !important;
     text-decoration: none;
+    width: 100%;
 }
 .search-result:hover {
     background-color: #333;
@@ -445,6 +446,7 @@ ul.bigSearchPageSelect option::selection {
     display: inline-block;
     font-weight: 400 !important;
     text-decoration: none;
+    width: 100%;
 }
 .big-search-result:hover {
     background-color: #333;
