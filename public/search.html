@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <base href=".">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://felicitations.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js"></script> 
+    <script src="/search.js" defer></script>
+    <script src="/big-search.js" defer></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <input type="text" id="big-searchbox" placeholder="Search dialogues...">
+                <div id="searchOptions">
+                    <select id="big-pageNameDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by page...</option>
+                        <option value="" class="filterOption">Any</option>
+                    </select>
+                    <select id="big-expressionDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by expression...</option>
+                        <option value="" class="filterOption">Any</option>
+                    </select>
+                    <select id="big-speakerDropdown" class="filterDropdown">
+                        <option value="" class="filterOption" disabled selected>Filter by speaker...</option>
+                        <option value="" class="filterOption">Any</option>
+                        <option value="Siffrin" class="filterOption">Siffrin</option>
+                        <option value="Mirabelle" class="filterOption">Mirabelle</option>
+                        <option value="Isabeau" class="filterOption">Isabeau</option>
+                        <option value="Odile" class="filterOption">Odile</option>
+                        <option value="Bonnie" class="filterOption">Bonnie</option>
+                        <option value="Loop" class="filterOption">Loop</option>
+                        <option value="King" class="filterOption">King</option>
+                        <option value="Euphrasie" class="filterOption">Euphrasie</option>
+                    </select>
+                    <button id="clearFilters">Clear Filters</button>
+                </div>
+
+                <ul id="big-searchUL" class="hidden"></ul>
+                
+         <!--      <ul class="bigSearchPageSelect" >
+                    <option>1</option>
+                    <option><a value="2">2</a></option>
+                    <option><a value="3">3</a></option>
+                    <option><a value="4">4</a></option>
+                </ul> -->  
+                
+                
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
+    
+</body>
+</html>
