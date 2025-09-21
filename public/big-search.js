@@ -15,6 +15,7 @@ var bigPageNameDropdown = document.getElementById("big-pageNameDropdown");
 var bigExpressionDropdown = document.getElementById("big-expressionDropdown");
 var bigSpeakerDropdown = document.getElementById("big-speakerDropdown");
 var bigClearFiltersButton = document.getElementById("clearFilters");
+var magnifyingGladdIcon = document.getElementById("magnifyingGlassIcon");
 
 const fillFilterDropdowns = async function(){
         if (bigAllLines.length == 0) {
@@ -184,6 +185,7 @@ bigPageNameDropdown.addEventListener('onkeyup', modifyResultsOnKeyup);
 bigExpressionDropdown.addEventListener('change', modifyResultsForExpressionChange)
 bigPageNameDropdown.addEventListener('change', modifyResultsForPageChange)
 bigSpeakerDropdown.addEventListener('change', modifyResultsForSpeakerChange)
+magnifyingGlassIcon.removeEventListener('click', openSearch)
 
 
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
