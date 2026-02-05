@@ -16,18 +16,18 @@
     {
         "en_raw": "(The amazing artist is here[!/.])",
         "en_clean": "(The amazing artist is here[!/.])",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(小さな芸術家だな[！/。])",
+        "jp_clean": "(小さな芸術家だな[！/。])",
         "checked": false
     },
     {
         "en_raw": "(...It's Mirabelle!)",
         "en_clean": "(...It's Mirabelle!)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...ミラベルの絵だ[！/。])",
+        "jp_clean": "(...ミラベルの絵だ[！/。])",
         "checked": false
     },
-    {
+    {//todo get rid of this one
         "en_raw": "(...It's Mirabelle.)",
         "en_clean": "(...It's Mirabelle.)",
         "jp_raw": null,
@@ -48,14 +48,14 @@
         "jp_clean": "(何枚か絵をめくると、そのうちの1枚を見せてくれた。)",
         "checked": false
     },
-    {
+    {//TODO eng should have [!/.]
         "en_raw": "(...It's you!)",
         "en_clean": "(...It's you!)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...僕の絵だ[！/。])",
+        "jp_clean": "(...僕の絵だ[！/。])",
         "checked": false
     },
-    {
+    {//TOCO remove
         "en_raw": "(...It's you.)",
         "en_clean": "(...It's you.)",
         "jp_raw": null,
@@ -79,14 +79,8 @@
     {
         "en_raw": "(Maybe...)",
         "en_clean": "(Maybe...)",
-        "jp_raw": [
-            "\\m[vs](もしかして...)\\!\\",
-            "(頼んでみよう...)"
-        ],
-        "jp_clean": [
-            "(もしかして...)",
-            "(頼んでみよう...)"
-        ],
+        "jp_raw": "(頼んでみよう...)",
+        "jp_clean": "(頼んでみよう...)",
         "checked": false
     },
     {
@@ -124,14 +118,14 @@
         "jp_clean": "(...)",
         "checked": false
     },
-    {
+    {//TODO should be [friends/allies/family members], eng missing response "\"僕と仲間たちだね！\""
         "en_raw": "(...It's you and your [friends/allies]!)",
         "en_clean": "(...It's you and your [friends/allies]!)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...僕とだ[友達/仲間たち/家族])",
+        "jp_clean": "(...僕とだ[友達/仲間たち/家族])",
         "checked": false
     },
-    {
+    {//TODO remove
         "en_raw": "(...It's you and your [allies/family members].)",
         "en_clean": "(...It's you and your [allies/family members].)",
         "jp_raw": null,
@@ -159,11 +153,11 @@
         "jp_clean": "(ポケットの「思い出の品」に入れておこう。)",
         "checked": false
     },
-    {
+    {//TODO eng missing response
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"ありがとう、芸術家さん！\"",
+        "jp_clean": "\"ありがとう、芸術家さん！\"",
         "checked": false
     },
     {
@@ -225,8 +219,8 @@
     {
         "en_raw": "(It's...) \"It's... me.\"",
         "en_clean": "(It's...) \"It's... me.\"",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(これは...) \"これは... 僕だ。\"",
+        "jp_clean": "(これは...) \"これは... 僕だ。\"",
         "checked": false
     },
     {
@@ -253,14 +247,8 @@
     {
         "en_raw": "(You swallow.)",
         "en_clean": "(You swallow.)",
-        "jp_raw": [
-            "\\m[clear]\\shake(言葉をのみ込む。)",
-            "\\m[clear](言葉を飲み込む。)"
-        ],
-        "jp_clean": [
-            "(言葉をのみ込む。)",
-            "(言葉を飲み込む。)"
-        ],
+        "jp_raw": "(言葉を飲み込む。)",
+        "jp_clean": "(言葉を飲み込む。)",
         "checked": false
     },
     {
@@ -287,8 +275,8 @@
     {
         "en_raw": "(...) \"...It's me and everyone.\"",
         "en_clean": "(...) \"...It's me and everyone.\"",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...) \"...僕とみんなだ。\"",
+        "jp_clean": "(...) \"...僕とみんなだ。\"",
         "checked": false
     },
     {
@@ -329,7 +317,7 @@
     {
         "en_raw": "(You thank the kid, and walk away.)",
         "en_clean": "(You thank the kid, and walk away.)",
-        "jp_raw": "\\m[wait](子どもに礼を言い、その場を去った。)",
+        "jp_raw": "(子どもに礼を言い、その場を去った。)",
         "jp_clean": "(子どもに礼を言い、その場を去った。)",
         "checked": false
     },
@@ -357,8 +345,8 @@
     {
         "en_raw": "................You look  so weird.",
         "en_clean": "................You look  so weird.",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...............へーんなカッコ。",
+        "jp_clean": "...............へーんなカッコ。",
         "checked": false
     },
     {
@@ -368,7 +356,7 @@
         "jp_clean": "空から来たの？",
         "checked": false
     },
-    {
+    {//TODO unsure CHECK LATER MYSELF, choicer "\"どうして分かるの！？！？\"" "\"違うよ。\""
         "en_raw": "(Are you?)",
         "en_clean": "(Are you?)",
         "jp_raw": [
