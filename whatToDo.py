@@ -18,6 +18,8 @@ tFCount2 = 0
 for i in liAss:
   fullCount = 0
   percent = 0.0
+  if (i[-5:] == ".json"):
+    i = i[:-5]
   file = "line_associations\\" + i + ".json"
   if i in trans:
     file = "translations\\" + i + ".jsonc"
