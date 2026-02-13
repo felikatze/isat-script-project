@@ -4,9 +4,9 @@
         "en_clean": "(Isabeau is here, probably pondering what favor to ask the Tree.)",
         "jp_raw": "(イザボーだ。願いの木に頼むことをじっくり考えているんだろう。)",
         "jp_clean": "(イザボーだ。願いの木に頼むことをじっくり考えているんだろう。)",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO choicer "\"イザ！\"" "\"やあ、イザ...\" " "\"イザ。\" " "(何も言わない。)" "\"やあ、イザ。願いの木に頼みたいことがあってね！\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
@@ -30,21 +30,32 @@
     {
         "en_raw": "Sif!",
         "en_clean": "Sif!",
-        "jp_raw": [
-            "\\m[vinp]シフ！",
-            "シフ！",
-            "\\m[vi]シフ！",
-            "\\m[vinp]シフ..."
-        ],
-        "jp_clean": [
-            "シフ！",
-            "シフ！",
-            "シフ！",
-            "シフ..."
-        ],
+        "jp_raw":  "シフ！",
+        "jp_clean":  "シフ！",
+        "checked": true
+    },
+    {//TODO eng mis
+        "en_raw": "",
+        "en_clean": "",
+        "jp_raw": "\"イザ！！！\"",
+        "jp_clean": "\"イザ！！！\"",
         "checked": false
     },
     {
+        "en_raw": "",
+        "en_clean": "",
+        "jp_raw": null,
+        "jp_clean": null,
+        "checked": false
+    },
+    {
+        "en_raw": "Sif!!!!!",
+        "en_clean": "Sif!!!!!",
+        "jp_raw": "シフ！！！",
+        "jp_clean": "シフ！！！",
+        "checked": true
+    },
+    {//TODO choicer "\"イザァァァァァ！！！！！！\"" "\"いや、もう十分だ。\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
@@ -63,100 +74,79 @@
         "en_clean": "Sif!!!!!",
         "jp_raw": "シフ！！！",
         "jp_clean": "シフ！！！",
-        "checked": false
-    },
-    {
-        "en_raw": "",
-        "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "",
-        "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "Sif!!!!!",
-        "en_clean": "Sif!!!!!",
-        "jp_raw": "シフ！！！",
-        "jp_clean": "シフ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay, that's it!!! I'm ending this bit!!!",
         "en_clean": "Okay, that's it!!! I'm ending this bit!!!",
         "jp_raw": "よしよし、そこまでだ！ このやり取りは、ここまで！",
         "jp_clean": "よしよし、そこまでだ！ このやり取りは、ここまで！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Aw.) \"Booooo.\"",
         "en_clean": "(Aw.) \"Booooo.\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ううっ。) \"えええぇぇ。\"",
+        "jp_clean": "(ううっ。) \"えええぇぇ。\"",
+        "checked": true
     },
     {
         "en_raw": "That's how it has to be, Siffrin.",
         "en_clean": "That's how it has to be, Siffrin.",
         "jp_raw": "こうすべきなんだよ、シフラン。",
         "jp_clean": "こうすべきなんだよ、シフラン。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Aw, boo!",
         "en_clean": "Aw, boo!",
         "jp_raw": "ちぇっ！",
         "jp_clean": "ちぇっ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hey, uh, Sif? Are you still half-asleep?",
         "en_clean": "Hey, uh, Sif? Are you still half-asleep?",
         "jp_raw": "なあ、シフ？ まだ半分寝てるのか？",
         "jp_clean": "なあ、シフ？ まだ半分寝てるのか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You should stop taking forever naps, Sif. Naps give you cotton brain.",
         "en_clean": "You should stop taking forever naps, Sif. Naps give you cotton brain.",
         "jp_raw": "長く昼寝するのはやめた方がいいぞ。頭がぼんやりしちゃうからな。",
         "jp_clean": "長く昼寝するのはやめた方がいいぞ。頭がぼんやりしちゃうからな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Sif. Woke up on the wrong side of the bed? I get it.",
         "en_clean": "Sif. Woke up on the wrong side of the bed? I get it.",
         "jp_raw": "シフ。寝起きが悪かったか？ そういうときもあるよな。",
         "jp_clean": "シフ。寝起きが悪かったか？ そういうときもあるよな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh! Sorry, I'm in your way then, aren't I? I'll get out of your hair, see you at the Clocktower!!!",
         "en_clean": "Oh! Sorry, I'm in your way then, aren't I? I'll get out of your hair, see you at the Clocktower!!!",
         "jp_raw": "おっと！ わりぃ、ジャマだったよな？ 一人にしてやるよ。後で、時計台でな！！！",
         "jp_clean": "おっと！ わりぃ、ジャマだったよな？ 一人にしてやるよ。後で、時計台でな！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Wah! Sif! I didn't see you there!",
         "en_clean": "Wah! Sif! I didn't see you there!",
         "jp_raw": "わあっ！ シフ！ 気づかなかったよ！",
         "jp_clean": "わあっ！ シフ！ 気づかなかったよ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Anyway, I was just looking at the Favor Tree! Isn't this tree cool???",
         "en_clean": "Anyway, I was just looking at the Favor Tree! Isn't this tree cool???",
         "jp_raw": "俺は願いの木を見てただけなんだ！ この木、かっこいいよな？？",
         "jp_clean": "俺は願いの木を見てただけなんだ！ この木、かっこいいよな？？",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO unsure, this and next few lines response "ああ、そうだね..."
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
         "jp_raw": [
@@ -171,14 +161,14 @@
         ],
         "checked": false
     },
-    {
+    {//TODO can't find
         "en_raw": "(Oh, wait, you remember this!)",
         "en_clean": "(Oh, wait, you remember this!)",
         "jp_raw": null,
         "jp_clean": null,
         "checked": false
     },
-    {
+    {//TODO can't find
         "en_raw": "(Joke time.)",
         "en_clean": "(Joke time.)",
         "jp_raw": null,
@@ -188,18 +178,18 @@
     {
         "en_raw": "(Cue joke.)",
         "en_clean": "(Cue joke.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ここで、ジョーク。)",
+        "jp_clean": "(ここで、ジョーク。)",
+        "checked": true
     },
     {
         "en_raw": "Glad you agree!",
         "en_clean": "Glad you agree!",
         "jp_raw": "同じ気持ちでうれしいぜ！",
         "jp_clean": "同じ気持ちでうれしいぜ！",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO choicer この本はかなり... (ここでやめておこう。)
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
@@ -218,27 +208,27 @@
         "en_clean": "Uh huh???",
         "jp_raw": "なんだって？",
         "jp_clean": "なんだって？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(No. You will always make the joke.)",
         "en_clean": "(No. You will always make the joke.)",
         "jp_raw": "(ダメだ。ジョークは毎回言わなきゃ。)",
         "jp_clean": "(ダメだ。ジョークは毎回言わなきゃ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You have to keep some sort of routine to stay sane, and if always making the joke is how, so be it.)",
         "en_clean": "(You have to keep some sort of routine to stay sane, and if always making the joke is how, so be it.)",
         "jp_raw": "(ルーティンを守れば、正気を保てる。ジョークを言うなら、毎回そうしないと。)",
         "jp_clean": "(ルーティンを守れば、正気を保てる。ジョークを言うなら、毎回そうしないと。)",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO eng missing response
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"...キになるね\"",
+        "jp_clean": "\"...キになるね\"",
         "checked": false
     },
     {
@@ -253,1220 +243,632 @@
         "en_clean": "HAHAHA!!!!! YEAH!!!! YEAH!!!!!! YES!!!!!!!",
         "jp_raw": "ハハハハ！！！ そうだなっ！！！ いいぞ！！！ ウケたぞ！！！",
         "jp_clean": "ハハハハ！！！ そうだなっ！！！ いいぞ！！！ ウケたぞ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You both laugh.)",
         "en_clean": "(You both laugh.)",
-        "jp_raw": [
-            "(二人で笑い声をあげる。)",
-            "\\m[clear](2人で笑った。)"
-        ],
-        "jp_clean": [
-            "(二人で笑い声をあげる。)",
-            "(2人で笑った。)"
-        ],
-        "checked": false
+        "jp_raw": "(2人で笑った。)",
+        "jp_clean": "(2人で笑った。)",
+        "checked": true
     },
     {
         "en_raw": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "en_clean": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "jp_raw": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
         "jp_clean": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...but stops, and brings it to his side.)",
         "en_clean": "(...but stops, and brings it to his side.)",
         "jp_raw": "(...その手を止めて、腕を下ろした。)",
         "jp_clean": "(...その手を止めて、腕を下ろした。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Didn't he do this before? What a weird gesture.)",
         "en_clean": "(Didn't he do this before? What a weird gesture.)",
         "jp_raw": "(前にもそうしなかったっけ？ 妙な動作だ。)",
         "jp_clean": "(前にもそうしなかったっけ？ 妙な動作だ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(What's up with the hand???)",
         "en_clean": "(What's up with the hand???)",
         "jp_raw": "(あの手はなんだったんだ？)",
         "jp_clean": "(あの手はなんだったんだ？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Okay he did the hand thing again. You're too curious. You'll have to ask later.)",
         "en_clean": "(Okay he did the hand thing again. You're too curious. You'll have to ask later.)",
         "jp_raw": "(またあの手の動きだ。気になるなあ。後で聞いてみないと。)",
         "jp_clean": "(またあの手の動きだ。気になるなあ。後で聞いてみないと。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You need to ask!!!)",
         "en_clean": "(You need to ask!!!)",
         "jp_raw": "(聞くんだ！)",
         "jp_clean": "(聞くんだ！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "en_clean": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "jp_raw": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
         "jp_clean": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You get it now.)",
         "en_clean": "(You get it now.)",
         "jp_raw": "(なるほど。)",
         "jp_clean": "(なるほど。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(This is him   trying to touch you.)",
         "en_clean": "(This is him   trying to touch you.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーは僕に触れようとしていたんだ。)",
+        "jp_clean": "(イザボーは僕に触れようとしていたんだ。)",
+        "checked": true
     },
     {
         "en_raw": "(You freeze.)",
         "en_clean": "(You freeze.)",
-        "jp_raw": [
-            "\\m[clear](体が固くなる。)",
-            "(体が固くなる。)"
-        ],
-        "jp_clean": [
-            "(体が固くなる。)",
-            "(体が固くなる。)"
-        ],
-        "checked": false
+        "jp_raw": "(体が固くなる。)",
+        "jp_clean": "(体が固くなる。)",
+        "checked": true
     },
     {
         "en_raw": "(His hand is in the air.)",
         "en_clean": "(His hand is in the air.)",
         "jp_raw": "(イザボーの手が空中をさまよう。)",
         "jp_clean": "(イザボーの手が空中をさまよう。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(And goes closer... Closer...)",
         "en_clean": "(And goes closer... Closer...)",
-        "jp_raw": "(そして、こちらに近づき... さらに近づき\\..\\..\\..)",
+        "jp_raw": "(そして、こちらに近づき... さらに近づき...)",
         "jp_clean": "(そして、こちらに近づき... さらに近づき...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(His hand   abruptly stops above your shoulder, and goes back to his side.)",
         "en_clean": "(His hand   abruptly stops above your shoulder, and goes back to his side.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(その手は僕の肩の真上で突然止まった。腕が引っ込められ、手が離れていく。)",
+        "jp_clean": "(その手は僕の肩の真上で突然止まった。腕が引っ込められ、手が離れていく。)",
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "en_clean": "(Laughing uproariously, he raises his hand towards your shoulder...)",
         "jp_raw": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
         "jp_clean": "(イザボーは大声で笑いながら片手を上げて僕の肩に向かって伸ばし...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You watch his hand get closer to you again.)",
         "en_clean": "(You watch his hand get closer to you again.)",
         "jp_raw": "(また、イザボーの手が近づいてくる。)",
         "jp_clean": "(また、イザボーの手が近づいてくる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Maybe this time...)",
         "en_clean": "(Maybe this time...)",
         "jp_raw": "(もしかすると今回は...)",
         "jp_clean": "(もしかすると今回は...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Closer... Closer...)",
         "en_clean": "(Closer... Closer...)",
-        "jp_raw": "(近づいて... 近づいて\\..\\..\\..)",
+        "jp_raw": "(近づいて... 近づいて...)",
         "jp_clean": "(近づいて... 近づいて...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(His hand   abruptly stops above your shoulder, and goes back to his side.)",
         "en_clean": "(His hand   abruptly stops above your shoulder, and goes back to his side.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(その手は僕の肩の真上で突然止まった。腕が引っ込められ、手が離れていく。)",
+        "jp_clean": "(その手は僕の肩の真上で突然止まった。腕が引っ込められ、手が離れていく。)",
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You wait for him to touch you.)",
         "en_clean": "(You wait for him to touch you.)",
         "jp_raw": "(イザボーが僕に触れるのを待つ。)",
         "jp_clean": "(イザボーが僕に触れるのを待つ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You're beginning to think he never will.)",
         "en_clean": "(You're beginning to think he never will.)",
         "jp_raw": "(その手が僕に触れることは、けっしてないのかもしれない。)",
         "jp_clean": "(その手が僕に触れることは、けっしてないのかもしれない。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You look at his hand coming closer... Closer...)",
         "en_clean": "(You look at his hand coming closer... Closer...)",
-        "jp_raw": "(イザボーの手が近づいて... 近づいて\\..\\..\\..)",
+        "jp_raw": "(イザボーの手が近づいて... 近づいて...)",
         "jp_clean": "(イザボーの手が近づいて... 近づいて...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(As expected, his hand stops above your shoulder.)",
         "en_clean": "(As expected, his hand stops above your shoulder.)",
-        "jp_raw": "\\m[wait](予想どおり、イザボーの手は肩の真上で止まった。)",
+        "jp_raw": "(予想どおり、イザボーの手は肩の真上で止まった。)",
         "jp_clean": "(予想どおり、イザボーの手は肩の真上で止まった。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You wait for him to touch you. You wait for him to touch you. You wait for him to touch you.)",
         "en_clean": "(You wait for him to touch you. You wait for him to touch you. You wait for him to touch you.)",
         "jp_raw": "(イザボーが僕に触れるのを待つ。イザボーが僕に触れるのを待つ。イザボーが僕に触れるのを待つ。)",
         "jp_clean": "(イザボーが僕に触れるのを待つ。イザボーが僕に触れるのを待つ。イザボーが僕に触れるのを待つ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(He has to do it.   You will never do it yourself.)",
         "en_clean": "(He has to do it.   You will never do it yourself.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーがしてくれなきゃ。僕から触れることは、絶対にないから。)",
+        "jp_clean": "(イザボーがしてくれなきゃ。僕から触れることは、絶対にないから。)",
+        "checked": true
     },
     {
         "en_raw": "(But he won't touch you because he thinks you don't want him to.)",
         "en_clean": "(But he won't touch you because he thinks you don't want him to.)",
         "jp_raw": "(でも、イザボーは触れない。僕が触れてほしくないと思っていると、彼は考えているから。)",
         "jp_clean": "(でも、イザボーは触れない。僕が触れてほしくないと思っていると、彼は考えているから。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(And you can't say it. Because. That's embarrassing.)",
         "en_clean": "(And you can't say it. Because. That's embarrassing.)",
         "jp_raw": "(僕からは言えない。だって。そんなの恥ずかしい。)",
         "jp_clean": "(僕からは言えない。だって。そんなの恥ずかしい。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(That's life-ending, even.   Asking for someone's touch.)",
         "en_clean": "(That's life-ending, even.   Asking for someone's touch.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(僕の人生の終わりに等しい。触れてほしいと願うなんて。)",
+        "jp_clean": "(僕の人生の終わりに等しい。触れてほしいと願うなんて。)",
+        "checked": true
     },
     {
         "en_raw": "(But please, you think. Please, please, please.)",
         "en_clean": "(But please, you think. Please, please, please.)",
         "jp_raw": "(だけど、触れてほしい。お願いだ。頼むから。)",
         "jp_clean": "(だけど、触れてほしい。お願いだ。頼むから。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(A flicker of movement makes you look at his face.)",
         "en_clean": "(A flicker of movement makes you look at his face.)",
-        "jp_raw": "\\m[wait](イザボーの手が震え、僕は彼の顔を見つめた。)",
+        "jp_raw": "(イザボーの手が震え、僕は彼の顔を見つめた。)",
         "jp_clean": "(イザボーの手が震え、僕は彼の顔を見つめた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(He looks   stricken. Sad.)",
         "en_clean": "(He looks   stricken. Sad.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーは打ちひしがれた顔をしている。悲しそうだ。)",
+        "jp_clean": "(イザボーは打ちひしがれた顔をしている。悲しそうだ。)",
+        "checked": true
     },
     {
         "en_raw": "(Seeing you look at him, he laughs   and brings his hand down.)",
         "en_clean": "(Seeing you look at him, he laughs   and brings his hand down.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(僕が見ているのに気づいて、イザボーは笑い、手を下ろした。)",
+        "jp_clean": "(僕が見ているのに気づいて、イザボーは笑い、手を下ろした。)",
+        "checked": true
     },
     {
         "en_raw": "(You wonder what face you were making as you were waiting for him to touch you.)",
         "en_clean": "(You wonder what face you were making as you were waiting for him to touch you.)",
         "jp_raw": "(イザボーの手が触れてくれるのを待っているとき、僕はどんな顔をしていたんだろう。)",
         "jp_clean": "(イザボーの手が触れてくれるのを待っているとき、僕はどんな顔をしていたんだろう。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "(You wait for him to touch you.)",
         "en_clean": "(You wait for him to touch you.)",
         "jp_raw": "(イザボーが僕に触れるのを待つ。)",
         "jp_clean": "(イザボーが僕に触れるのを待つ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(His hand stops above your shoulder.)",
         "en_clean": "(His hand stops above your shoulder.)",
-        "jp_raw": "\\m[wait](イザボーの手が肩の真上で止まる。)",
+        "jp_raw": "(イザボーの手が肩の真上で止まる。)",
         "jp_clean": "(イザボーの手が肩の真上で止まる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Is it fun to go back here? To keep torturing yourself?)",
         "en_clean": "(Is it fun to go back here? To keep torturing yourself?)",
         "jp_raw": "(こんなことを繰り返すのが楽しいのか？ 自ら痛めつけられに来ているようなものじゃないか。)",
         "jp_clean": "(こんなことを繰り返すのが楽しいのか？ 自ら痛めつけられに来ているようなものじゃないか。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You wait for him to touch you.)",
         "en_clean": "(You wait for him to touch you.)",
         "jp_raw": "(イザボーが僕に触れるのを待つ。)",
         "jp_clean": "(イザボーが僕に触れるのを待つ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Why do you have to wait? Why do you have to wait? Why do you have to wait?)",
         "en_clean": "(Why do you have to wait? Why do you have to wait? Why do you have to wait?)",
         "jp_raw": "(どうして待たなければならない？ どうして待たなければならない？ どうして待たなければならない？)",
         "jp_clean": "(どうして待たなければならない？ どうして待たなければならない？ どうして待たなければならない？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(. . .)",
+        "jp_clean": "(. . .)",
+        "checked": true
     },
     {
         "en_raw": "(His hand stops above your shoulder.)",
         "en_clean": "(His hand stops above your shoulder.)",
-        "jp_raw": "\\m[wait](イザボーの手が肩の真上で止まる。)",
+        "jp_raw": "(イザボーの手が肩の真上で止まる。)",
         "jp_clean": "(イザボーの手が肩の真上で止まる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Is it fun to go back here? To keep torturing yourself?)",
         "en_clean": "(Is it fun to go back here? To keep torturing yourself?)",
         "jp_raw": "(こんなことを繰り返すのが楽しいのか？ 自ら痛めつけられに来ているようなものじゃないか。)",
         "jp_clean": "(こんなことを繰り返すのが楽しいのか？ 自ら痛めつけられに来ているようなものじゃないか。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Suddenly  you realize a very basic thing.)",
         "en_clean": "(Suddenly  you realize a very basic thing.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(突然、当たり前のことに気づいた。)",
+        "jp_clean": "(突然、当たり前のことに気づいた。)",
+        "checked": true
     },
     {
         "en_raw": "(He will never touch you.   He will never say it to you.   You will be stuck here forever.)",
         "en_clean": "(He will never touch you.   He will never say it to you.   You will be stuck here forever.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーが僕に触れることはない。僕に言うこともない。ずっとこのままなんだ。)",
+        "jp_clean": "(イザボーが僕に触れることはない。僕に言うこともない。ずっとこのままなんだ。)",
+        "checked": true
     },
     {
         "en_raw": "(Stuck in your yearning.)",
         "en_clean": "(Stuck in your yearning.)",
         "jp_raw": "(僕の切なる思いは、叶わない。)",
         "jp_clean": "(僕の切なる思いは、叶わない。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Unless   you're the one who breaks the cycle.)",
         "en_clean": "(Unless   you're the one who breaks the cycle.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ただし、僕がサイクルを壊せば、話は変わる。)",
+        "jp_clean": "(ただし、僕がサイクルを壊せば、話は変わる。)",
+        "checked": true
     },
     {
         "en_raw": "(You reach out.)",
         "en_clean": "(You reach out.)",
         "jp_raw": "(手を伸ばす。)",
         "jp_clean": "(手を伸ばす。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "Uh, Sif?",
         "en_clean": "Uh, Sif?",
         "jp_raw": "おい、シフ？",
         "jp_clean": "おい、シフ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Ah--",
         "en_clean": "Ah--",
-        "jp_raw": [
-            "\\m[vinp]あ――",
-            "ああ――\\m[rb]",
-            "\\m[vo]あー..."
-        ],
-        "jp_clean": [
-            "あ――",
-            "ああ――",
-            "あー..."
-        ],
-        "checked": false
+        "jp_raw": "あー",
+        "jp_clean": "あー",
+        "checked": true
     },
     {
         "en_raw": "(He  pushed you away.)",
         "en_clean": "(He  pushed you away.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーは僕を突き放した。)",
+        "jp_clean": "(イザボーは僕を突き放した。)",
+        "checked": true
     },
     {
         "en_raw": "(He",
         "en_clean": "(He",
         "jp_raw": "(彼は",
         "jp_clean": "(彼は",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Hi Isa, I need to do the Favor Tree thing!\"",
         "en_clean": "\"Hi Isa, I need to do the Favor Tree thing!\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "\"やあ、イザ。願いの木に頼みたいことがあってね！\"",
+        "jp_clean": "\"やあ、イザ。願いの木に頼みたいことがあってね！\"",
+        "checked": true
     },
     {
         "en_raw": "Oh! Sorry, I'm in your way then, aren't I? I'll get out of your hair, see you at the Clocktower!!!",
         "en_clean": "Oh! Sorry, I'm in your way then, aren't I? I'll get out of your hair, see you at the Clocktower!!!",
         "jp_raw": "おっと！ わりぃ、ジャマだったよな？ 一人にしてやるよ。後で、時計台でな！！！",
         "jp_clean": "おっと！ わりぃ、ジャマだったよな？ 一人にしてやるよ。後で、時計台でな！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You take a step back.)",
         "en_clean": "(You take a step back.)",
         "jp_raw": "(一歩下がる。)",
         "jp_clean": "(一歩下がる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(He does not reach towards you.)",
         "en_clean": "(He does not reach towards you.)",
         "jp_raw": "(イザボーは手を伸ばしてこない。)",
         "jp_clean": "(イザボーは手を伸ばしてこない。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haa... That was funny.",
         "en_clean": "Haa... That was funny.",
         "jp_raw": "ハハッ... ウケたウケた。",
         "jp_clean": "ハハッ... ウケたウケた。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Anyway! The tree feels weird somehow... Or maybe it's just me?",
         "en_clean": "Anyway! The tree feels weird somehow... Or maybe it's just me?",
         "jp_raw": "とにかく！ 願いの木が変なんだ... そう思うのは、俺だけか？",
         "jp_clean": "とにかく！ 願いの木が変なんだ... そう思うのは、俺だけか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(What?) \"The tree feels weird?\"",
         "en_clean": "(What?) \"The tree feels weird?\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(なんだって？) \"願いの木が、変？\"",
+        "jp_clean": "(なんだって？) \"願いの木が、変？\"",
+        "checked": true
     },
     {
         "en_raw": "Yeah! Like, it feels... weird.",
         "en_clean": "Yeah! Like, it feels... weird.",
         "jp_raw": "そうなんだ！ なんていうか... 変な感じだ。",
         "jp_clean": "そうなんだ！ なんていうか... 変な感じだ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "But not mean! Like if a lion came towards you and offered you some candy, that'd be weird, right? That kinda weird!",
         "en_clean": "But not mean! Like if a lion came towards you and offered you some candy, that'd be weird, right? That kinda weird!",
         "jp_raw": "でも、悪い意味じゃない！ たとえば、ライオンが近寄ってきてキャンディーを差し出してくれたら、変な感じだろ？ そういう感じだ！",
         "jp_clean": "でも、悪い意味じゃない！ たとえば、ライオンが近寄ってきてキャンディーを差し出してくれたら、変な感じだろ？ そういう感じだ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...What.)",
         "en_clean": "(...What.)",
         "jp_raw": "(...なんだって。)",
         "jp_clean": "(...なんだって。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Aw, you always get me, Sif!",
         "en_clean": "Aw, you always get me, Sif!",
         "jp_raw": "へへ、いつも俺の言うこと分かってくれるよな！",
         "jp_clean": "へへ、いつも俺の言うこと分かってくれるよな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Last time...? What d'you mean? I just started feeling like this now!",
         "en_clean": "Last time...? What d'you mean? I just started feeling like this now!",
         "jp_raw": "前回...？ どういう意味だ？ こんな風に感じたのは、今回が初めてだぜ！",
         "jp_clean": "前回...？ どういう意味だ？ こんな風に感じたのは、今回が初めてだぜ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...The tree feels weird?)",
         "en_clean": "(...The tree feels weird?)",
         "jp_raw": "(...木が変な感じ？)",
         "jp_clean": "(...木が変な感じ？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Maybe you should go take a look at it...)",
         "en_clean": "(Maybe you should go take a look at it...)",
         "jp_raw": "(近づいて、見てみよう...)",
         "jp_clean": "(近づいて、見てみよう...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...Um...",
         "en_clean": "...Um...",
         "jp_raw": "...えっと...",
         "jp_clean": "...えっと...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I'm gonna go soon so you can do your thing with the tree, but do you wanna talk before I go?",
         "en_clean": "I'm gonna go soon so you can do your thing with the tree, but do you wanna talk before I go?",
         "jp_raw": "俺はもう行くから、好きなだけここにいるといい。俺が行く前に、話したいことはあるか？",
         "jp_clean": "俺はもう行くから、好きなだけここにいるといい。俺が行く前に、話したいことはあるか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[You don't need to talk to your allies about things you've already talked about, but the option is still here just in case you need a refresher!]",
         "en_clean": "[You don't need to talk to your allies about things you've already talked about, but the option is still here just in case you need a refresher!]",
-        "jp_raw": [
-            "\\m[clear]\\m[vtuto][仲間とすでに話したことについて、もう一度話す必要はないけど、選択肢は残っているよ。話の内容を忘れたときは選んでね！]\\m[rb]",
-            "\\m[clear]\\m[vtuto][仲間とすでに話したことについて、もう一度話す必要はないけれど、選択肢は残っているぞ。\\!話の内容を忘れたときに使おう！]\\m[rb]"
-        ],
-        "jp_clean": [
-            "[仲間とすでに話したことについて、もう一度話す必要はないけど、選択肢は残っているよ。話の内容を忘れたときは選んでね！]",
-            "[仲間とすでに話したことについて、もう一度話す必要はないけれど、選択肢は残っているぞ。話の内容を忘れたときに使おう！]"
-        ],
-        "checked": false
+        "jp_raw": "[仲間とすでに話したことについて、もう一度話す必要はないけれど、選択肢は残っているぞ。話の内容を忘れたときに使おう！]",
+        "jp_clean": "[仲間とすでに話したことについて、もう一度話す必要はないけれど、選択肢は残っているぞ。話の内容を忘れたときに使おう！]",
+        "checked": true
     },
     {
         "en_raw": "(...?)",
         "en_clean": "(...?)",
-        "jp_raw": [
-            "(...？)",
-            "\\m[clear](...？)",
-            "\\m[clear](\\|.\\|.\\|.\\|?)",
-            "\\m[vs](...？)\\!\\"
-        ],
-        "jp_clean": [
-            "(...？)",
-            "(...？)",
-            "(...?)",
-            "(...？)"
-        ],
-        "checked": false
+        "jp_raw": "(...？)",
+        "jp_clean": "(...？)",
+        "checked": true
     },
     {
         "en_raw": "Si--",
         "en_clean": "Si--",
         "jp_raw": "シフ――",
         "jp_clean": "シフ――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Woah, what's wrong?",
         "en_clean": "Woah, what's wrong?",
         "jp_raw": "うわっ、どうした？",
         "jp_clean": "うわっ、どうした？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"I need to do the Favor Tree thing.\"",
         "en_clean": "\"I need to do the Favor Tree thing.\"",
         "jp_raw": "\"願いの木に頼みたいことがあるんだ。\"",
         "jp_clean": "\"願いの木に頼みたいことがあるんだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh. Do you... Need me to leave?",
         "en_clean": "Oh. Do you... Need me to leave?",
         "jp_raw": "そうか。一人に... した方がいいか？",
         "jp_clean": "そうか。一人に... した方がいいか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Sure. But let's talk later, okay?",
         "en_clean": "Sure. But let's talk later, okay?",
         "jp_raw": "そうしよう。でも、後で話そう。な？",
         "jp_clean": "そうしよう。でも、後で話そう。な？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hi again, Sif! What's up?",
         "en_clean": "Hi again, Sif! What's up?",
         "jp_raw": "また会ったな、シフ？ どうした？",
         "jp_clean": "また会ったな、シフ？ どうした？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Isabeau is here, looking towards the House.)",
         "en_clean": "(Isabeau is here, looking towards the House.)",
         "jp_raw": "(イザボーだ。館の方を見ている。)",
         "jp_clean": "(イザボーだ。館の方を見ている。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hi again, Sif?",
         "en_clean": "Hi again, Sif?",
         "jp_raw": "また会ったな、シフ？",
         "jp_clean": "また会ったな、シフ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You looked like you were in a hurry earlier, so I left you alone, but... Is everything okay?",
         "en_clean": "You looked like you were in a hurry earlier, so I left you alone, but... Is everything okay?",
         "jp_raw": "さっきは急いでたみたいだったから何も言わなかったけど... 大丈夫か？",
         "jp_clean": "さっきは急いでたみたいだったから何も言わなかったけど... 大丈夫か？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You smile and nod.)",
         "en_clean": "(You smile and nod.)",
         "jp_raw": "(微笑んでうなずく。)",
         "jp_clean": "(微笑んでうなずく。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "Sure, I'll believe you.",
         "en_clean": "Sure, I'll believe you.",
         "jp_raw": "よし、その言葉を信じるよ。",
         "jp_clean": "よし、その言葉を信じるよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What's up?",
         "en_clean": "What's up?",
         "jp_raw": "どうした？",
         "jp_clean": "どうした？",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO can't find
         "en_raw": "(Questions for Isa...)",
         "en_clean": "(Questions for Isa...)",
         "jp_raw": null,
@@ -1476,142 +878,32 @@
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "Huh? A sleepover? Crab yeah!",
         "en_clean": "Huh? A sleepover? Crab yeah!",
         "jp_raw": "え？ お泊り会？ やったぜ、カニったれ！",
         "jp_clean": "え？ お泊り会？ やったぜ、カニったれ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Doesn't the clocktower have only three beds though...? I'm guessing Bonbon and Mira will share, and m'dame Odile will take her own...",
         "en_clean": "Doesn't the clocktower have only three beds though...? I'm guessing Bonbon and Mira will share, and m'dame Odile will take her own...",
         "jp_raw": "だけど、時計台にはベッドが3つしかないだろ...？ ボンボンとミラが一緒に寝て、オディールが1台を独り占めしたら...",
         "jp_clean": "だけど、時計台にはベッドが3つしかないだろ...？ ボンボンとミラが一緒に寝て、オディールが1台を独り占めしたら...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Which means we'll share beds again, Sif! I got dibs on the left side!",
         "en_clean": "Which means we'll share beds again, Sif! I got dibs on the left side!",
         "jp_raw": "また俺たち2人で一緒に寝るんだな、シフ！ 俺は左側を使うぜ！",
         "jp_clean": "また俺たち2人で一緒に寝るんだな、シフ！ 俺は左側を使うぜ！",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO choicer this and next two \"いいよ！\" "\"僕はミラと寝るつもりだ。\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
@@ -1635,241 +927,113 @@
     {
         "en_raw": "Yay!!!",
         "en_clean": "Yay!!!",
-        "jp_raw": [
-            "\\m[vm]イェイ！",
-            "\\m[vi]決まりだ！"
-        ],
-        "jp_clean": [
-            "イェイ！",
-            "決まりだ！"
-        ],
-        "checked": false
+        "jp_raw": "決まりだ！",
+        "jp_clean": "決まりだ！",
+        "checked": true
     },
     {
         "en_raw": "But please try to not hog the covers this time. It's getting cold at night.",
         "en_clean": "But please try to not hog the covers this time. It's getting cold at night.",
         "jp_raw": "でも、ブランケットを独り占めするのは、今回は勘弁してくれよ。夜は寒くなりそうだから。",
         "jp_clean": "でも、ブランケットを独り占めするのは、今回は勘弁してくれよ。夜は寒くなりそうだから。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What??? Are you??? But WHY?!?",
         "en_clean": "What??? Are you??? But WHY?!?",
         "jp_raw": "へっ？？ そうなのか？？ でも、どうして？！？",
         "jp_clean": "へっ？？ そうなのか？？ でも、どうして？！？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...You're smiling! You're messing with me, aren't you?",
         "en_clean": "...You're smiling! You're messing with me, aren't you?",
         "jp_raw": "...その笑顔！ 俺をからかってるな？",
         "jp_clean": "...その笑顔！ 俺をからかってるな？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You should know this, Sif! I'll always be at your side, whether in battle or in bed!",
         "en_clean": "You should know this, Sif! I'll always be at your side, whether in battle or in bed!",
         "jp_raw": "覚えておくんだな、シフ！ 俺はいつでもきみの隣にいる。戦闘でも、ベッドでもな！",
         "jp_clean": "覚えておくんだな、シフ！ 俺はいつでもきみの隣にいる。戦闘でも、ベッドでもな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...UM, Y-YOU KNOW WHAT I MEAN!!!!!!!!",
         "en_clean": "...UM, Y-YOU KNOW WHAT I MEAN!!!!!!!!",
         "jp_raw": "...えっと、その、へ、変な意味じゃないからな！！！",
         "jp_clean": "...えっと、その、へ、変な意味じゃないからな！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(What a nice guy.)",
         "en_clean": "(What a nice guy.)",
-        "jp_raw": [
-            "(いいやつだ。)",
-            "\\m[clear](おもしろいやつだな。)"
-        ],
-        "jp_clean": [
-            "(いいやつだ。)",
-            "(おもしろいやつだな。)"
-        ],
-        "checked": false
+        "jp_raw": "(おもしろいやつだな。)",
+        "jp_clean": "(おもしろいやつだな。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "Oh? You don't know about the Favor Tree?",
         "en_clean": "Oh? You don't know about the Favor Tree?",
         "jp_raw": "あれ？ 願いの木のことを知らないのか？",
         "jp_clean": "あれ？ 願いの木のことを知らないのか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...But didn't you just ask me to leave so you could...",
         "en_clean": "...But didn't you just ask me to leave so you could...",
-        "jp_raw": "...m[wait]でも、一人にしてくれって言っただろ。てっきり...",
+        "jp_raw": "...でも、一人にしてくれって言っただろ。てっきり...",
         "jp_clean": "...でも、一人にしてくれって言っただろ。てっきり...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Oh, oops.)",
         "en_clean": "(Oh, oops.)",
-        "jp_raw": [
-            "\\m[choicespace](うわ、しまった。)\\!\\",
-            "\\m[clear](あっ、しまった。)"
-        ],
-        "jp_clean": [
-            "(うわ、しまった。)",
-            "(あっ、しまった。)"
-        ],
-        "checked": false
+        "jp_raw": "(あっ、しまった。)",
+        "jp_clean": "(あっ、しまった。)",
+        "checked": true
     },
     {
         "en_raw": "(You did just ask him to leave the Favor Tree, didn't you...)",
         "en_clean": "(You did just ask him to leave the Favor Tree, didn't you...)",
         "jp_raw": "(願いの木のところで、一人にしてくれって言ったんだった...)",
         "jp_clean": "(願いの木のところで、一人にしてくれって言ったんだった...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...You know, Sif, you can just ask me if you need anything! No need for those theatrics!!!",
         "en_clean": "...You know, Sif, you can just ask me if you need anything! No need for those theatrics!!!",
         "jp_raw": "...なあシフ、必要なときはいつでも俺を頼ってくれよな！ 演じる必要なんてない！！！",
         "jp_clean": "...なあシフ、必要なときはいつでも俺を頼ってくれよな！ 演じる必要なんてない！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "But I understand. I will now answer your weird question.",
         "en_clean": "But I understand. I will now answer your weird question.",
         "jp_raw": "でも、理解はできるよ。さっきの妙な質問に答えよう。",
         "jp_clean": "でも、理解はできるよ。さっきの妙な質問に答えよう。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Well, it's just a random big tree. But when you're a believer of the House of Change, the biggest tree in a certain place is called a Favor Tree!",
         "en_clean": "Well, it's just a random big tree. But when you're a believer of the House of Change, the biggest tree in a certain place is called a Favor Tree!",
         "jp_raw": "あれは、よくある大きな木だ。でも、ウツロイの館を信仰する者にとっては、特定の場所にある大きな木は、願いの木なんだ！",
         "jp_clean": "あれは、よくある大きな木だ。でも、ウツロイの館を信仰する者にとっては、特定の場所にある大きな木は、願いの木なんだ！",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO check eng formatting
         "en_raw": "\"It's like, it’s the tree with the most power, so you can ask it things? As a favor?",
         "en_clean": "\"It's like, it’s the tree with the most power, so you can ask it things? As a favor?",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "力の宿った木で、願いごとをすることができる。頼みごとの方が近いかな？",
+        "jp_clean": "力の宿った木で、願いごとをすることができる。頼みごとの方が近いかな？",
         "checked": false
     },
     {
@@ -1877,16 +1041,16 @@
         "en_clean": "Like, \"Please help me pass my Defender exams!!!!!\" Which is like, a totally random example.",
         "jp_raw": "たとえば、「防衛隊の試験に合格させてください！！！」とか。これは、完全なる架空の例だけど。",
         "jp_clean": "たとえば、「防衛隊の試験に合格させてください！！！」とか。これは、完全なる架空の例だけど。",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO can't find, this and next 3 lines have response that isn't listed in translations
         "en_raw": "(Wasn't Isabeau a Defender...?)",
         "en_clean": "(Wasn't Isabeau a Defender...?)",
         "jp_raw": null,
         "jp_clean": null,
         "checked": false
     },
-    {
+    {//TODO can't find
         "en_raw": "(Just say the same thing...)",
         "en_clean": "(Just say the same thing...)",
         "jp_raw": null,
@@ -1896,121 +1060,11 @@
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
         "checked": false
     },
-    {
+    {//TODO can't find
         "en_raw": "(You know your lines.)",
         "en_clean": "(You know your lines.)",
         "jp_raw": null,
@@ -2022,1211 +1076,447 @@
         "en_clean": "And I passed with flying colors, thank you very much!!!",
         "jp_raw": "そして見事に合格したんだぜ。ありがたいことにな！",
         "jp_clean": "そして見事に合格したんだぜ。ありがたいことにな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Well, I did study very hard, so it's not like the tree did much. But even a little bit helps!",
         "en_clean": "Well, I did study very hard, so it's not like the tree did much. But even a little bit helps!",
         "jp_raw": "もちろん、勉強もちゃんとやったから、木だけのおかげじゃない。でも、少しは役に立ってくれたかも！",
         "jp_clean": "もちろん、勉強もちゃんとやったから、木だけのおかげじゃない。でも、少しは役に立ってくれたかも！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You should ask the tree for a favor too! It's a big day tomorrow!",
         "en_clean": "You should ask the tree for a favor too! It's a big day tomorrow!",
         "jp_raw": "シフもお願いごとをするといいぞ！ 明日は決戦の日なんだしな！",
         "jp_clean": "シフもお願いごとをするといいぞ！ 明日は決戦の日なんだしな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You already did.)",
         "en_clean": "(You already did.)",
         "jp_raw": "(お願いなら、もうした。)",
         "jp_clean": "(お願いなら、もうした。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(No point in asking for another one...)",
         "en_clean": "(No point in asking for another one...)",
         "jp_raw": "(もう1度する意味はないだろう...)",
         "jp_clean": "(もう1度する意味はないだろう...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The Favor Tree...)",
         "en_clean": "(The Favor Tree...)",
         "jp_raw": "(願いの木...)",
         "jp_clean": "(願いの木...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Wish Craft...)",
         "en_clean": "(Wish Craft...)",
-        "jp_raw": [
-            "\\m[clear](願いのクラフト...)",
-            "(願いのクラフト...)"
-        ],
-        "jp_clean": [
-            "(願いのクラフト...)",
-            "(願いのクラフト...)"
-        ],
-        "checked": false
+        "jp_raw": "(願いのクラフト...)",
+        "jp_clean": "(願いのクラフト...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "After we beat the King?",
         "en_clean": "After we beat the King?",
         "jp_raw": "王を倒したら？",
         "jp_clean": "王を倒したら？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Wow, Sif! So confident! So cool! I like it!!!",
         "en_clean": "Wow, Sif! So confident! So cool! I like it!!!",
         "jp_raw": "すごいな、シフ！ 自信があるんだな！ すげえや！ 気に入ったよ！！！",
         "jp_clean": "すごいな、シフ！ 自信があるんだな！ すげえや！ 気に入ったよ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I think I'll just return home to Jouvente... I don't have anything else planned!",
         "en_clean": "I think I'll just return home to Jouvente... I don't have anything else planned!",
         "jp_raw": "ジュヴァンテの我が家に帰ると思う... 他には何も予定ナシだ！",
         "jp_clean": "ジュヴァンテの我が家に帰ると思う... 他には何も予定ナシだ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...I wonder how Jouvente is doing. When we left it, it was still standing, moving, but I think the King's Curse may have caught up to it...",
         "en_clean": "...I wonder how Jouvente is doing. When we left it, it was still standing, moving, but I think the King's Curse may have caught up to it...",
         "jp_raw": "...ジュヴァンテは今頃どうなってるかな。あそこを発ったときには、まだ無事で、時間も流れていたけど、王の呪いに呑まれただろうな...",
         "jp_clean": "...ジュヴァンテは今頃どうなってるかな。あそこを発ったときには、まだ無事で、時間も流れていたけど、王の呪いに呑まれただろうな...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(So then...) \"Will you take your job back?\"",
         "en_clean": "(So then...) \"Will you take your job back?\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw":  "(それじゃあ...) \"元の仕事に戻るの？\"",
+        "jp_clean":  "(それじゃあ...) \"元の仕事に戻るの？\"",
+        "checked": true
     },
     {
         "en_raw": "Nah, being a Defender has kinda lost its shine.",
         "en_clean": "Nah, being a Defender has kinda lost its shine.",
         "jp_raw": "いや、防衛隊の仕事にはもう魅力を感じないんだ。",
         "jp_clean": "いや、防衛隊の仕事にはもう魅力を感じないんだ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I always admired the Defenders, y'know? It's all about protecting your neighborhood, your city!",
         "en_clean": "I always admired the Defenders, y'know? It's all about protecting your neighborhood, your city!",
         "jp_raw": "ずっと、防衛隊に憧れてた。身の回りの人たちや自分の街を守る仕事だからな！",
         "jp_clean": "ずっと、防衛隊に憧れてた。身の回りの人たちや自分の街を守る仕事だからな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Helping them out with whatever they need, be it getting a cat from a tree or helping an old man with his bags!",
         "en_clean": "Helping them out with whatever they need, be it getting a cat from a tree or helping an old man with his bags!",
         "jp_raw": "困っている人たちを助けるんだ。木に登ったネコを捕まえたり、お年寄りの荷物を運んであげたり。",
         "jp_clean": "困っている人たちを助けるんだ。木に登ったネコを捕まえたり、お年寄りの荷物を運んであげたり。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "But when Mira came to Jouvente asking for help, after Dormont's House had fallen...",
         "en_clean": "But when Mira came to Jouvente asking for help, after Dormont's House had fallen...",
         "jp_raw": "でも、ミラがジュヴァンテに来て、支援を求めた。ドーモントの館が奪われた後のことだ...",
         "jp_clean": "でも、ミラがジュヴァンテに来て、支援を求めた。ドーモントの館が奪われた後のことだ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I was ready to help, for all of Jouvente's Defenders to help, and you know what they said?",
         "en_clean": "I was ready to help, for all of Jouvente's Defenders to help, and you know what they said?",
         "jp_raw": "俺は覚悟ができてた。支援しようとするジュヴァンテの防衛隊みんなを支援するつもりだった。なのに、防衛隊のみんなはなんて言ったか知ってるか？",
         "jp_clean": "俺は覚悟ができてた。支援しようとするジュヴァンテの防衛隊みんなを支援するつもりだった。なのに、防衛隊のみんなはなんて言ったか知ってるか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Nah.\"",
         "en_clean": "\"Nah.\"",
-        "jp_raw": [
-            "いいや。",
-            "\"いいや。\""
-        ],
-        "jp_clean": [
-            "いいや。",
-            "\"いいや。\""
-        ],
-        "checked": false
+        "jp_raw": "\"いいや。\"",
+        "jp_clean": "\"いいや。\"",
+        "checked": true
     },
     {
         "en_raw": "And I could tell that they said that because they were scared! The worst Defenders see is like, a robbery maybe!",
         "en_clean": "And I could tell that they said that because they were scared! The worst Defenders see is like, a robbery maybe!",
         "jp_raw": "みんながあんな風に言ったのは、恐怖からだってはっきり分かった！ ミラのことを、盗賊かもなんて言ったやつもいた！",
         "jp_clean": "みんながあんな風に言ったのは、恐怖からだってはっきり分かった！ ミラのことを、盗賊かもなんて言ったやつもいた！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "So suddenly helping to save Vaugarde was too much for them!",
         "en_clean": "So suddenly helping to save Vaugarde was too much for them!",
         "jp_raw": "つまり、ヴォーガルドを救うことに手を貸すのは、みんなにとって急に荷が重いことになったんだ！",
         "jp_clean": "つまり、ヴォーガルドを救うことに手を貸すのは、みんなにとって急に荷が重いことになったんだ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "But not helping because you're scared... I just couldn't accept that. That's not brave.",
         "en_clean": "But not helping because you're scared... I just couldn't accept that. That's not brave.",
         "jp_raw": "だけど、怖いから手を貸さないなんて... 俺には受け入れられなかった。そんなのいくじなしだ。",
         "jp_clean": "だけど、怖いから手を貸さないなんて... 俺には受け入れられなかった。そんなのいくじなしだ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "So I quit, and I won't go back! I'll do something else... Maybe it's time for me to do something brand new!",
         "en_clean": "So I quit, and I won't go back! I'll do something else... Maybe it's time for me to do something brand new!",
         "jp_raw": "だから防衛隊をやめた。もう戻らないつもりだ！ 他のことをするさ... 新しいことに取り掛かるタイミングなのかもしれない！",
         "jp_clean": "だから防衛隊をやめた。もう戻らないつもりだ！ 他のことをするさ... 新しいことに取り掛かるタイミングなのかもしれない！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I got a secret... I've always wanted to be a clothing designer! So maybe I could just take an apprenticeship somewhere...!",
         "en_clean": "I got a secret... I've always wanted to be a clothing designer! So maybe I could just take an apprenticeship somewhere...!",
         "jp_raw": "秘密にしてたけど... 俺、服のデザイナーになりたかったんだ！ どこかに弟子入りするのもいいかもしれない...！",
         "jp_clean": "秘密にしてたけど... 俺、服のデザイナーになりたかったんだ！ どこかに弟子入りするのもいいかもしれない...！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You never knew.) \"That sounds great, Isa.\"",
         "en_clean": "(You never knew.) \"That sounds great, Isa.\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(全然知らなかった。) \"すてきだね、イザ。\"",
+        "jp_clean": "(全然知らなかった。) \"すてきだね、イザ。\"",
+        "checked": true
     },
     {
         "en_raw": "Heheh... I knew you'd approve!",
         "en_clean": "Heheh... I knew you'd approve!",
         "jp_raw": "ヘヘッ... シフなら分かってくれると思ってた！",
         "jp_clean": "ヘヘッ... シフなら分かってくれると思ってた！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What about you, Sif? What will you do when we beat the King?",
         "en_clean": "What about you, Sif? What will you do when we beat the King?",
         "jp_raw": "シフはどうするんだ？ 王を倒したら、どうするつもりだ？",
         "jp_clean": "シフはどうするんだ？ 王を倒したら、どうするつもりだ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(What will you do...?)\n                        \"Start a comedy club.\"",
         "en_clean": "(What will you do...?)                       \"Start a comedy club.\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(僕は何をする...？) \"コメディバーを始めるよ。\"",
+        "jp_clean": "(僕は何をする...？) \"コメディバーを始めるよ。\"",
+        "checked": true
     },
     {
         "en_raw": "Wait, really? Are you serious?",
         "en_clean": "Wait, really? Are you serious?",
         "jp_raw": "おい、ホントか？ マジで言ってる？",
         "jp_clean": "おい、ホントか？ マジで言ってる？",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO choicer  "\"本気だよ。\"" "\"いいや。\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yes... Finally more people will be able to hear your puns...",
         "en_clean": "Yes... Finally more people will be able to hear your puns...",
         "jp_raw": "そうか... もっとたくさんの人に、シフのダジャレを聞いてもらえるってことだな...",
         "jp_clean": "そうか... もっとたくさんの人に、シフのダジャレを聞いてもらえるってことだな...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Aw! That would've been cool!!!",
         "en_clean": "Aw! That would've been cool!!!",
         "jp_raw": "ちぇっ！ いいと思ったのに！！！",
         "jp_clean": "ちぇっ！ いいと思ったのに！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yeah! The tree!",
         "en_clean": "Yeah! The tree!",
         "jp_raw": "あるぜ！ あの木だ！",
         "jp_clean": "あるぜ！ あの木だ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I told you, something feels off.",
         "en_clean": "I told you, something feels off.",
         "jp_raw": "前にも言ったよな。何か変なんだ。",
         "jp_clean": "前にも言ったよな。何か変なんだ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...But I have other things to worry about, so who cares!",
         "en_clean": "...But I have other things to worry about, so who cares!",
         "jp_raw": "...でも、気にかけなきゃいけないことは他にもあるから、気にしてる暇はない！",
         "jp_clean": "...でも、気にかけなきゃいけないことは他にもあるから、気にしてる暇はない！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Um...",
         "en_clean": "Um...",
-        "jp_raw": [
-            "\\m[vb]あのさ\\..\\..\\..",
-            "\\m[vb]えっと...",
-            "\\m[vmnp]あのね...",
-            "\\m[vinp]\\}あっ...",
-            "\\m[vm]うーん...",
-            "\\m[vkid]\\n<\\v[46]>えっと...",
-            "\\m[vi]えっと..."
-        ],
-        "jp_clean": [
-            "あのさ...",
-            "えっと...",
-            "あのね...",
-            "あっ...",
-            "うーん...",
-            "えっと...",
-            "えっと..."
-        ],
-        "checked": false
+        "jp_raw": "えっと...",
+        "jp_clean": "えっと...",
+        "checked": true
     },
     {
         "en_raw": "The tree felt a little weird earlier, so I thought something was wrong, but it passed, so I guess it's fine.",
         "en_clean": "The tree felt a little weird earlier, so I thought something was wrong, but it passed, so I guess it's fine.",
         "jp_raw": "さっき、あの木が変な感じだった。何かおかしいと思ったんだ。その感覚は、今はない。だから大丈夫ってことなんだろう。",
         "jp_clean": "さっき、あの木が変な感じだった。何かおかしいと思ったんだ。その感覚は、今はない。だから大丈夫ってことなんだろう。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Oh!)\n                                \"I know what's wrong with it.\"",
         "en_clean": "(Oh!)                               \"I know what's wrong with it.\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ああ！) \"原因は分かってる。\"",
+        "jp_clean": "(ああ！) \"原因は分かってる。\"",
+        "checked": true
     },
     {
         "en_raw": "Oh? What's wrong with it?",
         "en_clean": "Oh? What's wrong with it?",
         "jp_raw": "へえ？ どこがおかしいんだ？",
         "jp_clean": "へえ？ どこがおかしいんだ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"It has a parasite.\"",
         "en_clean": "\"It has a parasite.\"",
         "jp_raw": "\"寄生虫がいるんだ。\"",
         "jp_clean": "\"寄生虫がいるんだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "A... parasite. What kind?",
         "en_clean": "A... parasite. What kind?",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "き...寄生虫かよ。なんの虫だ？",
+        "jp_clean": "き...寄生虫かよ。なんの虫だ？",
+        "checked": true
     },
     {
         "en_raw": "\"The shiny, annoying kind.\"",
         "en_clean": "\"The shiny, annoying kind.\"",
         "jp_raw": "\"ピカピカする、ウザいやつだ。\"",
         "jp_clean": "\"ピカピカする、ウザいやつだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...So a firefly has taken over the tree...",
         "en_clean": "...So a firefly has taken over the tree...",
-        "jp_raw": "...m[wait]ホタルが木を乗っ取ったってことか...",
+        "jp_raw": "...ホタルが木を乗っ取ったってことか...",
         "jp_clean": "...ホタルが木を乗っ取ったってことか...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "That IS weird.",
         "en_clean": "That IS weird.",
         "jp_raw": "そりゃ変だな。",
         "jp_clean": "そりゃ変だな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Sure is.)",
         "en_clean": "(Sure is.)",
         "jp_raw": "(そうだよな。)",
         "jp_clean": "(そうだよな。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Do I need help with anything... Um...",
         "en_clean": "Do I need help with anything... Um...",
         "jp_raw": "何か手伝ってもらうことか... そうだな...",
         "jp_clean": "何か手伝ってもらうことか... そうだな...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": ". . .",
+        "jp_clean": ". . .",
+        "checked": true
     },
     {
         "en_raw": "Well... Maybe, kind of, but...",
         "en_clean": "Well... Maybe, kind of, but...",
         "jp_raw": "ええと... たとえば、いや、でも...",
         "jp_clean": "ええと... たとえば、いや、でも...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"wave\">\n Hmmmmmmmmmmmm...\n</span>",
         "en_clean": "Hmmmmmmmmmmmm...",
         "jp_raw": "<span class=\"wave\">ううううーん...</span>",
         "jp_clean": "ううううーん...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(It seems serious... Does he have a big problem he needs help with?)",
         "en_clean": "(It seems serious... Does he have a big problem he needs help with?)",
         "jp_raw": "(深刻そうだ... 何か大きな問題を抱えているのだろうか？)",
         "jp_clean": "(深刻そうだ... 何か大きな問題を抱えているのだろうか？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You steel yourself.)",
         "en_clean": "(You steel yourself.)",
         "jp_raw": "(気持ちを引き締める。)",
         "jp_clean": "(気持ちを引き締める。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "Okay, well...",
         "en_clean": "Okay, well...",
-        "jp_raw": [
-            "\\m[vb]そっか。\\!じゃあ...",
-            "\\m[vl]そうだな、それじゃあ...",
-            "うん、よし..."
-        ],
-        "jp_clean": [
-            "そっか。じゃあ...",
-            "そうだな、それじゃあ...",
-            "うん、よし..."
-        ],
-        "checked": false
+        "jp_raw": "うん、よし...",
+        "jp_clean": "うん、よし...",
+        "checked": true
     },
     {
         "en_raw": "I'd rather you ask everyone else if they need help, first. Mine might take some time.",
         "en_clean": "I'd rather you ask everyone else if they need help, first. Mine might take some time.",
         "jp_raw": "他のみんなが手を必要としてるなら、まずはそっちをやってきてくれ。俺のは少し時間がかかりそうだから。",
         "jp_clean": "他のみんなが手を必要としてるなら、まずはそっちをやってきてくれ。俺のは少し時間がかかりそうだから。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Huh... A task so long it might take a long time?)",
         "en_clean": "(Huh... A task so long it might take a long time?)",
         "jp_raw": "(へえ... そんなに長い時間が必要なことなのか？)",
         "jp_clean": "(へえ... そんなに長い時間が必要なことなのか？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(It must be really important to him.)",
         "en_clean": "(It must be really important to him.)",
         "jp_raw": "(イザボーにとって、すごく重要なことなんだな。)",
         "jp_clean": "(イザボーにとって、すごく重要なことなんだな。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You nod seriously.)",
         "en_clean": "(You nod seriously.)",
         "jp_raw": "(僕は真剣な顔でうなずく。)",
         "jp_clean": "(僕は真剣な顔でうなずく。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Time to see what's the best place to look at the stars, maybe...?)",
         "en_clean": "(Time to see what's the best place to look at the stars, maybe...?)",
         "jp_raw": "(星を見るのに一番いい場所を探す頃合いかな...？)",
         "jp_clean": "(星を見るのに一番いい場所を探す頃合いかな...？)",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO double check
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(僕はうなずく。)",
+        "jp_clean": "(僕はうなずく。)",
         "checked": false
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
-    {
+    {//TODO double check
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(僕はうなずく。)",
+        "jp_clean": "(僕はうなずく。)",
         "checked": false
     },
     {
@@ -3234,51 +1524,51 @@
         "en_clean": "Heh, so serious!",
         "jp_raw": "ハハ、真面目な顔だな！",
         "jp_clean": "ハハ、真面目な顔だな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "So, um, yeah! Make sure to help everyone and do whatever you need to do, first!",
         "en_clean": "So, um, yeah! Make sure to help everyone and do whatever you need to do, first!",
         "jp_raw": "さっき言ったとおりだ！ 先にみんなの手伝いと、自分の用事を済ませてきてくれ！",
         "jp_clean": "さっき言ったとおりだ！ 先にみんなの手伝いと、自分の用事を済ませてきてくれ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hm, you haven't helped everyone yet, right?",
         "en_clean": "Hm, you haven't helped everyone yet, right?",
         "jp_raw": "まだ、他のみんなの手伝いが終わってないんだろ？",
         "jp_clean": "まだ、他のみんなの手伝いが終わってないんだろ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I'd rather wait until you're done!",
         "en_clean": "I'd rather wait until you're done!",
         "jp_raw": "終わるまで待ってるぞ！",
         "jp_clean": "終わるまで待ってるぞ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Sounds like you'd better help everyone else in the same loop first.)",
         "en_clean": "(Sounds like you'd better help everyone else in the same loop first.)",
         "jp_raw": "(ループ内で他のみんなの手伝いを先に済ませた方がよさそうだ。)",
         "jp_clean": "(ループ内で他のみんなの手伝いを先に済ませた方がよさそうだ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Huh? Oh, that's cool!",
         "en_clean": "Huh? Oh, that's cool!",
         "jp_raw": "へっ？ ああ、そりゃいいな！",
         "jp_clean": "へっ？ ああ、そりゃいいな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I did see you running around with everyone earlier. It looked like fun...",
         "en_clean": "I did see you running around with everyone earlier. It looked like fun...",
         "jp_raw": "シフがみんなと走り回ってるのを見かけたんだ。楽しそうだった...",
         "jp_clean": "シフがみんなと走り回ってるのを見かけたんだ。楽しそうだった...",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO unsure
         "en_raw": "(Oh.)",
         "en_clean": "(Oh.)",
         "jp_raw": [
@@ -3300,20 +1590,20 @@
         "en_clean": "(That's right, you didn't ask him if he needed any help, this loop...)",
         "jp_raw": "(そうだ、今回のループでは、イザボーにはまだ聞いてなかった...)",
         "jp_clean": "(そうだ、今回のループでは、イザボーにはまだ聞いてなかった...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Well.)",
         "en_clean": "(Well.)",
         "jp_raw": "(それじゃ、改めて。)",
         "jp_clean": "(それじゃ、改めて。)",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO eng missing
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"じゃあ、何か手伝うことはある？\"",
+        "jp_clean": "\"じゃあ、何か手伝うことはある？\"",
         "checked": false
     },
     {
@@ -3328,27 +1618,27 @@
         "en_clean": "Help?",
         "jp_raw": "手伝うこと？",
         "jp_clean": "手伝うこと？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh! Oh, oh, oh! Yes, I do need help with something, now that I'm thinking about it!!!",
         "en_clean": "Oh! Oh, oh, oh! Yes, I do need help with something, now that I'm thinking about it!!!",
         "jp_raw": "ああ！ ああ、ああ！ あるよ。手伝ってほしいことがある。ちょうど考えてたことがあるんだ！！！",
         "jp_clean": "ああ！ ああ、ああ！ あるよ。手伝ってほしいことがある。ちょうど考えてたことがあるんだ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Is that what you were doing today? Helping everyone out? I didn't know!",
         "en_clean": "Is that what you were doing today? Helping everyone out? I didn't know!",
         "jp_raw": "今日は、それで走り回ってたのか？ みんなの用事を手伝って？ 知らなかったよ！",
         "jp_clean": "今日は、それで走り回ってたのか？ みんなの用事を手伝って？ 知らなかったよ！",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO eng missing
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"一番いいのは、最後にしたんだ。\"",
+        "jp_clean": "\"一番いいのは、最後にしたんだ。\"",
         "checked": false
     },
     {
@@ -3363,79 +1653,79 @@
         "en_clean": "AW, SIF..........................",
         "jp_raw": "わっ、シフ...........................",
         "jp_clean": "わっ、シフ...........................",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I-I'm glad!!!",
         "en_clean": "I-I'm glad!!!",
         "jp_raw": "お、俺はうれしいっ！！！",
         "jp_clean": "お、俺はうれしいっ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I was just thinking I wanted to hang out with you today, since I saw you running around with everyone.",
         "en_clean": "I was just thinking I wanted to hang out with you today, since I saw you running around with everyone.",
         "jp_raw": "今日はシフと一緒に過ごしたいと思ってたんだ。だって、みんなと過ごしてるとこを見かけたから。",
         "jp_clean": "今日はシフと一緒に過ごしたいと思ってたんだ。だって、みんなと過ごしてるとこを見かけたから。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "But you didn't talk to me much today, so I was, um, worried you... Didn't want to...",
         "en_clean": "But you didn't talk to me much today, so I was, um, worried you... Didn't want to...",
         "jp_raw": "でも、今日はあまり話しかけてくれなかったから、ちょっと、その、心配で... 俺とは話したくないのかと...",
         "jp_clean": "でも、今日はあまり話しかけてくれなかったから、ちょっと、その、心配で... 俺とは話したくないのかと...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I-It doesn't matter! I'm glad I thought about what we could do today, then!!!",
         "en_clean": "I-It doesn't matter! I'm glad I thought about what we could do today, then!!!",
         "jp_raw": "で、でも、もういいや！ 今日やりたいことを考えておいてよかった！！！",
         "jp_clean": "で、でも、もういいや！ 今日やりたいことを考えておいてよかった！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You did? You did!",
         "en_clean": "You did? You did!",
         "jp_raw": "いいのか？ いいんだな！",
         "jp_clean": "いいのか？ いいんだな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Heh, I saw you run around with everyone today, which made me very jealous.",
         "en_clean": "Heh, I saw you run around with everyone today, which made me very jealous.",
         "jp_raw": "へへ、シフが他のみんなと走り回ってるのを見たから、すごくうらやましかったんだ。",
         "jp_clean": "へへ、シフが他のみんなと走り回ってるのを見たから、すごくうらやましかったんだ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "So I'm glad I get to spend time with you!",
         "en_clean": "So I'm glad I get to spend time with you!",
         "jp_raw": "だから、俺にもシフと過ごす時間ができてうれしい！",
         "jp_clean": "だから、俺にもシフと過ごす時間ができてうれしい！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...Um, are you ready now?",
         "en_clean": "...Um, are you ready now?",
         "jp_raw": "...えっと、もう行けるのか？",
         "jp_clean": "...えっと、もう行けるのか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "We'll probably have to go to the Clocktower immediately after we're done, so I don’\n<!--CURLY APOSTROPHE SPOTTED-->\nt think you'll have time to do anything in the village after...",
         "en_clean": "We'll probably have to go to the Clocktower immediately after we're done, so I don’t think you'll have time to do anything in the village after...",
         "jp_raw": "一緒に過ごした後はすぐに時計台に向かわなきゃならないだろうから、その時にはもう、村での用事をする暇はないと思うぞ...",
         "jp_clean": "一緒に過ごした後はすぐに時計台に向かわなきゃならないだろうから、その時にはもう、村での用事をする暇はないと思うぞ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "So I wanna make sure you did everything you needed to...?",
         "en_clean": "So I wanna make sure you did everything you needed to...?",
         "jp_raw": "必要なことはもう済んでるか...？",
         "jp_clean": "必要なことはもう済んでるか...？",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO choicer "\"I have time now!\"" "\"今なら行けるよ！\"" "\"Maybe in a second...\"" "\"じゃあもうちょっと後で...\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
@@ -3454,107 +1744,107 @@
         "en_clean": "(Hang out with Isabeau now?)",
         "jp_raw": "(イザボーと一緒に過ごそうかな？)",
         "jp_clean": "(イザボーと一緒に過ごそうかな？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Heh, okay! Well, um...",
         "en_clean": "Heh, okay! Well, um...",
         "jp_raw": "よしきた！ それじゃあ、ええと...",
         "jp_clean": "よしきた！ それじゃあ、ええと...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Follow me, Sif!!!",
         "en_clean": "Follow me, Sif!!!",
         "jp_raw": "俺についてきてくれ、シフ！",
         "jp_clean": "俺についてきてくれ、シフ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[Wow, you're here again!]",
         "en_clean": "[Wow, you're here again!]",
         "jp_raw": "[ワオ、またやってるね！]",
         "jp_clean": "[ワオ、またやってるね！]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[You don't REALLY have to go through this whole thing again. You can just zone through it, and skip it completely, if you'd like.]",
         "en_clean": "[You don't REALLY have to go through this whole thing again. You can just zone through it, and skip it completely, if you'd like.]",
         "jp_raw": "[全部をもう一度なぞっていく必要はないんだ。早送りしたっていいし、完全に飛ばしたっていい。きみが望むならね。]",
         "jp_clean": "[全部をもう一度なぞっていく必要はないんだ。早送りしたっていいし、完全に飛ばしたっていい。きみが望むならね。]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[You'll even still get their cool skill! But if you do, the skill will be a tiny bit less useful. Your choice!]",
         "en_clean": "[You'll even still get their cool skill! But if you do, the skill will be a tiny bit less useful. Your choice!]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "[それでも、カッコいいスキルを習得させることはできる！ スキップすると、スキルは少しだけレベルが下がっていく。どっちをとるかだ。]",
+        "jp_clean": "[それでも、カッコいいスキルを習得させることはできる！ スキップすると、スキルは少しだけレベルが下がっていく。どっちをとるかだ。]",
+        "checked": true
     },
     {
         "en_raw": "(Zone out?)",
         "en_clean": "(Zone out?)",
         "jp_raw": "(ぼんやりする？)",
         "jp_clean": "(ぼんやりする？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Sure, Sif! In the meantime, I'll let you do your thing here, and I'll wait for you North of Dormont, okay?",
         "en_clean": "Sure, Sif! In the meantime, I'll let you do your thing here, and I'll wait for you North of Dormont, okay?",
         "jp_raw": "構わないぜ、シフ！ きみが用事を済ませる間に、俺はドーモントの北へ行ってきみを待ってる。いいな？",
         "jp_clean": "構わないぜ、シフ！ きみが用事を済ませる間に、俺はドーモントの北へ行ってきみを待ってる。いいな？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Sure, Sif! I'll see you later!!!",
         "en_clean": "Sure, Sif! I'll see you later!!!",
         "jp_raw": "構わないぜ、シフ！ また後でな！！！",
         "jp_clean": "構わないぜ、シフ！ また後でな！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "The... hand thing? What?",
         "en_clean": "The... hand thing? What?",
         "jp_raw": "あの... 手？ なんの話だ？",
         "jp_clean": "あの... 手？ なんの話だ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You do the same gesture he does every time you talk to him at this time.)",
         "en_clean": "(You do the same gesture he does every time you talk to him at this time.)",
         "jp_raw": "(こうやって話すときにイザボーがいつもする手の動きをしてみせる。)",
         "jp_clean": "(こうやって話すときにイザボーがいつもする手の動きをしてみせる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Bringing your hand up towards his shoulder, then sharply taking your hand back.)",
         "en_clean": "(Bringing your hand up towards his shoulder, then sharply taking your hand back.)",
         "jp_raw": "(イザボーの肩の真上に手を持っていき、素早く引っ込めてみせた。)",
         "jp_clean": "(イザボーの肩の真上に手を持っていき、素早く引っ込めてみせた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Isabeau looks at your gesture, confused, then suddenly stills.)",
         "en_clean": "(Isabeau looks at your gesture, confused, then suddenly stills.)",
-        "jp_raw": "(イザボーはその動作を見て、困惑すると、m[wait]突然体を固くした。)",
+        "jp_raw": "(イザボーはその動作を見て、困惑すると、突然体を固くした。)",
         "jp_clean": "(イザボーはその動作を見て、困惑すると、突然体を固くした。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Ah. Um. Well.",
         "en_clean": "Ah. Um. Well.",
         "jp_raw": "あー。それな。そうだな。",
         "jp_clean": "あー。それな。そうだな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I'm. I was. Trying to touch your shoulder. As like. A bro thing.",
         "en_clean": "I'm. I was. Trying to touch your shoulder. As like. A bro thing.",
-        "jp_raw": "俺は... あの時... シフの肩を叩こうとしてたんだ。ほら、m[wait]「ダチ」って感じでさ。",
+        "jp_raw": "俺は... あの時... シフの肩を叩こうとしてたんだ。ほら、「ダチ」って感じでさ。",
         "jp_clean": "俺は... あの時... シフの肩を叩こうとしてたんだ。ほら、「ダチ」って感じでさ。",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO usnure
         "en_raw": "(Huh?)",
         "en_clean": "(Huh?)",
         "jp_raw": [
@@ -3578,172 +1868,62 @@
         "en_clean": "B-But I remembered you don't like to be touched!!! I remembered mid-move!!!! So I didn't touch you!!!! So it's okay!!! Sorry!!!!!!!",
         "jp_raw": "で、でも、思い出したんだ。シフは体に触れられるのが好きじゃないんだろ！？ 手を上げてから思い出したから！！！ 体には触れなかった！！！ なんでもないんだ！！！ すまん！！！",
         "jp_clean": "で、でも、思い出したんだ。シフは体に触れられるのが好きじゃないんだろ！？ 手を上げてから思い出したから！！！ 体には触れなかった！！！ なんでもないんだ！！！ すまん！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(He was trying to touch your shoulder?)",
         "en_clean": "(He was trying to touch your shoulder?)",
         "jp_raw": "(イザボーは僕の肩に触れようとしていた？)",
         "jp_clean": "(イザボーは僕の肩に触れようとしていた？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You're not sure how to react to this.)",
         "en_clean": "(You're not sure how to react to this.)",
-        "jp_raw": "\\m[wait](どう反応すればいいんだろう。)",
+        "jp_raw": "(どう反応すればいいんだろう。)",
         "jp_clean": "(どう反応すればいいんだろう。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Aaaah, see, this is why I didn't do it! Because you do that face every time people try to touch you! I'm sorry!!! I try to remember!!!! Sorry!!!!",
         "en_clean": "Aaaah, see, this is why I didn't do it! Because you do that face every time people try to touch you! I'm sorry!!! I try to remember!!!! Sorry!!!!",
         "jp_raw": "ああああ、ほらな。だからしなかったんだ！ 人に触られそうになるたびに、シフはそういう顔するだろ！ 悪かったって！！！ もう忘れないようにする！！！ ごめん！！！",
         "jp_clean": "ああああ、ほらな。だからしなかったんだ！ 人に触られそうになるたびに、シフはそういう顔するだろ！ 悪かったって！！！ もう忘れないようにする！！！ ごめん！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "(Okay, you're confused, but...)",
         "en_clean": "(Okay, you're confused, but...)",
         "jp_raw": "(なるほど、ちょっと混乱しているけど...)",
         "jp_clean": "(なるほど、ちょっと混乱しているけど...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(It feels like he thinks you don't want to be touched.)",
         "en_clean": "(It feels like he thinks you don't want to be touched.)",
-        "jp_raw": "(イザボーは、僕が体に触れられるのが好きじゃないと思ってる、ってことだよな。)m[wait]\\^",
+        "jp_raw": "(イザボーは、僕が体に触れられるのが好きじゃないと思ってる、ってことだよな。)",
         "jp_clean": "(イザボーは、僕が体に触れられるのが好きじゃないと思ってる、ってことだよな。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You  don't want to think about this anymore.)",
         "en_clean": "(You  don't want to think about this anymore.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(僕は、このことについてはもう何も考えたくない。)",
+        "jp_clean": "(僕は、このことについてはもう何も考えたくない。)",
+        "checked": true
     },
-    {
+    {//TODO eng missing
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"とにかく...\"",
+        "jp_clean": "\"とにかく...\"",
         "checked": false
     },
     {
@@ -3758,56 +1938,56 @@
         "en_clean": "W-what? A flower?",
         "jp_raw": "え、なんだ？ 花？",
         "jp_clean": "え、なんだ？ 花？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...For me?",
         "en_clean": "...For me?",
-        "jp_raw": "\\..\\..\\..m[wait]俺に？",
+        "jp_raw": "...俺に？",
         "jp_clean": "...俺に？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"You're the only one here, Isa.\"",
         "en_clean": "\"You're the only one here, Isa.\"",
         "jp_raw": "\"きみしかいないじゃないか。\"",
         "jp_clean": "\"きみしかいないじゃないか。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Haha, yeah!!!!!!!!!",
         "en_clean": "Haha, yeah!!!!!!!!!",
         "jp_raw": "ハハ、やった！！！！！！",
         "jp_clean": "ハハ、やった！！！！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Isabeau takes the flower and cradles it gently in his hands.)",
         "en_clean": "(Isabeau takes the flower and cradles it gently in his hands.)",
         "jp_raw": "(イザボーは花を受け取ると、手のひらでそっと包み込んだ。)",
         "jp_clean": "(イザボーは花を受け取ると、手のひらでそっと包み込んだ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "... Thanks, Sif...",
         "en_clean": "... Thanks, Sif...",
-        "jp_raw": "...m[wait] ありがとう、シフ...",
+        "jp_raw": "...ありがとう、シフ...",
         "jp_clean": "... ありがとう、シフ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I... I'll treasure it forever!!!",
         "en_clean": "I... I'll treasure it forever!!!",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "俺... ずっと大切にするよ！！！",
+        "jp_clean": "俺... ずっと大切にするよ！！！",
+        "checked": true
     },
     {
         "en_raw": "(He seems happy.)",
         "en_clean": "(He seems happy.)",
         "jp_raw": "(うれしそうだ。)",
         "jp_clean": "(うれしそうだ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
@@ -3889,119 +2069,9 @@
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "...Do you not-- Nevermind.",
@@ -4083,126 +2153,16 @@
     {
         "en_raw": "I think 6:30  is HANDS DOWN the best time of the day!!!",
         "en_clean": "I think 6:30  is HANDS DOWN the best time of the day!!!",
-        "jp_raw": "1日の中で一番いい時間、それは...\\!\\ 1時11分だぜ！",
-        "jp_clean": "1日の中で一番いい時間、それは...\\!\\ 1時11分だぜ！",
+        "jp_raw": "1日の中で一番いい時間、それは...1時11分だぜ！",
+        "jp_clean": "1日の中で一番いい時間、それは...1時11分だぜ！",
         "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "(Heh!)",
@@ -4244,151 +2204,41 @@
         "en_clean": "...Oh, you knew this one?",
         "jp_raw": "...あれ、もう聞いたことある？",
         "jp_clean": "...あれ、もう聞いたことある？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Oh, you forgot to laugh.)",
         "en_clean": "(Oh, you forgot to laugh.)",
         "jp_raw": "(あ、笑うのを忘れてた。)",
         "jp_clean": "(あ、笑うのを忘れてた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "Hey, it's okay, I have others. Hm...",
         "en_clean": "Hey, it's okay, I have others. Hm...",
         "jp_raw": "いや、大丈夫だ。他にもあるから。えーっと...",
         "jp_clean": "いや、大丈夫だ。他にもあるから。えーっと...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yesterday, I bought like ten watches. Do you know why?",
         "en_clean": "Yesterday, I bought like ten watches. Do you know why?",
         "jp_raw": "昨日さ、時計を10個も買っちゃったんだ。どうしてだと思う？",
         "jp_clean": "昨日さ、時計を10個も買っちゃったんだ。どうしてだと思う？",
-        "checked": false
+        "checked": true
     },
-    {
+    { //TODO eng missing
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "\"分からないよ、イザ。\"",
+        "jp_clean": "\"分からないよ、イザ。\"",
         "checked": false
     },
     {
@@ -4403,222 +2253,76 @@
         "en_clean": "Because I have a lot of time on my hands!!!",
         "jp_raw": "時間がいっぱいあったからさ！！！",
         "jp_clean": "時間がいっぱいあったからさ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Heh...)",
         "en_clean": "(Heh...)",
-        "jp_raw": [
-            "\\m[clear](へえ...)",
-            "(へえ...)"
-        ],
-        "jp_clean": [
-            "(へえ...)",
-            "(へえ...)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ...)",
+        "jp_clean": "(へえ...)",
+        "checked": true
     },
     {
         "en_raw": "(You laugh.)",
         "en_clean": "(You laugh.)",
-        "jp_raw": [
-            "(僕は笑う。)",
-            "\\m[clear](僕は声を出して笑った。)",
-            "\\m[vs](僕は笑う。)\\!\\",
-            "\\m[clear](僕は声を上げて笑った。)\\!\\m[wait]\\^",
-            "\\m[clear](僕は声を出して笑った。)\\！\\"
-        ],
-        "jp_clean": [
-            "(僕は笑う。)",
-            "(僕は声を出して笑った。)",
-            "(僕は笑う。)",
-            "(僕は声を上げて笑った。)",
-            "(僕は声を出して笑った。)\\！\\"
-        ],
-        "checked": false
+        "jp_raw": "(僕は笑う。)",
+        "jp_clean": "(僕は笑う。)",
+        "checked": true
     },
     {
         "en_raw": "Success.",
         "en_clean": "Success.",
         "jp_raw": "うまくいったな。",
         "jp_clean": "うまくいったな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...Oh, you knew this one too? Tough crowd, tough crowd.",
         "en_clean": "...Oh, you knew this one too? Tough crowd, tough crowd.",
         "jp_raw": "...あれ、これも聞いたことあるか？ 手ごわい観客だぜ...",
         "jp_clean": "...あれ、これも聞いたことあるか？ 手ごわい観客だぜ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Hey, stupid, maybe smile when someone tells a joke.)",
         "en_clean": "(Hey, stupid, maybe smile when someone tells a joke.)",
         "jp_raw": "(僕はなんて間抜けなんだ。ジョークを聞いたら笑えよな。)",
         "jp_clean": "(僕はなんて間抜けなんだ。ジョークを聞いたら笑えよな。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "Okay... Last chance, Isabeau... Don't mess it up.",
         "en_clean": "Okay... Last chance, Isabeau... Don't mess it up.",
         "jp_raw": "よし... 最後のチャンスだぞ、イザボー... 失敗するなよ。",
         "jp_clean": "よし... 最後のチャンスだぞ、イザボー... 失敗するなよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh!",
         "en_clean": "Oh!",
-        "jp_raw": [
-            "\\m[vi]おっと！",
-            "\\m[vm]へえ！",
-            "\\m[vmnp]わあ！",
-            "\\m[vinp]えっ！",
-            "\\m[vb]わあ！",
-            "おっ！",
-            "\\m[vkid]\\n<\\v[46]>あっ！",
-            "\\m[vl]わっ！"
-        ],
-        "jp_clean": [
-            "おっと！",
-            "へえ！",
-            "わあ！",
-            "えっ！",
-            "わあ！",
-            "おっ！",
-            "あっ！",
-            "わっ！"
-        ],
-        "checked": false
+        "jp_raw": "おっ！",
+        "jp_clean": "おっ！",
+        "checked": true
     },
     {
         "en_raw": "Okay, so, why shouldn't you take up time travel?",
         "en_clean": "Okay, so, why shouldn't you take up time travel?",
         "jp_raw": "いくぞ、いいか。過去へのタイムトラベルに手を付けてはいけないのはどうして？",
         "jp_clean": "いくぞ、いいか。過去へのタイムトラベルに手を付けてはいけないのはどうして？",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO eng missing both
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(ふむ。) \"どうしてなの、イザ？\"",
+        "jp_clean": "(ふむ。) \"どうしてなの、イザ？\"",
         "checked": false
     },
     {
@@ -4633,804 +2337,296 @@
         "en_clean": "Easy.",
         "jp_raw": "簡単だ。",
         "jp_clean": "簡単だ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Because there's no future in it!!!",
         "en_clean": "Because there's no future in it!!!",
-        "jp_raw": "未来がないからだよ！！！m[wait]\\^",
+        "jp_raw": "未来がないからだよ！！！",
         "jp_clean": "未来がないからだよ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": [
-            "(...)",
-            "(\\..\\..\\..)",
-            "(...)\\!\\m[wait]\\^",
-            "\\m[clear](...)\\!\\",
-            "\\m[clear](...)",
-            "(\\|.\\|.\\|.)",
-            "\\m[clear]\\shake(...)",
-            "\\m[clear](\\..\\..\\..)",
-            "(\\..\\..\\..\\.)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\!\\",
-            "(...)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[choicespace](...)\\!\\",
-            "\\shake(...)",
-            "\\m[vs](\\..\\..\\..)\\!\\",
-            "(...)\\!\\",
-            "(\\..\\..\\..\\.)",
-            "\\m[clear](...)\\!\\m[wait]\\^",
-            "(\\..\\..\\..)\\!\\m[wait]\\^",
-            "\\m[vs](...)\\m[wait]\\^",
-            "(...)\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..\\.)",
-            "\\m[clear]\\shake(...)\\!\\m[wait]\\^",
-            "\\m[clear]\\shake(\\..\\..\\..\\.)",
-            "\\m[clear](\\..\\..\\..)\\!\\",
-            "\\m[choicespace](\\..\\..\\..)\\!\\",
-            "\\m[vs](\\|.\\|.\\|.)\\!\\",
-            "(\\..\\..\\..)\\!\\m[wait]",
-            "\\m[clear]\\shake(\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.)",
-            "(\\..\\..\\..\\.)\\m[wait]",
-            "(\\m[wait].\\m[wait].\\m[wait].\\.)",
-            "(\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[vsc](...)\\!\\",
-            "(\\m[dot])\\!\\",
-            "\\m[vs]\\shake(...)\\!\\",
-            "\\m[clear](.\\|.\\|.\\|)",
-            "\\m[clear]\\m[rb](...)",
-            "\\m[rb]\\m[vs](...)\\!\\",
-            "\\m[choicespace]\\m[rb](...)\\!\\",
-            "\\m[clear](\\|.\\|.\\|.)\\m[wait]",
-            "\\shake(...)\\!\\m[wait]\\^",
-            "(\\|.\\|.\\|.)\\!\\m[wait]\\^",
-            "(...)\\!\\m[wait]",
-            "(\\..\\..\\..)\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\m[wait]\\^",
-            "\\|(\\|.\\|.\\|.\\|)\\m[wait]",
-            "\\m[vs]\\m[rb](...)\\!\\",
-            "\\m[rb]\\m[clear](...)",
-            "\\m[rb]\\m[clear](\\..\\..\\..)",
-            "\\m[clear](\\|.\\|.\\|.\\|)\\!\\m[wait]\\^",
-            "\\m[clear](\\..\\..\\..)\\!\\m[wait]",
-            "(...)"
-        ],
-        "jp_clean": [
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)",
-            "(...)"
-        ],
-        "checked": false
+        "jp_raw": "(...)",
+        "jp_clean": "(...)",
+        "checked": true
     },
     {
         "en_raw": "(Heh...)",
         "en_clean": "(Heh...)",
-        "jp_raw": [
-            "\\m[clear](へえ...)",
-            "(へえ...)"
-        ],
-        "jp_clean": [
-            "(へえ...)",
-            "(へえ...)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ...)",
+        "jp_clean": "(へえ...)",
+        "checked": true
     },
     {
         "en_raw": "(Hahaha!)",
         "en_clean": "(Hahaha!)",
-        "jp_raw": [
-            "\\m[vs](アハハ！)\\!\\",
-            "(ハハハ！)"
-        ],
-        "jp_clean": [
-            "(アハハ！)",
-            "(ハハハ！)"
-        ],
-        "checked": false
+        "jp_raw": "(ハハハ！)",
+        "jp_clean": "(ハハハ！)",
+        "checked": true
     },
     {
         "en_raw": "<span class=\"big\">\n (HAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!)\n</span>",
         "en_clean": "(HAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!)",
-        "jp_raw": "\\{(ハハハハハハハハハ！！！)",
+        "jp_raw": "<span class=\"big\">(ハハハハハハハハハ！！！)</span>",
         "jp_clean": "(ハハハハハハハハハ！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(OH NO, YOU CAN'T STOP LAUGHING!!!)",
         "en_clean": "(OH NO, YOU CAN'T STOP LAUGHING!!!)",
         "jp_raw": "(ヤバい、笑いが止まらない！！！)",
         "jp_clean": "(ヤバい、笑いが止まらない！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Heh!",
         "en_clean": "Heh!",
         "jp_raw": "ふう！",
         "jp_clean": "ふう！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "See, I knew I was gonna get it eventually!",
         "en_clean": "See, I knew I was gonna get it eventually!",
         "jp_raw": "そうだろ、笑いを取れると思ってたんだ！",
         "jp_clean": "そうだろ、笑いを取れると思ってたんだ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "(You keep laughing.)",
         "en_clean": "(You keep laughing.)",
         "jp_raw": "(まだ笑いが止まらない。)",
         "jp_clean": "(まだ笑いが止まらない。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You just can't stop.)",
         "en_clean": "(You just can't stop.)",
         "jp_raw": "(止められないんだ。)",
         "jp_clean": "(止められないんだ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Tears run down your face.)",
         "en_clean": "(Tears run down your face.)",
         "jp_raw": "(頬に涙が落ちる。)",
         "jp_clean": "(頬に涙が落ちる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Woah, hey, Sif...",
         "en_clean": "Woah, hey, Sif...",
         "jp_raw": "うわ、おい、シフ...",
         "jp_clean": "うわ、おい、シフ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Oh no, oh no, you're laughing too much!!!)",
         "en_clean": "(Oh no, oh no, you're laughing too much!!!)",
         "jp_raw": "(しまった、ダメだ、笑いすぎだ！！！)",
         "jp_clean": "(しまった、ダメだ、笑いすぎだ！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You've been laughing for too long, stupid!!! He's gonna think you're weird!!!)",
         "en_clean": "(You've been laughing for too long, stupid!!! He's gonna think you're weird!!!)",
         "jp_raw": "(こんなに長く笑わなくてもいいだろ、バカっ！！！ イザボーに変だと思われる！！！)",
         "jp_clean": "(こんなに長く笑わなくてもいいだろ、バカっ！！！ イザボーに変だと思われる！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Stop laughing!!!)",
         "en_clean": "(Stop laughing!!!)",
         "jp_raw": "(笑いを止めろ！！！)",
         "jp_clean": "(笑いを止めろ！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You try and breathe slowly in, and out, come on, stupid.)",
         "en_clean": "(You try and breathe slowly in, and out, come on, stupid.)",
         "jp_raw": "(ゆっくりと息を吸って、吐くんだ、このバカ。)",
         "jp_clean": "(ゆっくりと息を吸って、吐くんだ、このバカ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Pheeeeeeeeeeeew...)",
         "en_clean": "(Pheeeeeeeeeeeew...)",
-        "jp_raw": "(ふううううううう...)m[wait]\\^",
+        "jp_raw": "(ふううううううう...)",
         "jp_clean": "(ふううううううう...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Okay.)",
         "en_clean": "(Okay.)",
         "jp_raw": "(よし。)",
         "jp_clean": "(よし。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": ". . .",
+        "jp_clean": ". . .",
+        "checked": true
     },
     {
         "en_raw": "So, sounds like I should become a comedian, huh?",
         "en_clean": "So, sounds like I should become a comedian, huh?",
         "jp_raw": "俺、コメディアンになって方がいいってことだな？",
         "jp_clean": "俺、コメディアンになって方がいいってことだな？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You try not to start laughing again.)",
         "en_clean": "(You try not to start laughing again.)",
         "jp_raw": "(また笑い始めないように、耐える。)",
         "jp_clean": "(また笑い始めないように、耐える。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You wipe your face.)",
         "en_clean": "(You wipe your face.)",
         "jp_raw": "(涙を拭った。)",
         "jp_clean": "(涙を拭った。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"I needed that, I think!\"",
         "en_clean": "\"I needed that, I think!\"",
         "jp_raw": "\"僕には笑いが必要だったみたいだ！\"",
         "jp_clean": "\"僕には笑いが必要だったみたいだ！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yeah, looks like you\n<span class=\"wave\">\n reaaaaally\n</span>\ndid.",
-        "en_clean": "Yeah, looks like youreaaaaallydid.",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "en_clean": "Yeah, looks like you reaaaaallydid.",
+        "jp_raw": "ああ、まったく<span class=\"wave\">そのとーーーーり</span>だ。",
+        "jp_clean": "ああ、まったくそのとーーーーりだ。",
+        "checked": true
     },
     {
         "en_raw": "What's wrong?",
         "en_clean": "What's wrong?",
-        "jp_raw": [
-            "\\m[vo]どうした？",
-            "どうしたんだ？"
-        ],
-        "jp_clean": [
-            "どうした？",
-            "どうしたんだ？"
-        ],
-        "checked": false
+        "jp_raw": "どうしたんだ？",
+        "jp_clean": "どうしたんだ？",
+        "checked": true
     },
     {
         "en_raw": "\"Nothing's wrong!\"",
         "en_clean": "\"Nothing's wrong!\"",
         "jp_raw": "\"何もない！\"",
         "jp_clean": "\"何もない！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh, so we're gonna ignore the hysteric laughing and crying, huh?",
         "en_clean": "Oh, so we're gonna ignore the hysteric laughing and crying, huh?",
         "jp_raw": "そうか、じゃあ、さっきのヒステリーみたいな笑いと涙はなかったことにするかい？",
         "jp_clean": "そうか、じゃあ、さっきのヒステリーみたいな笑いと涙はなかったことにするかい？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Yyyyep.\"",
         "en_clean": "\"Yyyyep.\"",
         "jp_raw": "\"そうする。\"",
         "jp_clean": "\"そうする。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": ". . .",
+        "jp_clean": ". . .",
+        "checked": true
     },
     {
         "en_raw": "Okay, but only for now, and only because it's you, Sif!",
         "en_clean": "Okay, but only for now, and only because it's you, Sif!",
         "jp_raw": "分かったよ。でも、今だけだ。それに、きみだからだぞ、シフ！",
         "jp_clean": "分かったよ。でも、今だけだ。それに、きみだからだぞ、シフ！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You smile.)",
         "en_clean": "(You smile.)",
-        "jp_raw": [
-            "(笑みが浮かぶ。)",
-            "\\m[clear](ほほ笑んでみせる。)",
-            "\\m[wait](笑みがこぼれる。)\\m[wait]\\^",
-            "\\m[wait](顔がほころぶ。)",
-            "\\m[clear](僕は微笑む。)\\!\\"
-        ],
-        "jp_clean": [
-            "(笑みが浮かぶ。)",
-            "(ほほ笑んでみせる。)",
-            "(笑みがこぼれる。)",
-            "(顔がほころぶ。)",
-            "(僕は微笑む。)"
-        ],
-        "checked": false
+        "jp_raw": "(ほほ笑んでみせる。)",
+        "jp_clean": "(ほほ笑んでみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(Isabeau hesitantly smiles back.)",
         "en_clean": "(Isabeau hesitantly smiles back.)",
         "jp_raw": "(イザボーもためらいながら笑顔になる。)",
         "jp_clean": "(イザボーもためらいながら笑顔になる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You got a MEMORY OF PUNS!)",
         "en_clean": "(You got a MEMORY OF PUNS!)",
         "jp_raw": "(「ジョークの記憶」を手に入れた！)",
         "jp_clean": "(「ジョークの記憶」を手に入れた！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You'll always remember this.)",
         "en_clean": "(You'll always remember this.)",
         "jp_raw": "(これはいつでも思い出せる記憶だ。)",
         "jp_clean": "(これはいつでも思い出せる記憶だ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[When Memory of Puns is equipped, your Fighter will have a higher chance to do a Critical hit!]",
         "en_clean": "[When Memory of Puns is equipped, your Fighter will have a higher chance to do a Critical hit!]",
         "jp_raw": "[「ジョークの記憶」を装備すると、戦士君のクリティカルヒット発生の確率が上昇するぞ！]",
         "jp_clean": "[「ジョークの記憶」を装備すると、戦士君のクリティカルヒット発生の確率が上昇するぞ！]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
-        "jp_raw": [
-            "...",
-            "\\m[vo]\\..\\..\\..",
-            "\\m[vo]...",
-            "\\m[vm]...",
-            "\\m[vi]...",
-            "\\m[vb]...",
-            "\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..",
-            "\\m[vm]\\..\\..\\..",
-            "\\m[vb]\\shake\\..\\..\\..",
-            "\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\shake\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vb]\\|.\\|.\\|.",
-            "\\|.\\|.\\|.",
-            "\\m[vi]\\..\\..\\..",
-            "\\m[vcg]\\|.\\|.\\|.\\m[rb]",
-            "\\m[vcg]...\\!\\m[wait]\\^",
-            "\\m[vbnp]...",
-            "\\m[vmnp]...",
-            "\\m[vonp]...",
-            "\\m[vinp]...",
-            "\\m[vonp]...\\!\\m[wait]\\^",
-            "\\m[vonp]\\|.\\|.\\|.\\m[wait]",
-            "\\m[vm]\\|.\\|.\\|.",
-            "\\m[vm]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vman]\\n<\\v[46]>...",
-            "\\n<\\v[46]>\\m[vkid]\\..\\..\\..",
-            "\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vwoman]\\n<\\v[46]>\\..\\..\\..",
-            "\\n<\\v[46]>...",
-            "\\m[vh]...\\!\\m[wait]\\^",
-            "\\m[vb]...\\!\\m[wait]\\^",
-            "\\m[vo]...\\!\\m[wait]\\^",
-            "\\m[vm]...\\!\\m[wait]\\^",
-            "...\\!\\m[wait]\\^",
-            "\\m[vinp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vi]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vi]...\\!\\m[wait]\\^",
-            "\\m[vh]...",
-            "\\m[vman]\\n<\\v[46]>...\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>...",
-            "\\m[vbnp]\\..\\..\\..",
-            "\\m[vonp]\\..\\..\\..",
-            "\\m[vm]\\shake...",
-            "\\m[vman]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vb]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>...",
-            "\\m[vwoman]\\n<\\v[46]>\\shake\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..",
-            "\\m[vinp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\|.\\|.\\|.\\m[wait]",
-            "\\m[vh]\\|.\\|.\\|.",
-            "\\m[vlnp]...",
-            "\\m[vlnp]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\..\\..\\..",
-            "\\m[vlnp]\\|.\\|.\\|.",
-            "\\m[vlnp]...\\m[rb]",
-            "\\m[vlnp]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]...\\m[rb]",
-            "\\m[vl]...",
-            "\\m[vl]\\..\\..\\..\\m[rb]",
-            "\\m[vo]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vman]...",
-            "\\n<\\v[46]>\\m[vman]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vo]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vkid]\\n<\\v[46]>\\..\\..\\..",
-            "\\m[vkid]\\n<\\v[46]>...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>\\m[vkid]...",
-            "\\n<\\v[46]>\\m[vkid]...\\!\\m[wait]\\^",
-            "\\m[vi]\\|.\\|.\\|.",
-            "\\m[vi]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..",
-            "\\m[vl]...\\!\\m[wait]\\^",
-            "\\m[vl]\\..\\..\\..\\!\\m[wait]\\^",
-            "\\m[vlnp]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]\\shake\\..\\..\\..",
-            "\\m[vlnp]\\shake...",
-            "\\m[vlnp]\\..\\..\\..\\m[wait]",
-            "\\m[vl]\\|.\\|.\\|.\\m[wait]\\m[rb]",
-            "\\m[vlnp]...\\!\\m[wait]\\^",
-            "\\m[vlnp]\\shake...\\m[rb]",
-            "\\m[vlnp]...\\m[rb]",
-            "\\..\\..\\..\\m[rb]",
-            "\\m[vbnp]\\shake...",
-            "\\m[vl]\\..\\..\\..\\m[wait]",
-            "\\m[vmnp]\\..\\..\\..",
-            "\\m[vl]\\|.\\|.\\|.\\!\\m[wait]\\^",
-            "\\m[vl]\\|.\\|.\\|.",
-            "...\\m[rb]",
-            "\\..\\..\\..\\m[wait]",
-            "...\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "...",
-            "..."
-        ],
-        "checked": false
+        "jp_raw": "...",
+        "jp_clean": "...",
+        "checked": true
     },
     {
         "en_raw": "Do you want to talk a little more...? About something else, maybe?",
         "en_clean": "Do you want to talk a little more...? About something else, maybe?",
         "jp_raw": "もう少し話すか...？ 他の話題でもいいぞ？",
         "jp_clean": "もう少し話すか...？ 他の話題でもいいぞ？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You laugh in a totally not unhinged way.)",
         "en_clean": "(You laugh in a totally not unhinged way.)",
         "jp_raw": "(僕は常識の範囲内で笑い声をあげた。)",
         "jp_clean": "(僕は常識の範囲内で笑い声をあげた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Ah, liked that one, huh...?",
         "en_clean": "Ah, liked that one, huh...?",
         "jp_raw": "今の、気に入ったみたいだな...？",
         "jp_clean": "今の、気に入ったみたいだな...？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay! I'll be going now, I'll see you at the Clocktower later!",
         "en_clean": "Okay! I'll be going now, I'll see you at the Clocktower later!",
         "jp_raw": "よし！ 俺は行くよ。後で、時計台で会おうな！",
         "jp_clean": "よし！ 俺は行くよ。後で、時計台で会おうな！",
-        "checked": false
+        "checked": true
     },
-    {
+    {//TODO unsure
         "en_raw": "Okay...",
         "en_clean": "Okay...",
         "jp_raw": [
@@ -5456,55 +2652,55 @@
         "en_clean": "I'll be going now, I'll see you at the Clocktower later, yeah?",
         "jp_raw": "俺は行くよ。後で、時計台で会おうな！",
         "jp_clean": "俺は行くよ。後で、時計台で会おうな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay! Let me know if you need anything, 'kay?",
         "en_clean": "Okay! Let me know if you need anything, 'kay?",
         "jp_raw": "よし！ 何かあったら知らせてくれ、いいな？",
         "jp_clean": "よし！ 何かあったら知らせてくれ、いいな？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay... Let me know if you need anything, okay?",
         "en_clean": "Okay... Let me know if you need anything, okay?",
         "jp_raw": "それじゃあ... 何かあったら知らせてくれ、いいな？",
         "jp_clean": "それじゃあ... 何かあったら知らせてくれ、いいな？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You talked to Isabeau!)",
         "en_clean": "(You talked to Isabeau!)",
         "jp_raw": "(イザボーと話した！)",
         "jp_clean": "(イザボーと話した！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You cross Isabeau from the Reminder Note.)",
         "en_clean": "(You cross Isabeau from the Reminder Note.)",
         "jp_raw": "(することメモのイザボーの行に横線を引いた。)",
         "jp_clean": "(することメモのイザボーの行に横線を引いた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Time to go to the Favor Tree!)",
         "en_clean": "(Time to go to the Favor Tree!)",
         "jp_raw": "(願いの木を見にいこう！)",
         "jp_clean": "(願いの木を見にいこう！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Isabeau said the tree felt weird...)",
         "en_clean": "(Isabeau said the tree felt weird...)",
         "jp_raw": "(イザボーは、木が変な感じだと言っていた...)",
         "jp_clean": "(イザボーは、木が変な感じだと言っていた...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You decide to take a look at the tree.)",
         "en_clean": "(You decide to take a look at the tree.)",
         "jp_raw": "(木を見てみることにしよう。)",
         "jp_clean": "(木を見てみることにしよう。)",
-        "checked": false
+        "checked": true
     }
 ]
