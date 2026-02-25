@@ -1008,7 +1008,7 @@
         "checked": true
     },
     {//TODO check eng
-        "en_raw": "(You didn't catch anything.)",
+        "en_raw": "(You didn't catch anything.)", // should have ... at the start
         "en_clean": "(You didn't catch anything.)",
         "jp_raw": "(...何も釣れなかった。)",
         "jp_clean": "(...何も釣れなかった。)",
@@ -1567,12 +1567,12 @@
         "jp_clean": "(えっ？)",
         "checked": true
     },
-    {//TODO check formatting
+    {
         "en_raw": "(OH STARS) \"FISH\"\n<!--sic on the no punctuation-->",
         "en_clean": "(OH STARS) \"FISH\"",
         "jp_raw": "(おおおお星たちよ！) \"魚だ！\"",
         "jp_clean": "(おおおお星たちよ！) \"魚だ！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "FISH?!?!",
@@ -1686,22 +1686,12 @@
         "jp_clean": "ありがとう。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "...Good luck, tomorrow.",
@@ -1885,12 +1875,12 @@
         "jp_clean": "(今はやめておこう。)",
         "checked": false
     },
-    {//TODO In game I got ...[words]..., so check eng
-        "en_raw": "...Stop.",
+    {//TODO
+        "en_raw": "...Stop.", // should have ellipsis at the end
         "en_clean": "...Stop.",
         "jp_raw": "...やめて...",
         "jp_clean": "...やめて...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...?)",
@@ -2025,26 +2015,26 @@
         "jp_clean": "おいおいおい、なんだぁキミは！ ヒョロヒョロだな！",
         "checked": true
     },
-    {//TODO format this for me
+    {
         "en_raw": "Scrawny one, did you know you can press [button] to run? You should give it a try sometime!",
         "en_clean": "Scrawny one, did you know you can press [button] to run? You should give it a try sometime!",
-        "jp_raw": "なあヒョロいの、[button]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
-        "jp_clean": "なあヒョロいの、[button]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
-        "checked": false
+        "jp_raw": "なあヒョロいの、[ボタン]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
+        "jp_clean": "なあヒョロいの、[ボタン]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
+        "checked": true
     },
     {
         "en_raw": "Oh! And did you know you can turn ON \"Always Run\" in your Options menu? So you can run all the time?",
         "en_clean": "Oh! And did you know you can turn ON \"Always Run\" in your Options menu? So you can run all the time?",
         "jp_raw": "あ！ それと、オプションメニューで「常に走る」設定にすることもできるんだ。そうすりゃいつまでも走り続ける！",
         "jp_clean": "あ！ それと、オプションメニューで「常に走る」設定にすることもできるんだ。そうすりゃいつまでも走り続ける！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Did you know? Did you know about this? Did you know pressing [button] makes you run? Did you know you can run all the time by going into the Options menu? Do you run? DO YOU LIKE RUNNING?",
         "en_clean": "Did you know? Did you know about this? Did you know pressing [button] makes you run? Did you know you can run all the time by going into the Options menu? Do you run? DO YOU LIKE RUNNING?",
-        "jp_raw": "知ってた？なあ知ってたか？[button]で走れるって知ってた？オプションメニューから常に走れるようになるって知ってた？キミは走るの？走るのが好きなの？",
-        "jp_clean": "知ってた？なあ知ってたか？[button]で走れるって知ってた？オプションメニューから常に走れるようになるって知ってた？キミは走るの？走るのが好きなの？",
-        "checked": false
+        "jp_raw": "知ってた？なあ知ってたか？[ボタン]で走れるって知ってた？オプションメニューから常に走れるようになるって知ってた？キミは走るの？走るのが好きなの？",
+        "jp_clean": "知ってた？なあ知ってたか？[ボタン]で走れるって知ってた？オプションメニューから常に走れるようになるって知ってた？キミは走るの？走るのが好きなの？",
+        "checked": true
     },
     {
         "en_raw": "(You knew this already, but you suppose it doesn't hurt to get a refresher.)",
@@ -2084,8 +2074,8 @@
     {
         "en_raw": "So you need to BUILD UP THOSE MUSCLES! GET FAST! GET SWOLE! AND PRESS [button] TO RUN!!!!!",
         "en_clean": "So you need to BUILD UP THOSE MUSCLES! GET FAST! GET SWOLE! AND PRESS [button] TO RUN!!!!!",
-        "jp_raw": "だからまず筋肉をつけないといけない！ 速くなれ！ デカくなれ！ そして[button]で駆け抜けろ！",
-        "jp_clean": "だからまず筋肉をつけないといけない！ 速くなれ！ デカくなれ！ そして[button]で駆け抜けろ！",
+        "jp_raw": "だからまず筋肉をつけないといけない！ 速くなれ！ デカくなれ！ そして[ボタン]で駆け抜けろ！",
+        "jp_clean": "だからまず筋肉をつけないといけない！ 速くなれ！ デカくなれ！ そして[ボタン]で駆け抜けろ！",
         "checked": true
     },
     {
@@ -2133,9 +2123,9 @@
     {//TODO can't find, choicer "\"今の状況からは具象的かつ隠喩的に失礼するよ。\"" "\"ちょっとしゃべり過ぎじゃない？\" "
         "en_raw": "(Okay you need to go.)",
         "en_clean": "(Okay you need to go.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(もう無理だ、行こう。)",
+        "jp_clean": "(もう無理だ、行こう。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -2242,12 +2232,12 @@
         "jp_clean": "...",
         "checked": true
     },
-    {//TODO
+    {
         "en_raw": "So don't be afraid to use [button] to run, okay??? We're all counting on you!!!",
         "en_clean": "So don't be afraid to use [button] to run, okay??? We're all counting on you!!!",
-        "jp_raw": "そんなわけで、[button]を押してどんどん走るんだぞ？ みんなキミが頼りなんだ！",
-        "jp_clean": "そんなわけで、[button]を押してどんどん走るんだぞ？ みんなキミが頼りなんだ！",
-        "checked": false
+        "jp_raw": "そんなわけで、[ボタン]を押してどんどん走るんだぞ？ みんなキミが頼りなんだ！",
+        "jp_clean": "そんなわけで、[ボタン]を押してどんどん走るんだぞ？ みんなキミが頼りなんだ！",
+        "checked": true
     },
     {
         "en_raw": "(You need to ask...)",
@@ -2291,12 +2281,12 @@
         "jp_clean": "おいおいおい、なんだぁキミは！ ヒョロヒョロだな！",
         "checked": true
     },
-    {//TODO format this for me
+    {
         "en_raw": "Scrawny one, did you know you can press [button] to run? You should give it a try sometime!",
         "en_clean": "Scrawny one, did you know you can press [button] to run? You should give it a try sometime!",
-        "jp_raw": "なあヒョロいの、[button]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
-        "jp_clean": "なあヒョロいの、[button]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
-        "checked": false
+        "jp_raw": "なあヒョロいの、[ボタン]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
+        "jp_clean": "なあヒョロいの、[ボタン]を押すと走れるって知ってたか？ そのうち試してみるといいぜ！",
+        "checked": true
     },
     {
         "en_raw": "Oh! And did you know you can turn ON \"Always Run\" in your Options menu? So you can run all the time?",
@@ -2308,9 +2298,9 @@
     {
         "en_raw": "Did you know? Did you know about this? Did you know pressing [button] makes you run? Did you know you can run all the time by going into the Options menu? Do you run? DO YOU LIKE RUNNING?",
         "en_clean": "Did you know? Did you know about this? Did you know pressing [button] makes you run? Did you know you can run all the time by going into the Options menu? Do you run? DO YOU LIKE RUNNING?",
-        "jp_raw": "知ってた？ なあ知ってたか？[button]で走れるって知ってた？ オプションメニューから常に走れるようになるって知ってた？ キミは走るの？ 走るのが好きなの？",
-        "jp_clean": "知ってた？ なあ知ってたか？[button]で走れるって知ってた？ オプションメニューから常に走れるようになるって知ってた？ キミは走るの？ 走るのが好きなの？",
-        "checked": false
+        "jp_raw": "知ってた？ なあ知ってたか？[ボタン]で走れるって知ってた？ オプションメニューから常に走れるようになるって知ってた？ キミは走るの？ 走るのが好きなの？",
+        "jp_clean": "知ってた？ なあ知ってたか？[ボタン]で走れるって知ってた？ オプションメニューから常に走れるようになるって知ってた？ キミは走るの？ 走るのが好きなの？",
+        "checked": true
     },
     {
         "en_raw": "\"Yes, I KNOW.\"",
