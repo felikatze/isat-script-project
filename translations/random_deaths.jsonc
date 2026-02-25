@@ -1,38 +1,38 @@
 [
-    {//TODO format
+    {
         "en_raw": "[LOOP BACK TO [location]?]",
         "en_clean": "[LOOP BACK TO [location]?]",
-        "jp_raw": "[ループで[location]に戻りますか？]",
-        "jp_clean": "[ループで[location]に戻りますか？]",
-        "checked": false
+        "jp_raw": "[ループで[場所]に戻りますか？]",
+        "jp_clean": "[ループで[場所]に戻りますか？]",
+        "checked": true
     },
-    {//TODO unsure
+    { // TODO man i don't know. is this even real
         "en_raw": "[LOOP BACK TO [location] WITH ALL DOORS OPENED?]",
         "en_clean": "[LOOP BACK TO [location] WITH ALL DOORS OPENED?]",
         "jp_raw": null,
         "jp_clean": null,
         "checked": false
     },
-    {//TODO unsure
+    { // TODO all instances of [memories]/[メモリー] should be replaced with an image eventually but i can't be bothered rn
         "en_raw": "[USE [number] [memories] TO LOOP FORWARDS TO [location]?]",
         "en_clean": "[USE [number] [memories] TO LOOP FORWARDS TO [location]?]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "[[メモリー][数]個を使って、ループで時間を前に進めて移動しますか？：[場所]（すべての扉を開けた状態）",
+        "jp_clean": "[[メモリー][数]個を使って、ループで時間を前に進めて移動しますか？：[場所]（すべての扉を開けた状態）",
+        "checked": true
     },
-    {//TODO check eng and jap
+    {
         "en_raw": "[USE [number] [memories] TO LOOP FORWARDS TO [location] WITH ALL DOORS UNLOCKED?]",
         "en_clean": "[USE [number] [memories] TO LOOP FORWARDS TO [location] WITH ALL DOORS UNLOCKED?]",
-        "jp_raw": "[[number]個を使って、ループで時間を前に進めて移動しますか？：[location]（すべての扉を開けた状態）]",
-        "jp_clean": "[[number]個を使って、ループで時間を前に進めて移動しますか？：[location]（すべての扉を開けた状態）]",
-        "checked": false
+        "jp_raw": "[[メモリー][数]個を使って、ループで時間を前に進めて移動しますか？：[場所]（すべての扉を開けた状態）]",
+        "jp_clean": "[[メモリー][数]個を使って、ループで時間を前に進めて移動しますか？：[場所]（すべての扉を開けた状態）]",
+        "checked": true
     },
-    {//TODO check
+    {
         "en_raw": "[DON'T HAVE ENOUGH [memories].]",
         "en_clean": "[DON'T HAVE ENOUGH [memories].]",
-        "jp_raw": "[[memories]が不足しています。]",
-        "jp_clean": "[[memories]が不足しています。]",
-        "checked": false
+        "jp_raw": "[[メモリー]が不足しています。]",
+        "jp_clean": "[[メモリー]が不足しています。]",
+        "checked": true
     },
     {
         "en_raw": "(You see something appear before you...)",
@@ -188,12 +188,12 @@
         "jp_clean": "[大丈夫、そのうちループでドーモントに戻れるようにしてあげる。でも今はチュートリアル！ 選べないんだ！]",
         "checked": true
     },
-    {//TODO double check
+    {
         "en_raw": "(Urgh.)",
         "en_clean": "(Urgh.)",
         "jp_raw": "(やれやれ。)",
         "jp_clean": "(やれやれ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[Heya stardust!]",
@@ -223,12 +223,12 @@
         "jp_clean": "[鍵をまた全部見つけるなんて面倒くさいことは必要ないんだ！]",
         "checked": true
     },
-    {//TODO format
+    {
         "en_raw": "[To unlock all those doors, press [button] on this map screen. Do it! Do it!!! Well, not now, I'm talking. Okay, NOW!]",
         "en_clean": "[To unlock all those doors, press [button] on this map screen. Do it! Do it!!! Well, not now, I'm talking. Okay, NOW!]",
-        "jp_raw": "[扉を開錠するには、このマップ画面で[button]を押してくれ。ほら！ やってみて！！！ やっぱり今はやめて。僕が話しているんだから。よし、今だ！]",
-        "jp_clean": "[扉を開錠するには、このマップ画面で[button]を押してくれ。ほら！ やってみて！！！ やっぱり今はやめて。僕が話しているんだから。よし、今だ！]",
-        "checked": false
+        "jp_raw": "[扉を開錠するには、このマップ画面で[ボタン]を押してくれ。ほら！ やってみて！！！ やっぱり今はやめて。僕が話しているんだから。よし、今だ！]",
+        "jp_clean": "[扉を開錠するには、このマップ画面で[ボタン]を押してくれ。ほら！ やってみて！！！ やっぱり今はやめて。僕が話しているんだから。よし、今だ！]",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -538,19 +538,19 @@
         "jp_clean": "(アンコール、アンコール、アンコール！)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(In this moment, you were loved.)",
         "en_clean": "(In this moment, you were loved.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(この瞬間は愛されていた。)",
+        "jp_clean": "(この瞬間は愛されていた。)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(Again, again, again!)",
         "en_clean": "(Again, again, again!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(またしても、またしても、またしても！)",
+        "jp_clean": "(またしても、またしても、またしても！)",
+        "checked": true
     },
     {
         "en_raw": "(You're back here.)",
@@ -846,12 +846,12 @@
         "jp_clean": "(襲い掛かってきた。)",
         "checked": true
     },
-    {//TODO game lines.json says there's a line right before this "(ああ...."
+    {//TODO weird exception: this is a \>\< thing and the first line is "(ああ...". i'm choosing to ignore it
         "en_raw": "(Ahh...\n<span class=\"shake\">\n AAAAAAAAAAAAAAAH!!!!)\n</span>",
         "en_clean": "(Ahh...AAAAAAAAAAAAAAAH!!!!)",
         "jp_raw": "(ああっ... <span class=\"shake\">ぐああああああっ！！！)</span>",
         "jp_clean": "(ああっ... ぐああああああっ！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (EVERYTHING HURTS!!!!!!!)\n</span>",
@@ -1035,19 +1035,19 @@
         "jp_clean": "...!",
         "checked": true
     },
-    {//TODO this and next line combined game_lines.json
+    {
         "en_raw": "<span class=\"shake\">\n Do not worry......\n</span>",
         "en_clean": "Do not worry......",
-        "jp_raw": "<span class=\"shake\">心配するな......あの子どもには時間をやろう。</span>",
-        "jp_clean": "心配するな......あの子どもには時間をやろう。",
-        "checked": false
+        "jp_raw": "<span class=\"shake\">心配するな......</span>",
+        "jp_clean": "心配するな......",
+        "checked": true
     },
-    {
+    { // TODO decapitate this man
         "en_raw": "<span class=\"shake\">\n I will give the young one time.\n</span>",
         "en_clean": "I will give the young one time.",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "<span class=\"shake\">あの子どもには時間をやろう。</span>",
+        "jp_clean": "あの子どもには時間をやろう。",
+        "checked": true
     },
     {
         "en_raw": "(That's the best you can do.)",
@@ -1217,19 +1217,19 @@
         "jp_clean": "...！",
         "checked": true
     },
-    {//TODO this and next line combined game_lines.json
+    {
         "en_raw": "<span class=\"shake\">\n Do not worry......\n</span>",
         "en_clean": "Do not worry......",
-        "jp_raw": "<span class=\"shake\">心配するな......あの子どもには時間をやろう。</span>",
-        "jp_clean": "心配するな......あの子どもには時間をやろう。",
-        "checked": false
+        "jp_raw": "<span class=\"shake\">心配するな......</span>",
+        "jp_clean": "心配するな......",
+        "checked": true
     },
-    {
+    { // TODO decapitate this man
         "en_raw": "<span class=\"shake\">\n I will give the young one time.\n</span>",
         "en_clean": "I will give the young one time.",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "<span class=\"shake\">あの子どもには時間をやろう。</span>",
+        "jp_clean": "あの子どもには時間をやろう。",
+        "checked": true
     },
     {
         "en_raw": "(That's the best you can do.)",
@@ -1329,19 +1329,19 @@
         "jp_clean": "...！",
         "checked": true
     },
-    {//TODO this and next line combined game_lines.json
+    {
         "en_raw": "<span class=\"shake\">\n Do not worry......\n</span>",
         "en_clean": "Do not worry......",
-        "jp_raw": "<span class=\"shake\">心配するな......あの子どもには時間をやろう。</span>",
-        "jp_clean": "心配するな......あの子どもには時間をやろう。",
-        "checked": false
+        "jp_raw": "<span class=\"shake\">心配するな......</span>",
+        "jp_clean": "心配するな......",
+        "checked": true
     },
-    {
+    { // TODO decapitate this man
         "en_raw": "<span class=\"shake\">\n I will give the young one time.\n</span>",
         "en_clean": "I will give the young one time.",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "<span class=\"shake\">あの子どもには時間をやろう。</span>",
+        "jp_clean": "あの子どもには時間をやろう。",
+        "checked": true
     },
     {
         "en_raw": "(That's the best you can do.)",
@@ -1455,19 +1455,19 @@
         "jp_clean": "(誰かに何か起こる前に、ループを巻き戻そう。)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(BUT IT'S ALL GONE!!!!!!!)",
         "en_clean": "(BUT IT'S ALL GONE!!!!!!!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(でももう存在していない！！！)",
+        "jp_clean": "(でももう存在していない！！！)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(GO BACK GO BACK GO BACK GO BACK)",
         "en_clean": "(GO BACK GO BACK GO BACK GO BACK)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(戻れ戻れ戻れ！！！)",
+        "jp_clean": "(戻れ戻れ戻れ！！！)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -1672,20 +1672,12 @@
         "jp_clean": "(死ぬのがこんなに怖いなんて、聞いてないって！！！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You're back.)",
         "en_clean": "(You're back.)",
-        "jp_raw": [
-            "\\m[clear](また戻った。)",
-            "\\(やっぱり\\!\\戻ったんだ。)",
-            "\\m[clear]\\(戻った。)"
-        ],
-        "jp_clean": [
-            "(また戻った。)",
-            "(やっぱり戻ったんだ。)",
-            "(戻った。)"
-        ],
-        "checked": false
+        "jp_raw": "(戻った。)",
+        "jp_clean": "(戻った。)",
+        "checked": true
     },
     {
         "en_raw": "(The King defeated you once again.)",
@@ -1708,35 +1700,19 @@
         "jp_clean": "(僕が死んでも時間はそのまま流れ続けるなら、僕の望みは... 望みは...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You're back.)",
         "en_clean": "(You're back.)",
-        "jp_raw": [
-            "\\m[clear](また戻った。)",
-            "\\(やっぱり\\!\\戻ったんだ。)",
-            "\\m[clear]\\(戻った。)"
-        ],
-        "jp_clean": [
-            "(また戻った。)",
-            "(やっぱり戻ったんだ。)",
-            "(戻った。)"
-        ],
-        "checked": false
+        "jp_raw": "(戻った。)",
+        "jp_clean": "(戻った。)",
+        "checked": true
     },
     {
         "en_raw": "(You remember Isabeau's face as you died.)",
@@ -1773,35 +1749,19 @@
         "jp_clean": "(痛みを取り除くのは、もうきみの仕事じゃないのに！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
-    {//TODO usnrue
+    {
         "en_raw": "(You're back.)",
         "en_clean": "(You're back.)",
-        "jp_raw": [
-            "\\m[clear](また戻った。)",
-            "\\(やっぱり\\!\\戻ったんだ。)",
-            "\\m[clear]\\(戻った。)"
-        ],
-        "jp_clean": [
-            "(また戻った。)",
-            "(やっぱり戻ったんだ。)",
-            "(戻った。)"
-        ],
-        "checked": false
+        "jp_raw": "(戻った。)",
+        "jp_clean": "(戻った。)",
+        "checked": true
     },
     {
         "en_raw": "(You remember Odile.)",
@@ -1831,35 +1791,19 @@
         "jp_clean": "(最後の時、彼女はどんな顔をしていた？)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You're back.)",
         "en_clean": "(You're back.)",
-        "jp_raw": [
-            "\\m[clear](また戻った。)",
-            "\\(やっぱり\\!\\戻ったんだ。)",
-            "\\m[clear]\\(戻った。)"
-        ],
-        "jp_clean": [
-            "(また戻った。)",
-            "(やっぱり戻ったんだ。)",
-            "(戻った。)"
-        ],
-        "checked": false
+        "jp_raw": "(戻った。)",
+        "jp_clean": "(戻った。)",
+        "checked": true
     },
     {
         "en_raw": "(You remember Mirabelle's face.)",
@@ -1889,20 +1833,12 @@
         "jp_clean": "(王は気に入らないだろうな。毎回。)",
         "checked": true
     },
-    {//TODO usnre
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
     {
         "en_raw": "(You remember)",
@@ -2030,12 +1966,12 @@
         "jp_clean": "(経験値を獲得した[！/。])",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You choked on a pineapple slice...?)",
         "en_clean": "(You choked on a pineapple slice...?)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(パイナップルびと切れで… 窒息？)",
+        "jp_clean": "(パイナップルびと切れで… 窒息？)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -2086,12 +2022,12 @@
         "jp_clean": "(アレルギーなんだってば！！！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You got crushed.)",
         "en_clean": "(You got crushed.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(押しつぶされた。)",
+        "jp_clean": "(押しつぶされた。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -2839,22 +2775,12 @@
         "jp_clean": "(星たち、星たち、たくさんの星たちの夢を見た。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You want to cry.)",
         "en_clean": "(You want to cry.)",
-        "jp_raw": [
-            "\\m[clear](泣きたい気分だ。)",
-            "(目頭が熱くなってきた。)",
-            "\\m[clear]\\(泣きたい気分だ。)",
-            "(泣きたい気分だ。)\\!\\"
-        ],
-        "jp_clean": [
-            "(泣きたい気分だ。)",
-            "(目頭が熱くなってきた。)",
-            "(泣きたい気分だ。)",
-            "(泣きたい気分だ。)"
-        ],
-        "checked": false
+        "jp_raw": "(目頭が熱くなってきた。)",
+        "jp_clean": "(目頭が熱くなってきた。)",
+        "checked": true
     },
     {
         "en_raw": "(Oh! It's been... One, two, three...)",
@@ -2884,20 +2810,12 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -2941,20 +2859,12 @@
         "jp_clean": "(そんなことしたら、自分の脳がどうなるか想像できるもんな～！！！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Back to it.)",
         "en_clean": "(Back to it.)",
-        "jp_raw": [
-            "\\(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "\\m[clear](戻ろう。)"
-        ],
-        "jp_clean": [
-            "(仕事に戻れ。)",
-            "(仕事に戻ろう。)",
-            "(戻ろう。)"
-        ],
-        "checked": false
+        "jp_raw": "(仕事に戻れ。)",
+        "jp_clean": "(仕事に戻れ。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -3089,22 +2999,12 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Urgh.)",
         "en_clean": "(Urgh.)",
-        "jp_raw": [
-            "\\m[clear](やれやれ。)",
-            "(あーあ。)",
-            "\\m[vs](やれやれ。)\\!\\",
-            "\\m[rb]\\m[vs](やれやれ.)\\!\\"
-        ],
-        "jp_clean": [
-            "(やれやれ。)",
-            "(あーあ。)",
-            "(やれやれ。)",
-            "(やれやれ.)"
-        ],
-        "checked": false
+        "jp_raw": "(あーあ。)",
+        "jp_clean": "(あーあ。)",
+        "checked": true
     },
     {
         "en_raw": "(One more for the road.)",
@@ -3372,22 +3272,12 @@
         "jp_clean": "もういいかい？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\(僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "Hm.",
