@@ -18,14 +18,14 @@
         "en_clean": "(Well...)",
         "jp_raw": "(あれは...)",
         "jp_clean": "(あれは...)",
-        "checked": false
+        "checked": true
     },
     {//TODO double check
         "en_raw": "Hm...",
         "en_clean": "Hm...",
         "jp_raw": "ふうん...",
         "jp_clean": "ふうん...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You sure are, teehee!",
@@ -377,7 +377,7 @@
         "jp_clean": "(やめよう。)",
         "checked": true
     },
-    {
+    { //TODO eng shouldn't have shake
         "en_raw": "(This isn't something to use on\n<span class=\"shake\">\n [allies/family members]\n</span>\n.)",
         "en_clean": "(This isn't something to use on[allies/family members].)",
         "jp_raw": "([仲間たち/家族/演者]に対して使うものじゃない。)",
@@ -1168,22 +1168,12 @@
         "jp_clean": "それらを引いて残ったものが、きみなんだ。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "And...",
         "en_clean": "And...",
-        "jp_raw": [
-            "\\m[vm]それで...",
-            "\\m[vmnp]それで...",
-            "それに...",
-            "そして\\..\\..\\..\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "それで...",
-            "それで...",
-            "それに...",
-            "そして..."
-        ],
-        "checked": false
+        "jp_raw": "そして...",
+        "jp_clean": "そして...",
+        "checked": true
     },
     {
         "en_raw": ". . .",

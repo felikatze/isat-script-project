@@ -37,8 +37,8 @@
     {
         "en_raw": "(You gained a little bit of EXP[!/.])",
         "en_clean": "(You gained a little bit of EXP[!/.])",
-        "jp_raw": "(経験値を少し獲得した)",
-        "jp_clean": "(経験値を少し獲得した)",
+        "jp_raw": "(経験値を少し獲得した[！/。])",
+        "jp_clean": "(経験値を少し獲得した[！/。])",
         "checked": true
     },
     {
@@ -286,12 +286,12 @@
         "jp_clean": "(息を吸って、そして吐く。)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "([number] EXP received[!/.])",
         "en_clean": "([number] EXP received[!/.])",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "([数] EXP を獲得[！/。])",
+        "jp_clean": "([数] EXP を獲得[！/。])",
+        "checked": true
     },
     {
         "en_raw": "(You breathe in, and out.)",
@@ -405,12 +405,12 @@
         "jp_clean": "(来るはずのない助けを待っている。)",
         "checked": true
     },
-    {//TODO double check
+    {
         "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>\nSCISSORS damage to one enemy.\n<br/>\nMight lower enemy's\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
         "en_clean": "Deals SCISSORS damage to one enemy. Might lower enemy's DEFENSE. 1 turn.",
         "jp_raw": "敵1体に<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i117.svg\"/>チョキ属性ダメージを与える。敵の<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>\nDEFENSE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i51.svg\"/>防御力を下げることがある。<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>1ターン。",
         "jp_clean": "敵1体にチョキ属性ダメージを与える。敵の防御力を下げることがある。1ターン。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "You say a cool one liner[!/.]",
@@ -569,8 +569,8 @@
     {
         "en_raw": "You strike.",
         "en_clean": "You strike.",
-        "jp_raw": "攻撃する",
-        "jp_clean": "攻撃する",
+        "jp_raw": "攻撃する。",
+        "jp_clean": "攻撃する。",
         "checked": true
     },
     {
@@ -667,8 +667,8 @@
     {
         "en_raw": "Mirabelle twirls!",
         "en_clean": "Mirabelle twirls!",
-        "jp_raw": "がクルクル回る！",
-        "jp_clean": "がクルクル回る！",
+        "jp_raw": "ミラベルがクルクル回る！",
+        "jp_clean": "ミラベルがクルクル回る！",
         "checked": true
     },
     {
@@ -681,8 +681,8 @@
     {
         "en_raw": "Mirabelle crafts her spell!",
         "en_clean": "Mirabelle crafts her spell!",
-        "jp_raw": "が呪文をクラフトする！",
-        "jp_clean": "が呪文をクラフトする！",
+        "jp_raw": "ミラベルが呪文をクラフトする！",
+        "jp_clean": "ミラベルが呪文をクラフトする！",
         "checked": true
     },
     {
@@ -695,8 +695,8 @@
     {
         "en_raw": "Mirabelle brings her palms forward!",
         "en_clean": "Mirabelle brings her palms forward!",
-        "jp_raw": "が両手を差し出す！",
-        "jp_clean": "が両手を差し出す！",
+        "jp_raw": "ミラベルが両手を差し出す！",
+        "jp_clean": "ミラベルが両手を差し出す！",
         "checked": true
     },
     {
@@ -709,8 +709,8 @@
     {
         "en_raw": "Mirabelle strikes a pose!",
         "en_clean": "Mirabelle strikes a pose!",
-        "jp_raw": "がポーズを決める！",
-        "jp_clean": "がポーズを決める！",
+        "jp_raw": "ミラベルがポーズを決める！",
+        "jp_clean": "ミラベルがポーズを決める！",
         "checked": true
     },
     {
@@ -723,8 +723,8 @@
     {
         "en_raw": "Mirabelle claps her hands three times firmly!",
         "en_clean": "Mirabelle claps her hands three times firmly!",
-        "jp_raw": "が大きく3回手を叩く！",
-        "jp_clean": "が大きく3回手を叩く！",
+        "jp_raw": "ミラベルが大きく3回手を叩く！",
+        "jp_clean": "ミラベルが大きく3回手を叩く！",
         "checked": true
     },
     {
@@ -737,8 +737,8 @@
     {
         "en_raw": "Mirabelle claps her hands once firmly!",
         "en_clean": "Mirabelle claps her hands once firmly!",
-        "jp_raw": "が大きく1回手を叩く！",
-        "jp_clean": "が大きく1回手を叩く！",
+        "jp_raw": "ミラベルが大きく1回手を叩く！",
+        "jp_clean": "ミラベルが大きく1回手を叩く！",
         "checked": true
     },
     {
@@ -751,8 +751,8 @@
     {
         "en_raw": "Mirabelle brings her palms to the sky!",
         "en_clean": "Mirabelle brings her palms to the sky!",
-        "jp_raw": "が両手を天に伸ばす！",
-        "jp_clean": "が両手を天に伸ばす！",
+        "jp_raw": "ミラベルが両手を天に伸ばす！",
+        "jp_clean": "ミラベルが両手を天に伸ばす！",
         "checked": true
     },
     {
@@ -765,8 +765,8 @@
     {
         "en_raw": "Mirabelle claps her hands once firmly!",
         "en_clean": "Mirabelle claps her hands once firmly!",
-        "jp_raw": "が大きく1回手を叩く！",
-        "jp_clean": "が大きく1回手を叩く！",
+        "jp_raw": "ミラベルが大きく1回手を叩く！",
+        "jp_clean": "ミラベルが大きく1回手を叩く！",
         "checked": true
     },
     {
@@ -779,8 +779,8 @@
     {
         "en_raw": "Mirabelle claps her hands once firmly!",
         "en_clean": "Mirabelle claps her hands once firmly!",
-        "jp_raw": "が大きく1回手を叩く！",
-        "jp_clean": "が大きく1回手を叩く！",
+        "jp_raw": "ミラベルが大きく1回手を叩く！",
+        "jp_clean": "ミラベルが大きく1回手を叩く！",
         "checked": true
     },
     {
@@ -790,12 +790,12 @@
         "jp_clean": "敵1体にグー属性ダメージを与える。1ターン。",
         "checked": true
     },
-    {//TODO check formatting for all "Isabeau yells"
+    {
         "en_raw": "Isabeau yells \"SMASH!!!\"!",
         "en_clean": "Isabeau yells \"SMASH!!!\"!",
-        "jp_raw": "が「スマァー－シュ」と叫ぶ！",
-        "jp_clean": "が「スマァー－シュ」と叫ぶ！",
-        "checked": false
+        "jp_raw": "イザボーが「スマァー－シュ」と叫ぶ！",
+        "jp_clean": "イザボーが「スマァー－シュ」と叫ぶ！",
+        "checked": true
     },
     {
         "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to all enemies. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -807,9 +807,9 @@
     {
         "en_raw": "Isabeau yells \"KABOOM!!!\"!",
         "en_clean": "Isabeau yells \"KABOOM!!!\"!",
-        "jp_raw": "が「ドカァーーン」と叫ぶ！",
-        "jp_clean": "が「ドカァーーン」と叫ぶ！",
-        "checked": false
+        "jp_raw": "イザボーが「ドカァーーン」と叫ぶ！",
+        "jp_clean": "イザボーが「ドカァーーン」と叫ぶ！",
+        "checked": true
     },
     {
         "en_raw": "Give your turn to [a friend/an ally/a family member],\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i67.svg\"/>\nBOOSTING their\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i34.svg\"/>\nATK and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i36.svg\"/>\nCRIT CHANCE. 1 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -821,8 +821,8 @@
     {
         "en_raw": "Isabeau gives away his turn!",
         "en_clean": "Isabeau gives away his turn!",
-        "jp_raw": "はターンを渡した！",
-        "jp_clean": "はターンを渡した！",
+        "jp_raw": "イザボーはターンを渡した！",
+        "jp_clean": "イザボーはターンを渡した！",
         "checked": true
     },
     {
@@ -835,8 +835,8 @@
     {
         "en_raw": "Isabeau yells encouragments to everyone!",
         "en_clean": "Isabeau yells encouragments to everyone!",
-        "jp_raw": "がみんなに励ましの言葉をかける！",
-        "jp_clean": "がみんなに励ましの言葉をかける！",
+        "jp_raw": "イザボーがみんなに励ましの言葉をかける！",
+        "jp_clean": "イザボーがみんなに励ましの言葉をかける！",
         "checked": true
     },
     {
@@ -849,8 +849,8 @@
     {
         "en_raw": "Isabeau looks cute and fragile!",
         "en_clean": "Isabeau looks cute and fragile!",
-        "jp_raw": "がキュートではかなげに見える！",
-        "jp_clean": "がキュートではかなげに見える！",
+        "jp_raw": "イザボーがキュートではかなげに見える！",
+        "jp_clean": "イザボーがキュートではかなげに見える！",
         "checked": true
     },
     {
@@ -863,8 +863,8 @@
     {
         "en_raw": "Isabeau looks big and strong!",
         "en_clean": "Isabeau looks big and strong!",
-        "jp_raw": "は大きく力強く見える！",
-        "jp_clean": "は大きく力強く見える！",
+        "jp_raw": "イザボーは大きく力強く見える！",
+        "jp_clean": "イザボーは大きく力強く見える！",
         "checked": true
     },
     {
@@ -877,8 +877,8 @@
     {
         "en_raw": "Isabeau bumps his fists together!",
         "en_clean": "Isabeau bumps his fists together!",
-        "jp_raw": "が拳を打ち合わせる！",
-        "jp_clean": "が拳を打ち合わせる！",
+        "jp_raw": "イザボーが拳を打ち合わせる！",
+        "jp_clean": "イザボーが拳を打ち合わせる！",
         "checked": true
     },
     {
@@ -891,15 +891,15 @@
     {
         "en_raw": "Isabeau tells everyone they're really cool!!!",
         "en_clean": "Isabeau tells everyone they're really cool!!!",
-        "jp_raw": "がみんなのクールさをほめる！",
-        "jp_clean": "がみんなのクールさをほめる！",
+        "jp_raw": "イザボーがみんなのクールさをほめる！",
+        "jp_clean": "イザボーがみんなのクールさをほめる！",
         "checked": true
     },
     {
         "en_raw": "Isabeau encourages everyone!",
         "en_clean": "Isabeau encourages everyone!",
-        "jp_raw": "がみんなを激励する！",
-        "jp_clean": "がみんなを激励する！",
+        "jp_raw": "イザボーがみんなを激励する！",
+        "jp_clean": "イザボーがみんなを激励する！",
         "checked": true
     },
     {
@@ -912,8 +912,8 @@
     {
         "en_raw": "Odile analyzes the enemy!",
         "en_clean": "Odile analyzes the enemy!",
-        "jp_raw": "が敵を分析！",
-        "jp_clean": "が敵を分析！",
+        "jp_raw": "オディールが敵を分析！",
+        "jp_clean": "オディールが敵を分析！",
         "checked": true
     },
     {
@@ -923,12 +923,12 @@
         "jp_clean": "敵1体にチョキ属性ダメージを与える。2ターン。",
         "checked": true
     },
-    {//TODO check formatting for all "Odile casts"
+    {
         "en_raw": "Odile casts Scissors III!",
         "en_clean": "Odile casts Scissors III!",
-        "jp_raw": "がチョキ IIIを唱える！",
-        "jp_clean": "がチョキ IIIを唱える！",
-        "checked": false
+        "jp_raw": "オディールがチョキ IIIを唱える！",
+        "jp_clean": "オディールがチョキ IIIを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i115.svg\"/>\nROCK damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -940,9 +940,9 @@
     {
         "en_raw": "Odile casts Rock III!",
         "en_clean": "Odile casts Rock III!",
-        "jp_raw": "がグー IIIを唱える！",
-        "jp_clean": "がグー IIIを唱える！",
-        "checked": false
+        "jp_raw": "オディールがグー IIIを唱える！",
+        "jp_clean": "オディールがグー IIIを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Deals\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 2 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -954,9 +954,9 @@
     {
         "en_raw": "Odile casts Paper III!",
         "en_clean": "Odile casts Paper III!",
-        "jp_raw": "がパー IIIを唱える！",
-        "jp_clean": "がパー IIIを唱える！",
-        "checked": false
+        "jp_raw": "オディールがパー IIIを唱える！",
+        "jp_clean": "オディールがパー IIIを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Makes enemies tired and\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i11.svg\"/>\nSLOWER for a few turns. 3 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -968,9 +968,9 @@
     {
         "en_raw": "Odile casts Slow IV!",
         "en_clean": "Odile casts Slow IV!",
-        "jp_raw": "がスロー IVを唱える！",
-        "jp_clean": "がスロー IVを唱える！",
-        "checked": false
+        "jp_raw": "オディールがスロー IVを唱える！",
+        "jp_clean": "オディールがスロー IVを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Deals big\n<img alt=\"\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i116.svg\"/>\nPAPER damage to one enemy. 4 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -982,9 +982,9 @@
     {
         "en_raw": "Odile casts Paper α V!",
         "en_clean": "Odile casts Paper α V!",
-        "jp_raw": "がパー α Vを唱える！",
-        "jp_clean": "がパー α Vを唱える！",
-        "checked": false
+        "jp_raw": "オディールがパー α Vを唱える！",
+        "jp_clean": "オディールがパー α Vを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Strengthens one [friend/ally/family member]'s resistance to a CRAFT type for a few turns.",
@@ -993,12 +993,12 @@
         "jp_clean": "[友達/仲間たち/家族]1人を強化して、数ターンの間特定のクラフト属性への抵抗力を持たせる。",
         "checked": true
     },
-    {//TODO unsure for this other Odile Casts
+    {
         "en_raw": "Odile casts [Rock/Paper/Scissors] Buff!",
         "en_clean": "Odile casts [Rock/Paper/Scissors] Buff!",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "オディールが[グー/パー/チョキ]ガードを唱える！",
+        "jp_clean": "オディールが[グー/パー/チョキ]ガードを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Make an enemy weaker to a CRAFT type's attacks for a few turns.",
@@ -1010,9 +1010,9 @@
     {
         "en_raw": "Odile casts [Rock/Paper/Scissors] Break!",
         "en_clean": "Odile casts [Rock/Paper/Scissors] Break!",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "オディールが[グー/パー/チョキ]ブレイクを唱える！",
+        "jp_clean": "オディールが[グー/パー/チョキ]ブレイクを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Make an enemy weaker to all CRAFT types for a few turns. 5 turn\n<img alt=\"cooldown\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i6.svg\"/>\n.",
@@ -1031,22 +1031,22 @@
     {
         "en_raw": "Odile casts Craft Break α!",
         "en_clean": "Odile casts Craft Break α!",
-        "jp_raw": "が%1を唱える！",
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "オディールがクラフトブレイク αを唱える！",
+        "jp_clean": "オディールがクラフトブレイク αを唱える！",
+        "checked": true
     },
     {
         "en_raw": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
         "en_clean": "Bonnie whacks one enemy with their cooking pan, hurting them a little bit.",
-        "jp_raw": "敵1体を調理道具で殴り、少量のダメージを与える。",
-        "jp_clean": "敵1体を調理道具で殴り、少量のダメージを与える。",
+        "jp_raw": "ボニー敵1体を調理道具で殴り、少量のダメージを与える。",
+        "jp_clean": "ボニー敵1体を調理道具で殴り、少量のダメージを与える。",
         "checked": true
     },
     {
         "en_raw": "Bonnie whacks the enemy!",
         "en_clean": "Bonnie whacks the enemy!",
-        "jp_raw": "が敵をしばく！",
-        "jp_clean": "が敵をしばく！",
+        "jp_raw": "ボニーが敵をしばく！",
+        "jp_clean": "ボニーが敵をしばく！",
         "checked": true
     },
     {
@@ -1059,8 +1059,8 @@
     {
         "en_raw": "Bonnie puffs their cheeks!",
         "en_clean": "Bonnie puffs their cheeks!",
-        "jp_raw": "が頬っぺたをふくらませる！",
-        "jp_clean": "が頬っぺたをふくらませる！",
+        "jp_raw": "ボニーが頬っぺたをふくらませる！",
+        "jp_clean": "ボニーが頬っぺたをふくらませる！",
         "checked": true
     },
     {
@@ -1073,8 +1073,8 @@
     {
         "en_raw": "Bonnie yells encouragement everyone's way!",
         "en_clean": "Bonnie yells encouragement everyone's way!",
-        "jp_raw": "がみんなに声援を送る！",
-        "jp_clean": "がみんなに声援を送る！",
+        "jp_raw": "ボニーがみんなに声援を送る！",
+        "jp_clean": "ボニーがみんなに声援を送る！",
         "checked": true
     },
     {
@@ -1087,8 +1087,8 @@
     {
         "en_raw": "Bonnie runs in a circle!",
         "en_clean": "Bonnie runs in a circle!",
-        "jp_raw": "がぐるぐる走り回る！",
-        "jp_clean": "がぐるぐる走り回る！",
+        "jp_raw": "ボニーがぐるぐる走り回る！",
+        "jp_clean": "ボニーがぐるぐる走り回る！",
         "checked": true
     },
     {
@@ -1101,36 +1101,36 @@
     {
         "en_raw": "Bonnie runs in with snacks!",
         "en_clean": "Bonnie runs in with snacks!",
-        "jp_raw": "がおやつを持ってきた！",
-        "jp_clean": "がおやつを持ってきた！",
+        "jp_raw": "ボニーがおやつを持ってきた！",
+        "jp_clean": "ボニーがおやつを持ってきた！",
         "checked": true
     },
     {
         "en_raw": "Bonnie tries to attack, but misses.\n<br/>\nHey, it happens.",
         "en_clean": "Bonnie tries to attack, but misses.Hey, it happens.",
-        "jp_raw": "ボニーの攻撃は当たらなかった。<br>よくあることだ。",
-        "jp_clean": "ボニーの攻撃は当たらなかった。<br>よくあることだ。",
+        "jp_raw": "ボニーボニーの攻撃は当たらなかった。<br>よくあることだ。",
+        "jp_clean": "ボニーボニーの攻撃は当たらなかった。<br>よくあることだ。",
         "checked": true
     },
     {
         "en_raw": "Bonnie missed...",
         "en_clean": "Bonnie missed...",
-        "jp_raw": "は外した...",
-        "jp_clean": "は外した...",
+        "jp_raw": "ボニーは外した...",
+        "jp_clean": "ボニーは外した...",
         "checked": true
     },
     {
         "en_raw": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
         "en_clean": "Bonnie whacks one enemy with their cooking pan, hurting them more than a little bit.",
-        "jp_raw": "敵1体を調理道具でなぐりつけ、そこそこのダメージを与える。",
-        "jp_clean": "敵1体を調理道具でなぐりつけ、そこそこのダメージを与える。",
+        "jp_raw": "ボニー敵1体を調理道具でなぐりつけ、そこそこのダメージを与える。",
+        "jp_clean": "ボニー敵1体を調理道具でなぐりつけ、そこそこのダメージを与える。",
         "checked": true
     },
     {
         "en_raw": "Bonnie whacks the enemy really hard!",
         "en_clean": "Bonnie whacks the enemy really hard!",
-        "jp_raw": "が敵を思い切りしばく！",
-        "jp_clean": "が敵を思い切りしばく！",
+        "jp_raw": "ボニーが敵を思い切りしばく！",
+        "jp_clean": "ボニーが敵を思い切りしばく！",
         "checked": true
     }
 ]
