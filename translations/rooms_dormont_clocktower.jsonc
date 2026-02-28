@@ -90,20 +90,12 @@
         "jp_clean": "[以上！ じゃあね～星くず君！]",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(You go back to your samosa.)",
@@ -586,14 +578,14 @@
         "en_clean": "We'll stay with you, Mira.",
         "jp_raw": "\"きみと一緒に行くよ、ミラ。\"",
         "jp_clean": "\"きみと一緒に行くよ、ミラ。\"",
-        "checked": false
+        "checked": true
     },
     {//TODO missing lines "(何があろうと、彼女ひとりで行かせたりしない。)" "(行けるところまで。)" "(どうせ他に選択肢はないんだし。)" "(最後まで。)"
         "en_raw": "Oh...",
         "en_clean": "Oh...",
         "jp_raw": "あ...",
         "jp_clean": "あ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh, thank you...!",
@@ -630,12 +622,12 @@
         "jp_clean": "(観客はここで「ああ」とため息。)",
         "checked": true
     },
-    {//TODO website and this missing line (...)
+    {//TODO website and this missing line (...) before this one
         "en_raw": "(Odile, you understand... She'd curse them if they tried...)",
         "en_clean": "(Odile, you understand... She'd curse them if they tried...)",
         "jp_raw": "(オディールはまだ分かる。ハグしようとしたら罵倒されるから...)",
         "jp_clean": "(オディールはまだ分かる。ハグしようとしたら罵倒されるから...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(But why do they never hug you?)",
@@ -698,7 +690,7 @@
         "en_clean": "(Isabeau is whispering your name...)",
         "jp_raw": "(イザボーが僕の名前を囁いている...)",
         "jp_clean": "(イザボーが僕の名前を囁いている...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"small\">\n ...Already asleep, huh?\n</span>",
@@ -903,19 +895,19 @@
         "jp_clean": "俺... には今、特に言うことがないってことだ。",
         "checked": true
     },
-    {//TODO missing line (chicken) "(ビビりめ。)"
+    {//TODO missing line (Chicken.) "(ビビりめ。)"
         "en_raw": "<span class=\"small\">\n But I will, when, uh, when we beat the King tomorrow.  Okay?\n</span>",
         "en_clean": "But I will, when, uh, when we beat the King tomorrow.  Okay?",
         "jp_raw": "<span class=\"small\">でも言うよ。明日、えっと、王を倒したときに。オーケー？</span>",
         "jp_clean": "でも言うよ。明日、えっと、王を倒したときに。オーケー？",
-        "checked": false
+        "checked": true
     },
     {//TODO choicer "\"イザ、むしろ不吉に聞こえるんだけど。\"" "\"イザ、それはやっぱり不吉だ。\"" "\"...\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"small\">\n I-it's not meant to be???\n</span>",
@@ -1048,14 +1040,14 @@
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Okay.\"",
         "en_clean": "\"Okay.\"",
         "jp_raw": "\"分かった。\"",
         "jp_clean": "\"分かった。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...  Okay!",
@@ -1258,7 +1250,7 @@
         "en_clean": "The House's Gate, huh?",
         "jp_raw": "これが館の門なのか？",
         "jp_clean": "これが館の門なのか？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It's bigger than I thought! So scary!",

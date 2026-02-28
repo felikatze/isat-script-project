@@ -69,20 +69,12 @@
         "jp_clean": "鍵が見つかりやすい場所にあるといいんだが。周りを調べてみよう。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(Looking at the door, you notice a symbol over the keyhole.)",
@@ -196,12 +188,12 @@
         "jp_clean": "シフラン、何か問題でも？",
         "checked": true
     },
-    {//TODO unsure which for first
+    {
         "en_raw": "(Huh?) \"Did you see that light?\"",
         "en_clean": "(Huh?) \"Did you see that light?\"",
-        "jp_raw": "\"今の光は見えた？\"",
-        "jp_clean": "\"今の光は見えた？\"",
-        "checked": false
+        "jp_raw": "(ん？) \"今の光は見えた？\"",
+        "jp_clean": "(ん？) \"今の光は見えた？\"",
+        "checked": true
     },
     {
         "en_raw": "A light?",
@@ -287,18 +279,12 @@
         "jp_clean": "[星に触れると今の状況をセーブできるんだ！]",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Save your progress?)",
         "en_clean": "(Save your progress?)",
-        "jp_raw": [
-            "(進行状況をセーブしますか？)\\!\\",
-            "\\m[clear](状況をセーブする？)\\!\\"
-        ],
-        "jp_clean": [
-            "(進行状況をセーブしますか？)",
-            "(状況をセーブする？)"
-        ],
-        "checked": false
+        "jp_raw": "(状況をセーブする？)",
+        "jp_clean": "(状況をセーブする？)",
+        "checked": true
     },
     {
         "en_raw": "(You close your eyes.)",
@@ -363,22 +349,12 @@
         "jp_clean": "分からないし、どうでもいい。さあ、頼むから先へ進もう。",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(The gate is locked.)",
@@ -429,20 +405,12 @@
         "jp_clean": "(門に近寄って、観察してみる。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(The keyhole is shaped like an egg, broken in half.)",
@@ -451,20 +419,12 @@
         "jp_clean": "(鍵穴はタマゴ型で、半分に割れている。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(Maybe you should explore the left side of this floor...?)",
@@ -494,20 +454,12 @@
         "jp_clean": "(鍵を取りにいこう。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(The gate is shut tight. On it, you see the keyhole is shaped like an egg, broken in half.)",
@@ -586,11 +538,11 @@
         "jp_clean": "[だから、きみが楽になるように... きみがセーブすると、パーティーの仲間のクラフトスキルと経験値が、セーブした地点に記録されるようになるよ！]",
         "checked": true
     },
-    {//TODO fix formatting number
+    {
         "en_raw": "[So, your Fighter is level [number] now, and when you'll record your progress in a second, he will be level [number] again if you loop back here!]",
         "en_clean": "[So, your Fighter is level [number] now, and when you'll record your progress in a second, he will be level [number] again if you loop back here!]",
-        "jp_raw": "[つまりね、戦士君のレベルは今、[number]だよね。ここですぐにセーブすると、時間のループでここに戻ってきたときに、戦士君はレベル[number]で戻れるってこと！]",
-        "jp_clean": "[つまりね、戦士君のレベルは今、[number]だよね。ここですぐにセーブすると、時間のループでここに戻ってきたときに、戦士君はレベル[number]で戻れるってこと！]",
+        "jp_raw": "[つまりね、戦士君のレベルは今、[数]だよね。ここですぐにセーブすると、時間のループでここに戻ってきたときに、戦士君はレベル[数]で戻れるってこと！]",
+        "jp_clean": "[つまりね、戦士君のレベルは今、[数]だよね。ここですぐにセーブすると、時間のループでここに戻ってきたときに、戦士君はレベル[数]で戻れるってこと！]",
         "checked": true
     },
     {
@@ -621,20 +573,12 @@
         "jp_clean": "[さて、僕からは以上だよ、星くず君！ じゃーねーっ！！！]",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(So if you save your progress here, your friends' Experience and Skills will be recorded here, as well.)",
@@ -720,18 +664,12 @@
         "jp_clean": "(みんなの目を見返す。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(You don't react.)",
         "en_clean": "(You don't react.)",
-        "jp_raw": [
-            "(反応するのはやめた。)",
-            "\\m[clear](僕は反応しなかった。)"
-        ],
-        "jp_clean": [
-            "(反応するのはやめた。)",
-            "(僕は反応しなかった。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は反応しなかった。)",
+        "jp_clean": "(僕は反応しなかった。)",
+        "checked": true
     },
     {
         "en_raw": "...",
@@ -803,20 +741,12 @@
         "jp_clean": "(鍵を取りにいこう。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(Maybe you should explore the right side of this floor...?)",
@@ -895,18 +825,12 @@
         "jp_clean": "(みんなの目を見返す。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(You don't react.)",
         "en_clean": "(You don't react.)",
-        "jp_raw": [
-            "(反応するのはやめた。)",
-            "\\m[clear](僕は反応しなかった。)"
-        ],
-        "jp_clean": [
-            "(反応するのはやめた。)",
-            "(僕は反応しなかった。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は反応しなかった。)",
+        "jp_clean": "(僕は反応しなかった。)",
+        "checked": true
     },
     {
         "en_raw": "...?",
@@ -1314,24 +1238,12 @@
         "jp_clean": "...",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "えへへ...",
+        "jp_clean": "えへへ...",
+        "checked": true
     },
     {
         "en_raw": "I-I mean, NOT FUNNY, SIFFRIN!!!!! YOU CRAB!!!!!",
@@ -1452,20 +1364,12 @@
         "jp_clean": "(ナイフを手に入れた。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(Maybe you should explore the bottom left side of this floor...?)",

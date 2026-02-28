@@ -146,26 +146,26 @@
         "jp_clean": "[今ひとたびこの奇譚を楽しむがよい。がんばってねっ！ o(*°▽°*)o ]",
         "checked": true
     },
-    {//TODO check formatting
+    {//TODO bad dialogue head
         "en_raw": "<span class=\"dialogue-name\">\n Mirabelle\n</span>\n:\n                        \"--frin!\"",
         "en_clean": "Mirabelle:                       \"--frin!\"",
         "jp_raw": "<span class=\"wave\">\"...フラン！\"</span>",
         "jp_clean": "\"...フラン！\"",
-        "checked": false
+        "checked": true
     },
-    {//TODO check formatting
+    {//TODO bad dialogue head
         "en_raw": "<span class=\"dialogue-name\">\n Mirabelle\n</span>\n:\n<span class=\"wave\">\n \"Siffrin!\"\n</span>",
         "en_clean": "Mirabelle:\"Siffrin!\"",
         "jp_raw": "<span class=\"wave\">\"シフラン！\"</span>",
         "jp_clean": "\"シフラン！\"",
-        "checked": false
+        "checked": true
     },
-    {//TODO check formatting
+    {//TODO bad dialogue head
         "en_raw": "<span class=\"dialogue-name\">\n Mirabelle\n</span>\n:\n                        \"...Siffrin?\"",
         "en_clean": "Mirabelle:                       \"...Siffrin?\"",
         "jp_raw": "\"...シフラン？\"",
         "jp_clean": "\"...シフラン？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Good morning!",
@@ -300,24 +300,12 @@
         "jp_clean": "[...]",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Huh?)",
         "en_clean": "(Huh?)",
-        "jp_raw": [
-            "\\m[vs](ん？)\\!\\",
-            "\\m[clear](へっ？)",
-            "(あれ？)",
-            "\\m[rb]\\m[vs](えっ？)\\!\\",
-            "\\m[clear](えっ？)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(ん？)",
-            "(へっ？)",
-            "(あれ？)",
-            "(えっ？)",
-            "(えっ？)"
-        ],
-        "checked": false
+        "jp_raw": "(へっ？)",
+        "jp_clean": "(へっ？)",
+        "checked": true
     },
     {
         "en_raw": "<span class=\"big\">\n --frin!\n</span>",
@@ -417,24 +405,12 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Huh?)",
         "en_clean": "(Huh?)",
-        "jp_raw": [
-            "\\m[vs](ん？)\\!\\",
-            "\\m[clear](へっ？)",
-            "(あれ？)",
-            "\\m[rb]\\m[vs](えっ？)\\!\\",
-            "\\m[clear](えっ？)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(ん？)",
-            "(へっ？)",
-            "(あれ？)",
-            "(えっ？)",
-            "(えっ？)"
-        ],
-        "checked": false
+        "jp_raw": "(あれ？)",
+        "jp_clean": "(あれ？)",
+        "checked": true
     },
     {
         "en_raw": "(HUH?)",
@@ -1724,20 +1700,12 @@
         "jp_clean": "(全然平気だ。)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You're fine.)",
         "en_clean": "(You're fine.)",
-        "jp_raw": [
-            "\\m[clear](別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は平気だ。)",
+        "jp_clean": "(僕は平気だ。)",
+        "checked": true
     },
     {
         "en_raw": "(You're fine, you're fine, you're fine.)",
@@ -1998,12 +1966,12 @@
         "jp_clean": "(戻った。)",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO eng should be big
         "en_raw": "<span class=\"shake\">\n (YOU'RE  BACK)\n</span>",
         "en_clean": "(YOU'RE  BACK)",
         "jp_raw": "<span class=\"shake big\">(また戻った！)</span>",
         "jp_clean": "(また戻った！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Haha, no, it's fine, it's fine.)",
@@ -2488,12 +2456,12 @@
         "jp_clean": "そ、そうなの。 えっ、あなたも... 同じことを考えてた？",
         "checked": true
     },
-    {//TODO double check
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
         "jp_raw": "(うなずいてみせる。)",
         "jp_clean": "(うなずいてみせる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...Okay... Well, I won't keep you, then...",

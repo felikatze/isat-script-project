@@ -44,44 +44,16 @@
     {
         "en_raw": "Oh!",
         "en_clean": "Oh!",
-        "jp_raw": [
-            "\\m[vi]おっと！",
-            "\\m[vm]へえ！",
-            "\\m[vmnp]わあ！",
-            "\\m[vinp]えっ！",
-            "\\m[vb]わあ！",
-            "おっ！",
-            "\\m[vkid]\\n<\\v[46]>あっ！",
-            "\\m[vl]わっ！"
-        ],
-        "jp_clean": [
-            "おっと！",
-            "へえ！",
-            "わあ！",
-            "えっ！",
-            "わあ！",
-            "おっ！",
-            "あっ！",
-            "わっ！"
-        ],
-        "checked": false
+        "jp_raw": "おっと！",
+        "jp_clean": "おっと！",
+        "checked": true
     },
     {
         "en_raw": "Um.",
         "en_clean": "Um.",
-        "jp_raw": [
-            "えっと。",
-            "\\m[vm]えっと...",
-            "\\m[vinp]それな。",
-            "\\m[vl]えっ。"
-        ],
-        "jp_clean": [
-            "えっと。",
-            "えっと...",
-            "それな。",
-            "えっ。"
-        ],
-        "checked": false
+        "jp_raw": "えっと。",
+        "jp_clean": "えっと。",
+        "checked": true
     },
     {
         "en_raw": "...",
@@ -1210,20 +1182,12 @@
         "jp_clean": "(平気、平気なんだ。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(You're fine.)",
         "en_clean": "(You're fine.)",
-        "jp_raw": [
-            "\\m[clear](別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は平気だ。)",
+        "jp_clean": "(僕は平気だ。)",
+        "checked": true
     },
     {
         "en_raw": "(You exit the bathroom.)",
@@ -1435,22 +1399,12 @@
         "jp_clean": "(目が刺すように痛い。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Your stomach hurts.)",
         "en_clean": "(Your stomach hurts.)",
-        "jp_raw": [
-            "(胃が痛い。)",
-            "(胃がキリキリ痛む。)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[wait](胃が痛い。)",
-            "\\m[clear](胃が痛い。)"
-        ],
-        "jp_clean": [
-            "(胃が痛い。)",
-            "(胃がキリキリ痛む。)",
-            "(胃が痛い。)",
-            "(胃が痛い。)"
-        ],
-        "checked": false
+        "jp_raw": "(胃が痛い。)",
+        "jp_clean": "(胃が痛い。)",
+        "checked": true
     },
     {
         "en_raw": "(Your head feels like it's about to split in two.)",
@@ -1466,22 +1420,12 @@
         "jp_clean": "(なるべく静かに呼吸しようと、吸って、吐こうとしたけれど、できない――)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Oh!)",
         "en_clean": "(Oh!)",
-        "jp_raw": [
-            "\\m[clear](おお！)",
-            "\\m[vs](ああ！)\\!\\",
-            "\\m[clear]\\m[wait](あっ！)",
-            "(へえ！)"
-        ],
-        "jp_clean": [
-            "(おお！)",
-            "(ああ！)",
-            "(あっ！)",
-            "(へえ！)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ！)",
+        "jp_clean": "(へえ！)",
+        "checked": true
     },
     {
         "en_raw": "(Do you want to cry? Is that it?)",
@@ -1595,20 +1539,12 @@
         "jp_clean": "(よし、もういいだろ、落ち着け。 僕は平気だ。)",
         "checked": true
     },
-    {//TODO usure
+    {
         "en_raw": "(You're fine.)",
         "en_clean": "(You're fine.)",
-        "jp_raw": [
-            "\\m[clear](別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(別に平気だ。)",
-            "(僕は平気だ。)",
-            "(僕は平気だ。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は平気だ。)",
+        "jp_clean": "(僕は平気だ。)",
+        "checked": true
     },
     {
         "en_raw": "(You just   need to keep going.)",
@@ -1693,7 +1629,7 @@
             "(はぁっ...？)",
             "(あれ...？)"
         ],
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The... The tall one, with the glasses... The Researcher, she...)",
@@ -1765,57 +1701,19 @@
         "jp_clean": "\"ここ、紙が切れてるんだ。\"",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh.",
         "en_clean": "Oh.",
-        "jp_raw": [
-            "\\m[vi]えっ。",
-            "\\m[vo]ああ。",
-            "\\m[vb]おう。",
-            "\\m[vm]えっ。",
-            "\\m[vinp]おお。",
-            "\\m[vlnp]あー。\\!\\m[wait]\\^",
-            "\\m[vlnp]わあ。",
-            "\\m[vm]\\>あっ。\\<\\^",
-            "\\m[vkid]\\n<\\v[46]>ふーん。",
-            "\\n<\\v[46]>\\m[vkid]へえ。",
-            "\\m[vonp]おや。",
-            "\\m[vl]へえ。"
-        ],
-        "jp_clean": [
-            "えっ。",
-            "ああ。",
-            "おう。",
-            "えっ。",
-            "おお。",
-            "あー。",
-            "わあ。",
-            "あっ。",
-            "ふーん。",
-            "へえ。",
-            "おや。",
-            "へえ。"
-        ],
-        "checked": false
+        "jp_raw": "ああ。",
+        "jp_clean": "ああ。",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "HA!",
         "en_clean": "HA!",
-        "jp_raw": [
-            "\\m[vi]ハハ！",
-            "\\m[vo]ハハ！",
-            "\\m[vonp]そうか！",
-            "\\m[vl]アハハ！",
-            "ほう！"
-        ],
-        "jp_clean": [
-            "ハハ！",
-            "ハハ！",
-            "そうか！",
-            "アハハ！",
-            "ほう！"
-        ],
-        "checked": false
+        "jp_raw": "ハハ！",
+        "jp_clean": "ハハ！",
+        "checked": true
     },
     {
         "en_raw": "I'll go and get you some. Give me a second.",
@@ -2203,7 +2101,7 @@
             "(胃が痛い。)",
             "(胃が痛い。)"
         ],
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Bonnie's snacks haven't managed to fill your stomach for loops now.)",
@@ -2429,30 +2327,12 @@
         "jp_clean": "ハグしてくれる？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh!",
         "en_clean": "Oh!",
-        "jp_raw": [
-            "\\m[vi]おっと！",
-            "\\m[vm]へえ！",
-            "\\m[vmnp]わあ！",
-            "\\m[vinp]えっ！",
-            "\\m[vb]わあ！",
-            "おっ！",
-            "\\m[vkid]\\n<\\v[46]>あっ！",
-            "\\m[vl]わっ！"
-        ],
-        "jp_clean": [
-            "おっと！",
-            "へえ！",
-            "わあ！",
-            "えっ！",
-            "わあ！",
-            "おっ！",
-            "あっ！",
-            "わっ！"
-        ],
-        "checked": false
+        "jp_raw": "わあ！",
+        "jp_clean": "わあ！",
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n 'M sorry, I promise I won't hug you long, I just, um--\n</span>",
@@ -2865,7 +2745,7 @@
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...   We were all split about this, but we all agreed to bring you with us to fight the King, because at the time we thought this would be the best way to keep you safe from the Curse.",
@@ -3308,36 +3188,12 @@
         "jp_clean": "ぽん、ぽん、ぽん。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hm.",
         "en_clean": "Hm.",
-        "jp_raw": [
-            "\\m[vi]うーん。",
-            "うん。\\!\\m[wait]\\^",
-            "んー。",
-            "\\m[vo]ふむ。",
-            "\\m[vb]うーん。",
-            "\\m[vwoman]\\n<\\v[46]>ふう。",
-            "\\m[vman]\\n<\\v[46]>ほう。",
-            "\\m[vlnp]うん。",
-            "\\m[vo]ふむ。\\!\\m[wait]\\^",
-            "\\m[vl]ふう。",
-            "\\m[vbnp]ふーん。"
-        ],
-        "jp_clean": [
-            "うーん。",
-            "うん。",
-            "んー。",
-            "ふむ。",
-            "うーん。",
-            "ふう。",
-            "ほう。",
-            "うん。",
-            "ふむ。",
-            "ふう。",
-            "ふーん。"
-        ],
-        "checked": false
+        "jp_raw": "ふーん。",
+        "jp_clean": "ふーん。",
+        "checked": true
     },
     {
         "en_raw": ". . .",
@@ -3710,28 +3566,12 @@
         "jp_clean": "「ミラは恋愛ものを読むのは好きだけど、現実の恋愛について話すのは苦手だと思う」だそうだ。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh...",
         "en_clean": "Oh...",
-        "jp_raw": [
-            "\\m[vb]あぁ...",
-            "\\m[vmnp]あ...",
-            "\\m[vm]あら...",
-            "ああ...",
-            "\\m[vm]えっと\\..\\..\\..",
-            "\\m[vo]ああ...",
-            "\\n<\\v[46]>\\m[vkid]わあ..."
-        ],
-        "jp_clean": [
-            "あぁ...",
-            "あ...",
-            "あら...",
-            "ああ...",
-            "えっと...",
-            "ああ...",
-            "わあ..."
-        ],
-        "checked": false
+        "jp_raw": "あ...",
+        "jp_clean": "あ...",
+        "checked": true
     },
     {
         "en_raw": "W-Well, that's true, but Isabeau is my friend!!! My romance book friend!!!",
@@ -4013,22 +3853,12 @@
         "jp_clean": "シフラン？",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "Good. Let's get going then, shall we?",

@@ -209,24 +209,12 @@
         "jp_clean": "オイラが強くてかっこいいって？ 知ってるよ。 強いし！ かっこいい！！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You smile.)",
         "en_clean": "(You smile.)",
-        "jp_raw": [
-            "(笑みが浮かぶ。)",
-            "\\m[clear](ほほ笑んでみせる。)",
-            "\\m[wait](笑みがこぼれる。)\\m[wait]\\^",
-            "\\m[wait](顔がほころぶ。)",
-            "\\m[clear](僕は微笑む。)\\!\\"
-        ],
-        "jp_clean": [
-            "(笑みが浮かぶ。)",
-            "(ほほ笑んでみせる。)",
-            "(笑みがこぼれる。)",
-            "(顔がほころぶ。)",
-            "(僕は微笑む。)"
-        ],
-        "checked": false
+        "jp_raw": "(ほほ笑んでみせる。)",
+        "jp_clean": "(ほほ笑んでみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(Books.)",
@@ -312,20 +300,12 @@
         "jp_clean": "こんなとこに書き残すなんて、危ないし、短慮だな。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -642,24 +622,12 @@
         "jp_clean": "(二人の読書会ができるといいな。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You smile.)",
         "en_clean": "(You smile.)",
-        "jp_raw": [
-            "(笑みが浮かぶ。)",
-            "\\m[clear](ほほ笑んでみせる。)",
-            "\\m[wait](笑みがこぼれる。)\\m[wait]\\^",
-            "\\m[wait](顔がほころぶ。)",
-            "\\m[clear](僕は微笑む。)\\!\\"
-        ],
-        "jp_clean": [
-            "(笑みが浮かぶ。)",
-            "(ほほ笑んでみせる。)",
-            "(笑みがこぼれる。)",
-            "(顔がほころぶ。)",
-            "(僕は微笑む。)"
-        ],
-        "checked": false
+        "jp_raw": "(ほほ笑んでみせる。)",
+        "jp_clean": "(ほほ笑んでみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(Some things stay the same.)",
@@ -960,14 +928,14 @@
         "en_clean": "('Peel an orange open'...)",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "('Peel an orange open'...)",
         "en_clean": "('Peel an orange open'...)",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -1074,22 +1042,12 @@
         "jp_clean":  "...",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You look away.)",
         "en_clean": "(You look away.)",
-        "jp_raw": [
-            "(僕は目を逸らした。)",
-            "\\m[clear](手紙から視線を逸らした。)",
-            "\\m[clear]\\m[wait](僕は顔をそむけてしまう。)",
-            "\\m[wait]\\m[clear](僕は目をそらす。)"
-        ],
-        "jp_clean": [
-            "(僕は目を逸らした。)",
-            "(手紙から視線を逸らした。)",
-            "(僕は顔をそむけてしまう。)",
-            "(僕は目をそらす。)"
-        ],
-        "checked": false
+        "jp_raw": "(手紙から視線を逸らした。)",
+        "jp_clean": "(手紙から視線を逸らした。)",
+        "checked": true
     },
     {
         "en_raw": "(The poem lays here, unfinished.)",

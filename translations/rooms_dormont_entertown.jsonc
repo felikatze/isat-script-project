@@ -6,29 +6,19 @@
         "jp_clean": "シフラン！ 起きたのね！",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(The usual, please.)",
         "en_clean": "(The usual, please.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(いつものやつでいこう。)",
+        "jp_clean": "(いつものやつでいこう。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Here again.)",
         "en_clean": "(Here again.)",
-        "jp_raw": [
-            "\\m[clear](またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)\\!\\m[wait]\\^",
-            "(まただ。)\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "(またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)",
-            "(まただ。)"
-        ],
-        "checked": false
+        "jp_raw": "(またここだ。)",
+        "jp_clean": "(またここだ。)",
+        "checked": true
     },
     {
         "en_raw": "(You'd like to make sure Mirabelle doesn't get upset, but is there any way to make this conversation go faster...?)",
@@ -44,29 +34,19 @@
         "jp_clean": "(たとえば...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Here again.)",
         "en_clean": "(Here again.)",
-        "jp_raw": [
-            "\\m[clear](またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)\\!\\m[wait]\\^",
-            "(まただ。)\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "(またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)",
-            "(まただ。)"
-        ],
-        "checked": false
+        "jp_raw": "(またここだ。)",
+        "jp_clean": "(またここだ。)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(Enter Mirabelle.)",
         "en_clean": "(Enter Mirabelle.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ミラベル登場。)",
+        "jp_clean": "(ミラベル登場。)",
+        "checked": true
     },
     {
         "en_raw": "Hey, Siffrin! Hehehe!",
@@ -85,17 +65,9 @@
     {//TODO choicer "\"1点。誰かさんに起こされたからね...\"" "\"5点。いたって普通だった。\"" "\"バッチリ9点。\""
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -167,19 +139,19 @@
         "jp_clean": "(そうだ、言うべきことは分かってる。)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(Make her happy.)",
         "en_clean": "(Make her happy.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(彼女をゴキゲンにしてやるんだ。)",
+        "jp_clean": "(彼女をゴキゲンにしてやるんだ。)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(The usual.)",
         "en_clean": "(The usual.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(いつも通りだ。)",
+        "jp_clean": "(いつも通りだ。)",
+        "checked": true
     },
     {
         "en_raw": "(Say the line, Siffrin.)",
@@ -263,14 +235,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay! Let me think...",
@@ -300,19 +272,19 @@
         "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You think so, yes.)",
         "en_clean": "(You think so, yes.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ちゃんと覚えてるよ。)",
+        "jp_clean": "(ちゃんと覚えてるよ。)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You really, really will.)",
         "en_clean": "(You really, really will.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(忘れようがないよ。)",
+        "jp_clean": "(忘れようがないよ。)",
+        "checked": true
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
@@ -405,30 +377,12 @@
         "jp_clean": "それと、ウツロイ様の像にも必ずお参りしてね！ きっといいことがあるから！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh!",
         "en_clean": "Oh!",
-        "jp_raw": [
-            "\\m[vi]おっと！",
-            "\\m[vm]へえ！",
-            "\\m[vmnp]わあ！",
-            "\\m[vinp]えっ！",
-            "\\m[vb]わあ！",
-            "おっ！",
-            "\\m[vkid]\\n<\\v[46]>あっ！",
-            "\\m[vl]わっ！"
-        ],
-        "jp_clean": [
-            "おっと！",
-            "へえ！",
-            "わあ！",
-            "えっ！",
-            "わあ！",
-            "おっ！",
-            "あっ！",
-            "わっ！"
-        ],
-        "checked": false
+        "jp_raw": "へえ！",
+        "jp_clean": "へえ！",
+        "checked": true
     },
     {
         "en_raw": "I-I was actually just thinking about it... What do you think?",
@@ -584,12 +538,12 @@
         "jp_clean": "シフラン！ 起きたのね！",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You sure are.) \"Hey Mira.\"",
         "en_clean": "(You sure are.) \"Hey Mira.\"",
-        "jp_raw": "\"やあ、ミラ。\" ",
-        "jp_clean": "\"やあ、ミラ。\" ",
-        "checked": false
+        "jp_raw": "(起きたよ。) \"やあ、ミラ。\" ",
+        "jp_clean": "(起きたよ。) \"やあ、ミラ。\" ",
+        "checked": true
     },
     {
         "en_raw": "Hey, Siffrin! Hehehe!",
@@ -659,7 +613,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Good! I think.",
@@ -860,9 +814,9 @@
     {//TODO unsure first 
         "en_raw": "(Um...) \"I always remember things.\"",
         "en_clean": "(Um...) \"I always remember things.\"",
-        "jp_raw": "\"僕の記憶は完璧だ。\"",
-        "jp_clean": "\"僕の記憶は完璧だ。\"",
-        "checked": false
+        "jp_raw": "(うーん...) \"僕の記憶は完璧だ。\"",
+        "jp_clean": "(うーん...) \"僕の記憶は完璧だ。\"",
+        "checked": true
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
@@ -911,7 +865,7 @@
         "en_clean": "[To access your Pockets, open the Menu by pressing [button].]",
         "jp_raw": "[[button]でメニューを開くとポケットの中を見られるんだ。]",
         "jp_clean": "[[button]でメニューを開くとポケットの中を見られるんだ。]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "[The Menu contains your Pockets, your Equipment, and many other things!]",
@@ -925,7 +879,7 @@
         "en_clean": "[You can interact with most items in your Pockets by pressing [button]!]",
         "jp_raw": "[ポケットのアイテムは、たいてい[button]を押せば調べられるよ！]",
         "jp_clean": "[ポケットのアイテムは、たいてい[button]を押せば調べられるよ！]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Okay, see you at the Clocktower later then! I'll be near the library if you need me, come talk to me whenever!",
@@ -969,12 +923,12 @@
         "jp_clean": "(この状況は前にもあった。だから... 同じ行動をとる？ 早く決めなきゃ！)",
         "checked": true
     },
-    {//TODO can't find first
+    {
         "en_raw": "(Quick!) \"Hey, uh, hey again, Mira.\"",
         "en_clean": "(Quick!) \"Hey, uh, hey again, Mira.\"",
-        "jp_raw": "\"や、やあミラ。また会ったね。\"",
-        "jp_clean": "\"や、やあミラ。また会ったね。\"",
-        "checked": false
+        "jp_raw": "(急げ！) \"や、やあミラ。また会ったね。\"",
+        "jp_clean": "(急げ！) \"や、やあミラ。また会ったね。\"",
+        "checked": true
     },
     {
         "en_raw": "...Still half asleep, huh? How was your nap?",
@@ -993,9 +947,9 @@
     {//TODO can't find first
         "en_raw": "(Smart and normal words, GO!) \"Yes. Correct. I was taking nap time.\"",
         "en_clean": "(Smart and normal words, GO!) \"Yes. Correct. I was taking nap time.\"",
-        "jp_raw": "\"そう、その通り。昼寝をしてたんだ。\"",
-        "jp_clean": "\"そう、その通り。昼寝をしてたんだ。\"",
-        "checked": false
+        "jp_raw": "(当たり障りなく、気の利いたセリフだ。ほら言え！) \"そう、その通り。昼寝をしてたんだ。\"",
+        "jp_clean": "(当たり障りなく、気の利いたセリフだ。ほら言え！) \"そう、その通り。昼寝をしてたんだ。\"",
+        "checked": true
     },
     {
         "en_raw": "...I know that? I was there?",
@@ -1067,12 +1021,12 @@
         "jp_clean": "(変えられるだろうか？ 運命は変えられる？！？ 確かめる方法はひとつしかない...)",
         "checked": true
     },
-    {//TODO can't find first
+    {
         "en_raw": "(Something like...) \"That sounds like an AMAZING idea, Mira!\"",
         "en_clean": "(Something like...) \"That sounds like an AMAZING idea, Mira!\"",
-        "jp_raw": "\"そいつは素晴らしい考えだよ、ミラ！\"",
-        "jp_clean": "\"そいつは素晴らしい考えだよ、ミラ！\"",
-        "checked": false
+        "jp_raw": "(たとえば...) \"そいつは素晴らしい考えだよ、ミラ！\"",
+        "jp_clean": "(たとえば...) \"そいつは素晴らしい考えだよ、ミラ！\"",
+        "checked": true
     },
     {
         "en_raw": "Yeah? Oh, I'm so glad you think so!!!",
@@ -1165,12 +1119,12 @@
         "jp_clean": "...いっぺんにいろんなことを言っちゃったけど... 誰がどこにいるか覚えた？",
         "checked": true
     },
-    {//TODO can't find first
+    {
         "en_raw": "(You think so, yes.) \"I always remember things.\"",
         "en_clean": "(You think so, yes.) \"I always remember things.\"",
-        "jp_raw": "\"僕の記憶は完璧だ。\"",
-        "jp_clean": "\"僕の記憶は完璧だ。\"",
-        "checked": false
+        "jp_raw": "(ちゃんと覚えてるよ。) \"僕の記憶は完璧だ。\"",
+        "jp_clean": "(ちゃんと覚えてるよ。) \"僕の記憶は完璧だ。\"",
+        "checked": true
     },
     {
         "en_raw": "...Well, unrelated to your memory...",
@@ -1319,12 +1273,12 @@
         "jp_clean": "(...？)",
         "checked": true
     },
-    {//TODO can't find first
+    {
         "en_raw": "(Well, this is new...) \"Yes, don't worry about me!\"",
         "en_clean": "(Well, this is new...) \"Yes, don't worry about me!\"",
-        "jp_raw": "\"うん、心配いらないよ！\"",
-        "jp_clean": "\"うん、心配いらないよ！\"",
-        "checked": false
+        "jp_raw": "(ふむ、これは新しいパターンだ。) \"うん、心配いらないよ！\"",
+        "jp_clean": "(ふむ、これは新しいパターンだ。) \"うん、心配いらないよ！\"",
+        "checked": true
     },
     {
         "en_raw": "Ah... Okay, but...",
@@ -1333,12 +1287,12 @@
         "jp_clean": "そう... ならいいけど...",
         "checked": true
     },
-    {//TODO can't find first
+    {
         "en_raw": "(You really have to talk to Loop right now...) \"I have things to do, I'll talk to you later!\"",
         "en_clean": "(You really have to talk to Loop right now...) \"I have things to do, I'll talk to you later!\"",
-        "jp_raw": "\"用事があるんだ。また後で話そう！\"",
-        "jp_clean": "\"用事があるんだ。また後で話そう！\"",
-        "checked": false
+        "jp_raw": "(今すぐループと話さないと...) \"用事があるんだ。また後で話そう！\"",
+        "jp_clean": "(今すぐループと話さないと...) \"用事があるんだ。また後で話そう！\"",
+        "checked": true
     },
     {
         "en_raw": "Huh?! Um, Siffrin, please wait!!!",
@@ -1380,7 +1334,7 @@
         "en_clean": "...Please.",
         "jp_raw": "...お願い。",
         "jp_clean": "...お願い。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Oh.)",
@@ -1397,7 +1351,7 @@
             "(ああ。)",
             "(あ。)"
         ],
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...) \"Okay...?\"",
@@ -1553,22 +1507,12 @@
         "jp_clean": "ちょっと前に東にある畑の近くで見かけたよ。話したいなら行ってみれば？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "O-Okay...",

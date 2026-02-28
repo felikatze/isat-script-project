@@ -6,12 +6,12 @@
         "jp_clean": "(鏡だ。)",
         "checked": true
     },
-    {//TODO unsure how game translates actors
+    {
         "en_raw": "(You and your [allies/family members/actors] are reflected in it.)",
         "en_clean": "(You and your [allies/family members/actors] are reflected in it.)",
-        "jp_raw": "(鏡には、僕と[仲間たち/家族/____]が映っている。)",
-        "jp_clean": "(鏡には、僕と[仲間たち/家族/____]が映っている。)",
-        "checked": false
+        "jp_raw": "(鏡には、僕と[仲間たち/家族/演者]が映っている。)",
+        "jp_clean": "(鏡には、僕と[仲間たち/家族/演者]が映っている。)",
+        "checked": true
     },
     {
         "en_raw": "That's a big mirror.",
@@ -167,30 +167,12 @@
         "jp_clean": "イザボー、教えてくれて、それに撮ってくれてありがとう！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh!",
         "en_clean": "Oh!",
-        "jp_raw": [
-            "\\m[vi]おっと！",
-            "\\m[vm]へえ！",
-            "\\m[vmnp]わあ！",
-            "\\m[vinp]えっ！",
-            "\\m[vb]わあ！",
-            "おっ！",
-            "\\m[vkid]\\n<\\v[46]>あっ！",
-            "\\m[vl]わっ！"
-        ],
-        "jp_clean": [
-            "おっと！",
-            "へえ！",
-            "わあ！",
-            "えっ！",
-            "わあ！",
-            "おっ！",
-            "あっ！",
-            "わっ！"
-        ],
-        "checked": false
+        "jp_raw": "おっと！",
+        "jp_clean": "おっと！",
+        "checked": true
     },
     {
         "en_raw": "Hehe... It's nothing!",
@@ -409,12 +391,12 @@
         "jp_clean": "(写真を見ると、笑みがこぼれる。)",
         "checked": true
     },
-    {//TODO double check formatting
+    {
         "en_raw": "(It's you and your [allies/family members][!/.])",
         "en_clean": "(It's you and your [allies/family members][!/.])",
-        "jp_raw": "(...僕と[仲間たち/家族]だ)",
-        "jp_clean": "(...僕と[仲間たち/家族]だ)",
-        "checked": false
+        "jp_raw": "(...僕と[仲間たち/家族]だ[！/。])",
+        "jp_clean": "(...僕と[仲間たち/家族]だ[！/。])",
+        "checked": true
     },
     {
         "en_raw": "(It's you.)",
@@ -423,22 +405,12 @@
         "jp_clean": "(僕だ。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Oh!)",
         "en_clean": "(Oh!)",
-        "jp_raw": [
-            "\\m[clear](おお！)",
-            "\\m[vs](ああ！)\\!\\",
-            "\\m[clear]\\m[wait](あっ！)",
-            "(へえ！)"
-        ],
-        "jp_clean": [
-            "(おお！)",
-            "(ああ！)",
-            "(あっ！)",
-            "(へえ！)"
-        ],
-        "checked": false
+        "jp_raw": "(おお！)",
+        "jp_clean": "(おお！)",
+        "checked": true
     },
     {
         "en_raw": "(The flash of the mirror somehow made something appear...)",

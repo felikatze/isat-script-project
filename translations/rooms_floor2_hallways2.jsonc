@@ -139,18 +139,12 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    { //TODO unsure which
+    {
         "en_raw": "What.",
         "en_clean": "What.",
-        "jp_raw": [
-            "\\m[vo]なんだ。",
-            "\\m[vi]え？"
-        ],
-        "jp_clean": [
-            "なんだ。",
-            "え？"
-        ],
-        "checked": false
+        "jp_raw": "なんだ。",
+        "jp_clean": "なんだ。",
+        "checked": true
     },
     {
         "en_raw": "CUTE???",
@@ -313,24 +307,12 @@
         "jp_clean": "(ミラベルに向かって微笑む。)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ふふふ...",
+        "jp_clean": "ふふふ...",
+        "checked": true
     },
     {
         "en_raw": "...!",
@@ -668,12 +650,12 @@
         "jp_clean": "うん。",
         "checked": true
     },
-    {//TODO can't find
+    {//TODO eng missing quotes
         "en_raw": "Sucks.",
         "en_clean": "Sucks.",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "\"サイアクだ。\"",
+        "jp_clean": "\"サイアクだ。\"",
+        "checked": true
     },
     {
         "en_raw": "Mirabelle, any idea where the key for this would be?",
@@ -1331,7 +1313,7 @@
         "en_clean": "Manly man's intuition.",
         "jp_raw": "男の直感ってやつだな。",
         "jp_clean": "男の直感ってやつだな。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Ah...",
@@ -1546,16 +1528,16 @@
     {
         "en_raw": "Siffrin. You're the tie-breaker.",
         "en_clean": "Siffrin. You're the tie-breaker.",
-        "jp_raw": "シフラン。m[wait]きみ次第で決まる。",
+        "jp_raw": "シフラン。きみ次第で決まる。",
         "jp_clean": "シフラン。きみ次第で決まる。",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(But you hate being the tie-breaker!!!)",
         "en_clean": "(But you hate being the tie-breaker!!!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(自分で決まるのはイヤなんだが！)",
+        "jp_clean": "(自分で決まるのはイヤなんだが！)",
+        "checked": true
     },
     {
         "en_raw": "No. They insulted the Beauty Alliance. All that's left is war.",
@@ -1564,18 +1546,12 @@
         "jp_clean": "ダメ。ビューティー同盟をバカにされたもん。こうなったら戦争だよ。",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Woah.",
         "en_clean": "Woah.",
-        "jp_raw": [
-            "\\m[vb]げえっ。",
-            "\\m[vi]おっと。"
-        ],
-        "jp_clean": [
-            "げえっ。",
-            "おっと。"
-        ],
-        "checked": false
+        "jp_raw": "げえっ。",
+        "jp_clean": "げえっ。",
+        "checked": true
     },
     {
         "en_raw": "Unless you bring peace to the Alliances by choosing a side...",
@@ -1619,20 +1595,12 @@
         "jp_clean": "(けどわざと間違った方向に進んで、何があるか調べるのもアリだよね？)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(So...)",
         "en_clean": "(So...)",
-        "jp_raw": [
-            "\\m[clear](ということは...)",
-            "(それじゃ...)",
-            "\\m[vs](じゃあ...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ということは...)",
-            "(それじゃ...)",
-            "(じゃあ...)"
-        ],
-        "checked": false
+        "jp_raw": "(では...)",
+        "jp_clean": "(では...)",
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake big\">\n CRAB YEAH!!!!!!!!!!!!!!!!!!!!!!!\n</span>",
@@ -1718,18 +1686,12 @@
         "jp_clean": "(これ見よがしにふくれっ面をして、キュートにウィンクする。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Ew.",
         "en_clean": "Ew.",
-        "jp_raw": [
-            "\\m[vo]げっ。",
-            "\\m[vb]おえっ。"
-        ],
-        "jp_clean": [
-            "げっ。",
-            "おえっ。"
-        ],
-        "checked": false
+        "jp_raw": "おえっ。",
+        "jp_clean": "おえっ。",
+        "checked": true
     },
     {
         "en_raw": "Hm. Let's use this Crest then, shall we?",
@@ -1836,18 +1798,12 @@
         "jp_clean": "おふざけは終わりだ。では星の紋章を使おうか？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Uh oh.",
         "en_clean": "Uh oh.",
-        "jp_raw": [
-            "\\m[vb]ヤバッ。",
-            "\\m[vi]おっと。"
-        ],
-        "jp_clean": [
-            "ヤバッ。",
-            "おっと。"
-        ],
-        "checked": false
+        "jp_raw": "ヤバッ。",
+        "jp_clean": "ヤバッ。",
+        "checked": true
     },
     {
         "en_raw": "...We're kidding, Siffrin. Don't look so sad.",
