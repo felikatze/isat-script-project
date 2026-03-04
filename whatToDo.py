@@ -18,11 +18,13 @@ tFCount2 = 0
 for i in liAss:
   fullCount = 0
   percent = 0.0
+  c = False
   if (i[-5:] == ".json"):
     i = i[:-5]
   file = "line_associations\\" + i + ".json"
   if i in trans:
     file = "translations\\" + i + ".jsonc"
+    c = True
   try:
     with open(file, encoding="utf-8") as f:
       print("loading", file)
@@ -38,7 +40,7 @@ for i in liAss:
       percent = float(num)/float(fullCount)
   except Exception as e:
     print("failed", file, e)
-  fiList.append({"name":i,"count":fullCount,"percent":percent})
+  fiList.append({"name":i,"count":fullCount,"percent":percent,"fileMade":c})
 
 sortedDataStr = json.dumps(sorted(fiList, key=itemgetter('percent'),reverse=True))
 print(float(tFCount1)/float(tFCount2))
