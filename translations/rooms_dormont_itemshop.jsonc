@@ -60,7 +60,7 @@
         "en_clean": "(You nod.)",
         "jp_raw": "(うなずいてみせる。)",
         "jp_clean": "(うなずいてみせる。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The Change God, huh...)",
@@ -130,7 +130,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
@@ -230,12 +230,12 @@
         "jp_clean": "(ミラベルの心配を少し理解できたな。)",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO missing quotes on eng
         "en_raw": "(Oh, before you forget.) Know anything about locked doors in the House?",
         "en_clean": "(Oh, before you forget.) Know anything about locked doors in the House?",
         "jp_raw": "(そうだ、忘れる前に！) \"館の中の、鍵のかかった扉について何か知ってる？\"",
         "jp_clean": "(そうだ、忘れる前に！) \"館の中の、鍵のかかった扉について何か知ってる？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Locked doors...? Ah, yes!",
@@ -307,12 +307,12 @@
         "jp_clean": "(探ってみるしかない、か。)",
         "checked": true
     },
-    {//TODO eng formatting
+    {//TODO missing quotes on eng
         "en_raw": "Know of any hidden rooms in the House?",
         "en_clean": "Know of any hidden rooms in the House?",
         "jp_raw": "\"館に他の隠し部屋はある？\"",
         "jp_clean": "\"館に他の隠し部屋はある？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hm... Hidden rooms, hidden rooms...",
@@ -347,7 +347,7 @@
         "en_clean": "(Hm...)",
         "jp_raw": "(ふむ...)",
         "jp_clean": "(ふむ...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You should keep a lookout for holes in walls, and rubble, you suppose.)",
@@ -398,18 +398,12 @@
         "jp_clean": "(ここに来たのは、オディールと話すためだ。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You walk away.)",
         "en_clean": "(You walk away.)",
-        "jp_raw": [
-            "(ここは立ち去ろう。)",
-            "\\m[clear](立ち去る。)"
-        ],
-        "jp_clean": [
-            "(ここは立ち去ろう。)",
-            "(立ち去る。)"
-        ],
-        "checked": false
+        "jp_raw": "(ここは立ち去ろう。)",
+        "jp_clean": "(ここは立ち去ろう。)",
+        "checked": true
     },
     {
         "en_raw": "Oh, um, okay! May the Change God protect you!",

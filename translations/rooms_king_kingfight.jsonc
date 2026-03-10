@@ -32,7 +32,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n Ah...... ah......\n</span>",
@@ -62,12 +62,12 @@
         "jp_clean": "おお...... うら若きおとめよ...... おまえはウツロイのために 戦うのだな......？",
         "checked": true
     },
-    {//TODO eng should shake
+    {
         "en_raw": "...I...",
         "en_clean": "...I...",
         "jp_raw": "...わ...",
         "jp_clean": "...わ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n I... I just want the world to stay the way it is now......\n <br/>\n To be frozen in eternal beauty.......\n</span>",
@@ -280,25 +280,25 @@
         "checked": true
     },
     {//TODO this and next are choicer "\"何のこと？\"" "\"おまえは？\"" "\"おまえのことは覚えてる。\" " "\"...それに意味があるの？\" " "\"...\""
-        "en_raw": "(Remember...?)",
+        "en_raw": "(Remember...?)", // TODO typo should be two dots
         "en_clean": "(Remember...?)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(覚えて...？)",
+        "jp_clean": "(覚えて...？)",
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n Oh...... Oh, oh......!!!\n</span>",
@@ -538,12 +538,12 @@
         "jp_clean": "(王に聞きたいことはまだある。)",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(The King waits...)",
         "en_clean": "(The King waits...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(王は待機している…)",
+        "jp_clean": "(王は待機している…)",
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n Ooh, ooooooh......\n</span>",
@@ -559,12 +559,12 @@
         "jp_clean": "頃合いだな、救国の英雄よ。",
         "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(You see a vision of the future...)",
         "en_clean": "(You see a vision of the future...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(未来が目に浮かぶ...)",
+        "jp_clean": "(未来が目に浮かぶ...)",
+        "checked": true
     },
     {
         "en_raw": "Ngh...!!!",
@@ -664,12 +664,12 @@
         "jp_clean": "(へえ...)",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO eng needs wave
         "en_raw": "(You're doing pretty good!)",
         "en_clean": "(You're doing pretty good!)",
         "jp_raw": "<span class=\"wave\">(順調だ！)</span>",
         "jp_clean": "(順調だ！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You stick your tongue out at the King.)",
@@ -713,12 +713,12 @@
         "jp_clean": "(次のセリフを待とう。)",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO eng needs shake
         "en_raw": "--DON'T HAVE THE RIGHT TO CRY!!!",
         "en_clean": "--DON'T HAVE THE RIGHT TO CRY!!!",
         "jp_raw": "<span class=\"shake\">――泣く資格なんかないっ！！！</span>",
         "jp_clean": "――泣く資格なんかないっ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The King doesn't answer.)",
@@ -811,12 +811,12 @@
         "jp_clean": "オマエのせいで、みんな氷漬けなんだ！！！",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO eng needs shake
         "en_raw": "YOU DON'T HAVE THE RIGHT TO CRY!!!",
         "en_clean": "YOU DON'T HAVE THE RIGHT TO CRY!!!",
         "jp_raw": "<span class=\"shake\">オマエに泣く資格なんかないっ！！！</span>",
         "jp_clean": "オマエに泣く資格なんかないっ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The King   doesn't answer.)",
@@ -1019,7 +1019,7 @@
         "en_clean": "Huh-?",
         "jp_raw": "へっ！？",
         "jp_clean": "へっ！？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"big\">\n WHAT?!?\n</span>",
@@ -1070,12 +1070,12 @@
         "jp_clean": "自分を見てみよ！！！皆、とても強いではないか！！！",
         "checked": true
     },
-    {//TODO check eng formatting
+    {//TODO eng needs big
         "en_raw": "<span class=\"shake\">\n DON'T YOU WANT IT ALL\n <br/>\n TO END LIKE THIS!!!!!!\n</span>",
         "en_clean": "DON'T YOU WANT IT ALL TO END LIKE THIS!!!!!!",
         "jp_raw": "<span class=\"shake big\">このまま、終わりを迎えたいとは思わぬか！！！</span>",
         "jp_clean": "このまま、終わりを迎えたいとは思わぬか！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(What is he...)",
@@ -1208,7 +1208,7 @@
         "en_clean": "Bonnie (no):--just a dumb baby idiot who froze the country in time for dumb baby idiot reasons!!!!!!",
         "jp_raw": "――バカな理由で国を氷漬けにしようとしたバカなあかちゃん、バカちゃんだっ！！！",
         "jp_clean": "――バカな理由で国を氷漬けにしようとしたバカなあかちゃん、バカちゃんだっ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Concentrate.)",
@@ -1222,14 +1222,14 @@
         "en_clean": "Ah......!!!",
         "jp_raw": "<span class=\"shake\">ああ......！！！</span>",
         "jp_clean": "ああ......！！！",
-        "checked": false
+        "checked": true
     },
     {//TODO check eng formatting
         "en_raw": "N-no...... This can't--!",
         "en_clean": "N-no...... This can't--!",
         "jp_raw": "<span class=\"shake\"そ、そんな......<br>\nこんなことが――！</span>",
         "jp_clean": "そ、そんな......こんなことが――！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Mirabelle's speech washes over you.)",
@@ -1315,24 +1315,12 @@
         "jp_clean": "...！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Heh.",
         "en_clean": "Heh.",
-        "jp_raw": [
-            "\\m[vo]ふん。",
-            "\\m[vonp]ほう。",
-            "\\m[vi]ヘッ。",
-            "\\m[vl]へえ。",
-            "へえ。"
-        ],
-        "jp_clean": [
-            "ふん。",
-            "ほう。",
-            "ヘッ。",
-            "へえ。",
-            "へえ。"
-        ],
-        "checked": false
+        "jp_raw": "ふん。",
+        "jp_clean": "ふん。",
+        "checked": true
     },
     {
         "en_raw": "\"Life will never get better than this, so you should give up now\"?",
@@ -1346,7 +1334,7 @@
         "en_clean": "GIVE ME A BREAK!!!",
         "jp_raw": "<span class=\"shake big\">冗談言わないで！！！</span>",
         "jp_clean": "冗談言わないで！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "The eternity you wish for... I want no part of it!!!",
@@ -1390,20 +1378,12 @@
         "jp_clean": "だからわたしは許さない！ あなたの好きなようにはさせない！！！",
         "checked": true
     },
-    {//todo unsure
+    {
         "en_raw": "Hahaha!",
         "en_clean": "Hahaha!",
-        "jp_raw": [
-            "アハハハ！",
-            "\\m[vi]ハハッ！",
-            "\\m[vl]アハハ！"
-        ],
-        "jp_clean": [
-            "アハハハ！",
-            "ハハッ！",
-            "アハハ！"
-        ],
-        "checked": false
+        "jp_raw": "ハハッ！",
+        "jp_clean": "ハハッ！",
+        "checked": true
     },
     {
         "en_raw": "Yeah, what she said! Nice try, trying to manipulate us into being frozen!",
@@ -1466,37 +1446,37 @@
         "en_clean": "(Heh...)",
         "jp_raw": "(へえ...)",
         "jp_clean": "(へえ...)",
-        "checked": false
+        "checked": true
     },
     {//TODO cant find, eng missing response
         "en_raw": "(Your turn.)",
         "en_clean": "(Your turn.)",
-        "jp_raw": null, //"\"僕が付け加えられそうなことは、もうないよ。\""
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(僕の番だ。)", //"\"僕が付け加えられそうなことは、もうないよ。\""
+        "jp_clean": "(僕の番だ。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {//TODO eng missing response
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null, //"\"だから、きみにできるのは、もう消えることだけ。\""
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
-    {//TODO check jap formatting
+    {
         "en_raw": "<span class=\"shake\">\n No......\n <br/>\n No, no, no, NO!!!\n</span>",
         "en_clean": "No......No, no, no, NO!!!",
         "jp_raw": "<span class=\"shake\">\"やめろ......やめろ、やめろ！！！\"</span>",
@@ -1529,7 +1509,7 @@
         "en_clean": "DISAPPEAR!!!!",
         "jp_raw": "<span class=\"shake\">消えなさい！！！</span>",
         "jp_clean": "消えなさい！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake big\">\n NO!!!!!!!!!\n</span>",
@@ -1627,14 +1607,14 @@
         "en_clean": "",
         "jp_raw": "\". . .\"",
         "jp_clean": "\". . .\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Mirabelle... That attack of yours...",
@@ -1676,7 +1656,7 @@
         "en_clean": "WE WON?!?!?",
         "jp_raw": "<span class=\"shake big\">俺たち勝ったのか？！？！</span>",
         "jp_clean": "俺たち勝ったのか？！？！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Everyone, we did it!!! He's gone!!! The King is gone!!!",
@@ -1713,56 +1693,40 @@
         "jp_clean": "ハハハハハ！！！ ああ、ギリギリの瞬間もあったが！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Oh...",
         "en_clean": "Oh...",
-        "jp_raw": [
-            "\\m[vb]あぁ...",
-            "\\m[vmnp]あ...",
-            "\\m[vm]あら...",
-            "ああ...",
-            "\\m[vm]えっと\\..\\..\\..",
-            "\\m[vo]ああ...",
-            "\\n<\\v[46]>\\m[vkid]わあ..."
-        ],
-        "jp_clean": [
-            "あぁ...",
-            "あ...",
-            "あら...",
-            "ああ...",
-            "えっと...",
-            "ああ...",
-            "わあ..."
-        ],
-        "checked": false
+        "jp_raw": "えっと...",
+        "jp_clean": "えっと...",
+        "checked": true
     },
     {
         "en_raw": "Is it... Is it truly...",
         "en_clean": "Is it... Is it truly...",
         "jp_raw": "これで... これで本当に... 終わり？",
         "jp_clean": "これで... これで本当に... 終わり？",
-        "checked": false
+        "checked": true
     },
-    {//tODO can't find
+    {
         "en_raw": "(You're smiling.)",
         "en_clean": "(You're smiling.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(笑みがこぼれる。)",
+        "jp_clean": "(笑みがこぼれる。)",
+        "checked": true
     },
-    {//todo can't find
+    {
         "en_raw": "(You're happy to see them happy.)",
         "en_clean": "(You're happy to see them happy.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(みんなが幸せそうで僕も嬉しい。)",
+        "jp_clean": "(みんなが幸せそうで僕も嬉しい。)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(Ha...)",
         "en_clean": "(Ha...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(はぁ...)",
+        "jp_clean": "(はぁ...)",
+        "checked": true
     },
     {
         "en_raw": "We...",

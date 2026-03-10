@@ -48,22 +48,12 @@
         "jp_clean": "(木材を手に取り、あらゆる角度からながめて思い出そうとする――)",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Heheh...",
         "en_clean": "Heheh...",
-        "jp_raw": [
-            "\\m[vinp]へっへ...",
-            "\\m[vb]ヘヘヘ...",
-            "ヘッヘ...",
-            "\\m[vi]ヘヘヘ..."
-        ],
-        "jp_clean": [
-            "へっへ...",
-            "ヘヘヘ...",
-            "ヘッヘ...",
-            "ヘヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ヘヘヘ...",
+        "jp_clean": "ヘヘヘ...",
+        "checked": true
     },
     {
         "en_raw": "\"Please don't look bad please don't look bad please don't look bad\"...",
@@ -210,14 +200,14 @@
         "en_clean": "",
         "jp_raw": "\"持ってるの？\"",
         "jp_clean": "\"持ってるの？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Of course. Why wouldn't I?",
@@ -324,42 +314,26 @@
         "jp_clean": "(「チョキの鍵」のありかを覚えた。)",
         "checked": true
     },
-    {//TODO unsure which, eng response missing, multichoicer "\"グー、チョキ、パー。\"", unsure which between  "(時間がない。)" and "(時間を節約する。)"
+    {//TODO eng response missing, multichoicer "\"グー、チョキ、パー。\"", unsure which between  "(時間がない。)" and "(時間を節約する。)"
         "en_raw": "(So...)",
         "en_clean": "(So...)",
-        "jp_raw": [
-            "\\m[clear](ということは...)",
-            "(それじゃ...)",
-            "\\m[vs](じゃあ...)\\!\\"
-        ], 
-        "jp_clean": [
-            "(ということは...)",
-            "(それじゃ...)",
-            "(じゃあ...)"
-        ],
-        "checked": false
+        "jp_raw": "(さて...)", 
+        "jp_clean": "(さて...)",
+        "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Just good ol' basic rock-paper-scissors.",
@@ -431,22 +405,12 @@
         "jp_clean": "ああ。この人。",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Oh?",
         "en_clean": "Oh?",
-        "jp_raw": [
-            "\\m[vb]ええっ？",
-            "\\m[vo]そうなのか？",
-            "\\m[vi]へえ？",
-            "\\m[vm]へえ？"
-        ],
-        "jp_clean": [
-            "ええっ？",
-            "そうなのか？",
-            "へえ？",
-            "へえ？"
-        ],
-        "checked": false
+        "jp_raw": "ええっ？",
+        "jp_clean": "ええっ？",
+        "checked": true
     },
     {
         "en_raw": "Oh???",
@@ -588,20 +552,12 @@
         "jp_clean": "盗っ人だ......",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",

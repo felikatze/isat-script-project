@@ -69,18 +69,12 @@
         "jp_clean": "そばにいた人にぶつかっちゃって。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Uh oh.",
         "en_clean": "Uh oh.",
-        "jp_raw": [
-            "\\m[vb]ヤバッ。",
-            "\\m[vi]おっと。"
-        ],
-        "jp_clean": [
-            "ヤバッ。",
-            "おっと。"
-        ],
-        "checked": false
+        "jp_raw": "ヤバッ。",
+        "jp_clean": "ヤバッ。",
+        "checked": true
     },
     {
         "en_raw": "Who bumped into someone else, who bumped into someone else, and so on...",
@@ -299,28 +293,12 @@
         "jp_clean": "待って、メモはどこに置いたらいいかな。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Um...",
         "en_clean": "Um...",
-        "jp_raw": [
-            "\\m[vb]あのさ\\..\\..\\..",
-            "\\m[vb]えっと...",
-            "\\m[vmnp]あのね...",
-            "\\m[vinp]\\}あっ...",
-            "\\m[vm]うーん...",
-            "\\m[vkid]\\n<\\v[46]>えっと...",
-            "\\m[vi]えっと..."
-        ],
-        "jp_clean": [
-            "あのさ...",
-            "えっと...",
-            "あのね...",
-            "あっ...",
-            "うーん...",
-            "えっと...",
-            "えっと..."
-        ],
-        "checked": false
+        "jp_raw": "えっと...",
+        "jp_clean": "えっと...",
+        "checked": true
     },
     {
         "en_raw": "Spear the note to their ear with the earring, maybe?",
@@ -455,12 +433,12 @@
         "jp_clean": "...「窯」だよ、シフラン...",
         "checked": true
     },
-    {//TODO I never know what to do for this one
+    {
         "en_raw": "(Oh[!/.])",
         "en_clean": "(Oh[!/.])",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(おっと[！/。])",
+        "jp_clean": "(おっと[！/。])",
+        "checked": true
     },
     {
         "en_raw": "(A kiln.)",
@@ -497,12 +475,12 @@
         "jp_clean": "ろくろだよ、シフ。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Ah[!/.])",
         "en_clean": "(Ah[!/.])",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ああ[！/。])",
+        "jp_clean": "(ああ[！/。])",
+        "checked": true
     },
     {
         "en_raw": "(You've forgotten this one before, too.)",
@@ -616,20 +594,12 @@
         "jp_clean": "とっても大きいね！ 子ども用じゃないのは確かだね。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(You take the gloves and put them near Isabeau's hands.)",

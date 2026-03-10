@@ -1,20 +1,10 @@
 [
-    {//TODO unsure which
+    {
         "en_raw": "(Oh.)",
         "en_clean": "(Oh.)",
-        "jp_raw": [
-            "\\m[clear](へえ。)",
-            "\\m[wait](そうか。)",
-            "\\m[clear]\\m[wait]\\m[wait](ああ。)",
-            "(あ。)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(へえ。)",
-            "(そうか。)",
-            "(ああ。)",
-            "(あ。)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ。)",
+        "jp_clean": "(へえ。)",
+        "checked": true
     },
     {
         "en_raw": "Woah!!! Where are we???",
@@ -142,40 +132,12 @@
         "jp_clean": "昨日も、館の周りは暗かった。覚えてないか？",
         "checked": true
     },
-    {//TODO unsure which
+    {
         "en_raw": "Hm...",
         "en_clean": "Hm...",
-        "jp_raw": [
-            "\\m[vo]ふむ...",
-            "\\m[vi]うーん...",
-            "\\m[vb]ふーん...",
-            "\\m[vi]うーん...\\!\\m[wait]\\^",
-            "\\m[vm]うーん...",
-            "\\m[vh]なるほど...\\!\\m[wait]\\^",
-            "\\m[vwoman]\\n<\\v[46]>うーん...\\!\\m[wait]\\^",
-            "\\n<\\v[46]>ふうん...",
-            "\\m[vh]なるほど...\\m[wait]",
-            "\\m[vl]ふうん...",
-            "\\m[vinp]そうか...",
-            "へえ...",
-            "\\m[vonp]ふむ..."
-        ],
-        "jp_clean": [
-            "ふむ...",
-            "うーん...",
-            "ふーん...",
-            "うーん...",
-            "うーん...",
-            "なるほど...",
-            "うーん...",
-            "ふうん...",
-            "なるほど...",
-            "ふうん...",
-            "そうか...",
-            "へえ...",
-            "ふむ..."
-        ],
-        "checked": false
+        "jp_raw": "ふむ...",
+        "jp_clean": "ふむ...",
+        "checked": true
     },
     {
         "en_raw": "(The stars...)",
@@ -597,28 +559,12 @@
         "jp_clean": "(何か言わないと。) \"星はつまらなくなんかない。\"",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Huh?",
         "en_clean": "Huh?",
-        "jp_raw": [
-            "\\m[vb]へ？",
-            "\\m[vi]え？",
-            "\\m[vm]ん？",
-            "えっ？",
-            "\\>えっ？\\<\\^",
-            "\\m[vi]えっ？\\!\\m[wait]\\^",
-            "\\m[vl]えっ？"
-        ],
-        "jp_clean": [
-            "へ？",
-            "え？",
-            "ん？",
-            "えっ？",
-            "えっ？",
-            "えっ？",
-            "えっ？"
-        ],
-        "checked": false
+        "jp_raw": "へ？",
+        "jp_clean": "へ？",
+        "checked": true
     },
     {
         "en_raw": "B-but they are... They're just dots in the sky.",
@@ -1054,24 +1000,12 @@
         "jp_clean": "うん、今回読むのはわたしじゃないからね...",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Heh.",
         "en_clean": "Heh.",
-        "jp_raw": [
-            "\\m[vo]ふん。",
-            "\\m[vonp]ほう。",
-            "\\m[vi]ヘッ。",
-            "\\m[vl]へえ。",
-            "へえ。"
-        ],
-        "jp_clean": [
-            "ふん。",
-            "ほう。",
-            "ヘッ。",
-            "へえ。",
-            "へえ。"
-        ],
-        "checked": false
+        "jp_raw": "ふん。",
+        "jp_clean": "ふん。",
+        "checked": true
     },
     {
         "en_raw": "...This book seems to go into detail about what could've caused colors to disappear...",
@@ -1143,22 +1077,12 @@
         "jp_clean": "...もしかして、願いのクラフトが関係してる？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Oh.)",
         "en_clean": "(Oh.)",
-        "jp_raw": [
-            "\\m[clear](へえ。)",
-            "\\m[wait](そうか。)",
-            "\\m[clear]\\m[wait]\\m[wait](ああ。)",
-            "(あ。)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(へえ。)",
-            "(そうか。)",
-            "(ああ。)",
-            "(あ。)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ。)",
+        "jp_clean": "(へえ。)",
+        "checked": true
     },
     {
         "en_raw": "Ah yes... If Wish Craft can really make the impossible come true, maybe that is what happened.",
@@ -1375,7 +1299,7 @@
         "en_clean": "",
         "jp_raw": "",
         "jp_clean": "",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You look back at Odile, but there's no one there.)",
@@ -1545,24 +1469,12 @@
         "jp_clean": "それはどういう意味の笑顔だよ。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You laugh.)",
         "en_clean": "(You laugh.)",
-        "jp_raw": [
-            "(僕は笑う。)",
-            "\\m[clear](僕は声を出して笑った。)",
-            "\\m[vs](僕は笑う。)\\!\\",
-            "\\m[clear](僕は声を上げて笑った。)\\!\\m[wait]\\^",
-            "\\m[clear](僕は声を出して笑った。)\\！\\"
-        ],
-        "jp_clean": [
-            "(僕は笑う。)",
-            "(僕は声を出して笑った。)",
-            "(僕は笑う。)",
-            "(僕は声を上げて笑った。)",
-            "(僕は声を出して笑った。)\\！\\"
-        ],
-        "checked": false
+        "jp_raw": "(僕は声を出して笑った。)",
+        "jp_clean": "(僕は声を出して笑った。)",
+        "checked": true
     },
     {
         "en_raw": "(You look away from the globe.)",
@@ -1599,12 +1511,12 @@
         "jp_clean": "(惑星儀だ。)",
         "checked": true
     },
-    {//TODO check formatting
+    {
         "en_raw": "(Island, North of Vaugarde, name unknown, name unknown,\n<span class=\"shake\">\n name unknown,\n</span>\n)\n<!--sic, resetshake on the bracket-->",
         "en_clean": "(Island, North of Vaugarde, name unknown, name unknown,name unknown,)",
         "jp_raw": "(島、ヴォーガルドの北、名称不明、名称不明<span class=\"shake\">名称不明</span>)",
         "jp_clean": "(島、ヴォーガルドの北、名称不明、名称不明名称不明)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(World globe.)",
@@ -1744,7 +1656,7 @@
         "en_clean": "(BUT YOU CAN'T READ IT!!!!!!!!!!)",
         "jp_raw": "<span class=\"shake big\">(でも読めない！！！)</span>",
         "jp_clean": "(でも読めない！！！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (WHY DO YOU KEEP READING? WHY DO YOU KEEP TRYING?!?)\n</span>",

@@ -370,18 +370,12 @@
         "jp_clean": "シフがどんな天気でも快適そうなのも、納得だ。",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(HUH?)",
         "en_clean": "(HUH?)",
-        "jp_raw": [
-            "\\m[clear](へえ？)",
-            "(はあっ？)"
-        ],
-        "jp_clean": [
-            "(へえ？)",
-            "(はあっ？)"
-        ],
-        "checked": false
+        "jp_raw": "(へえ？)",
+        "jp_clean": "(へえ？)",
+        "checked": true
     },
     {
         "en_raw": "WHAT...",
@@ -488,12 +482,12 @@
         "jp_clean": "(おっと。)",
         "checked": true
     },
-    {//TODO cant find response
+    { // evil hidden siffrin dialogue??? had to playtest and reverse engineer. what. where is it from?????
         "en_raw": "(QUICK SAY SOMETHING) \"Just, just because, your clothes are so cool, haha.\"",
         "en_clean": "(QUICK SAY SOMETHING) \"Just, just because, your clothes are so cool, haha.\"",
-        "jp_raw": "(何か言わないと)",
-        "jp_clean": "(何か言わないと)",
-        "checked": false
+        "jp_raw": "(何か言わないと) \"そ、それは、きみの服がかっこいいからだよ。ハハッ。\"",
+        "jp_clean": "(何か言わないと) \"そ、それは、きみの服がかっこいいからだよ。ハハッ。\"",
+        "checked": true
     },
     {
         "en_raw": "Aw, thanks!!!!!",
@@ -509,18 +503,12 @@
         "jp_clean": "...",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You shrug.)",
         "en_clean": "(You shrug.)",
-        "jp_raw": [
-            "\\m[clear](僕は肩をすくめる。)",
-            "(僕は肩をすくめた。)"
-        ],
-        "jp_clean": [
-            "(僕は肩をすくめる。)",
-            "(僕は肩をすくめた。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は肩をすくめる。)",
+        "jp_clean": "(僕は肩をすくめる。)",
+        "checked": true
     },
     {
         "en_raw": "(Still can't remember.)",
@@ -557,18 +545,12 @@
         "jp_clean": "(僕は何も言わない。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You shrug.)",
         "en_clean": "(You shrug.)",
-        "jp_raw": [
-            "\\m[clear](僕は肩をすくめる。)",
-            "(僕は肩をすくめた。)"
-        ],
-        "jp_clean": [
-            "(僕は肩をすくめる。)",
-            "(僕は肩をすくめた。)"
-        ],
-        "checked": false
+        "jp_raw": "(僕は肩をすくめる。)",
+        "jp_clean": "(僕は肩をすくめる。)",
+        "checked": true
     },
     {
         "en_raw": "(No point even trying to remember.)",
@@ -1543,24 +1525,12 @@
         "jp_clean": "(みんながほこらしげに拍手する。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "えへへ...",
+        "jp_clean": "えへへ...",
+        "checked": true
     },
     {
         "en_raw": "(Pomegranate candles.)",
@@ -1926,12 +1896,12 @@
         "jp_clean": "ぬいぐるみだろ、バーカ！！！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Oh[!/.])",
         "en_clean": "(Oh[!/.])",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(おっと[！/。])",
+        "jp_clean": "(おっと[！/。])",
+        "checked": true
     },
     {
         "en_raw": "GUYS!!! FRIN FORGOT AN EASY WORD AGAIN!!!",

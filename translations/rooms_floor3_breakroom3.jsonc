@@ -209,24 +209,12 @@
         "jp_clean": "(快適で、僕にぴったり合ってる！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You smile.)",
         "en_clean": "(You smile.)",
-        "jp_raw": [
-            "(笑みが浮かぶ。)",
-            "\\m[clear](ほほ笑んでみせる。)",
-            "\\m[wait](笑みがこぼれる。)\\m[wait]\\^",
-            "\\m[wait](顔がほころぶ。)",
-            "\\m[clear](僕は微笑む。)\\!\\"
-        ],
-        "jp_clean": [
-            "(笑みが浮かぶ。)",
-            "(ほほ笑んでみせる。)",
-            "(笑みがこぼれる。)",
-            "(顔がほころぶ。)",
-            "(僕は微笑む。)"
-        ],
-        "checked": false
+        "jp_raw": "(笑みが浮かぶ。)",
+        "jp_clean": "(笑みが浮かぶ。)",
+        "checked": true
     },
     {
         "en_raw": "(Isabeau made your eyepatch, a long time ago.)",
@@ -774,24 +762,12 @@
         "jp_clean": "ふむ... 興味深い。ありがとう、ミラベル...",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ふふふ...",
+        "jp_clean": "ふふふ...",
+        "checked": true
     },
     {
         "en_raw": "Heh, you were right, Mira...",
@@ -1283,22 +1259,12 @@
         "jp_clean": "(いろいろな物資が入っている。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Your stomach hurts.)",
         "en_clean": "(Your stomach hurts.)",
-        "jp_raw": [
-            "(胃が痛い。)",
-            "(胃がキリキリ痛む。)\\!\\m[wait]\\m[wait]\\^",
-            "\\m[wait](胃が痛い。)",
-            "\\m[clear](胃が痛い。)"
-        ],
-        "jp_clean": [
-            "(胃が痛い。)",
-            "(胃がキリキリ痛む。)",
-            "(胃が痛い。)",
-            "(胃が痛い。)"
-        ],
-        "checked": false
+        "jp_raw": "(胃が痛い。)",
+        "jp_clean": "(胃が痛い。)",
+        "checked": true
     },
     {
         "en_raw": "(Why does your stomach hurt so much?)",

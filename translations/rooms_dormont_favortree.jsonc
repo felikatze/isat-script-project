@@ -111,20 +111,12 @@
         "jp_clean": "(よさそうな葉っぱを探して、考える。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(Asking for a favor from a higher power like a big tree sounds pretty close to a wish, you think.)",
@@ -187,7 +179,7 @@
         "en_clean": "(You wish...)",
         "jp_raw": "(願うのは...)",
         "jp_clean": "(願うのは...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Mirabelle has changed so much since you've met her...)",
@@ -707,22 +699,12 @@
         "jp_clean": "(よし、頭痛が吹き飛ぶよ。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Urgh.)",
         "en_clean": "(Urgh.)",
-        "jp_raw": [
-            "\\m[clear](やれやれ。)",
-            "(あーあ。)",
-            "\\m[vs](やれやれ。)\\!\\",
-            "\\m[rb]\\m[vs](やれやれ.)\\!\\"
-        ],
-        "jp_clean": [
-            "(やれやれ。)",
-            "(あーあ。)",
-            "(やれやれ。)",
-            "(やれやれ.)"
-        ],
-        "checked": false
+        "jp_raw": "(あーあ。)",
+        "jp_clean": "(あーあ。)",
+        "checked": true
     },
     {
         "en_raw": "(Questions, questions...) \"You said I'm, uh, 'looping'?\"",
@@ -1023,7 +1005,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Hey, you ask for advice, I give you advice!",
@@ -1081,19 +1063,19 @@
         "jp_clean": "僕の次のセリフで試してみて。やり方を教えてあげる。",
         "checked": true
     },
-    {//TODO fix formatting
+    {
         "en_raw": "I am talking now, so press [button] whenever! Nope, that's the wrong button, stardust. Wrong again. I said [button]! Come on now, this is getting silly.",
         "en_clean": "I am talking now, so press [button] whenever! Nope, that's the wrong button, stardust. Wrong again. I said [button]! Come on now, this is getting silly.",
-        "jp_raw": "さあ、話し始めるよ。いつでもいいから、[button]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[button]だよ！ ほら、やってみて。手が焼けるなあ。",
-        "jp_clean": "さあ、話し始めるよ。いつでもいいから、[button]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[button]だよ！ ほら、やってみて。手が焼けるなあ。",
-        "checked": false
+        "jp_raw": "さあ、話し始めるよ。いつでもいいから、[ボタン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ボタン]だよ！ ほら、やってみて。手が焼けるなあ。",
+        "jp_clean": "さあ、話し始めるよ。いつでもいいから、[ボタン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ボタン]だよ！ ほら、やってみて。手が焼けるなあ。",
+        "checked": true
     },
     {//TODO remove
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "No, don't press that, silly, press [button]! Let's try again.",
@@ -1130,12 +1112,12 @@
         "jp_clean": "別の方法で言ってもいいよ...",
         "checked": true
     },
-    {//TODO check formatting
+    {
         "en_raw": "[If you see the\n<img alt=\"zone out\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nicon during a conversation, press [button] to fast-forward through it!]",
         "en_clean": "[If you see the icon during a conversation, press [button] to fast-forward through it!]",
         "jp_raw": "[会話の途中で<img alt=\"zone out\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>アイコンが表示されたら、[button]を押すと会話を早送りできるぞ！]",
         "jp_clean": "[会話の途中でアイコンが表示されたら、を押すと会話を早送りできるぞ！]",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Ow ow ow ow.)",
@@ -1948,7 +1930,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Stardust...",
@@ -2151,7 +2133,7 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": false
+        "checked": true
     },
     { // TYPO: Missing "oh my, genuine thanks!" "うわあ、心からの感謝だね！！！"
         "en_raw": "GROSS!!!!!",
@@ -2235,161 +2217,161 @@
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"...\"",
         "en_clean": "\"...\"",
         "jp_raw": "\"...\"",
         "jp_clean": "\"...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "This was... Not the nicest thing you could've said?",
         "en_clean": "This was... Not the nicest thing you could've said?",
         "jp_raw": "こんなの...ひどいじゃないか。ひどすぎるよ。",
         "jp_clean": "こんなの... ひどいじゃないか。ひどすぎるよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "To... Any of them?",
         "en_clean": "To... Any of them?",
         "jp_raw": "誰かに... 言ったことある？",
         "jp_clean": "誰かに... 言ったことある？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Does it matter?\"",
         "en_clean": "\"Does it matter?\"",
         "jp_raw": "\"それ、重要？\"",
         "jp_clean": "\"それ、重要？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Well... Um...",
         "en_clean": "Well... Um...",
         "jp_raw": "その... えーと...",
         "jp_clean": "その... えーと...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yes? Why wouldn't it matter?",
         "en_clean": "Yes? Why wouldn't it matter?",
         "jp_raw": "そうだよ？ 重要じゃないなんてこと、ある？",
         "jp_clean": "そうだよ？ 重要じゃないなんてこと、ある？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"They'll come with me to the House anyway.\"",
         "en_clean": "\"They'll come with me to the House anyway.\"",
         "jp_raw": "\"みんな、僕と一緒に館に行くんだ。\"",
         "jp_clean": "\"みんな、僕と一緒に館に行くんだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"They've always done it before.\"",
         "en_clean": "\"They've always done it before.\"",
         "jp_raw": "\"今までもずっとそうしてきた。\"",
         "jp_clean": "\"今までもずっとそうしてきた。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "... Okay, but...",
         "en_clean": "... Okay, but...",
         "jp_raw": "...分かったよ。でも...",
         "jp_clean": "... 分かったよ。でも...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"But it really doesn't matter!\"",
         "en_clean": "\"But it really doesn't matter!\"",
         "jp_raw": "\"でも、そんなの関係ないんだ！\"",
         "jp_clean": "\"でも、そんなの関係ないんだ！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Because I've found it, Loop!!!\"",
         "en_clean": "\"Because I've found it, Loop!!!\"",
         "jp_raw": "\"だって、ループ、分かったから！\"",
         "jp_clean": "\"だって、ループ、分かったから！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Found it? Found what?",
         "en_clean": "Found it? Found what?",
         "jp_raw": "分かった？ 何が分かったの？",
         "jp_clean": "分かった？ 何が分かったの？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"How to break this loop! How to escape!!!\"",
         "en_clean": "\"How to break this loop! How to escape!!!\"",
         "jp_raw": "\"ループを破る方法だよ！ ここから抜け出す方法が分かったんだ！！！\"",
         "jp_clean": "\"ループを破る方法だよ！ ここから抜け出す方法が分かったんだ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What?! But--",
         "en_clean": "What?! But--",
         "jp_raw": "えっ！？ でも――",
         "jp_clean": "えっ！？ でも――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"I'm here to kill the King, aren't I?\"",
         "en_clean": "\"I'm here to kill the King, aren't I?\"",
         "jp_raw": "\"僕は王を倒すためにここにいる。だろ？\"",
         "jp_clean": "\"僕は王を倒すためにここにいる。だろ？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Everyone's been wishing for it, for the King to be defeated, so that's why I'm here, aren't I?!\"",
         "en_clean": "\"Everyone's been wishing for it, for the King to be defeated, so that's why I'm here, aren't I?!\"",
         "jp_raw": "\"みんな、それを願ってる。王を倒してほしいと願ってる。だから僕がここにいるんだ。違う？\"",
         "jp_clean": "\"みんな、それを願ってる。王を倒してほしいと願ってる。だから僕がここにいるんだ。違う？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Well, um...",
         "en_clean": "Well, um...",
         "jp_raw": "それは、その...",
         "jp_clean": "それは、その...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Maybe? I don't--",
         "en_clean": "Maybe? I don't--",
         "jp_raw": "そうなのかな？ 僕には――",
         "jp_clean": "そうなのかな？ 僕には――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"And, and, and!!!\"",
         "en_clean": "\"And, and, and!!!\"",
         "jp_raw": "\"それに、それにだ！！！\"",
         "jp_clean": "\"それに、それにだ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Mira's always the one, isn't she?!\"",
         "en_clean": "\"Mira's always the one, isn't she?!\"",
         "jp_raw": "\"いつも、ミラの役目だ。そうだろ！？\"",
         "jp_clean": "\"いつも、ミラの役目だ。そうだろ！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "The one? The one to what?",
         "en_clean": "The one? The one to what?",
         "jp_raw": "役目？ ミラは何をするの？",
         "jp_clean": "役目？ ミラは何をするの？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"The one to deal the final strike on the King!!!\"",
         "en_clean": "\"The one to deal the final strike on the King!!!\"",
         "jp_raw": "\"王への最後の一撃だ。それはミラの役目になってる！！！\"",
         "jp_clean": "\"王への最後の一撃だ。それはミラの役目になってる！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...And?",
@@ -2404,161 +2386,161 @@
             "...それで？",
             "...それで？"
         ],
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Why doesn't Loop get it?!?) \"And if everyone's wish is centered on me...\"",
         "en_clean": "(Why doesn't Loop get it?!?) \"And if everyone's wish is centered on me...\"",
         "jp_raw": "(どうしてループは分からないんだ？！？) \"みんなの願いが、僕に集中しているなら...\"",
         "jp_clean": "(どうしてループは分からないんだ？！？) \"みんなの願いが、僕に集中しているなら...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"And if I'm the only one who's looping and remembering...\"",
         "en_clean": "\"And if I'm the only one who's looping and remembering...\"",
         "jp_raw": "\"ループして、それを覚えているのが僕だけなら...\"",
         "jp_clean": "\"ループして、それを覚えているのが僕だけなら...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"And if time keeps rewinding after I kill the King...\"",
         "en_clean": "\"And if time keeps rewinding after I kill the King...\"",
         "jp_raw": "\"それに、僕が王を倒すと、時間が戻るなら...\"",
         "jp_clean": "\"それに、僕が王を倒すと、時間が戻るなら...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"The Head Housemaiden said it might be because the wish hasn't come true, right? So...\"",
         "en_clean": "\"The Head Housemaiden said it might be because the wish hasn't come true, right? So...\"",
         "jp_raw": "\"侍祭長が言うには、それはみんなの願いが叶っていないってことだろ？\"",
         "jp_clean": "\"侍祭長が言うには、それはみんなの願いが叶っていないってことだろ？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Isn't it rewinding because it's not me, the person who's in the middle of this, killing the King?!?\"",
         "en_clean": "\"Isn't it rewinding because it's not me, the person who's in the middle of this, killing the King?!?\"",
         "jp_raw": "\"つまり、時間が戻るのは僕のせいじゃない。中心にいる人物、王を倒している僕のせいじゃないんじゃないか？！？\"",
         "jp_clean": "\"つまり、時間が戻るのは僕のせいじゃない。中心にいる人物、王を倒している僕のせいじゃないんじゃないか？！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
         "jp_raw": "...",
         "jp_clean": "...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "That...",
         "en_clean": "That...",
         "jp_raw": "それは...",
         "jp_clean": "それは...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It can't be that simple, stardust.",
         "en_clean": "It can't be that simple, stardust.",
         "jp_raw": "そんなに単純なわけないよ、星くず君。",
         "jp_clean": "そんなに単純なわけないよ、星くず君。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Maybe it IS that simple!\"",
         "en_clean": "\"Maybe it IS that simple!\"",
         "jp_raw": "\"それほど単純かもしれないだろ！\"",
         "jp_clean": "\"それほど単純かもしれないだろ！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"We've never thought about it, haven't we?\"",
         "en_clean": "\"We've never thought about it, haven't we?\"",
         "jp_raw": "\"今まで、考えてみたことがなかったじゃないか。\"",
         "jp_clean": "\"今まで、考えてみたことがなかったじゃないか。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Maybe it WAS that easy, all this time!!!\"",
         "en_clean": "\"Maybe it WAS that easy, all this time!!!\"",
         "jp_raw": "\"もしかすると、それほど簡単なことかもしれないんだ！！！\"",
         "jp_clean": "\"もしかすると、それほど簡単なことかもしれないんだ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "No, I...",
         "en_clean": "No, I...",
         "jp_raw": "いや、僕は...",
         "jp_clean": "いや、僕は...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I can say with certainty that it's not it.",
         "en_clean": "I can say with certainty that it's not it.",
         "jp_raw": "絶対に違うと思う。",
         "jp_clean": "絶対に違うと思う。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It has to be something else...",
         "en_clean": "It has to be something else...",
         "jp_raw": "きっと他のことだよ...",
         "jp_clean": "きっと他のことだよ...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Why?\"",
         "en_clean": "\"Why?\"",
         "jp_raw": "\"どうして？\"",
         "jp_clean": "\"どうして？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Huh? Well, are you even sure you've never defeated the King yourself?",
         "en_clean": "Huh? Well, are you even sure you've never defeated the King yourself?",
         "jp_raw": "えっ？ ねえ、最後の一撃が自分じゃないって、確かなの？",
         "jp_clean": "えっ？ ねえ、最後の一撃が自分じゃないって、確かなの？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I'm sure it must've happened once or twice. You've been looping for a long time, so you might have forgo--",
         "en_clean": "I'm sure it must've happened once or twice. You've been looping for a long time, so you might have forgo--",
         "jp_raw": "一度や二度は、きみが最後の一撃を与えてるはずだよ。もう何度もループしてるんだから、きっと忘れて――",
         "jp_clean": "一度や二度は、きみが最後の一撃を与えてるはずだよ。もう何度もループしてるんだから、きっと忘れて――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"'It must've happened once or twice'?\"",
         "en_clean": "\"'It must've happened once or twice'?\"",
         "jp_raw": "\"一度や二度はあったはず？\"",
         "jp_clean": "\"一度や二度はあったはず？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"I'm certain I never defeated him myself.\"",
         "en_clean": "\"I'm certain I never defeated him myself.\"",
         "jp_raw": "\"僕は一度も、王に最後の一撃を与えたことはない。\"",
         "jp_clean": "\"僕は一度も、王に最後の一撃を与えたことはない。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"And yet...\"",
         "en_clean": "\"And yet...\"",
         "jp_raw": "\"それなのに...\"",
         "jp_clean": "\"それなのに...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"How can you say it with certainty?\"",
         "en_clean": "\"How can you say it with certainty?\"",
         "jp_raw": "\"どうしてそんなにはっきりと断言できるんだ？\"",
         "jp_clean": "\"どうしてそんなにはっきりと断言できるんだ？\"",
-        "checked": false
+        "checked": true
     },
     {//DON'TDO, THIS IS RIGHT, DELETE THIS NOTE WHILE GOING THROUGH SCENE, IRIS
         "en_raw": "",
@@ -2572,426 +2554,426 @@
         "en_clean": "\"Do you know something?\"",
         "jp_raw": "\"何か知っているのか？\"",
         "jp_clean": "\"何か知っているのか？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "N-No, I don't know any more than you, stardust!!!",
         "en_clean": "N-No, I don't know any more than you, stardust!!!",
         "jp_raw": "い、いや、きみと同じくらいのことしか知らないよ、星くず君！！！",
         "jp_clean": "い、いや、きみと同じくらいのことしか知らないよ、星くず君！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It's just... I know that's not it.",
         "en_clean": "It's just... I know that's not it.",
         "jp_raw": "ただ... きみの仮説は違うってことは分かる。",
         "jp_clean": "ただ... きみの仮説は違うってことは分かる。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It has to be something else that's causing the loops, something else that can break them. Something--",
         "en_clean": "It has to be something else that's causing the loops, something else that can break them. Something--",
         "jp_raw": "ループの原因は、何か別のことだよ。ループを壊せる原因があるはずだ。何か――",
         "jp_clean": "ループの原因は、何か別のことだよ。ループを壊せる原因があるはずだ。何か――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"THEN WHAT ELSE, LOOP?!?\"",
         "en_clean": "\"THEN WHAT ELSE, LOOP?!?\"",
         "jp_raw": "\"じゃあ、何が原因なんだ？！？\"",
         "jp_clean": "\"じゃあ、何が原因なんだ？！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"WHAT ELSE AM I SUPPOSED TO DO? WHAT ELSE AM I SUPPOSED TO TRY?!\"",
         "en_clean": "\"WHAT ELSE AM I SUPPOSED TO DO? WHAT ELSE AM I SUPPOSED TO TRY?!\"",
         "jp_raw": "\"僕はどうすればいい？ 何を試せばいいい！？\"",
         "jp_clean": "\"僕はどうすればいい？ 何を試せばいいい！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"SHOULD I MAKE EVERYONE COME WITH ME? SHOULD I RELY ON THE POWER OF LOVE?\"",
         "en_clean": "\"SHOULD I MAKE EVERYONE COME WITH ME? SHOULD I RELY ON THE POWER OF LOVE?\"",
         "jp_raw": "\"みんなを僕に同行させるべきなのか？ 愛の力を信じるべきなのか？\"",
         "jp_clean": "\"みんなを僕に同行させるべきなのか？ 愛の力を信じるべきなのか？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"SHOULD I TALK TO THE KING? THE HEAD HOUSEMAIDEN?\"",
         "en_clean": "\"SHOULD I TALK TO THE KING? THE HEAD HOUSEMAIDEN?\"",
         "jp_raw": "\"王と話すべきか？ 侍祭長と話すべきか？\"",
         "jp_clean": "\"王と話すべきか？ 侍祭長と話すべきか？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"SHOULD I DIE? SHOULD EVERYONE DIE? WHAT? WHAT ELSE IS THERE? HAVEN'T I DONE IT ALL?!?\"",
         "en_clean": "\"SHOULD I DIE? SHOULD EVERYONE DIE? WHAT? WHAT ELSE IS THERE? HAVEN'T I DONE IT ALL?!?\"",
         "jp_raw": "\"僕が死ねばいいのか？ みんなが死ねばいいのか？ なんだ？ 他に何がある？ 何かしていないことがまだあるか？！？\"",
         "jp_clean": "\"僕が死ねばいいのか？ みんなが死ねばいいのか？ なんだ？ 他に何がある？ 何かしていないことがまだあるか？！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"THERE'S NOTHING ELSE, LOOP!!! I KNOW IT'S STUPID, I KNOW IT'S A LONG SHOT, BUT IT HAS TO BE THIS!!!\"",
         "en_clean": "\"THERE'S NOTHING ELSE, LOOP!!! I KNOW IT'S STUPID, I KNOW IT'S A LONG SHOT, BUT IT HAS TO BE THIS!!!\"",
         "jp_raw": "\"ないんだよ、ループ！！！ バカげてるし、回りくどい方法だ。でも、これしかないんだ！！！\"",
         "jp_clean": "\"ないんだよ、ループ！！！ バカげてるし、回りくどい方法だ。でも、これしかないんだ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"IT HAS TO BE THIS, LOOP, OR-- OR--\"",
         "en_clean": "\"IT HAS TO BE THIS, LOOP, OR-- OR--\"",
         "jp_raw": "\"これしかないんだよ、ループ。あるいは――あるいは――\"",
         "jp_clean": "\"これしかないんだよ、ループ。あるいは――あるいは――\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You fall to your knees.)",
         "en_clean": "(You fall to your knees.)",
         "jp_raw": "(僕は、膝から、崩れ落ちた。)",
         "jp_clean": "(僕は、膝から、崩れ落ちた。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Or, or does it mean-- It means--\"",
         "en_clean": "\"Or, or does it mean-- It means--\"",
         "jp_raw": "\"あるいは、それが意味するのは――つまり――\"",
         "jp_clean": "\"あるいは、それが意味するのは――つまり――\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"It means I'm stuck here for good, aren't I?\"",
         "en_clean": "\"It means I'm stuck here for good, aren't I?\"",
         "jp_raw": "\"僕は永遠にここから抜け出せないって、ことだ。\"",
         "jp_clean": "\"僕は永遠にここから抜け出せないって、ことだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Forever?\"",
         "en_clean": "\"Forever?\"",
         "jp_raw": "\"永久に？\"",
         "jp_clean": "\"永久に？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
         "en_clean": "...",
         "jp_raw": "...",
         "jp_clean": "...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
         "jp_raw": "(. . .)",
         "jp_clean": "(. . .)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (No.)\n</span>\n\"You think I'm stuck here forever.\"",
         "en_clean": "(No.)\"You think I'm stuck here forever.\"",
         "jp_raw": "<span class=\"shake\">(違う。)</span> \"きみが、僕は抜け出せないと思ってるんだ。\"",
         "jp_clean": "(違う。) \"きみが、僕は抜け出せないと思ってるんだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What? N-No, I--",
         "en_clean": "What? N-No, I--",
         "jp_raw": "えっ？ ち、違うよ――",
         "jp_clean": "えっ？ ち、違うよ――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Loop.\"",
         "en_clean": "\"Loop.\"",
         "jp_raw": "\"ループ。\"",
         "jp_clean": "\"ループ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"You knew.\"",
         "en_clean": "\"You knew.\"",
         "jp_raw": "\"知っていたんだな。\"",
         "jp_clean": "\"知っていたんだな。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"You knew this whole time.\"",
         "en_clean": "\"You knew this whole time.\"",
         "jp_raw": "\"ずっと、分かっていたんだ。\"",
         "jp_clean": "\"ずっと、分かっていたんだ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"You knew this whole time there was no escape.\"",
         "en_clean": "\"You knew this whole time there was no escape.\"",
         "jp_raw": "\"抜け出せることはないって、最初から分かっていたんだろ。\"",
         "jp_clean": "\"抜け出せることはないって、最初から分かっていたんだろ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n . . .\n</span>",
         "en_clean": ". . .",
         "jp_raw": "<span class=\"shake\">\n . . .\n</span>",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n Stardust...\n</span>",
         "en_clean": "Stardust...",
         "jp_raw": "<span class=\"shake\">星くず君...</span>",
         "jp_clean": "星くず君...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (Stars.)\n</span>\n\"No, no, no, no, no, no...\"",
         "en_clean": "(Stars.)\"No, no, no, no, no, no...\"",
         "jp_raw": "<span class=\"shake\">(星たちよ。)</span> \"違う、違う違う、ちがうちがうちがう...\"",
         "jp_clean": "(星たちよ。) \"違う、違う違う、ちがうちがうちがう...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n S-Stardust, I...\n</span>",
         "en_clean": "S-Stardust, I...",
         "jp_raw": "<span class=\"shake\">ほ、星くずく...</span>",
         "jp_clean": "ほ、星くずく...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Why didn't you tell me?\"",
         "en_clean": "\"Why didn't you tell me?\"",
         "jp_raw": "\"どうして言わなかった？\"",
         "jp_clean": "\"どうして言わなかった？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n ...\n</span>",
         "en_clean": "...",
         "jp_raw": "<span class=\"shake\">\n ...\n</span>",
         "jp_clean": "...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Why did you lie to me?\"",
         "en_clean": "\"Why did you lie to me?\"",
         "jp_raw": "\"どうして僕にうそを？\"",
         "jp_clean": "\"どうして僕にうそを？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n I-I didn't...\n</span>",
         "en_clean": "I-I didn't...",
         "jp_raw": "<span class=\"shake\">う、うそなんて...</span>",
         "jp_clean": "う、うそなんて...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n I was b-brought here to help you, and-- And I thought, if I was here, we could--\n</span>",
         "en_clean": "I was b-brought here to help you, and-- And I thought, if I was here, we could--",
         "jp_raw": "<span class=\"shake\">僕はきみに手を貸すためにここに送られて、それで―― 僕がいれば、僕たちは...</span>",
         "jp_clean": "僕はきみに手を貸すためにここに送られて、それで―― 僕がいれば、僕たちは...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"You knew there was no way to break the loops?\"",
         "en_clean": "\"You knew there was no way to break the loops?\"",
         "jp_raw": "\"ループを壊す方法はないって、知っていたな？\"",
         "jp_clean": "\"ループを壊す方法はないって、知っていたな？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n I thought that if we tried, together, w-we'd--\n</span>",
         "en_clean": "I thought that if we tried, together, w-we'd--",
         "jp_raw": "<span class=\"shake\">2人で一緒にやれば、ぼ、僕たち――</span>",
         "jp_clean": "2人で一緒にやれば、ぼ、僕たち――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"YOU KNEW.\"",
         "en_clean": "\"YOU KNEW.\"",
         "jp_raw": "\"知っていたんだな。\"",
         "jp_clean": "\"知っていたんだな。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"YOU KNEW!!!!!!\"",
         "en_clean": "\"YOU KNEW!!!!!!\"",
         "jp_raw": "\"知っていたんだろ！！！\"",
         "jp_clean": "\"知っていたんだろ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW THIS ENTIRE TIME!!!!!!!!!!!!\"",
         "en_clean": "\"YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW YOU KNEW THIS ENTIRE TIME!!!!!!!!!!!!\"",
         "jp_raw": "\"知ってた、知ってた、きみは、知ってた、知ってたんだ、ずっと、ずっと分かってたんだろ！！！！！！\"",
         "jp_clean": "\"知ってた、知ってた、きみは、知ってた、知ってたんだ、ずっと、ずっと分かってたんだろ！！！！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n Stardust--\n</span>",
         "en_clean": "Stardust--",
         "jp_raw": "<span class=\"shake\">星くず君――</span>",
         "jp_clean": "星くず君――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"DID YOU HAVE FUN, LOOP?\"",
         "en_clean": "\"DID YOU HAVE FUN, LOOP?\"",
         "jp_raw": "\"楽しかったか、ループ？\"",
         "jp_clean": "\"楽しかったか、ループ？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"WAS IT ENTERTAINING, AT LEAST? WAS IT FUNNY?\"",
         "en_clean": "\"WAS IT ENTERTAINING, AT LEAST? WAS IT FUNNY?\"",
         "jp_raw": "\"せめて、愉快だったか？ 楽しめたか？\"",
         "jp_clean": "\"せめて、愉快だったか？ 楽しめたか？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"DID YOU LIKE WATCHING ME RUN AROUND IN CIRCLES, HOPING, WISHING?\"",
         "en_clean": "\"DID YOU LIKE WATCHING ME RUN AROUND IN CIRCLES, HOPING, WISHING?\"",
         "jp_raw": "\"僕が望みや願いを持ちながら、同じところをグルグルまわっているのを見て、楽しんでいたのか？\"",
         "jp_clean": "\"僕が望みや願いを持ちながら、同じところをグルグルまわっているのを見て、楽しんでいたのか？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"DID YOU LIKE THE SHOW?!?",
         "en_clean": "\"DID YOU LIKE THE SHOW?!?",
         "jp_raw": "\"見せ物は気に入ったか？！？\"",
         "jp_clean": "\"見せ物は気に入ったか？！？\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "No.",
         "en_clean": "No.",
         "jp_raw": "いいや。",
         "jp_clean": "いいや。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "No, I didn't like to watch this at all.",
         "en_clean": "No, I didn't like to watch this at all.",
         "jp_raw": "きみのやることを見ていても、全然楽しくなかったよ。",
         "jp_clean": "きみのやることを見ていても、全然楽しくなかったよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"Curse you, Loop.\"",
         "en_clean": "\"Curse you, Loop.\"",
         "jp_raw": "\"いい加減にしろよ、ループ。\"",
         "jp_clean": "\"いい加減にしろよ、ループ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Stardust...",
         "en_clean": "Stardust...",
         "jp_raw": "星くず君...",
         "jp_clean": "星くず君...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I...",
         "en_clean": "I...",
         "jp_raw": "僕...",
         "jp_clean": "僕...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n I'm sorry... I really am...\n</span>",
         "en_clean": "I'm sorry... I really am...",
         "jp_raw": "<span class=\"shake\">ごめんなさい... 本当に...</span>",
         "jp_clean": "ごめんなさい... 本当に...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
         "jp_raw": ". . .",
         "jp_clean": ". . .",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n But please, stardust-- Siffrin!!! If we think, if we go through it all again, we can--\n</span>",
         "en_clean": "But please, stardust-- Siffrin!!! If we think, if we go through it all again, we can--",
         "jp_raw": "<span class=\"shake\">でも、お願いだよ星くず君――シフラン！！ 2人で考えて、2人でもう一度立ち向かえば、きっと――</span>",
         "jp_clean": "でも、お願いだよ星くず君――シフラン！！ 2人で考えて、2人でもう一度立ち向かえば、きっと――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You don't have time for this.)",
         "en_clean": "(You don't have time for this.)",
         "jp_raw": "(こんなことをしている場合じゃない。)",
         "jp_clean": "(こんなことをしている場合じゃない。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The Clocktower.)",
         "en_clean": "(The Clocktower.)",
         "jp_raw": "(時計台だ。)",
         "jp_clean": "(時計台だ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You arrived later than usual.)",
         "en_clean": "(You arrived later than usual.)",
         "jp_raw": "(いつもより、着くのが遅くなった。)",
         "jp_clean": "(いつもより、着くのが遅くなった。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Is everyone eating still?)",
         "en_clean": "(Is everyone eating still?)",
         "jp_raw": "(みんな、まだ食事中なのか？)",
         "jp_clean": "(みんな、まだ食事中なのか？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
         "en_clean": "(You need to join them, and act normally this time, so you can all go to the House together tomorrow.)",
         "jp_raw": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)",
         "jp_clean": "(食事に加わって、今回は普通にしておかないと。そうすれば、明日は一緒に館に行ける。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
         "en_clean": "(You don't care if they're not strong enough. You can make it on your own, defeat the King on your own.)",
         "jp_raw": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)",
         "jp_clean": "(みんなの強さが十分じゃなくても、構わない。自分でやればいい。自分で王を倒すんだ。)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You just want them here.)",
         "en_clean": "(You just want them here.)",
         "jp_raw": "(みんなは、そばにいてくれるだけでいい。)",
         "jp_clean": "(みんなは、そばにいてくれるだけでいい。)",
-        "checked": false
+        "checked": true
     }
 ]
