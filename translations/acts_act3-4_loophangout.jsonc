@@ -293,18 +293,12 @@
         "jp_clean": "\"たとえば？\"",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Like...",
         "en_clean": "Like...",
-        "jp_raw": [
-            "\\m[vi]その...",
-            "\\m[vl]そうだな..."
-        ],
-        "jp_clean": [
-            "その...",
-            "そうだな..."
-        ],
-        "checked": false
+        "jp_raw": "そうだな...",
+        "jp_clean": "そうだな...",
+        "checked": true
     },
     {
         "en_raw": "What if we cut off your legs, would you immediately loop back? You can't \"advance\" if you have no legs, right?",
@@ -362,20 +356,12 @@
         "jp_clean": "もしかして... 侍祭長と話すのも... きみが前に進めなくなるときだとみなされてる？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Oh...)",
         "en_clean": "(Oh...)",
-        "jp_raw": [
-            "\\m[vs](あれ...)\\!\\",
-            "\\m[clear](そうか...)",
-            "\\m[wait](ああ...)"
-        ],
-        "jp_clean": [
-            "(あれ...)",
-            "(そうか...)",
-            "(ああ...)"
-        ],
-        "checked": false
+        "jp_raw": "(そうか...)",
+        "jp_clean": "(そうか...)",
+        "checked": true
     },
     {
         "en_raw": "(Maybe, but...)",
@@ -538,11 +524,11 @@
         "jp_clean": "時間があるときに、少しの間、僕と一緒に過ごしてくれない？",
         "checked": true
     },
-    {//TODO unsure first one
+    {
         "en_raw": "(Huh?) \"Hang out?\"",
         "en_clean": "(Huh?) \"Hang out?\"",
-        "jp_raw": "\"一緒に過ごす？\"",
-        "jp_clean": "\"一緒に過ごす？\"",
+        "jp_raw": "(ん？) \"一緒に過ごす？\"",
+        "jp_clean": "(ん？) \"一緒に過ごす？\"",
         "checked": false
     },
     {
@@ -559,21 +545,11 @@
         "jp_clean": "僕たち、全然一緒に過ごしてないじゃないか、星くず君！！！ 僕、寂しいよ！！！ 誰でもいいから、話をしていたいんだ！！！ 誰かと一緒にいたんだよおぉぉ！！！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Urgh.)",
         "en_clean": "(Urgh.)",
-        "jp_raw": [
-            "\\m[clear](やれやれ。)",
-            "(あーあ。)",
-            "\\m[vs](やれやれ。)\\!\\",
-            "\\m[rb]\\m[vs](やれやれ.)\\!\\"
-        ],
-        "jp_clean": [
-            "(やれやれ。)",
-            "(あーあ。)",
-            "(やれやれ。)",
-            "(やれやれ.)"
-        ],
+        "jp_raw": "(やれやれ。)",
+        "jp_clean": "(やれやれ。)",
         "checked": false
     },
     {

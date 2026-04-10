@@ -42,7 +42,7 @@ for i in liAss:
     print("failed", file, e)
   fiList.append({"name":i,"count":fullCount,"percent":percent,"fileMade":c})
 
-sortedDataStr = json.dumps(sorted(fiList, key=itemgetter('percent'),reverse=True))
+sortedDataStr = str(float(tFCount1)/float(tFCount2)) + "\n" + json.dumps(sorted(fiList, key=itemgetter('percent'),reverse=True))
 print(float(tFCount1)/float(tFCount2))
 with open("results.txt", "w") as f:
   f.write(sortedDataStr.replace("}, {","}\n{"))
