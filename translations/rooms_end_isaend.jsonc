@@ -2,8 +2,8 @@
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(. . .)",
+        "jp_clean": "(. . .)",
         "checked": true
     },
     {
@@ -23,8 +23,8 @@
     {
         "en_raw": "We did it, Sif, we did it! We did it! We stopped the King! We can finally go back to our normal lives! Isn't it great???",
         "en_clean": "We did it, Sif, we did it! We did it! We stopped the King! We can finally go back to our normal lives! Isn't it great???",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "やったな、シフ、やったぞ！ 王を食い止めた！ これでやっと普通の生活に戻れる！ 最高だよな？？？",
+        "jp_clean": "やったな、シフ、やったぞ！ 王を食い止めた！ これでやっと普通の生活に戻れる！ 最高だよな？？？",
         "checked": true
     },
     {
@@ -46,32 +46,26 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing, check japanese formatting
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"最高だよ[！！！,。。。]\"",
+        "jp_clean": "\"最高だよ[！！！,。。。]\"",
+        "checked": false
     },
     {
         "en_raw": "Yeah!!!",
         "en_clean": "Yeah!!!",
-        "jp_raw": [
-            "\\m[vi]いいぞ！",
-            "\\m[vbnp]そうだよ！！！"
-        ],
-        "jp_clean": [
-            "いいぞ！",
-            "そうだよ！！！"
-        ],
+        "jp_raw": "いいぞ！",
+        "jp_clean": "いいぞ！",
         "checked": true
     },
     {
         "en_raw": "I... Uh. I said. Do you remember what I said? At the Clocktower?",
         "en_clean": "I... Uh. I said. Do you remember what I said? At the Clocktower?",
-        "jp_raw": "俺さ... えっと。 言っただろ。m[wait]俺の言ったこと覚えてるかな？ 時計台でさ。",
+        "jp_raw": "俺さ... えっと。 言っただろ。俺の言ったこと覚えてるかな？ 時計台でさ。",
         "jp_clean": "俺さ... えっと。 言っただろ。俺の言ったこと覚えてるかな？ 時計台でさ。",
         "checked": true
     },
@@ -101,14 +95,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"何か伝えたいことがあるんでしょ？\"",
+        "jp_clean": "\"何か伝えたいことがあるんでしょ？\"",
+        "checked": false
     },
     {
         "en_raw": "Yes. Um... Yes.",
@@ -127,76 +121,42 @@
     {
         "en_raw": "...  Sif. Siffarooni.",
         "en_clean": "...  Sif. Siffarooni.",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...シフ。シファルーニ。",
+        "jp_clean": "...シフ。シファルーニ。",
         "checked": true
     },
     {
         "en_raw": "...Siffrin.",
         "en_clean": "...Siffrin.",
-        "jp_raw": [
-            "\\m[vo]...\\!\\m[wait]シフラン。",
-            "\\m[vo]...シフラン。",
-            "...シフラン。"
-        ],
-        "jp_clean": [
-            "...シフラン。",
-            "...シフラン。",
-            "...シフラン。"
-        ],
+        "jp_raw": "...シフラン。",
+        "jp_clean": "...シフラン。",
         "checked": true
     },
     {
         "en_raw": ". . . I...",
         "en_clean": ". . . I...",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...お...",
+        "jp_clean": "...お...",
         "checked": true
     },
     {
         "en_raw": "I...",
         "en_clean": "I...",
-        "jp_raw": [
-            "ご\\..\\..\\..\\!\\m[wait]\\^",
-            "もっと\\..\\..\\..\\!\\m[wait]\\m[wait]\\m[wait]\\^",
-            "\\m[vm]わたし...",
-            "わたし...",
-            "\\m[vman]\\n<\\v[46]>ここには...",
-            "\\m[vkid]\\n<\\v[46]>わたし...",
-            "\\m[vinp]俺は...",
-            "俺は...\\!\\m[wait]\\^",
-            "\\m[vlnp]僕...\\m[wait]\\^",
-            "\\m[vbnp]えっと...",
-            "\\m[vl]僕には...",
-            "\\m[vinp]俺は\\..\\..\\..\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "ご...",
-            "もっと...",
-            "わたし...",
-            "わたし...",
-            "ここには...",
-            "わたし...",
-            "俺は...",
-            "俺は...",
-            "僕...",
-            "えっと...",
-            "僕には...",
-            "俺は..."
-        ],
+        "jp_raw": "俺は...",
+        "jp_clean": "俺は...",
         "checked": true
     },
     {
         "en_raw": "I...  I...  I lo--",
         "en_clean": "I...  I...  I lo--",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "お... 俺...！ あ、あい――",
+        "jp_clean": "お... 俺...！ あ、あい――",
         "checked": true
     },
     {
         "en_raw": "<span class=\"big\">\n ARE YOU GUYS DONE TALKING ALREADY?????? CRAB!!!!!\n</span>",
         "en_clean": "ARE YOU GUYS DONE TALKING ALREADY?????? CRAB!!!!!",
-        "jp_raw": "\\{オマエたちお話しは終わったのか？？？ カニ並みに遅いぞ！",
+        "jp_raw": "<span class=\"big\">オマエたちお話しは終わったのか？？？ カニ並みに遅いぞ！</span>",
         "jp_clean": "オマエたちお話しは終わったのか？？？ カニ並みに遅いぞ！",
         "checked": true
     },
@@ -231,18 +191,8 @@
     {
         "en_raw": "(...?)",
         "en_clean": "(...?)",
-        "jp_raw": [
-            "(...？)",
-            "\\m[clear](...？)",
-            "\\m[clear](\\|.\\|.\\|.\\|?)",
-            "\\m[vs](...？)\\!\\"
-        ],
-        "jp_clean": [
-            "(...？)",
-            "(...？)",
-            "(...?)",
-            "(...？)"
-        ],
+        "jp_raw":  "(...？)",
+        "jp_clean":  "(...？)",
         "checked": true
     },
     {
@@ -262,14 +212,8 @@
     {
         "en_raw": "But, Sif, I'm glad this is over!",
         "en_clean": "But, Sif, I'm glad this is over!",
-        "jp_raw": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "\\m[vi]とにかく、シフ、片が付いてうれしいよ！"
-        ],
-        "jp_clean": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "とにかく、シフ、片が付いてうれしいよ！"
-        ],
+        "jp_raw": "とにかく、シフ、片が付いてうれしいよ！",
+        "jp_clean": "とにかく、シフ、片が付いてうれしいよ！",
         "checked": true
     },
     {
@@ -282,24 +226,14 @@
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
         "checked": true
     },
     {
         "en_raw": "<span class=\"big\">\n EVERYONE!!!\n</span>",
         "en_clean": "EVERYONE!!!",
-        "jp_raw": "\\{みんな～！！！",
+        "jp_raw": "<span class=\"big\">みんな～！！！</span>",
         "jp_clean": "みんな～！！！",
         "checked": true
     },
@@ -313,8 +247,8 @@
     {
         "en_raw": "I think this calls for a\n<span class=\"wave\">\n group hug!!!\n</span>",
         "en_clean": "I think this calls for agroup hug!!!",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "今こそ<span class=\"wave\">みんなでハグしよう！</span>",
+        "jp_clean": "今こそみんなでハグしよう！",
         "checked": true
     },
     {
@@ -362,14 +296,8 @@
     {
         "en_raw": "Yay!!!",
         "en_clean": "Yay!!!",
-        "jp_raw": [
-            "\\m[vm]イェイ！",
-            "\\m[vi]決まりだ！"
-        ],
-        "jp_clean": [
-            "イェイ！",
-            "決まりだ！"
-        ],
+        "jp_raw": "イェイ！",
+        "jp_clean": "イェイ！",
         "checked": true
     },
     {
@@ -382,8 +310,8 @@
     {
         "en_raw": ". . .",
         "en_clean": ". . .",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": ". . .",
+        "jp_clean": ". . .",
         "checked": true
     },
     {
@@ -391,14 +319,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing "\"What did you have to...\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"結局伝えたいことって...\"",
+        "jp_clean": "\"結局伝えたいことって...\"",
+        "checked": false
     },
     {
         "en_raw": "Doesn't matter.",
@@ -424,14 +352,8 @@
     {
         "en_raw": "But, Sif, I'm glad this is over!",
         "en_clean": "But, Sif, I'm glad this is over!",
-        "jp_raw": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "\\m[vi]とにかく、シフ、片が付いてうれしいよ！"
-        ],
-        "jp_clean": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "とにかく、シフ、片が付いてうれしいよ！"
-        ],
+        "jp_raw": "とにかく、シフ、片が付いてうれしいよ！",
+        "jp_clean": "とにかく、シフ、片が付いてうれしいよ！",
         "checked": true
     },
     {
@@ -444,18 +366,8 @@
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
         "checked": true
     },
     {
@@ -510,42 +422,36 @@
     {
         "en_raw": "<span class=\"small\">\n There has to be a better moment later. A better moment than... Saving the country...\n</span>",
         "en_clean": "There has to be a better moment later. A better moment than... Saving the country...",
-        "jp_raw": "\\}あとでもっといいタイミングがあるさ。国を救うよりも... いいタイミングが...",
+        "jp_raw": "<span class=\"small\">あとでもっといいタイミングがあるさ。国を救うよりも... いいタイミングが...</span>",
         "jp_clean": "あとでもっといいタイミングがあるさ。国を救うよりも... いいタイミングが...",
         "checked": true
     },
     {
         "en_raw": "<span class=\"small\">\n ...urgh.\n</span>",
         "en_clean": "...urgh.",
-        "jp_raw": "\\}...あーあ。",
+        "jp_raw": "<span class=\"small\">...あーあ。</span>",
         "jp_clean": "...あーあ。",
         "checked": true
     },
     {
         "en_raw": "(. . .)",
         "en_clean": "(. . .)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(. . .)",
+        "jp_clean": "(. . .)",
         "checked": true
     },
     {
         "en_raw": "(. . .   Oh.)",
         "en_clean": "(. . .   Oh.)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...そうか。)",
+        "jp_clean": "(...そうか。)",
         "checked": true
     },
     {
         "en_raw": "But, Sif, I'm glad this is over!",
         "en_clean": "But, Sif, I'm glad this is over!",
-        "jp_raw": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "\\m[vi]とにかく、シフ、片が付いてうれしいよ！"
-        ],
-        "jp_clean": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "とにかく、シフ、片が付いてうれしいよ！"
-        ],
+        "jp_raw": "とにかく、シフ、片が付いてうれしいよ！",
+        "jp_clean": "とにかく、シフ、片が付いてうれしいよ！",
         "checked": true
     },
     {
@@ -558,18 +464,8 @@
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
         "checked": true
     },
     {
@@ -596,14 +492,8 @@
     {
         "en_raw": "What's wrong?",
         "en_clean": "What's wrong?",
-        "jp_raw": [
-            "\\m[vo]どうした？",
-            "どうしたんだ？"
-        ],
-        "jp_clean": [
-            "どうした？",
-            "どうしたんだ？"
-        ],
+        "jp_raw": "どうしたんだ？",
+        "jp_clean": "どうしたんだ？",
         "checked": true
     },
     {
@@ -651,8 +541,8 @@
     {
         "en_raw": "(You're not stupid. You know what it is! What he wants to tell you! You know!)",
         "en_clean": "(You're not stupid. You know what it is! What he wants to tell you! You know!)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(僕だってバカじゃない！ そのぐらい分かる！ 何を伝えたいかぐらい！ 分かるよ！)",
+        "jp_clean": "(僕だってバカじゃない！ そのぐらい分かる！ 何を伝えたいかぐらい！ 分かるよ！)",
         "checked": true
     },
     {
@@ -819,7 +709,7 @@
     {
         "en_raw": "(Oh, wait, you remembered. It doesn't matter what you do.)",
         "en_clean": "(Oh, wait, you remembered. It doesn't matter what you do.)",
-        "jp_raw": "(あっ、そうだ、思い出した。m[wait]僕が何をしても変わらないんだった。)",
+        "jp_raw": "(あっ、そうだ、思い出した。僕が何をしても変わらないんだった。)",
         "jp_clean": "(あっ、そうだ、思い出した。僕が何をしても変わらないんだった。)",
         "checked": true
     },
@@ -840,8 +730,8 @@
     {
         "en_raw": "I, um...  What?",
         "en_clean": "I, um...  What?",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "俺、その... えっ？",
+        "jp_clean": "俺、その... えっ？",
         "checked": true
     },
     {
@@ -854,14 +744,14 @@
     {
         "en_raw": "Oh, um...",
         "en_clean": "Oh, um...",
-        "jp_raw": "ああ、そっか...m[wait]\\^",
+        "jp_raw": "ああ、そっか...",
         "jp_clean": "ああ、そっか...",
         "checked": true
     },
     {
         "en_raw": "Yeah, sure, I... I understand.",
         "en_clean": "Yeah, sure, I... I understand.",
-        "jp_raw": "うん、確かに...m[wait] そうだよな。",
+        "jp_raw": "うん、確かに...そうだよな。",
         "jp_clean": "うん、確かに... そうだよな。",
         "checked": true
     },
@@ -875,14 +765,8 @@
     {
         "en_raw": "But, Sif, I'm glad this is over!",
         "en_clean": "But, Sif, I'm glad this is over!",
-        "jp_raw": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "\\m[vi]とにかく、シフ、片が付いてうれしいよ！"
-        ],
-        "jp_clean": [
-            "とにかく、シフ、片が付いてうれしいよ！",
-            "とにかく、シフ、片が付いてうれしいよ！"
-        ],
+        "jp_raw": "とにかく、シフ、片が付いてうれしいよ！",
+        "jp_clean": "とにかく、シフ、片が付いてうれしいよ！",
         "checked": true
     },
     {
@@ -895,7 +779,7 @@
     {
         "en_raw": "They probably missed me.",
         "en_clean": "They probably missed me.",
-        "jp_raw": "みんなも俺に会いたがってると思う。m[wait]\\^",
+        "jp_raw": "みんなも俺に会いたがってると思う。",
         "jp_clean": "みんなも俺に会いたがってると思う。",
         "checked": true
     },
@@ -909,24 +793,14 @@
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
         "checked": true
     },
     {
         "en_raw": "...Stupid stuff aside, though...",
         "en_clean": "...Stupid stuff aside, though...",
-        "jp_raw": "...m[wait]くだらない話はともかく...",
+        "jp_raw": "...くだらない話はともかく...",
         "jp_clean": "...くだらない話はともかく...",
         "checked": true
     },
@@ -940,20 +814,8 @@
     {
         "en_raw": "(Huh?)",
         "en_clean": "(Huh?)",
-        "jp_raw": [
-            "\\m[vs](ん？)\\!\\",
-            "\\m[clear](へっ？)",
-            "(あれ？)",
-            "\\m[rb]\\m[vs](えっ？)\\!\\",
-            "\\m[clear](えっ？)\\!\\m[wait]\\^"
-        ],
-        "jp_clean": [
-            "(ん？)",
-            "(へっ？)",
-            "(あれ？)",
-            "(えっ？)",
-            "(えっ？)"
-        ],
+        "jp_raw": "(はぁっ？)",
+        "jp_clean": "(はぁっ？)",
         "checked": true
     },
     {
@@ -980,8 +842,8 @@
     {
         "en_raw": "(. . .) \"Yeah!\"",
         "en_clean": "(. . .) \"Yeah!\"",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(. . .) \"うん！\"",
+        "jp_clean": "(. . .) \"うん！\"",
         "checked": true
     },
     {
@@ -1052,14 +914,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "OH! HAHA! Yes! I did! Um. Okay.",
@@ -1122,7 +984,7 @@
         "en_clean": "(Huh?)",
         "jp_raw": "(はぁっ？)", //何だったの？
         "jp_clean": "(はぁっ？)",
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -1164,21 +1026,21 @@
         "en_clean": "(But...)",
         "jp_raw": "(でも...)", //でも、今話してくれてもいいんじゃない？
         "jp_clean": "(でも...)",
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "(It didn't work the first time, but...)",
         "en_clean": "(It didn't work the first time, but...)",
         "jp_raw": "(最初はうまくいかなかったけど...)", //でも、今話してくれてもいいんじゃない？
         "jp_clean": "(最初はうまくいかなかったけど...)",
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)", //でも、今話してくれてもいいんじゃない？
         "jp_clean": "(...)",
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "Wow, you're really curious about it, huh?",
@@ -1262,14 +1124,14 @@
         "en_clean": "",
         "jp_raw": null, //"\"...イザ、僕も友達になれてよかったと思う。\""
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "Oh!",

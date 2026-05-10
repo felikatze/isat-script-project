@@ -18,14 +18,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing "\"What's wrong?\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"どうしたの？\"",
+        "jp_clean": "\"どうしたの？\"",
+        "checked": false
     },
     {
         "en_raw": "(\"...It's...\")",
@@ -37,8 +37,8 @@
     {
         "en_raw": "...It's...   It's really over, right?",
         "en_clean": "...It's...   It's really over, right?",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...ほんとに... 終わったんだよな？",
+        "jp_clean": "...ほんとに... 終わったんだよな？",
         "checked": true
     },
     {
@@ -67,14 +67,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing "\"For real for real, Bon\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"ほんとにほんとだよ、ボン\"",
+        "jp_clean": "\"ほんとにほんとだよ、ボン\"",
+        "checked": false
     },
     {
         "en_raw": ". . .",
@@ -102,14 +102,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO eng missing "\"I'm sure of it\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
+        "jp_raw": "\"間違いないって\"",
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -137,14 +137,14 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//"\"How about this?\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"じゃあこうしよう。\"",
+        "jp_clean": "\"じゃあこうしよう。\"",
+        "checked": false
     },
     {
         "en_raw": "Hn?",
@@ -158,20 +158,20 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//"\"If she's not moving when you go see her, you can punch me three times.\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"お姉さんが動かなかったら、僕を3回パンチしてもいいよ。\"",
+        "jp_clean": "\"お姉さんが動かなかったら、僕を3回パンチしてもいいよ。\"",
+        "checked": false
     },
     {
         "en_raw": "...  Deal.",
         "en_clean": "...  Deal.",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...わかった。",
+        "jp_clean": "...わかった。",
         "checked": true
     },
     {
@@ -186,36 +186,20 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//"\"Just as dumb as your sister not being okay when we just won!\""
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "\"勝ったのにお姉さんが動かないままだって思うのもバカバカしいぞ！\"",
+        "jp_clean": "\"勝ったのにお姉さんが動かないままだって思うのもバカバカしいぞ！\"",
+        "checked": false
     },
     {
         "en_raw": "Oh...",
         "en_clean": "Oh...",
-        "jp_raw": [
-            "\\m[vb]あぁ...",
-            "\\m[vmnp]あ...",
-            "\\m[vm]あら...",
-            "ああ...",
-            "\\m[vm]えっと\\..\\..\\..",
-            "\\m[vo]ああ...",
-            "\\n<\\v[46]>\\m[vkid]わあ..."
-        ],
-        "jp_clean": [
-            "あぁ...",
-            "あ...",
-            "あら...",
-            "ああ...",
-            "えっと...",
-            "ああ...",
-            "わあ..."
-        ],
+        "jp_raw": "あぁ...",
+        "jp_clean": "あぁ...",
         "checked": true
     },
     {
@@ -235,20 +219,8 @@
     {
         "en_raw": "(You laugh.)",
         "en_clean": "(You laugh.)",
-        "jp_raw": [
-            "(僕は笑う。)",
-            "\\m[clear](僕は声を出して笑った。)",
-            "\\m[vs](僕は笑う。)\\!\\",
-            "\\m[clear](僕は声を上げて笑った。)\\!\\m[wait]\\^",
-            "\\m[clear](僕は声を出して笑った。)\\！\\"
-        ],
-        "jp_clean": [
-            "(僕は笑う。)",
-            "(僕は声を出して笑った。)",
-            "(僕は笑う。)",
-            "(僕は声を上げて笑った。)",
-            "(僕は声を出して笑った。)\\！\\"
-        ],
+        "jp_raw": "(僕は声を出して笑った。)",
+        "jp_clean": "(僕は声を出して笑った。)",
         "checked": true
     },
     {
@@ -296,18 +268,8 @@
     {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
+        "jp_raw": "(僕はうなずく。)",
+        "jp_clean": "(僕はうなずく。)",
         "checked": true
     },
     {
@@ -327,27 +289,15 @@
     {
         "en_raw": "(You freeze.)",
         "en_clean": "(You freeze.)",
-        "jp_raw": [
-            "\\m[clear](体が固くなる。)",
-            "(体が固くなる。)"
-        ],
-        "jp_clean": [
-            "(体が固くなる。)",
-            "(体が固くなる。)"
-        ],
+        "jp_raw": "(体が固くなる。)",
+        "jp_clean": "(体が固くなる。)",
         "checked": true
     },
     {
         "en_raw": "(You don't say anything.)",
         "en_clean": "(You don't say anything.)",
-        "jp_raw": [
-            "\\m[clear](僕は何も言わない。)",
-            "(僕は何も言わない。)"
-        ],
-        "jp_clean": [
-            "(僕は何も言わない。)",
-            "(僕は何も言わない。)"
-        ],
+        "jp_raw": "(僕は何も言わない。)",
+        "jp_clean": "(僕は何も言わない。)",
         "checked": true
     },
     {
@@ -371,19 +321,19 @@
         "jp_clean": "時間のクラフトを使えるのは、王だけでしょ？",
         "checked": true
     },
-    {
-        "en_raw": "(Quick, say something...)",
+    {//TODO missing english "\"It'd make sense the smell would linger a bit, right?\""
+        "en_raw": "(Quick, say something...)", 
         "en_clean": "(Quick, say something...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "(早く何か言わなきゃ...) \"しばらくの間はにおいが残ってるんじゃないか？\"",
+        "jp_clean": "(早く何か言わなきゃ...) \"しばらくの間はにおいが残ってるんじゃないか？\"",
+        "checked": false
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
-        "jp_raw": "(...)",
-        "jp_clean": "(...)",
-        "checked": true
+        "jp_raw": "(...) \"しばらくの間はにおいが残ってるんじゃないか？\"",
+        "jp_clean": "(...) \"しばらくの間はにおいが残ってるんじゃないか？\"",
+        "checked": false
     },
     {
         "en_raw": "Linger?",
@@ -392,18 +342,12 @@
         "jp_clean": "においが残る？",
         "checked": true
     },
-    {
+    {//TODO missing english "\"When you fart, it smells bad for a while, yeah?\""
         "en_raw": "(Well...)",
         "en_clean": "(Well...)",
-        "jp_raw": [
-            "\\m[clear](そうだな...)",
-            "\\m[vs](あれは...)\\!\\"
-        ],
-        "jp_clean": [
-            "(そうだな...)",
-            "(あれは...)"
-        ],
-        "checked": true
+        "jp_raw": "(そうだな...) \"おならをすると、しばらくの間はくさいだろ？\"",
+        "jp_clean": "(そうだな...) \"おならをすると、しばらくの間はくさいだろ？\"",
+        "checked": false
     },
     {
         "en_raw": "(...)",
@@ -415,34 +359,8 @@
     {
         "en_raw": "Oh.",
         "en_clean": "Oh.",
-        "jp_raw": [
-            "\\m[vi]えっ。",
-            "\\m[vo]ああ。",
-            "\\m[vb]おう。",
-            "\\m[vm]えっ。",
-            "\\m[vinp]おお。",
-            "\\m[vlnp]あー。\\!\\m[wait]\\^",
-            "\\m[vlnp]わあ。",
-            "\\m[vm]\\>あっ。\\<\\^",
-            "\\m[vkid]\\n<\\v[46]>ふーん。",
-            "\\n<\\v[46]>\\m[vkid]へえ。",
-            "\\m[vonp]おや。",
-            "\\m[vl]へえ。"
-        ],
-        "jp_clean": [
-            "えっ。",
-            "ああ。",
-            "おう。",
-            "えっ。",
-            "おお。",
-            "あー。",
-            "わあ。",
-            "あっ。",
-            "ふーん。",
-            "へえ。",
-            "おや。",
-            "へえ。"
-        ],
+        "jp_raw": "おう。",
+        "jp_clean": "おう。",
         "checked": true
     },
     {
@@ -462,14 +380,8 @@
     {
         "en_raw": "(You both laugh.)",
         "en_clean": "(You both laugh.)",
-        "jp_raw": [
-            "(二人で笑い声をあげる。)",
-            "\\m[clear](2人で笑った。)"
-        ],
-        "jp_clean": [
-            "(二人で笑い声をあげる。)",
-            "(2人で笑った。)"
-        ],
+        "jp_raw": "(2人で笑った。)",
+        "jp_clean": "(2人で笑った。)",
         "checked": true
     },
     {
@@ -489,7 +401,7 @@
     {
         "en_raw": "(It's you, isn't it?)",
         "en_clean": "(It's you, isn't it?)",
-        "jp_raw": "\\m[wait](僕のにおいか？)",
+        "jp_raw": "(僕のにおいか？)",
         "jp_clean": "(僕のにおいか？)",
         "checked": true
     },
@@ -510,8 +422,8 @@
     {
         "en_raw": "(Yes.) \"Sure!\"",
         "en_clean": "(Yes.) \"Sure!\"",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(うん。) \"食べる！\"",
+        "jp_clean": "(うん。) \"食べる！\"",
         "checked": true
     },
     {
@@ -531,8 +443,8 @@
     {
         "en_raw": "(No.) \"Nothing else?\"",
         "en_clean": "(No.) \"Nothing else?\"",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(いらない。) \"ほかにはないの？\"",
+        "jp_clean": "(いらない。) \"ほかにはないの？\"",
         "checked": true
     },
     {
@@ -580,8 +492,8 @@
     {
         "en_raw": ". . .Frin...",
         "en_clean": ". . .Frin...",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "...フラン...",
+        "jp_clean": "...フラン...",
         "checked": true
     },
     {
@@ -591,31 +503,19 @@
         "jp_clean": "オマエ大丈夫か？",
         "checked": true
     },
-    {
+    {//TODO this and below choicer "\"うん。どうして？\""
         "en_raw": "(?)",
         "en_clean": "(?)",
-        "jp_raw": [
-            "\\m[clear](？)",
-            "\\m[clear](？)\\!\\"
-        ],
-        "jp_clean": [
-            "(？)",
-            "(？)"
-        ],
-        "checked": true
+        "jp_raw": "(？)",
+        "jp_clean": "(？)",
+        "checked": false
     },
     {
         "en_raw": "(Stars...)",
         "en_clean": "(Stars...)",
-        "jp_raw": [
-            "\\m[clear](星たちよ...)",
-            "\\m[vs](星たちよ...)\\!\\"
-        ],
-        "jp_clean": [
-            "(星たちよ...)",
-            "(星たちよ...)"
-        ],
-        "checked": true
+        "jp_raw": "(星たちよ...)",
+        "jp_clean": "(星たちよ...)",
+        "checked": false
     },
     {
         "en_raw": "...",
@@ -650,21 +550,21 @@
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
-    {
+    {//TODO missing eng "\"Do you have some snacks left?\""
         "en_raw": "(...  Before you forget, though...)",
         "en_clean": "(...  Before you forget, though...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": true
+        "jp_raw": "(...忘れる前に...) \"なにかお菓子は残ってない？\"",
+        "jp_clean": "(...忘れる前に...) \"なにかお菓子は残ってない？\"",
+        "checked": false
     },
     {
         "en_raw": "Oh, um... Well...",
@@ -767,8 +667,8 @@
     {
         "en_raw": "(...  Bonnie shyly waves back.)",
         "en_clean": "(...  Bonnie shyly waves back.)",
-        "jp_raw": null,
-        "jp_clean": null,
+        "jp_raw": "(...ボニーも恥ずかしそうに手を振る。)",
+        "jp_clean": "(...ボニーも恥ずかしそうに手を振る。)",
         "checked": true
     },
     {
@@ -1042,14 +942,14 @@
         "en_clean": "",
         "jp_raw": "\"うん、いつか行くよ。\"",
         "jp_clean": "\"うん、いつか行くよ。\"",
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": null,
         "jp_clean": null,
-        "checked": true
+        "checked": false
     },
     {
         "en_raw": "(...)",
