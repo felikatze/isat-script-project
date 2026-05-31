@@ -6,9 +6,9 @@ liAss = os.listdir("line_associations")
 trans = os.listdir("translations")
 
 #sanatize all
-for i in range(0,len(trans)-1):
+for i in range(0,len(trans)):
   trans[i] = trans[i].split(".")[0]
-for i in range(0,len(liAss)-1):
+for i in range(0,len(liAss)):
   liAss[i] = liAss[i].split(".")[0]
   
 print("starting")
