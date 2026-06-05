@@ -15,7 +15,7 @@ var bigPageNameDropdown = document.getElementById("big-pageNameDropdown");
 var bigExpressionDropdown = document.getElementById("big-expressionDropdown");
 var bigSpeakerDropdown = document.getElementById("big-speakerDropdown");
 var bigClearFiltersButton = document.getElementById("clearFilters");
-var magnifyingGladdIcon = document.getElementById("magnifyingGlassIcon");
+var magnifyingGlassIcon = document.getElementById("magnifyingGlassIcon");
 
 const fillFilterDropdowns = async function(){
         if (bigAllLines.length == 0) {
@@ -175,7 +175,7 @@ const modifyResultsForSpeakerChange = function() {
     if (filteredLines.length == 0 && !bigResultsList.classList.contains("hidden")) {
         toggleElementVisibility(bigResultsList)
     }
-} 
+}
 
 window.addEventListener("load", async () => fillFilterDropdowns())
 bigClearFiltersButton.addEventListener('click', clearFilters)
@@ -185,22 +185,10 @@ bigPageNameDropdown.addEventListener('onkeyup', modifyResultsOnKeyup);
 bigExpressionDropdown.addEventListener('change', modifyResultsForExpressionChange)
 bigPageNameDropdown.addEventListener('change', modifyResultsForPageChange)
 bigSpeakerDropdown.addEventListener('change', modifyResultsForSpeakerChange)
-magnifyingGlassIcon.removeEventListener('click', openSearch)
+//magnifyingGlassIcon.removeEventListener('click', openSearch)
 
 
 // FUNCTIONS FOR BEHAVIOR OF SEARCH RESULTS LIST (UNDER SEARCHBOX)
-
-document.addEventListener('click', (e) => {
-
-    console.log(e.currentTarget.activeElement);
-    if (e.currentTarget.activeElement.id == "searchbox" || e.currentTarget.activeElement.classList.contains('filterDropdown')) {
-        return
-    }
-
-    if (!bigResultsList.classList.contains("hidden")) {
-        toggleElementVisibility(bigResultsList)
-    }
-})
 
 function bigModifyResultsList(lines) {
     if (lines.length == 0 || bigSearchTerm.length <= 3) {
@@ -214,8 +202,9 @@ function bigModifyResultsList(lines) {
     else if (bigSearchTerm.length > 3) {
         bigSetSearchResults(lines.slice(0, 100))
     }
+}
 
-    function bigCreateSearchResultItem(uri, text, source, nth_instance, expression, speaker) {
+function bigCreateSearchResultItem(uri, text, source, nth_instance, expression, speaker) {
         let resultItem = document.createElement('li')
         let linkItem = document.createElement('a')
         let textnode = document.createTextNode(text)
@@ -276,7 +265,6 @@ function bigModifyResultsList(lines) {
             toggleElementVisibility(bigResultsList)
         }
     }
-}
 
 function bigClearSearchResults() {
     while (bigResultsList.firstChild) {
