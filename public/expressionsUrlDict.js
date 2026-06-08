@@ -490,7 +490,7 @@ export const expressionsUrlDictionary = {
     "fight2":"/assets/expressions/sasasap/h_fight_2.png",
     "gentle1":"/assets/expressions/sasasap/h_gentle_1.png",
     "hm1":"/assets/expressions/sasasap/h_hm_1.png",
-    "hmmm1":"/assets/expressions/sasasap/h_hmmm_1.png",
+    "hmm1":"/assets/expressions/sasasap/h_hmm_1.png",
     "pray1":"/assets/expressions/sasasap/h_pray_1.png",
     "pray2":"/assets/expressions/sasasap/h_pray_2.png",
     "smile1":"/assets/expressions/sasasap/h_smile_1.png",
