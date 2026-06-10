@@ -25,7 +25,6 @@
                 <h1>Intro Cutscene (Start Again)</h1>
                 <p><b>Source:</b> Map020 (Intro), Map025 (IntroRoom)</p>
                 <small>Created by YellowIris</small>
-                <p>TODO add "let's try x and y" cutscene thingy</p>
 
                 <br>
 
@@ -33,6 +32,7 @@
 
                 <ul>
                     <li><a href="#intro">Intro Cutscene</a></li>
+                    <li><a href="#loop">Looping Back</a></li>
                     <li><a href="#fighter">Talking to the Fighter</a></li>
                     <li><a href="#housemaiden">Talking to the Housemaiden</a></li>
                     <li><a href="#researcher">Talking to the Researcher</a></li>
@@ -112,7 +112,7 @@
                     <br>
 
                     <p class="dialogue-note">
-                        Glitch effect, moves to <a href="/not_found.html">first room</a>
+                        Glitch effect, moves to <a href="/sasasap/intro.html">first room</a>
                     </p>
 
                     <p class="dialogue-note">
@@ -400,9 +400,31 @@
                 <hr>
                 <br>
 
+                <h1 id="loop">Loop Cutscene</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Housemaiden</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>
+                        --so  let's go!
+                    </p>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+
+                </div>
+
+                <hr>
+                <br>
+
                 <h1 id="fighter">Talking to the Fighter</h1>
 
-                <div class="dialogue"></div>
+                <div class="dialogue">
 
                   <p class="dialogue-line">
                       <span class="dialogue-head">
@@ -427,6 +449,8 @@
                       </span>
                       No matter what the King or this castle throw at us, I'm sure we'll succeed!!!
                   </p>
+
+                  </div>
 
                 <hr>
                 <br>
@@ -621,6 +645,37 @@
                 <h1 id="researcher">Talking to the Researcher</h1>
 
                 <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(readingup1)</span>
+                        </span>
+                        Oh.&nbsp; Siffrin.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(question1)</span>
+                        </span>
+                        You're the fastest out of all of us,&nbsp; so I'm counting on you and your speed as always.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(smug1)</span>
+                        </span>
+                        Which is to say:&nbsp; please walk in front so hopefully your reflexes will keep all of us out of trouble.
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(smile1)</span>
+                        </span>
+                        Me and my slow old woman reflexes thank you.
+                    </p>
 
                 </div>
 
@@ -631,6 +686,14 @@
 
                 <div class="dialogue">
 
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Researcher</span>
+                            <span class="dialogue-expression">(oof1)</span>
+                        </span>
+                        And, gems alive, PLEASE try not to run too much...
+                    </p>
+
                 </div>
                 
                 <hr>
@@ -638,9 +701,54 @@
 
                 <h1 id="leave">Leaving</h1>
 
-                <div class="dialogue"></div>
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">Fighter</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        Ready to go?
+                    </p>
+                    <br>
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>
+                                    "Ready!!!"
+                                </summary>
+                                <div class="dialogue">
 
-                
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">Fighter</span>
+                                            <span class="dialogue-expression">(confident1)</span>
+                                        </span>
+                                        Alright!&nbsp; Let's go!!!
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>
+                                    "Not yet!"
+                                </summary>
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">
+                                        The dialogue ends there
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
                 
             </main>
         </div>
