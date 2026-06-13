@@ -326,17 +326,17 @@ function applySettings() {
     var here = `${location.pathname},`;
     animationToggle = localStorage.getItem("animationToggle");
     var animationToggleForPageButton = document.querySelector("#settings [onclick~='toggleAnimationsForPage()']");
-    if (!localStorage.getItem("animationTogglePages").includes(here)) {
+    if (localStorage.getItem("animationTogglePages").includes(here)) {
         if (debugMode) {console.log("animations are toggled off for this page!")};
-        animationToggle == "off";
+        animationToggle = "off";
         animationToggleForPageButton.style.backgroundColor = colorOff;
-        toggleAnimationsForPage(false);
+        toggleAnimations(false, false);
     } else if (animationToggle == "off") {
         toggleAnimations(false);
         if (debugMode) {console.log("toggled animations off on load!")};
         animationToggleForPageButton.style.backgroundColor = colorOn;
     } else {
-        animationToggle == "on";
+        animationToggle = "on";
         toggleAnimations(true);
         animationToggleForPageButton.style.backgroundColor = colorOn;
     }
