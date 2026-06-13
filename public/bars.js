@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                  variables                                 //
 ////////////////////////////////////////////////////////////////////////////////
-var debugMode = true; // change this to true and check console for debug logs!
+var debugMode = false; // change this to true and check console for debug logs!
 var animationToggle;
 var animationsHaveBeenTurnedOnBefore = false;
 var wavelength = 0.025;
