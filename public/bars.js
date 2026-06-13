@@ -259,7 +259,7 @@ function toggleAnimationsForPage(state = null) {
         toggleButton.style.backgroundColor = colorOff;
         if (debugMode) {console.log(`turning animations OFF for ${here.slice(0, -1)}`)};
     }
-    
+
     localStorage.setItem("animationTogglePages", current)
 }
 
@@ -290,7 +290,6 @@ function disableShakeAnimation() {
 }
 
 function applyWaveAnimation() {
-    wrapAllCharacters(document.querySelectorAll(".wave"));
     document.querySelectorAll(".wave span").forEach(function(span, index) {
         if (!(/\s/g.test(span.innerHTML))) {
             span.classList.remove("wave-visual");
