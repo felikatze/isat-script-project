@@ -569,6 +569,13 @@ export const expressionsUrlDictionary = {
     "smile2":"/assets/expressions/sasasap/s_smile_2.png",
     "surprised1":"/assets/expressions/sasasap/s_surprised_1.png",
     "surprised2":"/assets/expressions/sasasap/s_surprised_2.png"
+},
+" ":{
+    "siftutorial":"/assets/images/xxx_small(0).png",
+    "housemaidentutorial":"/assets/images/xxx_small(1).png",
+    "fightertutorial":"/assets/images/xxx_small(2).png",
+    "researchertutorial":"/assets/images/xxx_small(3).png",
+    "kidtutorial":"/assets/images/xxx_small(12).png"
 }
 }
         
