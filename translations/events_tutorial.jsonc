@@ -118,22 +118,12 @@
         "jp_clean": "(またここか！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Here again.)",
         "en_clean": "(Here again.)",
-        "jp_raw": [
-            "\\m[clear](またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)\\!\\m[wait]\\^",
-            "(まただ。)\\!\\m[wait]"
-        ],
-        "jp_clean": [
-            "(またここだ。)",
-            "(またここだ。)",
-            "(今回もか。)",
-            "(まただ。)"
-        ],
-        "checked": false
+        "jp_raw": "(またここだ。)",
+        "jp_clean": "(またここだ。)",
+        "checked": true
     },
     {
         "en_raw": "(Something like...)",
@@ -142,20 +132,12 @@
         "jp_clean": "(たとえば...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(うーん...)",
+        "jp_clean": "(うーん...)",
+        "checked": true
     },
     {
         "en_raw": "(Alright...)",
@@ -255,124 +237,47 @@
         "jp_clean": "[自分と仲間のステータスについて説明しておくね。]",
         "checked": true
     },
-    {//TODO this and next 2 lines combined in game_lines.json
-        "en_raw": "[YOU!]",
-        "en_clean": "[YOU!]",
-        "jp_raw": "[きみ！][チョキ属性で、グー属性に弱い][動きが速く、仲間を速くできる]",
-        "jp_clean": "[きみ！][チョキ属性で、グー属性に弱い][動きが速く、仲間を速くできる]",
-        "checked": false
+    {
+        "en_raw": "[YOU!]<br>[SCISSORS type, weak to ROCK]<br>[Fast, can make everyone faster]",
+        "en_clean": "[YOU!]<br>[SCISSORS type, weak to ROCK]<br>[Fast, can make everyone faster]",
+        "jp_raw": "[きみ！]<br>[チョキ属性で、グー属性に弱い]<br>[動きが速く、仲間を速くできる]",
+        "jp_clean": "[きみ！]<br>[チョキ属性で、グー属性に弱い]<br>[動きが速く、仲間を速くできる]",
+        "checked": true
     },
     {
-        "en_raw": "[SCISSORS type, weak to ROCK]",
-        "en_clean": "[SCISSORS type, weak to ROCK]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "en_raw": "[MIRABELLE]<br>[SCISSORS/PAPER type, weak to ROCK]<br>[Heals and can boost friends' ATTACK]",
+        "en_clean": "[MIRABELLE]<br>[SCISSORS/PAPER type, weak to ROCK]<br>[Heals and can boost friends' ATTACK]",
+        "jp_raw": "[ミラベル。]<br>[チョキ/パー属性で、グー属性に弱い]<br>[回復と仲間の攻撃力強化ができる]",
+        "jp_clean": "[ミラベル。]<br>[チョキ/パー属性で、グー属性に弱い]<br>[回復と仲間の攻撃力強化ができる]",
+        "checked": true
     },
     {
-        "en_raw": "[Fast, can make everyone faster]",
-        "en_clean": "[Fast, can make everyone faster]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "en_raw": "[ISABEAU]<br>[ROCK type, weak to PAPER]<br>[Hits hard, can boost friends' DEFENSE]",
+        "en_clean": "[ISABEAU]<br>[ROCK type, weak to PAPER]<br>[Hits hard, can boost friends' DEFENSE]",
+        "jp_raw": "[イザボー]<br>[グー属性で、パー属性に弱い]<br>[攻撃が得意で、仲間の防御力を強化できる]",
+        "jp_clean": "[イザボー]<br>[グー属性で、パー属性に弱い]<br>[攻撃が得意で、仲間の防御力を強化できる]",
+        "checked": true
     },
     {
-        "en_raw": "[MIRABELLE]",
-        "en_clean": "[MIRABELLE]",
-        "jp_raw": "[ミラベル。][チョキ/パー属性で、グー属性に弱い][回復と仲間の攻撃力強化ができる]",
-        "jp_clean": null,
-        "checked": false
+        "en_raw": "[ODILE]<br>[PAPER type, weak to SCISSORS]<br>[Can use Craft spells of any type]<br>[Slow, can make enemies slower]",
+        "en_clean": "[ODILE]<br>[PAPER type, weak to SCISSORS]<br>[Can use Craft spells of any type]<br>[Slow, can make enemies slower]",
+        "jp_raw": "[オディール]<br>[パー属性で、チョキ属性に弱い]<br>[あらゆる属性のクラフトスペルが使える]<br>[動きが遅い代わりに、敵の動きも遅くできる]",
+        "jp_clean": "[オディール]<br>[パー属性で、チョキ属性に弱い]<br>[あらゆる属性のクラフトスペルが使える]<br>[動きが遅い代わりに、敵の動きも遅くできる]",
+        "checked": true
     },
     {
-        "en_raw": "[SCISSORS/PAPER type, weak to ROCK]",
-        "en_clean": "[SCISSORS/PAPER type, weak to ROCK]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "en_raw": "[BONNIE]<br>[Helps out randomly in battle]",
+        "en_clean": "[BONNIE]<br>[Helps out randomly in battle]",
+        "jp_raw": "[ボニー]<br>[バトル中ランダムに手を貸してくれる]",
+        "jp_clean": "[ボニー]<br>[バトル中ランダムに手を貸してくれる]",
+        "checked": true
     },
     {
-        "en_raw": "[Heals and can boost friends' ATTACK]",
-        "en_clean": "[Heals and can boost friends' ATTACK]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[ISABEAU]",
-        "en_clean": "[ISABEAU]",
-        "jp_raw": "[イザボー][グー属性で、パー属性に弱い][攻撃が得意で、仲間の防御力を強化できる]",
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[ROCK type, weak to PAPER]",
-        "en_clean": "[ROCK type, weak to PAPER]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[Hits hard, can boost friends' DEFENSE]",
-        "en_clean": "[Hits hard, can boost friends' DEFENSE]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[ODILE]",
-        "en_clean": "[ODILE]",
-        "jp_raw": "[オディール][パー属性で、チョキ属性に弱い][あらゆる属性のクラフトスペルが使える][動きが遅い代わりに、敵の動きも遅くできる]",
-        "jp_clean": "[オディール][パー属性で、チョキ属性に弱い][あらゆる属性のクラフトスペルが使える][動きが遅い代わりに、敵の動きも遅くできる]",
-        "checked": false
-    },
-    {
-        "en_raw": "[PAPER type, weak to SCISSORS]",
-        "en_clean": "[PAPER type, weak to SCISSORS]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[Can use Craft spells of any type]",
-        "en_clean": "[Can use Craft spells of any type]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[Slow, can make enemies slower]",
-        "en_clean": "[Slow, can make enemies slower]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[BONNIE]",
-        "en_clean": "[BONNIE]",
-        "jp_raw": "[ボニー] [バトル中ランダムに手を貸してくれる]",
-        "jp_clean": "[ボニー] [バトル中ランダムに手を貸してくれる]",
-        "checked": false
-    },
-    {
-        "en_raw": "[Helps out randomly in battle]",
-        "en_clean": "[Helps out randomly in battle]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
-    },
-    {
-        "en_raw": "[BUT, MOST IMPORTANTLY:]",
-        "en_clean": "[BUT, MOST IMPORTANTLY:]",
-        "jp_raw": "[何より重要なのは...] [おやつ係でもある点だ！]",
-        "jp_clean": "[何より重要なのは...] [おやつ係でもある点だ！]",
-        "checked": false
-    },
-    {
-        "en_raw": "[   Snack duty.]",
-        "en_clean": "[   Snack duty.]",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "en_raw": "[BUT, MOST IMPORTANTLY:]<br>[   Snack duty.]",
+        "en_clean": "[BUT, MOST IMPORTANTLY:]<br>[   Snack duty.]",
+        "jp_raw": "[何より重要なのは...]<br>[　おやつ係でもある点だ！]",
+        "jp_clean": "[何より重要なのは...]<br>[　おやつ係でもある点だ！]",
+        "checked": true
     },
     {
         "en_raw": "(Mirabelle goes through everyone's strengths and weaknesses to reassure herself.)",
@@ -470,14 +375,14 @@
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "All good!!!",
@@ -619,19 +524,19 @@
         "jp_clean": "もう、敵も味方も分からない。私たちにできるのは、倒してやることだけ...",
         "checked": true
     },
-    {//TODO gamelines.json has sadness uncapitalized
-        "en_raw": "Every Sadness has a different resistance and weakness.\n<br/>\nMaybe there's a way to figure it out from their appearance...",
-        "en_clean": "Every Sadness has a different resistance and weakness.Maybe there's a way to figure it out from their appearance...",
+    {
+        "en_raw": "Every sadness<!-- [sic] --> has a different resistance and weakness.\n<br/>\nMaybe there's a way to figure it out from their appearance...",
+        "en_clean": "Every sadness has a different resistance and weakness.Maybe there's a way to figure it out from their appearance...",
         "jp_raw": "哀し身たちの耐性と弱点はそれぞれ違う。 もしかすると、姿かたちからそれを見分ける方法があるかもしれない...",
         "jp_clean": "哀し身たちの耐性と弱点はそれぞれ違う。 もしかすると、姿かたちからそれを見分ける方法があるかもしれない...",
-        "checked": false
+        "checked": true
     },
-    {//TODO gamelines.json has the eng as "umm..."
-        "en_raw": "Hmm...",
-        "en_clean": "Hmm...",
+    {
+        "en_raw": "Umm...",
+        "en_clean": "Umm...",
         "jp_raw": "うーん...",
         "jp_clean": "うーん...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "We need to do certain hand signs when we Craft skills... So maybe we should look at their hands?",
@@ -654,26 +559,26 @@
         "jp_clean": "シフラン？ きみはどう思う？",
         "checked": true
     },
-    {//TODO can't find, this and next 2 choicer "\"グータイプ？\"" "\"パータイプ？\"" "\"チョキタイプ？\""
+    {//TODO next 2 choicer "\"グータイプ？\"" "\"パータイプ？\"" "\"チョキタイプ？\""
         "en_raw": "(If you look at its hands...)",
         "en_clean": "(If you look at its hands...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(手を見れば分かる...)",
+        "jp_clean": "(手を見れば分かる...)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(This one is...)",
         "en_clean": "(This one is...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(こいつは...)",
+        "jp_clean": "(こいつは...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yeah! It's doing a Scissors sign!",
@@ -696,34 +601,26 @@
         "jp_clean": "では、敵がチョキタイプの場合、こちらはどのタイプで攻撃すればよいか分かるか？ どうだ、シフラン？",
         "checked": true
     },
-    {//TODO can't find, this and next two chocier "\"グーの攻撃？\"" "\"パーの攻撃？\"" "\"チョキの攻撃？\""
+    {//TODO next two chocier "\"グーの攻撃？\"" "\"パーの攻撃？\"" "\"チョキの攻撃？\""
         "en_raw": "(Your turn again?!)",
         "en_clean": "(Your turn again?!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(また僕！？)",
+        "jp_clean": "(また僕！？)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(えっと...)",
+        "jp_clean": "(えっと...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Yeah! Rock beats Scissors!!!",
@@ -1019,12 +916,12 @@
         "jp_clean": "(まあいい。イライラするほどのことじゃない。)",
         "checked": true
     },
-    {//TODO double check
+    {
         "en_raw": "(Follow the script.)",
         "en_clean": "(Follow the script.)",
-        "jp_raw": "(台本通りにやれ。)",
-        "jp_clean": "(台本通りにやれ。)",
-        "checked": false
+        "jp_raw": "(台本通りにやればいい。)",
+        "jp_clean": "(台本通りにやればいい。)",
+        "checked": true
     },
     {
         "en_raw": "A Sadness, huh? The house must be crawling with them...",
@@ -1143,7 +1040,7 @@
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...?",
@@ -1306,42 +1203,26 @@
         "jp_clean": "あ、あの... ちょっとだけ、戦略について話し合うことはできないかな？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(ふむ...)",
+        "jp_clean": "(ふむ...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Y-Yes!",
@@ -1399,7 +1280,7 @@
         "jp_clean": "あっ、シフラン... これから...",
         "checked": true
     },
-    {//TODO eng missing
+    {//TODO eng is dialogue-option-only
         "en_raw": "",
         "en_clean": "",
         "jp_raw": "\"大丈夫だよ、ミラ！\"",
@@ -1462,26 +1343,26 @@
         "jp_clean": "ハ！",
         "checked": true
     },
-    {//TODO can't find, this and next 2 choicer "\"グータイプ？\"" "\"パータイプ？\"" "\"チョキタイプ？\""
+    {//TODO next 2 choicer "\"グータイプ？\"" "\"パータイプ？\"" "\"チョキタイプ？\""
         "en_raw": "(Your turn again?!?)",
         "en_clean": "(Your turn again?!?)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(また僕なの？！？)",
+        "jp_clean": "(また僕なの？！？)",
+        "checked": true
     },
-    {//TODO can't find
+    {
         "en_raw": "(This one is...)",
         "en_clean": "(This one is...)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(こいつは...)",
+        "jp_clean": "(こいつは...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
@@ -1581,34 +1462,26 @@
         "jp_clean": "(ああ。)",
         "checked": true
     },
-    {//TODO can't find, this and next two choicer "\"弱点はグーだ。\"" "\"弱点はパーだ。\"" "\"弱点はチョキだ。\""
+    {//TODO next two choicer "\"弱点はグーだ。\"" "\"弱点はパーだ。\"" "\"弱点はチョキだ。\""
         "en_raw": "(Stars, you know this.)",
         "en_clean": "(Stars, you know this.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(星たちよ、知ってるって。)",
+        "jp_clean": "(星たちよ、知ってるって。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Hm...)",
         "en_clean": "(Hm...)",
-        "jp_raw": [
-            "\\m[clear](ふむ...)",
-            "(ふむ...)",
-            "\\m[vs](そうだな...)\\!\\"
-        ],
-        "jp_clean": [
-            "(ふむ...)",
-            "(ふむ...)",
-            "(そうだな...)"
-        ],
-        "checked": false
+        "jp_raw": "(えっと...)",
+        "jp_clean": "(えっと...)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": ". . .",
@@ -1631,22 +1504,12 @@
         "jp_clean": "シフランって才能あるよね！ なんでも知ってるんだもん！ おめでとう、シフラン！",
         "checked": true
     },
-    {//TODO usnure
+    {
         "en_raw": "(Urgh.)",
         "en_clean": "(Urgh.)",
-        "jp_raw": [
-            "\\m[clear](やれやれ。)",
-            "(あーあ。)",
-            "\\m[vs](やれやれ。)\\!\\",
-            "\\m[rb]\\m[vs](やれやれ.)\\!\\"
-        ],
-        "jp_clean": [
-            "(やれやれ。)",
-            "(あーあ。)",
-            "(やれやれ。)",
-            "(やれやれ.)"
-        ],
-        "checked": false
+        "jp_raw": "(やれやれ。)",
+        "jp_clean": "(やれやれ。)",
+        "checked": true
     },
     {
         "en_raw": "(You stick out your tongue at her.)",
@@ -1669,24 +1532,12 @@
         "jp_clean": "(ミラベルは時々、びっくりするほど茶目っ気がある。)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ふふふ...",
+        "jp_clean": "ふふふ...",
+        "checked": true
     },
     {
         "en_raw": "Alright, we went over attacks and types...",
@@ -1786,24 +1637,12 @@
         "jp_clean": "それでは、この哀し身のタイプはなんだ？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ヘヘッ...",
+        "jp_clean": "ヘヘッ...",
+        "checked": true
     },
     {
         "en_raw": "Let's see... Do you know this...?",
@@ -1889,24 +1728,12 @@
         "jp_clean": "賢いぞ、ボニファス。同じタイプのクラフトスキルを連続で何度も使うと、どうなると思う？",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Hehehe...",
         "en_clean": "Hehehe...",
-        "jp_raw": [
-            "\\m[vb]えへへ...",
-            "\\m[vm]ふふふ...",
-            "\\m[vi]ヘヘッ...",
-            "\\m[vmnp]エヘヘ...",
-            "エヘヘ..."
-        ],
-        "jp_clean": [
-            "えへへ...",
-            "ふふふ...",
-            "ヘヘッ...",
-            "エヘヘ...",
-            "エヘヘ..."
-        ],
-        "checked": false
+        "jp_raw": "ふふふ...",
+        "jp_clean": "ふふふ...",
+        "checked": true
     },
     {
         "en_raw": "Feels like you guys are on a roll with those Scissors attacks.",
@@ -2111,12 +1938,12 @@
         "jp_clean": "確かにな。では、チュートリアルを続けよう。",
         "checked": true
     },
-    {//TODO gamelines.json says "thank you" instead of thanks
-        "en_raw": "Thanks for playing along.",
-        "en_clean": "Thanks for playing along.",
+    {
+        "en_raw": "Thank you for playing along.",
+        "en_clean": "Thank you for playing along.",
         "jp_raw": "付き合ってくれて感謝するよ。",
         "jp_clean": "付き合ってくれて感謝するよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "No problem!",
@@ -2139,26 +1966,12 @@
         "jp_clean": "話しちゃダメ！ ダウンした人は話ができないんだよっ、間抜け！！！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "Okay...",
         "en_clean": "Okay...",
-        "jp_raw": [
-            "\\m[vb]\\shakeよかった...",
-            "\\m[vb]そっか...",
-            "\\m[vm]そう...",
-            "\\m[vo]なるほど...",
-            "\\m[vi]よし...\\!\\m[wait]\\^",
-            "\\m[vi]そうだな..."
-        ],
-        "jp_clean": [
-            "よかった...",
-            "そっか...",
-            "そう...",
-            "なるほど...",
-            "よし...",
-            "そうだな..."
-        ],
-        "checked": false
+        "jp_raw": "そうだな...",
+        "jp_clean": "そうだな...",
+        "checked": true
     },
     {
         "en_raw": "Hm... Is it really okay...?",
@@ -2195,12 +2008,12 @@
         "jp_clean": "あっ！！！ あのマークがなんのためにあるのか、思い出した！！！",
         "checked": true
     },
-    {//TODO check formatting
-        "en_raw": "IF WE DO A COMBO, AND HAVE FIVE OF THE SAME SYMBOL, WE CAN DO A \"JACKPOT SKILL\"!!!",
+    {
+        "en_raw": "<span class=\"shake\">IF WE DO A COMBO, AND HAVE FIVE OF THE SAME SYMBOL, WE CAN DO A \"JACKPOT SKILL\"!!!</span>",
         "en_clean": "IF WE DO A COMBO, AND HAVE FIVE OF THE SAME SYMBOL, WE CAN DO A \"JACKPOT SKILL\"!!!",
         "jp_raw": "<span class=\"shake\">コンボをつないで、同じマークを5つそろえれば、「ジャックポットスキル」を発動できるんだ！！！</span>",
         "jp_clean": "コンボをつないで、同じマークを5つそろえれば、「ジャックポットスキル」を発動できるんだ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "EXACTLY, Boniface.",
