@@ -1588,12 +1588,12 @@
         "jp_clean": "全部知ってるよ。きみのことも、きみの仲間のことも、ループのことも、きみが持ってる変な銀貨のことも――",
         "checked": true
     },
-    {//TODO typo here and in website, eng shouldn't have comma first part
-        "en_raw": "(Alright, that's it.) \"CAN YOU STOP TALKING PLEASE\"",
-        "en_clean": "(Alright, that's it.) \"CAN YOU STOP TALKING PLEASE\"",
+    {
+        "en_raw": "(Alright that's it.) \"CAN YOU STOP TALKING PLEASE\"",
+        "en_clean": "(Alright that's it.) \"CAN YOU STOP TALKING PLEASE\"",
         "jp_raw": "(そこまでだ。) \"もう黙ってくれないか。\"",
         "jp_clean": "(そこまでだ。) \"もう黙ってくれないか。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh stars, no need to yell.",
@@ -2071,12 +2071,12 @@
         "jp_clean": "小さな三角形が2つ出てきたでしょ？",
         "checked": true
     },
-    {//TODO check japanese formatting
+    {
         "en_raw": "It might happen with some conversations you've heard before. If you see it, you can zone out by pressing the [button] button.",
         "en_clean": "It might happen with some conversations you've heard before. If you see it, you can zone out by pressing the [button] button.",
-        "jp_raw": "前にも聞いたことがある会話には、その印が出るんだ。その印が出たら、[ブトン]ボタンでうわの空になれるよ。",
-        "jp_clean": "前にも聞いたことがある会話には、その印が出るんだ。その印が出たら、[ブトン]ボタンでうわの空になれるよ。",
-        "checked": false
+        "jp_raw": "前にも聞いたことがある会話には、その印が出るんだ。その印が出たら、[ボタン]ボタンでうわの空になれるよ。",
+        "jp_clean": "前にも聞いたことがある会話には、その印が出るんだ。その印が出たら、[ボタン]ボタンでうわの空になれるよ。",
+        "checked": true
     },
     {
         "en_raw": "It makes you stop listening and makes conversations go faster. No point in staying aware for conversations you've already experienced, huh?",
@@ -2095,9 +2095,9 @@
     {//TODO check japanese formatting
         "en_raw": "I am talking now, so press [button] whenever! Nope, that's the wrong button, stardust. Wrong again. I said [button]! Come on now, this is getting silly.",
         "en_clean": "I am talking now, so press [button] whenever! Nope, that's the wrong button, stardust. Wrong again. I said [button]! Come on now, this is getting silly.",
-        "jp_raw": "さあ、話し始めるよ。いつでもいいから、[ブトン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ブトン]だよ！ ほら、やってみて。手が焼けるなあ。",
-        "jp_clean": "さあ、話し始めるよ。いつでもいいから、[ブトン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ブトン]だよ！ ほら、やってみて。手が焼けるなあ。",
-        "checked": false
+        "jp_raw": "さあ、話し始めるよ。いつでもいいから、[ボタン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ボタン]だよ！ ほら、やってみて。手が焼けるなあ。",
+        "jp_clean": "さあ、話し始めるよ。いつでもいいから、[ボタン]を押してね！ 違うよ、そのボタンじゃないって、星くず君。それも違う。[ボタン]だよ！ ほら、やってみて。手が焼けるなあ。",
+        "checked": true
     },
     {//TODO bunch of dialogues  "そうそう！！！" "できたねぇ！！！" "きみが誇らしいよ！" "僕と同じ間違いをしないでね？" "できたねぇ！"
         "en_raw": "",
@@ -2109,8 +2109,8 @@
     {
         "en_raw": "No, don't press that, silly, press [button]! Let's try again.",
         "en_clean": "No, don't press that, silly, press [button]! Let's try again.",
-        "jp_raw": "それじゃないってば。[ブトン]を押すんだ！ もう一度やってみよう。",
-        "jp_clean": "それじゃないってば。[ブトン]を押すんだ！ もう一度やってみよう。",
+        "jp_raw": "それじゃないってば。[ボタン]を押すんだ！ もう一度やってみよう。",
+        "jp_clean": "それじゃないってば。[ボタン]を押すんだ！ もう一度やってみよう。",
         "checked": true
     },
     {
@@ -2144,8 +2144,8 @@
     {
         "en_raw": "[If you see the\n<img alt=\"zone out\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>\nicon during a conversation, press [button] to fast-forward through it!]",
         "en_clean": "[If you see the icon during a conversation, press [button] to fast-forward through it!]",
-        "jp_raw": "[会話の途中で<img alt=\"zone out\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>アイコンが表示されたら、[ブトン]を押すと会話を早送りできるぞ！]",
-        "jp_clean": "[会話の途中でアイコンが表示されたら、[ブトン]を押すと会話を早送りできるぞ！]",
+        "jp_raw": "[会話の途中で<img alt=\"zone out\" class=\"inline-img\" src=\"https://isatinformation.neocities.org/assets/gui/icons/i10.svg\"/>アイコンが表示されたら、[ボタン]を押すと会話を早送りできるぞ！]",
+        "jp_clean": "[会話の途中でアイコンが表示されたら、[ボタン]を押すと会話を早送りできるぞ！]",
         "checked": true
     },
     {
@@ -2512,12 +2512,12 @@
         "jp_clean": "んんんんんんんんんんんんんんん",
         "checked": true
     },
-    {//TODO eng formatting wrong here and on website
-        "en_raw": "<span class=\"shake\">\n KABOOM!!!!!!!\n</span>",
+    {
+        "en_raw": "<span class=\"wave big\">\n KABOOM!!!!!!!\n</span>",
         "en_clean": "KABOOM!!!!!!!",
         "jp_raw": "<span class=\"wave big\">ドカァーーン！！！</span>",
         "jp_clean": "ドカァーーン！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I exploded.",
