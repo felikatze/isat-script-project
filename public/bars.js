@@ -266,7 +266,7 @@ function toggleAnimationsForPage(state = null) {
 function applyShakeAnimation() {
     document.querySelectorAll(".shake span").forEach(function(span) {
         if (!(/\s/g.test(span.innerHTML))) {
-            span.classList.remove("shake-visual");
+            // span.classList.remove("shake-visual");
 
             span.style.display = "inline-block"
             span.style.animation = `${shakeSpeed}s shake steps(2,jump-none) infinite ${-rand()}s normal`;
@@ -276,6 +276,9 @@ function applyShakeAnimation() {
             span.style.setProperty("--shake-state-3",`translate(${srand() * shakeMagnitude}${shakeUnit},${srand() * shakeMagnitude}${shakeUnit})`);
         }
     })
+
+    var parentShakes = document.querySelectorAll(".shake");
+    parentShakes.classlist.remove("shake-visual");
 }
 
 function disableShakeAnimation() {
@@ -283,31 +286,40 @@ function disableShakeAnimation() {
 
     elements.forEach(function(span) {
         if (!(/\s/g.test(span.innerHTML))) {
-            span.classList.add("shake-visual");
+            // span.classList.add("shake-visual");
             span.style.animation = "none";
         }
     })
+
+    var parentShakes = document.querySelectorAll(".shake");
+    parentShakes.classlist.add("shake-visual");
 }
 
 function applyWaveAnimation() {
     document.querySelectorAll(".wave span").forEach(function(span, index) {
         if (!(/\s/g.test(span.innerHTML))) {
-            span.classList.remove("wave-visual");
+            // span.classList.remove("wave-visual");
 
             span.style.display = "inline-block"
             span.style.animation = `${waveSpeed}s wave linear infinite ${-index * wavelength}s alternate`;
             span.style.setProperty("--wave-amplitude", `${waveAmplitude}%`)
         }
     })
+
+    var parentWaves = document.querySelectorAll(".wave");
+    parentWaves.classlist.remove("wave-visual");
 }
 
 function disableWaveAnimation() {
     document.querySelectorAll(".wave span").forEach(function(span) {
         if (!(/\s/g.test(span.innerHTML))) {
-            span.classList.add("wave-visual");
+            // span.classList.add("wave-visual");
             span.style.animation = "none";
         }
     })
+
+    var parentWaves = document.querySelectorAll(".wave");
+    parentWaves.classlist.add("wave-visual");
 }
 
 function applySettings() {
