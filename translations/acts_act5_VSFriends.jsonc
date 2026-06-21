@@ -34,12 +34,12 @@
         "jp_clean": "なんという... やめなさい、やめて、おかしい、どうして――",
         "checked": true
     },
-    {//TODO check eng formatting
+    {
         "en_raw": "You-- Siffrin!!!!!!!\n<!-- [sic] -->",
         "en_clean": "You-- Siffrin!!!!!!!",
         "jp_raw": "あなた―― シフラン！！！！！！",
         "jp_clean": "あなた―― シフラン！！！！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Please, Siffrin, listen to me, we can--",
@@ -53,7 +53,7 @@
         "en_clean": "PLEASE, WAIT--",
         "jp_raw": "お願いです、待って――",
         "jp_clean": "お願いです、待って――",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(YOU PUSH THE HEAD HOUSEMAIDEN AWAY.)",
@@ -181,33 +181,33 @@
         "jp_clean": "(僕は嫌われてるってことだ！！！)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Your friends don't know what to do.)",
         "en_clean": "(Your friends don't know what to do.)",
-        "jp_raw": "(仲間たち_)",
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(仲間たちは何をすべきか分かっていない。)",
+        "jp_clean": "(仲間たちは何をすべきか分かっていない。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Bonnie yells at you to stop.)",
         "en_clean": "(Bonnie yells at you to stop.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ボニーがやめろと叫ぶ。)",
+        "jp_clean": "(ボニーがやめろと叫ぶ。)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Isabeau yells encouragements to everyone!)",
         "en_clean": "(Isabeau yells encouragements to everyone!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(イザボーがみんなに励ましの声をかける！)",
+        "jp_clean": "(イザボーがみんなに励ましの声をかける！)",
+        "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(Mirabelle brings her palms up to the sky!)",
         "en_clean": "(Mirabelle brings her palms up to the sky!)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(ミラベルが両手を天に伸ばす！)",
+        "jp_clean": "(ミラベルが両手を天に伸ばす！)",
+        "checked": true
     },
     {
         "en_raw": "Siffrin, stop!!!",
@@ -242,7 +242,7 @@
         "en_clean": "Huh?!",
         "jp_raw": "はあ！？",
         "jp_clean": "はあ！？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Siffrin, what do you mean?!",
@@ -333,7 +333,7 @@
         "en_clean": "Can't go back...?",
         "jp_raw": "帰れないって...？",
         "jp_clean": "帰れないって...？",
-        "checked": false
+        "checked": true
     }, //TODO "\"帰る場所がない。みんなも同じだ！ 帰さない！\"" "\"行かせないからな！！！\"" 
     {//"\"ここにいればいいだろ？ 幸せに暮らせる！\"" "\"王は倒した！ みんなの願いどおりに！\"" 
     // "\"それで終わりだ！ 王はいなくなったから、みんなは僕といられる！\"" "\"王はずっと正しいことを言っていた！ 耳を貸すべきだった！！！\""
@@ -344,7 +344,7 @@
         "en_clean": "What...?",
         "jp_raw": "え...？",
         "jp_clean": "え...？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"A perfect ending\"...?",
@@ -1177,7 +1177,7 @@
         "en_clean": "(\"I wished...\")",
         "jp_raw": "(願ったのは...)",
         "jp_clean": "(願ったのは...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh?  OH!!!!!!",
@@ -1452,12 +1452,12 @@
         "jp_clean": "\"僕の願いは...！\"",
         "checked": true
     },
-    {//TODO check eng formatting
+    {// the wish text is just on the dialogue-line for some reason instead of a span. shrug
         "en_raw": "(You  want  to  stay  with  them!)",
         "en_clean": "(You  want  to  stay  with  them!)",
-        "jp_raw": "<span class=\"wish\">(みんなとずっと一緒にいたい！)</span>",
+        "jp_raw": "(みんなとずっと一緒にいたい！)",
         "jp_clean": "(みんなとずっと一緒にいたい！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "\"I... I wished I could just stay with everyone...!!!\"",
