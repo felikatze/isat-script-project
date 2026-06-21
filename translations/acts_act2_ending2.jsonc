@@ -401,15 +401,9 @@
     {
         "en_raw": "<span class=\"shake\">\n Ooh, ooooooh......\n</span>",
         "en_clean": "Ooh, ooooooh......",
-        "jp_raw": [
-            "\\m[vk]\\Shakeおお、おおおおおお......",
-            "\\m[vk]\\shakeおお、おおお......"
-        ],
-        "jp_clean": [
-            "おお、おおおおおお......",
-            "おお、おおお......"
-        ],
-        "checked": false
+        "jp_raw": "<span class=\"shake\">おお、おおお......</span>",
+        "jp_clean": "おお、おおお......",
+        "checked": true
     },
     {
         "en_raw": "It is time, saviors.",
@@ -1559,12 +1553,12 @@
         "jp_clean": "ミラベル...！",
         "checked": true
     },
-    { //TODO double check this one
+    {
         "en_raw": "(Oh!)",
         "en_clean": "(Oh!)",
-        "jp_raw": "(あっ！)",
-        "jp_clean": "(あっ！)",
-        "checked": false
+        "jp_raw": "(おお！)",
+        "jp_clean": "(おお！)",
+        "checked": true
     },
     {
         "en_raw": "That's the Head Housemaiden???",
@@ -1984,7 +1978,7 @@
         "en_clean": "(...)",
         "jp_raw": "(...)",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You managed to defeat the King, and brought peace back to Vaugarde...)",
