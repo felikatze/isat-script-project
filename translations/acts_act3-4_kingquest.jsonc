@@ -1045,12 +1045,19 @@
         "jp_clean": ". . . . . .",
         "checked": true
     },
-    {//TODO website and this missing "It doesn't Your reasons don't matter at all!!!" "関係ないよ！！！ 動機なんて全然関係ない！！！"
+    {
+        "en_raw": "It doesn't!!! Your reasons don't matter at all!!!",
+        "en_clean": "It doesn't!!! Your reasons don't matter at all!!!",
+        "jp_raw": "関係ないよ！！！ 動機なんて全然関係ない！！！",
+        "jp_clean": "関係ないよ！！！ 動機なんて全然関係ない！！！",
+        "checked": true
+    },
+    {
         "en_raw": "Sif... Does it matter?",
         "en_clean": "Sif... Does it matter?",
         "jp_raw": "シフ... 関係あるのか？",
         "jp_clean": "シフ... 関係あるのか？",
-        "checked": false
+        "checked": true
     },
     {//TODO response \"ヴォーガルドの時間を止めたいのはなぜ？\"
         "en_raw": "(But they might!)",
@@ -1094,12 +1101,12 @@
         "jp_clean": "想像できないか......？分からないのか？",
         "checked": true
     },
-    { //TODO website + here eng wrong
-        "en_raw": "<span class=\"shake\">\n Oh, stars...... I thought my intentions were clear...\n</span>", // But no one seems to understand......!
-        "en_clean": "Oh, stars...... I thought my intentions were clear...",
+    {
+        "en_raw": "<span class=\"shake\">\n Oh, stars...... I thought my intentions were clear... But no one seems to understand......!\n</span>",
+        "en_clean": "Oh, stars...... I thought my intentions were clear... But no one seems to understand......!",
         "jp_raw": "<span class=\"shake\">\n おお、星たちよ......<br>\n私の意図ははっきりさせたとばかり...<br>\nしかし、誰も理解していないようだ......\n</span>",
         "jp_clean": "おお、星たちよ......私の意図ははっきりさせたとばかり...しかし、誰も理解していないようだ......",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "We don't know! We don't understand you!!!",
@@ -3673,9 +3680,9 @@
     {
         "en_raw": "(You know,\n<br/>\nyou know,\n<br/>\nyou know.)",
         "en_clean": "(You know,you know,you know.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(知ってる。<br/>知ってるよ。<br/>知ってるんだ。)",
+        "jp_clean": "(知ってる。知ってるよ。知ってるんだ。)",
+        "checked": true
     },
     {
         "en_raw": "Oh, this one looks fairly recent!",
@@ -8262,8 +8269,8 @@
         "jp_clean": "\"「言っただろ」って言ってくれれば、それで話を進められる。\"",
         "checked": true
     },
-    { //TODO eng missing shake
-        "en_raw": "I TOLD YOU SO!!!",
+    {
+        "en_raw": "<span class=\"shake\">I TOLD YOU SO!!!</span>",
         "en_clean": "I TOLD YOU SO!!!",
         "jp_raw": "<span class=\"shake\">言っただろ！！！</span>",
         "jp_clean": "言っただろ！！！",
