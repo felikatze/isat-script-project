@@ -62,19 +62,19 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(MAL DU PAYS is silent.)",
         "en_clean": "(MAL DU PAYS is silent.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(マルデュペイは沈黙している。)",
+        "jp_clean": "(マルデュペイは沈黙している。)",
+        "checked": true
     },
     {
         "en_raw": "",
         "en_clean": "",
         "jp_raw": "",
         "jp_clean": "",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Your attacks have no effect...)",
@@ -125,12 +125,12 @@
         "jp_clean": "(マルデュペイはまばたきをしない。)",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "(...) Hey...",
-        "en_clean": "(...) Hey...",
+    {
+        "en_raw": "(...) \"Hey...\"",
+        "en_clean": "(...) \"Hey...\"",
         "jp_raw": "(...) \"なあ...\"",
         "jp_clean": "(...) \"なあ...\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -146,12 +146,12 @@
         "jp_clean": "(マルデュペイがこちらを見つめている。)",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "(...) Hey.",
-        "en_clean": "(...) Hey.",
+    {
+        "en_raw": "(...) \"Hey.\"",
+        "en_clean": "(...) \"Hey.\"",
         "jp_raw": "(...)  \"おいってば。\"",
         "jp_clean": "(...)  \"おいってば。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -167,26 +167,26 @@
         "jp_clean": "(マルデュペイが息を吸って、吐いた。)",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "HEY!!!!!!",
-        "en_clean": "HEY!!!!!!",
+    {
+        "en_raw": "\"HEY!!!!!!\"",
+        "en_clean": "\"HEY!!!!!!\"",
         "jp_raw": "\"おい！！！\"",
         "jp_clean": "\"おい！！！\"",
-        "checked": false
+        "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "DON'T JUST STAND HERE SILENTLY, JUDGING ME!",
-        "en_clean": "DON'T JUST STAND HERE SILENTLY, JUDGING ME!",
+    {
+        "en_raw": "\"DON'T JUST STAND HERE SILENTLY, JUDGING ME!\"",
+        "en_clean": "\"DON'T JUST STAND HERE SILENTLY, JUDGING ME!\"",
         "jp_raw": "\"何も言わずにそんな目をするのはやめてくれ！\"",
         "jp_clean": "\"何も言わずにそんな目をするのはやめてくれ！\"",
-        "checked": false
+        "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "TALK TO ME! DON'T IGNORE ME! SAY SOMETHING!!!",
-        "en_clean": "TALK TO ME! DON'T IGNORE ME! SAY SOMETHING!!!",
+    {
+        "en_raw": "\"TALK TO ME! DON'T IGNORE ME! SAY SOMETHING!!!\"",
+        "en_clean": "\"TALK TO ME! DON'T IGNORE ME! SAY SOMETHING!!!\"",
         "jp_raw": "\"何か言えよ！ 無視するんじゃない！ 話をするんだ！！！\"",
         "jp_clean": "\"何か言えよ！ 無視するんじゃない！ 話をするんだ！！！\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(The figure  opens its mouth...)",
@@ -853,12 +853,12 @@
         "jp_clean": "本当のきみは――",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span aria-hidden=\"true\" class=\"shake\">\n (Disgusting, disgusting, disgusting--)\n</span>\n<i class=\"sr-only\">\n (Disgusting disgusting disgusting--)\n</i>",
-        "en_clean": "(Disgusting, disgusting, disgusting--)(Disgusting disgusting disgusting--)",
+    {
+        "en_raw": "<span class=\"shake\">(Disgusting, disgusting, disgusting--)</span>",
+        "en_clean": "(Disgusting, disgusting, disgusting--)",
         "jp_raw": "<span class=\"shake\">(最悪だ、最悪だ、最悪だ――)</span>",
         "jp_clean": "(最悪だ、最悪だ、最悪だ――)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (of course this is what he thinks, this is what you are)\n</span>",
@@ -1021,12 +1021,12 @@
         "jp_clean": "(目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃな",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span aria-hidden=\"true\" class=\"shake\">\n (wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not rea\n</span>\n<span class=\"sr-only\">\n (wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not ree\n</span>",
-        "en_clean": "(wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not rea(wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not ree",
+    {
+        "en_raw": "<span class=\"shake\">(wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not rea</span>",
+        "en_clean": "(wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not real wake up it's not rea",
         "jp_raw": "<span class=\"shake\">(目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃな</span>",
         "jp_clean": "(目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃない目を覚ませ現実じゃな",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(BUT IT IS.)",
@@ -1147,12 +1147,12 @@
         "jp_clean": "(そしてすぐに、おまえを忘れるだろう)",
         "checked": true
     },
-    {//TODO check eng
-        "en_raw": "<span aria-hidden=\"true\" class=\"shake\">\n (n  o)\n</span>\n<span class=\"sr-only\">\n <i>\n  (no)\n </i>\n</span>",
-        "en_clean": "(n  o) (no)",
+    {
+        "en_raw": "<spanclass=\"shake\">\n (n  o)\n</span>",
+        "en_clean": "(n  o)",
         "jp_raw": "<span class=\"shake\">(ちが...う)</span>",
         "jp_clean": "(ちが...う)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(THEY'LL FORGET YOU)",
@@ -1161,12 +1161,12 @@
         "jp_clean": "(みんな、おまえを、忘れる)",
         "checked": true
     },
-    {//TODO check
-        "en_raw": "<span aria-hidden=\"true\" class=\"shake\">\n (  )\n</span>\n<span class=\"sr-only\">\n (...)\n</span>",
-        "en_clean": "(  )(...)",
+    {
+        "en_raw": "<span class=\"shake\">\n (  )\n</span>",
+        "en_clean": "(  )",
         "jp_raw": "<span class=\"shake\">(...)</span>",
         "jp_clean": "(...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n (THEY'LL FORGET YOU!!!!!!)\n</span>",
@@ -1182,16 +1182,16 @@
         "jp_clean": "(...)",
         "checked": true
     },
-    {//TODO check eng
-        "en_raw": "<span aria-hidden=\"true\">\n (it's     right)\n</span>\n<span class=\"sr-only\">\n (it's, right)\n</span>",
-        "en_clean": "(it's     right)(it's, right)",
+    {
+        "en_raw": "(it's     right)",
+        "en_clean": "(it's     right)",
         "jp_raw": "(ああ... そのとおりだ)",
         "jp_clean": "(ああ... そのとおりだ)",
-        "checked": false
+        "checked": true
     },
     {
-        "en_raw": "<span aria-hidden=\"true\">\n (the  s adness  w ith in   yo u  i s   ri g h  t)\n</span>\n<span class=\"sr-only\">\n (the sadness. within, you. is, right)\n</span>",
-        "en_clean": "(the  s adness  w ith in   yo u  i s   ri g h  t)(the sadness. within, you. is, right)",
+        "en_raw": "(the  s adness  w ith in   yo u  i s   ri g h  t)",
+        "en_clean": "(the  s adness  w ith in   yo u  i s   ri g h  t)",
         "jp_raw": "(僕 の 中 の哀し 身 が 言う と お り だ)",
         "jp_clean": "(僕 の 中 の哀し 身 が 言う と お り だ)",
         "checked": true
@@ -1287,18 +1287,18 @@
         "jp_clean": "(そうだ)",
         "checked": true
     },
-    {//TODO check eng
-        "en_raw": "<span aria-hidden=\"true\">\n ( l e t )\n</span>\n<span class=\"sr-only\">\n (...let...)\n</span>",
-        "en_clean": "( l e t )(...let...)",
+    {
+        "en_raw": "( l e t )",
+        "en_clean": "( l e t )",
         "jp_raw": "(あきら)",
         "jp_clean": "(あきら)",
-        "checked": false
+        "checked": true
     },
-    {//TODO check eng
-        "en_raw": "<span aria-hidden=\"true\">\n (  g  o  )\n</span>\n<span class=\"sr-only\">\n (...go...)\n</span>",
-        "en_clean": "(  g  o  )(...go...)",
+    {
+        "en_raw": "(  g  o  )",
+        "en_clean": "(  g  o  )",
         "jp_raw": "(めろ)",
         "jp_clean": "(めろ)",
-        "checked": false
+        "checked": true
     }
 ]
