@@ -480,7 +480,7 @@
         "en_clean": "...",
         "jp_raw": "...",
         "jp_clean": "...",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...",
@@ -613,7 +613,7 @@
         "en_clean": "I'm sorry! I'm sorry to ask!!! I know it's not the best moment!!!",
         "jp_raw": "ごめんな！ 変なこと訊いて！ 今すべき話じゃないのは分かってる！",
         "jp_clean": "ごめんな！ 変なこと訊いて！ 今すべき話じゃないのは分かってる！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "B-but most of us have different beliefs, don't we? So, well...",
@@ -944,12 +944,12 @@
         "jp_clean": "(手をちょっと近づけただけで、ボニーに払いのけられてしまい――)",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span class=\"shake\">\n Don't touch me!!!\n</span>",
+    {
+        "en_raw": "<span class=\"shake big\">\n Don't touch me!!!\n</span>",
         "en_clean": "Don't touch me!!!",
         "jp_raw": "<span class=\"shake big\">さわんな！</span>",
         "jp_clean": "さわんな！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Curse you, Frin!!! Don't come near me!!!",
@@ -1028,12 +1028,12 @@
         "jp_clean": "キライだキライだキライだキライだキライだキライだキライだキライだみんな大大大大大大キライだーーーーーーー！！！！！！",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span class=\"shake\">\n I HATE YOU, FR\n</span>",
+    {
+        "en_raw": "<span class=\"shake big\">\n I HATE YOU, FR\n</span>",
         "en_clean": "I HATE YOU, FR",
         "jp_raw": "<span class=\"shake big\">フランなんてキラ</span>",
         "jp_clean": "フランなんてキラ",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "...What about you, Siffrin?",
@@ -1378,12 +1378,26 @@
         "jp_clean": "(ボニーが自信ありげに笑みを浮かべる。)",
         "checked": true
     },
-    {//TODO missing lines "(You smile back.)", "(微笑みを返す。)", "(You do your best to smile back.)", "(頑張ってこちらも笑顔を作る。)",
+    {
+        "en_raw": "(You do your best to smile back.)",
+        "en_clean": "(You do your best to smile back.)",
+        "jp_raw": "(頑張ってこちらも笑顔を作る。)",
+        "jp_clean": "(頑張ってこちらも笑顔を作る。)",
+        "checked": true
+    },
+    {
+        "en_raw": "(You smile back.)",
+        "en_clean": "(You smile back.)",
+        "jp_raw": "(微笑みを返す。)",
+        "jp_clean": "(微笑みを返す。)",
+        "checked": true
+    },
+    {
         "en_raw": "(You got a MEMORY OF PROMISE!)",
         "en_clean": "(You got a MEMORY OF PROMISE!)",
         "jp_raw": "(「約束の記憶」を手に入れた！)",
         "jp_clean": "(「約束の記憶」を手に入れた！)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You'll always remember this.)",
