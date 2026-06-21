@@ -949,7 +949,7 @@
         "en_clean": "",
         "jp_raw": "",
         "jp_clean": "",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Alright. We'll wait for you!",
@@ -1448,12 +1448,19 @@
         "jp_clean": "そのとおりよ！ どうして知ってるの？",
         "checked": true
     },
-    {//TODO this is listed as two lines "うーん..."+"さあねえ！"
-        "en_raw": "Hm...   I do not know!",
-        "en_clean": "Hm...   I do not know!",
-        "jp_raw": "うーん... さあねえ！",
-        "jp_clean": "うーん... さあねえ！",
-        "checked": false
+    {
+        "en_raw": "Hm...",
+        "en_clean": "Hm...",
+        "jp_raw": "うーん...",
+        "jp_clean": "うーん...",
+        "checked": true
+    },
+    {
+        "en_raw": "I do not know!",
+        "en_clean": "I do not know!",
+        "jp_raw": "さあねえ！",
+        "jp_clean": "さあねえ！",
+        "checked": true
     },
     {
         "en_raw": "But somehow, it's very strange, but... I can see you having a sister! I can imagine it very well!",
@@ -1651,12 +1658,19 @@
         "jp_clean": "やあ、こんにちは。",
         "checked": true
     },
-    {//TODO check eng
-        "en_raw": "...   It feels nice to hear people laugh again, isn't it?",
-        "en_clean": "...   It feels nice to hear people laugh again, isn't it?",
+    {
+        "en_raw": "...",
+        "en_clean": "...",
+        "jp_raw": "...",
+        "jp_clean": ".",
+        "checked": true
+    },
+    {
+        "en_raw": "It feels nice to hear people laugh again, isn't it?",
+        "en_clean": "It feels nice to hear people laugh again, isn't it?",
         "jp_raw": "みんなの笑い声をまた聞けるのはよいものだね。",
         "jp_clean": "みんなの笑い声をまた聞けるのはよいものだね。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(He seems peaceful.)",
@@ -1894,7 +1908,7 @@
         "en_clean": "(Stay here and go to the tree, or go and end your journey?)",
         "jp_raw": "(ここに残って木を見にいく？ それとも、みんなと行って旅を終える？)",
         "jp_clean": "(ここに残って木を見にいく？ それとも、みんなと行って旅を終える？)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(You decide to stay, and go look at that coin.)",
