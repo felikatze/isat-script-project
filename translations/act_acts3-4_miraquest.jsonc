@@ -62,12 +62,19 @@
         "jp_clean": "(どうしてそんなことを言い出すんだ...？) \"もちろん教えるよ！\"",
         "checked": true
     },
-    { // TODO/NOTE/TYPO: missing "Siffrin, I'm..." "シフラン、わたし..."
+    {
+        "en_raw": "Siffrin, I...",
+        "en_clean": "Siffrin, I...",
+        "jp_raw": "シフラン、わたし...",
+        "jp_clean": "シフラン、わたし...",
+        "checked": true
+    },
+    {
         "en_raw": "I'm  not sure you're telling me the truth here.",
         "en_clean": "I'm  not sure you're telling me the truth here.",
         "jp_raw": "わたしね、あなたが本当のことを言ってないような気がしているの。",
         "jp_clean": "わたしね、あなたが本当のことを言ってないような気がしているの。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "I don't want to force you to do anything, but you have to know I want you to be happy.",
@@ -146,12 +153,12 @@
         "jp_clean": "(どういうことかというと、要するに...)　\"君のほうこそ、何か助けが必要じゃない？\"",
         "checked": true
     },
-    { // TYPO: MISSING <span class=\"big\"> ON ENGLISH
-        "en_raw": "Huh? HUH? HUH?!?",
+    {
+        "en_raw": "Huh? HUH? <span class=\"big\">HUH?!?</span>",
         "en_clean": "Huh? HUH? HUH?!?",
         "jp_raw": "えっ？ ええっ？<span class=\"big\">えええええ？！？</span>",
         "jp_clean": "えっ？ ええっ？えええええ？！？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "NO! That's not why I'm--URGH!",
@@ -328,12 +335,12 @@
         "jp_clean": "(自分が力になれるかどうか、みんなに訊ねてみるべきだ。)",
         "checked": true
     },
-    { // TYPO: missing dialogue head
-        "en_raw": "<span class=\"dialogue-name\">\n Siffrin\n</span>\n: \"Can I help you with anything?\"",
-        "en_clean": "Siffrin: \"Can I help you with anything?\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+    {
+        "en_raw": "\"Can I help you with anything?\"",
+        "en_clean": "\"Can I help you with anything?\"",
+        "jp_raw": "何か手伝えることある？",
+        "jp_clean": "何か手伝えることある？",
+        "checked": true
     },
     {
         "en_raw": "Help? Me? With anything?",
@@ -681,9 +688,9 @@
     {
         "en_raw": "(Which ally...) \"Mirabelle.\"",
         "en_clean": "(Which ally...) \"Mirabelle.\"",
-        "jp_raw": "(仲間のうちの...)　\"ミラベル\"",
-        "jp_clean": "(仲間のうちの...)　\"ミラベル\"",
-        "checked": false
+        "jp_raw": "(仲間のうちの...)　\"ミラベルだ。\"",
+        "jp_clean": "(仲間のうちの...)　\"ミラベルだ。\"",
+        "checked": true
     },
     {
         "en_raw": "You found some papers in your Housemaiden's room! The same as the ones she's always reading in Dormont! Mystery solved!",
