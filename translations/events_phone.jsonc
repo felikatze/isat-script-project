@@ -748,12 +748,12 @@
         "jp_clean": "(ミラベルが像に手を触れるとすぐに、何かが聞こえた。)",
         "checked": true
     },
-    {//TODO eng formtting got messed up (//fi pchooooo)
-        "en_raw": "fipchoooooooo",
-        "en_clean": "fipchoooooooo",
+    {
+        "en_raw": "pchoooooooo",
+        "en_clean": "pchoooooooo",
         "jp_raw": "ふううううううう",
         "jp_clean": "ふううううううう",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "<span class=\"shake\">\n WAH!!!!!!!!\n</span>",
@@ -888,12 +888,12 @@
         "jp_clean": "！！！ わ... わ――",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span class=\"shake\">\n WAAAAAAAAAAAAAAH!!!!!!\n</span>",
+    {
+        "en_raw": "<span class=\"shake big\">\n WAAAAAAAAAAAAAAH!!!!!!\n</span>",
         "en_clean": "WAAAAAAAAAAAAAAH!!!!!!",
         "jp_raw": "<span class=\"shake big\">わああああっ！！！</span>",
         "jp_clean": "わああああっ！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(!!!)",
@@ -1000,12 +1000,12 @@
         "jp_clean": "「キーナイフ」だよ。なまえがあるんだから、ちゃんとつかってよ",
         "checked": true
     },
-    {//TODO check eng formatting
+    {
         "en_raw": "but yes that was me ヽ(&gt;∀&lt;)ノ",
         "en_clean": "but yes that was me ヽ(&gt;∀&lt;)ノ",
         "jp_raw": "でも、そのとおり。あれはわたしだ ヽ(>∀<)ノ",
         "jp_clean": "でも、そのとおり。あれはわたしだ ヽ(>∀<)ノ",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It was...? So...",
@@ -1196,12 +1196,12 @@
         "jp_clean": "ウツロイ様からは何も期待しない！",
         "checked": true
     },
-    {//TODO check eng formatting
+    {
         "en_raw": "hihihihihihi aw (⁄ ⁄&gt;⁄ ▽ ⁄&lt;⁄ ⁄)",
         "en_clean": "hihihihihihi aw (⁄ ⁄&gt;⁄ ▽ ⁄&lt;⁄ ⁄)",
         "jp_raw": "へへへへへっ (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)",
         "jp_clean": "へへへへへっ (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Mirabelle and the Change God giggle together.)",
@@ -1581,12 +1581,12 @@
         "jp_clean": "もっと...",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "i just cant wait to see more!!! (ﾉ◕ヮ◕)ﾉ*",
-        "en_clean": "i just cant wait to see more!!! (ﾉ◕ヮ◕)ﾉ*",
+    {
+        "en_raw": "i just cant wait to see more!!! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "en_clean": "i just cant wait to see more!!! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
         "jp_raw": "もっとたくさんみれるのが、まちきれないよ！！！ (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
         "jp_clean": "もっとたくさんみれるのが、まちきれないよ！！！ (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "ill keep giving you the knife every time, so dont worry!!! ( ´ ω ` ) keep going! keep changing!!!",
@@ -1784,12 +1784,12 @@
         "jp_clean": "そしたら、どうだい！ 何もなかった！ きみは誰かに話しかけてたよね？",
         "checked": true
     },
-    {//TODO need to grab from game
+    {
         "en_raw": "(Heh.) \"Yeah, the Change God.\"",
         "en_clean": "(Heh.) \"Yeah, the Change God.\"",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(へえ。) \"ああ、ウツロイの神に話しかけた。\"",
+        "jp_clean": "(へえ。) \"ああ、ウツロイの神に話しかけた。\"",
+        "checked": true
     },
     {
         "en_raw": "Hahaha!",
@@ -1861,22 +1861,12 @@
         "jp_clean": "記憶には残っていなくてもね。",
         "checked": true
     },
-    {//TODO need to find in game
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(...)",
@@ -1892,12 +1882,12 @@
         "jp_clean": "...",
         "checked": true
     },
-    {//TODO wait is this formatting right???
-        "en_raw": "<small>\n So they think it's funny, huh...?\n</small>",
+    {
+        "en_raw": "<span class=\"small\">\n So they think it's funny, huh...?\n</span>",
         "en_clean": "So they think it's funny, huh...?",
-        "jp_raw": "<small>で、神はおもしろいと思ってるって...？</small>",
+        "jp_raw": "<span class=\"small\">で、神はおもしろいと思ってるって...？</span>",
         "jp_clean": "で、神はおもしろいと思ってるって...？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(Loop swears under their breath.)",
