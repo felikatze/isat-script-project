@@ -48,11 +48,11 @@
         "jp_clean": null,
         "checked": true
     },
-    {//TODO eng missing, check japanese formatting
+    {//TODO eng is a dialogue-option-only
         "en_raw": "",
         "en_clean": "",
-        "jp_raw": "\"最高だよ[！！！,。。。]\"",
-        "jp_clean": "\"最高だよ[！！！,。。。]\"",
+        "jp_raw": "\"最高だよ[！！！/。。。]\"",
+        "jp_clean": "\"最高だよ[！！！/。。。]\"",
         "checked": false
     },
     {
@@ -97,7 +97,7 @@
         "jp_clean": null,
         "checked": false
     },
-    {//TODO eng missing
+    {//TODO you wanted to tell me something?
         "en_raw": "",
         "en_clean": "",
         "jp_raw": "\"何か伝えたいことがあるんでしょ？\"",
@@ -454,7 +454,7 @@
         "jp_clean": null,
         "checked": false
     },
-    {//TODO eng missing "\"What did you have to...\""
+    {//TODO \"What did you have to...\""
         "en_raw": "",
         "en_clean": "",
         "jp_raw": "\"結局伝えたいことって...\"",
@@ -517,22 +517,12 @@
         "jp_clean": "えっ、シフランは大丈夫なの？ じゃあ賛成！",
         "checked": true
     },
-    {//TODO unsure
+    {
         "en_raw": "(You nod.)",
         "en_clean": "(You nod.)",
-        "jp_raw": [
-            "\\m[clear](うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "\\m[wait](僕はうなずいた。)",
-            "\\m[vs](僕はうなずいた。)\\!\\"
-        ],
-        "jp_clean": [
-            "(うなずいてみせる。)",
-            "(僕はうなずく。)",
-            "(僕はうなずいた。)",
-            "(僕はうなずいた。)"
-        ],
-        "checked": false
+        "jp_raw": "(うなずいてみせる。)",
+        "jp_clean": "(うなずいてみせる。)",
+        "checked": true
     },
     {
         "en_raw": "(You should make sure to talk to everyone before talking to Isabeau...)",
@@ -681,36 +671,12 @@
         "jp_clean": "\"もう行くね。\"",
         "checked": true
     },
-    {//TODO usnure
+    {
         "en_raw": "Hm.",
         "en_clean": "Hm.",
-        "jp_raw": [
-            "\\m[vi]うーん。",
-            "うん。\\!\\m[wait]\\^",
-            "んー。",
-            "\\m[vo]ふむ。",
-            "\\m[vb]うーん。",
-            "\\m[vwoman]\\n<\\v[46]>ふう。",
-            "\\m[vman]\\n<\\v[46]>ほう。",
-            "\\m[vlnp]うん。",
-            "\\m[vo]ふむ。\\!\\m[wait]\\^",
-            "\\m[vl]ふう。",
-            "\\m[vbnp]ふーん。"
-        ],
-        "jp_clean": [
-            "うーん。",
-            "うん。",
-            "んー。",
-            "ふむ。",
-            "うーん。",
-            "ふう。",
-            "ほう。",
-            "うん。",
-            "ふむ。",
-            "ふう。",
-            "ふーん。"
-        ],
-        "checked": false
+        "jp_raw": "ふむ。",
+        "jp_clean": "ふむ。",
+        "checked": true
     },
     {
         "en_raw": "...Good luck, I suppose.",
