@@ -874,12 +874,12 @@
         "jp_clean": "(長い長い、時間がかかり過ぎる。)",
         "checked": true
     },
-    {//TODO check english
-        "en_raw": "\"You know, you don't have to be bonded to anyone.",
-        "en_clean": "\"You know, you don't have to be bonded to anyone.",
+    {
+        "en_raw": "\"You know, you don't have to be bonded to anyone.\"",
+        "en_clean": "\"You know, you don't have to be bonded to anyone.\"",
         "jp_raw": "\"あのさ、誰かと絆を結ぶ必要なんてないんだよ。\"",
         "jp_clean": "\"あのさ、誰かと絆を結ぶ必要なんてないんだよ。\"",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "And . . .  Huh?",
@@ -2347,9 +2347,9 @@
     {//TODO unsure
         "en_raw": "(150 EXP recieved.)",
         "en_clean": "(150 EXP recieved.)",
-        "jp_raw": null,
-        "jp_clean": null,
-        "checked": false
+        "jp_raw": "(150 EXP を獲得。)",
+        "jp_clean": "(150 EXP を獲得。)",
+        "checked": true
     },
     {
         "en_raw": "F-FRIN!!!",
@@ -2960,12 +2960,12 @@
         "jp_clean": "それに、俺にもそういう時があるよ。いつもの自分と違う感じがして、みんなを遠ざけたくなるんだ。",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "<span class=\"big\">\n <span class=\"shake\">\n  HEY!!!!!\n </span>\n</span>",
-        "en_clean": " HEY!!!!!",
+    {
+        "en_raw": "<span class=\"big shake\">HEY!!!!!</span>",
+        "en_clean": "HEY!!!!!",
         "jp_raw": "<span class=\"big shake\">おいおい！！！</span>",
         "jp_clean": "おいおい！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "What the...  Sif, were you even listening to what I was saying...?",
