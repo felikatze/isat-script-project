@@ -202,12 +202,12 @@
         "jp_clean": "ごめんね......",
         "checked": true
     },
-    { // TYPO
-        "en_raw": "Did you...  have a nightmare?", // in-game: ...\!Did you...\!\ have a nightmare?
-        "en_clean": "Did you...  have a nightmare?",
+    {
+        "en_raw": "... Did you...  have a nightmare?",
+        "en_clean": "... Did you...  have a nightmare?",
         "jp_raw": "...もしかして... 悪い夢でも見たの？",
         "jp_clean": "...もしかして... 悪い夢でも見たの？",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "(...) ...",
@@ -1279,7 +1279,7 @@
         "en_clean": "Yes.",
         "jp_raw": "そうだよ。",
         "jp_clean": "そうだよ。",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "If you can believe anything, believe that.",
@@ -1471,11 +1471,11 @@
         "checked": false
     },
     { // TYPO: Missing "oh my, genuine thanks!" "うわあ、心からの感謝だね！！！"
-        "en_raw": "GROSS!!!!!",
+        "en_raw": "<span class=\"wave\">GROSS!!!!!</span>",
         "en_clean": "GROSS!!!!!",
         "jp_raw": "<span class=\"wave\">キモッ！！！！！！</span>",
         "jp_clean": "キモッ！！！！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "It's my pleasure, stardust.",
@@ -2532,7 +2532,7 @@
         "en_clean": "(It'll mean leaving everyone behind, but...)",
         "jp_raw": "(つまり、みんなを置いてくるってことだけど...)",
         "jp_clean": "(つまり、みんなを置いてくるってことだけど...)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Neat!!!",
@@ -2980,7 +2980,7 @@
         "en_clean": "(. . .)",
         "jp_raw": "(. . .)",
         "jp_clean": "(. . .)",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh.",
@@ -8638,12 +8638,12 @@
         "jp_clean": "うまくいくとは思っていなかったけれど、あなたがここにいるということは... うまく...",
         "checked": true
     },
-    {//TODO check eng formatting
-        "en_raw": "...!!!!!",
+    {
+        "en_raw": "<span class=\"shake\">...!!!!!</span>",
         "en_clean": "...!!!!!",
         "jp_raw": "<span class=\"shake\">...！！！</span>",
         "jp_clean": "...！！！",
-        "checked": false
+        "checked": true
     },
     {
         "en_raw": "Oh... Oh no. Oh no, no, no, no, no...",
