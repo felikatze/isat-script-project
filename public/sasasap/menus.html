@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus (START AGAIN)</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://isat-script-project.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/bars.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
+    <script src="/search.js" defer></script>
+</head>
+
+<body>
+
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Menus (START AGAIN)</h1>
+                <p><b>Source:</b> ARP_TitleCommandExit, YEP_SaveCore</p> <!--TODO there's probably more but I'm not sure where-->
+                <small>Created by YellowIris</small>
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li><a href="#start">Title Screen</a></li>
+                    <li><a href="#main">Main Menu</a></li>
+                    <li><a href="#pockets">Pockets</a></li>
+                    <li><a href="#craft">Craft</a></li>
+                    <li><a href="#equip">Equip</a></li>   
+                    <li><a href="#profile">Profile</a>
+                        <ul>
+                            <li><a href="#charsif">The Traveler</a></li>
+                            <li><a href="#charhouse">The Housemaiden</a></li>
+                            <li><a href="#charfighter">The Fighter</a></li>
+                            <li><a href="#charresearch">The Researcher</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#options">Options</a></li>
+                    <li><a href="#load">Save / Load</a></li>
+                    <li><a href="#quit">Quit</a></li>
+                    
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="start">Title Screen</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        The title screen contains five options.
+                    </p>
+
+                    <ul>
+                        <li>New Game</li>
+                        <li>Continue</li>
+                        <li>Options</li>
+                        <li>Quit</li>
+                        <li>Wishlist the next game</li>
+                    </ul>
+
+                    <p>In the background is an <a href="https://instarsandtime.wiki.gg/images/SASASAP_Title.png">image of Siffrin falling backwards</a> accompanied by darkless particle effects.</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="main">Main Menu</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        The main menu contains seven options.
+                    </p>
+
+                    <ul>
+                        <li>Pockets</li>
+                        <li>Craft</li>
+                        <li>Equip</li>
+                        <li>Status</li>
+                        <li>Options</li>
+                        <li>Save</li>
+                        <li>Quit</li>
+                    </ul>
+
+                    <br>
+
+                    <p>In the backround there is an image of <a href="https://instarsandtime.wiki.gg/images/Sasasap_menu.png">the party members</a>.</p>
+                    <p>There is also a panel showing the number '145' in the bottom left. This is an artifact from RPGMaker MV representing the current amount of money held by the party.</p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="pockets">Pockets</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-note">
+                        The Pockets menu contains several submenus.
+                    </p>
+
+                    <ul>
+                        <li><a href="/sasasap/items.html#battle">Pockets</a></li>
+                        <li><a href="/sasasap/knick-knacks.html">Knick-Knacks</a></li>
+                        <li><a href="/sasasap/items.html#memories">Memories</a></li>
+                    </ul>
+
+                </div>
+                
+                <hr>
+                <br>
+
+                <h1 id="craft">Craft</h1>
+
+                <div class="dialogue">
+                    <p>The Craft menu allows you to select a character in the order of Traveler-Fighter-Housemaiden-Researcher and see a list of their known <a href="/sasasap/combat.html">Craft Skills</a>, along with their level, HP, and Charge.</p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="equip">Equip</h1>
+
+                <div class="dialogue">
+                    <p>First, you select a character, in the usual order.</p>
+                    <p>The Equip menu is split into five windows.</p>
+                    <br>
+
+                    <br>
+
+                    <p>On the top, it displays the description of the selected equipment</p>
+
+                    <br>
+
+                    <p>On the upper right, it displays:</p>
+
+                    <ul>
+                        <li>Equip</li>
+                        <li>Optimize</li>
+                        <li>Clear</li>
+                    </ul>
+
+                    <p class="dialogue-note">Neither Optimize nor Clear have functionality.</p>
+
+                    <br><br>
+
+                    <p>On the lower right, it displays:</p>
+
+                    <ul>
+                        <li><a href="/sasasap/armourweapons.html">Weapon</a></li>
+                        <li><a href="/sasasap/armourweapons.html">Equipment</a></li>
+                        <li><a href="/sasasap/armourweapons.html">Accessory</a></li>
+                    </ul>
+
+                    <br>
+
+                    <p>On the left, it displays:</p>
+
+                    <ul>
+                        <li>Max HP-></li>
+                        <li>Attack-></li>
+                        <li>Defense-></li>
+                        <li>Atk.Speed-></li>
+                        <li>Luck-></li>
+                        <li>CritChance-></li>
+                        <li>HP Regen-></li>
+                        <li>ExpRate-></li>
+                    </ul>
+
+                    <br>
+
+                    <p>On the bottom, it displays nothing.</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="profile">Status</h1>
+
+                <div class="dialogue">
+                    <p>First, you select a character in the usual order.</p>
+                    <p>The status menu is split into 4 parts</p>
+
+                    <br>
+
+                    <p>The top shows the selected character's title</p>
+
+                    <br>
+
+                    <p>The top middle shows the selected character's:</p>
+
+                    <ul>
+                        <li>LVL</li>
+                        <li>HP</li>
+                        <li>Charge</li>
+                        <li>Current EXP</li>
+                        <li>To Next Level</li>
+                    </ul>
+
+                    <br>
+
+                    <p>The bottom middle shows the selected character's:</p>
+
+                    <ul>
+                        <li>Attack</li>
+                        <li>Defense</li>
+                        <li>C. Attack</li>
+                        <li>C. Defense</li>
+                        <li>Agility</li>
+                        <li>Luck</li>
+                    </ul>
+
+                    <p>Along with their <a href="armorandweapons.html">equipment</a>.</p>
+
+                    <br>
+
+                    <p>The bottom shows a description of the character.</p>
+
+                </div>
+
+                <h2 id="chartravel">The Traveler</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">It's you.</p>
+
+                </div>
+
+                <h2 id="charfight">The Fighter</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">A fighter from the city of Jouvante. He quit his job to join in this journey.</p>
+
+                </div>
+
+                <h2 id="charhouse">The Housemaiden</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        A housemaiden from the town of Dormont, blessed by the Change God.
+                    </p>
+                    
+                </div>
+
+                <h2 id="charresearch">The Researcher</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        A researcher from Ka Bue. Her craft knowledge is unparalleled.
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="options">Options</h1>
+
+                <div class="dialogue">
+
+                    <h3>Always Run</h3>
+
+                    <p class="dialogue-line">
+                        Player walks when OFF. Player runs when ON.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
+
+                    <br>
+
+                    <h3>Command Remember</h3>
+
+                    <p class="dialogue-line">
+                        Game remembers the last command selected during battle.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
+
+                    <br>
+
+                    <h3>Message Speed</h3>
+
+                    <p class="dialogue-line">
+                        Changes the speed text is displayed during messages.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 1. Minimum is 1, maximum is 10.
+                    </p>
+
+                    <br>
+                    
+                    <h3>ATB Speed</h3>
+
+                    <p class="dialogue-line">
+                        Changes the rate at which all enemies and allies charge their turn meter.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 1. Minimum is 1, maximum is 10.
+                    </p>
+
+                    <br>
+
+                    <h3>Attack Effects</h3>
+
+                    <p class="dialogue-line">
+                        Does not change anything apparent.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
+
+                    <br>
+
+                    <h3>Attack Effects</h3>
+
+                    <p class="dialogue-line">
+                        Does not change anything apparent.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+
+                    <h3>Master Volume</h3>
+
+                    <p class="dialogue-line">
+                        Adjusts the overall volume of the game.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+
+                    <h3>BGM Volume</h3>
+
+                    <p class="dialogue-line">
+                        Adjusts the volume of the background music.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+
+                    <h3>BGS Volume</h3>
+
+                    <p class="dialogue-line">
+                        Adjusts the volume of the background sound effects. TODO check
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+
+                    <h3>ME Volume</h3>
+
+                    <p class="dialogue-line">
+                        Adjusts the volume of the menu.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+
+                    <h3>SE Volume</h3>
+
+                    <p class="dialogue-line">
+                        Adjusts the volume of the sound effects.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Can be adjusted in incriments of 10%. Minimum is 0%, maximum is 100%.
+                    </p>
+
+                    <br>
+                    
+                    <h3>Fullscreen</h3>
+
+                    <p class="dialogue-line">
+                        Toggle between fullscreen or windowed mode.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
+
+                    <br>
+
+                    <h3>Static Battle BG</h3>
+
+                    <p class="dialogue-line">
+                        Toggle between static or moving battle backgrounds.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Available settings:
+                    </p>
+
+                    <ul>
+                        <li>OFF</li>
+                        <li>ON</li>
+                    </ul>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="load">Save</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        Selecting Save will bring you to a menu with 4 panels.
+                    </p>
+
+                    <p class="dialogue-note">
+                        On the left, the twenty four save slots are displayed, numbered as "File 1", "File 2", and so on.
+                    </p>
+
+                    <p class="dialogue-note">
+                        The message in the top panel reads:
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        Please select a file slot.
+                    </p>
+
+                    <br>
+
+                    <h3>Save files</h3>
+
+                    <p class="dialogue-note">
+                        Save files display some information about themselves in the bottom right panel when hovered over.
+                    </p>
+
+                    <p class="dialogue-line">START AGAIN START AGAIN START AGAIN: a prologue v1.7</p>
+
+                    <p class="dialogue-note">
+                        The icons of the four combat-able party members are displayed directly below, followed by their levels.
+                    </p>
+                    
+                    <p class="dialogue-note">
+                        At the bottom is the current playthrough time.
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <p class="dialogue-note">Unused save files display as "(...)" when hovered</p>
+
+                    <br>
+                    <br>
+
+                    <p class="dialogue-note">
+                        Selecting a save file allows you to choose in the middle right panel:
+                    </p>
+
+                    <ul>
+                        <li>Load</li>
+                        <li>Save</li>
+                        <li>Delete</li>
+                    </ul>
+
+                    <br>
+
+                    <h4>Save</h4>
+
+                    <p class="dialogue-line">
+                        Saves the current progress in your game.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        If a file is selected:
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        Do you wish to overwrite this save file?
+                    </p>
+
+                    <br>
+
+                    <h4>Load</h4>
+
+                    <p class="dialogue-line">
+                        Loads the data from the saved game.
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        If a file is selected:
+                    </p>
+
+                    <p class="dialogue-line indented">Do you wish to load this save file?
+                    </p>
+
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                    </ul>
+
+                    <br>
+
+                    <h4>Delete</h4>
+
+                    <p class="dialogue-line">
+                        Deletes all data from this save file.
+                    </p>
+
+                    <br>
+                    
+                    <p class="dialogue-note">
+                        If a file is selected:
+                    </p>
+
+                    <p class="dialogue-line indented">Do you wish to delete this save file?
+                    </p>
+
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                    </ul>
+
+                    <br>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="quit">Quit</h1>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">
+                        Selecting Quit brings up two options.
+                    </p>
+
+                    <ul>
+                        <li>To Title</li>
+                        <li>Cancel</li>
+                    </ul>
+
+
+                </div>
+
+                
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
+
+</body>
+</html>

@@ -490,7 +490,7 @@ export const expressionsUrlDictionary = {
     "fight2":"/assets/expressions/sasasap/h_fight_2.png",
     "gentle1":"/assets/expressions/sasasap/h_gentle_1.png",
     "hm1":"/assets/expressions/sasasap/h_hm_1.png",
-    "hmmm1":"/assets/expressions/sasasap/h_hmmm_1.png",
+    "hmm1":"/assets/expressions/sasasap/h_hmm_1.png",
     "pray1":"/assets/expressions/sasasap/h_pray_1.png",
     "pray2":"/assets/expressions/sasasap/h_pray_2.png",
     "smile1":"/assets/expressions/sasasap/h_smile_1.png",
@@ -569,6 +569,13 @@ export const expressionsUrlDictionary = {
     "smile2":"/assets/expressions/sasasap/s_smile_2.png",
     "surprised1":"/assets/expressions/sasasap/s_surprised_1.png",
     "surprised2":"/assets/expressions/sasasap/s_surprised_2.png"
+},
+" ":{
+    "siftutorial":"/assets/images/xxx_small(0).png",
+    "housemaidentutorial":"/assets/images/xxx_small(1).png",
+    "fightertutorial":"/assets/images/xxx_small(2).png",
+    "researchertutorial":"/assets/images/xxx_small(3).png",
+    "kidtutorial":"/assets/images/xxx_small(12).png"
 }
 }
         
