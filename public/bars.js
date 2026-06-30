@@ -3,12 +3,15 @@
 ////////////////////////////////////////////////////////////////////////////////
 var debugMode = false; // change this to true and check console for debug logs!
 var animationToggle;
+var animationsHaveBeenTurnedOnBefore = false;
 var wavelength = 0.025;
 var waveAmplitude = 15;
 var waveSpeed = 0.75;
 var shakeMagnitude = 5;
 var shakeSpeed = 0.2;
 var shakeUnit = "%";
+var colorOn = "#060"
+var colorOff = "#900"
 
 
 
@@ -102,6 +105,7 @@ class Helper extends HTMLElement {
             <button onclick="toggleExpressions()" style="font-size: 0.95em">Toggle expressions</button>
             <button onclick="toggleChoices()">Toggle choices</button>
             <button onclick="changeWishStyle()">Change wish style</button>
+            <button onclick="toggleAnimationsForPage()" style="font-size: 0.75em; padding: 1px;">Toggle animations<br>for this page</button>
         </div>
         <button onclick="toggleSettings()">Settings</button>
         <button onclick="topFunction()">Go to top</button>`
@@ -167,6 +171,7 @@ function changeWishStyle() {
 }
 
 function toggleExpressions(state = null) {
+    var toggleButton = document.querySelector("#settings [onclick~='toggleExpressions()']");
     document.querySelectorAll(".dialogue-expression").forEach(function(expression){
         if (state == true || state == null && expression.style.display == "none") {
             expression.style.display = "inline-flex";
@@ -176,12 +181,12 @@ function toggleExpressions(state = null) {
             localStorage.setItem("expressionsToggle", "off");
         }
     })
-    if (debugMode) {
-        if (localStorage.getItem("expressionsToggle") == "on") {
-            console.log("expressions on!");
-        } else {
-            console.log("expressions off!");
-        }
+    if (localStorage.getItem("expressionsToggle") == "on") {
+        toggleButton.style.backgroundColor = colorOn;
+        if (debugMode) {console.log("expressions on!");}
+    } else {
+        toggleButton.style.backgroundColor = colorOff;
+        if (debugMode) {console.log("expressions off!");}
     }
 }
 
@@ -207,27 +212,59 @@ function toggleSettings(state = null) {
 
 // // //                           animations                           // // //
 
-function toggleAnimations(state = null) {
+function toggleAnimations(state = null, save = true) {
+    var toggleButton = document.querySelector("#settings [onclick~='toggleAnimations()']");
+    if (!animationsHaveBeenTurnedOnBefore) {
+        animationsHaveBeenTurnedOnBefore = true;
+        wrapAllCharacters(document.querySelectorAll(".shake, .wave"));
+    }
     if (state == true || state == null && animationToggle == "off") {
         animationToggle = "on";
         applyShakeAnimation();
         applyWaveAnimation();
-        localStorage.setItem("animationToggle", "on");
-        if (debugMode) {console.log("animations on!")};
+        if (save) {localStorage.setItem("animationToggle", "on")};
+        if (debugMode) {
+            toggleButton.style.backgroundColor = colorOn;
+            console.log("animations on!")
+        };
     } else if (state == false || state == null && animationToggle != "off") {
         animationToggle = "off";
         disableShakeAnimation();
         disableWaveAnimation();
-        localStorage.setItem("animationToggle", "off");
+        if (save) {
+            toggleButton.style.backgroundColor = colorOff;
+            localStorage.setItem("animationToggle", "off");
+        };
         if (debugMode) {console.log("animations off!")};
     }
     return animationToggle;
 }
 
-function applyShakeAnimation() {
-    var elements = document.querySelectorAll(".shake span");
+function toggleAnimationsForPage(state = null) {
+    var toggleButton = document.querySelector("#settings [onclick~='toggleAnimationsForPage()']");
+    var prev = localStorage.getItem("animationTogglePages");
+    if (!prev) {prev = ""}
+    var here = `${location.pathname},`;
 
-    elements.forEach(function(span) {
+    if (state === true || prev.includes(here)) { // if prev includes here, animations are off
+        // animations are off; turn them on
+        toggleAnimations(true, false);
+        var current = prev.replace(here, "");
+        toggleButton.style.backgroundColor = colorOn;
+        if (debugMode) {console.log(`turning animations ON for ${here.slice(0, -1)}`)};
+    } else {
+        // animations are on; turn them off
+        toggleAnimations(false, false);
+        var current = prev + here;
+        toggleButton.style.backgroundColor = colorOff;
+        if (debugMode) {console.log(`turning animations OFF for ${here.slice(0, -1)}`)};
+    }
+
+    localStorage.setItem("animationTogglePages", current)
+}
+
+function applyShakeAnimation() {
+    document.querySelectorAll(".shake span").forEach(function(span) {
         if (!(/\s/g.test(span.innerHTML))) {
             span.classList.remove("shake-visual");
 
@@ -280,16 +317,28 @@ function applySettings() {
     }
 
     if (localStorage.getItem("expressionsToggle") == "off") {
-        toggleExpressions();
+        toggleExpressions(false);
         if (debugMode) {console.log("toggled expressions off on load!")};
+    } else {
+        toggleExpressions(true);
     }
 
-    wrapAllCharacters(document.querySelectorAll(".shake, .wave"));
-    if (localStorage.getItem("animationToggle") == "off") {
+    var here = `${location.pathname},`;
+    animationToggle = localStorage.getItem("animationToggle");
+    var animationToggleForPageButton = document.querySelector("#settings [onclick~='toggleAnimationsForPage()']");
+    if (localStorage.getItem("animationTogglePages").includes(here)) {
+        if (debugMode) {console.log("animations are toggled off for this page!")};
+        animationToggle = "off";
+        animationToggleForPageButton.style.backgroundColor = colorOff;
+        toggleAnimations(false, false);
+    } else if (animationToggle == "off") {
         toggleAnimations(false);
         if (debugMode) {console.log("toggled animations off on load!")};
+        animationToggleForPageButton.style.backgroundColor = colorOn;
     } else {
+        animationToggle = "on";
         toggleAnimations(true);
+        animationToggleForPageButton.style.backgroundColor = colorOn;
     }
 
     if (localStorage.getItem("wishStyle") == "alt") {
