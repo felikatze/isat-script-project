@@ -47,8 +47,9 @@ for uri in all_public_subdirectory_page_URIs:
         if not line.strip(): # if the string is just whitespace
             continue # skip to next line
         
-        if line[0] == "(" and line[-1] == ")" and speaker == "":
-            speaker = "Siffrin (Internal Monologue)"
+        # commenting this out because it's making the search annoying
+        # if line[0] == "(" and line[-1] == ")" and speaker == "":
+        #     speaker = "Siffrin (Internal Monologue)"
         
         if line[0] == "[" and line[-1] == "]" and speaker == "":
             speaker = "Loop (Tutorial)"
