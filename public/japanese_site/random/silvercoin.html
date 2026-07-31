@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Coin</title>
+    <link href="/stylejp.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://isat-script-project.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/barsj.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
+    <script src="/search.js" defer></script>
+</head>
+
+<body>
+
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Silver Coin</h1>
+                <p><b>Sources:</b>Common Event 47 (Item_SiverCoin), Common Event 213 (Loop'sSilverCoin)</p>
+
+                <p><i>Text for both Silver Coins. Includes The Incident.</i></p>
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li><a href="#sifcoin">Siffrin's Silver Coin</a></li>
+                    <li><a href="#incident">The Incident</a></li>
+                    <li><a href="#loopcoin">Loop's Silver Coin</a></li>
+                </ul>
+
+                <br>
+
+                <h1 id="sifcoin">Siffrin's Silver Coin</h1>
+
+                <ul>
+                    <li><a href="#desc">Description</a></li>
+                    <li><a href="#use">Usage</a></li>
+                    <li><a href="#loop">Loop's reaction</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="desc">Description</h2>
+
+                <div class="dialogue">
+                    <h4>ACT 1 & 2:</h4>
+
+                    <p class="dialogue-line">
+                        クロワッサンを買ったときにもらったおつり。
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 3 & 4:</h4>
+
+                    <p class="dialogue-line">
+                        時間を超えてついてきたきれいな銀貨。
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 5:</h4>
+
+                    <p class="dialogue-line">
+                        銀貨。
+                    </p>
+
+                    <hr>
+                    <h4>ACT 6:</h4>
+
+                    <p class="dialogue-line">
+                        僕の銀貨。宇宙にただ一つの銀貨だ。</p>
+                    <br>
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="use">Usage</h2>
+                <p>The usage text when using the Silver Coin is decided by RNG. The game rolls a number between 1 and 51. "The Incident" triggers at 61 or higher.</p>
+                <p>Since rolling a 61 naturally is impossible, several factors add to the rolled RNG.</p>
+                <p>In addition to making the Incident monologue possible to reach, the additions also make the lower RNG options less likely or even impossible to occur. This also means viewing the Incident is not possible before ACT 3, as the amount of bonuses available does not amount to +10.</p>
+                <p>Of note: additions to the Silver Coin Help only occur the first time each condition is met.</p>
+
+                <br>
+                <p><b>Factors include:</b></p>
+                <ul>
+                    <li><a href="/rooms/loop/loopnirs.html">Showing Loop</a>the coin in ACT 2 & 3: +1 each</li>
+                    <li>Showing Loop the coin in ACT 4: +5</li>
+                    <li>Interact with the croissants in the <a href="/rooms/dormont/boulangerie.html">Boulangerie</a>in ACT 3 or 4: +3</li>
+                    <li>Interact with the croissants in the Boulangerie <a href="/rooms/dormont/dormdile.html">with Odile</a>during her Friendquest: +3</li>
+                    <li>Interact with the croissants in the locked <a href="/rooms/floor2/breakroom2.html">Break Room</a>on Floor 2: +1</li>
+                    <li>Interact with the open book in the <a href="/rooms/floor3/breakroom3.html">room with the dog</a>on Floor 3: +1</li>
+                    <li>Read the book on Wish Craft in the <a href="/rooms/floor2/secret_library.html">Secret Library</a>: +1</li>
+                    <li>Use the coin in ACT 3: +10 (does not stack with ACT 4 & book bonuses)</li>
+                    <li>Use the coin in ACT 4: +15 (does not stack with ACT 3 & book bonuses)</li>
+                    <li>Use the coin after reading the first book on Wish Craft in the locked <a href="/rooms/floor1/stostorageroomoom.html">Storage Room</a>+20 (does not stack with ACT 3 & 4 bonuses)</li>
+                </ul>
+
+                <br>
+
+
+                <h3>RNG 1 to 20</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (ポケットの中で、銀貨を転がした。)
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>RNG 21 to 40</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (銀貨を何度か宙に放り投げてみる。)
+                    </p>
+
+                    <br>
+
+                    <h4>Inside the House:</h4>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                       </span>
+                        パチパチパチ！
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                       </span>
+                        口で言わなくても、手を叩けばいいんだぞ。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        やだねっ！！！
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>RNG 41 to 50</h3>
+
+                <div class="dialogue">
+
+                    <h4>Before getting the Incident:</h4>
+
+                    <p class="dialogue-line">
+                        (あの出来事について考える。)
+                    </p>
+
+                    <hr>
+
+                    <h4>After getting the Incident:</h4>
+
+                    <p class="dialogue-line">
+                        (星たちについて考える。)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>RNG 51 to 60</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (銀貨を手の中でぎゅっと握りしめる。)
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>RNG 61+</h3>
+                    <h4>Before getting the Incident:</h4>
+                        <p>Triggers the <a href="#incident">Incident</a>.</p>
+                    <br>
+                    <h4>After getting the Incident:</h4>
+                        <div class="dialogue">
+                            <p class="dialogue-line">
+                                (銀貨のことを考える。)
+                            </p>
+
+                            <p class="dialogue-line">
+                                (クロワッサンのことを考える。)
+                            </p>
+
+                            <p class="dialogue-line">
+                                (言葉のなまりについて考える。)
+                            </p>
+
+                            <p class="dialogue-line">
+                                (考える――
+                            </p>
+
+                            <br>
+
+                            <p class="dialogue-note">
+                                Time skips.
+                            </p>
+
+                            <br>
+
+                            <p class="dialogue-line">
+                                (...でも、宇宙はそうさせてくれないだろう。)
+                            </p>
+
+                            <p class="dialogue-line">
+                                (胸をこすり、体温を上げる。そして、みんなのことを考えた。)
+                            </p>
+                        </div>
+
+                <h3>ACT 5, after defeating the King but before the finale</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (なぜか、ループのことが頭に浮かぶ。)
+                    </p>
+                </div>
+
+                <br>
+
+                <h3>ACT 6</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (僕の銀貨だ！)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (この銀貨は、僕の冒険の間、ずっとそばにあったんだよな...？)
+                    </p>
+
+                    <br>
+
+                    <h4>Without meeting <a href="/rooms/loop/loopfight.html#onehat">specific requirements</a></h4>
+
+                    <p class="dialogue-line">
+                        (なんだか、この銀貨でできたことがあったんじゃないかと思う。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (今となってはもう、遅すぎるだろう。)
+                    </p>
+
+                </div>
+
+                <br>
+
+                <h3>ACT 6, after picking up <a href="#loop">Loop's Silver Coin</a></h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (これは僕の銀貨だ。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (時間のループが始まる前から持っていたものだ。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (. . .)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (もうひとつの銀貨も見てみないと。)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="loop">Loop's reaction</h2>
+                <p>Showing Loop the Silver Coin by interacting with it close to the Favor Tree.</p>
+
+                <br>
+
+                <h3>ACT 2</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (ポケットの中で、銀貨を転がした。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        ああ、持ってたんだ。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        そんな銀貨、取っておくのはやめなよ！ それでお菓子か何か買ってきたら。
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>ACT 3</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (ポケットの中で、銀貨を転がした。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        またあの銀貨を転がしてるの？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        ずっと持ってるよね。なんだかあわれみを感じるよ。
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+
+                <h3>ACT 4</h3>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (ポケットの中で、銀貨を転がした。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                       </span>
+                        ...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        まったく。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        銀貨について話したい？
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (話したいこと？)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (所詮、ただの銀貨だ。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        もちろん、そうだね。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                       </span>
+                        その銀貨を取っておく理由なんて、一つもないでしょ。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        なのに、買い物に使おうとすらしない。お菓子も、くだらないものも、何も買おうとしない。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        もう手放しなよ！
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (どうしてループは銀貨を気にするんだ。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        ...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        気にしてない。ちっとも気にしてないんだから！
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h3>After the Incident</h3>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (銀貨を見てみる。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                       </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                       </span>
+                        きみはたまに、執着することがあるよね。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        あんなことがあったからって、クロワッサンを断つ必要はないのに。あの出来事を覚えておくために、銀貨を持っておく必要はないのに。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        彼らのことを覚えておくために、その銀貨を持っておく必要はない。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(away1)</span>
+                       </span>
+                        そんな儀式めいたことをしても、何かを成せるわけじゃない。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(angry4)</span>
+                       </span>
+                        (そんな話、今は聞きたくない！) "どうして僕の気持ちが分かると思うんだよ！？"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        ...ふん！
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                       </span>
+                        確かにね。僕はきみを理解できない。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                       </span>
+                        どのみち、自分の故郷が自分の下から滑り落ちていく感覚は、僕には分からないよ。すべてから切り離される、その感覚はね。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                       </span>
+                        何がなんでもすべてを覚えておきたいのも、理解できない。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake2)</span>
+                       </span>
+                        理解できるわけないだろう？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(subdued1)</span>
+                       </span>
+                        僕を見てよ、星くず君。僕の顔を見なよ。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        僕はここにいるべきだと、本当に思う！？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        帰るべき故郷がないって感覚が、本当に僕に分からないと思う？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        どこを見ても故郷の面影が見えるのに、そこにあるべきつながりがない感覚が。
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        後に残してきたものすべてを覚えて置きたいって感覚が、本当に理解できないと思ってる？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(away1)</span>
+                       </span>
+                        僕は星だ。だけど、それが僕の力になると思う？僕の心が空っぽじゃないと思う？
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        今だって、僕は独りで、僕の状況を分かってくれる人なんかいない。分かってくれそうな唯一の人は...
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(away1)</span>
+                       </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        "...人は？"
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(away1)</span>
+                       </span>
+                        . . .
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ルプ</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                        ううん、話はおしまい！ これで終わりだよ！
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (ループのことを、もっと理解できた気がする。)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+
+                <h1 id="incident">The Incident</h1>
+                <p>As stated in the <a href="#use">previous section</a>, this monologue occurs when rolling 61 or higher on the RNG when using the Silver Coin.</p>
+
+                <br>
+
+                <div class="dialogue">
+
+                    <h4>ACT 1 (unused):</h4>
+
+                    <p class="dialogue-line">
+                        (数日前、僕たちは物資調達のために小さな町に立ち寄った。)
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 2 (unused):</h4>
+
+                    <p class="dialogue-line">
+                        (ループが始まる数日前、僕たちは物資調達のために小さな町に立ち寄った。)
+                    </p>
+
+                    <hr>
+
+                    <h4>ACT 3 & 4:</h4>
+
+                    <p class="dialogue-line">
+                        (覚えてる。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (時間に閉じ込められる前、僕たちは物資調達のために小さな町に立ち寄った。)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        (みんな、何かしら忙しかったのに、お腹が空いて何も考えられなかった僕は、手近なパン屋に入った。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (店主は屈強な老人だった。毎朝笑顔で目覚めるような、ご機嫌なタイプだ。その時にはもう、みんなが王の脅威におびえていたのに。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (僕は無言でクロワッサンを指さし、硬貨を何枚か見せた。老人も黙ったまま、笑顔でクロワッサンを取ってくれ、お金を受け取り、おつりに銀貨を1枚くれた。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (僕たちは同時に「ありがとう」と言った。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (そして、2人とも凍り付いた。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (言葉を話すとき、同じなまりのミラとイザを除けば、他はみんな違うなまりで発音する。みんな出身地が違うから、それは当たり前だ。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (旅の途中では、ミラやイザと同じヴォーガルドなまりの人たちにたくさん出会った。中には、ボニーと同じ沿岸部なまりの人もいた。それに、オディールのようなカ・ビューなまりで話す人にも少数ながら会ったことがある。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (でも、僕と同じなまりで話す人は一人としていなかった。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (あのパン屋のなまりは、&nbsp;&nbsp;&nbsp;&nbsp;僕とまったく同じだった。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (老人は僕から目をそらさずに、僕の腕をつかんだ。彼の眼は驚きに満ちていた。恐怖と希望が入り混じっていた。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (そして言った。「あんた... &nbsp;&nbsp;どこの出身だね？」)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (僕は、答えることができなかった。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (答えられるわけがない。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (どうして答えられる？&nbsp;&nbsp;&nbsp; 老人は、知っていたのか？&nbsp;&nbsp;&nbsp; 覚えていたのか？&nbsp; 彼は答えられたのか？&nbsp; 彼は僕に聞いていたのか？&nbsp; 僕をなじっていたのか？&nbsp;&nbsp; あの光を、まだ覚えていたのか？&nbsp; 闇を裂いた、あの形を？&nbsp; 彼らの物語を？)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (老人の心臓の中に、彼らがまだ脈打っていたのか？ 彼の心臓を温めていた？ 彼は話をして、存在させることができたのか？ 話すことができたのか？ 言葉を発することが？ 覚えていたのか？ 覚えていたのか？ 覚えていたのか？)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="shake">(彼は、覚えていたのか？)</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (僕は、パン屋から転がり出た。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (夜空に小さな星々が見えたけれど、胸は空っぽだった。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (走って戻った後で、大好きなものをいつも忘れてしまうことについて考えた。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (それはいつも変わらない)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (でも、[仲間たち/家族]のことは絶対に忘れたくない)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (絶対に、絶対に、絶対に、絶対に、絶対に、 <span class=\"shake\">絶対に</span>)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (何があっても、絶対だ)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (何がなんでも)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (必ず)
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="wish">(覚えておく)</span>
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        (. . .)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (みんなのところに戻ってから、クロワッサンを食べた。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (それは&nbsp;&nbsp;&nbsp;&nbsp;なんの味もしないクロワッサンだった。)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="loopcoin">Loop's Silver Coin</h1>
+
+                <h2>Description</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        願いの木の下で見つけた銀貨。
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h2>Usage</h2>
+
+                <div class="dialogue">
+
+                    <h3>Prior to the Loop battle, away from the Favor Tree:</h3>
+
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (これを見るなら、願いの木の近くじゃないとな。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">
+                        Using Loop's Silver Coin close to the Favor Tree triggers the <a href="/rooms/loop/loopfight.html#coin">Loop fight</a>.
+                    </p>
+
+                    <hr>
+
+                    <h3>After the Loop battle:</h3>
+
+                    <p class="dialogue-line">
+                        (ループの銀貨だ。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (ループも長い間、これを持っていたんだろう。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (銀貨を放り投げる。一度、二度、三度。)
+                    </p>
+
+                    <p class="dialogue-line">
+                        (また会える！)
+                    </p>
+                </div>
+
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
+
+</body>
+</html>

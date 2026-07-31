@@ -11,7 +11,6 @@ var shakeSpeed = 0.2;
 var shakeUnit = "%";
 
 
-
 ////////////////////////////////////////////////////////////////////////////////
 //                               custom elements                              //
 //                              (header / footer)                             //
@@ -104,7 +103,16 @@ class Helper extends HTMLElement {
             <button onclick="changeWishStyle()">Change wish style</button>
         </div>
         <button onclick="toggleSettings()">Settings</button>
-        <button onclick="topFunction()">Go to top</button>`
+        <button onclick="topFunction()">Go to top</button>
+        <button onclick="toggleLanguage()">日本語</button>`
+        
+        /*//delete once all japanese pages are done
+        const pageConst = window.location.href.replaceAll("/","\\");
+        console.log(pageConst);
+        let toCheck = "";
+        toCheck = await getDialogueLinesTXT();
+        if */
+        
     }
 }
 
@@ -112,6 +120,7 @@ customElements.define("head-er", Header);
 customElements.define("foot-er", Footer);
 customElements.define("side-bar", Sidebar);
 customElements.define("help-er", Helper);
+
 
 
 
@@ -202,6 +211,20 @@ function toggleSettings(state = null) {
         settings.style.display = "block";
     } else if (state == false || state == null && settings.style.display != "none") {
         settings.style.display = "none";
+    }
+}
+
+function toggleLanguage(state = null){
+    const pageConst = window.location.href;
+    localStorage.setItem("scrollY", window.pageYOffset * 1.042);
+    console.log(localStorage);
+    window.location.href = pageConst.substring(0,pageConst.indexOf("/",8)) + "/japanese_site" + pageConst.substring(pageConst.indexOf("/",8));
+}
+
+window.onload = function(){
+    if (localStorage.getItem("scrollY")) {
+        window.scrollTo(0,localStorage.getItem("scrollY"))
+        localStorage.removeItem("scrollY");
     }
 }
 
@@ -370,6 +393,3 @@ function updateButtonsPosition() {
 
 window.onscroll = updateButtonsPosition;
 window.onresize = updateButtonsPosition;
-
-
-

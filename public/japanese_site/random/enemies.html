@@ -1,0 +1,2823 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enemies</title>
+    <link href="/stylejp.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://isat-script-project.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/barsj.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
+    <script src="/search.js" defer></script>
+</head>
+
+<body>
+
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Enemies</h1>
+                <p><b>Source:</b>
+                    Map008 (BossHallway_1), Map040 (BossHallway_2), Map044 (BossHallway_3), Map116 (Room (Crest)<!--f1-->), Map088 (Room (Crest)<!--f2-->), Map097 (Room (Crest)<!--f1-->); 
+                    Common Events 049 (EXAMINE), 093 (MonsterCodeEntireCode), 305 (BaseTroop1), 306 (BaseTroop2), 307 (BaseTroop3), 310 (ReviveAct5), 
+                    224 (MidBoss1), 297 (MidBoss2A), 298 (MidBoss2B), 299 (MidBoss3A1), 300 (MidBoss3A2), 301 (MidBoss3B1), 302 (MidBoss3B2), 303 (MidBoss3C1), 303 (MidBoss3C2)
+                <p>All text for (most) enemies, including skill usage and Examine text. Enemies are organised by the floor they appear on in ACT 2, although any enemy can appear on any floor from ACT 3 onwards.</p>
+                <ul>
+                    <li>For technical stats, please check out the <a href="https://instarsandtime.wiki.gg">ISAT wiki</a>instead.</li>
+                    <li>For the tutorial in the House, see <a href="/events/tutorial">Tutorial</a>.</li>
+                    <li>For Tutorial Kid's battle, see <a href="/rooms/dormont/tutokid">Tutorial Kid</a>.</li>
+                    <li>For the King, see <a href="/rooms/king/kingfight.html">King Fight</a>or <a href="/rooms/king/kingfight-act5.html">King Fight ACT 5</a>.</li>
+                    <li>For Mal du Pays' battle, see <a href="/acts/act5/maldupays">Mal du Pays</a>.</li>
+                    <li>For the battle against the party, see <a href="/acts/act5/VSFriends">VS Friends</a>.</li>
+                    <li>For Loop's battle, see <a href="/rooms/loop/loopfight.html">Favor Tree, ACT 6</a>.</li>
+                </ul>
+
+                <!--
+                we could add other text, but i dont wanna rn.
+
+                unfortunately i am stubborn here we goooo -wren
+                -->
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li>
+                        <a href="#f1">Floor 1 Enemies</a>
+                        <ul>
+                            <li><a href="#goomba1">Tristesse</a></li>
+                            <li><a href="#triplets">Chagrin, Dépit & Peine</a></li>
+                            <li><a href="#upperdowner">Amertume & Rancoeur</a></li>
+                            <li><a href="#crest1">Nostalgie</a></li>
+                            <li><a href="#midboss1">Calamité</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#f2">Floor 2 Enemies</a>
+                        <ul>
+                            <li><a href="#goomba2">Détresse</a></li>
+                            <li><a href="#shield">Angoisse & Deuil</a></li>
+                            <li><a href="#bomb">Anxiété</a></li>
+                            <li><a href="#crest2">Nostalgie</a></li>
+                            <li><a href="#midboss2">Accablement & Abattement</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#f3">Floor 3 Enemies</a>
+                        <ul>
+                            <li><a href="#goomba3">Misère</a></li>
+                            <li><a href="#knots">Tourment</a></li>
+                            <li><a href="#hands">Désespoir</a></li>
+                            <li><a href="#crest3">Nostalgie</a></li>
+                            <li><a href="#midboss3">Bourdon</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="f1">Floor 1 Enemies</h1>
+                <p>Enemies that initially appear on the first floor.</p>
+                <ul>
+                    <li><a href="#goomba1">Tristesse</a></li>
+                    <li><a href="#triplets">Chagrin, Dépit & Peine</a></li>
+                    <li><a href="#upperdowner">Amertume & Rancoeur</a></li>
+                    <li><a href="#crest1">Nostalgie</a></li>
+                    <li><a href="#midboss1">Calamité</a></li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="goomba1">Tristesse</h1>
+                <p>Encountered solo, and come in all three Craft types.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Idle; only in the tutorial</p>
+                    <!--
+                    paper and rock tuto tristesses only have does something
+                    otherwise does something is rating 2 and thus out of range
+                    -->
+                    <p class="dialogue-line indented">(トリステスが気を取られている。)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(トリステスの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; available below 50% HP</p><!--r3 hp 0~50%-->
+                    <p class="dialogue-line indented">(トリステスが暴れまわる！)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+                <p>This is also the Examine that plays in the <a href="/events/tutorial">tutorial</a>!</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(melan4)</span>
+                       </span>
+                        王にやられた人々の、なごり...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(melan3)</span>
+                       </span>
+                        そのなごりは、嘆きや哀しみでできている。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                       </span>
+                        もう、敵も味方も分からない。私たちにできるのは、倒してやることだけ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                       </span>
+                        哀し身たちの耐性と弱点はそれぞれ違う。 もしかすると、姿かたちからそれを見分ける方法があるかもしれない...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                       </span>
+                        うーん...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                       </span>
+                        オイラたちがスキルをクラフトするときは、特定の手の形をする必要があるから... 哀し身の手を見ればいい？
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="triplets">Chagrin, Dépit & Peine</h1>
+                <p>Come in groups of three, one of each Craft type.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">At the start of battle</p>
+                    <p class="dialogue-note indented">The screen fades to black and wooshing sounds play. When visuals return, the Sadnesses are in a random order.</p>
+                    <p class="dialogue-line indented">(哀し身の位置が変わった[！/。])</p>
+
+                    <!--they have a does something r2, but not only is it out of range they don't set a enemydistract value so i kicked it off the page entirely-->
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(の攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets</p><!--r3-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(sif!1)</span>
+                       </span>
+                        三つ子だ！ かわいいっ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        みんな、それぞれ違う... 違いを見分けることができれば、弱点が簡単に分かるかもしれないな。
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="upperdowner">Amertume & Rancoeur</h1>
+                <p>
+                    Come in a pair. 
+                    Rancoeur (the top one) is Scissors type and can buff <abbr title="Attack">ATK</abbr>and <abbr title="Defence">DEF</abbr>, 
+                    and Amertume (the bottom one) is Rock type and can debuff <abbr title="Attack">ATK</abbr>and <abbr title="Defence">DEF</abbr>.
+                </p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr>; guaranteed first turn</p><!--atk buff usually r5, turn 1 condition has r9 making everything else out of range-->
+                    <p class="dialogue-line indented">(ランキュールが敵のパワーを強化！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p><!--r5-->
+                    <p class="dialogue-line indented">(ランキュールが敵の体力を強化！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr>or <abbr title="Defence">DEF</abbr>; available every other turn starting on Amertume's third turn</p><!--r5 on turn1+2*x-->
+                    <!--alledgedly def debuff is r9 turn 1 but that doesn't seem to be the case in practice? i wonder if rancoeur's turn 1 move means that amertume's first turn is "turn 2"-->
+                    <p class="dialogue-line indented">(力が入らない...)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking one target; available every other turn for Rancoeur</p><!--r4 for amertume, r5 turn2*x for rancoeur-->
+                    <p class="dialogue-line indented">(の攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets</p>
+                    <!--r2 for both. amertume's r4 attack and turn conditional debuffs makes this in range; rancoeur's r5 attack+buffs makes it out of range-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                       </span>
+                        1体は仲間を強化し、もう1体は私たちを弱体化させる...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        されるがままになるのはマズいよ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(huh2)</span>
+                       </span>
+                        イザボー、きみは同じようなクラフトを使えるよな...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight2)</span>
+                       </span>
+                        任せてくれ！ みんなは攻撃を続けて。俺はみんなを強化するから！
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="crest1">Nostalgie</h2>
+                <p>The Star Crest Sadness on Floor 1. This one is Paper type.</p>
+                <ul>
+                    <li><a href="#crest1start">Battle start</a></li>
+                    <li><a href="#crest1moves">Moves</a></li>
+                    <li><a href="#crest1examine">Examine</a></li>
+                    <li><a href="#crest1end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="crest1start">Battle start</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                       </span>
+                        哀し身が1体で！？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                       </span>
+                        ああ、かわいそうに。仲間を失ったんだな！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        うわあ、この哀し身はなんかヘンだな。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                       </span>
+                        ボニファス、見た目は違うかもしれないが、こいつも今までに見てきたのと同じ哀し身だ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk3)</span>
+                       </span>
+                        だけど、やっぱヘンだよ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        哀し身の違和感に関しては、俺はプリティーンを信じるよ、オディール。
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Nostalgie turns and notices the party.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                       </span>
+                        それでは、ヘンな哀し身とやらに対処しようか...
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="crest1moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(ノスタルジーの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
+                    <p class="dialogue-line indented">(ノスタルジーが暴れまわる！)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
+                    <p class="dialogue-line indented">(ノスタルジーが体を丸くする！)</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="crest1examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                       </span>
+                        この敵は... わたしだけかな。なんか変じゃない...？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                       </span>
+                        これまでに遭った哀し身よりも、少し強そうだ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(hmf1)</span>
+                       </span>
+                        それに、手が見えないよ！ ムカつくね、このカニったれ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        こいつの攻撃を観察するか、こちらから攻撃するときに注意して見てみよう。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="crest1end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(消滅するとき、哀し身が何かを残していった...)</p>
+                    <p class="dialogue-line">(「星の紋章」を手に入れた！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">First time</p>
+                    <p class="dialogue-line indented">(しずくの形の彫刻が施されている...)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">(「星の紋章」をポケットにしまう。)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                       </span>
+                        紋章...？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk1)</span>
+                       </span>
+                        やっぱりヘンな感じ。
+                    </p>
+                    
+                    <hr>
+
+                    <p class="dialogue-note">If you didn't interact with <a href="/rooms/floor1/hallways1.html#tutocrest">the row of tears</a>this loop</p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        前に見かけたしずくみたいだ。
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                       </span>
+                        なるほど...
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                       </span>
+                        うーん... 後で使えるかも...？
+                    </p>
+                    
+                    <br>
+
+                    <div class="indented">
+
+                        <p class="dialogue-note">First time</p>
+                        <p class="dialogue-line indented">(道をふさいでいる涙のしずくに使えるのか...？)</p>
+
+                        <p class="dialogue-note">Subsequent times</p>
+                        <p class="dialogue-line indented">(すぐに使えるときが来る。)</p>
+
+                    </div>
+                    
+                    <br>
+
+                    <p class="dialogue-note">If you did</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        さっき見たしずくみたいだ。
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                       </span>
+                        なるほど...
+                    </p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                       </span>
+                        うーん... もしかして、紋章が道を開けるのに役に立つ...？
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="midboss1">Calamité</h1>
+                <p><b>Source:</b>Map008 (BossHallway_1); Common Events 224, (Midboss1), 265 (SmallEvents)</p>
+                <p>The boss at the end of Floor 1.</p>
+                <ul>
+                    <li><a href="#mid1start">Battle start</a></li>
+                    <li><a href="#mid1change">Calamité changes type</a></li>
+                    <li><a href="#mid1moves">Moves</a></li>
+                    <li><a href="#mid1examine">Examine</a></li>
+                    <li><a href="#mid1end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="mid1start">Battle Start</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                       </span>
+                        哀し身がいる！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(question1)</span>
+                       </span>
+                        館の先へ進ませないようにしているみたいだ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                       </span>
+                        強そうだな！ 今までにみたどの哀し身よりも強そう！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        みんな、いいか！
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Everyone draws their weapons, and battle begins.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        でっかいボール頭だ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(LMAO1)</span>
+                       </span>
+                        でっかいボール頭！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        待って、何か見えた！
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Calamité flashes the Craft sign for its randomly selected type.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                       </span>
+                        でっかいボール頭に、ちょっとだけ、何かが見えた！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                       </span>
+                        あれは... [グー/パー/チョキ]のマーク？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                       </span>
+                        どういう意味だ？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                       </span>
+                        現在のクラフトタイプだと見なせるかもしれない...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        シフラン、サポートが必要なら、私がこの敵を分析するぞ。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid1change">Calamité changes type</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">(哀し身のクラフト属性が変わった！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">At low HP (less than 45%)</p>
+                    <p class="dialogue-line indented">(しかし何も見えない...)</p>
+
+                    <br>
+
+                    <div class="indented">
+                        <p class="dialogue-note">First time</p>
+                        <p class="dialogue-line indented">(相手の攻撃を見て属性を判断するしかなさそうだ。)</p>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <h2 id="mid1moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r7 type is conditional to its current type-->
+                    <p class="dialogue-line indented">(の攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; unused</p><!--r3, out of range-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Breaking resistance to its current Craft type; unused</p><!--r3, out of range-->
+                    <p class="dialogue-line indented">(が[グー/パー/チョキ]を唱える！)</p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid1examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Normally</p>
+
+                    <div class="indented">
+
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(stop!1)</span>
+                           </span>
+                            [グー/パー/チョキ]の形が見えた！ [グー/パー/チョキ]タイプになったよ！
+                        </p>
+                        
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ミラベル</span>
+                                <span class="dialogue-expression">(anxious2)</span>
+                           </span>
+                            [グーとチョキ/パーとグー/パーとチョキ]の攻撃は効かないってことだね...
+                        </p>
+                        
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(yeah!1)</span>
+                           </span>
+                            [パー/チョキ/グー]で攻撃だ！
+                        </p>
+                        
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(huh2)</span>
+                           </span>
+                            ジャックポットポイントを狙うよい機会かもしれない。
+                        </p>
+                        
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(lol2)</span>
+                           </span>
+                            同じクラフトタイプを5回連続で使ってみよう！
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <p class="dialogue-note">At low HP (less than 45%)</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                       </span>
+                        新しいクラフトタイプを見せてこないな...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        いろいろ試してみて、どれが効くか見てみるしかなさそうだ！！！
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid1end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        やったね...！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                       </span>
+                        勝った！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                       </span>
+                        よし、先へ進むとしよう。
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="f2">Floor 2 Enemies</h1>
+                <p>Enemies that initially appear on the second floor.</p>
+                <ul>
+                    <li><a href="#goomba2">Détresse</a></li>
+                    <li><a href="#shield">Angoisse & Deuil</a></li>
+                    <li><a href="#bomb">Anxiété</a></li>
+                    <li><a href="#crest2">Nostalgie</a></li>
+                    <li><a href="#midboss2">Accablement & Abattement</a></li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="goomba2">Détresse</h1>
+                <p>Encountered solo, and come in all three Craft types.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Idle; unused</p><!--r2, out of range-->
+                    <p class="dialogue-line indented">(デトレスが気を取られている。)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(の攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; available below 50% HP (always available for Rock)<!--which seems like a bug but w/e. king rock type favoritism--></p><!--r3 hp 0~50% on p+s-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr>; unused</p><!--r2 hp 50~100%, out of range-->
+                    <p class="dialogue-line indented">(力が入らない...)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr>; guaranteed every fifth turn starting on the second</p><!--r9 turn1+5*x-->
+                    <p class="dialogue-line indented">(動きが鈍る...)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                       </span>
+                        かわいい哀し身だね！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                       </span>
+                        そうか？ 私には恐ろしいが...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        ううん、かわいいよ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                       </span>
+                        こいつに関しちゃ、俺はオディールに賛成だ... キモいぜ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        シフはどうだ？ きみの1票で決まるぞ？
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">ACT 2</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(um1)</span>
+                       </span>
+                    </p>
+
+                    <p class="dialogue-note">ACT 3</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(okay2)</span>
+                       </span>
+                    </p>
+                    
+                    <p class="dialogue-note">ACT 4</p>
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(fake1)</span>
+                       </span>
+                    </p>
+
+                    <p class="dialogue-line">(...)</p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"かわいいかも？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ボニー</span>
+                                            <span class="dialogue-expression">(hmf2)</span>
+                                       </span>
+                                        いやっほおおおおぅ！！！
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ミラベル</span>
+                                            <span class="dialogue-expression">(serious3)</span>
+                                       </span>
+                                        わたしたちの勝ちね。
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">オディール</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                       </span>
+                                        やれやれ...
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"キモいかも？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">オディール</span>
+                                            <span class="dialogue-expression">(lol3)</span>
+                                       </span>
+                                        ほらな？
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">イザボー</span>
+                                            <span class="dialogue-expression">(brag1)</span>
+                                       </span>
+                                        シフも同意見だ！
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ボニー</span>
+                                            <span class="dialogue-expression">(sulk5)</span>
+                                       </span>
+                                        ...
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"キモかわいいかも？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ミラベル</span>
+                                            <span class="dialogue-expression">(awkward1)</span>
+                                       </span>
+                                        「キモかわいい」...？
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">イザボー</span>
+                                            <span class="dialogue-expression">(boo1)</span>
+                                       </span>
+                                        「キモ」が先だから、俺たちの勝ちだな。
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">オディール</span>
+                                            <span class="dialogue-expression">(lol1)</span>
+                                       </span>
+                                        両方にいい顔をするとは... ずるいぞ、シフラン...
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>"かわキモいかも？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">イザボー</span>
+                                            <span class="dialogue-expression">(boo1)</span>
+                                       </span>
+                                        「かわキモい」...
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ボニー</span>
+                                            <span class="dialogue-expression">(hmf2)</span>
+                                       </span>
+                                        かわいいが先！！！ そうだろ、先にかわいいがついてる！！！ やっぱかわいいんだ！！！
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">ミラベル</span>
+                                            <span class="dialogue-expression">(happy1)</span>
+                                       </span>
+                                        かわいいの勝ちね！
+                                    </p>
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">オディール</span>
+                                            <span class="dialogue-expression">(hm1)</span>
+                                       </span>
+                                        そんなにうまくいくのか...？
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="shield">Angoisse & Deuil</h1>
+                <p>Come in a pair. The Paper-type Deuil is immune until the Rock-type Angoisse is defeated.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-note">At the start of battle</p>
+                    <p class="dialogue-line indented">(アンゴワスが味方をかばう！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">After Angoisse is killed</p>
+                    <p class="dialogue-line indented">(ドイユが無防備になった！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5 for both-->
+                    <p class="dialogue-line indented">([アンゴワス/ドイユ]の攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; only with Angoisse alive</p><!--r3 for both-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Deuil healing Angoisse; only with Angoisse alive</p><!--r4-->
+                    <p class="dialogue-line indented">(ドイユが味方を助ける！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
+                    <p class="dialogue-line indented">(ドイユが泣き叫ぶ！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Idle; only after Angoisse is killed</p><!--r7 with angoisse dead-->
+                    <p class="dialogue-line indented">(ドイユは静かに泣いている。)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                       </span>
+                        こんなの嫌...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                       </span>
+                        ああ... 誰かを守ろうとしている人を倒すなんて、とても...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                       </span>
+                        それでも、私たちに攻撃を仕掛けてくることに変わりはないんだ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                       </span>
+                        こう考えてみるといい。彼らを粉々にしても、結局はまた元に戻るだろう。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                       </span>
+                        そのとき、彼らはまた、なんのためらいもなく私たちを攻撃する。
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">If Angoisse is still alive</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(huh2)</span>
+                       </span>
+                        今は、目の前の対象に集中しよう。
+                    </p>
+                    
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="bomb">Anxiété</h1>
+                <p>Encountered solo. It's Rock-type, and you can tell... because it's round?</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">First three times</p><!--r5-->
+                    <p class="dialogue-line indented">(アンクシエテが音を出し始める...)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Immediately after the third tick</p><!--handled by ce053 SKILL_bomb-->
+                    <p class="dialogue-line indented">(アンクシエテが爆発する！)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        こいつ、「チクタク」っていってる。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(hmf2)</span>
+                       </span>
+                        爆弾みたい！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                       </span>
+                        マズい...！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(guilty1)</span>
+                       </span>
+                        爆発したら、よっぽど幸運でないと無傷ではいられないだろう。私のクラフトでスピードダウンさせてみる。みんなは攻撃を続けてくれ。だが...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        ああ、ヤバいと思ったらすぐに逃げるよ！
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-line">[忘れないで、星くず君！ ほとんどすべての戦闘では、逃げることができるよ！]</p>
+                    <p class="dialogue-line">[バトルから逃げるには、攻撃したりクラフトを使ったりしないで、[戻る]を押すんだ。そのメニューから、「逃げる」を選べるよ！]</p>
+                    <p class="dialogue-line">[すばしっこいきみなら、いつでも逃げられるだろう。ただし、フロアのボスや王は例外だ。]</p>
+                    <p class="dialogue-line">[必要な場合には、ちゃんと逃げよう。すべての戦闘を戦う必要はない。]</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="crest2">Nostalgie</h2>
+                <p>The Star Crest Sadness on Floor 2. This one is Scissors type.</p>
+                <ul>
+                    <li><a href="#crest2start">Battle start</a></li>
+                    <li><a href="#crest2moves">Moves</a></li>
+                    <li><a href="#crest2examine">Examine</a></li>
+                    <li><a href="#crest2end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="crest2start">Battle start</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                       </span>
+                        哀し身がいる！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                       </span>
+                        またヘンなのが出た。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hm2)</span>
+                       </span>
+                        前に星の紋章を落としたやつに似てるな？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        待て、ボニファス。ヘンというのはどういう意味――
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Nostalgie turns and notices the party.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        マ、マダム、話してる場合じゃないよ！ 構えて！
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="crest2moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(ノスタルジーの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
+                    <p class="dialogue-line indented">(ノスタルジーが体を丸くする！)</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="crest2examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                       </span>
+                        この敵は... わたしだけかな。なんか変じゃない...？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                       </span>
+                        これまでに遭った哀し身よりも、少し強そうだ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(hmf1)</span>
+                       </span>
+                        それに、手が見えないよ！ ムカつくね、このカニったれ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        こいつの攻撃を観察するか、こちらから攻撃するときに注意して見てみよう。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="crest2end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(「星の紋章」を手に入れた！)</p>
+                    <p class="dialogue-line">(「星の紋章」をポケットにしまう。)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                       </span>
+                        よっしゃ、星の紋章入手！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(question1)</span>
+                       </span>
+                        どこで使うかは慎重に考えるべきだ...
+                    </p><!--yes she always says this even if you haven't seen the branching paths yet-->
+
+                    <hr>
+
+                    <p class="dialogue-note">
+                        Note on the wall
+                    </p>
+
+                    <p class="dialogue-line">(壁にメモが貼られている。)</p>
+                    <p class="dialogue-line">(メモには「タルから直接ナッツを食べないこと！」と書かれている。)</p>
+
+                    <!--Decided to put it here cuz tis not rlly worth giving the Nostalgia rooms unique pages ~Feli -->
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="midboss2">Accablement & Abattement</h1>
+                <ul>
+                    <li><a href="#mid2start">Battle start</a></li>
+                    <li><a href="#mid2sac">Accablement sacrifices itself</a></li>
+                    <li><a href="#mid2kill">Abattement kills Accablement</a></li>
+                    <li><a href="#mid2moves">Moves</a></li>
+                    <li><a href="#mid2examine">Examine</a></li>
+                    <li><a href="#mid2end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="mid2start">Battle Start</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        また手強い哀し身が出てきた...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        いやいや、平気だって。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                       </span>
+                        いけいけ～！！！
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Everyone draws their weapons, and the battle begins.</p>
+
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                       </span>
+                        2体の哀し身... みんな、気を抜かないように。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid2sac">Accablement sacrifices itself</h2>
+                <p>After Accablement (the long-haired one) reaches 15% HP.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        髪の長いほうが何かしている...！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                       </span>
+                        ...!!!
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                       </span>
+                        じ...自分を犠牲に！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        そして力をもう片方に分け与えた...
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid2kill">Abattement kills Accablement</h2>
+                <p>After Abattement (the short-haired one) reaches 30% HP.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        髪の短いほうが何かしている...！
+                    </p>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(huhwah1)</span>
+                       </span>
+                        うわ、マジか！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                       </span>
+                        もう片方を殺しちゃった？！？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                       </span>
+                        そして自らを回復させた...
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid2moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Accablement</p><!--all moves are r8 w conditional except does something-->
+
+                    <div class="indented">
+
+                        <p class="dialogue-note">Accablement will idle on its first turn, then move in the order any debuff >any buff >heal Abattement.</p>
+
+                        <br>
+
+                        <p class="dialogue-note">Idle</p><!--r2, only move if conditionals aren't met-->
+                        <p class="dialogue-line indented">(アケブルモンはもう片方の哀し身を見ている。)</p>
+
+                        <br>
+                    
+                        <p class="dialogue-note">Debuffing <abbr title="Attack">ATK</abbr>or <abbr title="Defence">DEF</abbr></p><!--turn1+3*x-->
+                        <p class="dialogue-line indented">(力が入らない...)</p>
+
+                        <br>
+                    
+                        <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr></p><!--turn1+3*x-->
+                        <p class="dialogue-line indented">(動きが鈍る...)</p>
+
+                        <br>
+                        
+                        <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr></p><!--turn2+3*x-->
+                        <p class="dialogue-line indented">(アケブルモンが敵のパワーを強化！)</p>
+                    
+                        <br>
+                    
+                        <p class="dialogue-note">Buffing <abbr title="Defence">DEF</abbr></p><!--turn2+3*x-->
+                        <p class="dialogue-line indented">(アケブルモンが敵の体力を強化！)</p>
+
+                        <br>
+                    
+                        <p class="dialogue-note">Buffing <abbr title="Speed">ATKSPD</abbr></p><!--turn2+3*x-->
+                        <p class="dialogue-line indented">(アケブルモンが敵のスピードを強化！)</p>
+                    
+                        <br>
+
+                        <p class="dialogue-note">Accablement healing Abattement</p><!--turn3+3*x-->
+                        <p class="dialogue-line indented">(アケブルモンが味方を助ける！)</p>
+
+                    </div>
+
+                    <hr>
+
+                    <p class="dialogue-note">Abattement</p>
+
+                    <div class="indented">
+                    
+                        <p class="dialogue-note">Attacking one target</p><!--r5-->
+                        <p class="dialogue-line indented">(アバテモンの攻撃！)</p>
+                    
+                        <br>
+                    
+                        <p class="dialogue-note">Attacking three targets; available every third turn</p><!--r8 turn2+3*x-->
+                        <p class="dialogue-line indented">(アバテモンが暴れまわる！)</p>
+
+                        <br>
+                    
+                        <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
+                        <p class="dialogue-line indented">(アバテモンが泣き叫ぶ！)</p>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <h2 id="mid2examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Both alive</p>
+
+                    <div class="indented">
+
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(no!2)</span>
+                           </span>
+                            2体いる！
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ミラベル</span>
+                                <span class="dialogue-expression">(anxious1)</span>
+                           </span>
+                            髪の長い方は、もう1体に夢中になっているみたい... 私たちを攻撃するより、髪の短い哀し身を守りたいみたいだね。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(brag1)</span>
+                           </span>
+                            ああ、恋する若者かな。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(gimme1)</span>
+                           </span>
+                            攻撃してこない方の哀し身をターゲットにしてもいいし、もう一方を狙ってもいい... きみに任せるよ、シフラン。
+                        </p>
+
+                    </div>
+                    
+                    <hr>
+
+                    <p class="dialogue-note">After Accablement sacrifices itself</p>
+
+                    <div class="indented">
+
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(brag1)</span>
+                           </span>
+                            死を目前にして、パートナーを守ったんだ...
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(serious1)</span>
+                           </span>
+                            もう動かないね。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sad1)</span>
+                           </span>
+                            ...
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(lol2)</span>
+                           </span>
+                            そうだな。どんな気分だ、ボニー？
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(hahaaa1)</span>
+                           </span>
+                            おい、オディール...
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk5)</span>
+                           </span>
+                            . . .
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk3)</span>
+                           </span>
+                            バカ。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(hm2)</span>
+                           </span>
+                            自分がバカみたい？
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk2)</span>
+                           </span>
+                            違うよ！ この哀し身がバカみたいだと思うんだ。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk1)</span>
+                           </span>
+                            次はもう1体を倒してみよう。そいつは、自分の身を守るはずだよ。自分以外の哀し身じゃなくて。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk1)</span>
+                           </span>
+                            相手を守るなんて、バカみたいだよ。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(sulk4)</span>
+                           </span>
+                            それに、守られた方もバカみたい！
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(hm5)</span>
+                           </span>
+                            ...
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(dotdotdot2)</span>
+                           </span>
+                            ...
+                        </p>
+                    
+                        <br>
+                    
+                        <ul class="dialogue-option">
+                            <li>
+                                <details>
+                                    <summary>
+                                        Without Bonnie's <a href="/acts/act3-4/bonniequest.html">Friendquest</a>completed this loop
+                                    </summary>
+                    
+                                    <div class="dialogue">
+                    
+                                        <p class="dialogue-note">
+                                            If Bonnie's Friendquest has never been completed
+                                        </p>
+                    
+                                        <p class="dialogue-line indented">
+                                            (...？)
+                                        </p>
+                    
+                                        <br>
+                    
+                                        <p class="dialogue-note">
+                                            If Bonnie's Friendquest has been completed, but not this loop
+                                        </p>
+                    
+                                        <p class="dialogue-line indented">
+                                            (ボニー...)
+                                        </p>
+                    
+                                        <hr>
+                    
+                                        <p class="dialogue-line">
+                                            (オディールがボニーの頭をぞんざいに撫でている。)
+                                        </p>
+                    
+                                        <br>
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">ボニー</span>
+                                                <span class="dialogue-expression">(sulk1)</span>
+                                           </span>
+                                            むうっ。
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">オディール</span>
+                                                <span class="dialogue-expression">(huh2)</span>
+                                           </span>
+                                            心配しなくていい。
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">オディール</span>
+                                                <span class="dialogue-expression">(dotdotdot1)</span>
+                                           </span>
+                                            みんな、戦いに戻るぞ。
+                                        </p>
+                    
+                                    </div>
+                    
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>With Bonnie's Friendquest completed this loop</summary>
+                    
+                                    <div class="dialogue">
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">シフラン</span>
+                                                <span class="dialogue-expression">(joke1)</span>
+                                           </span>
+                                            (...) "一緒にバカになろう、ボニー。"
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">ボニー</span>
+                                                <span class="dialogue-expression">(surprised1)</span>
+                                           </span>
+                                            ...
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">ボニー</span>
+                                                <span class="dialogue-expression">(smile3)</span>
+                                           </span>
+                                            オイラはバカじゃないもんね。バカはオマエだ！
+                                        </p>
+                    
+                                        <br>
+                    
+                                        <p class="dialogue-line">
+                                            (ボニーに脚を蹴られた。)
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            (痛くはない。)
+                                        </p>
+                    
+                                        <p class="dialogue-line">
+                                            (笑みが浮かぶ。)
+                                        </p>
+                    
+                                    </div>
+                                </details>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <hr>
+
+                    <p class="dialogue-note">After Abattement kills Accablement</p>
+
+                    <div class="indented">
+
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">ボニー</span>
+                                <span class="dialogue-expression">(no!2)</span>
+                           </span>
+                            あいつ、仲間を倒したよ！
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(huhwah1)</span>
+                           </span>
+                            そんな！！！ 若い恋人たちの愛が木っ端みじんだ！！！
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(lol4)</span>
+                           </span>
+                            へぇ...
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(lol3)</span>
+                           </span>
+                            愛の前では、きみはこうなるのかい。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">イザボー</span>
+                                <span class="dialogue-expression">(brag1)</span>
+                           </span>
+                            達観した老女みたいな態度はやめてくれよ。らしくないぞ。
+                        </p>
+                    
+                        <p class="dialogue-line">
+                            <span class="dialogue-head">
+                                <span class="dialogue-name">オディール</span>
+                                <span class="dialogue-expression">(laugh1)</span>
+                           </span>
+                            ふん！
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <h2 id="mid2end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        勝った！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                       </span>
+                        よし！ 最後のフロアだ！
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="f3">Floor 3 Enemies</h1>
+                <p>Enemies that initially appear on the third floor.</p>
+                <ul>
+                    <li><a href="#goomba3">Misère</a></li>
+                    <li><a href="#knots">Tourment</a></li>
+                    <li><a href="#hands">Désespoir</a></li>
+                    <li><a href="#crest3">Nostalgie</a></li>
+                    <li><a href="#midboss3">Bourdon</a></li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="goomba3">Misère</h1>
+                <p>Encountered solo, and come in all three Craft types.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r6-->
+                    <p class="dialogue-line indented">(ミゼルの攻撃！)</p>
+
+                    <br>
+
+                    <br>
+
+                    <p class="dialogue-note">Freezing one target in time; available every fifth turn starting on the second</p><!--r9 turn1+5*x-->
+                    <p class="dialogue-line indented">(ミゼルが泣き叫ぶ！)</p>
+
+                    <br>
+                    
+                    <p class="dialogue-note">Idle; unused</p><!--r3, out of range-->
+                    <p class="dialogue-line indented">(ミゼルはこちらをにらんでいる。)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot3)</span>
+                       </span>
+                        この哀し身は、私たちをスピードダウンさせようとしている。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                       </span>
+                        見ているだけで、体が重くなって、動きが鈍くなりそう...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        動きが遅くなりすぎて反応が遅れると、危険だ... 常にスピードを維持するようにしよう。
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="knots">Tourment</h1>
+                <p>Encountered in a tangled group of three, one of each Craft type. Their HP bar and Attack Gauge are hidden.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(トゥーモンの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; available below 50% HP (always available for Paper)</p><!--r3 hp 0~50%-->
+                    <p class="dialogue-line indented">(トゥーモンが暴れまわる！)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">Idle; unused</p><!--it's straight up a skill they don't have, but they set an enemydistract value and it made me sad so on the page it goes! poor tourment :( -->
+                    <p class="dialogue-line indented">(トゥーモンは体を自由にしようとしている。)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                       </span>
+                        どうなっている... どいつがどいつだか、まるで分からない。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        いつ攻撃してくるかも、分からないね！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        それに、残りHPも...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        苛立たしいな。いいか、みんな。もつれを解いてやろう。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        そんな言い方する？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                       </span>
+                        他にどう言えというのだ。
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-line">(残りHPもわからないし、攻撃のタイミングも分からない。)</p>
+                    <p class="dialogue-line">(でも、姿は見える。狙えばいいだけだ。)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="hands">Désespoir</h1>
+                <p>Encountered solo. Big Paper-type hands, with lots of health and lots of rewarded EXP.</p>
+
+                <h2>Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(デゼスポワの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
+                    <p class="dialogue-line indented">(が暴れまわる！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
+                    <p class="dialogue-line indented">(デゼスポワが体を丸くする！)</p>
+
+                    <br>
+                    
+                    <p class="dialogue-note">Buffing <abbr title="Attack">ATK</abbr>; available every fourth turn starting on the second</p><!--r5 turn1+4*x-->
+                    <p class="dialogue-line indented">(デゼスポワが敵のパワーを強化！)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Freezing one target in time; guaranteed every fifth turn starting on the third</p><!--r9 turn2+5*x-->
+                    <p class="dialogue-line indented">(デゼスポワが泣き叫ぶ！)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-note">Idle; unused</p><!--sets enemydistact but doesn't have does something-->
+                    <p class="dialogue-line indented">(デゼスポワはこちらをにらんでいる。)</p>
+
+                </div>
+
+                <br>
+
+                <h2>Examine</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-note">Normally</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                       </span>
+                        あ...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                       </span>
+                        こいつは手ごわいな...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                       </span>
+                        わたし... 怖くなっちゃった...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        み、みんな急げ！
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">If you've hit it at least once</p><!--checks low hp, which is triggered below 99%-->
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(lmao1)</span>
+                       </span>
+                        ハハッ、顔が見えるよ！！！
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                       </span>
+                        小さくてかわいい顔だね！
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                       </span>
+                        かわいいけど、強い。そうだろ！！！
+                    </p>
+                    
+                    <hr>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        こういうタイプの哀し身を倒すことで、俺たちは強くなれるんだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                       </span>
+                        油断するなよ。強すぎたら、逃げることもできるんだ。
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-line">[戦闘から逃げるには、味方のターン中に[back]を押して、「逃げる」を選択しよう！]</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h2 id="crest3">Nostalgie</h2>
+                <p>The Star Crest Sadness on Floor 3. This one is Rock type.</p>
+                <ul>
+                    <li><a href="#crest3start">Battle start</a></li>
+                    <li><a href="#crest3moves">Moves</a></li>
+                    <li><a href="#crest3examine">Examine</a></li>
+                    <li><a href="#crest3end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="crest3start">Battle start</h2>
+
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!2)</span>
+                       </span>
+                        ヘンなにおいのやつだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                       </span>
+                        な――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                       </span>
+                        紋章をくれる哀し身だ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(stressed1)</span>
+                       </span>
+                        戦闘開始！！！
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Nostalgie turns and notices the party. Battle begins.</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="crest3moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target</p><!--r5-->
+                    <p class="dialogue-line indented">(ノスタルジーの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; unused</p><!--r2, out of range-->
+                    <p class="dialogue-line indented">(ノスタルジーが暴れまわる！)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Healing itself; available below 40% HP</p><!--r3 hp 0~40%-->
+                    <p class="dialogue-line indented">(ノスタルジーが体を丸くする！)</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="crest3examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious1)</span>
+                       </span>
+                        この敵は... わたしだけかな。なんか変じゃない...？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                       </span>
+                        これまでに遭った哀し身よりも、少し強そうだ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(hmf1)</span>
+                       </span>
+                        それに、手が見えないよ！ ムカつくね、このカニったれ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        こいつの攻撃を観察するか、こちらから攻撃するときに注意して見てみよう。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="crest3end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">(「星の紋章」を手に入れた！)</p>
+                    <p class="dialogue-line">(「星の紋章」をポケットにしまう。)</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                       </span>
+                        イヤッホウ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading2)</span>
+                       </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        なあ、ボニファス。さっき言ってたのはなんだ...？「ヘンなにおい」と言ったな。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                       </span>
+                        さっきみたいな哀し身って、みんな、砂糖みたいなにおいがするんだ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                       </span>
+                        それだけ？！？
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">Interacting with the hole on the back wall of the room</p>
+
+                    <p class="dialogue-line indented">(壁に穴が開いている。)</p>
+                    <p class="dialogue-line indented">(穴の先へは進めそうにない。)</p>
+
+                    <br>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                       </span>
+                        ボニファス、この壁はどうだ？ どんなにおいがする？
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!2)</span>
+                       </span>
+                        カニったれた壁のにおいだよっ！！！
+                    </p>
+                    
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="midboss3">Bourdon</h1>
+                <ul>
+                    <li><a href="#mid3start">Battle start</a></li>
+                    <li><a href="#mid3hands">Destroying its hands</a></li>
+                    <li><a href="#mid3moves">Moves</a></li>
+                    <li><a href="#mid3examine">Examine</a></li>
+                    <li><a href="#mid3end">Battle end</a></li>
+                </ul>
+
+                <br>
+
+                <h2 id="mid3start">Battle Start</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                       </span>
+                        この哀し身も強いぞ。みんなで――
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Mirabelle draws her sword.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                       </span>
+                        みんな、がんばろ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        ミラ――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                       </span>
+                        そうだ、ベルの言うとおりだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                       </span>
+                        ふん。
+                    </p>
+                    
+                    <br>
+
+                    <p class="dialogue-line">(ミラベルにストレス解消させてあげよう。)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Everyone except Isabeau draws their weapons.</p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                       </span>
+                        戦闘開始ってわけだな...
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Isabeau prepares and battle begins.</p>
+
+                    <!-- unused. small events has a troop = 14 response but midboss3 doesn't call small events
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight3)</span>
+                       </span>
+                        Let's go, everyone!!!
+                    </p>-->
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid3hands">Destroying its hands</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">After destroying one of its hands</p>
+                    <p class="dialogue-line indented">(大きいほうは[グー/パー/チョキ]攻撃に弱くなった)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">After destroying both of the same type of hand</p>
+                    <p class="dialogue-line indented">(大きいほうは、さらに[グー/パー/チョキ]攻撃に弱くなった[！/。])</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="mid3moves">Moves</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">Attacking one target; only above 50% HP</p><!--r5, out of range after getting time freeze and slow-->
+                    <p class="dialogue-line indented">(ボワドンの攻撃！)</p>
+
+                    <br>
+
+                    <p class="dialogue-note">Attacking three targets; available every third turn</p><!--r7 turn2+3*x-->
+                    <p class="dialogue-line indented">(ボワドンが暴れまわる！)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Debuffing <abbr title="Speed">ATKSPD</abbr>; available below 50% HP</p><!--r7 hp 0~50%-->
+                    <p class="dialogue-line indented">(動きが鈍る...)</p>
+                    
+                    <br>
+
+                    <p class="dialogue-note">Freezing one target in time; available below 50% HP</p><!--r8 hp 0~50%-->
+                    <p class="dialogue-line indented">(ボワドンが泣き叫ぶ！)</p>
+
+                </div>
+
+                <br>
+
+                <h2 id="mid3examine">Examine</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-note">If Bourdon is invulnerable (none of its hands have been defeated)</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                       </span>
+                        あの手が俺たちを攻撃してこないのは、すごくいいな。
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                       </span>
+                        でも、俺たちの攻撃はあの大きいのには効かない...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                       </span>
+                        あの周りにある手は... 哀し身を守ってる？
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        手を一つ倒してみて、どうなるか確かめよう。
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">If at least one, but not all of Bourdon's hands have been defeated</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot1)</span>
+                       </span>
+                        思ったとおりだ... 手を倒すと、攻撃が効きやすくなる。
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                       </span>
+                        [グー/パー/チョキ]に弱い[パー/チョキ/グー]の手を倒せば、大きい方もパーに弱くなる...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        同じタイプの手を2つ倒せば、それだけ攻撃も効きやすくなる？
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                       </span>
+                        おそらく...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gimme1)</span>
+                       </span>
+                        先に手を全部倒してもいいし、いくつか倒すだけにして、時間を節約してもいい。
+                    </p>
+                    
+                    <hr>
+
+                    <p class="dialogue-note">If all hands have been defeated</p>
+
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                       </span>
+                        手を全部倒した！！！
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot3)</span>
+                       </span>
+                        それでは、大きい方を攻撃しよう。
+                    </p>
+                    
+                </div>
+
+                <br>
+
+                <h2 id="mid3end">Battle end</h2>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                       </span>
+                        よし、勝ったぞ！ それじゃあ――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                       </span>
+                        みんな、行こう。進み続けなきゃ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hm5)</span>
+                       </span>
+                        ...ミラ...
+                    </p>
+                    
+                </div>
+
+                <br>
+                <hr>
+
+                <small>mv's attack rating and condition system is hostile to human life</small>
+            </main>
+        </div>
+        
+        <foot-er></foot-er>
+    </div>
+
+</body>
+</html>

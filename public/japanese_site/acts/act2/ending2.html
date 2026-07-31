@@ -1,0 +1,3835 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 2 幕切れ</title>
+    <link href="/stylejp.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://isat-script-project.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/barsj.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
+    <script src="/search.js" defer></script>
+</head>
+
+<body>
+
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>ACT 2 幕切れ</h1>
+                <!--<p>The full ending sequence of ACT 2, from the fight against the King to talking to the Head Housemaiden.</p>-->
+                <p><b>元:</b> Map 024 (King Room), Map 013 (THE END), Common Events 234 - 237 (King_Turn1 - 4), Map013 (THE END), Map020 (LastRoom)</p>
+                    
+                <br>
+                    
+                <p>このページでは、</p>
+                <ul>
+                    <li><a href="/rooms/king/kingfight.html">王対決</a></li>
+                    <li><a href="/rooms/end/endrooms.html">最終部屋</a></li>
+                    <li><a href="/rooms/end/miraend.html">ミラベル切りで話</a></li>
+                    <li><a href="/rooms/end/isaend.html">イザボー切りで話</a></li>
+                    <li><a href="/rooms/end/odileend.html">オデイール切りで話</a></li>
+                    <li><a href="/rooms/end/bonnieend.html">ボニー切りで話</a></li>
+                    <li><a href="/rooms/end/euphrasie.html">ユーフラジー切りで話</a></li>
+                </ul>
+                <p>のセリフをまとめています。</p>
+                    
+                <br>
+                    
+                <h1>索引</h1>
+                <ul>
+                    <li><a href="#king">王対決</a>
+                        <ul>
+                            <li><a href="#start">冒頭</a></li>
+                            <li><a href="#turn1">対決始め</a>
+                                <ul>
+                                    <li><a href="#attack">未来が目の攻撃</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#turn2">70% HP 話</a></li>
+                            <li><a href="#turn3">40% HP 話</a></li>
+                            <li><a href="#turn4">10% HP 話</a>
+                                <ul>
+                                    <li><a href="#fightend">対決幕切れ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#win">勝利</a></li>
+                    <li><a href="#hallway">廊下</a></li>
+                    <li><a href="#last">最終部屋</a>
+                        <ul>
+                            <li><a href="#enter">部屋入る</a></li>
+                            <li>話
+                                <ul>
+                                    <li><a href="#mira">ミラベル</a></li>
+                                    <li><a href="#isa">イザボー</a></li>
+                                    <li><a href="#odile">オデイール</a></li>
+                                    <li><a href="#bonnie">ボニー</a></li>
+                                    <li><a href="#euphrasie">ユーフラジー</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                    
+                <hr>
+                <br>
+                    
+                <h1 id="king">王対決</h1>
+                    
+                <h2 id="start">冒頭</h2>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-note">救国の英雄は王の前に止まる。</p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk1)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(hide1)</span>
+                        </span>
+                        "..."
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">ああ...... ぁぁ......</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお...... 若き者たちよ...... 
+                        <br>私を...... 殺しに来たのか......？</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお...... うら若きおとめよ......
+                        <br>おまえはウツロイのために 戦うのだな......？</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">...わ...</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        私はただ... この世界に、今のままでいてほしい...... 
+                        <br>永遠の美しさを保ってほしいのだ.......
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">とこしえの平和と安らぎの世界......</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        若き侍祭よ...... 
+                        <br>ある意味では... 私の願いもウツロイの一形態ではないのか？ 
+                        <br>なぜ味方してくれないのだ......？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious3)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        ああ...... 
+                        <br>おまえにも感じられよう......？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">この宇宙は万民の希望を不滅の氷に閉じ込めたがっている......</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">己の運命をここで終わらせるわけにはいかぬのか......？</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        みんなの人生を台無しにして終わらせることが... ウツロイですって？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious5)</span>
+                        </span>
+                        氷と静止の身勝手な夢をウツロイ様と比べるなんて、ふざけてるの？！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious4)</span>
+                        </span>
+                        そんなの本当のウツロイじゃない！ あなたは自己満足のために神様を演じているに過ぎない！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        国全体の変容や進化を阻んでおいて、それをウツロイと呼ぶのは誰が見てもムチャクチャだ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        ち、ちょっと考えれば分かるだろ、バ～カ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(really3)</span>
+                        </span>
+                        侍祭の優しさに訴える手段としては、かなり無理があるよな。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        これがあなたの望みなの？ わたしたちが抵抗することなく時間を止められるとでも？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious3)</span>
+                        </span>
+                        王様、わたしはあなたの味方になんてならない。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        何があろうと、絶対に！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお......</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">ハハハ...... ウツロイの侍祭らしい物言いだ......</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">しかし......</span>
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        待て。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        ......
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おまえ。 そこの旅人。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(doubt1)</span>
+                        </span>
+                        ...?
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (オディールが「私のことか、きみのことか？」と言いたげな表情でこちらを見る。)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (王のほうを見返す。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">明るき者よ。</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">......おまえは覚えているのか？</span>
+                    </p>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(hide1)</span>
+                        </span>
+                    </p>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>"何のこと？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake">おお...... おお、おお......！！！</span>
+                                    </p>
+            
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake">......覚えていないようだな。</span>
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary>"おまえは？"</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake">......ハハ......</span>
+                                    </p>
+            
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake big">ハハハハハハ！！！</span>
+                                    </p>
+            
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake">私が...... そんな誘い文句に乗るとでも？</span>
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+            
+                    <hr>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">......　     戦おうではないか。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">そして宇宙がどちらの味方か見極めるのだ！！！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        皆さん武器を引き出す。対決始め。
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+            
+            
+                <h2 id="turn1">対決始め</h2>
+            
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        (...ここを早送りする？)
+                    </p>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(そうしよう。)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (いいだろう。)
+                                    </p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">オディール</span>
+                                            <span class="dialogue-expression">(fight1)</span>
+                                        </span>
+                                        ...みんな、いいか！
+                                    </p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-note">
+                                        話の続きが抜く。
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary>(やめておこう...)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (集中するんだ。)
+                                    </p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-note">話を続ける。</p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+            
+                    
+            
+                    <hr>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお...... おお......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おまえたちがどう思っていようと......
+                        <br>私は......
+                        <br>慈悲深い王だ。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">時間をやる。運命を受け入れるがよい......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">もっとも美しい運命を......
+                        <br>永遠の終わりを......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        うわ、王は俺たちを本当の間抜けだと思っているのか...？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        わたしたち、ここまで来たんだもん！ 引くものですか！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        みんな、いいか！
+                    </p>
+                    
+                </div>
+            
+                <br>
+            
+                <h3 id="attack">未来が目の攻撃</h3>
+            
+                <h4>The King's First Turn</h4>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        (王は待機している…)
+                    </p>
+                    
+                </div>
+            
+                <br>
+            
+                <h4>The King's Second Turn</h4>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお、おおおおおお......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        頃合いだな、救国の英雄よ。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (未来が目に浮かぶ...)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        もしラブリームービングシールドが使わかったない、即座に死ぬ。
+                    </p>
+            
+                    <hr>
+            
+                    <p class="dialogue-note">
+                        もし生き残る
+                    </p>
+            
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ぐぅっ...！！！
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        た、耐えたぞ...
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        みんな、無事か？！？
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお...... おおおお......<br>おまえたち、まだ......</span>
+                    </p>
+                    
+                    <p class="dialogue-line indented">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        よろしい。死を迎えるまで戦おうではないか。
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+            
+                <h2 id="turn2">70% HP 話</h2>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-note">2回目以降</p>
+                    
+                    <div class="indented">
+            
+                        <p class="dialogue-line">
+                            (...ここを早送りする？)
+                        </p>
+            
+                        <ul class="dialogue-option">
+                            <li>
+                                <details>
+                                    <summary>(そうしよう。)</summary>
+            
+                                    <div class="dialogue">
+            
+                                        <p class="dialogue-line">
+                                            (当然だ。)
+                                        </p>
+            
+                                        <br>
+            
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">ボニー</span>
+                                                <span class="dialogue-expression">(angry2)</span>
+                                            </span>
+                                            <span class="shake">――泣く資格なんかないっ！！！</span>
+                                        </p>
+            
+                                        <br>
+            
+                                        <p class="dialogue-line">
+                                            (王からは返事がない。)
+                                        </p>
+            
+                                        <br>
+            
+                                        <p class="dialogue-note">
+                                            話の続きが抜く。
+                                        </p>
+            
+                                    </div>
+                                </details>
+                            </li>
+            
+                            <li>
+                                <details>
+                                    <summary>(やめておこう...)</summary>
+            
+                                    <div class="dialogue">
+            
+                                        <p class="dialogue-line">
+                                            (集中するんだ。)
+                                        </p>
+            
+                                        <br>
+            
+                                        <p class="dialogue-note">話を続ける。</p>
+            
+                                    </div>
+                                </details>
+                            </li>
+                        </ul>
+                        
+                    </div>
+            
+                    
+            
+                    <hr>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお......おおお......！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (王は泣くのを止めない...)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (涙のしずくが現れて王を守る！)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">どうして......
+                        <br>どうして分からないんだ......
+                        <br>どうして分からないんだ！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        まだ泣いてるな...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        感情を表に出すのはいいことだ。健康的だよ。だけど、空気は読んでほしいな。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(ew1)</span>
+                        </span>
+                        泣くなよ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        泣くんじゃない！！！ 泣くな！！！ おまえが！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        たくさんの人を傷つけたんだぞ！！！ オマエを倒さなきゃ、もう動くことができない人が大勢いるんだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        ヴォーガルドに、オイラの村に。姉ちゃんだって...
+                    </p>
+                    
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        オマエのせいで、みんな氷漬けなんだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        <span class="shake">オマエに泣く資格なんかないっ！！！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (王からは&ensp;&ensp;&ensp;返事がない。)
+                    </p>
+            
+                    <hr>
+            
+                    <p class="dialogue-note">もし楽だった</p>
+                        
+                    <div class="indented">
+                        <p class="dialogue-note">もし未来が目の攻撃の前に王は70% HP達する</p>
+            
+                        <br>
+            
+                        <p class="dialogue-line">
+                            (. . .)
+                        </p>
+            
+                        <br>
+                        
+                        <p class="dialogue-note">1回目</p>
+                        
+                        <div class="indented">
+                            <p class="dialogue-line">(...王との戦いってこんなに楽だったっけ？)</p>
+                        </div>
+                        
+                        <p class="dialogue-note">2回目以降</p>
+                        
+                        <div class="indented">
+                            <p class="dialogue-line">(今では王と戦うのでさえ、たやすくなった。)</p>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                    
+                <hr>
+                <br>
+            
+                <h2 id="turn3">40% HP 話</h2>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-note">もし王の涙は負かしない</p>
+                    
+                    <div class="indented">
+                        <p class="dialogue-line">
+                            (王の涙が消え、王を癒した！)
+                        </p>
+                    </div>
+            
+                    <br>
+            
+                    <p class="dialogue-note">3回目以降の対決</p>
+                    
+                    <div class="indented">
+                                
+                        <p class="dialogue-line">(王の言葉が心をよぎる。)</p>
+                        
+                    </div>
+            
+                    <br>
+                    
+                    <p class="dialogue-note">2回目以降</p>
+                    
+                    <p class="dialogue-line">(...ここを早送りする？)</p>
+                    
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>(そうしよう。)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">
+                                        (時間を節約できた。)
+                                    </p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">王</span>
+                                        </span>
+                                        <span class="shake">ハハハハ......</span>
+                                    </p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-note">
+                                        話の続きが抜く。
+                                    </p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary>(やめておこう...)</summary>
+                                
+                                <div class="dialogue">
+                                    
+                                    <p class="dialogue-line">(集中するんだ。)</p>
+            
+                                    <br>
+            
+                                    <p class="dialogue-note">話を続ける。</p>
+                                    
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+            
+                    <hr>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おお......おおお......！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">お願いだ......
+                        <br>お願いだ、おまえたち...... 教えてくれ......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">どうしてみんな、私を倒そうとする？</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        そうなの？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        あなたがそれを聞くの！？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おまえたちには分からないのか？
+                        <br>望まないのか？
+                        <br>この完璧な結末を？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">今...
+                        <br>おまえたちは、神に近い存在である、私と戦っている。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">宇宙そのものが、私の意思に従っているのだ。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">それなのに......
+                        <br>おまえたちは恐れを知らぬ顔で、私に立ち向かっている。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">お前たちはとても強い......
+                        <br>団結して......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">そして...... 私には分かる。</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おおおお......
+                        <br>おまえたちはみんな、驚くほど......
+                        <br>心の底から......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        幸せだ。
+                    </p>
+            
+                    <hr>
+            
+                    <p class="dialogue-note">2回目</p>
+                    
+                    <div class="indented">
+                        <p class="dialogue-line">(えっ...？)</p>
+                    </div>
+            
+                    <hr>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(huhwah1)</span>
+                        </span>
+                        へっ！？!
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        <span class="big">はあ？！？</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        ...！！！ 何を――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(serious2)</span>
+                        </span>
+                        とんだバカだ――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">ああ、ああああ、だからこそ、理解せねばならぬのだ！！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">この期に及んでも、同意できないか？
+                        <br>欲しくはないのか！？</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">自分を見てみよ！！！皆、とても強いではないか！！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おまえたちは、成し遂げた！！！
+                        <br>不滅の存在になりたくはないか？
+                        <br>勝者として！！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake big">このまま、終わりを
+                        <br>迎えたいとは思わぬか！！！</span>
+                    </p>
+            
+                    <br>
+                    <p class="dialogue-line">
+                        (何を言っているんだ...)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(dotdotdot2)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">ハハハハ......</span>
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+            
+                <h2 id="turn4">10% HP 話</h2>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">ああ......！！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class"shake">そ、そんな......こんなことが――！</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        王よ... わたしは...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        いやです。今、時間を止めたくはない。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        永遠なんていらない。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        あなたは「完璧な瞬間」と言うけれど、そこに閉じ込められるのはイヤ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">おおおお......
+                        <br>だが...... 自分の人生が、今以上にすばらしいものになると思うのか？</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">今以上に強くなって、今以上に満たされるものになると？ 私と戦って？</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious4)</span>
+                        </span>
+                        ...あなたと戦って自分の国を守ること以上に満たされることがあるかって？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        もちろん！ あるに決まってるでしょ！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        ...!
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ...!
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        ふん。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious4)</span>
+                        </span>
+                        「ここが人生の頂点だ、あきらめろ」？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(angy1)</span>
+                        </span>
+                        <span class="shake big">冗談言わないで！！！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        あなたが願う永遠に... わたしを巻き込まないで！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        わたしたちは巻き込まれたくない！！！ そんなの受け入れたりしない！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(serious5)</span>
+                        </span>
+                        だって、あなたの言う永遠は、永遠に変わらないことだから！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(stressed1)</span>
+                        </span>
+                        わたしは変化を信じてる！ 移ろう人生を信じているの！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        物事が同じ状態に留まることなんてない！ ありえないのよ！ 絶対に！！！ そうじゃなきゃ、より良い人間になれないもん！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        だからわたしは許さない！ あなたの好きなようにはさせない！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        ハハッ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        そうだ、ミラの言うとおりだ！ 時間を止めるために、俺たちをだまそうってのはうまい手だった！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        でも、おまえの言葉は効かないぜ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        俺たちの物語はここで終わらない！ 絶対にな！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                        </span>
+                        おまえとの戦いが私たちの人生における頂点だなど、自己中心的な考えだな。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        信じられないかもしれないが、おまえとの戦いなど履歴書にさえ書くに値しないよ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        オイラたちの時間を止めようとしてオマエが言ったこと... オマエはサイテーだ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        オマエなんかなんでもない！！！ 王ですらない、ザコだ！ ザーーーコ！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        オマエなんか、バカな理由で国を氷漬けにしようとしたバカなあかちゃん、バカちゃんだっ！！！
+                    </p>
+                    
+                </div>
+            
+                <br>
+            
+                <h3 id="fightend">対決幕切れ</h3>
+                <!--<p>I'm not including the pictures and all the five billion variations of them here. Just No. Look the scene up on YouTube for that.</p>-->
+            
+                <br>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(fight2)</span>
+                        </span>
+                        (へえ。)
+                        "僕が付け加えられそうなことは、もうないよ。"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(fight3)</span>
+                        </span>
+                        "だから、きみにできるのは、もう消えることだけ。"
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">やめろ......
+                        <br>やめろ、やめろ！！！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                        </span>
+                        消えるがいい！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                        </span>
+                        消えちまえ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                        </span>
+                        消えろっ！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                        </span>
+                        <span class="shake">消えなさい！！！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake big">やめろぉぉぉ！！！！！！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (すべての力を王にぶつけた！！！)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (できる限りの力を王に叩きつけた...)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (ミラベルの攻撃で、王が膝をつく。)
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">できない...... 消えることなど......</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">まだだ...... 今 は ま だ...... ま だ 言 え な い の に.. .. .. ..</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">王</span>
+                        </span>
+                        <span class="shake">お お お お お お お . . . . . .</span>
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+            
+                <h2 id="win">勝利</h2>
+            
+                <div class="dialogue">
+            
+                    <p class="dialogue-note">
+                        スクリーンが白い成る過ぎから、みんなさんは中に時の呪いから解放された部屋に。景色は明るくなる、そうして飾りなびく。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(hmf1)</span>
+                        </span>
+                        . . .
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(fight3)</span>
+                        </span>
+                        "..."
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(what1)</span>
+                        </span>
+                        ミラベル... きみの攻撃が...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        う... うまくいったのか？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        王はもういないぞ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fight1)</span>
+                        </span>
+                        じゃ...じゃあ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        勝ったのか？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(omgggg1)</span>
+                        </span>
+                        <span class="shake big">俺たち勝ったのか？！？！</span>
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        みんなさんは飛び跳ねて、シフランを取り囲む。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        みんな、やったぞ！ やつが消えた！ 王が消えたぞ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        め...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        めちゃくちゃ怖かった！！！ でもやったの？！？！ やったよな！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        ハハ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(laugh1)</span>
+                        </span>
+                        ハハハハハ！！！ ああ、ギリギリの瞬間もあったが！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        あら...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        これで... これで本当に... 終わり？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        (笑みがこぼれる。)
+                        "やったね、ミラベル！"
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        わたしたち...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(angy1)</span>
+                        </span>
+                        やっっっ！！！ たぁぁぁぁぁぁぁぁぁ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(LMAO1)</span>
+                        </span>
+                        うぉぉぉぉぉぉぉぉぉ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(UWAH1)</span>
+                        </span>
+                        ああああああああああああああああああ！！！
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (みんなと一緒に歓喜の雄叫びをあげる。)
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-note">
+                        オディールだけを除いて、みんなさんは飛び跳ねる。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(fufufu1)</span>
+                        </span>
+                        ふぅ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        ...で、これから――
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ミラベルは跳ねる。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        あっ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                        </span>
+                        どうした？！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                        </span>
+                        ここの人たち... みんなが元に戻っていくのを感じる。ヴォーガルド中の人たちが！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        マジで？！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awawa1)</span>
+                        </span>
+                        ってことは―― 侍祭長も！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        ああ、感じる。大丈夫だ！ 彼女も無事だよ！！！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ミラベルは前方で歩く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        彼女はこの先にいる。行こう！ 何もかも大丈夫だって伝えてあげないと！ さあ、早く行こう！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaaa1)</span>
+                        </span>
+                        行っちまった...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(oh!1)</span>
+                        </span>
+                        一緒に行こうぜ！
+                    </p>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (笑みを浮かべて先頭に立つ。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (「勝利の記憶」を手に入れた！)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (これはいつでも思い出せる記憶だ。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        [「勝利の記憶」を装備すると、バトル開始時に全員の攻撃力が自動的にアップするぞ。]
+                    </p>
+                    
+                </div>
+                    
+                <hr>
+                <br>
+                    
+                <h1 id="hallway">廊下</h1>
+            
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                        </span>
+                        うわぁっ！！！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (高い！)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (帽子でオディールの視界が塞がれることを願って、彼女の前に立つ。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        雲だ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        めっちゃ高いな！！！ 大丈夫か、マダム？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        へ、平気だ... シフランのおかげであまり見ないで済んだ。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (つま先立ちになる。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        俺の手を握って地面だけを見るんだ、マダム！ 落ちないように支えてるから！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        か、感謝する...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(angy1)</span>
+                        </span>
+                        みんな、早く！！！ 急いで！！！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ミラベルは前方で走る。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(stressed1)</span>
+                        </span>
+                        侍祭長はすぐそこにいるの。行こう！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!2)</span>
+                        </span>
+                        ベル、待ってよ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        一歩ずつでいいからな、マダム！ さあ行こう！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(yeah!2)</span>
+                        </span>
+                        レッツゴー！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(guilty2)</span>
+                        </span>
+                        レッツ... ゴー...
+                    </p>
+            
+                </div>
+            
+                <hr>
+                <br>
+            
+                <h1 id="last">最終部屋</h1>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-note">
+                        シフランは二歩を歩く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(angy1)</span>
+                        </span>
+                        侍祭長！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(mirabelle1)</span>
+                        </span>
+                        ミラベル...！
+                    </p>
+            
+                    <br>
+            
+                    <!--<p class="dialogue-note">
+                        The camera scrolls upwards to the center of the room. Mirabelle and the Head Housemaiden stand before each other.
+                    </p>--><br>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (あっ！)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                        </span>
+                        あれが侍祭長？？？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(huh1)</span>
+                        </span>
+                        背が高いな... イザボーより頭三つ分高いのでは。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        きれいな人だなぁ！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        みんなさんは部屋の真ん中で歩行。ユーフラジーの前に止まる。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad3)</span>
+                        </span>
+                        ああ、侍祭長。よくぞご無事で！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad3)</span>
+                        </span>
+                        わたし、館が、あのとき王が――
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry2)</span>
+                        </span>
+                        ああ、親愛なるミラベル...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        あなたを誇りに思いますわ！ 立派ね！ ヴォーガルドの英雄よ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        あなたは館を救い、ヴォーガルド全土を救いました。大きな借りができましたね...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーはみんなさんを向く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        あなたたち全員に。
+                    </p>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (ビクッとする。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                        </span>
+                        わぁ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(uwah!1)</span>
+                        </span>
+                        おおっ、あー...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(isthatso1)</span>
+                        </span>
+                        いえいえ。お気になさらなくて結構。いつものように国を救ったまでのこと。よくあることです。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        エヘヘ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry1)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーは横を向く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry2)</span>
+                        </span>
+                        王があれほど強いとは思いませんでした...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry2)</span>
+                        </span>
+                        彼が館を襲ったとき、誰もが私を頼りにしていました... ですが私には何もできなかった。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーはミラベルを向く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        内気で引っ込み思案だった若きミラベルがヴォーガルドを国ごと救ったと聞く日がくるなんて... 今のあなたは自信に満ち溢れていますわ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling1)</span>
+                        </span>
+                        王の呪いに蝕まれる前に、あなたに力を授けられて本当に良かった。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        ああ、侍祭長。実を言うと、みんなはわたしがウツロイ様に祝福されたと思っているみたいで...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(oh1)</span>
+                        </span>
+                        あら！ でもどうしてそう思うようになったのでしょう？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(worried1)</span>
+                        </span>
+                        誰かが言いだして、それでわたし... 違うって言い出せなくて...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        おやおや、ずいぶんと変わったことを考える人もいるものですわね。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        ウツロイ様がぐうたらな神であることは、誰もが知っていると思っていましたわ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                        </span>
+                        ええっ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        それは冒涜にあたるのでは...？
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーはみんなさんを向く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        オホホホ！ でもそれが真実ですもの！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                     <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーはミラベルを向く。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry1)</span>
+                        </span>
+                        ああ、ミラベルちゃん... ウツロイ様に祝福されたのではないと知ったら、みんなが希望を失ってしまうのではと思ったのですね？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        ご... ごめんなさい...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        あなたは悪くありませんわ、ミラベル。自分が正しいと思うことをしたのですもの。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        やはりあなたに祝福を授けて正解でしたわ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(worried1)</span>
+                        </span>
+                        で、でも... なぜわたしに...？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        オホホホ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        あのときの私の力では、ひとりに祝福を授けるのがやっとでしたわ。私自身はもうどうにもならなかった。そして王が襲ってきたとき、あなたは館を抜け出す寸前だった。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        ですから合理的に考えると、あなたが唯一の選択肢でしたの！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(huhwah1)</span>
+                        </span>
+                        それだけ？！？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry3)</span>
+                        </span>
+                        ミラベル侍祭、それにね...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling1)</span>
+                        </span>
+                        あなたはいつだって、館で一番働き者の侍祭でしたわ。いつも新しいことを学び... 向上しようとしていた。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        困難が立ちふさがって、克服できそうになくても、あなたは常に真っ向から取り組んでいましたわ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        あなたは合理的な選択肢であると同時に、唯一の正しい選択肢でもあったのです！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            :<span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        侍祭長...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(gentle1)</span>
+                        </span>
+                        いえ、ユーフラジー... ありがとう！！！
+                    </p>
+            
+                    <!-- <br>
+            
+                    <p class="dialogue-note">
+                        Mirabelle jumps in joy.
+                    </p>
+            
+                    <br> -->
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        あら！！！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (侍祭長がミラベルの鼻をツンと突く。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        ミラベルったら、相変わらずかわいらしいこと！
+                    </p>
+            
+                     <br>
+            
+                    <p class="dialogue-note">
+                        ユーフラジーはみんなさんを向く。
+                    </p>
+            
+                    <br> 
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling1)</span>
+                        </span>
+                        そしてミラベルのお仲間の皆さん... 彼女をここまで支えてくださってありがとう。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        私も、そしてヴォーガルドの国中も感謝していますわ...！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        えへへ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(brag1)</span>
+                        </span>
+                        いいんですよ、侍祭長さん！ むしろ光栄です！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                        </span>
+                        いえ、大したことではありません。
+                    </p>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (火照った顔を帽子で隠す。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        オホホホ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        ...もうすぐ皆さんは日常生活に戻れるでしょう。闘争に別れを告げられます。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        そしてようやく、ふるさとに帰れるのです！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        ドーモントの館として何かお礼ができるようでしたら... どうぞ遠慮なくおっしゃってね。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        とにかく今は... 大仕事をやってのけた喜びをかみしめてください！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (僕たちは王を倒し、ヴォーガルドの平和を取り戻した...)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (. . .)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (...旅を終わらせる前に、みんなと話しておこう！)
+                    </p>
+            
+                </div>
+                    
+                <hr>
+                <br>
+                    
+                <h2>話</h2>
+                    
+                <h3 id="mira">ミラベル</h3>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        ゆ... 夢なんかじゃないよね？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        勝ったんだよね？ 間違いないよね？ 本当に勝ったよね？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(nya1)</span>
+                        </span>
+                        "本当に勝ったんだよ、ミラ！"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        ああ... ウツロイ様に感謝だね！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        正直、まだ信じられないかも？？？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious3)</span>
+                        </span>
+                        だ、だって王と戦って、わたしの最後の攻撃がうまく通って倒せたけど、けど...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(hm1)</span>
+                        </span>
+                        すごく... 長い旅だったもんね。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad3)</span>
+                        </span>
+                        お... 終わったなんて信じられないよ... <span class="shake">わたし...</span>
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (ヤバい、プルプルしている！ 泣いてる！ 何かしないと！！！)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(awkward1)</span>
+                        </span>
+                        "一緒に深呼吸しようか？"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad3)</span>
+                        </span>
+                        <span class="shake">う、うん...</span>
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (一緒にゆっくりと息を吸い、そして吐く。)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(sad2)</span>
+                        </span>
+                        <span class="shake">はぁ...</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(hm3)</span>
+                        </span>
+                        . . .
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        エヘヘ！
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">(...？)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy2)</span>
+                        </span>
+                        あのね、ふと思ったんだ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(gentle1)</span>
+                        </span>
+                        ...シフランってやさしいときはすごくやさしいよね。
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">(！！！)</p>
+                    
+                    <p class="dialogue-line">(頬が熱くなるのが分かる。)</p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(excited1)</span>
+                        </span>
+                        あら、顔が火照ってるよ！ シフラン！ あらあら！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(anxious2)</span>
+                        </span>
+                        だってさ、あの、あの...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(stressed1)</span>
+                        </span>
+                        あのね！ わたしたち知り合ってそんなに経ってないけど...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy2)</span>
+                        </span>
+                        で、でもシフランと一緒にいる時間はすごく大切なの！ ほんとだよ！ ほんとにほんと！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        だから... &ensp;&ensp;&ensp;ありがとう！ 一緒にこの旅を続けてくれて、ありがとう！
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (にっこりしすぎて頬が痛くなってきた。)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (嬉しすぎて言葉が出てこない。)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(awkward2)</span>
+                        </span>
+                        ...シフランはまた一人で旅を続けるのが楽しみなんだよね...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(gentle1)</span>
+                        </span>
+                        ...でも私のこと忘れないでね？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy4)</span>
+                        </span>
+                        いつでもドーモントに会いにきて！ またお話ししたいから！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        約束ね！
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                      (うん、&ensp;&ensp;&ensp;約束する。)
+                    </p>
+                    
+                </div>
+                    
+                <br>
+                    
+                <h4>反復話</h4>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ミラベル</span>
+                            <span class="dialogue-expression">(happy1)</span>
+                        </span>
+                        エヘヘ！
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (ミラベルがやさしく微笑む。)
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+                    
+                <h3 id="isa">イザボー</h3>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(sif!1)</span>
+                        </span>
+                        シフ！！！ やったな！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(yeah!1)</span>
+                        </span>
+                        やったな、シフ、やったぞ！ 王を食い止めた！ これでやっと普通の生活に戻れる！ 最高だよな？？？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        最高だよ！！！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(sif!1)</span>
+                        </span>
+                        いいぞ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(blush2)</span>
+                        </span>
+                        俺さ... えっと。 言っただろ。俺の言ったこと覚えてるかな？ 時計台でさ。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (そうだ！！！)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (王を倒した後で伝えたいことがあるって言ってたよね...)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(questions1)</span>
+                        </span>
+                        (...)
+                        "何か伝えたいことがあるんでしょ？"
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(blush1)</span>
+                        </span>
+                        うん。その... そうなんだ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(boo1)</span>
+                        </span>
+                        さて。ふぅ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(blush1)</span>
+                        </span>
+                        ...&ensp;&ensp;シフ。シファルーニ。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(disappointed1)</span>
+                        </span>
+                        ...シフラン。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry1)</span>
+                        </span>
+                        ...お...
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(blush1)</span>
+                        </span>
+                        俺は...
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(worried1)</span>
+                        </span>
+                        お...&ensp; 俺...！&ensp; あ、あい――
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(stop!1)</span>
+                        </span>
+                        <span class="big">オマエたちお話しは終わったのか？？？ カニ並みに遅いぞ！</span>
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        早く晩メシが食べたい！ 超めっちゃ腹が減ってんだからな！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(jhgsaghjsaghjas1)</span>
+                        </span>
+                        jｋｇｈｓだｆｈｊｈｋｄｓｆｈｊかｄｆｓｈｊかｄｆｓｊｈｋｄｓｆｊｋｈｄｓｆ
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(serious1)</span>
+                        </span>
+                        もういいのか？ おしゃべり終わったか？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(jhgsaghjsaghjas1)</span>
+                        </span>
+                        .........................うん、もういいよ。
+                    </p>
+            
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (...？)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (言いたいことが言えなかったんだ... 気の毒だな。)
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(hahaha2)</span>
+                        </span>
+                        とにかく、シフ、片が付いてうれしいよ！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(neutral1)</span>
+                        </span>
+                        早く前の職場に復帰したくてウズウズしてるんだ。ジュヴァンテの近くにきたら顔を出してくれよ。いいな？
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (うなずいてみせる。)
+                    </p>
+                    
+                </div>
+                    
+                <br>
+                    
+                <h4 id="normrepeat">反復話</h4>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">イザボー</span>
+                            <span class="dialogue-expression">(angry2)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (なぜか僕と目を合わせようとしない...)
+                    </p>
+                    
+                </div>
+                    
+                <hr>
+                <br>
+                    
+                <h3 id="odile">オデイール</h3>
+                    
+                <div class="dialogue">
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(fufu1)</span>
+                        </span>
+                        "..."
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading2)</span>
+                        </span>
+                        . . .
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        ...ああ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(wonder2)</span>
+                        </span>
+                        やったやった。勝った。やりとげた。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading2)</span>
+                        </span>
+                        はぁ。もういいだろう。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(urgh1)</span>
+                        </span>
+                        今回は... かなりの重労働だった。体中が悲鳴をあげている。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(wonder1)</span>
+                        </span>
+                        ヴォーガルドの救い主か? 私の実績一覧に加えても恥ずかしくはない。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading2)</span>
+                        </span>
+                        だが大事なのは、これでまた旅に戻れるということだ。ヴォーガルド各地の都市を訪れて、これほどの出来事を経た人々の声を聞くのもおもしろいだろうな。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        今となっては一人旅に違和感を覚えるだろうが、それにもまた慣れるはずだ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading1)</span>
+                        </span>
+                        あるいは... カ・ビューに里帰りするという手もある。ふむ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(n-nya1)</span>
+                        </span>
+                        (いまなら教えてくれるかも...)
+                        "研究を続けるの？"
+                    </p>
+                    
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol1)</span>
+                        </span>
+                        旅が終わったから私が教えると思ったのか？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol4)</span>
+                        </span>
+                        ふん。そううまくいくものか。
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(questions1)</span>
+                        </span>
+                        "ちぇっ..."
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(laugh1)</span>
+                        </span>
+                        ハハ！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gentle1)</span>
+                        </span>
+                        はぁ... きみと別れるのは淋しいよ、シフラン。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(gentle1)</span>
+                        </span>
+                        きみは変わり者だけれど、いいやつだ。たまには壁を取り払ったらどうだ？
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                        </span>
+                        それから、いつでもカ・ビューを訪ねてくれ。あるいは旅の途中でバッタリ再会することもあるかもしれない。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (おお！)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (オディールがやさしく微笑んでる。)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (微笑みを返す。)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (...)
+                    </p>
+                    
+                </div>
+                    
+                <br>
+                    
+                <h4>反復話</h4>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(reading2)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (いつもみたいに、また興味深そうにキョロキョロしてる。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">オディール</span>
+                            <span class="dialogue-expression">(lol3)</span>
+                        </span>
+                        ...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        (僕の視線に気づいて、ニヤリと笑う。)
+                    </p>
+            
+                    <p class="dialogue-line">
+                        (微笑みを返す。)
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+                    
+                <h3 id="bonnie">ボニー</h3>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        . . .
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        "どうしたの？"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ...ほんとに...&ensp;&ensp;&ensp;終わったんだよな？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk2)</span>
+                        </span>
+                        その、ほんとにほんとだよな？ 終わったんだろ？ 王はもういないんだろ？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(smiling2)</span>
+                        </span>
+                        "ほんとにほんとだよ、ボン！"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        . . .
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        じゃあ...
+                    </p>
+                    
+                     <br>
+                    
+                    <!--<p class="dialogue-note">
+                        Bonnie jumps off the railing towards Siffrin, who jumps back.
+                    </p>--><br>
+                    
+                    <br> 
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk2)</span>
+                        </span>
+                        バンブーシュに帰ったら、また姉ちゃんに会えるんだよな？ 姉ちゃん大丈夫だよな？ また動けるんだよな？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        "間違いないって！"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sad1)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (ボニーはまだ信じられないみたいだ...)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(smiling3)</span>
+                        </span>
+                        "じゃあこうしよう。"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk4)</span>
+                        </span>
+                        ん？
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(joke1)</span>
+                        </span>
+                        "お姉さんが動かなかったら、僕を3回パンチしてもいいよ。"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        ...&ensp;&ensp;&ensp;わかった。.
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(no!1)</span>
+                        </span>
+                        でもさ、バンブーシュまで何日もかかるんだぞ！ オマエが間違ってたからって、また何日もかけてパンチしにいけないだろ！ そんなのバカバカしい！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(okay2)</span>
+                        </span>
+                        "勝ったのにお姉さんが動かないままだって思うのもバカバカしいぞ！"
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(wait1)</span>
+                        </span>
+                        あぁ...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(and then1)</span>
+                        </span>
+                        ああっ！ そうだな！！！
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(lol2)</span>
+                        </span>
+                        うん、じゃあ信じる！ オマエをパンチしに何日も歩かないですむといいな！！！
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (僕は笑う。)
+                    </p>
+                    
+                </div>
+            
+                <br>
+                    
+                <h4>反復話</h4>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        . . .
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (ボニーは何も言わずに僕を見つめている。)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (ボニーに手を振ってみる。)
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ボニー</span>
+                            <span class="dialogue-expression">(sulk5)</span>
+                        </span>
+                        ...
+                    </p>
+                    
+                    <br>
+                    
+                    <p class="dialogue-line">
+                        (...&ensp;&ensp;&ensp;ボニーも恥ずかしそうに手を振る。)
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        (大成功。)
+                    </p>
+                    
+                </div>
+            
+                <hr>
+                <br>
+                    
+                <h3 id="euphrasie">ユーフラジー</h3>
+                    
+                <div class="dialogue">
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        旅のお方！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling4)</span>
+                        </span>
+                        お仲間とのお話しは終わったのですか？ そう、それはよかった！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(smiling1)</span>
+                        </span>
+                        ここまでミラベルと一緒にいてくださったことにお礼を言わせてください。とても感謝していますわ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        シフラン、でしたわね？ お礼として私にできることがあったら、遠慮なく言ってくださいね！
+                    </p>
+            
+                        <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(thankyou1)</span>
+                        </span>
+                        もうすぐまた旅に出るのでしたわね？ でもこの先も交流を保てると嬉しいですわ。ミラベルのためにも...
+                    </p>
+                    
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(sorry2)</span>
+                        </span>
+                        いずれにしても、ドーモントはいつでもあなたを歓迎しますわ！ どうぞいつでも... お戻りに... なって...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        スクリーンがグリッチして、雑音を現れる。音楽を落とす。
+                    </p>
+            
+                    <!--<p class="dialogue-note">
+                        It darkens around Siffrin, leaving only them in the spotlight.
+                    </p>--><br>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                        <span class="dialogue-name">ユーフラジー</span>
+                        <span class="dialogue-expression">(CRAB1)</span>
+                        </span>
+                        <span class="shake">...！！！</span>
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(CRAB1)</span>
+                        </span>
+                        ああ... そんな。 ああ、ああ、ああ...
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(surprised1)</span>
+                        </span>
+                        "...？"
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(CRAB1)</span>
+                        </span>
+                        ああ...&ensp;&ensp;&ensp;シフラン...！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending1)</span>
+                        </span>
+                        ごめんなさい！&ensp;&ensp;&ensp;もう止めようがありませんわ！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">スクリーンがグリッチする。</p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending2)</span>
+                        </span>
+                        ごめんなさいね！ あなたは戻ってしまう！ すべてが始まった時点に！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">(...！)</p>
+            
+                    <p class="dialogue-line">(周りの空気がおかしい...)</p>
+            
+                    <p class="dialogue-line">
+                        (焦げた砂糖の味が喉の奥にまとわりつく。)
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(what3)</span>
+                        </span>
+                        "どういうこと？ 何が起きているの？"
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">
+                        グリッチする。音楽をとても落とす。
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending1)</span>
+                        </span>
+                        あなたたちの旅は終わったと考えているでしょうが、それはありえません！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending1)</span>
+                        </span>
+                        何かが壊れています、破綻しています、腐敗しています！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending2)</span>
+                        </span>
+                        私だけの力では直せません。その前に終わってしまう... もっと早く気づいていれば！
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending1)</span>
+                        </span>
+                        気づいて、防いでおくべきでした！
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">(胃がひっくり返りそうだ。)</p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">グリッチする。</p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending2)</span>
+                        </span>
+                        あなたがこうやって苦しむのは、私のせいですわ。
+                    </p>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending3)</span>
+                        </span>
+                        願わくば、いつの日か...
+                    </p>
+            
+                    <br>
+            
+                    <p class="dialogue-note">複数グリッチする。</p>
+            
+                    <br>
+            
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">ユーフラジー</span>
+                            <span class="dialogue-expression">(ending3)</span>
+                        </span>
+                        私を許し
+                    </p>
+            
+                    <br>
+                    <br>
+            
+                    <p class="dialogue-note">
+                        黒にグリッチする。ゲームオーバーが現れてシフランを投げる。
+                    </p>
+            
+                    <p class="dialogue-note">
+                        ゲームオーバーのメッセージ見せる: (胃がキリキリする。)
+                    </p>
+                    
+                </div>
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
+
+</body>
+</html>

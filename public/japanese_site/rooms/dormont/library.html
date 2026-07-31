@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dormont Library</title>
+    <link href="/stylejp.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://isat-script-project.neocities.org/feed.xml" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
+    <script src="/barsj.js"></script> 
+    <script src="/expressions.js" type="module" defer></script> 
+    <script src="/search.js" defer></script>
+</head>
+
+<body>
+
+    <help-er></help-er>
+
+    <div id="container">
+        <head-er></head-er>
+
+        <div id="center">
+            <side-bar></side-bar>
+
+            <main>
+                <h1>Dormont Library</h1>
+                <p><b>Source:</b> Map066 (Library)</p>
+                <p>All text for the Library in Dormont.</p>
+
+                <br>
+
+                <h1>Index</h1>
+
+                <ul>
+                    <li><a href="#librarian">Bored Librarian</a></li>
+                    <li><a href="#novels">Novels</a></li>
+                    <li><a href="#unreadable">Unreadable book</a></li>
+                    <li><a href="#craft">Craft book</a></li>
+                    <li><a href="#papers">Papers</a></li>
+                    <li><a href="#maps">Maps</a></li>
+                    <li><a href="#list">Lists</a></li>
+                </ul>
+
+                <hr>
+                <br>
+
+                <h1 id="librarian">Bored Librarian</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">退屈そうな司書</span>
+                       </span>
+                        図書館へようこそ！
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">退屈そうな司書</span>
+                       </span>
+                        ま、品ぞろえは今ひとつですけどね。いい本はみんな、ウツロイの館にありますから。
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">退屈そうな司書</span>
+                       </span>
+                        とはいえ館は... 閉館中ですね。王のせいで。館を乗っ取って、皆の時間を、止めてしまうつもりですよ。
+                    </p>
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">退屈そうな司書</span>
+                       </span>
+                        ...何かお探しの本がありますか？
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-line">
+                        <span class="dialogue-head">
+                            <span class="dialogue-name">シフラン</span>
+                            <span class="dialogue-expression">(questions1)</span>
+                       </span>
+                        (あったっけ？)
+                    </p>
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>"強力な攻撃に耐えるすべが書かれた本はある？"</span>
+                                    <span>Available after dying to the King for the first time</span>
+                                </summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        強力な攻撃に耐える？ そうですね... シールドのクラフトでしょうか？
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        存じ上げませんね... とても専門的な内容のようです。そのような本は、ここにはないと思いますよ。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        館の図書室にだって、ないんじゃないでしょうか...
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...秘密の書庫にならあるかもしれませんね。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">シフラン</span>
+                                            <span class="dialogue-expression">(um2)</span>
+                                       </span>
+                                        (なんだって。) "なんだって？"
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ほら、アレです。秘密の書庫ですよ。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        館の図書室に隠された入口があるという、秘密の書庫。あそこのことですよ。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        普通の壁に見えるところが、注意してみると秘密の書庫に入口になっているんです。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        これを知っているのは、司書連中だけですけどね。でも、あなた方はヴォーガルドを救おうとしているわけですから。私のこと、告げ口しないでくださいね？ それから、明日は負けないで。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">シフラン</span>
+                                            <span class="dialogue-expression">(okay2)</span>
+                                       </span>
+                                        (...) "分かった、やってみるよ。"
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ええ。よろしく頼みましたよ！
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line">
+                                        (つまり、館の2階にある図書室には、秘密の書庫がある？ 行って調べてみないと...)
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>"時間のクラフトに関する本はある？"</span>
+                                    <span>Available during Kingquest</span>
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">After asking the King the first set of questions, but before asking him about Time Craft</p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        時間のクラフト？ というと、どのようなものです？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        私には分かりませんね... クラフト関係の本を見てみてください。ここに1冊ありますが、時間のクラフトについてはどうだか...
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        どこでしたっけ... クラフト学の本が置いてあるのは...
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">Before finding the Time Craft book</p>
+                                    <p class="dialogue-line indented"> (「クラフト学」？)</p>
+
+                                    <p class="dialogue-note">After</p>
+                                    <p class="dialogue-line indented">(困った顔をしてみせる。)</p>
+
+                                    <hr>
+
+                                    <p class="dialogue-line">
+                                        (司書が困った顔に気づいたようだ。)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ああ、クラフトに関する研究は「クラフト学」と呼ばれているんです。
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        この図書館にも、館の図書室にもないと思いますよ... ほかの場所を探してみてはどうです？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...どういうわけか、キャンドルが頭に浮かびました。なぜでしょう？ 関係ないと思いますけど。
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">Before finding the Time Craft book</p>
+                                    <p class="dialogue-line indented">(図書室以外の場所... 館の侍祭寮にあるかな？)</p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>"一族の物語はある？"</span>
+                                    <span>Available condtionally</span>
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note"> Available after starting Odile's Friendquest until interacting with the list of checked out books in the <a href="/rooms/floor2/secret_library.html">Secret Library</a>.</p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        一族の物語...？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...どうしてそれを見たいのですか？ ヴォーガルドの出身でもないのに...？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        まあ、とにかく、その、ここにはありません。図書館にはないのです。
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        どこにあるかは分かりませんが... 最近見たような気がします。おかしいですねえ。
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        もしかすると、館の図書室にヒントがあるかもしれませんよ？
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">First time</p>
+                                    <p class="dialogue-line indented">
+                                        (この図書館には、一族の物語はなさそうだ。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (館の図書室、か... 行ったら探してみよう。それに、秘密の書庫も探さないと。)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>"願いのクラフトに関する本はある？"</span>
+                                    <span>After Kingquest</span>
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...「願いのクラフト」？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        またまた、ご冗談を。本当にそんなクラフトが存在するのですか？
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (...)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span>"何か... 時間に関する本はある？"</span>
+                                    <span>Second time only</span>
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...時間の？
+                                    </p>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        そうですねえ。時計の本なら、どこかにあるのでは？
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (そういうのが見たいわけじゃない。)
+                                    </p>
+                                    <p class="dialogue-line">
+                                        (やめておこう。)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>
+                                    (ないな。)
+                                </summary>
+
+                                <div class="dialogue">
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        承知しました！ 何かお手伝いできることがあれば、お声がけください...
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="inline-note-box">
+                                    <span style="opacity:0.5">("あなたは何を願った？")</span>
+                                    <span>During Loopquest</span>
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">Occurs after any other option.</p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        (聞きたいことは...)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        願いの木に頼んだこと？
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        そうですねえ。私、そういうことは信じていませんので... 何も頼みませんでしたよ。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        それに関しては、侍祭長のお手伝いをしました。何を願ったのか、みんなに聞いて回っておられましたので。理由は知りませんがね。
+                                    </p>
+                                    <p class="dialogue-line">
+                                        <span class="dialogue-head">
+                                            <span class="dialogue-name">退屈そうな司書</span>
+                                       </span>
+                                        ...あなたはどうして聞いたのです？
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="novels">Novels</h1>
+                <p>The leftmost bookshelf.</p>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (本棚は小説本でいっぱいだ。)
+                    </p>
+                    <p class="dialogue-line">
+                        (「走れ、子よ！」「妨げられぬ者」「キャッスル城の呪い」第6巻、第12巻、第24巻...)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">After talking to <a href="/events/castlequest.html">the Castle-loving One</a></p>
+                    <p class="dialogue-line indented">
+                        (...第24巻？ この数字は覚えておこう。)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-line">
+                        (特に目を引くものはない。)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="unreadable">Unreadable book</h1>
+                <p>The center bookshelf.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (本棚は文化に関する本でいっぱいだ。)
+                    </p>
+                    <p class="dialogue-line">
+                        (「世界の旅人たち」「ウツロイの館：ウツロイの神に仕える人々」「カ・ビューのことば」... あれ？)
+                    </p>
+                    <p class="dialogue-line">
+                        (棚と壁の間に、古そうな本が挟まっている...)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">First time</p>
+                    <p class="dialogue-line indented">(取り出す？)</p>
+                    <p class="dialogue-note">Subsequent times</p>
+                    <p class="dialogue-line indented">(もう一度取り出す？)</p>
+
+                    <ul class="dialogue-option">
+                        <li>
+                            <details>
+                                <summary>
+                                    (そうしよう。)
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">First time</p>
+
+                                    <p class="dialogue-line indented">
+                                        (周りの本を押しのけて、古い本をなんとかつかんだ。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (両手で本を持ち上げ、タイトルを読もうとする。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (...)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (読もうとしているのに、目は文字の上を滑っていくだけだ...)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (本を元に戻した。)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Second time</p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度、本を取り出した。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度タイトルを読もうとするが、無駄だった。)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (本を元に戻した。)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Third time</p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度、本を取り出した。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (目を見開いてタイトルを読もうとするが、涙が出ただけだった。)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (本を元に戻した。)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Fourth time</p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度、本を取り出した。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (タイトルを読もうとするが、本を支える手が痛くなっても読めなかった。)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (本を元に戻した。)
+                                    </p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Fifth time</p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度、本を取り出した。)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (本を元に戻した。)
+                                    </p>
+
+                                    <hr>
+
+                                    <p class="dialogue-note">With Memory of Memories</p>
+                                    <p class="dialogue-line indented">
+                                        (もう一度、本を取り出した。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (今回はタイトルが読める...)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (胸がドキドキする。ドキドキ、ドクドク、バクバク。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (これは...)
+                                    </p>
+                                    <br>
+                                    <p class="dialogue-line indented">
+                                        (...「キャッスル城の呪い」第2巻の翻訳版だ。)
+                                    </p>
+                                    <p class="dialogue-line indented">
+                                        (笑いがこみ上げる。)
+                                    </p>
+
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>
+                                    (いや...)
+                                </summary>
+
+                                <div class="dialogue">
+
+                                    <p class="dialogue-note">If you've never tried to read the book</p>
+                                    <p class="dialogue-line indented">(今回も負けだ。)</p>
+
+                                    <br>
+
+                                    <p class="dialogue-note">Otherwise</p>
+                                    <p class="dialogue-line indented">(他にすべきことがある。)</p>
+
+
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <br>
+
+                <h2>Repeated interaction</h2>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (本棚は文化に関する本でいっぱいだ。)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">After reading the book with Memory of Memories</p>
+                    <p class="dialogue-line indented">(「世界の旅人たち」「ウツロイの館：ウツロイの神に仕える人々」「カ・ビューのことば」「キャッスル城の呪い」第2巻...)</p>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="craft">Craft book</h1>
+                <p>The rightmost bookshelf.</p>
+
+                <div class="dialogue">
+
+                    <p class="dialogue-line">
+                        (本棚はクラフトに関する本でいっぱいだ。)
+                    </p>
+
+                    <hr>
+
+                    <p class="dialogue-note">After dying to the King for the first time, but before getting Mirabelle's shield</p>
+                    <p class="dialogue-line indented">
+                        (...王の猛威を止められそうなものはない...)
+                    </p>
+                    <p class="dialogue-line indented">
+                        (司書に尋ねてみようかな？)
+                    </p>
+
+                    <br>
+
+                    <p class="dialogue-note">Otherwise</p>
+
+                    <div class="indented">
+
+                        <p class="dialogue-line">
+                            (「クラフトって？ 間抜けにも分かるクラフト」「創造のクラフト：効果的なパーの使い方」「チョキタイプと私」「グータイプだからって、壁を壊せるわけじゃない」などなど...)
+                        </p>
+
+                        <br>
+
+                        <p class="dialogue-note">First time</p>
+                        <p class="dialogue-line indented">(...最後のはボニーにプレゼントしたいな。)</p>
+
+                        <br>
+
+                        <p class="dialogue-line">
+                            (「クラフトって？ 間抜けにも分かるクラフト」を取り出してみる？)
+                        </p>
+                        <ul class="dialogue-option">
+                            <li>
+                                <details>
+                                    <summary>
+                                        (そうしよう。)
+                                    </summary>
+                                    <div class="dialogue">
+
+                                        <p class="dialogue-line">
+                                            (本を取り出し、ランダムにページを開く。)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">"クラフトとは？"</span>
+                                           </span>
+                                            <i>「守りのクラフト、刺突のクラフト、創造のクラフト（あるいは、グー、チョキ、パー）は一般的なクラフトのタイプで、たいていの人は使うことができます」</i>
+                                        </p>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">"クラフトとは？"</span>
+                                           </span>
+                                            <i>「それは適切と思われる方法で世界を形作る芸術で、粘土を動く小像にしたり、絵の具で芸術作品を作ったりするナントカカントカ...」</i>
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (本をめくる。)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">"クラフトとは？"</span>
+                                           </span>
+                                            <i>「戦闘にクラフトを利用すると、創造力のエネルギーを使って敵に物理的な攻撃を加えることができ ナントカカントカ...」</i>
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (本をめくる。)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">"クラフトとは？"</span>
+                                           </span>
+                                            <i>「その他のクラフトには、体のクラフト、時間のクラフト などなどなど...」</i>
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (本をめくる。)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            <span class="dialogue-head">
+                                                <span class="dialogue-name">"クラフトとは？"</span>
+                                           </span>
+                                            <i>「時間のクラフト。<br>時間をクラフトすることはできません」</i>
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-line">
+                                            (紙切れがページに貼られている。紙切れには小さな顔が描かれている。）
+                                        </p>
+                                        <p class="dialogue-line">
+                                            (上下逆さまになったスマイルが「ははは、笑えるジョークだ」と話している絵だ。)
+                                        </p>
+                                        <p class="dialogue-line">
+                                            (ふうん。)
+                                        </p>
+
+                                        <hr>
+
+                                        <p class="dialogue-note">Loop 1</p>
+                                        <p class="dialogue-line indented">
+                                            (時間をクラフトできないのが長い間の定説だったのに、王はみんなの時間を止めているじゃないか。)
+                                        </p>
+                                        <p class="dialogue-line indented">
+                                            (それに... 僕の身に起こったこと... あれも時間のクラフトじゃないのか？)
+                                        </p>
+
+                                        <br>
+
+                                        <p class="dialogue-note">Second loop onwards</p>
+                                        <p class="dialogue-line indented">
+                                            (それに、時間がループするのも、時間のクラフトだと考えられる...)
+                                        </p>
+
+                                        <hr>
+
+                                        <p class="dialogue-note">ACT 2</p>
+                                        <p class="dialogue-line indented">
+                                            (まあいいや。今は、ループがどうして起こるのかは問題じゃない。)
+                                        </p>
+                                        <p class="dialogue-line indented">
+                                            (この力があれば、みんなの力になれるんだ！)
+                                        </p>
+
+                                    </div>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>
+                                        (いや...)
+                                    </summary>
+                                    <div class="dialogue">
+                                        <p class="dialogue-line">
+                                            (本を手に取らなかった。)
+                                        </p>
+                                    </div>
+                                </details>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="papers">Papers</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (「本に対する罪」でこの図書館を出入り禁止になっている人たちのリストのようだ。)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="maps">Maps</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (大きな紙だ。)
+                    </p>
+                    <p class="dialogue-line">
+                        (1つ取って中を覗いてみる...)
+                    </p>
+                    <p class="dialogue-line">
+                        (ヴォーガルドの大きな地図だ。)
+                    </p>
+                </div>
+
+                <hr>
+                <br>
+
+                <h1 id="list">Lists</h1>
+
+                <div class="dialogue">
+                    <p class="dialogue-line">
+                        (書類の山だ。)
+                    </p>
+                    <p class="dialogue-line">
+                        (汚い字... どの文字も読み取れない。)
+                    </p>
+                </div>
+
+            </main>
+        </div>
+
+        <foot-er></foot-er>
+    </div>
+        
+</body>
+</html>
